@@ -18,7 +18,7 @@
 # -- Project information -----------------------------------------------------
 
 project = 'py4t'
-copyright = '2020, Wen-Hung, Chang. 張文宏'
+copyright = '2020, Wen-Hung, Chang. 張文宏 beardad1975@nmes.tyc.edu.tw'
 author = 'Wen-Hung, Chang. 張文宏'
 
 
@@ -39,7 +39,7 @@ templates_path = ['_templates']
 #
 # This is also used if you do content translation via gettext catalogs.
 # Usually you set "language" from the command line for these cases.
-language = 'zh_TW'
+language = 'en'
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.

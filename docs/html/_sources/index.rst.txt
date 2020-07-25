@@ -3,22 +3,42 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to py4t's documentation!
+py4t - 教青少年寫python
 ================================
 
-這是…
+py4t是多個python套件的整合，目的是要搭一座學習的橋，從Scratch積木到Python文字，教青少年學習程式設計。
 
 
 
 .. toctree::
+   :maxdepth: 1
+   :caption: 什麼是py4t
+   
+   project
+   
+   
+
+
+.. toctree::
    :maxdepth: 2
-   :caption: 內容:
+   :caption: 下載
 
+   download
 
+.. toctree::
+   :maxdepth: 1
+   :caption: 範例
+   
+   
 
-Indices and tables
-==================
+.. toctree::
+   :maxdepth: 1
+   :caption: 開發
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+..
+	Indices and tables
+	==================
+
+	* :ref:`genindex`
+	* :ref:`modindex`
+	* :ref:`search`
