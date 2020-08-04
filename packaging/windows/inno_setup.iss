@@ -1,6 +1,6 @@
 ﻿; Give AppVer and SourceFolder from command line, eg:
 ; "C:\Program Files (x86)\Inno Setup 5\iscc" /dAppVer=1.13 /dSourceFolder=build inno_setup.iss 
-#define AppVer "20200717"
+;#define AppVer "0.11"
 ;#define InstallerPrefix "thonny"
 ;#define SourceFolder "C:\workspaces\python_stuff\thonny\packaging\windows\dummy"
 #define AppUserModelID "Thonny.Thonny"
@@ -14,10 +14,10 @@ AppVersion={#AppVer}
 AppVerName=ThonnyPy4t {#AppVer}
 ;AppComments string is displayed on the "Support" dialog of the Add/Remove Programs Control Panel applet
 AppComments=Thonny is Python IDE for beginners
-AppPublisher=Aivar Annamaa and Wen-Hung Chang
-AppPublisherURL=https://thonny.org
-AppSupportURL=https://thonny.org
-AppUpdatesURL=https://thonny.org
+AppPublisher=Aivar Annamaa (Py4t :Wen-Hung Chang)
+AppPublisherURL=https://thonny.org (https://beardad1975.github.io/py4t)
+AppSupportURL=https://thonny.org (https://beardad1975.github.io/py4t)
+AppUpdatesURL=https://thonny.org (https://beardad1975.github.io/py4t)
 
 ; Actual privileges depend on how user started the installer
 PrivilegesRequired=lowest
@@ -27,7 +27,7 @@ MinVersion=6.0
 DisableWelcomePage=no
 
 DisableProgramGroupPage=yes
-DefaultGroupName=Thonny
+DefaultGroupName=ThonnyPy4t
 
 ; Note that DefaultDirName can be overridden with installer's /DIR=... parameter
 DefaultDirName={code:ProposedDir}
@@ -67,7 +67,8 @@ ChangesAssociations=yes
 
 
 [Languages]
-Name: "english"; MessagesFile: "compiler:Default.isl"
+;Name: "english"; MessagesFile: "compiler:Default.isl"
+Name: "chinese_trad"; MessagesFile: "compiler:Languages\ChineseTraditional.isl"
 
 [InstallDelete]
 ; Clean old installation before copying new files
@@ -99,7 +100,7 @@ Type: filesandordirs; Name: "{%USERPROFILE}\.thonny\Python35"
 Type: filesandordirs; Name: "{%USERPROFILE}\.thonny\Py36"
 
 [Tasks]
-Name: CreateDesktopIcon; Description: "Create desktop icon"
+Name: CreateDesktopIcon; Description: "建立桌面圖示"
 ; Flags: unchecked;
 
 [Files]
@@ -188,7 +189,7 @@ Root: HKLM; Check: StartedForAllUsers; Subkey: "Software\Classes\.py\ShellNew"; 
 Root: HKCU; Subkey: "Software\Classes\{#ThonnyPyProgID}\shell\Edit with IDLE"; ValueType: none; Flags: deletekey dontcreatekey uninsdeletekey
 
 [Run]
-Filename: "{app}\pythonw.exe"; Parameters: "-m compileall ."; StatusMsg: "Compiling standard library... (takes a while)"
+Filename: "{app}\pythonw.exe"; Parameters: "-m compileall ."; StatusMsg: "正在編譯標準函式庫... (需花費一些時間)"
 
 
 [UninstallDelete]
@@ -273,51 +274,51 @@ var
   DualWarningLabel: TLabel;
 begin
   Upgraded := False;
-  WizardForm.WelcomeLabel1.Caption := 'Thonny Py4t {#AppVer}';
+  WizardForm.WelcomeLabel1.Caption := '安裝 ThonnyPy4t 整合環境';
 
   MoreInfoLabel := TLabel.Create(WizardForm);
   DualWarningLabel := TLabel.Create(WizardForm);
 
   if StartedForAllUsers() then
   begin
-    WizardForm.WelcomeLabel2.Caption := 'This wizard will install ThonnyPy4t {#AppVer} for all users.';
+    WizardForm.WelcomeLabel2.Caption := '安裝程式正在為所有使用者安裝 ThonnyPy4t {#AppVer}.';
     MoreInfoLabel.Caption := '';
     if InstalledForThisUser() then
     begin    
-      DualWarningLabel.Caption := 'Warning!'
+      DualWarningLabel.Caption := '警告!'
           + ''#13#10''
           + ''#13#10''
-          + 'Looks like you have already installed ThonnyPy4t for your account. In order to avoid confusion, it is recommended you cancel this wizard and uninstall single-user Thonny first.';
+          + '目前使用者已經安裝 ThonnyPy4t . 為了避免混亂, 建議你取消安裝程式, 把原本的thonnyPy4t先移除';
     end
     else if InstalledForAllUsers() then
     begin
-      WizardForm.WelcomeLabel2.Caption := 'This wizard will upgrade Thonny to version {#AppVer}.';
+      WizardForm.WelcomeLabel2.Caption := '安裝程式將會升級 ThonnyPy4t 到版本{#AppVer}.';
       Upgraded := True;
     end;
   end
   else  // single user
   begin
-    WizardForm.WelcomeLabel2.Caption := 'This wizard will install Thonny {#AppVer} for your account.';
+    WizardForm.WelcomeLabel2.Caption := '安裝程式將會為你的帳號安裝 ThonnyPy4t {#AppVer} ';
     if InstalledForAllUsers() then
     begin    
-      MoreInfoLabel.Caption := 'If you want to install Thonny for all users, cancel the installer, uninstall Thonny from your account and run the installer again as administrator '
-          + '(right-click the installer executable and select "Run as administrator").';
+      MoreInfoLabel.Caption := '如果想要為所有使用者安裝 ThonnyPy4t, 請取消安裝程式並將thonnyPy4t解除安裝後，再以管理員執行安裝'
+          + '(於安裝檔按滑鼠右鍵並選擇"以管理員身份執行").';
       DualWarningLabel.Caption := 'Warning!'
         + ''#13#10''
         + ''#13#10''
-        + 'Looks like Thonny is already installed for all users. In order to avoid confusion, it is recommended you cancel this wizard and run it as administrator or uninstall all-users Thonny first.';
+        + '看起來已為所有使用者安裝了 ThonnyPy4t. 為了避免混亂, 建議你取消安裝程式, 把原本的thonnyPy4t先移除.';
     end
     else if InstalledForThisUser() then
     begin
-      WizardForm.WelcomeLabel2.Caption := 'This wizard will upgrade Thonny to version {#AppVer}.';
-      MoreInfoLabel.Caption := 'If you want to install Thonny for all users, cancel the installer, uninstall Thonny from your account and run the installer again as administrator '
-          + '(right-click the installer executable and select "Run as administrator").';
+      WizardForm.WelcomeLabel2.Caption := '安裝程式將會升級 ThonnyPy4t到版本 {#AppVer}.';
+      MoreInfoLabel.Caption := '如果你想要為所有使用者安裝 ThonnyPy4t, 請取消程式後,移除ThonnyPy4t後, 以管理員身份執行'
+          + '(於安裝檔按滑鼠右鍵並選擇"以管理員身份執行").';
       Upgraded := True;
     end
     else
     begin
-      MoreInfoLabel.Caption := 'If you want to install Thonny for all users, cancel the installer and run it as administrator '
-          + '(right-click the installer executable and select "Run as administrator").';
+      MoreInfoLabel.Caption := '如果你想要為所有使用者安裝 ThonnyPy4t, 請取消程式後以管理員身份執行'
+          + '(於安裝檔按滑鼠右鍵並選擇"以管理員身份執行").';
     end;
 
   end;
@@ -373,9 +374,9 @@ begin
     if CurPageID = wpFinished then
     begin
       if Upgraded then
-        WizardForm.FinishedLabel.Caption := 'Thonny is now upgraded.'
+        WizardForm.FinishedLabel.Caption := 'ThonnyPy4t已升級.'
       else
-        WizardForm.FinishedLabel.Caption := 'Thonny is now installed.'
+        WizardForm.FinishedLabel.Caption := 'ThonnyPy4t已安裝完成.'
       end;
       WizardForm.FinishedLabel.Caption := WizardForm.FinishedLabel.Caption 
         + ' Run it via shortcut or right-click a *.py file and select "Edit with Thonny".';

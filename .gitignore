@@ -1,2 +1,2 @@
-packaging/windows/build/*.*
-packaging/windows/dist/*.*
+packaging/windows/build
+packaging/windows/dist

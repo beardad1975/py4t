@@ -71,17 +71,20 @@ xcopy ..\..\licenses\* %BUILDDIR%\licenses /S /E /K>NUL
 @echo ............... ADDING OTHER STUFF ...................................
 copy ..\..\CHANGELOG.rst %BUILDDIR% /Y>NUL
 copy ..\..\CREDITS.rst %BUILDDIR% /Y>NUL
-copy ..\..\README.rst %BUILDDIR% /Y>NUL
+@rem copy ..\..\README.rst %BUILDDIR% /Y>NUL
 
+@echo  ----- add default configuration.ini
+mkdir %BUILDDIR%\Lib\site-packages\thonny\user_dir_template
+copy user_dir_template\configuration.ini %BUILDDIR%\Lib\site-packages\thonny\user_dir_template /Y>NUL
 
 @echo ............... CREATING INSTALLER ..........................
-set /p VERSION=<%BUILDDIR%\Lib\site-packages\thonny\VERSION
-"C:\Program Files (x86)\Inno Setup 6\iscc" /dInstallerPrefix=thonny /dAppVer=%VERSION% /dSourceFolder=build inno_setup.iss > installer_building.log
+set /p VERSION=<PY4T_VERSION
+"C:\Program Files (x86)\Inno Setup 6\iscc" /dInstallerPrefix=thonnyPy4t /dAppVer=%VERSION% /dSourceFolder=build inno_setup.iss > installer_building.log
 
 @echo ............... CREATING ZIP ..........................
 SET PATH=%PATH%;C:\Program Files\7-Zip
 cd %BUILDDIR%
-7z a -tzip ..\dist\thonny-%VERSION%-windows-portable.zip *
+7z a -tzip ..\dist\thonnyPy4t-%VERSION%-windows-portable.zip *
 cd ..
 
 @rem echo ............... XXL ..........................
