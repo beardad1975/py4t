@@ -1,3 +1,5 @@
+:orphan:
+
 .. _一顆開花的樹:
 
 碎形樹 範例
@@ -13,3 +15,4 @@
 .. literalinclude:: fractal_tree.py
     :caption: 一顆開花的樹.py
     :linenos:
+

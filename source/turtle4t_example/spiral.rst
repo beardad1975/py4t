@@ -1,3 +1,5 @@
+:orphan:
+
 .. _螺旋形:
 
 螺旋形 範例
@@ -13,3 +15,4 @@
 .. literalinclude:: spiral.py
     :caption: 螺旋形.py
     :linenos:
+

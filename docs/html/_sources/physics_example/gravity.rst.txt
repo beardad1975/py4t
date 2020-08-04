@@ -1,3 +1,5 @@
+:orphan:
+
 .. _操控重力:
 
 操控重力 範例
@@ -14,3 +16,4 @@
 .. literalinclude:: gravity.py
     :caption: 操控重力.py
     :linenos:
+

@@ -35,10 +35,4 @@ py4t是多個python套件的整合，目的是要搭一座學習的橋，從Scra
    
    git_hub
 
-..
-	Indices and tables
-	==================
 
-	* :ref:`genindex`
-	* :ref:`modindex`
-	* :ref:`search`

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _射擊測試:
 
 射擊測試 範例
@@ -14,3 +16,4 @@
 .. literalinclude:: shoot.py
     :caption: 射擊測試.py
     :linenos:
+

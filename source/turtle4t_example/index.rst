@@ -25,3 +25,6 @@
    :figwidth: 200px
 
    :ref:`一顆開花的樹`
+
+.. toctree::
+   :maxdepth: 2

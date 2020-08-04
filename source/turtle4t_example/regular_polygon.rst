@@ -1,3 +1,5 @@
+:orphan:
+
 .. _正多邊形:
 
 正多邊形 範例
@@ -13,3 +15,4 @@
 .. literalinclude:: regular_polygon.py
     :caption: 正多邊形.py
     :linenos:
+

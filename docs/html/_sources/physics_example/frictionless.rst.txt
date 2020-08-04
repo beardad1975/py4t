@@ -1,3 +1,5 @@
+:orphan:
+
 .. _無摩擦力:
 
 無摩擦力 範例
@@ -14,3 +16,4 @@
 .. literalinclude:: frictionless.py
     :caption: 無摩擦力的世界.py
     :linenos:
+
