@@ -20,8 +20,10 @@ copy thonny_python.ini %BUILDDIR%
 @echo ............... INSTALLING THONNY ...................................
 %BUILDDIR%\python -s -m pip install --pre --no-cache-dir thonny==3.2.7
 
-%BUILDDIR%\python -s -m pip install --pre --no-cache-dir thonny-postit==0.0.6
+@rem %BUILDDIR%\python -s -m pip install --pre --no-cache-dir thonny-postit==0.0.6
+@echo ............... installing py4t DEPS ...................................
 
+%BUILDDIR%\python -s -m pip install --no-cache-dir -r ..\requirements-py4t.txt
 
 @echo ............... CLEANING PYTHON ............................
 @rem delete following 3 files to avoid confusion (user may think they're Thonny license etc.)

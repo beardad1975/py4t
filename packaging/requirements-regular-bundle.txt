@@ -6,5 +6,3 @@ docutils==0.15.*
 mypy==0.761
 asttokens==2.0.*
 Send2Trash==1.5.*
-pyautogui==0.9.*
-pie4t==0.0.5

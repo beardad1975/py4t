@@ -281,7 +281,7 @@ begin
 
   if StartedForAllUsers() then
   begin
-    WizardForm.WelcomeLabel2.Caption := '安裝程式正在為所有使用者安裝 ThonnyPy4t {#AppVer}.';
+    WizardForm.WelcomeLabel2.Caption := '安裝程式正在為所有使用者安裝 Thonny + Py4t {#AppVer} 整合環境';
     MoreInfoLabel.Caption := '';
     if InstalledForThisUser() then
     begin    
@@ -298,11 +298,10 @@ begin
   end
   else  // single user
   begin
-    WizardForm.WelcomeLabel2.Caption := '安裝程式將會為你的帳號安裝 ThonnyPy4t {#AppVer} ';
+    WizardForm.WelcomeLabel2.Caption := '安裝程式將會為你的帳號安裝 Thonny + Py4t{#AppVer} 整合環境';
     if InstalledForAllUsers() then
     begin    
-      MoreInfoLabel.Caption := '如果想要為所有使用者安裝 ThonnyPy4t, 請取消安裝程式並將thonnyPy4t解除安裝後，再以管理員執行安裝'
-          + '(於安裝檔按滑鼠右鍵並選擇"以管理員身份執行").';
+      MoreInfoLabel.Caption := '如果想要為所有使用者安裝 ThonnyPy4t, 請以管理員身份執行安裝' ;
       DualWarningLabel.Caption := 'Warning!'
         + ''#13#10''
         + ''#13#10''
