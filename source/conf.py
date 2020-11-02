@@ -18,8 +18,8 @@
 # -- Project information -----------------------------------------------------
 
 project = 'py4t'
-copyright = '2020, Wen-Hung, Chang. 張文宏 '
-author = 'Wen-Hung, Chang. 張文宏'
+copyright = '2020, Wen-Hung, Chang. 張文宏 beardad1975@nmes.tyc.edu.tw '
+author = 'Wen-Hung, Chang. 張文宏 beardad1975@nmes.tyc.edu.tw'
 
 
 # -- General configuration ---------------------------------------------------
