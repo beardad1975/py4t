@@ -2153,13 +2153,13 @@ Creating setup files
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\attr\_version_info.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\attr\__init__.py
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\attr\__init__.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\attrs-20.2.0.dist-info\AUTHORS.rst
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\attrs-20.2.0.dist-info\INSTALLER
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\attrs-20.2.0.dist-info\LICENSE
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\attrs-20.2.0.dist-info\METADATA
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\attrs-20.2.0.dist-info\RECORD
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\attrs-20.2.0.dist-info\top_level.txt
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\attrs-20.2.0.dist-info\WHEEL
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\attrs-20.3.0.dist-info\AUTHORS.rst
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\attrs-20.3.0.dist-info\INSTALLER
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\attrs-20.3.0.dist-info\LICENSE
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\attrs-20.3.0.dist-info\METADATA
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\attrs-20.3.0.dist-info\RECORD
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\attrs-20.3.0.dist-info\top_level.txt
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\attrs-20.3.0.dist-info\WHEEL
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\cffi\api.py
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\cffi\backend_ctypes.py
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\cffi\cffi_opcode.py
@@ -2199,6 +2199,38 @@ Creating setup files
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\colorama-0.4.4.dist-info\RECORD
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\colorama-0.4.4.dist-info\top_level.txt
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\colorama-0.4.4.dist-info\WHEEL
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\cv2\cv2.cp37-win32.pyd
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\cv2\LICENSE-3RD-PARTY.txt
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\cv2\LICENSE.txt
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\cv2\opencv_videoio_ffmpeg440.dll
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\cv2\version.py
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\cv2\__init__.py
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\cv2\data\haarcascade_eye.xml
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\cv2\data\haarcascade_eye_tree_eyeglasses.xml
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\cv2\data\haarcascade_frontalcatface.xml
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\cv2\data\haarcascade_frontalcatface_extended.xml
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\cv2\data\haarcascade_frontalface_alt.xml
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\cv2\data\haarcascade_frontalface_alt2.xml
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\cv2\data\haarcascade_frontalface_alt_tree.xml
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\cv2\data\haarcascade_frontalface_default.xml
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\cv2\data\haarcascade_fullbody.xml
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\cv2\data\haarcascade_lefteye_2splits.xml
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\cv2\data\haarcascade_licence_plate_rus_16stages.xml
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\cv2\data\haarcascade_lowerbody.xml
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\cv2\data\haarcascade_profileface.xml
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\cv2\data\haarcascade_righteye_2splits.xml
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\cv2\data\haarcascade_russian_plate_number.xml
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\cv2\data\haarcascade_smile.xml
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\cv2\data\haarcascade_upperbody.xml
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\cv2\data\__init__.py
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\cv4t\__init__.py
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\cv4t-0.0.1.dist-info\INSTALLER
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\cv4t-0.0.1.dist-info\LICENSE
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\cv4t-0.0.1.dist-info\METADATA
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\cv4t-0.0.1.dist-info\RECORD
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\cv4t-0.0.1.dist-info\REQUESTED
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\cv4t-0.0.1.dist-info\top_level.txt
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\cv4t-0.0.1.dist-info\WHEEL
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\deploy_libs\api-ms-win-crt-conio-l1-1-0.dll
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\deploy_libs\api-ms-win-crt-convert-l1-1-0.dll
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\deploy_libs\api-ms-win-crt-environment-l1-1-0.dll
@@ -4073,6 +4105,41 @@ Creating setup files
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\MouseInfo-0.1.3.dist-info\RECORD
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\MouseInfo-0.1.3.dist-info\top_level.txt
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\MouseInfo-0.1.3.dist-info\WHEEL
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\mss\base.py
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\mss\darwin.py
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\mss\exception.py
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\mss\factory.py
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\mss\linux.py
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\mss\models.py
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\mss\screenshot.py
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\mss\tools.py
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\mss\windows.py
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\mss\__init__.py
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\mss\__main__.py
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\mss\tests\bench_bgra2rgb.py
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\mss\tests\bench_general.py
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\mss\tests\conftest.py
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\mss\tests\test_bgra_to_rgb.py
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\mss\tests\test_cls_image.py
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\mss\tests\test_find_monitors.py
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\mss\tests\test_get_pixels.py
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\mss\tests\test_gnu_linux.py
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\mss\tests\test_implementation.py
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\mss\tests\test_leaks.py
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\mss\tests\test_macos.py
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\mss\tests\test_save.py
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\mss\tests\test_setup.py
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\mss\tests\test_third_party.py
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\mss\tests\test_tools.py
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\mss\tests\test_windows.py
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\mss\tests\res\monitor-1024x768.raw
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\mss-6.1.0.dist-info\entry_points.txt
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\mss-6.1.0.dist-info\INSTALLER
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\mss-6.1.0.dist-info\LICENSE
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\mss-6.1.0.dist-info\METADATA
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\mss-6.1.0.dist-info\RECORD
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\mss-6.1.0.dist-info\top_level.txt
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\mss-6.1.0.dist-info\WHEEL
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\mypy\api.py
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\mypy\applytype.py
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\mypy\argmap.py
@@ -5391,7 +5458,7 @@ Creating setup files
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\numpy\__init__.cython-30.pxd
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\numpy\__init__.pxd
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\numpy\__init__.py
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\numpy\.libs\libopenblas.AGK33XJIWV4PR3YOSOUZBLASEH4T3R5Y.gfortran-win32.dll
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\numpy\.libs\libopenblas.U35RT5X5BPDSH5ZTF276YADQR2KDU6PR.gfortran-win32.dll
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\numpy\compat\py3k.py
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\numpy\compat\setup.py
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\numpy\compat\_inspect.py
@@ -5855,14 +5922,21 @@ Creating setup files
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\numpy\tests\test_scripts.py
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\numpy\tests\test_warnings.py
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\numpy\tests\__init__.py
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\numpy-1.19.3.dist-info\entry_points.txt
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\numpy-1.19.3.dist-info\INSTALLER
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\numpy-1.19.3.dist-info\LICENSE.txt
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\numpy-1.19.3.dist-info\LICENSES_bundled.txt
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\numpy-1.19.3.dist-info\METADATA
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\numpy-1.19.3.dist-info\RECORD
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\numpy-1.19.3.dist-info\top_level.txt
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\numpy-1.19.3.dist-info\WHEEL
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\numpy-1.19.4.dist-info\entry_points.txt
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\numpy-1.19.4.dist-info\INSTALLER
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\numpy-1.19.4.dist-info\LICENSE.txt
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\numpy-1.19.4.dist-info\LICENSES_bundled.txt
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\numpy-1.19.4.dist-info\METADATA
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\numpy-1.19.4.dist-info\RECORD
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\numpy-1.19.4.dist-info\top_level.txt
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\numpy-1.19.4.dist-info\WHEEL
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\opencv_python-4.4.0.46.dist-info\INSTALLER
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\opencv_python-4.4.0.46.dist-info\LICENSE-3RD-PARTY.txt
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\opencv_python-4.4.0.46.dist-info\LICENSE.txt
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\opencv_python-4.4.0.46.dist-info\METADATA
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\opencv_python-4.4.0.46.dist-info\RECORD
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\opencv_python-4.4.0.46.dist-info\top_level.txt
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\opencv_python-4.4.0.46.dist-info\WHEEL
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\panda3d\ai.cp37-win32.pyd
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\panda3d\api-ms-win-crt-multibyte-l1-1-0.dll
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\panda3d\api-ms-win-crt-utility-l1-1-0.dll
@@ -6855,7 +6929,6 @@ Creating setup files
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\pyglet\gl\agl.py
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\pyglet\gl\base.py
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\pyglet\gl\cocoa.py
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\pyglet\gl\eglcontext.py
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\pyglet\gl\gl.py
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\pyglet\gl\glext_arb.py
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\pyglet\gl\glext_nv.py
@@ -6936,7 +7009,6 @@ Creating setup files
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\pyglet\media\instrumentation.py
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\pyglet\media\player.py
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\pyglet\media\synthesis.py
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\pyglet\media\workerthreads.py
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\pyglet\media\__init__.py
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\pyglet\media\codecs\base.py
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\pyglet\media\codecs\ffmpeg.py
@@ -6950,6 +7022,9 @@ Creating setup files
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\pyglet\media\codecs\ffmpeg_lib\libswresample.py
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\pyglet\media\codecs\ffmpeg_lib\libswscale.py
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\pyglet\media\codecs\ffmpeg_lib\__init__.py
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\pyglet\media\devices\base.py
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\pyglet\media\devices\win32.py
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\pyglet\media\devices\__init__.py
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\pyglet\media\drivers\base.py
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\pyglet\media\drivers\listener.py
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\pyglet\media\drivers\__init__.py
@@ -6969,6 +7044,10 @@ Creating setup files
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\pyglet\media\drivers\pulse\__init__.py
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\pyglet\media\drivers\silent\adaptation.py
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\pyglet\media\drivers\silent\__init__.py
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\pyglet\media\drivers\xaudio2\adaptation.py
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\pyglet\media\drivers\xaudio2\interface.py
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\pyglet\media\drivers\xaudio2\lib_xaudio2.py
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\pyglet\media\drivers\xaudio2\__init__.py
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\pyglet\model\__init__.py
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\pyglet\model\codecs\gltf.py
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\pyglet\model\codecs\obj.py
@@ -6995,14 +7074,14 @@ Creating setup files
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\pyglet\window\cocoa\__init__.py
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\pyglet\window\win32\__init__.py
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\pyglet\window\xlib\__init__.py
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\pyglet-1.5.8.dist-info\INSTALLER
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\pyglet-1.5.8.dist-info\LICENSE
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\pyglet-1.5.8.dist-info\METADATA
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\pyglet-1.5.8.dist-info\NOTICE
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\pyglet-1.5.8.dist-info\RECORD
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\pyglet-1.5.8.dist-info\top_level.txt
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\pyglet-1.5.8.dist-info\WHEEL
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\pyglet-1.5.8.dist-info\zip-safe
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\pyglet-1.5.9.dist-info\INSTALLER
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\pyglet-1.5.9.dist-info\LICENSE
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\pyglet-1.5.9.dist-info\METADATA
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\pyglet-1.5.9.dist-info\NOTICE
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\pyglet-1.5.9.dist-info\RECORD
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\pyglet-1.5.9.dist-info\top_level.txt
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\pyglet-1.5.9.dist-info\WHEEL
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\pyglet-1.5.9.dist-info\zip-safe
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\pylint\config.py
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\pylint\constants.py
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\pylint\epylint.py
@@ -8037,13 +8116,13 @@ Creating setup files
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\thonnycontrib\postit\tools\undo_tool_postit.py
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\thonnycontrib\postit\tools\variables_tool_postit.py
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\thonnycontrib\postit\tools\__init__.py
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\thonny_postit-0.21.dist-info\INSTALLER
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\thonny_postit-0.21.dist-info\LICENSE
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\thonny_postit-0.21.dist-info\METADATA
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\thonny_postit-0.21.dist-info\RECORD
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\thonny_postit-0.21.dist-info\REQUESTED
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\thonny_postit-0.21.dist-info\top_level.txt
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\thonny_postit-0.21.dist-info\WHEEL
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\thonny_postit-0.3.dist-info\INSTALLER
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\thonny_postit-0.3.dist-info\LICENSE
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\thonny_postit-0.3.dist-info\METADATA
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\thonny_postit-0.3.dist-info\RECORD
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\thonny_postit-0.3.dist-info\REQUESTED
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\thonny_postit-0.3.dist-info\top_level.txt
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\thonny_postit-0.3.dist-info\WHEEL
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\threed4t\assist.py
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\threed4t\common.py
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\threed4t\engine.py
@@ -8279,9 +8358,10 @@ Creating setup files
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\yaml\serializer.py
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\yaml\tokens.py
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\yaml\__init__.py
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\º“¿¿3Dº“≤’\__init__.py
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\Æ¸¿tº“≤’\__init__.py
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\™´≤zº“≤’\__init__.py
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\Ê®°Êì¨3DÊ®°ÁµÑ\__init__.py
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\Êµ∑ÈæúÊ®°ÁµÑ\__init__.py
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\Áâ©ÁêÜÊ®°ÁµÑ\__init__.py
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\ÈõªËÖ¶Ë¶ñË¶∫Ê®°ÁµÑ\__init__.py
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\sqlite3\dbapi2.py
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\sqlite3\dump.py
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\sqlite3\__init__.py
@@ -8789,5 +8869,5 @@ Creating setup files
 
 Warning: Line 224, Column 15: [Hint] Support function "IsAdminLoggedOn" has been renamed. Use "IsAdmin" instead or consider using "IsAdminInstallMode".
 
-Successful compile (81.891 sec). Resulting Setup program filename is:
-D:\py4t\py4t-development\packaging\windows\dist\thonnyPy4t-0.21.exe
+Successful compile (102.547 sec). Resulting Setup program filename is:
+D:\py4t\py4t-development\packaging\windows\dist\thonnyPy4t-0.3.exe
