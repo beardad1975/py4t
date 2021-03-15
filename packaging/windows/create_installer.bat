@@ -18,7 +18,7 @@ copy thonny_python.ini %BUILDDIR%
 %BUILDDIR%\python -s -m pip install --no-cache-dir --no-binary mypy -r ..\requirements-regular-bundle.txt
 
 @echo ............... INSTALLING THONNY ...................................
-%BUILDDIR%\python -s -m pip install --pre --no-cache-dir thonny==3.2.7
+%BUILDDIR%\python -s -m pip install --pre --no-cache-dir thonny==3.3.6
 
 @rem %BUILDDIR%\python -s -m pip install --pre --no-cache-dir thonny-postit==0.0.6
 @echo ............... installing py4t DEPS ...................................
@@ -84,10 +84,10 @@ set /p VERSION=<PY4T_VERSION
 "C:\Program Files (x86)\Inno Setup 6\iscc" /dInstallerPrefix=thonnyPy4t /dAppVer=%VERSION% /dSourceFolder=build inno_setup.iss > installer_building.log
 
 @echo ............... CREATING ZIP ..........................
-SET PATH=%PATH%;C:\Program Files\7-Zip
-cd %BUILDDIR%
-7z a -tzip ..\dist\thonnyPy4t-%VERSION%-windows-portable.zip *
-cd ..
+rem SET PATH=%PATH%;C:\Program Files\7-Zip
+rem cd %BUILDDIR%
+rem 7z a -tzip ..\dist\thonnyPy4t-%VERSION%-windows-portable.zip *
+rem cd ..
 
 @rem echo ............... XXL ..........................
 @rem %BUILDDIR%\python -s -m pip install --no-cache-dir -r ..\requirements-xxl-bundle.txt
