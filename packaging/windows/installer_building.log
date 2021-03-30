@@ -7795,39 +7795,13 @@ Creating setup files
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\six-1.15.0.dist-info\WHEEL
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\speech4t\common.py
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\speech4t\__init__.py
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\speech4t-0.0.3.dist-info\INSTALLER
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\speech4t-0.0.3.dist-info\LICENSE
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\speech4t-0.0.3.dist-info\METADATA
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\speech4t-0.0.3.dist-info\RECORD
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\speech4t-0.0.3.dist-info\REQUESTED
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\speech4t-0.0.3.dist-info\top_level.txt
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\speech4t-0.0.3.dist-info\WHEEL
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\SpeechRecognition-3.8.1.dist-info\.dropbox.attr
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\SpeechRecognition-3.8.1.dist-info\DESCRIPTION.rst
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\SpeechRecognition-3.8.1.dist-info\INSTALLER
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\SpeechRecognition-3.8.1.dist-info\METADATA
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\SpeechRecognition-3.8.1.dist-info\metadata.json
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\SpeechRecognition-3.8.1.dist-info\pbr.json
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\SpeechRecognition-3.8.1.dist-info\RECORD
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\SpeechRecognition-3.8.1.dist-info\top_level.txt
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\SpeechRecognition-3.8.1.dist-info\WHEEL
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\speech_recognition\flac-linux-x86
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\speech_recognition\flac-linux-x86_64
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\speech_recognition\flac-mac
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\speech_recognition\flac-win32.exe
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\speech_recognition\__init__.py
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\speech_recognition\__main__.py
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\speech_recognition\pocketsphinx-data\en-US\language-model.lm.bin
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\speech_recognition\pocketsphinx-data\en-US\LICENSE.txt
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\speech_recognition\pocketsphinx-data\en-US\pronounciation-dictionary.dict
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\speech_recognition\pocketsphinx-data\en-US\acoustic-model\feat.params
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\speech_recognition\pocketsphinx-data\en-US\acoustic-model\mdef
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\speech_recognition\pocketsphinx-data\en-US\acoustic-model\means
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\speech_recognition\pocketsphinx-data\en-US\acoustic-model\noisedict
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\speech_recognition\pocketsphinx-data\en-US\acoustic-model\README
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\speech_recognition\pocketsphinx-data\en-US\acoustic-model\sendump
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\speech_recognition\pocketsphinx-data\en-US\acoustic-model\transition_matrices
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\speech_recognition\pocketsphinx-data\en-US\acoustic-model\variances
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\speech4t-0.0.4.dist-info\INSTALLER
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\speech4t-0.0.4.dist-info\LICENSE
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\speech4t-0.0.4.dist-info\METADATA
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\speech4t-0.0.4.dist-info\RECORD
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\speech4t-0.0.4.dist-info\REQUESTED
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\speech4t-0.0.4.dist-info\top_level.txt
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\speech4t-0.0.4.dist-info\WHEEL
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\thonny\assistance.py
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\thonny\ast_utils.py
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\thonny\backend.py
@@ -9288,6 +9262,23 @@ Creating setup files
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\視覺模組\__init__.py
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\語音模組\__init__.py
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\電腦視覺模組\__init__.py
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\speech_recognition\flac-linux-x86
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\speech_recognition\flac-linux-x86_64
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\speech_recognition\flac-mac
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\speech_recognition\flac-win32.exe
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\speech_recognition\__init__.py
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\speech_recognition\__main__.py
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\speech_recognition\pocketsphinx-data\en-US\language-model.lm.bin
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\speech_recognition\pocketsphinx-data\en-US\LICENSE.txt
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\speech_recognition\pocketsphinx-data\en-US\pronounciation-dictionary.dict
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\speech_recognition\pocketsphinx-data\en-US\acoustic-model\feat.params
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\speech_recognition\pocketsphinx-data\en-US\acoustic-model\mdef
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\speech_recognition\pocketsphinx-data\en-US\acoustic-model\means
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\speech_recognition\pocketsphinx-data\en-US\acoustic-model\noisedict
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\speech_recognition\pocketsphinx-data\en-US\acoustic-model\README
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\speech_recognition\pocketsphinx-data\en-US\acoustic-model\sendump
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\speech_recognition\pocketsphinx-data\en-US\acoustic-model\transition_matrices
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\speech_recognition\pocketsphinx-data\en-US\acoustic-model\variances
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\sqlite3\dbapi2.py
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\sqlite3\dump.py
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\sqlite3\__init__.py
@@ -9795,5 +9786,5 @@ Creating setup files
 
 Warning: Line 224, Column 15: [Hint] Support function "IsAdminLoggedOn" has been renamed. Use "IsAdmin" instead or consider using "IsAdminInstallMode".
 
-Successful compile (116.109 sec). Resulting Setup program filename is:
+Successful compile (121.765 sec). Resulting Setup program filename is:
 D:\py4t\py4t-development\packaging\windows\dist\thonnyPy4t-0.4.exe

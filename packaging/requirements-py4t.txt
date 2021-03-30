@@ -5,4 +5,4 @@ turtle4t==0.0.2
 threed4t==0.0.2
 cv4t==0.0.2
 serial4t==0.0.1
-speech4t==0.0.3
+speech4t==0.0.4

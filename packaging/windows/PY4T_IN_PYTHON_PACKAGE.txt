@@ -1,3 +1,9 @@
 friendly_traceback
 ComplexHTTPServer
 PyAudio
+SpeechRecognition
+
+
+dlib-19.21.1-py3.7-win32.egg
+easy-install.pth
+ 
