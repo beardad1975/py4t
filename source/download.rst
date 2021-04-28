@@ -3,7 +3,7 @@
 thonnyPy4t 安裝檔(for windows)
 ================================
 
-py4t v0.4 (2021-04-28建立) 
+py4t v0.5 (2021-04-28建立) 
 
 `v0.5下載連結(安裝檔) <https://github.com/beardad1975/py4t/releases/download/v0.5/thonnyPy4t-0.5.exe>`_
 
