@@ -18,7 +18,7 @@ copy thonny_python.ini %BUILDDIR%
 %BUILDDIR%\python -s -m pip install --no-cache-dir --no-binary mypy -r ..\requirements-regular-bundle.txt
 
 @echo ............... INSTALLING THONNY ...................................
-%BUILDDIR%\python -s -m pip install --pre --no-cache-dir thonny==3.3.6
+%BUILDDIR%\python -s -m pip install --pre --no-cache-dir thonny==3.3.7
 
 @rem %BUILDDIR%\python -s -m pip install --pre --no-cache-dir thonny-postit==0.0.6
 @echo ............... installing py4t DEPS ...................................
