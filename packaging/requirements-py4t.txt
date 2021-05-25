@@ -1,8 +1,8 @@
-thonny-postit==0.6.1
+thonny-postit==0.7
 pyautogui==0.9.51
 pie4t==0.0.7
 turtle4t==0.0.2
-threed4t==0.0.2
+threed4t==0.0.3
 cv4t==0.0.4
 serial4t==0.0.1
 speech4t==0.0.4
