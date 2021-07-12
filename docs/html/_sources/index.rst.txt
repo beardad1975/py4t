@@ -17,13 +17,13 @@ py4t是多個python套件的整合，目的是要搭一座學習的橋，從Scra
 
 .. toctree::
    :maxdepth: 2
-   :caption: 下載
+   :caption: 【下載】
 
    download
 
 .. toctree::
    :maxdepth: 1
-   :caption: 範例
+   :caption: 【範例】
    
    turtle4t_example/index.rst
    physics_example/index.rst
@@ -31,7 +31,7 @@ py4t是多個python套件的整合，目的是要搭一座學習的橋，從Scra
 
 .. toctree::
    :maxdepth: 1
-   :caption: py4t開發
+   :caption: 【py4t開發】
    
    git_hub
 
