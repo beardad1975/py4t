@@ -85,15 +85,16 @@
               
             
             
-              <p class="caption"><span class="caption-text">【下載】</span></p>
+              <p class="caption"><span class="caption-text">【安裝檔下載】</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../download.html">thonnyPy4t 安裝檔(for windows)</a></li>
 </ul>
-<p class="caption"><span class="caption-text">【範例】</span></p>
+<p class="caption"><span class="caption-text">【教學模組範例】</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="index.html">海龜幾何繪圖</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../physics_example/index.html">物理碰撞模擬</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../threed_example/index.html">3D模擬</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../cv4t_example/index.html">視覺影像</a></li>
 </ul>
 
             
@@ -164,7 +165,7 @@
   <div class="section" id="id1">
 <span id="id2"></span><h1>海龜範例 碎形樹<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
 <p>碎形的每個部分都是整體縮小後的形狀。碎形在數學中是一種抽象的物體，用於描述自然界中存在的事物。</p>
-<p>這個程式先定義一個遞迴函式「樹枝」，此函式需有一個終止條件(層為0)，主要做的事是向右分枝、向左分枝及後退。遞迴函式會不斷的呼叫自己(引數需一直改變)，在這個例子中，利用遞迴不斷的畫出分枝的樹枝。</p>
+<p>這個程式先定義一個遞迴函式「樹枝」，此函式需有一個終止條件(層為0)，主要做的事是向右分枝、向左分枝及後退。遞迴函式會不斷的呼叫自己(層引數需一直遞減至0為止)，在這個例子中，利用遞迴不斷的畫出分枝的樹枝。</p>
 <p>定義了完整的「樹枝」函式，只需要執行一次，就會以遞迴的形式畫出碎形樹了。</p>
 <div class="literal-block-wrapper docutils container" id="id3">
 <div class="code-block-caption"><span class="caption-text">畫出碎形樹的py4t程式碼</span><a class="headerlink" href="#id3" title="Permalink to this code">¶</a></div>
@@ -192,43 +193,31 @@
 22
 23
 24
-25
-26
-27
-28
-29
-30
-31</pre></div></td><td class="code"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">海龜模組</span> <span class="kn">import</span> <span class="o">*</span>
+25</pre></div></td><td class="code"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">海龜模組</span> <span class="kn">import</span> <span class="o">*</span>
 
 <span class="n">縮減</span> <span class="o">=</span> <span class="mf">0.8</span>
 <span class="n">角度</span> <span class="o">=</span> <span class="mi">30</span>  
 
-<span class="k">def</span> <span class="nf">樹枝</span><span class="p">(</span><span class="n">長</span><span class="p">,</span> <span class="n">層</span><span class="p">,</span> <span class="n">顏色</span><span class="o">=</span><span class="mi">255</span><span class="p">):</span>
+<span class="k">def</span> <span class="nf">樹枝</span><span class="p">(</span><span class="n">長</span><span class="p">,</span> <span class="n">層</span><span class="p">):</span>
     <span class="k">if</span> <span class="n">層</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
-        <span class="n">畫點</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span> <span class="s1">&#39;white&#39;</span><span class="p">)</span>
         <span class="k">return</span>
-    
-    <span class="n">畫筆尺寸</span><span class="p">(</span><span class="n">層</span><span class="p">)</span>
-    <span class="n">畫筆顏色</span><span class="p">(</span><span class="n">顏色</span><span class="p">,</span> <span class="n">顏色</span><span class="p">,</span> <span class="n">顏色</span><span class="p">,</span> <span class="p">)</span>
-    
+        
     <span class="n">向前</span><span class="p">(</span><span class="n">長</span><span class="p">)</span>
-    <span class="n">畫點</span><span class="p">(</span><span class="mi">7</span><span class="p">,</span> <span class="s1">&#39;white&#39;</span><span class="p">)</span>
-    
+   
     <span class="n">右轉</span><span class="p">(</span><span class="n">角度</span><span class="p">)</span>
-    <span class="n">樹枝</span><span class="p">(</span><span class="n">長</span><span class="o">*</span><span class="n">縮減</span><span class="p">,</span> <span class="n">層</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="n">顏色</span> <span class="o">-</span> <span class="mi">20</span><span class="p">)</span>
+    <span class="n">樹枝</span><span class="p">(</span><span class="n">長</span><span class="o">*</span><span class="n">縮減</span><span class="p">,</span> <span class="n">層</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span>
     
     <span class="n">左轉</span><span class="p">(</span><span class="n">角度</span> <span class="o">*</span> <span class="mi">2</span><span class="p">)</span>
-    <span class="n">樹枝</span><span class="p">(</span><span class="n">長</span><span class="o">*</span><span class="n">縮減</span><span class="p">,</span> <span class="n">層</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="n">顏色</span> <span class="o">-</span> <span class="mi">20</span><span class="p">)</span>
+    <span class="n">樹枝</span><span class="p">(</span><span class="n">長</span><span class="o">*</span><span class="n">縮減</span><span class="p">,</span> <span class="n">層</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span>
     
     <span class="n">右轉</span><span class="p">(</span><span class="n">角度</span><span class="p">)</span>
     <span class="n">向後</span><span class="p">(</span><span class="n">長</span><span class="p">)</span>
 
-<span class="n">背景顏色</span><span class="p">(</span><span class="s1">&#39;black&#39;</span><span class="p">)</span>
-<span class="n">畫筆顏色</span><span class="p">(</span><span class="s1">&#39;white&#39;</span><span class="p">)</span>
 <span class="n">設定方向</span><span class="p">(</span><span class="mi">90</span><span class="p">)</span>
-<span class="n">速度</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
+<span class="n">速度</span><span class="p">(</span><span class="s1">&#39;fastest&#39;</span><span class="p">)</span>
 
-<span class="n">樹枝</span><span class="p">(</span><span class="n">層</span><span class="o">=</span><span class="mi">8</span><span class="p">,</span> <span class="n">長</span> <span class="o">=</span><span class="mi">100</span><span class="p">)</span> 
+<span class="n">樹枝</span><span class="p">(</span><span class="n">層</span><span class="o">=</span><span class="mi">7</span><span class="p">,</span> <span class="n">長</span> <span class="o">=</span><span class="mi">100</span><span class="p">)</span> 
+
 </pre></div>
 </td></tr></table></div>
 </div>
