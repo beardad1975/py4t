@@ -4,15 +4,17 @@
 <html class="writer-html5" lang="en" >
 <head>
   <meta charset="utf-8">
-  
+  <meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>海龜繪圖 範例 &mdash; py4t  documentation</title>
+  <title>海龜幾何繪圖範例 &mdash; py4t  documentation</title>
   
 
   
   <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/copybutton.css" type="text/css" />
 
   
   
@@ -30,6 +32,8 @@
         <script src="../_static/underscore.js"></script>
         <script src="../_static/doctools.js"></script>
         <script src="../_static/language_data.js"></script>
+        <script src="../_static/clipboard.min.js"></script>
+        <script src="../_static/copybutton.js"></script>
     
     <script type="text/javascript" src="../_static/js/theme.js"></script>
 
@@ -82,23 +86,24 @@
               
             
             
-              <p class="caption"><span class="caption-text">下載</span></p>
+              <p><span class="caption-text">下載</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../download.html">thonnyPy4t 安裝檔(for windows)</a></li>
 </ul>
-<p class="caption"><span class="caption-text">範例</span></p>
+<p><span class="caption-text">範例</span></p>
 <ul class="current">
-<li class="toctree-l1 current"><a class="current reference internal" href="#">海龜繪圖 範例</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#id2">畫出正多邊形</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#id3">畫出螺旋形</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#id4">畫出碎形樹</a><ul class="simple">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">海龜幾何繪圖範例</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#id2">正方形</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id3">正多邊形</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id4">螺旋形</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id5">碎形樹</a><ul class="simple">
 </ul>
 </li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../physics_example/index.html">物理碰撞模擬 範例</a></li>
 </ul>
-<p class="caption"><span class="caption-text">py4t開發</span></p>
+<p><span class="caption-text">py4t開發</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../git_hub.html">Git Hub</a></li>
 </ul>
@@ -147,7 +152,7 @@
     
       <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
         
-      <li>海龜繪圖 範例</li>
+      <li>海龜幾何繪圖範例</li>
     
     
       <li class="wy-breadcrumbs-aside">
@@ -166,32 +171,47 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="id1">
-<h1>海龜繪圖 範例<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
-<div class="section" id="id2">
-<h2>畫出正多邊形<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
-<div class="figure align-default" id="id5" style="width: 200px">
-<img alt="../_images/thumb_regular_polygon.jpg" src="../_images/thumb_regular_polygon.jpg" />
-<p class="caption"><span class="caption-text"><a class="reference internal" href="regular_polygon.html#id1"><span class="std std-ref">正多邊形 範例</span></a></span><a class="headerlink" href="#id5" title="Permalink to this image">¶</a></p>
-</div>
-</div>
-<div class="section" id="id3">
-<h2>畫出螺旋形<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h2>
-<div class="figure align-default" id="id6" style="width: 200px">
-<img alt="../_images/thumb_spiral.jpg" src="../_images/thumb_spiral.jpg" />
-<p class="caption"><span class="caption-text"><a class="reference internal" href="spiral.html#id1"><span class="std std-ref">螺旋形 範例</span></a></span><a class="headerlink" href="#id6" title="Permalink to this image">¶</a></p>
-</div>
-</div>
-<div class="section" id="id4">
-<h2>畫出碎形樹<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h2>
-<div class="figure align-default" id="id7" style="width: 200px">
-<img alt="../_images/thumb_fractal_tree.jpg" src="../_images/thumb_fractal_tree.jpg" />
-<p class="caption"><span class="caption-text"><a class="reference internal" href="fractal_tree.html#id1"><span class="std std-ref">碎形樹 範例</span></a></span><a class="headerlink" href="#id7" title="Permalink to this image">¶</a></p>
-</div>
+  <section id="id1">
+<h1>海龜幾何繪圖範例<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
+<section id="id2">
+<h2>正方形<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
+<figure class="align-center" id="id6" style="width: 300px">
+<img alt="../_images/draw_square.jpg" src="../_images/draw_square.jpg" />
+<figcaption>
+<p><span class="caption-text"><a class="reference internal" href="draw_square.html#id1"><span class="std std-ref">海龜範例 正方形</span></a></span><a class="headerlink" href="#id6" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+</section>
+<section id="id3">
+<h2>正多邊形<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h2>
+<figure class="align-center" id="id7" style="width: 300px">
+<img alt="../_images/regular_polygon.jpg" src="../_images/regular_polygon.jpg" />
+<figcaption>
+<p><span class="caption-text"><a class="reference internal" href="regular_polygon.html#id1"><span class="std std-ref">海龜範例 正多邊形</span></a></span><a class="headerlink" href="#id7" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+</section>
+<section id="id4">
+<h2>螺旋形<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h2>
+<figure class="align-center" id="id8" style="width: 300px">
+<img alt="../_images/spiral.jpg" src="../_images/spiral.jpg" />
+<figcaption>
+<p><span class="caption-text"><a class="reference internal" href="spiral.html#id1"><span class="std std-ref">海龜範例 螺旋形</span></a></span><a class="headerlink" href="#id8" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+</section>
+<section id="id5">
+<h2>碎形樹<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h2>
+<figure class="align-center" id="id9" style="width: 300px">
+<img alt="../_images/fractal_tree.jpg" src="../_images/fractal_tree.jpg" />
+<figcaption>
+<p><span class="caption-text"><a class="reference internal" href="fractal_tree.html#id1"><span class="std std-ref">碎形樹 範例</span></a></span><a class="headerlink" href="#id9" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
 <div class="toctree-wrapper compound">
 </div>
-</div>
-</div>
+</section>
+</section>
 
 
            </div>

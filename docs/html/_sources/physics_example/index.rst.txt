@@ -7,24 +7,27 @@
 無摩擦力
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: thumb_frictionless.jpg
-   :figwidth: 200px
+.. figure:: frictionless.jpg
+   :figwidth: 300px
+   :align: center
 
    :ref:`無摩擦力`
    
 射擊測試
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: thumb_shoot.jpg
-   :figwidth: 200px
+.. figure:: shoot.jpg
+   :figwidth: 300px
+   :align: center
 
    :ref:`射擊測試`
    
 操控重力
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: thumb_gravity.jpg
-   :figwidth: 200px
+.. figure:: gravity.jpg
+   :figwidth: 300px
+   :align: center
 
    :ref:`操控重力`
 

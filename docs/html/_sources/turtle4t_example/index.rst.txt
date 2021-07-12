@@ -1,28 +1,47 @@
-海龜繪圖 範例
+海龜幾何繪圖範例
 ================================
 
-畫出正多邊形
+
+
+正方形
+^^^^^^
+
+.. figure:: draw_square.jpg
+   :figwidth: 300px
+   :align: center
+
+   :ref:`正方形`
+   
+
+
+
+
+正多邊形
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: thumb_regular_polygon.jpg
-   :figwidth: 200px
+.. figure:: regular_polygon.jpg
+   :figwidth: 300px
+   :align: center
 
    :ref:`正多邊形`
+
+ 
    
-   
-畫出螺旋形
+螺旋形
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: thumb_spiral.jpg
-   :figwidth: 200px
+.. figure:: spiral.jpg
+   :figwidth: 300px
+   :align: center
 
    :ref:`螺旋形`
    
-畫出碎形樹
+碎形樹
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: thumb_fractal_tree.jpg
-   :figwidth: 200px
+.. figure:: fractal_tree.jpg
+   :figwidth: 300px
+   :align: center
 
    :ref:`一顆開花的樹`
 

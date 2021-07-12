@@ -4,15 +4,17 @@
 <html class="writer-html5" lang="en" >
 <head>
   <meta charset="utf-8">
-  
+  <meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>碎形樹 範例 &mdash; py4t  documentation</title>
+  <title>海龜範例 碎形樹 &mdash; py4t  documentation</title>
   
 
   
   <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/copybutton.css" type="text/css" />
 
   
   
@@ -30,6 +32,8 @@
         <script src="../_static/underscore.js"></script>
         <script src="../_static/doctools.js"></script>
         <script src="../_static/language_data.js"></script>
+        <script src="../_static/clipboard.min.js"></script>
+        <script src="../_static/copybutton.js"></script>
     
     <script type="text/javascript" src="../_static/js/theme.js"></script>
 
@@ -80,16 +84,16 @@
               
             
             
-              <p class="caption"><span class="caption-text">下載</span></p>
+              <p><span class="caption-text">下載</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../download.html">thonnyPy4t 安裝檔(for windows)</a></li>
 </ul>
-<p class="caption"><span class="caption-text">範例</span></p>
+<p><span class="caption-text">範例</span></p>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="index.html">海龜繪圖 範例</a></li>
+<li class="toctree-l1"><a class="reference internal" href="index.html">海龜幾何繪圖範例</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../physics_example/index.html">物理碰撞模擬 範例</a></li>
 </ul>
-<p class="caption"><span class="caption-text">py4t開發</span></p>
+<p><span class="caption-text">py4t開發</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../git_hub.html">Git Hub</a></li>
 </ul>
@@ -138,7 +142,7 @@
     
       <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
         
-      <li>碎形樹 範例</li>
+      <li>海龜範例 碎形樹</li>
     
     
       <li class="wy-breadcrumbs-aside">
@@ -157,12 +161,13 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="id1">
-<span id="id2"></span><h1>碎形樹 範例<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
-<p>畫出一顆開花的樹</p>
-<a class="reference internal image-reference" href="../_images/fractal_tree.jpg"><img alt="範例程式截圖" class="align-center" src="../_images/fractal_tree.jpg" style="width: 600px;" /></a>
+  <section id="id1">
+<span id="id2"></span><h1>海龜範例 碎形樹<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
+<p>碎形的每個部分都是整體縮小後的形狀。碎形在數學中是一種抽象的物體，用於描述自然界中存在的事物。</p>
+<p>這個程式先定義一個遞迴函式「樹枝」，此函式需有一個終止條件(層為0)，主要做的事是向右分枝、向左分枝及後退。遞迴函式會不斷的呼叫自己(引數需一直改變)，在這個例子中，利用遞迴不斷的畫出分枝的樹枝。</p>
+<p>定義了完整的「樹枝」函式，只需要執行一次，就會以遞迴的形式畫出碎形樹了。</p>
 <div class="literal-block-wrapper docutils container" id="id3">
-<div class="code-block-caption"><span class="caption-text">一顆開花的樹.py</span><a class="headerlink" href="#id3" title="Permalink to this code">¶</a></div>
+<div class="code-block-caption"><span class="caption-text">畫出碎形樹的py4t程式碼</span><a class="headerlink" href="#id3" title="Permalink to this code">¶</a></div>
 <div class="highlight-default notranslate"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
  2
  3
@@ -193,24 +198,14 @@
 28
 29
 30
-31
-32
-33
-34
-35
-36
-37
-38
-39
-40
-41</pre></div></td><td class="code"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">海龜模組</span> <span class="kn">import</span> <span class="o">*</span>
+31</pre></div></td><td class="code"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">海龜模組</span> <span class="kn">import</span> <span class="o">*</span>
 
 <span class="n">縮減</span> <span class="o">=</span> <span class="mf">0.8</span>
 <span class="n">角度</span> <span class="o">=</span> <span class="mi">30</span>  
 
-<span class="k">def</span> <span class="nf">樹枝</span><span class="p">(</span><span class="n">長</span><span class="o">=</span><span class="mi">100</span><span class="p">,</span> <span class="n">層</span><span class="o">=</span><span class="mi">8</span><span class="p">,</span> <span class="n">顏色</span><span class="o">=</span><span class="mi">255</span><span class="p">):</span>
+<span class="k">def</span> <span class="nf">樹枝</span><span class="p">(</span><span class="n">長</span><span class="p">,</span> <span class="n">層</span><span class="p">,</span> <span class="n">顏色</span><span class="o">=</span><span class="mi">255</span><span class="p">):</span>
     <span class="k">if</span> <span class="n">層</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
-        <span class="c1">#畫點(5, &#39;white&#39;)</span>
+        <span class="n">畫點</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span> <span class="s1">&#39;white&#39;</span><span class="p">)</span>
         <span class="k">return</span>
     
     <span class="n">畫筆尺寸</span><span class="p">(</span><span class="n">層</span><span class="p">)</span>
@@ -230,24 +225,16 @@
 
 <span class="n">背景顏色</span><span class="p">(</span><span class="s1">&#39;black&#39;</span><span class="p">)</span>
 <span class="n">畫筆顏色</span><span class="p">(</span><span class="s1">&#39;white&#39;</span><span class="p">)</span>
-<span class="n">停筆</span><span class="p">()</span>
-<span class="n">走到</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="o">-</span><span class="mi">300</span><span class="p">)</span>
-<span class="n">字型</span> <span class="o">=</span> <span class="p">(</span><span class="s1">&#39;標楷體&#39;</span><span class="p">,</span><span class="mi">15</span><span class="p">,</span><span class="s1">&#39;normal&#39;</span><span class="p">)</span>
-<span class="n">寫字</span><span class="p">(</span><span class="s1">&#39;一顆開花的樹&#39;</span><span class="p">,</span> <span class="n">align</span><span class="o">=</span><span class="s1">&#39;center&#39;</span><span class="p">,</span> <span class="n">font</span><span class="o">=</span><span class="n">字型</span><span class="p">)</span>
-<span class="n">走到</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="o">-</span><span class="mi">250</span><span class="p">)</span>
-
-<span class="n">下筆</span><span class="p">()</span>
 <span class="n">設定方向</span><span class="p">(</span><span class="mi">90</span><span class="p">)</span>
 <span class="n">速度</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
 
-<span class="n">樹枝</span><span class="p">(</span><span class="n">層</span> <span class="o">=</span> <span class="mi">9</span><span class="p">,</span> <span class="n">長</span> <span class="o">=</span> <span class="mi">150</span><span class="p">)</span> 
-
-
-
+<span class="n">樹枝</span><span class="p">(</span><span class="n">層</span><span class="o">=</span><span class="mi">8</span><span class="p">,</span> <span class="n">長</span> <span class="o">=</span><span class="mi">100</span><span class="p">)</span> 
 </pre></div>
 </td></tr></table></div>
 </div>
-</div>
+<p>執行結果</p>
+<a class="reference internal image-reference" href="../_images/fractal_tree.jpg"><img alt="範例程式截圖" class="align-center" src="../_images/fractal_tree.jpg" style="width: 500px;" /></a>
+</section>
 
 
            </div>

@@ -29,6 +29,7 @@ author = 'Wen-Hung, Chang. 張文宏 beardad1975@nmes.tyc.edu.tw'
 # ones.
 extensions = [
 	"sphinx_rtd_theme",
+	'sphinx_copybutton',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -54,6 +55,9 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 #
 #html_theme = 'alabaster'
 html_theme = 'sphinx_rtd_theme'
+
+#html_sytle = 'overrides.css'
+
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".

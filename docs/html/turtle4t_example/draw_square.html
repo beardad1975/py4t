@@ -8,7 +8,7 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>海龜範例 正多邊形 &mdash; py4t  documentation</title>
+  <title>海龜範例 正方形 &mdash; py4t  documentation</title>
   
 
   
@@ -142,13 +142,13 @@
     
       <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
         
-      <li>海龜範例 正多邊形</li>
+      <li>海龜範例 正方形</li>
     
     
       <li class="wy-breadcrumbs-aside">
         
             
-            <a href="../_sources/turtle4t_example/regular_polygon.rst.txt" rel="nofollow"> View page source</a>
+            <a href="../_sources/turtle4t_example/draw_square.rst.txt" rel="nofollow"> View page source</a>
           
         
       </li>
@@ -162,13 +162,10 @@
            <div itemprop="articleBody">
             
   <section id="id1">
-<span id="id2"></span><h1>海龜範例 正多邊形<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
-<p>正多邊形的外角和都是360度，海龜在轉出一個角度的線條時，角度都是外角</p>
-<a class="reference internal image-reference" href="../_images/external_angle.jpg"><img alt="../_images/external_angle.jpg" class="align-center" src="../_images/external_angle.jpg" style="width: 500px;" /></a>
-<p>利用這個外角的特性，我們先定義出正多邊形的函式(引數為長與邊)。</p>
-<p>利用for迴圈重複10次，即可連續畫出3邊形到12邊形</p>
+<span id="id2"></span><h1>海龜範例 正方形<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
+<p>正方形有4個邊及4個角。當我們利用for迴圈重複4次，讓海龜重複前進與轉直角的動作，即可畫出正方形</p>
 <div class="literal-block-wrapper docutils container" id="id3">
-<div class="code-block-caption"><span class="caption-text">畫出正多邊形的py4t程式碼</span><a class="headerlink" href="#id3" title="Permalink to this code">¶</a></div>
+<div class="code-block-caption"><span class="caption-text">畫出正方形的py4t程式碼</span><a class="headerlink" href="#id3" title="Permalink to this code">¶</a></div>
 <div class="highlight-default notranslate"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
  2
  3
@@ -181,24 +178,60 @@
 10
 11
 12
-13</pre></div></td><td class="code"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">海龜模組</span> <span class="kn">import</span> <span class="o">*</span>
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31</pre></div></td><td class="code"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">海龜模組</span> <span class="kn">import</span> <span class="o">*</span>
 
-<span class="k">def</span> <span class="nf">正多邊形</span><span class="p">(</span><span class="n">長</span><span class="p">,</span> <span class="n">邊</span><span class="p">):</span>
-    <span class="k">for</span> <span class="n">序</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">邊</span><span class="p">):</span>
-        <span class="n">向前</span><span class="p">(</span><span class="n">長</span><span class="p">)</span>
-        <span class="n">右轉</span><span class="p">(</span><span class="mi">360</span> <span class="o">/</span> <span class="n">邊</span><span class="p">)</span>
+<span class="n">縮減</span> <span class="o">=</span> <span class="mf">0.8</span>
+<span class="n">角度</span> <span class="o">=</span> <span class="mi">30</span>  
 
-<span class="n">變數</span> <span class="o">=</span> <span class="mi">3</span>
+<span class="k">def</span> <span class="nf">樹枝</span><span class="p">(</span><span class="n">長</span><span class="p">,</span> <span class="n">層</span><span class="p">,</span> <span class="n">顏色</span><span class="o">=</span><span class="mi">255</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">層</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+        <span class="n">畫點</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span> <span class="s1">&#39;white&#39;</span><span class="p">)</span>
+        <span class="k">return</span>
+    
+    <span class="n">畫筆尺寸</span><span class="p">(</span><span class="n">層</span><span class="p">)</span>
+    <span class="n">畫筆顏色</span><span class="p">(</span><span class="n">顏色</span><span class="p">,</span> <span class="n">顏色</span><span class="p">,</span> <span class="n">顏色</span><span class="p">,</span> <span class="p">)</span>
+    
+    <span class="n">向前</span><span class="p">(</span><span class="n">長</span><span class="p">)</span>
+    <span class="n">畫點</span><span class="p">(</span><span class="mi">7</span><span class="p">,</span> <span class="s1">&#39;white&#39;</span><span class="p">)</span>
+    
+    <span class="n">右轉</span><span class="p">(</span><span class="n">角度</span><span class="p">)</span>
+    <span class="n">樹枝</span><span class="p">(</span><span class="n">長</span><span class="o">*</span><span class="n">縮減</span><span class="p">,</span> <span class="n">層</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="n">顏色</span> <span class="o">-</span> <span class="mi">20</span><span class="p">)</span>
+    
+    <span class="n">左轉</span><span class="p">(</span><span class="n">角度</span> <span class="o">*</span> <span class="mi">2</span><span class="p">)</span>
+    <span class="n">樹枝</span><span class="p">(</span><span class="n">長</span><span class="o">*</span><span class="n">縮減</span><span class="p">,</span> <span class="n">層</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="n">顏色</span> <span class="o">-</span> <span class="mi">20</span><span class="p">)</span>
+    
+    <span class="n">右轉</span><span class="p">(</span><span class="n">角度</span><span class="p">)</span>
+    <span class="n">向後</span><span class="p">(</span><span class="n">長</span><span class="p">)</span>
 
-<span class="k">for</span> <span class="n">序</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span class="p">):</span>
-	<span class="nb">print</span><span class="p">(</span><span class="n">變數</span><span class="p">)</span>
-	<span class="n">正多邊形</span><span class="p">(</span><span class="mi">100</span><span class="p">,</span> <span class="n">變數</span><span class="p">)</span>
-	<span class="n">變數</span> <span class="o">+=</span> <span class="mi">1</span>
+<span class="n">背景顏色</span><span class="p">(</span><span class="s1">&#39;black&#39;</span><span class="p">)</span>
+<span class="n">畫筆顏色</span><span class="p">(</span><span class="s1">&#39;white&#39;</span><span class="p">)</span>
+<span class="n">設定方向</span><span class="p">(</span><span class="mi">90</span><span class="p">)</span>
+<span class="n">速度</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
+
+<span class="n">樹枝</span><span class="p">(</span><span class="n">層</span><span class="o">=</span><span class="mi">8</span><span class="p">,</span> <span class="n">長</span> <span class="o">=</span><span class="mi">100</span><span class="p">)</span> 
 </pre></div>
 </td></tr></table></div>
 </div>
 <p>執行結果</p>
-<a class="reference internal image-reference" href="../_images/regular_polygon.jpg"><img alt="範例程式截圖" class="align-center" src="../_images/regular_polygon.jpg" style="width: 500px;" /></a>
+<a class="reference internal image-reference" href="../_images/draw_square.jpg"><img alt="範例程式截圖" class="align-center" src="../_images/draw_square.jpg" style="width: 500px;" /></a>
 </section>
 
 
