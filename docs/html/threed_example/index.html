@@ -8,7 +8,7 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>物理範例 無摩擦力 &mdash; py4t  documentation</title>
+  <title>物理碰撞模擬 &mdash; py4t  documentation</title>
   
 
   
@@ -91,7 +91,7 @@
 <p><span class="caption-text">【範例】</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../turtle4t_example/index.html">海龜幾何繪圖</a></li>
-<li class="toctree-l1"><a class="reference internal" href="index.html">物理碰撞模擬</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../physics_example/index.html">3D模擬</a></li>
 </ul>
 <p><span class="caption-text">【py4t開發】</span></p>
 <ul>
@@ -142,13 +142,13 @@
     
       <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
         
-      <li>物理範例 無摩擦力</li>
+      <li>物理碰撞模擬</li>
     
     
       <li class="wy-breadcrumbs-aside">
         
             
-            <a href="../_sources/physics_example/frictionless.rst.txt" rel="nofollow"> View page source</a>
+            <a href="../_sources/threed_example/index.rst.txt" rel="nofollow"> View page source</a>
           
         
       </li>
@@ -162,35 +162,36 @@
            <div itemprop="articleBody">
             
   <section id="id1">
-<span id="id2"></span><h1>物理範例 無摩擦力<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
-<p>無摩擦力的世界，按滑鼠左鍵會新增方塊</p>
+<h1>物理碰撞模擬<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
+<p>這個學習模組是建立在pymunk的2D物理函式庫上。可以建立基本形狀(圓形、方形)，控制物體的基本物理量(質量、摩擦力等)，改變環境的重力。這就是憤怒鳥類型遊戲的模擬原理。</p>
 <p>註：物理模組輔助功能，按住Ctrl及Alt鍵時，會顯示畫面座標，並可利用滑鼠右鍵新增、移除地形</p>
-<div class="literal-block-wrapper docutils container" id="id3">
-<div class="code-block-caption"><span class="caption-text">無摩擦力世界的py4t程式碼</span><a class="headerlink" href="#id3" title="Permalink to this code">¶</a></div>
-<div class="highlight-default notranslate"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
- 2
- 3
- 4
- 5
- 6
- 7
- 8
- 9
-10</pre></div></td><td class="code"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">物理模組</span> <span class="kn">import</span> <span class="o">*</span>
-
-<span class="n">舞台</span> <span class="o">=</span> <span class="n">物理引擎</span><span class="p">(</span><span class="mi">800</span><span class="p">,</span><span class="mi">800</span><span class="p">)</span>
-
-<span class="k">def</span> <span class="nf">按下滑鼠時</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">):</span>
-    <span class="n">物體</span> <span class="o">=</span> <span class="n">新增方塊</span><span class="p">()</span>
-    <span class="n">物體</span><span class="o">.</span><span class="n">位置</span> <span class="o">=</span> <span class="p">[</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">]</span>
-    <span class="n">物體</span><span class="o">.</span><span class="n">摩擦</span> <span class="o">=</span> <span class="mi">0</span>
-    
-<span class="n">模擬主迴圈</span><span class="p">()</span>
-</pre></div>
-</td></tr></table></div>
-</div>
-<p>執行結果</p>
-<a class="reference internal image-reference" href="../_images/frictionless.jpg"><img alt="範例程式截圖" class="align-center" src="../_images/frictionless.jpg" style="width: 500px;" /></a>
+<section id="id2">
+<h2>無摩擦力<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
+<figure class="align-center" id="id5" style="width: 300px">
+<img alt="threed_example\frictionless.jpg" src="threed_example\frictionless.jpg" />
+<figcaption>
+<p><span class="caption-text"><a class="reference internal" href="first_3d.html#id1"><span class="std std-ref">3D範例 第一個方塊</span></a></span><a class="headerlink" href="#id5" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+</section>
+<section id="id3">
+<h2>射擊測試<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h2>
+<figure class="align-center" id="id6" style="width: 300px">
+<img alt="threed_example\shoot.jpg" src="threed_example\shoot.jpg" />
+<figcaption>
+<p><span class="caption-text"><a class="reference internal" href="../physics_example/shoot.html#id1"><span class="std std-ref">物理範例 射擊測試</span></a></span><a class="headerlink" href="#id6" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+</section>
+<section id="id4">
+<h2>操控重力<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h2>
+<figure class="align-center" id="id7" style="width: 300px">
+<img alt="threed_example\gravity.jpg" src="threed_example\gravity.jpg" />
+<figcaption>
+<p><span class="caption-text"><a class="reference internal" href="../physics_example/gravity.html#id1"><span class="std std-ref">操控重力 範例</span></a></span><a class="headerlink" href="#id7" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+</section>
 </section>
 
 
