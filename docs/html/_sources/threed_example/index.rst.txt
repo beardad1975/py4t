@@ -1,37 +1,34 @@
-物理碰撞模擬
+3D模擬
 ================================
 
-這個學習模組是建立在pymunk的2D物理函式庫上。可以建立基本形狀(圓形、方形)，控制物體的基本物理量(質量、摩擦力等)，改變環境的重力。這就是憤怒鳥類型遊戲的模擬原理。
+這個學習模組是建立在panda3d與ursina的3D函式庫上。可以建立長方體及圓球等模型放置在3D空間中，並改變模型貼圖、控制位置、旋轉。3D程式是3D遊戲、3D動畫、VR與AR的基本技術。
 
-註：物理模組輔助功能，按住Ctrl及Alt鍵時，會顯示畫面座標，並可利用滑鼠右鍵新增、移除地形
-
-
-無摩擦力
+3D方塊
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: frictionless.jpg
-   :figwidth: 300px
+.. figure:: first_3d.jpg
+   :figwidth: 150px
    :align: center
 
-   :ref:`無摩擦力`
-   
-射擊測試
+   :ref:`3D方塊`
+
+
+彩色方陣
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: shoot.jpg
-   :figwidth: 300px
+.. figure:: color_array.jpg
+   :figwidth: 200px
    :align: center
 
-   :ref:`射擊測試`
-   
-操控重力
+   :ref:`彩色方陣`
+
+
+彩色螺旋
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: gravity.jpg
-   :figwidth: 300px
+.. figure:: color_spiral.jpg
+   :figwidth: 200px
    :align: center
 
-   :ref:`操控重力`
-
-
+   :ref:`彩色螺旋`
    

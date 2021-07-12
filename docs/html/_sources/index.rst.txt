@@ -27,12 +27,8 @@ py4t是多個python套件的整合，目的是要搭一座學習的橋，從Scra
    
    turtle4t_example/index.rst
    physics_example/index.rst
-   
+   threed_example/index.rst
 
-.. toctree::
-   :maxdepth: 1
-   :caption: 【py4t開發】
-   
-   git_hub
+
 
 

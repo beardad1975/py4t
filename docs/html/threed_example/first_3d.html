@@ -3,12 +3,11 @@
 <!DOCTYPE html>
 <html class="writer-html5" lang="en" >
 <head>
-  <meta charset="utf-8">
-  <meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
-
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8" />
   
-  <title>3D範例 第一個方塊 &mdash; py4t  documentation</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>3D範例 3D方塊 &mdash; py4t  documentation</title>
   
 
   
@@ -18,7 +17,10 @@
 
   
   
+
   
+  
+
   
 
   
@@ -31,7 +33,6 @@
         <script src="../_static/jquery.js"></script>
         <script src="../_static/underscore.js"></script>
         <script src="../_static/doctools.js"></script>
-        <script src="../_static/language_data.js"></script>
         <script src="../_static/clipboard.min.js"></script>
         <script src="../_static/copybutton.js"></script>
     
@@ -53,7 +54,7 @@
           
 
           
-            <a href="../index.html" class="icon icon-home" alt="Documentation Home"> py4t
+            <a href="../index.html" class="icon icon-home"> py4t
           
 
           
@@ -84,18 +85,15 @@
               
             
             
-              <p><span class="caption-text">【下載】</span></p>
+              <p class="caption"><span class="caption-text">【下載】</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../download.html">thonnyPy4t 安裝檔(for windows)</a></li>
 </ul>
-<p><span class="caption-text">【範例】</span></p>
+<p class="caption"><span class="caption-text">【範例】</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../turtle4t_example/index.html">海龜幾何繪圖</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../physics_example/index.html">3D模擬</a></li>
-</ul>
-<p><span class="caption-text">【py4t開發】</span></p>
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="../git_hub.html">Git Hub</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../physics_example/index.html">物理碰撞模擬</a></li>
+<li class="toctree-l1"><a class="reference internal" href="index.html">3D模擬</a></li>
 </ul>
 
             
@@ -136,18 +134,20 @@
 
 
 
+
+
 <div role="navigation" aria-label="breadcrumbs navigation">
 
   <ul class="wy-breadcrumbs">
     
       <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
         
-      <li>3D範例 第一個方塊</li>
+      <li>3D範例 3D方塊</li>
     
     
       <li class="wy-breadcrumbs-aside">
         
-            
+          
             <a href="../_sources/threed_example/first_3d.rst.txt" rel="nofollow"> View page source</a>
           
         
@@ -161,41 +161,52 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <section id="d">
-<span id="id1"></span><h1>3D範例 第一個方塊<a class="headerlink" href="#d" title="Permalink to this headline">¶</a></h1>
+  <div class="section" id="d-3d">
+<span id="d"></span><h1>3D範例 3D方塊<a class="headerlink" href="#d-3d" title="Permalink to this headline">¶</a></h1>
 <p>建立一個3D方塊</p>
-<p>註：物理模組輔助功能，按住Ctrl及Alt鍵時，會顯示畫面座標，並可利用滑鼠右鍵新增、移除地形</p>
+<a class="reference internal image-reference" href="../_images/3d_manual.jpg"><img alt="../_images/3d_manual.jpg" class="align-center" src="../_images/3d_manual.jpg" style="width: 700px;" /></a>
+<div class="literal-block-wrapper docutils container" id="id1">
+<div class="code-block-caption"><span class="caption-text">3D方塊的py4t程式碼</span><a class="headerlink" href="#id1" title="Permalink to this code">¶</a></div>
+<div class="highlight-default notranslate"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2
+3
+4
+5</pre></div></td><td class="code"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">模擬3D模組</span> <span class="kn">import</span> <span class="o">*</span>
+
+<span class="n">物體</span> <span class="o">=</span> <span class="n">新增立方體</span><span class="p">()</span>
+
+<span class="n">模擬主迴圈</span><span class="p">()</span>
+</pre></div>
+</td></tr></table></div>
+</div>
 <p>執行結果</p>
-<a class="reference internal image-reference" href="threed_example\frictionless.jpg"><img alt="範例程式截圖" class="align-center" src="threed_example\frictionless.jpg" style="width: 500px;" /></a>
-</section>
+<a class="reference internal image-reference" href="../_images/first_3d.jpg"><img alt="範例程式截圖" class="align-center" src="../_images/first_3d.jpg" style="width: 300px;" /></a>
+</div>
 
 
            </div>
            
           </div>
           <footer>
-  
 
   <hr/>
 
   <div role="contentinfo">
     <p>
-        
-        &copy; Copyright 2020, Wen-Hung, Chang. 張文宏 beardad1975@nmes.tyc.edu.tw 
+        &#169; Copyright 2020, Wen-Hung, Chang. 張文宏 beardad1975@nmes.tyc.edu.tw .
 
     </p>
   </div>
     
     
     
-    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
     
-    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
     
     provided by <a href="https://readthedocs.org">Read the Docs</a>. 
 
 </footer>
-
         </div>
       </div>
 

@@ -3,12 +3,11 @@
 <!DOCTYPE html>
 <html class="writer-html5" lang="en" >
 <head>
-  <meta charset="utf-8">
-  <meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
-
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8" />
   
-  <title>物理碰撞模擬 &mdash; py4t  documentation</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>3D模擬 &mdash; py4t  documentation</title>
   
 
   
@@ -18,7 +17,10 @@
 
   
   
+
   
+  
+
   
 
   
@@ -31,7 +33,6 @@
         <script src="../_static/jquery.js"></script>
         <script src="../_static/underscore.js"></script>
         <script src="../_static/doctools.js"></script>
-        <script src="../_static/language_data.js"></script>
         <script src="../_static/clipboard.min.js"></script>
         <script src="../_static/copybutton.js"></script>
     
@@ -39,7 +40,8 @@
 
     
     <link rel="index" title="Index" href="../genindex.html" />
-    <link rel="search" title="Search" href="../search.html" /> 
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="prev" title="物理碰撞模擬" href="../physics_example/index.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -53,7 +55,7 @@
           
 
           
-            <a href="../index.html" class="icon icon-home" alt="Documentation Home"> py4t
+            <a href="../index.html" class="icon icon-home"> py4t
           
 
           
@@ -84,18 +86,20 @@
               
             
             
-              <p><span class="caption-text">【下載】</span></p>
+              <p class="caption"><span class="caption-text">【下載】</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../download.html">thonnyPy4t 安裝檔(for windows)</a></li>
 </ul>
-<p><span class="caption-text">【範例】</span></p>
-<ul>
+<p class="caption"><span class="caption-text">【範例】</span></p>
+<ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="../turtle4t_example/index.html">海龜幾何繪圖</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../physics_example/index.html">3D模擬</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../physics_example/index.html">物理碰撞模擬</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">3D模擬</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#id1">3D方塊</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id2">彩色方陣</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id3">彩色螺旋</a></li>
 </ul>
-<p><span class="caption-text">【py4t開發】</span></p>
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="../git_hub.html">Git Hub</a></li>
+</li>
 </ul>
 
             
@@ -136,18 +140,20 @@
 
 
 
+
+
 <div role="navigation" aria-label="breadcrumbs navigation">
 
   <ul class="wy-breadcrumbs">
     
       <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
         
-      <li>物理碰撞模擬</li>
+      <li>3D模擬</li>
     
     
       <li class="wy-breadcrumbs-aside">
         
-            
+          
             <a href="../_sources/threed_example/index.rst.txt" rel="nofollow"> View page source</a>
           
         
@@ -161,66 +167,59 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <section id="id1">
-<h1>物理碰撞模擬<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
-<p>這個學習模組是建立在pymunk的2D物理函式庫上。可以建立基本形狀(圓形、方形)，控制物體的基本物理量(質量、摩擦力等)，改變環境的重力。這就是憤怒鳥類型遊戲的模擬原理。</p>
-<p>註：物理模組輔助功能，按住Ctrl及Alt鍵時，會顯示畫面座標，並可利用滑鼠右鍵新增、移除地形</p>
-<section id="id2">
-<h2>無摩擦力<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
-<figure class="align-center" id="id5" style="width: 300px">
-<img alt="threed_example\frictionless.jpg" src="threed_example\frictionless.jpg" />
-<figcaption>
-<p><span class="caption-text"><a class="reference internal" href="first_3d.html#id1"><span class="std std-ref">3D範例 第一個方塊</span></a></span><a class="headerlink" href="#id5" title="Permalink to this image">¶</a></p>
-</figcaption>
-</figure>
-</section>
-<section id="id3">
-<h2>射擊測試<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h2>
-<figure class="align-center" id="id6" style="width: 300px">
-<img alt="threed_example\shoot.jpg" src="threed_example\shoot.jpg" />
-<figcaption>
-<p><span class="caption-text"><a class="reference internal" href="../physics_example/shoot.html#id1"><span class="std std-ref">物理範例 射擊測試</span></a></span><a class="headerlink" href="#id6" title="Permalink to this image">¶</a></p>
-</figcaption>
-</figure>
-</section>
-<section id="id4">
-<h2>操控重力<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h2>
-<figure class="align-center" id="id7" style="width: 300px">
-<img alt="threed_example\gravity.jpg" src="threed_example\gravity.jpg" />
-<figcaption>
-<p><span class="caption-text"><a class="reference internal" href="../physics_example/gravity.html#id1"><span class="std std-ref">操控重力 範例</span></a></span><a class="headerlink" href="#id7" title="Permalink to this image">¶</a></p>
-</figcaption>
-</figure>
-</section>
-</section>
+  <div class="section" id="d">
+<h1>3D模擬<a class="headerlink" href="#d" title="Permalink to this headline">¶</a></h1>
+<p>這個學習模組是建立在panda3d與ursina的3D函式庫上。可以建立長方體及圓球等模型放置在3D空間中，並改變模型貼圖、控制位置、旋轉。3D程式是3D遊戲、3D動畫、VR與AR的基本技術。</p>
+<div class="section" id="id1">
+<h2>3D方塊<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h2>
+<div class="figure align-center" id="id4" style="width: 150px">
+<img alt="../_images/first_3d.jpg" src="../_images/first_3d.jpg" />
+<p class="caption"><span class="caption-text"><a class="reference internal" href="first_3d.html#d"><span class="std std-ref">3D範例 3D方塊</span></a></span><a class="headerlink" href="#id4" title="Permalink to this image">¶</a></p>
+</div>
+</div>
+<div class="section" id="id2">
+<h2>彩色方陣<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
+<div class="figure align-center" id="id5" style="width: 200px">
+<img alt="../_images/color_array.jpg" src="../_images/color_array.jpg" />
+<p class="caption"><span class="caption-text"><a class="reference internal" href="color_array.html#id1"><span class="std std-ref">3D範例 彩色方陣</span></a></span><a class="headerlink" href="#id5" title="Permalink to this image">¶</a></p>
+</div>
+</div>
+<div class="section" id="id3">
+<h2>彩色螺旋<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h2>
+<div class="figure align-center" id="id6" style="width: 200px">
+<img alt="../_images/color_spiral.jpg" src="../_images/color_spiral.jpg" />
+<p class="caption"><span class="caption-text"><a class="reference internal" href="color_spiral.html#id1"><span class="std std-ref">3D範例 彩色螺旋</span></a></span><a class="headerlink" href="#id6" title="Permalink to this image">¶</a></p>
+</div>
+</div>
+</div>
 
 
            </div>
            
           </div>
           <footer>
-  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="../physics_example/index.html" class="btn btn-neutral float-left" title="物理碰撞模擬" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
 
   <hr/>
 
   <div role="contentinfo">
     <p>
-        
-        &copy; Copyright 2020, Wen-Hung, Chang. 張文宏 beardad1975@nmes.tyc.edu.tw 
+        &#169; Copyright 2020, Wen-Hung, Chang. 張文宏 beardad1975@nmes.tyc.edu.tw .
 
     </p>
   </div>
     
     
     
-    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
     
-    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
     
     provided by <a href="https://readthedocs.org">Read the Docs</a>. 
 
 </footer>
-
         </div>
       </div>
 
