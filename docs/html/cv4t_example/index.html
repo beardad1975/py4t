@@ -1,0 +1,245 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>視覺影像 &mdash; py4t  documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/copybutton.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/clipboard.min.js"></script>
+        <script src="../_static/copybutton.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="prev" title="3D模擬" href="../threed_example/index.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> py4t
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">【安裝檔下載】</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../download.html">thonnyPy4t 安裝檔(for windows)</a></li>
+</ul>
+<p class="caption"><span class="caption-text">【教學模組範例】</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../turtle4t_example/index.html">海龜幾何繪圖</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../physics_example/index.html">物理碰撞模擬</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../threed_example/index.html">3D模擬</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">視覺影像</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#id2">攝影機</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id3">影像格線</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id4">電視牆</a></li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">py4t</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>視覺影像</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../_sources/cv4t_example/index.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="id1">
+<h1>視覺影像<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
+<p>這個學習模組是建立在opencv-python的電腦視覺函式庫上。從攝影機擷取到的影像，取得numpy多維陣列的影像，可以對影像做出改變亮度、對比、縮放、負片和左右翻轉等效果，並進行電腦影像的處理。</p>
+<p>註：電腦上需要有視訊攝影機</p>
+<div class="section" id="id2">
+<h2>攝影機<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
+<div class="figure align-center" id="id5" style="width: 200px">
+<img alt="../_images/camera.jpg" src="../_images/camera.jpg" />
+<p class="caption"><span class="caption-text"><a class="reference internal" href="camera.html#id1"><span class="std std-ref">視覺範例 攝影機</span></a></span><a class="headerlink" href="#id5" title="Permalink to this image">¶</a></p>
+</div>
+</div>
+<div class="section" id="id3">
+<h2>影像格線<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h2>
+<div class="figure align-center" id="id6" style="width: 200px">
+<img alt="../_images/camera_slice.jpg" src="../_images/camera_slice.jpg" />
+<p class="caption"><span class="caption-text"><a class="reference internal" href="camera_slice.html#id1"><span class="std std-ref">視覺範例 影像格線</span></a></span><a class="headerlink" href="#id6" title="Permalink to this image">¶</a></p>
+</div>
+</div>
+<div class="section" id="id4">
+<h2>電視牆<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h2>
+<div class="figure align-center" id="id7" style="width: 200px">
+<img alt="../_images/camera_tile.jpg" src="../_images/camera_tile.jpg" />
+<p class="caption"><span class="caption-text"><a class="reference internal" href="camera_tile.html#id1"><span class="std std-ref">視覺範例 電視牆</span></a></span><a class="headerlink" href="#id7" title="Permalink to this image">¶</a></p>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="../threed_example/index.html" class="btn btn-neutral float-left" title="3D模擬" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020, Wen-Hung, Chang. 張文宏 beardad1975@nmes.tyc.edu.tw .
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
