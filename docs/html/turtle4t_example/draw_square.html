@@ -166,67 +166,17 @@
 <p>正方形有4個邊及4個角。當我們利用for迴圈重複4次，讓海龜重複前進與轉直角的動作，即可畫出正方形</p>
 <div class="literal-block-wrapper docutils container" id="id3">
 <div class="code-block-caption"><span class="caption-text">畫出正方形的py4t程式碼</span><a class="headerlink" href="#id3" title="Permalink to this code">¶</a></div>
-<div class="highlight-default notranslate"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
- 2
- 3
- 4
- 5
- 6
- 7
- 8
- 9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
-20
-21
-22
-23
-24
-25
-26
-27
-28
-29
-30
-31</pre></div></td><td class="code"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">海龜模組</span> <span class="kn">import</span> <span class="o">*</span>
+<div class="highlight-default notranslate"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2
+3
+4
+5
+6</pre></div></td><td class="code"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">海龜模組</span> <span class="kn">import</span> <span class="o">*</span>
 
-<span class="n">縮減</span> <span class="o">=</span> <span class="mf">0.8</span>
-<span class="n">角度</span> <span class="o">=</span> <span class="mi">30</span>  
-
-<span class="k">def</span> <span class="nf">樹枝</span><span class="p">(</span><span class="n">長</span><span class="p">,</span> <span class="n">層</span><span class="p">,</span> <span class="n">顏色</span><span class="o">=</span><span class="mi">255</span><span class="p">):</span>
-    <span class="k">if</span> <span class="n">層</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
-        <span class="n">畫點</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span> <span class="s1">&#39;white&#39;</span><span class="p">)</span>
-        <span class="k">return</span>
+<span class="k">for</span> <span class="n">數</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">4</span><span class="p">)</span> <span class="p">:</span>
+    <span class="n">向前</span><span class="p">(</span><span class="mi">200</span><span class="p">)</span>
+    <span class="n">右轉</span><span class="p">(</span><span class="mi">90</span><span class="p">)</span>
     
-    <span class="n">畫筆尺寸</span><span class="p">(</span><span class="n">層</span><span class="p">)</span>
-    <span class="n">畫筆顏色</span><span class="p">(</span><span class="n">顏色</span><span class="p">,</span> <span class="n">顏色</span><span class="p">,</span> <span class="n">顏色</span><span class="p">,</span> <span class="p">)</span>
-    
-    <span class="n">向前</span><span class="p">(</span><span class="n">長</span><span class="p">)</span>
-    <span class="n">畫點</span><span class="p">(</span><span class="mi">7</span><span class="p">,</span> <span class="s1">&#39;white&#39;</span><span class="p">)</span>
-    
-    <span class="n">右轉</span><span class="p">(</span><span class="n">角度</span><span class="p">)</span>
-    <span class="n">樹枝</span><span class="p">(</span><span class="n">長</span><span class="o">*</span><span class="n">縮減</span><span class="p">,</span> <span class="n">層</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="n">顏色</span> <span class="o">-</span> <span class="mi">20</span><span class="p">)</span>
-    
-    <span class="n">左轉</span><span class="p">(</span><span class="n">角度</span> <span class="o">*</span> <span class="mi">2</span><span class="p">)</span>
-    <span class="n">樹枝</span><span class="p">(</span><span class="n">長</span><span class="o">*</span><span class="n">縮減</span><span class="p">,</span> <span class="n">層</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="n">顏色</span> <span class="o">-</span> <span class="mi">20</span><span class="p">)</span>
-    
-    <span class="n">右轉</span><span class="p">(</span><span class="n">角度</span><span class="p">)</span>
-    <span class="n">向後</span><span class="p">(</span><span class="n">長</span><span class="p">)</span>
-
-<span class="n">背景顏色</span><span class="p">(</span><span class="s1">&#39;black&#39;</span><span class="p">)</span>
-<span class="n">畫筆顏色</span><span class="p">(</span><span class="s1">&#39;white&#39;</span><span class="p">)</span>
-<span class="n">設定方向</span><span class="p">(</span><span class="mi">90</span><span class="p">)</span>
-<span class="n">速度</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
-
-<span class="n">樹枝</span><span class="p">(</span><span class="n">層</span><span class="o">=</span><span class="mi">8</span><span class="p">,</span> <span class="n">長</span> <span class="o">=</span><span class="mi">100</span><span class="p">)</span> 
 </pre></div>
 </td></tr></table></div>
 </div>
