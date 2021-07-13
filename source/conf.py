@@ -22,6 +22,7 @@ copyright = '2020, Wen-Hung, Chang. 張文宏 beardad1975@nmes.tyc.edu.tw '
 author = 'Wen-Hung, Chang. 張文宏 beardad1975@nmes.tyc.edu.tw'
 
 
+
 # -- General configuration ---------------------------------------------------
 
 # Add any Sphinx extension module names here, as strings. They can be
@@ -61,7 +62,7 @@ html_theme_options = {
 }
 
 html_static_path = ['_static']
-html_sytle = 'css/mytheme.css'
+#html_sytle = 'css/theme.css'
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
