@@ -1,6 +1,6 @@
-site_name: Py4t-青少年的Python編輯器
+site_name: Py4t - 青少年的Python編輯器
 site_url: https://beardad1975.github.io/py4t/
-site_description: Py4t-青少年的Python編輯器
+site_description: Py4t - 青少年的Python編輯器
 site_author: Wen-Hung, Chang. 張文宏
 
 markdown_extensions:
@@ -15,12 +15,20 @@ markdown_extensions:
       emoji_generator: !!python/name:materialx.emoji.to_svg
 
 nav:
-  - 首頁: 'index.md'
+  - 關於: 'about.md'
   - 下載: 'download.md'
-  - 學習模組: 
-    - 📁 海龜幾何繪圖: 
-      - 🔰 範例 正方形: 'turtle4t/draw_square.md'
-      - 🔰 範例 正多邊形: 'turtle4t/regular_polygon.md'  
+  - 海龜繪圖: 
+    - Ⓜ️ 模組說明: 'turtle4t/turtle4t.md'
+    - 　🔰 正方形 範例: 'turtle4t/draw_square.md'
+    - 　🔰 正多邊形 範例: 'turtle4t/regular_polygon.md'  
+    - 　🔰 螺旋形 範例: 'turtle4t/spiral.md'
+    - 　🔰 碎形樹 範例: 'turtle4t/fractal_tree.md'
+  - 物理碰撞:
+    - Ⓜ️ 模組說明: 'pie4t/pie4t.md'
+    - 　🔰 無摩擦力 範例: 'pie4t/frictionless.md'
+    - 　🔰 射擊測試 範例: 'pie4t/shoot.md'
+    - 　🔰 操控重力 範例: 'pie4t/gravity.md'
+
 
 theme:
   name: material
@@ -37,4 +45,16 @@ theme:
     - navigation.sections
     - navigation.top
     - navigation.instant
-    - toc.integrate
+    - navigation.indexes
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/beardad1975
+      name: beardad1975 on Github
+    - icon: fontawesome/regular/envelope
+      link: mailto:beardad1975@nmes.tyc.edu.tw
+      name: beardad1975 email
+    
+      
+copyright: Copyright &copy; 2021 Wen-Hung, Chang. 張文宏

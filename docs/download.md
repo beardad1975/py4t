@@ -1,3 +1,9 @@
+---
+hide:
+  - navigation
+  - toc
+---
+
 # thonnyPy4t 安裝檔(for windows)
 
 [🔽 py4t v0.8安裝檔](https://github.com/beardad1975/py4t/releases/download/v0.8/thonnyPy4t-0.8.exe) (2021-07-25建立)
@@ -11,6 +17,6 @@
 
 ---------------
 
-💬py4t開發環境：windows10(64 bit)
+💬py4t開發環境：windows10(64 bit), 無mac及linux版本。
 
 💬[版本更新資訊](https://github.com/beardad1975/py4t/releases)

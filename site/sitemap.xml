@@ -6,12 +6,42 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://beardad1975.github.io/py4t/about/</loc>
+         <lastmod>2021-08-07</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://beardad1975.github.io/py4t/download/</loc>
          <lastmod>2021-08-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://beardad1975.github.io/py4t/pie4t/frictionless/</loc>
+         <lastmod>2021-08-07</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://beardad1975.github.io/py4t/pie4t/pie4t/</loc>
+         <lastmod>2021-08-07</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://beardad1975.github.io/py4t/turtle4t/draw_square/</loc>
+         <lastmod>2021-08-07</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://beardad1975.github.io/py4t/turtle4t/fractal_tree/</loc>
+         <lastmod>2021-08-07</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://beardad1975.github.io/py4t/turtle4t/regular_polygon/</loc>
+         <lastmod>2021-08-07</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://beardad1975.github.io/py4t/turtle4t/spiral/</loc>
          <lastmod>2021-08-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
