@@ -1,17 +1,10 @@
-# Welcome to MkDocs
+# 歡迎使用 Py4t
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+這是由中小學教師發起的計畫，將多個開放原始碼套件，整合成一個適合青少年使用的python程式環境，目的是搭一座學習之橋，從Scratch到Python，讓青少年學習程式、體驗科技
 
-## Commands
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+## [下載安裝檔](download.md)
 
-## Project layout
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+
+

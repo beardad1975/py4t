@@ -1,3 +1,40 @@
-site_name: Py4t 教青少年寫python
+site_name: Py4t-青少年的Python編輯器
+site_url: https://beardad1975.github.io/py4t/
+site_description: Py4t-青少年的Python編輯器
+site_author: Wen-Hung, Chang. 張文宏
+
+markdown_extensions:
+  - attr_list
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      linenums: true
+      linenums_style: pymdownx-inline
+
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+nav:
+  - 首頁: 'index.md'
+  - 下載: 'download.md'
+  - 學習模組: 
+    - 📁 海龜幾何繪圖: 
+      - 🔰 範例 正方形: 'turtle4t/draw_square.md'
+      - 🔰 範例 正多邊形: 'turtle4t/regular_polygon.md'  
+
 theme:
-    name: material
+  name: material
+  favicon: material/bridge
+  icon:
+    logo: material/bridge
+    
+  language: zh-TW
+  palette:
+    primary: indigo
+
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.instant
+    - toc.integrate
