@@ -1,13 +1,12 @@
-# Ⓜ️ 海龜繪圖 學習模組
+# Ⓜ️ 3D模擬 學習模組
 
-起源自Logo程式語言，利用海龜游標，在直角座標平面上畫出線條、形狀。適合做為python程式入門的主題。
+這個學習模組是建立在[panda3d](https://www.panda3d.org/)與[ursina](https://www.ursinaengine.org/)的3D函式庫上。可以建立長方體及圓球等模型放置在3D空間中，並改變模型貼圖、控制位置、旋轉。3D程式是3D遊戲、3D動畫、VR與AR的基本技術。
 
 | 範例                             | 截圖                                                              |
 | :-----------:                    | :------------------------------------:                            |
-| [正方形](draw_square.md)          | [![正方形](draw_square.jpg){width=150}](draw_square.md)           |
-| [正多邊形](regular_polygon.md)    | [![正多邊形](regular_polygon.jpg){width=150}](regular_polygon.md) |
-| [螺旋形](spiral.md)               | [![螺旋形](spiral.jpg){width=150}](spiral.md)                     |
-| [碎形樹](fractal_tree.md)               | [![碎形樹](fractal_tree.jpg){width=150}](fractal_tree.md)                     |
+| [3D方塊](first_3d.md)          | [![3D方塊](first_3d.jpg){width=150}](first_3d.md)           |
+| [彩色方陣](color_array.md)          | [![彩色方陣](color_array.jpg){width=150}](color_array.md)           |
+| [彩色螺旋](color_spiral.md)          | [![彩色螺旋](color_spiral.jpg){width=150}](color_spiral.md)           |
 
 
 
