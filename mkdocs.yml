@@ -41,6 +41,9 @@ nav:
     - 　🔰 影像格線 範例: 'cv4t/camera_slice.md'
     - 　🔰 電視牆 範例: 'cv4t/camera_tile.md'
 
+  - 運算思維:
+    - Ⓜ️ 模組說明: 'comthink/comthink.md'
+
 
 theme:
   name: material

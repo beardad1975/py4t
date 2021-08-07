@@ -1,8 +1,16 @@
 # 🔰 物理碰撞範例 - 射擊測試
---------------
+
+### 🎦 範例影片
+
+<div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/584276116?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="shoot.mp4"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+
+
+
 ### 🏷️ 原理說明
 
 射擊測試 (滑鼠右鍵新增方塊，按任意鍵盤按鍵會射向滑鼠)
+
+<sup><sub>💬物理模組輔助功能，按住Ctrl鍵時，可利用滑鼠右鍵新增地形；按住Alt鍵時，可利用滑鼠右鍵移除地形</sub></sup>
 
 --------------
 

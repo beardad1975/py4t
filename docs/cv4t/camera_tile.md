@@ -1,5 +1,9 @@
 # 🔰 視覺範例 - 電視牆
---------------
+
+### 🎦 範例影片
+
+<div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/584295868?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="camera_tile.mp4"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+
 ### 🏷️ 原理說明(灰階)
 
 在每一張取影的攝影機影像中，先將影像轉成灰階，並把影像縮小(150)，再利用多維陣列的拼貼功能，在直向與橫向兩個方向中，各拼貼4次，就做出了如同電視牆的效果。

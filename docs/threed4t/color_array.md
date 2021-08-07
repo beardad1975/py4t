@@ -1,5 +1,10 @@
 # 🔰 3D範例 - 彩色方陣
---------------
+
+### 🎦 範例影片
+
+
+<div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/584290650?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="color_array.mp4"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+
 ### 🏷️ 原理說明
 
 利用雙層for迴圈，沿著x軸與y軸方向，內層迴圈的次數會外層迴圈的索引改變，造成樓梯形狀的效果。
