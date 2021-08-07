@@ -193,7 +193,7 @@
   
     <li class="md-tabs__item">
       <a href="../turtle4t/" class="md-tabs__link md-tabs__link--active">
-        海龜繪圖
+        海龜
       </a>
     </li>
   
@@ -210,6 +210,22 @@
     <li class="md-tabs__item">
       <a href="../../pie4t/pie4t/" class="md-tabs__link">
         物理碰撞
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../threed4t/threed4t/" class="md-tabs__link">
+        3D
       </a>
     </li>
   
@@ -292,13 +308,13 @@
         <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" checked>
       
       <label class="md-nav__link" for="__nav_3">
-        海龜繪圖
+        海龜
         <span class="md-nav__icon md-icon"></span>
       </label>
-      <nav class="md-nav" aria-label="海龜繪圖" data-md-level="1">
+      <nav class="md-nav" aria-label="海龜" data-md-level="1">
         <label class="md-nav__title" for="__nav_3">
           <span class="md-nav__icon md-icon"></span>
-          海龜繪圖
+          海龜
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -365,20 +381,20 @@
       
         <li class="md-nav__item">
   <a href="#_1" class="md-nav__link">
-    🏷️ 說明
+    🏷️ 原理說明
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#py4t" class="md-nav__link">
+    📄 Py4t程式碼
   </a>
   
 </li>
       
         <li class="md-nav__item">
   <a href="#_2" class="md-nav__link">
-    📄 程式碼
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_3" class="md-nav__link">
     💻 執行截圖
   </a>
   
@@ -470,6 +486,72 @@
   
 
           
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../pie4t/shoot/" class="md-nav__link">
+        　🔰 射擊測試 範例
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../pie4t/gravity/" class="md-nav__link">
+        　🔰 操控重力 範例
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" >
+      
+      <label class="md-nav__link" for="__nav_5">
+        3D
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="3D" data-md-level="1">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          3D
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../threed4t/threed4t/" class="md-nav__link">
+        Ⓜ️ 模組說明
+      </a>
+    </li>
+  
+
+          
         </ul>
       </nav>
     </li>
@@ -503,20 +585,20 @@
       
         <li class="md-nav__item">
   <a href="#_1" class="md-nav__link">
-    🏷️ 說明
+    🏷️ 原理說明
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#py4t" class="md-nav__link">
+    📄 Py4t程式碼
   </a>
   
 </li>
       
         <li class="md-nav__item">
   <a href="#_2" class="md-nav__link">
-    📄 程式碼
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_3" class="md-nav__link">
     💻 執行截圖
   </a>
   
@@ -537,13 +619,13 @@
                 
                 <h1 id="-">🔰 海龜範例 - 畫出正多邊形</h1>
 <hr />
-<h4 id="_1">🏷️ 說明</h4>
+<h3 id="_1">🏷️ 原理說明</h3>
 <p>正多邊形的外角和都是360度，海龜在轉出一個角度的線條時，角度都是外角</p>
 <p><img alt="外角和" src="../external_angle.jpg" /></p>
 <p>利用這個外角的特性，我們先定義出正多邊形的函式(引數為長與邊)。</p>
 <p>利用for迴圈重複10次，即可連續畫出3邊形到12邊形</p>
 <hr />
-<h4 id="_2">📄 程式碼</h4>
+<h3 id="py4t">📄 Py4t程式碼</h3>
 <div class="highlight"><pre><span></span><code><span class="linenos" data-linenos=" 1 "></span><span class="kn">from</span> <span class="nn">海龜模組</span> <span class="kn">import</span> <span class="o">*</span>
 <span class="linenos" data-linenos=" 2 "></span>
 <span class="linenos" data-linenos=" 3 "></span><span class="k">def</span> <span class="nf">正多邊形</span><span class="p">(</span><span class="n">長</span><span class="p">,</span> <span class="n">邊</span><span class="p">):</span>
@@ -559,7 +641,7 @@
 <span class="linenos" data-linenos="13 "></span>    <span class="n">變數</span> <span class="o">+=</span> <span class="mi">1</span>
 </code></pre></div>
 <hr />
-<h4 id="_3">💻 執行截圖</h4>
+<h3 id="_2">💻 執行截圖</h3>
 <p><img alt="執行截圖" src="../regular_polygon.jpg" /></p>
                 
               
