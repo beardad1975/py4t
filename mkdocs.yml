@@ -16,6 +16,12 @@ markdown_extensions:
 
 nav:
   - Home: 'index.md'
+  - 關於: 
+    - 🟥 什麼是Py4t: 'about/about.md'
+    - 🟧 設計理念: 'about/idea.md'
+    - 🟨 軟體架構: 'about/architecture.md'
+    - 🟩 Q & A: 'about/qa.md'
+    - 🟦 感謝: 'about/acknowledge.md'
   - 下載: 'download.md'
   - 海龜: 
     - Ⓜ️ 模組說明 - 海龜: 'turtle4t/turtle4t.md'
@@ -48,6 +54,7 @@ nav:
 
 theme:
   name: material
+  custom_dir: overrides
   favicon: material/bridge
   icon:
     logo: material/bridge
