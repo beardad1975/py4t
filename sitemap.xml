@@ -6,12 +6,32 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://beardad1975.github.io/py4t/about/</loc>
+         <loc>https://beardad1975.github.io/py4t/download/</loc>
          <lastmod>2021-08-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://beardad1975.github.io/py4t/download/</loc>
+         <loc>https://beardad1975.github.io/py4t/about/about/</loc>
+         <lastmod>2021-08-09</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://beardad1975.github.io/py4t/about/acknowledge/</loc>
+         <lastmod>2021-08-09</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://beardad1975.github.io/py4t/about/architecture/</loc>
+         <lastmod>2021-08-09</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://beardad1975.github.io/py4t/about/idea/</loc>
+         <lastmod>2021-08-09</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://beardad1975.github.io/py4t/about/qa/</loc>
          <lastmod>2021-08-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
