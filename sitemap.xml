@@ -36,6 +36,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://beardad1975.github.io/py4t/activities/activities/</loc>
+         <lastmod>2021-08-10</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://beardad1975.github.io/py4t/comthink/comthink/</loc>
          <lastmod>2021-08-10</lastmod>
          <changefreq>daily</changefreq>
@@ -87,6 +92,11 @@
     </url>
     <url>
          <loc>https://beardad1975.github.io/py4t/pie4t/shoot/</loc>
+         <lastmod>2021-08-10</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://beardad1975.github.io/py4t/quickstart/quickstart/</loc>
          <lastmod>2021-08-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
