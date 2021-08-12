@@ -37,7 +37,7 @@
 
 ---------------
 
-### 📙 原始碼
+### 📙 模組原始碼
 
 排序撲克與搜尋猜數在:fontawesome-brands-github:github上的原始碼: [algorithm4t](https://github.com/beardad1975/algorithm4t)
 

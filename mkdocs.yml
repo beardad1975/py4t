@@ -17,18 +17,25 @@ markdown_extensions:
 nav:
   - Home: 'index.md'
   - 關於: 
-    - 🟥 什麼是Py4t: 'about/about.md'
-    - 🟧 設計理念: 'about/idea.md'
-    - 🟨 軟體架構: 'about/architecture.md'
-    - 🟩 Q & A: 'about/qa.md'
-    - 🟦 感謝: 'about/acknowledge.md'
+    - ❤️ 計畫緣由: 'about/about.md'
+    - 🧡 設計理念: 'about/idea.md'
+    - 💛 軟體架構: 'about/architecture.md'
+    - 💚 Q & A: 'about/qa.md'
+    - 💙 感謝: 'about/acknowledge.md'
   - 下載: 'download.md'
+  - 快速入門: 'quickstart/quickstart.md'
   - 海龜: 
     - Ⓜ️ 模組說明 - 海龜: 'turtle4t/turtle4t.md'
     - 　🔰 正方形 範例: 'turtle4t/draw_square.md'
     - 　🔰 正多邊形 範例: 'turtle4t/regular_polygon.md'  
     - 　🔰 螺旋形 範例: 'turtle4t/spiral.md'
     - 　🔰 碎形樹 範例: 'turtle4t/fractal_tree.md'
+
+  - 運算思維:
+    - Ⓜ️ 模組說明 - 運算思維: 'comthink/comthink.md'
+    - 　🔰 排序撲克 範例: 'comthink/poker_sort.md'
+    - 　🔰 搜尋猜數 範例: 'comthink/search_guess.md'
+
   - 物理:
     - Ⓜ️ 模組說明 - 物理: 'pie4t/pie4t.md'
     - 　🔰 無摩擦力 範例: 'pie4t/frictionless.md'
@@ -46,12 +53,13 @@ nav:
     - 　🔰 影像格線 範例: 'cv4t/camera_slice.md'
     - 　🔰 電視牆 範例: 'cv4t/camera_tile.md'
 
-  - 運算思維:
-    - Ⓜ️ 模組說明 - 運算思維: 'comthink/comthink.md'
-    - 　🔰 排序撲克 範例: 'comthink/poker_sort.md'
-    - 　🔰 搜尋猜數 範例: 'comthink/search_guess.md'
+  - 語音:
+    - Ⓜ️ 模組說明 - 語音與聲音: 'sound_and_speech/sound_and_speech.md'
+    - 　🔰 文字轉語音 範例: 'sound_and_speech/tts.md'
+    - 　🔰 語音辨識 範例: 'sound_and_speech/speech_recog.md'  
 
-
+  - 推廣研習:
+    - 推廣: 'activities/activities.md'
 theme:
   name: material
   custom_dir: overrides
