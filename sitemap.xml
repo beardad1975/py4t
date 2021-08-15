@@ -41,6 +41,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://beardad1975.github.io/py4t/about/user_feedback/</loc>
+         <lastmod>2021-08-15</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://beardad1975.github.io/py4t/comthink/comthink/</loc>
          <lastmod>2021-08-15</lastmod>
          <changefreq>daily</changefreq>
@@ -96,7 +101,12 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://beardad1975.github.io/py4t/quickstart/quickstart/</loc>
+         <loc>https://beardad1975.github.io/py4t/self_study/</loc>
+         <lastmod>2021-08-15</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://beardad1975.github.io/py4t/self_study/quick_start/</loc>
          <lastmod>2021-08-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
