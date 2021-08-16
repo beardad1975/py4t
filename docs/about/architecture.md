@@ -1,8 +1,8 @@
-# Py4t的程式架構
+# 💛 軟體架構
 
 「**Thonny編輯器**」再加上「**便利貼與學習模組的外掛**」，就成為了Py4t(或可稱為ThonnyPy4t)。
 
-Thonny來自愛沙尼亞塔爾圖大學，並在CyberneticaAS、樹莓派基金會及開源社區的支援下開發。是一個適合初學者的Python編輯器，有中文的使用介面(i18n)，並附有一個內建的Python直譯器，相當方便。在許多熱心人士的開發下，不斷有新的版本，除了Python語法，對MicroPython的支援也相當的優異。
+Thonny來自愛沙尼亞塔爾圖大學，並在CyberneticaAS、樹莓派基金會及開源社區的支援下開發。是一個適合初學者的:fontawesome-brands-python:Python編輯器，有中文的使用介面(i18n)，並附有一個內建的Python直譯器，相當方便。在許多熱心人士的開發下，不斷有新的版本，除了Python語法，對MicroPython的支援也相當的優異。
 
 ![Py4t軟體架構](architecture.jpg)
 
