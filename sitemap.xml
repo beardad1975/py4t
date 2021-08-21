@@ -116,6 +116,16 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://beardad1975.github.io/py4t/self_study/tutorial_algorithm/</loc>
+         <lastmod>2021-08-21</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://beardad1975.github.io/py4t/self_study/tutorial_cv/</loc>
+         <lastmod>2021-08-21</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://beardad1975.github.io/py4t/sound_and_speech/sound_and_speech/</loc>
          <lastmod>2021-08-21</lastmod>
          <changefreq>daily</changefreq>
