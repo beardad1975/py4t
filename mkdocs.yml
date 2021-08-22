@@ -25,11 +25,12 @@ nav:
     - 💜 問答Q&A: 'about/qa.md'
     - ❤️ 銘謝: 'about/acknowledge.md'
   - 下載: 'download.md'
-  - Py4t自學: 
-    - 🕛 自學索引: 'self_study/index.md'
-    - 🕒 快速入門: 'self_study/quick_start.md'
-    - 🕕 3D模擬: 'self_study/tutorial_3d.md'
-    - 🕘 視覺影像: 'self_study/tutorial_cv.md'
+  - 自學Py4t: 
+    - 📚 自學索引: 'self_study/index.md'
+    - 　🕒 快速入門: 'self_study/quick_start.md'
+    - 　🕕 3D模擬: 'self_study/tutorial_3d.md'
+    - 　🕘 視覺影像: 'self_study/tutorial_cv.md'
+    - 　🕛 演算法: 'self_study/tutorial_algorithm.md'
   - 海龜: 
     - Ⓜ️ 模組說明 - 海龜: 'turtle4t/turtle4t.md'
     - 　🔰 正方形 範例: 'turtle4t/draw_square.md' 
