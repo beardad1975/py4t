@@ -14,9 +14,8 @@ Scratch是一個很棒的程式入門工具，讓學習者可以從有趣的遊�
 
 :fontawesome-brands-python:Python是簡易且強大的文字語言。從Scratch中學習到的知識與能力，在學習Python時都可以用類比的方式將「**程式經驗遷移**」過來。
 
-舉例說明，以下是兩者在條件與重複結構的比較
 
-![條件與重複](scratch2py_if_for.jpg)
+兩者語法的差異，請參考[Scratch 與 Python 語法比較](../self_study/scratch_python_compare.md)
 
 
 
@@ -66,5 +65,15 @@ Py4t在學習橋接的考量下，不管是在範例或是學習模組上，大�
 為了吸引青少年的學習者，讓他(她)們以有趣新奇的方式學習程式，以具體化的方式呈現抽象的數字與邏輯，並了解程式在科技中的各種應用，Py4t把許多Python成熟的函式庫包裝成「**學習模組**」。
 
 目前Py4t的學習模組有海龜幾何繪圖、物理碰撞、3D模擬、視覺影像與運算思維…等。
+
+
+|   Py4t 學習模組               |                            |
+| :-----------                    | :------------------------------------            |
+|  [ Ⓜ️ 海龜繪圖 ](../turtle4t/turtle4t.md)  |  [ Ⓜ️ 運算思維 ](../comthink/comthink.md)      |
+|  [ Ⓜ️ 物理碰撞 ](../pie4t/pie4t.md)  |  [ Ⓜ️ 3D模擬 ](../threed4t/threed4t.md)     |
+|  [ Ⓜ️ 視覺影像 ](../cv4t/cv4t.md)  |  [ Ⓜ️ 簡易語音 ](../sound_and_speech/sound_and_speech.md)     |
+
+
+
 
 ---------------

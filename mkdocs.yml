@@ -31,6 +31,7 @@ nav:
     - 　🕕 3D模擬: 'self_study/tutorial_3d.md'
     - 　🕘 視覺影像: 'self_study/tutorial_cv.md'
     - 　🕛 演算法: 'self_study/tutorial_algorithm.md'
+    - 📄 Scratch與Python語法對照: 'self_study/scratch_python_compare.md'
   - 海龜: 
     - Ⓜ️ 模組說明 - 海龜: 'turtle4t/turtle4t.md'
     - 　🔰 正方形 範例: 'turtle4t/draw_square.md' 
