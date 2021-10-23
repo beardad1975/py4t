@@ -26,6 +26,22 @@
 
 -------------------------------------------
 
+### 🔰 魔術方塊3D模型
+
+> 教學內容:
+
+> - 投影機與座標
+> - 立方體6面材質貼圖
+> - 3層迴圈
+ 
+> 教學影片: 
+
+> - 共23分19秒，取自2021-09-14線上增能研習
+
+<iframe width="949" height="534" src="https://www.youtube.com/embed/loPrAgTY1ho" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+-------------------------------------------
+
 ### 🔰 彩色方陣
 
 > 教學內容:

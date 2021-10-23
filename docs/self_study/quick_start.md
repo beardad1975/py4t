@@ -35,4 +35,20 @@
 <iframe width="949" height="534" src="https://www.youtube.com/embed/ZQlEFzMAvPg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
+-------------------------------------------------
 
+### 🔰 正多邊形
+
+> 教學內容:
+
+> - 程式實作: 正多邊形
+> - for迴圈與函式
+> - 歸納與演繹
+> - 程式設計法則DRY
+> - 文字轉語音
+ 
+> 教學影片: 
+
+> - 共36分36秒
+
+<iframe width="949" height="534" src="https://www.youtube.com/embed/qKEZXx2wSUU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
