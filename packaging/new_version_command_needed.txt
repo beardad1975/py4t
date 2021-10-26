@@ -1,0 +1,23 @@
+
+[each package]
+python setup.py sdist bdist_wheel
+twine upload dist/*
+
+[thonny-postit]
+change VERSION (same as py4t)
+
+
+[packing to exe] (not in virtualenv)
+requirements-py4t.txt
+PY4T_VERSION
+PY4T_IN_PYTHON_PACKAGE.txt
+create_installer.bat( thonny install version)
+
+
+[git hub ]
+git tag -a v1.4
+git push origin v1.5
+
+draft new release version
+mkdocs (need in virtualenv)
+
