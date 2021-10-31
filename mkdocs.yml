@@ -20,11 +20,13 @@ nav:
     - ❤️ 計畫緣由: 'about/about.md'
     - 🧡 設計理念: 'about/idea.md'
     - 💛 軟體架構: 'about/architecture.md'
-    - 💚 推廣紀錄: 'about/activities.md'
-    - 💙 使用回饋: 'about/user_feedback.md'
     - 💜 問答Q&A: 'about/qa.md'
     - ❤️ 銘謝: 'about/acknowledge.md'
   - 下載: 'download.md'
+  - 推廣使用: 
+    - 💚 活動紀錄: 'promotion/activities.md'
+    - 💙 使用回饋: 'promotion/user_feedback.md' 
+    - 🧡 課堂教學: 'promotion/teaching.md'   
   - 自學Py4t: 
     - 📚 自學索引: 'self_study/index.md'
     - 　🕒 快速入門: 'self_study/quick_start.md'
@@ -38,6 +40,7 @@ nav:
     - 　🔰 正多邊形 範例: 'turtle4t/regular_polygon.md'  
     - 　🔰 螺旋形 範例: 'turtle4t/spiral.md'
     - 　🔰 碎形樹 範例: 'turtle4t/fractal_tree.md'
+    - 　🔰 國旗 範例: 'turtle4t/roc_flag.md'
 
   - 運算思維:
     - Ⓜ️ 模組說明 - 運算思維: 'comthink/comthink.md'
@@ -54,6 +57,7 @@ nav:
     - 　🔰 3D方塊 範例: 'threed4t/first_3d.md'
     - 　🔰 彩色方陣 範例: 'threed4t/color_array.md'
     - 　🔰 彩色螺旋 範例: 'threed4t/color_spiral.md'
+    - 　🔰 太陽系 範例: 'threed4t/solar_system.md'
 
   - 視覺:
     - Ⓜ️ 模組說明 - 視覺: 'cv4t/cv4t.md'
