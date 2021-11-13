@@ -23,11 +23,11 @@ nav:
     - 💜 問答Q&A: 'about/qa.md'
     - ❤️ 銘謝: 'about/acknowledge.md'
   - 下載: 'download.md'
-  - 推廣使用: 
-    - 💚 活動紀錄: 'promotion/activities.md'
+  - 教學推廣: 
+    - 💚 推廣紀錄: 'promotion/activities.md'
     - 💙 使用回饋: 'promotion/user_feedback.md' 
-    - 🧡 課堂教學: 'promotion/teaching.md'   
-  - 自學Py4t: 
+    - 🧡 教學資料: 'promotion/teaching.md'   
+  - 影片自學: 
     - 📚 自學索引: 'self_study/index.md'
     - 　🕒 快速入門: 'self_study/quick_start.md'
     - 　🕕 3D模擬: 'self_study/tutorial_3d.md'
