@@ -6,9 +6,9 @@ hide:
 
 # thonnyPy4t 安裝檔 (:fontawesome-brands-windows:Windows版本)
 
-[🔽 py4t v0.9安裝檔](https://github.com/beardad1975/py4t/releases/download/v0.9/thonnyPy4t-0.9.exe) 
+[🔽 py4t v0.10安裝檔](https://github.com/beardad1975/py4t/releases/download/v0.10/thonnyPy4t-0.10.exe) 
 
-> - 於2021-10-26封裝
+> - 於2021-11-16封裝
 
 > - 安裝時若出現[Defender SmartScreen訊息](assets/images/smart_screen.jpg)，可點選 [ 其他資訊 ]，[ 仍要執行 ]，來進行安裝
 
@@ -17,9 +17,9 @@ hide:
 ---------------
 
 
-[⏪ py4t v0.8安裝檔](https://github.com/beardad1975/py4t/releases/download/v0.8/thonnyPy4t-0.8.exe) 
+[⏪ py4t v0.9安裝檔](https://github.com/beardad1975/py4t/releases/download/v0.9/thonnyPy4t-0.9.exe) 
 
-> - 於2021-07-25封裝
+> - 於2021-10-26封裝
 
 
 
