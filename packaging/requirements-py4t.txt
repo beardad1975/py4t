@@ -1,4 +1,4 @@
-thonny-postit==0.10
+thonny-postit==0.11
 pie4t==0.0.8
 turtle4t==0.0.3
 threed4t==0.0.3

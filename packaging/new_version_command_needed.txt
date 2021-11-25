@@ -1,6 +1,7 @@
 ***2021/11/15 build exe error : imutils (could be opencv-python version4.5.4.58)
 
 [each package]
+change version in setup.py 
 python setup.py sdist bdist_wheel
 twine upload dist/*
 

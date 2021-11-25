@@ -2697,15 +2697,15 @@ Creating setup files
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\cryptography\x509\ocsp.py
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\cryptography\x509\oid.py
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\cryptography\x509\__init__.py
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\cryptography-35.0.0.dist-info\INSTALLER
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\cryptography-35.0.0.dist-info\LICENSE
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\cryptography-35.0.0.dist-info\LICENSE.APACHE
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\cryptography-35.0.0.dist-info\LICENSE.BSD
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\cryptography-35.0.0.dist-info\LICENSE.PSF
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\cryptography-35.0.0.dist-info\METADATA
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\cryptography-35.0.0.dist-info\RECORD
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\cryptography-35.0.0.dist-info\top_level.txt
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\cryptography-35.0.0.dist-info\WHEEL
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\cryptography-36.0.0.dist-info\INSTALLER
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\cryptography-36.0.0.dist-info\LICENSE
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\cryptography-36.0.0.dist-info\LICENSE.APACHE
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\cryptography-36.0.0.dist-info\LICENSE.BSD
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\cryptography-36.0.0.dist-info\LICENSE.PSF
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\cryptography-36.0.0.dist-info\METADATA
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\cryptography-36.0.0.dist-info\RECORD
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\cryptography-36.0.0.dist-info\top_level.txt
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\cryptography-36.0.0.dist-info\WHEEL
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\cv2\cv2.cp37-win32.pyd
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\cv2\LICENSE-3RD-PARTY.txt
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\cv2\LICENSE.txt
@@ -3610,6 +3610,7 @@ Creating setup files
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\inference\cache.py
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\inference\context.py
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\inference\docstrings.py
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\inference\docstring_utils.py
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\inference\dynamic_params.py
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\inference\filters.py
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\inference\finder.py
@@ -4144,6 +4145,7 @@ Creating setup files
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2\ast.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2\atexit.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2\BaseHTTPServer.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2\builtins.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2\CGIHTTPServer.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2\collections.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2\commands.pyi
@@ -4182,12 +4184,14 @@ Creating setup files
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2\md5.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2\mimetools.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2\mutex.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2\ntpath.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2\nturl2path.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2\os2emxpath.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2\pipes.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2\platform.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2\popen2.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2\posix.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2\posixpath.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2\Queue.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2\random.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2\re.pyi
@@ -4247,9 +4251,58 @@ Creating setup files
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2\_struct.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2\_symtable.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2\_threading_local.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2\_winreg.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2\__builtin__.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2\distutils\archive_util.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2\distutils\bcppcompiler.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2\distutils\ccompiler.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2\distutils\cmd.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2\distutils\config.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2\distutils\core.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2\distutils\cygwinccompiler.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2\distutils\debug.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2\distutils\dep_util.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2\distutils\dir_util.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2\distutils\dist.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2\distutils\emxccompiler.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2\distutils\errors.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2\distutils\extension.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2\distutils\fancy_getopt.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2\distutils\filelist.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2\distutils\file_util.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2\distutils\log.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2\distutils\msvccompiler.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2\distutils\spawn.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2\distutils\sysconfig.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2\distutils\text_file.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2\distutils\unixccompiler.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2\distutils\util.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2\distutils\version.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2\distutils\__init__.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2\distutils\command\bdist.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2\distutils\command\bdist_dumb.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2\distutils\command\bdist_msi.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2\distutils\command\bdist_packager.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2\distutils\command\bdist_rpm.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2\distutils\command\bdist_wininst.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2\distutils\command\build.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2\distutils\command\build_clib.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2\distutils\command\build_ext.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2\distutils\command\build_py.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2\distutils\command\build_scripts.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2\distutils\command\check.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2\distutils\command\clean.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2\distutils\command\config.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2\distutils\command\install.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2\distutils\command\install_data.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2\distutils\command\install_egg_info.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2\distutils\command\install_headers.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2\distutils\command\install_lib.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2\distutils\command\install_scripts.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2\distutils\command\register.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2\distutils\command\sdist.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2\distutils\command\upload.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2\distutils\command\__init__.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2\email\base64mime.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2\email\charset.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2\email\encoders.pyi
@@ -4284,6 +4337,7 @@ Creating setup files
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2\os\path.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2\os\__init__.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\aifc.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\antigravity.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\argparse.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\array.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\asynchat.pyi
@@ -4294,7 +4348,6 @@ Creating setup files
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\binascii.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\binhex.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\bisect.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\builtins.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\bz2.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\calendar.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\cgi.pyi
@@ -4316,6 +4369,7 @@ Creating setup files
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\difflib.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\dis.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\doctest.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\dummy_threading.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\errno.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\filecmp.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\fileinput.pyi
@@ -4338,20 +4392,20 @@ Creating setup files
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\mimetypes.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\mmap.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\modulefinder.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\msvcrt.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\netrc.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\nis.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\ntpath.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\numbers.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\opcode.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\operator.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\optparse.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\parser.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\pdb.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\pickle.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\pickletools.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\pkgutil.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\plistlib.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\poplib.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\posixpath.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\pprint.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\profile.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\pstats.pyi
@@ -4382,6 +4436,7 @@ Creating setup files
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\tarfile.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\telnetlib.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\termios.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\this.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\threading.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\time.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\timeit.pyi
@@ -4397,6 +4452,7 @@ Creating setup files
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\wave.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\weakref.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\webbrowser.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\winsound.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\xdrlib.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\zipfile.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\zipimport.pyi
@@ -4405,7 +4461,9 @@ Creating setup files
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\_codecs.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\_csv.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\_curses.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\_dummy_threading.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\_heapq.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\_msi.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\_random.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\_warnings.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\_weakref.pyi
@@ -4418,52 +4476,6 @@ Creating setup files
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\curses\panel.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\curses\textpad.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\curses\__init__.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\distutils\archive_util.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\distutils\bcppcompiler.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\distutils\ccompiler.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\distutils\cmd.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\distutils\core.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\distutils\cygwinccompiler.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\distutils\debug.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\distutils\dep_util.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\distutils\dir_util.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\distutils\dist.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\distutils\errors.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\distutils\extension.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\distutils\fancy_getopt.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\distutils\filelist.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\distutils\file_util.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\distutils\log.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\distutils\msvccompiler.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\distutils\spawn.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\distutils\sysconfig.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\distutils\text_file.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\distutils\unixccompiler.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\distutils\util.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\distutils\version.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\distutils\__init__.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\distutils\command\bdist.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\distutils\command\bdist_dumb.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\distutils\command\bdist_msi.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\distutils\command\bdist_packager.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\distutils\command\bdist_rpm.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\distutils\command\bdist_wininst.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\distutils\command\build.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\distutils\command\build_clib.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\distutils\command\build_ext.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\distutils\command\build_py.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\distutils\command\build_scripts.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\distutils\command\check.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\distutils\command\clean.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\distutils\command\config.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\distutils\command\install.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\distutils\command\install_data.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\distutils\command\install_headers.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\distutils\command\install_lib.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\distutils\command\install_scripts.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\distutils\command\register.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\distutils\command\sdist.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\distutils\command\__init__.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\ensurepip\__init__.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\lib2to3\pygram.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\lib2to3\pytree.pyi
@@ -4479,6 +4491,12 @@ Creating setup files
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\logging\config.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\logging\handlers.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\logging\__init__.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\msilib\schema.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\msilib\sequence.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\msilib\text.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\msilib\__init__.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\pydoc_data\topics.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\pydoc_data\__init__.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\pyexpat\errors.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\pyexpat\model.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\pyexpat\__init__.pyi
@@ -4492,6 +4510,14 @@ Creating setup files
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\wsgiref\validate.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\wsgiref\__init__.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\xml\__init__.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\xml\dom\domreg.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\xml\dom\expatbuilder.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\xml\dom\minicompat.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\xml\dom\minidom.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\xml\dom\NodeFilter.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\xml\dom\pulldom.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\xml\dom\xmlbuilder.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\xml\dom\__init__.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\xml\etree\cElementTree.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\xml\etree\ElementInclude.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\xml\etree\ElementPath.pyi
@@ -4505,9 +4531,13 @@ Creating setup files
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\xml\sax\saxutils.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\xml\sax\xmlreader.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\xml\sax\__init__.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\_typeshed\wsgi.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\_typeshed\xml.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\_typeshed\__init__.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\abc.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\ast.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\atexit.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\builtins.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\compileall.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\configparser.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\copyreg.pyi
@@ -4530,19 +4560,22 @@ Creating setup files
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\ipaddress.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\itertools.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\lzma.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\msvcrt.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\macurl2path.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\nntplib.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\ntpath.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\nturl2path.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\pathlib.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\pipes.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\platform.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\posix.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\posixpath.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\queue.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\random.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\re.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\reprlib.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\resource.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\runpy.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\secrets.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\selectors.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\shelve.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\shlex.pyi
@@ -4564,38 +4597,57 @@ Creating setup files
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\tracemalloc.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\types.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\typing.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\winreg.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\xxlimited.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\zipapp.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\_ast.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\_bootlocale.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\_compat_pickle.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\_compression.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\_decimal.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\_dummy_thread.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\_imp.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\_importlib_modulespec.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\_json.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\_markupbase.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\_operator.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\_osx_support.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\_posixsubprocess.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\_pydecimal.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\_sitebuiltins.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\_stat.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\_subprocess.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\_thread.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\_threading_local.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\_tkinter.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\_tracemalloc.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\_winapi.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\asyncio\base_events.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\asyncio\base_futures.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\asyncio\base_subprocess.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\asyncio\base_tasks.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\asyncio\compat.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\asyncio\constants.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\asyncio\coroutines.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\asyncio\events.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\asyncio\exceptions.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\asyncio\format_helpers.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\asyncio\futures.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\asyncio\locks.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\asyncio\log.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\asyncio\proactor_events.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\asyncio\protocols.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\asyncio\queues.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\asyncio\runners.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\asyncio\selector_events.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\asyncio\sslproto.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\asyncio\staggered.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\asyncio\streams.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\asyncio\subprocess.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\asyncio\tasks.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\asyncio\threads.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\asyncio\transports.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\asyncio\trsock.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\asyncio\unix_events.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\asyncio\windows_events.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\asyncio\windows_utils.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\asyncio\__init__.pyi
@@ -4606,6 +4658,59 @@ Creating setup files
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\concurrent\futures\thread.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\concurrent\futures\_base.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\concurrent\futures\__init__.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\dbm\dumb.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\dbm\gnu.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\dbm\ndbm.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\dbm\__init__.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\distutils\archive_util.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\distutils\bcppcompiler.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\distutils\ccompiler.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\distutils\cmd.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\distutils\config.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\distutils\core.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\distutils\cygwinccompiler.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\distutils\debug.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\distutils\dep_util.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\distutils\dir_util.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\distutils\dist.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\distutils\errors.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\distutils\extension.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\distutils\fancy_getopt.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\distutils\filelist.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\distutils\file_util.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\distutils\log.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\distutils\msvccompiler.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\distutils\spawn.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\distutils\sysconfig.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\distutils\text_file.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\distutils\unixccompiler.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\distutils\util.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\distutils\version.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\distutils\__init__.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\distutils\command\bdist.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\distutils\command\bdist_dumb.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\distutils\command\bdist_msi.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\distutils\command\bdist_packager.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\distutils\command\bdist_rpm.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\distutils\command\bdist_wininst.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\distutils\command\build.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\distutils\command\build_clib.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\distutils\command\build_ext.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\distutils\command\build_py.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\distutils\command\build_scripts.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\distutils\command\check.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\distutils\command\clean.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\distutils\command\config.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\distutils\command\install.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\distutils\command\install_data.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\distutils\command\install_egg_info.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\distutils\command\install_headers.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\distutils\command\install_lib.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\distutils\command\install_scripts.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\distutils\command\register.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\distutils\command\sdist.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\distutils\command\upload.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\distutils\command\__init__.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\email\charset.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\email\contentmanager.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\email\encoders.pyi
@@ -4647,6 +4752,7 @@ Creating setup files
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\importlib\__init__.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\json\decoder.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\json\encoder.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\json\tool.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\json\__init__.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\multiprocessing\connection.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\multiprocessing\context.pyi
@@ -4654,6 +4760,7 @@ Creating setup files
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\multiprocessing\pool.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\multiprocessing\process.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\multiprocessing\queues.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\multiprocessing\sharedctypes.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\multiprocessing\shared_memory.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\multiprocessing\spawn.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\multiprocessing\synchronize.pyi
@@ -4666,12 +4773,14 @@ Creating setup files
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\tkinter\constants.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\tkinter\dialog.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\tkinter\filedialog.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\tkinter\font.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\tkinter\messagebox.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\tkinter\ttk.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\tkinter\__init__.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\unittest\async_case.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\unittest\case.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\unittest\loader.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\unittest\main.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\unittest\mock.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\unittest\result.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\unittest\runner.pyi
@@ -4685,11 +4794,16 @@ Creating setup files
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\urllib\response.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\urllib\robotparser.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\urllib\__init__.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3.6\secrets.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\venv\__init__.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\xmlrpc\client.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\xmlrpc\server.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3\xmlrpc\__init__.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3.7\contextvars.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3.7\dataclasses.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3.7\_py_abc.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3.9\graphlib.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\stdlib\3.9\zoneinfo\__init__.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2\enum.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2\gflags.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2\ipaddress.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2\pathlib2.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2\pymssql.pyi
@@ -4716,6 +4830,7 @@ Creating setup files
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2\six\__init__.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2\six\moves\BaseHTTPServer.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2\six\moves\CGIHTTPServer.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2\six\moves\collections_abc.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2\six\moves\configparser.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2\six\moves\cPickle.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2\six\moves\email_mime_base.pyi
@@ -4763,12 +4878,14 @@ Creating setup files
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\backports_abc.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\certifi.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\croniter.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\dateparser.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\decorator.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\emoji.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\first.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\gflags.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\itsdangerous.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\mock.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\mypy_extensions.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\polib.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\pycurl.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\pyre_extensions.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\singledispatch.pyi
@@ -4782,6 +4899,7 @@ Creating setup files
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\attr\exceptions.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\attr\filters.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\attr\validators.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\attr\_version_info.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\attr\__init__.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\backports\ssl_match_hostname.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\backports\__init__.pyi
@@ -4821,7 +4939,27 @@ Creating setup files
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\boto\s3\user.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\boto\s3\website.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\boto\s3\__init__.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\cachetools\abc.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\cachetools\cache.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\cachetools\decorators.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\cachetools\func.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\cachetools\lfu.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\cachetools\lru.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\cachetools\rr.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\cachetools\ttl.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\cachetools\__init__.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\characteristic\__init__.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\chardet\enums.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\chardet\langbulgarianmodel.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\chardet\langcyrillicmodel.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\chardet\langgreekmodel.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\chardet\langhebrewmodel.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\chardet\langhungarianmodel.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\chardet\langthaimodel.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\chardet\langturkishmodel.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\chardet\universaldetector.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\chardet\version.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\chardet\__init__.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\click\core.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\click\decorators.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\click\exceptions.pyi
@@ -4834,64 +4972,8 @@ Creating setup files
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\click\utils.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\click\_termui_impl.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\click\__init__.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\Crypto\pct_warnings.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\Crypto\__init__.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\Crypto\Cipher\AES.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\Crypto\Cipher\ARC2.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\Crypto\Cipher\ARC4.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\Crypto\Cipher\blockalgo.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\Crypto\Cipher\Blowfish.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\Crypto\Cipher\CAST.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\Crypto\Cipher\DES.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\Crypto\Cipher\DES3.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\Crypto\Cipher\PKCS1_OAEP.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\Crypto\Cipher\PKCS1_v1_5.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\Crypto\Cipher\XOR.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\Crypto\Cipher\__init__.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\Crypto\Hash\hashalgo.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\Crypto\Hash\HMAC.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\Crypto\Hash\MD2.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\Crypto\Hash\MD4.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\Crypto\Hash\MD5.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\Crypto\Hash\RIPEMD.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\Crypto\Hash\SHA.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\Crypto\Hash\SHA224.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\Crypto\Hash\SHA256.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\Crypto\Hash\SHA384.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\Crypto\Hash\SHA512.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\Crypto\Hash\__init__.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\Crypto\Protocol\AllOrNothing.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\Crypto\Protocol\Chaffing.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\Crypto\Protocol\KDF.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\Crypto\Protocol\__init__.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\Crypto\PublicKey\DSA.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\Crypto\PublicKey\ElGamal.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\Crypto\PublicKey\pubkey.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\Crypto\PublicKey\RSA.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\Crypto\PublicKey\__init__.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\Crypto\Random\random.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\Crypto\Random\__init__.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\Crypto\Random\Fortuna\FortunaAccumulator.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\Crypto\Random\Fortuna\FortunaGenerator.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\Crypto\Random\Fortuna\SHAd256.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\Crypto\Random\Fortuna\__init__.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\Crypto\Random\OSRNG\fallback.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\Crypto\Random\OSRNG\posix.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\Crypto\Random\OSRNG\rng_base.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\Crypto\Random\OSRNG\__init__.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\Crypto\Signature\PKCS1_PSS.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\Crypto\Signature\PKCS1_v1_5.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\Crypto\Signature\__init__.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\Crypto\Util\asn1.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\Crypto\Util\Counter.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\Crypto\Util\number.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\Crypto\Util\randpool.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\Crypto\Util\RFC1751.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\Crypto\Util\strxor.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\Crypto\Util\__init__.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\cryptography\exceptions.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\cryptography\fernet.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\cryptography\x509.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\cryptography\__init__.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\cryptography\hazmat\__init__.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\cryptography\hazmat\backends\interfaces.pyi
@@ -4934,6 +5016,11 @@ Creating setup files
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\cryptography\hazmat\primitives\twofactor\hotp.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\cryptography\hazmat\primitives\twofactor\totp.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\cryptography\hazmat\primitives\twofactor\__init__.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\cryptography\x509\extensions.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\cryptography\x509\oid.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\cryptography\x509\__init__.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\datetimerange\__init__.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\dateutil\easter.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\dateutil\parser.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\dateutil\relativedelta.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\dateutil\rrule.pyi
@@ -4943,6 +5030,12 @@ Creating setup files
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\dateutil\tz\tz.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\dateutil\tz\_common.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\dateutil\tz\__init__.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\deprecated\classic.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\deprecated\sphinx.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\deprecated\__init__.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\emoji\core.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\emoji\unicode_codes.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\emoji\__init__.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\flask\app.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\flask\blueprints.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\flask\cli.pyi
@@ -4969,7 +5062,6 @@ Creating setup files
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\geoip2\__init__.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\google\__init__.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\google\protobuf\any_pb2.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\google\protobuf\any_test_pb2.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\google\protobuf\api_pb2.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\google\protobuf\descriptor.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\google\protobuf\descriptor_pb2.pyi
@@ -4978,8 +5070,6 @@ Creating setup files
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\google\protobuf\empty_pb2.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\google\protobuf\field_mask_pb2.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\google\protobuf\json_format.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\google\protobuf\map_proto2_unittest_pb2.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\google\protobuf\map_unittest_pb2.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\google\protobuf\message.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\google\protobuf\message_factory.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\google\protobuf\reflection.pyi
@@ -4987,21 +5077,8 @@ Creating setup files
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\google\protobuf\source_context_pb2.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\google\protobuf\struct_pb2.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\google\protobuf\symbol_database.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\google\protobuf\test_messages_proto2_pb2.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\google\protobuf\test_messages_proto3_pb2.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\google\protobuf\timestamp_pb2.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\google\protobuf\type_pb2.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\google\protobuf\unittest_arena_pb2.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\google\protobuf\unittest_custom_options_pb2.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\google\protobuf\unittest_import_pb2.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\google\protobuf\unittest_import_public_pb2.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\google\protobuf\unittest_mset_pb2.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\google\protobuf\unittest_mset_wire_format_pb2.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\google\protobuf\unittest_no_arena_import_pb2.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\google\protobuf\unittest_no_arena_pb2.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\google\protobuf\unittest_no_generic_services_pb2.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\google\protobuf\unittest_pb2.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\google\protobuf\unittest_proto3_arena_pb2.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\google\protobuf\wrappers_pb2.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\google\protobuf\__init__.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\google\protobuf\compiler\plugin_pb2.pyi
@@ -5010,11 +5087,12 @@ Creating setup files
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\google\protobuf\internal\decoder.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\google\protobuf\internal\encoder.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\google\protobuf\internal\enum_type_wrapper.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\google\protobuf\internal\extension_dict.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\google\protobuf\internal\message_listener.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\google\protobuf\internal\python_message.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\google\protobuf\internal\well_known_types.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\google\protobuf\internal\wire_format.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\google\protobuf\internal\__init__.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\google\protobuf\util\json_format_proto3_pb2.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\google\protobuf\util\__init__.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\jinja2\bccache.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\jinja2\compiler.pyi
@@ -5039,6 +5117,37 @@ Creating setup files
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\jinja2\_compat.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\jinja2\_stringdefs.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\jinja2\__init__.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\markdown\blockparser.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\markdown\blockprocessors.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\markdown\core.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\markdown\inlinepatterns.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\markdown\pep562.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\markdown\postprocessors.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\markdown\preprocessors.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\markdown\serializers.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\markdown\treeprocessors.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\markdown\util.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\markdown\__init__.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\markdown\__meta__.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\markdown\extensions\abbr.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\markdown\extensions\admonition.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\markdown\extensions\attr_list.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\markdown\extensions\codehilite.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\markdown\extensions\def_list.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\markdown\extensions\extra.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\markdown\extensions\fenced_code.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\markdown\extensions\footnotes.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\markdown\extensions\legacy_attrs.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\markdown\extensions\legacy_em.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\markdown\extensions\md_in_html.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\markdown\extensions\meta.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\markdown\extensions\nl2br.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\markdown\extensions\sane_lists.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\markdown\extensions\smarty.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\markdown\extensions\tables.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\markdown\extensions\toc.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\markdown\extensions\wikilinks.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\markdown\extensions\__init__.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\markupsafe\_compat.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\markupsafe\_constants.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\markupsafe\_native.pyi
@@ -5051,6 +5160,53 @@ Creating setup files
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\maxminddb\extension.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\maxminddb\reader.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\maxminddb\__init__.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\nmap\nmap.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\nmap\__init__.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\paramiko\agent.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\paramiko\auth_handler.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\paramiko\ber.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\paramiko\buffered_pipe.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\paramiko\channel.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\paramiko\client.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\paramiko\common.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\paramiko\compress.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\paramiko\config.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\paramiko\dsskey.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\paramiko\ecdsakey.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\paramiko\ed25519key.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\paramiko\file.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\paramiko\hostkeys.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\paramiko\kex_curve25519.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\paramiko\kex_ecdh_nist.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\paramiko\kex_gex.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\paramiko\kex_group1.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\paramiko\kex_group14.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\paramiko\kex_group16.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\paramiko\kex_gss.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\paramiko\message.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\paramiko\packet.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\paramiko\pipe.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\paramiko\pkey.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\paramiko\primes.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\paramiko\proxy.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\paramiko\py3compat.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\paramiko\rsakey.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\paramiko\server.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\paramiko\sftp.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\paramiko\sftp_attr.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\paramiko\sftp_client.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\paramiko\sftp_file.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\paramiko\sftp_handle.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\paramiko\sftp_server.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\paramiko\sftp_si.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\paramiko\ssh_exception.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\paramiko\ssh_gss.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\paramiko\transport.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\paramiko\util.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\paramiko\win_pageant.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\paramiko\_version.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\paramiko\_winapi.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\paramiko\__init__.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\pymysql\charset.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\pymysql\connections.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\pymysql\converters.pyi
@@ -5080,6 +5236,15 @@ Creating setup files
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\pynamodb\connection\util.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\pynamodb\connection\__init__.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\pytz\__init__.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\pyVmomi\__init__.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\pyVmomi\vim\event.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\pyVmomi\vim\fault.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\pyVmomi\vim\option.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\pyVmomi\vim\view.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\pyVmomi\vim\__init__.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\pyVmomi\vmodl\fault.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\pyVmomi\vmodl\query.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\pyVmomi\vmodl\__init__.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\redis\client.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\redis\connection.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\redis\exceptions.pyi
@@ -5121,10 +5286,16 @@ Creating setup files
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\requests\packages\urllib3\util\timeout.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\requests\packages\urllib3\util\url.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\requests\packages\urllib3\util\__init__.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\retry\api.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\retry\__init__.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\simplejson\decoder.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\simplejson\encoder.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\simplejson\scanner.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\simplejson\__init__.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\slugify\slugify.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\slugify\special.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\slugify\__init__.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\tzlocal\__init__.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\werkzeug\datastructures.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\werkzeug\exceptions.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\werkzeug\filesystem.pyi
@@ -5190,7 +5361,14 @@ Creating setup files
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\2and3\yaml\__init__.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\3\contextvars.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\3\dataclasses.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\3\frozendict.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\3\orjson.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\3\aiofiles\base.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\3\aiofiles\os.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\3\aiofiles\__init__.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\3\aiofiles\threadpool\binary.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\3\aiofiles\threadpool\text.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\3\aiofiles\threadpool\__init__.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\3\docutils\examples.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\3\docutils\nodes.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\3\docutils\__init__.pyi
@@ -5199,6 +5377,9 @@ Creating setup files
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\3\docutils\parsers\rst\roles.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\3\docutils\parsers\rst\states.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\3\docutils\parsers\rst\__init__.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\3\filelock\__init__.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\3\freezegun\api.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\3\freezegun\__init__.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\3\jwt\algorithms.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\3\jwt\__init__.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\3\jwt\contrib\__init__.pyi
@@ -5207,10 +5388,15 @@ Creating setup files
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\3\jwt\contrib\algorithms\__init__.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\3\pkg_resources\py31compat.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\3\pkg_resources\__init__.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\3\pyrfc3339\generator.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\3\pyrfc3339\parser.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\3\pyrfc3339\utils.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\3\pyrfc3339\__init__.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\3\six\__init__.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\3\six\moves\BaseHTTPServer.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\3\six\moves\builtins.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\3\six\moves\CGIHTTPServer.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\3\six\moves\collections_abc.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\3\six\moves\configparser.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\3\six\moves\cPickle.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\3\six\moves\email_mime_base.pyi
@@ -5251,14 +5437,29 @@ Creating setup files
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\3\typed_ast\ast3.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\3\typed_ast\conversions.pyi
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\3\typed_ast\__init__.pyi
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi-0.18.0.dist-info\AUTHORS.txt
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi-0.18.0.dist-info\INSTALLER
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi-0.18.0.dist-info\LICENSE.txt
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi-0.18.0.dist-info\METADATA
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi-0.18.0.dist-info\RECORD
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi-0.18.0.dist-info\REQUESTED
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi-0.18.0.dist-info\top_level.txt
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi-0.18.0.dist-info\WHEEL
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\3\waitress\adjustments.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\3\waitress\buffers.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\3\waitress\channel.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\3\waitress\compat.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\3\waitress\parser.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\3\waitress\proxy_headers.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\3\waitress\receiver.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\3\waitress\rfc7230.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\3\waitress\runner.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\3\waitress\server.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\3\waitress\task.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\3\waitress\trigger.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\3\waitress\utilities.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\3\waitress\wasyncore.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi\third_party\typeshed\third_party\3\waitress\__init__.pyi
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi-0.18.1.dist-info\AUTHORS.txt
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi-0.18.1.dist-info\INSTALLER
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi-0.18.1.dist-info\LICENSE.txt
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi-0.18.1.dist-info\METADATA
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi-0.18.1.dist-info\RECORD
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi-0.18.1.dist-info\REQUESTED
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi-0.18.1.dist-info\top_level.txt
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\jedi-0.18.1.dist-info\WHEEL
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\kiwisolver-1.3.2.dist-info\INSTALLER
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\kiwisolver-1.3.2.dist-info\LICENSE
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\kiwisolver-1.3.2.dist-info\METADATA
@@ -11875,6 +12076,7 @@ Creating setup files
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\thonny-3.3.14.dist-info\top_level.txt
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\thonny-3.3.14.dist-info\WHEEL
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\thonnycontrib\postit\base_postit.py
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\thonnycontrib\postit\block_enclosed_postit.py
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\thonnycontrib\postit\common.py
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\thonnycontrib\postit\dropdown_postit.py
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\thonnycontrib\postit\enclosed_postit.py
@@ -11944,6 +12146,7 @@ Creating setup files
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\thonnycontrib\postit\images\variable_assign.png
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\thonnycontrib\postit\images\variable_comma.png
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\thonnycontrib\postit\images\variable_dot.png
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\thonnycontrib\postit\images\variable_get - ½Æ»s (2).png
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\thonnycontrib\postit\images\variable_get - ½Æ»s.png
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\thonnycontrib\postit\images\variable_get.png
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\thonnycontrib\postit\images\variable_minus_assign.png
@@ -12090,13 +12293,13 @@ Creating setup files
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\thonnycontrib\postit\tools\undo_tool_postit.py
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\thonnycontrib\postit\tools\variables_tool_postit.py
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\thonnycontrib\postit\tools\__init__.py
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\thonny_postit-0.10.dist-info\INSTALLER
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\thonny_postit-0.10.dist-info\LICENSE
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\thonny_postit-0.10.dist-info\METADATA
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\thonny_postit-0.10.dist-info\RECORD
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\thonny_postit-0.10.dist-info\REQUESTED
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\thonny_postit-0.10.dist-info\top_level.txt
-   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\thonny_postit-0.10.dist-info\WHEEL
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\thonny_postit-0.11.dist-info\INSTALLER
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\thonny_postit-0.11.dist-info\LICENSE
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\thonny_postit-0.11.dist-info\METADATA
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\thonny_postit-0.11.dist-info\RECORD
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\thonny_postit-0.11.dist-info\REQUESTED
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\thonny_postit-0.11.dist-info\top_level.txt
+   Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\thonny_postit-0.11.dist-info\WHEEL
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\threed4t\assist.py
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\threed4t\audio4t.py
    Compressing: D:\py4t\py4t-development\packaging\windows\build\Lib\site-packages\threed4t\common.py
@@ -13378,5 +13581,5 @@ Warning: A message named "PrepareToInstallNeedsRestart" has not been defined for
 Warning: A message named "StopDownload" has not been defined for the "chinese_trad" language. Will use the English message from Default.isl.
 Warning: Line 224, Column 15: [Hint] Support function "IsAdminLoggedOn" has been renamed. Use "IsAdmin" instead or consider using "IsAdminInstallMode".
 
-Successful compile (156.984 sec). Resulting Setup program filename is:
-D:\py4t\py4t-development\packaging\windows\dist\thonnyPy4t-0.10.exe
+Successful compile (191.750 sec). Resulting Setup program filename is:
+D:\py4t\py4t-development\packaging\windows\dist\thonnyPy4t-0.11.exe
