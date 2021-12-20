@@ -4,8 +4,17 @@ site_description: Py4t - 青少年的Python編輯器
 site_author: Wen-Hung, Chang. 張文宏
 
 markdown_extensions:
+  - abbr
   - attr_list
+  - admonition
+  - pymdownx.snippets
+  - pymdownx.details
   - pymdownx.superfences
+  
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
   - pymdownx.highlight:
       linenums: true
       linenums_style: pymdownx-inline
@@ -23,12 +32,14 @@ nav:
     - 💜 問答Q&A: 'about/qa.md'
     - ❤️ 銘謝: 'about/acknowledge.md'
   - 下載: 'download.md'
-  - 教學推廣: 
+  - 推廣: 
     - 💚 推廣紀錄: 'promotion/activities.md'
     - 💙 使用回饋: 'promotion/user_feedback.md' 
-    - 🧡 教學資料: 'promotion/teaching.md'   
-  - 影片自學: 
-    - 📚 自學索引: 'self_study/index.md'
+    - 🧡 教學資料: 'promotion/teaching.md'
+  - 教學資源: 
+    - 📚 教學資源索引: 'teaching_resource/index.md'  
+  - 研習影片: 
+    - 📚 影片索引: 'self_study/index.md'
     - 　🕒 快速入門: 'self_study/quick_start.md'
     - 　🕕 3D模擬: 'self_study/tutorial_3d.md'
     - 　🕘 視覺影像: 'self_study/tutorial_cv.md'
@@ -78,6 +89,19 @@ theme:
   favicon: material/bridge
   icon:
     logo: material/bridge
+    admonition:
+      note: octicons/tag-16
+      abstract: octicons/checklist-16
+      info: octicons/info-16
+      tip: octicons/squirrel-16
+      success: octicons/check-16
+      question: octicons/question-16
+      warning: octicons/alert-16
+      failure: octicons/x-circle-16
+      danger: octicons/zap-16
+      bug: octicons/bug-16
+      example: octicons/beaker-16
+      quote: octicons/quote-16
     
   language: zh-TW
   palette:
