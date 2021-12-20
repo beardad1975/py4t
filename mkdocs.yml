@@ -7,6 +7,7 @@ markdown_extensions:
   - abbr
   - attr_list
   - admonition
+  - footnotes
   - pymdownx.snippets
   - pymdownx.details
   - pymdownx.superfences
@@ -36,9 +37,9 @@ nav:
     - 💚 推廣紀錄: 'promotion/activities.md'
     - 💙 使用回饋: 'promotion/user_feedback.md' 
     - 🧡 教學資料: 'promotion/teaching.md'
-  - 教學資源: 
-    - 📚 教學資源索引: 'teaching_resource/index.md'  
-  - 研習影片: 
+  - 教學: 
+    - 📚 教學講義: 'teaching/index.md'  
+  - 影片: 
     - 📚 影片索引: 'self_study/index.md'
     - 　🕒 快速入門: 'self_study/quick_start.md'
     - 　🕕 3D模擬: 'self_study/tutorial_3d.md'
