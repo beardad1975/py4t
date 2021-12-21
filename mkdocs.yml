@@ -111,7 +111,7 @@ theme:
   features:
     - navigation.tabs
     - navigation.sections
-    - navigation.top
+    
     - navigation.instant
     - navigation.indexes
 
