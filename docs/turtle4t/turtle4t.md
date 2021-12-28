@@ -33,6 +33,7 @@
 | [正多邊形](regular_polygon.md)    | [![正多邊形](regular_polygon.jpg){width=150}](regular_polygon.md) |
 | [螺旋形](spiral.md)               | [![螺旋形](spiral.jpg){width=150}](spiral.md)                     |
 | [碎形樹](fractal_tree.md)               | [![碎形樹](fractal_tree.jpg){width=150}](fractal_tree.md)
+| [法國國旗](flag_of_france.md)               | [![法國國旗](flag_of_france.jpg){width=150}](flag_of_france.md)                      |
 | [國旗](roc_flag.md)               | [![國旗](roc_flag.jpg){width=150}](roc_flag.md)                      |
 | [圓形禪繞畫](circle_zentangle.md)               | [![圓形禪繞畫](circle_zentangle.jpg){width=150}](circle_zentangle.md)                      |
 
