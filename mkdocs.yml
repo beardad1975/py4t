@@ -51,9 +51,11 @@ nav:
     - 　🔰 正方形 範例: 'turtle4t/draw_square.md' 
     - 　🔰 正多邊形 範例: 'turtle4t/regular_polygon.md'  
     - 　🔰 螺旋形 範例: 'turtle4t/spiral.md'
+    - 　🔰 奇數角星形 範例: 'turtle4t/odd_number_star.md'
     - 　🔰 碎形樹 範例: 'turtle4t/fractal_tree.md'
     - 　🔰 法國國旗 範例: 'turtle4t/flag_of_france.md'
-    - 　🔰 國旗 範例: 'turtle4t/roc_flag.md'
+    - 　🔰 日本國旗 範例: 'turtle4t/flag_of_japan.md'
+    - 　🔰 中華民國國旗 範例: 'turtle4t/roc_flag.md'
     - 　🔰 圓形纏繞畫 範例: 'turtle4t/circle_zentangle.md'
 
   - 運算思維:
