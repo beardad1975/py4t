@@ -13,7 +13,7 @@ hide:
 
 : 下載Py4t，一次安裝 Python 、編輯器、套件、便利貼(:fontawesome-brands-windows:Windows版本)
 
-## [ ❤️ 關於 ](about/about.md)
+## [ ❤️ 關於 ](about/plan.md)
 
 : 計畫緣由、理念、架構、推廣使用、回饋與問答Q & A
 
@@ -29,9 +29,9 @@ hide:
 
 |                 |                            |
 | :-----------                    | :------------------------------------            |
-|  [ Ⓜ️ 海龜繪圖 ](turtle4t/turtle4t.md)  |  [ Ⓜ️ 運算思維 ](comthink/comthink.md)      |
-|  [ Ⓜ️ 物理碰撞 ](pie4t/pie4t.md)  |  [ Ⓜ️ 3D模擬 ](threed4t/threed4t.md)     |
-|  [ Ⓜ️ 視覺影像 ](cv4t/cv4t.md)  |  [ Ⓜ️ 簡易語音 ](sound_and_speech/sound_and_speech.md)     |
+|  [ Ⓜ️ 海龜繪圖 ](turtle4t/index.md)  |  [ Ⓜ️ 運算思維 ](comthink/index.md)      |
+|  [ Ⓜ️ 物理碰撞 ](pie4t/index.md)  |  [ Ⓜ️ 3D模擬 ](threed4t/index.md)     |
+|  [ Ⓜ️ 視覺影像 ](cv4t/index.md)  |  [ Ⓜ️ 簡易語音 ](sound_and_speech/index.md)     |
 
 --8<-- "includes/abbreviations.md"
 

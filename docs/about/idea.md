@@ -69,9 +69,9 @@ Py4t 在學習橋接的考量下，不管是在範例或是學習模組上，大
 
 |   Py4t學習模組               |                            |
 | :-----------                    | :------------------------------------            |
-|  [ Ⓜ️ 海龜繪圖 ](../turtle4t/turtle4t.md)  |  [ Ⓜ️ 運算思維 ](../comthink/comthink.md)      |
-|  [ Ⓜ️ 物理碰撞 ](../pie4t/pie4t.md)  |  [ Ⓜ️ 3D模擬 ](../threed4t/threed4t.md)     |
-|  [ Ⓜ️ 視覺影像 ](../cv4t/cv4t.md)  |  [ Ⓜ️ 簡易語音 ](../sound_and_speech/sound_and_speech.md)     |
+|  [ Ⓜ️ 海龜繪圖 ](../turtle4t/index.md)  |  [ Ⓜ️ 運算思維 ](../comthink/index.md)      |
+|  [ Ⓜ️ 物理碰撞 ](../pie4t/index.md)  |  [ Ⓜ️ 3D模擬 ](../threed4t/index.md)     |
+|  [ Ⓜ️ 視覺影像 ](../cv4t/index.md)  |  [ Ⓜ️ 簡易語音 ](../sound_and_speech/index.md)     |
 
 
 
