@@ -8,7 +8,9 @@
 
 ----------------------------
 
-##  📙 球的彈性
+##  📕 球的彈性
+
+很多同學下課時喜歡打球，球能做出各種不同的彈跳，要如何量測彈性呢？
 
 ----------------------------
 
@@ -126,3 +128,117 @@
     :fontawesome-solid-link: <a href="https://www.youtube.com/watch?v=k80ID8yVJyg" target="_blank">youtube: 繩波的反射示範實驗</a>
 
     :fontawesome-solid-link: <a href="https://youtu.be/bHIoI4-iB_A" target="_blank">youtube: 量子現象【觀念】波粒二象性－物質波（高一物理）</a>
+
+<br/><br/><br/> 
+
+----------------------------
+
+##  📒 力與斜面
+
+**階段1: 新增球與斜面**
+
+: 溜滑梯的傾斜度不同，溜起來的感覺也不同。
+
+: ![溜滑梯](slide.jpg)
+
+: (圖片來源[^2])
+
+<br/>
+
+[^2]: 引用自維基百科 https://zh.wikipedia.org/wiki/File:葫蘆埤自然公園溜滑梯.jpg
+
+: 用斜面來模擬溜滑梯，在程式中要如何做出不同的傾斜度呢？
+
+
+: ![不同斜面](multiple_slides.jpg) 
+
+
+: Py4t物理模組內建了地形的輔助功能，操作如下圖
+
+: ![地形輔助](terrain_assist.jpg)
+
+: 動手做做看，建立不同的斜面
+
+??? example "Let's Code 新增球與斜面"
+
+     :fontawesome-solid-link: <a href="../../pie4t/force_and_slide/#1" target="_blank">Py4t範例程式 新增球與斜面</a>
+
+<br/><br/><br/> 
+
+----------------------------
+
+**階段2: 速度比較**
+
+球在不同的斜面落下，會怎樣呢？
+
+: ![球在不同斜面](ball_on_slide.jpg) 
+
+用程式來模擬看看
+
+??? example "Let's Code 速度比較"
+
+     :fontawesome-solid-link: <a href="../../pie4t/force_and_slide/#2" target="_blank">Py4t範例程式 速度比較</a>
+
+??? info "補充資料" 
+    
+    :fontawesome-solid-link: <a href="https://www.youtube.com/watch?v=TMEB1KoJpNI" target="_blank">youtube: 吉娃斯科學小教室 : 斜面運動、重力、支撐力</a>
+
+    
+
+
+<br/><br/><br/> 
+
+----------------------------
+
+**階段3: 摩擦力**
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JdMkAvibBec?start=12&amp;end=96" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<br/>
+
+: 摩擦力作用於物體的相反方向
+
+: ![摩擦力](friction_direction.jpg) 
+
+: (圖片來源[^3])
+
+[^3]: 引用自中學生網站 https://www.shs.edu.tw/works/essay/2011/03/2011033016033626.pdf
+
+用程式來模擬看看
+
+??? example "Let's Code 摩擦力"
+
+     :fontawesome-solid-link: <a href="../../pie4t/force_and_slide/#3" target="_blank">Py4t範例程式 摩擦力</a>
+
+??? info "補充資料" 
+    
+    :fontawesome-solid-link: <a href="https://www.youtube.com/watch?v=9DMUl30gFXk" target="_blank">youtube: myViewBoard 原創內容：摩擦力</a>
+
+    :fontawesome-solid-link: <a href="https://www.youtube.com/watch?v=Bhm3iPFqYEo" target="_blank">youtube: 均一教育平台【八下理化】【觀念】摩擦力</a>
+
+    
+
+<br/><br/><br/> 
+
+----------------------------
+
+**階段4: 施力**
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/oPsfwZXCf1s?start=14&amp;end=77" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+衝上斜坡時，會發生什麼事？
+
+用程式來模擬看看
+
+??? example "Let's Code 施力"
+
+    :fontawesome-solid-link: <a href="../../pie4t/force_and_slide/#4" target="_blank">Py4t範例程式 施力</a>
+
+??? info "補充資料" 
+    
+    :fontawesome-solid-link: <a href="https://www.youtube.com/watch?v=yGPpFelGeEQ" target="_blank">youtube: 國中理化教學資料庫 伽利略斜面實驗</a>
+
+<br/><br/><br/> 
+
+----------------------------

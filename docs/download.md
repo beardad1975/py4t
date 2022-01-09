@@ -6,7 +6,9 @@ hide:
 
 # thonnyPy4t 安裝檔 (:fontawesome-brands-windows:Windows版本)
 
-[🔽 py4t v0.12安裝檔](https://github.com/beardad1975/py4t/releases/download/v0.12/thonnyPy4t-0.12.exe) 
+[🔽 py4t v0.12安裝檔 載點一 (github)](https://github.com/beardad1975/py4t/releases/download/v0.12/thonnyPy4t-0.12.exe) 
+
+[🔽 py4t v0.12安裝檔 載點二 (學術網路)](http://nm01.nmes.tyc.edu.tw/py4t_installer/thonnyPy4t-0.12.exe)
 
 > - 於2021-12-12封裝
 

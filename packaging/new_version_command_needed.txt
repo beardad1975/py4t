@@ -23,3 +23,5 @@ git push origin v1.5
 draft new release version
 mkdocs (need in virtualenv)
 
+ftp upload to backup site
+

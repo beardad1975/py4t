@@ -25,6 +25,7 @@
 | [操控重力](gravity.md)          | [![操控重力](gravity.jpg){width=150}](gravity.md)           |
 | [球的彈性](bounce_ball.md)          | [![球的彈性](bounce_ball.jpg){width=150}](bounce_ball.md)           |
 | [彈跳吧！圓球](bounce_array.md)          | [![彈跳吧！圓球](bounce_array.jpg){width=150}](bounce_array.md)           |
+| [力與斜面](force_and_slide.md)          | [![力與斜面](force_and_slide.jpg){width=150}](force_and_slide.md)           |
 
 ---------------
 
