@@ -2,6 +2,8 @@
 
 # 📚Py4t學習單元 - 海龜畫國旗
 
+海龜程式除了畫幾何圖形，也可以用來畫國旗，讓我們一起思考與實作。
+
 ----------------------------
 
 
@@ -13,7 +15,9 @@
 
 : <iframe width="480" height="270" src="https://www.youtube.com/embed/FX5F3pk5MWU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-國旗是國家的代表，讓我們用海龜程式來畫出國旗吧！
+: 國旗是國家的代表，旗子裡的線條、顏色與形狀，都有它的由來。
+
+: 想一想，如何用海龜程式來畫出國旗呢？
 
 
 <br/><br/><br/> 

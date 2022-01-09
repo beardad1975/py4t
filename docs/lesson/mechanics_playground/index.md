@@ -1,5 +1,11 @@
 # 📚Py4t課程 - 力與運動遊樂場
 
+電腦除了計算，也可以模擬科學實驗，幫助學習者理解概念。
+
+讓我們使用Py4t來進行各種有趣的 **力與運動程式實驗** 吧！
+
+相信你在體驗之後，未來學習相關的自然課或理化課時，就會更有 **學習動力**。
+
 ----------------------------
 
 ##  📙 球的彈性
@@ -96,3 +102,27 @@
 <br/><br/><br/> 
 
 ----------------------------
+
+##  📙 彈跳吧！圓球
+
+: 如果一次產生多顆球，如何來產生規律的彈跳呢？
+
+![彈性排列](bounce_array.jpg)
+
+: 利用之前的恢復係數，讓我們來實作程式吧！
+
+??? example "Let's Code 彈跳吧！圓球"
+
+     :fontawesome-solid-link: <a href="../../pie4t/bounce_array/" target="_blank">Py4t範例程式 彈跳圓球</a>
+
+??? question "更多練習"
+
+    影片中有偶數球有不同的彈性變化，請你試著改寫成3種彈性變化吧。(提示：使用 if elif else，並利用除數為3的餘數)
+
+??? info "補充資料"
+
+    多顆圓球不斷彈跳的樣子，會聯想到什麼？ 
+    
+    :fontawesome-solid-link: <a href="https://www.youtube.com/watch?v=k80ID8yVJyg" target="_blank">youtube: 繩波的反射示範實驗</a>
+
+    :fontawesome-solid-link: <a href="https://youtu.be/bHIoI4-iB_A" target="_blank">youtube: 量子現象【觀念】波粒二象性－物質波（高一物理）</a>

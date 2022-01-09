@@ -24,6 +24,8 @@ markdown_extensions:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
 
+
+
 nav:
   - Home: 'index.md'
   - 關於: 
@@ -64,6 +66,7 @@ nav:
     - 🔰 射擊測試 範例: 'pie4t/shoot.md'
     - 🔰 操控重力 範例: 'pie4t/gravity.md'
     - 🔰 球的彈性 範例: 'pie4t/bounce_ball.md'
+    - 🔰 彈跳吧！圓球 範例: 'pie4t/bounce_array.md'
   - 3D:
     - Ⓜ️ 模組說明 - 3D: 'threed4t/index.md'
     - 🔰 3D方塊 範例: 'threed4t/first_3d.md'
