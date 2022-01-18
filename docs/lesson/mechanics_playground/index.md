@@ -14,7 +14,7 @@
 
 ----------------------------
 
-**階段1: 新增圓球**
+#### 1.新增圓球
 
 : ![圓球](circle.jpg) 
 
@@ -38,7 +38,7 @@
 
 ----------------------------
 
-**階段2: 恢復係數**
+#### 2.恢復係數
 
 : 如何知道一顆球的彈性好不好呢？
  
@@ -72,7 +72,7 @@
 
 ----------------------------
 
-**階段3: 超強彈性體**
+#### 3.超強彈性體
 
 : 將兩顆很有彈性的球互相碰撞，會發生什麼事？
 
@@ -135,7 +135,7 @@
 
 ##  📒 力與斜面
 
-**階段1: 新增球與斜面**
+#### 1.新增球與斜面
 
 : 溜滑梯的傾斜度不同，溜起來的感覺也不同。
 
@@ -167,7 +167,7 @@
 
 ----------------------------
 
-**階段2: 速度比較**
+#### 2.速度比較
 
 球在不同的斜面落下，會怎樣呢？
 
@@ -190,7 +190,7 @@
 
 ----------------------------
 
-**階段3: 摩擦力**
+#### 3.摩擦力
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/JdMkAvibBec?start=12&amp;end=96" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -223,7 +223,7 @@
 
 ----------------------------
 
-**階段4: 施力**
+#### 4.施力
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/oPsfwZXCf1s?start=14&amp;end=77" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -242,3 +242,45 @@
 <br/><br/><br/> 
 
 ----------------------------
+
+##  📗 慣性與重力
+
+#### 1.慣性運動
+
+: 筆要如何才能掉進罐子呢？
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LeDtM7Hpl-Q?start=3&amp;end=98" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<br/><br/>
+
+: 什麼是慣性定律呢？
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Wc9W-Fb44Dk?start=62&amp;end=132" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+: 一起來寫慣性的模擬程式
+
+??? example "Let's Code 施力"
+
+    :fontawesome-solid-link: <a href="../../pie4t/inertia_gravity/#1" target="_blank">Py4t範例程式 慣性運動</a>
+
+??? info "補充資料" 
+    
+    :fontawesome-solid-link: <a href="https://zh.wikipedia.org/wiki/%E6%85%A3%E6%80%A7" target="_blank">維基百科: 慣性</a>
+
+<br/><br/><br/> 
+
+----------------------------
+
+#### 2.拋體運動
+
+: 
+
+<br/><br/><br/> 
+
+----------------------------
+
+#### 3.重力搬運
+
+: 
+
+<br/><br/><br/> 

@@ -26,6 +26,7 @@
 | [球的彈性](bounce_ball.md)          | [![球的彈性](bounce_ball.jpg){width=150}](bounce_ball.md)           |
 | [彈跳吧！圓球](bounce_array.md)          | [![彈跳吧！圓球](bounce_array.jpg){width=150}](bounce_array.md)           |
 | [力與斜面](force_and_slide.md)          | [![力與斜面](force_and_slide.jpg){width=150}](force_and_slide.md)           |
+| [慣性與重力](inertia_gravity.md)          | [![慣性與重力](inertia_gravity.jpg){width=150}](inertia_gravity.md)           |
 
 ---------------
 
@@ -33,8 +34,8 @@
 
 以下為便利貼的使用資訊：
 
-| 便利貼顯示                           | 便利貼內容                                                              |
-| :-----------:                    | :------------------------------------:                            |
+| 便利貼顯示           | 便利貼內容                               |
+| :-----------:                    | :-------------------------:          |
 | ![顯示](pie4t_display_postit.jpg)    | ![便利貼](pie4t_postit.jpg)    |
 
 

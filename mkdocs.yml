@@ -43,10 +43,10 @@ nav:
     - 📚 課程講義: 'lesson/index.md'  
   - 影片: 
     - 📚 影片索引: 'self_study/index.md'
-    - 　🕒 快速入門: 'self_study/quick_start.md'
-    - 　🕕 3D模擬: 'self_study/tutorial_3d.md'
-    - 　🕘 視覺影像: 'self_study/tutorial_cv.md'
-    - 　🕛 演算法: 'self_study/tutorial_algorithm.md'
+    - 🕒 快速入門: 'self_study/quick_start.md'
+    - 🕕 3D模擬: 'self_study/tutorial_3d.md'
+    - 🕘 視覺影像: 'self_study/tutorial_cv.md'
+    - 🕛 演算法: 'self_study/tutorial_algorithm.md'
     - 📄 Scratch與Python語法對照: 'self_study/scratch_python_compare.md'
   - 海龜: 
     - Ⓜ️ 模組說明 - 海龜: 'turtle4t/index.md'
@@ -68,6 +68,7 @@ nav:
     - 🔰 球的彈性 範例: 'pie4t/bounce_ball.md'
     - 🔰 彈跳吧！圓球 範例: 'pie4t/bounce_array.md'
     - 🔰 力與斜面 範例: 'pie4t/force_and_slide.md'
+    - 🔰 慣性與重力 範例: 'pie4t/inertia_gravity.md'
   - 3D:
     - Ⓜ️ 模組說明 - 3D: 'threed4t/index.md'
     - 🔰 3D方塊 範例: 'threed4t/first_3d.md'
