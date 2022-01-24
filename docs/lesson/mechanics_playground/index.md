@@ -2,15 +2,25 @@
 
 電腦除了計算，也可以模擬科學實驗，幫助學習者理解概念。
 
-讓我們使用Py4t來進行各種有趣的 **力與運動程式實驗** 吧！
+讓我們使用Py4t來進行各種有趣的 **力與運動程式模擬** 吧！
 
 相信你在體驗之後，未來學習相關的自然課或理化課時，就會更有 **學習動力**。
+
+<br/><br/><br/> 
 
 ----------------------------
 
 ##  📕 球的彈性
 
-很多同學下課時喜歡打球，球能做出各種不同的彈跳，要如何量測彈性呢？
+很多同學下課時喜歡打球，球能做出各種不同的彈跳，它的彈性可以測量嗎？
+
+: ![圓球](campus_basketball.jpg)
+
+: (圖片來源[^1])
+
+[^1]: 維基百科 https://zh.wikipedia.org/wiki/File:%E6%96%B0%E5%BB%BA%E4%B8%AD%E7%B1%83%E7%90%83%E5%A0%B420211110.jpg 
+
+<br/><br/><br/> 
 
 ----------------------------
 
@@ -22,9 +32,9 @@
 
 : 一起動手來寫程式吧！
 
-??? example "Let's Code 新增圓球"
+??? example "Py4t範例程式 新增圓球"
 
-    :fontawesome-solid-link: <a href="../../pie4t/bounce_ball/#_1" target="_blank">Py4t範例程式 新增圓球</a>
+    :fontawesome-solid-link: <a href="../../pie4t/bounce_ball/#_1" target="_blank">Let's Code 新增圓球 (含操作影片、程式碼及說明)</a>
 
 ??? info "補充資料"
 
@@ -50,17 +60,17 @@
 
 
 ![恢復係數](cor_explain.jpg) 
-: (圖片來源[^1])
+: (圖片來源[^2])
 
-[^1]: 引用自【Fun科學】超彈力橡皮筋球 https://www.youtube.com/watch?v=_RWqefx0vAg 
+[^2]: 引用自【Fun科學】超彈力橡皮筋球 https://www.youtube.com/watch?v=_RWqefx0vAg 
 
 <br/><br/>
 
 : 讓我們用程式來模擬不同彈性的球吧！
 
-??? example "Let's Code 恢復係數"
+??? example "Py4t範例程式 恢復係數"
 
-     :fontawesome-solid-link: <a href="../../pie4t/bounce_ball/#2" target="_blank">Py4t範例程式 恢復係數</a>
+     :fontawesome-solid-link: <a href="../../pie4t/bounce_ball/#2" target="_blank"> Let's Code 恢復係數 (含操作影片、程式碼及說明)</a>
 
 ??? info "補充資料"
 
@@ -83,15 +93,15 @@
 
 
 ![超強彈性體](super_bounce.jpg) 
-: (圖片來源[^1])
+: (圖片來源[^2])
 
 : 兩顆很有彈性的球在一起，下方的球數倍大於上方的球，就可以組成超越原本的彈性體
 
 : 有沒有覺得很神奇？讓我們用程式來模擬看看吧！
 
-??? example "Let's Code 超強彈性體"
+??? example "Py4t範例程式 超強彈性體"
 
-     :fontawesome-solid-link: <a href="../../pie4t/bounce_ball/#3" target="_blank">Py4t範例程式 超強彈性體</a>
+     :fontawesome-solid-link: <a href="../../pie4t/bounce_ball/#3" target="_blank"> Let's Code 超強彈性體 (含操作影片、程式碼及說明)</a>
 
 ??? question "更多練習"
 
@@ -113,9 +123,9 @@
 
 : 利用之前的恢復係數，讓我們來實作程式吧！
 
-??? example "Let's Code 彈跳吧！圓球"
+??? example "Py4t範例程式 彈跳吧！圓球"
 
-     :fontawesome-solid-link: <a href="../../pie4t/bounce_array/" target="_blank">Py4t範例程式 彈跳圓球</a>
+     :fontawesome-solid-link: <a href="../../pie4t/bounce_array/" target="_blank">Let's Code 彈跳吧！圓球 (含操作影片、程式碼及說明)</a>
 
 ??? question "更多練習"
 
@@ -141,11 +151,11 @@
 
 : ![溜滑梯](slide.jpg)
 
-: (圖片來源[^2])
+: (圖片來源[^3])
 
 <br/>
 
-[^2]: 引用自維基百科 https://zh.wikipedia.org/wiki/File:葫蘆埤自然公園溜滑梯.jpg
+[^3]: 引用自維基百科 https://zh.wikipedia.org/wiki/File:葫蘆埤自然公園溜滑梯.jpg
 
 : 用斜面來模擬溜滑梯，在程式中要如何做出不同的傾斜度呢？
 
@@ -159,9 +169,9 @@
 
 : 動手做做看，建立不同的斜面
 
-??? example "Let's Code 新增球與斜面"
+??? example "Py4t範例程式 新增球與斜面"
 
-     :fontawesome-solid-link: <a href="../../pie4t/force_and_slide/#1" target="_blank">Py4t範例程式 新增球與斜面</a>
+     :fontawesome-solid-link: <a href="../../pie4t/force_and_slide/#1" target="_blank">Let's Code 新增球與斜面 (含操作影片、程式碼及說明)</a>
 
 <br/><br/><br/> 
 
@@ -175,9 +185,9 @@
 
 用程式來模擬看看
 
-??? example "Let's Code 速度比較"
+??? example "Py4t範例程式 速度比較"
 
-     :fontawesome-solid-link: <a href="../../pie4t/force_and_slide/#2" target="_blank">Py4t範例程式 速度比較</a>
+     :fontawesome-solid-link: <a href="../../pie4t/force_and_slide/#2" target="_blank">Let's Code 速度比較 (含操作影片、程式碼及說明)</a>
 
 ??? info "補充資料" 
     
@@ -201,15 +211,15 @@
 
 : ![摩擦力](friction_direction.jpg) 
 
-: (圖片來源[^3])
+: (圖片來源[^4])
 
-[^3]: 引用自中學生網站 https://www.shs.edu.tw/works/essay/2011/03/2011033016033626.pdf
+[^4]: 引用自中學生網站 https://www.shs.edu.tw/works/essay/2011/03/2011033016033626.pdf
 
 用程式來模擬看看
 
-??? example "Let's Code 摩擦力"
+??? example "Py4t範例程式 摩擦力"
 
-     :fontawesome-solid-link: <a href="../../pie4t/force_and_slide/#3" target="_blank">Py4t範例程式 摩擦力</a>
+     :fontawesome-solid-link: <a href="../../pie4t/force_and_slide/#3" target="_blank">Let's Code 摩擦力 (含操作影片、程式碼及說明)</a>
 
 ??? info "補充資料" 
     
@@ -231,9 +241,9 @@
 
 用程式來模擬看看
 
-??? example "Let's Code 施力"
+??? example "Py4t範例程式 施力"
 
-    :fontawesome-solid-link: <a href="../../pie4t/force_and_slide/#4" target="_blank">Py4t範例程式 施力</a>
+    :fontawesome-solid-link: <a href="../../pie4t/force_and_slide/#4" target="_blank">Let's Code 施力 (含操作影片、程式碼及說明)</a>
 
 ??? info "補充資料" 
     
@@ -257,15 +267,21 @@
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Wc9W-Fb44Dk?start=62&amp;end=132" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-: 一起來寫慣性的模擬程式
+<br/><br/>
 
-??? example "Let's Code 施力"
+: 用程式來模擬慣性吧
 
-    :fontawesome-solid-link: <a href="../../pie4t/inertia_gravity/#1" target="_blank">Py4t範例程式 慣性運動</a>
+??? example "Py4t範例程式 施力"
+
+    :fontawesome-solid-link: <a href="../../pie4t/inertia_gravity/#1" target="_blank">Let's Code 慣性運動 (含操作影片、程式碼及說明)</a>
 
 ??? info "補充資料" 
     
     :fontawesome-solid-link: <a href="https://zh.wikipedia.org/wiki/%E6%85%A3%E6%80%A7" target="_blank">維基百科: 慣性</a>
+
+    
+
+    衝力的方向使用到向量，可參考 :fontawesome-solid-link: <a href="https://youtu.be/4H04xpngVlo?list=PLTQ2T0cDHYPfypQn6t_sXV1N581kwf7Ei" target="_blank">youtube: 平面運動 【觀念】向量（1）向量的表示方法</a>
 
 <br/><br/><br/> 
 
@@ -273,7 +289,29 @@
 
 #### 2.拋體運動
 
-: 
+: 有看過推鉛球的運動嗎？
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/EkiaYNEAagA?start=0&amp;end=118" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<br/><br/> 
+
+:  鉛球被推出時，為什麼在空中的軌跡是拋物線？
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bhavS93SEaM?start=32&amp;end=97" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<br/><br/>
+
+用程式來模擬拋體運動吧
+
+??? example "Py4t範例程式 拋體運動"
+
+    :fontawesome-solid-link: <a href="../../pie4t/inertia_gravity/#2" target="_blank">Let's Code 拋體運動 (含操作影片、程式碼及說明)</a>
+
+??? info "補充資料" 
+    
+    :fontawesome-solid-link: <a href="https://zh.wikipedia.org/wiki/%E6%8B%8B%E9%AB%94" target="_blank">維基百科: 拋體</a>
+
+    :fontawesome-solid-link: <a href="https://www.zetria.org/view.php?subj=physics&chap=lfym2aorgz" target="_blank">學呀: 拋物線運動</a>
 
 <br/><br/><br/> 
 
@@ -281,6 +319,27 @@
 
 #### 3.重力搬運
 
-: 
+: 在太空中的奧運比賽
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZlPpHILyEl4?start=0&amp;end=54" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<br/><br/>
+
+: 無重力漂浮是不是很特別
+: 用程式來模擬重力的控制吧
+
+??? example "Py4t範例程式 重力搬運"
+
+    :fontawesome-solid-link: <a href="../../pie4t/inertia_gravity/#3" target="_blank">Let's Code 重力搬運 (含操作影片、程式碼及說明)</a>
+
+??? question "更多練習"
+
+    把範例中的方塊，換成圓球，會如何呢？
+
+??? info "補充資料" 
+   
+    :fontawesome-solid-link: <a href="https://www.youtube.com/watch?v=VB20FLopIWg" target="_blank">youtube: 高一物理【觀念】重力</a>
+    
+    :fontawesome-solid-link: <a href="https://zh.wikipedia.org/wiki/%E5%BC%95%E5%8A%9B" target="_blank">維基百科: 重力</a>
 
 <br/><br/><br/> 

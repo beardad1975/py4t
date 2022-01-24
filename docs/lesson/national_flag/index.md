@@ -37,9 +37,9 @@
 
 : 可以利用海龜的「向前」「右(左)轉」來畫出正方形嗎？
 
-??? example "Let's Code 正方形"
+??? example "Py4t範例程式 正方形"
 
-     :fontawesome-solid-link: <a href="../../turtle4t/draw_square/" target="_blank">Py4t範例程式 畫出正方形</a>
+     :fontawesome-solid-link: <a href="../../turtle4t/draw_square/" target="_blank">Let's Code 畫出正方形 (含操作影片、程式碼及說明)</a>
 
 ??? question "練習題 長方形"
 
@@ -91,9 +91,9 @@
 
 : 讓我們用海龜來畫出法國國旗吧。
 
-??? example "Let's Code 法國國旗"
+??? example "Py4t範例程式 法國國旗"
 
-     :fontawesome-solid-link: <a href="../../turtle4t/flag_of_france/" target="_blank">Py4t範例程式 法國國旗</a>
+     :fontawesome-solid-link: <a href="../../turtle4t/flag_of_france/" target="_blank">Let's Code 法國國旗 (含操作影片、程式碼及說明)</a>
 
 ??? question "更多練習"
 
@@ -119,9 +119,9 @@
 
 你看得出日本國旗的長寬比例與紅色圓形比例嗎？用海龜來畫出日本國旗吧！
 
-??? example "Let's Code 日本國旗"
+??? example "Py4t範例程式 日本國旗"
 
-     :fontawesome-solid-link: <a href="../../turtle4t/flag_of_japan/" target="_blank">Py4t範例程式 日本國旗</a>
+     :fontawesome-solid-link: <a href="../../turtle4t/flag_of_japan/" target="_blank">Let's Code 日本國旗 (含操作影片、程式碼及說明)</a>
 
 
 ??? question "資料搜尋"
@@ -130,7 +130,7 @@
 
     :fontawesome-solid-link: <a href="https://zh.wikipedia.org/wiki/%E5%9C%8B%E6%97%97%E5%88%97%E8%A1%A8" target="_blank">維基百科 國旗列表</a>
 
-??? success "學習心得"
+??? success "進階學習"
 
     恭喜你，學習了以海龜程式來畫出各式各樣的國旗，你的感想是什麼呢？
 
@@ -142,9 +142,35 @@
 
 ###  📓 進階: 畫出星形
 
+當我們已經會寫正方形的海龜程式後，請試著把程式改成正三角形。
+
+程式要更改哪些地方呢？
+
+<br/>
+
+![正三邊形](draw_triangle.png) 
+
+
+??? question "更多練習 正六邊形"
+
+    那如何讓海龜畫出正六邊形？
+
+    想一想，正三角形與正六邊形的程式有什麼不同！
+
+    ![正六邊形](draw_hex.png)  
+
+    
+
+
+<br/><br/><br/>
+
+
+
 你知道嗎？海龜在右(左)轉時，轉出來的角度其實是外角。
 
 : ![外角](external_angle.jpg)
+
+<br/><br/><br/>
 
 畫出星形時，需要轉彎的外角是幾度呢？
 
@@ -154,9 +180,9 @@
 
 [^3]: 自由軟體Scratch融入數學領域教學(王公國小102上半年教師在職資訊應用培訓)
 
-??? example "Let's Code 奇數角星形"
+??? example "Py4t範例程式 奇數角星形"
 
-     :fontawesome-solid-link: <a href="../../turtle4t/odd_number_star/" target="_blank">Py4t範例程式 奇數角星形</a>
+     :fontawesome-solid-link: <a href="../../turtle4t/odd_number_star/" target="_blank">Let's Code 奇數角星形 (含操作影片、程式碼及說明)</a>
 
 ??? question "練習題 十二角星形"
 
@@ -178,11 +204,11 @@
 
 綜合前面所學的海龜繪圖技巧，要如何畫出我們的國旗呢？
 
-??? example "Let's Code 我們的國旗"
+??? example "Py4t範例程式 我們的國旗"
 
-     :fontawesome-solid-link: <a href="../../turtle4t/roc_flag/" target="_blank">Py4t範例程式 我們的國旗</a>
+     :fontawesome-solid-link: <a href="../../turtle4t/roc_flag/" target="_blank">Let's Code 我們的國旗 (含程式碼及說明)</a>
 
-??? success "心得"
+??? success "學習心得"
 
     這些程式很不簡單吧！如果看得懂的話，你就真的是太厲害了。 
 
