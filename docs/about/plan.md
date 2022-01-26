@@ -27,5 +27,3 @@
 ![橋接](scratch2python.jpg)
 
 Py4t 是**Python for teenagers**的縮寫，也是在以上的想法中誕生的一個小型開發計畫，從2019年8月開始，逐步實作、試驗與探索出來的整合軟體，一個**給青少年的Python編輯器**，希望他們可以從 Scratch 開始，以較平順的學習遷移方式，橋接到:fontawesome-brands-python: Python 程式。
-
---8<-- "includes/abbreviations.md"

@@ -31,23 +31,26 @@ nav:
   - 關於: 
     - ❤️ 計畫緣由: 'about/plan.md'
     - 🧡 設計理念: 'about/idea.md'
-    - 💛 軟體架構: 'about/architecture.md'
-    - 💜 問答Q&A: 'about/qa.md'
-    - ❤️ 銘謝: 'about/acknowledge.md'
+    - 💛 Scratch到Python: 'about/scratch_python_compare.md'
+    - 💜 軟體架構: 'about/architecture.md'
+    - ❤️ 問答Q&A: 'about/qa.md'
+    - 🧡 銘謝: 'about/acknowledge.md'
   - 下載: 'download.md'
   - 推廣: 
     - 💚 推廣紀錄: 'promotion/activities.md'
     - 💙 使用回饋: 'promotion/user_feedback.md' 
     - 🧡 教學資料: 'promotion/teaching.md'
   - 課程: 
-    - 📚 課程講義: 'lesson/index.md'  
+    - 課程講義: 'lesson/index.md'
+    - 海龜畫國旗: 'lesson/national_flag/index.md'
+    - 力與運動遊樂場: 'lesson/mechanics_playground/index.md'  
   - 影片: 
     - 📚 影片索引: 'self_study/index.md'
     - 🕒 快速入門: 'self_study/quick_start.md'
     - 🕕 3D模擬: 'self_study/tutorial_3d.md'
     - 🕘 視覺影像: 'self_study/tutorial_cv.md'
     - 🕛 演算法: 'self_study/tutorial_algorithm.md'
-    - 📄 Scratch與Python語法對照: 'self_study/scratch_python_compare.md'
+    
   - 海龜: 
     - Ⓜ️ 模組說明 - 海龜: 'turtle4t/index.md'
     - 🔰 正方形 範例: 'turtle4t/draw_square.md' 

@@ -1,20 +1,32 @@
 ---
 hide:
-  - toc
+  - navigation
 ---
 
-#  課程講義
 
 從一場場的推廣研習簡報與實際教學資料轉化而成的課程講義，從單元主題開始，包含影片、圖片、說明、範例程式、練習與補充資料，方便資訊科技教師於教學現場使用。
 
-### 📚 Py4t初級課程
+## 📚 Py4t 入門課程
 
-: [海龜畫國旗](national_flag/index.md)
+----------------------------
 
-: [力與運動遊樂場](mechanics_playground/index.md)
+#### 💡 [海龜畫國旗](national_flag/index.md) 
+
+??? info  "課程摘要"
+    學習海龜程式，一步一步畫出與方形、圓形、星形相關的國旗。
+
+    ![海龜畫國旗](national_flag/digest.jpg)
+
+----------------------------
+
+#### 💡 [力與運動遊樂場](mechanics_playground/index.md)
+
+??? info  "課程摘要"
+    學習物理程式，做出與彈性、斜面、拋體與重力相關的模擬。
+
+    ![海龜畫國旗](mechanics_playground/digest.jpg)
 
 
---8<-- "includes/abbreviations.md"
 
 
 

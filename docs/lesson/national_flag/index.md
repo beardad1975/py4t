@@ -1,4 +1,7 @@
-
+---
+hide:
+  - navigation
+---
 
 # 📚Py4t學習單元 - 海龜畫國旗
 
@@ -219,7 +222,7 @@
 
 
 
---8<-- "includes/abbreviations.md"
+
 
 
 

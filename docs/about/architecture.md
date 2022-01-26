@@ -9,5 +9,3 @@ Thonny 來自愛沙尼亞塔爾圖大學，並在CyberneticaAS、樹莓派基金
 因 Thonny 可使用 Tkinter 函式庫來開發外掛程式，於是作者就從便利貼的靈感開始，慢慢的摸索，一點一滴的整合，逐步的試誤，從便利貼、排版輔助與包裝各個學習模組，並參照 Thonny 的做法，將之整個打包在一個執行檔內，使用者「**只要安裝一次**」，就可以使用 Py4t 的所有功能。
 
 Thonny 與 Py4t 的授權均採「[MIT授權](https://github.com/beardad1975/py4t/blob/master/LICENSE.txt)」，可以免費使用並且公開原始碼。
-
---8<-- "includes/abbreviations.md"
