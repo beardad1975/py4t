@@ -1,4 +1,4 @@
-numpy==1.17.*
+numpy==1.21.*
 guizero==1.1.*
 gpiozero==1.5.*
 requests==2.22.*
