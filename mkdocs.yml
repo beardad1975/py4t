@@ -36,14 +36,14 @@ nav:
     - ❤️ 問答Q&A: 'about/qa.md'
     - 🧡 銘謝: 'about/acknowledge.md'
   - 下載: 'download.md'
+  - 課程: 
+    - Py4t課程: 'lesson/index.md'
+    - 海龜畫國旗: 'lesson/national_flag/index.md'
+    - 力與運動遊樂場: 'lesson/mechanics_playground/index.md'
   - 推廣: 
     - 💚 推廣紀錄: 'promotion/activities.md'
     - 💙 使用回饋: 'promotion/user_feedback.md' 
     - 🧡 教學資料: 'promotion/teaching.md'
-  - 課程: 
-    - 課程講義: 'lesson/index.md'
-    - 海龜畫國旗: 'lesson/national_flag/index.md'
-    - 力與運動遊樂場: 'lesson/mechanics_playground/index.md'  
   - 影片: 
     - 📚 影片索引: 'self_study/index.md'
     - 🕒 快速入門: 'self_study/quick_start.md'
@@ -69,7 +69,7 @@ nav:
     - 🔰 射擊測試 範例: 'pie4t/shoot.md'
     - 🔰 操控重力 範例: 'pie4t/gravity.md'
     - 🔰 球的彈性 範例: 'pie4t/bounce_ball.md'
-    - 🔰 彈跳吧！圓球 範例: 'pie4t/bounce_array.md'
+    - 🔰 彈性排列 範例: 'pie4t/bounce_array.md'
     - 🔰 力與斜面 範例: 'pie4t/force_and_slide.md'
     - 🔰 慣性與重力 範例: 'pie4t/inertia_gravity.md'
   - 3D:

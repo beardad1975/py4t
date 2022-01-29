@@ -3,7 +3,7 @@ hide:
   - navigation
 ---
 
-# 📚Py4t課程 - 力與運動遊樂場
+# 📚 力與運動遊樂場
 
 電腦除了計算，也可以模擬科學實驗，幫助學習者理解概念。
 
@@ -17,9 +17,11 @@ hide:
 
 ##  📕 球的彈性
 
-很多同學下課時喜歡打球，球能做出各種不同的彈跳，它的彈性可以測量嗎？
+----------------------------
 
-: ![圓球](campus_basketball.jpg)
+很多同學下課時喜歡打球，球能做出各種不同的彈跳，彈性是什麼？彈性可以測量嗎？
+
+![圓球](campus_basketball.jpg)
 
 : (圖片來源[^1])
 
@@ -29,13 +31,15 @@ hide:
 
 ----------------------------
 
-#### 1.新增圓球
+### ▪️ 新增圓球
 
-: ![圓球](circle.jpg) 
+----------------------------
 
-: 利用基本的程式來產生物理舞台，按下滑鼠後可以新增圓球。
+利用基本的物理學習模組來產生物理舞台，按下滑鼠後可以新增圓球。
 
-: 一起動手來寫程式吧！
+![圓球](circle.jpg) 
+
+一起動手來寫程式吧！
 
 ??? example "Py4t範例程式 新增圓球"
 
@@ -53,15 +57,17 @@ hide:
 
 ----------------------------
 
-#### 2.恢復係數
+### ▪️ 恢復係數
 
-: 如何知道一顆球的彈性好不好呢？
+----------------------------
+
+如何知道一顆球的彈性好不好呢？
  
 <iframe width="560" height="315" src="https://www.youtube.com/embed/_RWqefx0vAg?start=95&amp;end=215" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <br/><br/>
 
-: 恢復係數可以衡量兩個物體在碰撞後的反彈程度
+恢復係數可以衡量兩個物體在碰撞後的反彈程度。
 
 
 ![恢復係數](cor_explain.jpg) 
@@ -71,7 +77,7 @@ hide:
 
 <br/><br/>
 
-: 讓我們用程式來模擬不同彈性的球吧！
+讓我們用程式來模擬不同彈性的球吧！
 
 ??? example "Py4t範例程式 恢復係數"
 
@@ -87,9 +93,11 @@ hide:
 
 ----------------------------
 
-#### 3.超強彈性體
+### ▪️ 超強彈性體
 
-: 將兩顆很有彈性的球互相碰撞，會發生什麼事？
+----------------------------
+
+將兩顆很有彈性的球互相碰撞，會發生什麼事？
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/_RWqefx0vAg?start=227&amp;end=414" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -100,9 +108,9 @@ hide:
 ![超強彈性體](super_bounce.jpg) 
 : (圖片來源[^2])
 
-: 兩顆很有彈性的球在一起，下方的球數倍大於上方的球，就可以組成超越原本的彈性體
+兩顆很有彈性的球在一起，下方的球數倍大於上方的球，就可以組成超越原本的彈性體。
 
-: 有沒有覺得很神奇？讓我們用程式來模擬看看吧！
+有沒有覺得很神奇？讓我們用程式來模擬看看吧！
 
 ??? example "Py4t範例程式 超強彈性體"
 
@@ -118,61 +126,43 @@ hide:
 
 <br/><br/><br/> 
 
-----------------------------
 
-##  📙 彈跳吧！圓球
-
-: 如果一次產生多顆球，如何來產生規律的彈跳呢？
-
-![彈性排列](bounce_array.jpg)
-
-: 利用之前的恢復係數，讓我們來實作程式吧！
-
-??? example "Py4t範例程式 彈跳吧！圓球"
-
-     :fontawesome-solid-link: <a href="../../pie4t/bounce_array/" target="_blank">Let's Code 彈跳吧！圓球 (含操作影片、程式碼及說明)</a>
-
-??? question "更多練習"
-
-    影片中有偶數球有不同的彈性變化，請你試著改寫成3種彈性變化吧。(提示：使用 if elif else，並利用除數為3的餘數)
-
-??? info "補充資料"
-
-    多顆圓球不斷彈跳的樣子，會聯想到什麼？ 
-    
-    :fontawesome-solid-link: <a href="https://www.youtube.com/watch?v=k80ID8yVJyg" target="_blank">youtube: 繩波的反射示範實驗</a>
-
-    :fontawesome-solid-link: <a href="https://youtu.be/bHIoI4-iB_A" target="_blank">youtube: 量子現象【觀念】波粒二象性－物質波（高一物理）</a>
-
-<br/><br/><br/> 
 
 ----------------------------
 
 ##  📒 力與斜面
 
-#### 1.新增球與斜面
+----------------------------
 
-: 溜滑梯的傾斜度不同，溜起來的感覺也不同。
+溜滑梯的傾斜度不同，溜起來的感覺也不同。
 
-: ![溜滑梯](slide.jpg)
+![溜滑梯](slide.jpg)
 
 : (圖片來源[^3])
 
-<br/>
-
 [^3]: 引用自維基百科 https://zh.wikipedia.org/wiki/File:葫蘆埤自然公園溜滑梯.jpg
 
-: 用斜面來模擬溜滑梯，在程式中要如何做出不同的傾斜度呢？
+<br/>
+
+----------------------------
+
+### ▪️ 新增球與斜面
+
+----------------------------
 
 
-: ![不同斜面](multiple_slides.jpg) 
+
+用斜面來模擬溜滑梯，在程式中要如何做出不同的傾斜度呢？
 
 
-: Py4t物理模組內建了地形的輔助功能，操作如下圖
+![不同斜面](multiple_slides.jpg) 
 
-: ![地形輔助](terrain_assist.jpg)
 
-: 動手做做看，建立不同的斜面
+Py4t物理學習模組內建了地形的輔助功能，操作如下圖：
+
+![地形輔助](terrain_assist.jpg)
+
+動手做做看，建立不同的斜面。
 
 ??? example "Py4t範例程式 新增球與斜面"
 
@@ -182,13 +172,15 @@ hide:
 
 ----------------------------
 
-#### 2.速度比較
+### ▪️ 速度比較
+
+----------------------------
 
 球在不同的斜面落下，會怎樣呢？
 
-: ![球在不同斜面](ball_on_slide.jpg) 
+![球在不同斜面](ball_on_slide.jpg) 
 
-用程式來模擬看看
+用程式來模擬看看。
 
 ??? example "Py4t範例程式 速度比較"
 
@@ -205,22 +197,24 @@ hide:
 
 ----------------------------
 
-#### 3.摩擦力
+### ▪️ 摩擦力
+
+----------------------------
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/JdMkAvibBec?start=12&amp;end=96" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <br/>
 
-: 摩擦力作用於物體的相反方向
+摩擦力作用於物體的相反方向。
 
-: ![摩擦力](friction_direction.jpg) 
+![摩擦力](friction_direction.jpg) 
 
 : (圖片來源[^4])
 
 [^4]: 引用自中學生網站 https://www.shs.edu.tw/works/essay/2011/03/2011033016033626.pdf
 
-用程式來模擬看看
+用程式來模擬看看。
 
 ??? example "Py4t範例程式 摩擦力"
 
@@ -238,13 +232,15 @@ hide:
 
 ----------------------------
 
-#### 4.施力
+### ▪️ 施加力量
+
+----------------------------
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/oPsfwZXCf1s?start=14&amp;end=77" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 衝上斜坡時，會發生什麼事？
 
-用程式來模擬看看
+用程式來模擬看看。
 
 ??? example "Py4t範例程式 施力"
 
@@ -258,9 +254,99 @@ hide:
 
 ----------------------------
 
-##  📗 慣性與重力
+##  📙 彈性排列
 
-#### 1.慣性運動
+什麼是繩波？
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/P7QrXW4ky34" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+讓我們用多顆球的排列做出類似繩波的效果。
+
+----------------------------
+
+### ▪️ 固定球數
+
+----------------------------
+
+如何一次產生多顆球並產生有變化的彈跳呢？
+
+![彈性排列想法](bounce_array_thought.jpg)
+
+利用之前的恢復係數，讓我們來實作程式吧！
+
+??? example "Py4t範例程式 固定球數"
+
+     :fontawesome-solid-link: <a href="../../pie4t/bounce_array/#1" target="_blank">Let's Code 固定球數 (含操作影片、程式碼及說明)</a>
+
+
+
+<br/><br/><br/> 
+
+----------------------------
+
+### ▪️ 變數模式識別
+
+----------------------------
+
+
+如果要從10顆球，可以隨意調整成20或40或80顆，程式要如何寫呢？
+
+
+
+識別變數的模式，找出各個變數之間的關係！
+
+![變數模式識別](variable_pattern.jpg)
+
+
+??? example "Py4t範例程式 變數模式識別"
+
+     :fontawesome-solid-link: <a href="../../pie4t/bounce_array/#2" target="_blank">Let's Code 變數模式識別 (含操作影片、程式碼及說明)</a>
+
+----------------------------
+
+### ▪️ 不同波動變化
+
+----------------------------
+
+
+![彈性排列](bounce_array.jpg)
+
+利用不同的彈性排列變化，來做出不同的效果吧
+
+??? example "Py4t範例程式 不同波動變化"
+
+     :fontawesome-solid-link: <a href="../../pie4t/bounce_array/#3" target="_blank">Let's Code 不同波動變化 (含操作影片、程式碼及說明)</a>
+
+
+??? info "補充資料"
+
+    多顆圓球不斷彈跳的樣子，會聯想到什麼？ 
+    
+    :fontawesome-solid-link: <a href="https://www.youtube.com/watch?v=k80ID8yVJyg" target="_blank">youtube: 繩波的反射示範實驗</a>
+
+    :fontawesome-solid-link: <a href="https://youtu.be/bHIoI4-iB_A" target="_blank">youtube: 量子現象【觀念】波粒二象性－物質波（高一物理）</a>
+
+<br/><br/><br/>
+
+----------------------------
+
+##  ⭐ 專題：重力控制模擬
+
+重力是什麼？如果有一天重力消失了會如何？
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1rKUPNASJqQ?start=0&amp;end=183" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+除非我們到外太空，不然在地球上很難進行重力的實驗。
+
+不過我們可以經由物理程式的模擬，做出無重力，甚至是重力反轉的現象。
+
+以下讓我們一步步探討來實做出重力模擬的程式。
+
+----------------------------
+
+### ▪️ 慣性運動
+
+----------------------------
 
 : 筆要如何才能掉進罐子呢？
 
@@ -268,13 +354,13 @@ hide:
 
 <br/><br/>
 
-: 什麼是慣性定律呢？
+什麼是慣性定律呢？
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Wc9W-Fb44Dk?start=62&amp;end=132" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <br/><br/>
 
-: 用程式來模擬慣性吧
+用程式來模擬慣性吧。
 
 ??? example "Py4t範例程式 施力"
 
@@ -292,21 +378,23 @@ hide:
 
 ----------------------------
 
-#### 2.拋體運動
+### ▪️ 拋體運動
 
-: 有看過推鉛球的運動嗎？
+----------------------------
+
+有看過推鉛球的運動嗎？
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/EkiaYNEAagA?start=0&amp;end=118" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <br/><br/> 
 
-:  鉛球被推出時，為什麼在空中的軌跡是拋物線？
+鉛球被推出時，為什麼在空中的軌跡是拋物線？
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/bhavS93SEaM?start=32&amp;end=97" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <br/><br/>
 
-用程式來模擬拋體運動吧
+用程式來模擬拋體運動吧。
 
 ??? example "Py4t範例程式 拋體運動"
 
@@ -322,16 +410,18 @@ hide:
 
 ----------------------------
 
-#### 3.重力搬運
+### ▪️ 重力搬運
 
-: 在太空中的奧運比賽
+----------------------------
+
+在國際太空站的趣味奧運比賽。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZlPpHILyEl4?start=0&amp;end=54" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <br/><br/>
 
-: 無重力漂浮是不是很特別
-: 用程式來模擬重力的控制吧
+無重力漂浮是不是很特別。
+用程式來模擬重力的控制吧。
 
 ??? example "Py4t範例程式 重力搬運"
 
@@ -339,7 +429,9 @@ hide:
 
 ??? question "更多練習"
 
-    把範例中的方塊，換成圓球，會如何呢？
+    範例程式中的方塊是由原點發射的，請修改程式，改成方塊會依滑鼠位置放置，但會有隨機的轉動及速度，類似太空中物體的漂浮，你有信心挑戰看看嗎？
+    
+    (提示：需使用随機模組，随機決定方塊的速度及角速度)。
 
 ??? info "補充資料" 
    
