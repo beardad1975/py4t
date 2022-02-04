@@ -906,6 +906,10 @@
         
           
         
+          
+        
+          
+        
       
       
         
@@ -948,6 +952,20 @@
   
   
     <li class="md-nav__item">
+      <a href="../rectangle_and_fill/" class="md-nav__link">
+        🔰 長方形及填色 範例
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../regular_polygon/" class="md-nav__link">
         🔰 正多邊形 範例
       </a>
@@ -962,36 +980,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../spiral/" class="md-nav__link">
-        🔰 螺旋形 範例
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
       <a href="../odd_number_star/" class="md-nav__link">
         🔰 奇數角星形 範例
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../fractal_tree/" class="md-nav__link">
-        🔰 碎形樹 範例
       </a>
     </li>
   
@@ -1060,7 +1050,7 @@
       
         <li class="md-nav__item">
   <a href="#_2" class="md-nav__link">
-    🏷️ 原理說明
+    🏷️ 重點說明
   </a>
   
 </li>
@@ -1094,6 +1084,20 @@
   
   
     <li class="md-nav__item">
+      <a href="../flag_of_vietnam/" class="md-nav__link">
+        🔰 越南國旗 範例
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../roc_flag/" class="md-nav__link">
         🔰 中華民國國旗 範例
       </a>
@@ -1108,8 +1112,36 @@
   
   
     <li class="md-nav__item">
+      <a href="../spiral/" class="md-nav__link">
+        🔰 螺旋形 範例
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../circle_zentangle/" class="md-nav__link">
         🔰 圓形纏繞畫 範例
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../fractal_tree/" class="md-nav__link">
+        🔰 碎形樹 範例
       </a>
     </li>
   
@@ -1685,7 +1717,7 @@
       
         <li class="md-nav__item">
   <a href="#_2" class="md-nav__link">
-    🏷️ 原理說明
+    🏷️ 重點說明
   </a>
   
 </li>
@@ -1723,7 +1755,7 @@
 <iframe width="896" height="504" src="https://www.youtube.com/embed/upF-HpneLPY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <hr />
-<h3 id="_2">🏷️ 原理說明</h3>
+<h3 id="_2">🏷️ 重點說明</h3>
 <p>日本國旗的寬高比是3:2，先重複2次的寬高，來畫出3:2的長方形(程式採用左轉，讓座標值xy都為正)</p>
 <p>停筆(避免海龜畫線)，先移動到國旗中心(座標為寬與高各一半的位置)</p>
 <p>下筆(繼續畫線)後，畫出紅色圓形(直徑:高的3/5，且紅色rgb值為255, 0, 0)</p>
@@ -1732,18 +1764,21 @@
 <div class="highlight"><pre><span></span><code><span class="linenos" data-linenos=" 1 "></span><span class="kn">from</span> <span class="nn">海龜模組</span> <span class="kn">import</span> <span class="o">*</span>
 <span class="linenos" data-linenos=" 2 "></span><span class="n">視窗設定</span><span class="p">(</span><span class="mi">800</span><span class="p">,</span> <span class="mi">600</span><span class="p">)</span>
 <span class="linenos" data-linenos=" 3 "></span>
-<span class="linenos" data-linenos=" 4 "></span><span class="k">for</span> <span class="n">數</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span> <span class="p">:</span>
-<span class="linenos" data-linenos=" 5 "></span>    <span class="n">向前</span><span class="p">(</span><span class="mi">300</span><span class="p">)</span>
-<span class="linenos" data-linenos=" 6 "></span>    <span class="n">左轉</span><span class="p">(</span><span class="mi">90</span><span class="p">)</span>
-<span class="linenos" data-linenos=" 7 "></span>    <span class="n">向前</span><span class="p">(</span><span class="mi">200</span><span class="p">)</span>
-<span class="linenos" data-linenos=" 8 "></span>    <span class="n">左轉</span><span class="p">(</span><span class="mi">90</span><span class="p">)</span>
-<span class="linenos" data-linenos=" 9 "></span>
-<span class="linenos" data-linenos="10 "></span><span class="n">停筆</span><span class="p">()</span>
-<span class="linenos" data-linenos="11 "></span><span class="n">走到</span><span class="p">(</span><span class="mi">300</span><span class="o">/</span><span class="mi">2</span><span class="p">,</span><span class="mi">200</span><span class="o">/</span><span class="mi">2</span><span class="p">)</span>
-<span class="linenos" data-linenos="12 "></span>
-<span class="linenos" data-linenos="13 "></span><span class="n">下筆</span><span class="p">()</span>
-<span class="linenos" data-linenos="14 "></span><span class="n">畫點</span><span class="p">(</span><span class="mi">200</span><span class="o">*</span><span class="mi">3</span><span class="o">/</span><span class="mi">5</span><span class="p">,</span> <span class="p">[</span><span class="mi">255</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">])</span>
-<span class="linenos" data-linenos="15 "></span><span class="n">隱藏游標</span><span class="p">()</span>
+<span class="linenos" data-linenos=" 4 "></span><span class="c1"># 長方形線條 寬高比3:2</span>
+<span class="linenos" data-linenos=" 5 "></span><span class="k">for</span> <span class="n">數</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span> <span class="p">:</span>
+<span class="linenos" data-linenos=" 6 "></span>    <span class="n">向前</span><span class="p">(</span><span class="mi">300</span><span class="p">)</span>
+<span class="linenos" data-linenos=" 7 "></span>    <span class="n">左轉</span><span class="p">(</span><span class="mi">90</span><span class="p">)</span>
+<span class="linenos" data-linenos=" 8 "></span>    <span class="n">向前</span><span class="p">(</span><span class="mi">200</span><span class="p">)</span>
+<span class="linenos" data-linenos=" 9 "></span>    <span class="n">左轉</span><span class="p">(</span><span class="mi">90</span><span class="p">)</span>
+<span class="linenos" data-linenos="10 "></span>
+<span class="linenos" data-linenos="11 "></span><span class="c1"># 移動至長方形中心(不畫線)    </span>
+<span class="linenos" data-linenos="12 "></span><span class="n">停筆</span><span class="p">()</span>
+<span class="linenos" data-linenos="13 "></span><span class="n">走到</span><span class="p">(</span><span class="mi">300</span><span class="o">/</span><span class="mi">2</span><span class="p">,</span><span class="mi">200</span><span class="o">/</span><span class="mi">2</span><span class="p">)</span>
+<span class="linenos" data-linenos="14 "></span><span class="n">下筆</span><span class="p">()</span>
+<span class="linenos" data-linenos="15 "></span>
+<span class="linenos" data-linenos="16 "></span><span class="c1"># 畫紅色實心圓</span>
+<span class="linenos" data-linenos="17 "></span><span class="n">畫點</span><span class="p">(</span><span class="mi">200</span><span class="o">*</span><span class="mi">3</span><span class="o">/</span><span class="mi">5</span><span class="p">,</span> <span class="p">[</span><span class="mi">255</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">])</span>
+<span class="linenos" data-linenos="18 "></span><span class="n">隱藏游標</span><span class="p">()</span>
 </code></pre></div>
 <hr />
 <h3 id="_3">💻 執行截圖</h3>
@@ -1777,13 +1812,13 @@
       
       
         
-        <a href="../roc_flag/" class="md-footer__link md-footer__link--next" aria-label="下一頁: 🔰 中華民國國旗 範例" rel="next">
+        <a href="../flag_of_vietnam/" class="md-footer__link md-footer__link--next" aria-label="下一頁: 🔰 越南國旗 範例" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 下一頁
               </span>
-              🔰 中華民國國旗 範例
+              🔰 越南國旗 範例
             </div>
           </div>
           <div class="md-footer__button md-icon">
@@ -1798,7 +1833,7 @@
       <div class="md-copyright">
   
     <div class="md-copyright__highlight">
-      Copyright &copy; 2021 Wen-Hung, Chang. 張文宏
+      Copyright &copy; 2022 Wen-Hung, Chang. 張文宏, 桃園市桃園區南門國民小學教師
     </div>
   
   

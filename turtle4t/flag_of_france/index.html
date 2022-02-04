@@ -906,6 +906,10 @@
         
           
         
+          
+        
+          
+        
       
       
         
@@ -948,6 +952,20 @@
   
   
     <li class="md-nav__item">
+      <a href="../rectangle_and_fill/" class="md-nav__link">
+        🔰 長方形及填色 範例
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../regular_polygon/" class="md-nav__link">
         🔰 正多邊形 範例
       </a>
@@ -962,36 +980,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../spiral/" class="md-nav__link">
-        🔰 螺旋形 範例
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
       <a href="../odd_number_star/" class="md-nav__link">
         🔰 奇數角星形 範例
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../fractal_tree/" class="md-nav__link">
-        🔰 碎形樹 範例
       </a>
     </li>
   
@@ -1046,7 +1036,7 @@
       
         <li class="md-nav__item">
   <a href="#_2" class="md-nav__link">
-    🏷️ 原理說明
+    🏷️ 重點說明
   </a>
   
 </li>
@@ -1094,6 +1084,20 @@
   
   
     <li class="md-nav__item">
+      <a href="../flag_of_vietnam/" class="md-nav__link">
+        🔰 越南國旗 範例
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../roc_flag/" class="md-nav__link">
         🔰 中華民國國旗 範例
       </a>
@@ -1108,8 +1112,36 @@
   
   
     <li class="md-nav__item">
+      <a href="../spiral/" class="md-nav__link">
+        🔰 螺旋形 範例
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../circle_zentangle/" class="md-nav__link">
         🔰 圓形纏繞畫 範例
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../fractal_tree/" class="md-nav__link">
+        🔰 碎形樹 範例
       </a>
     </li>
   
@@ -1685,7 +1717,7 @@
       
         <li class="md-nav__item">
   <a href="#_2" class="md-nav__link">
-    🏷️ 原理說明
+    🏷️ 重點說明
   </a>
   
 </li>
@@ -1723,41 +1755,45 @@
 <iframe width="896" height="504" src="https://www.youtube.com/embed/GKyYdbDMH1A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <hr />
-<h3 id="_2">🏷️ 原理說明</h3>
+<h3 id="_2">🏷️ 重點說明</h3>
 <p>法國國旗的長寬比為3:2，由左到右為藍、白、紅色。</p>
 <p>先讓海龜重複2次畫出3:2的長方形，將長方形填上紅色(利用開始填色及停止填色)
 ，接著畫出2:2的方形，填上白色，最後畫出1:2的方形，填上藍色，就完成了</p>
+<p><br/><br/></p>
 <hr />
 <h3 id="py4t">📄 Py4t程式碼</h3>
 <div class="highlight"><pre><span></span><code><span class="linenos" data-linenos=" 1 "></span><span class="kn">from</span> <span class="nn">海龜模組</span> <span class="kn">import</span> <span class="o">*</span>
 <span class="linenos" data-linenos=" 2 "></span><span class="n">視窗設定</span><span class="p">(</span><span class="mi">800</span><span class="p">,</span> <span class="mi">600</span><span class="p">)</span>
 <span class="linenos" data-linenos=" 3 "></span>
-<span class="linenos" data-linenos=" 4 "></span><span class="n">填充顏色</span><span class="p">(</span><span class="s1">&#39;red&#39;</span><span class="p">)</span>
-<span class="linenos" data-linenos=" 5 "></span><span class="n">開始填色</span><span class="p">()</span>
-<span class="linenos" data-linenos=" 6 "></span><span class="k">for</span> <span class="n">數</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span> <span class="p">:</span>
-<span class="linenos" data-linenos=" 7 "></span>    <span class="n">向前</span><span class="p">(</span><span class="mi">300</span><span class="p">)</span>
-<span class="linenos" data-linenos=" 8 "></span>    <span class="n">右轉</span><span class="p">(</span><span class="mi">90</span><span class="p">)</span>
-<span class="linenos" data-linenos=" 9 "></span>    <span class="n">向前</span><span class="p">(</span><span class="mi">200</span><span class="p">)</span>
-<span class="linenos" data-linenos="10 "></span>    <span class="n">右轉</span><span class="p">(</span><span class="mi">90</span><span class="p">)</span>
-<span class="linenos" data-linenos="11 "></span><span class="n">停止填色</span><span class="p">()</span>
-<span class="linenos" data-linenos="12 "></span>
-<span class="linenos" data-linenos="13 "></span><span class="n">填充顏色</span><span class="p">(</span><span class="s1">&#39;white&#39;</span><span class="p">)</span>
-<span class="linenos" data-linenos="14 "></span><span class="n">開始填色</span><span class="p">()</span>
-<span class="linenos" data-linenos="15 "></span><span class="k">for</span> <span class="n">數</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span> <span class="p">:</span>
-<span class="linenos" data-linenos="16 "></span>    <span class="n">向前</span><span class="p">(</span><span class="mi">200</span><span class="p">)</span>
-<span class="linenos" data-linenos="17 "></span>    <span class="n">右轉</span><span class="p">(</span><span class="mi">90</span><span class="p">)</span>
+<span class="linenos" data-linenos=" 4 "></span><span class="c1"># 紅色長方形 寬高比3:2</span>
+<span class="linenos" data-linenos=" 5 "></span><span class="n">填充顏色</span><span class="p">(</span><span class="s1">&#39;red&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos=" 6 "></span><span class="n">開始填色</span><span class="p">()</span>
+<span class="linenos" data-linenos=" 7 "></span><span class="k">for</span> <span class="n">數</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span> <span class="p">:</span>
+<span class="linenos" data-linenos=" 8 "></span>    <span class="n">向前</span><span class="p">(</span><span class="mi">300</span><span class="p">)</span>
+<span class="linenos" data-linenos=" 9 "></span>    <span class="n">右轉</span><span class="p">(</span><span class="mi">90</span><span class="p">)</span>
+<span class="linenos" data-linenos="10 "></span>    <span class="n">向前</span><span class="p">(</span><span class="mi">200</span><span class="p">)</span>
+<span class="linenos" data-linenos="11 "></span>    <span class="n">右轉</span><span class="p">(</span><span class="mi">90</span><span class="p">)</span>
+<span class="linenos" data-linenos="12 "></span><span class="n">停止填色</span><span class="p">()</span>
+<span class="linenos" data-linenos="13 "></span>
+<span class="linenos" data-linenos="14 "></span><span class="c1"># 白色長方形 寬高比2:2</span>
+<span class="linenos" data-linenos="15 "></span><span class="n">填充顏色</span><span class="p">(</span><span class="s1">&#39;white&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos="16 "></span><span class="n">開始填色</span><span class="p">()</span>
+<span class="linenos" data-linenos="17 "></span><span class="k">for</span> <span class="n">數</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span> <span class="p">:</span>
 <span class="linenos" data-linenos="18 "></span>    <span class="n">向前</span><span class="p">(</span><span class="mi">200</span><span class="p">)</span>
 <span class="linenos" data-linenos="19 "></span>    <span class="n">右轉</span><span class="p">(</span><span class="mi">90</span><span class="p">)</span>
-<span class="linenos" data-linenos="20 "></span><span class="n">停止填色</span><span class="p">()</span>
-<span class="linenos" data-linenos="21 "></span>
-<span class="linenos" data-linenos="22 "></span><span class="n">填充顏色</span><span class="p">(</span><span class="s1">&#39;blue&#39;</span><span class="p">)</span>
-<span class="linenos" data-linenos="23 "></span><span class="n">開始填色</span><span class="p">()</span>
-<span class="linenos" data-linenos="24 "></span><span class="k">for</span> <span class="n">數</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span> <span class="p">:</span>
-<span class="linenos" data-linenos="25 "></span>    <span class="n">向前</span><span class="p">(</span><span class="mi">100</span><span class="p">)</span>
-<span class="linenos" data-linenos="26 "></span>    <span class="n">右轉</span><span class="p">(</span><span class="mi">90</span><span class="p">)</span>
-<span class="linenos" data-linenos="27 "></span>    <span class="n">向前</span><span class="p">(</span><span class="mi">200</span><span class="p">)</span>
-<span class="linenos" data-linenos="28 "></span>    <span class="n">右轉</span><span class="p">(</span><span class="mi">90</span><span class="p">)</span>
-<span class="linenos" data-linenos="29 "></span><span class="n">停止填色</span><span class="p">()</span>
+<span class="linenos" data-linenos="20 "></span>    <span class="n">向前</span><span class="p">(</span><span class="mi">200</span><span class="p">)</span>
+<span class="linenos" data-linenos="21 "></span>    <span class="n">右轉</span><span class="p">(</span><span class="mi">90</span><span class="p">)</span>
+<span class="linenos" data-linenos="22 "></span><span class="n">停止填色</span><span class="p">()</span>
+<span class="linenos" data-linenos="23 "></span>
+<span class="linenos" data-linenos="24 "></span><span class="c1"># 藍色長方形 寬高比1:2</span>
+<span class="linenos" data-linenos="25 "></span><span class="n">填充顏色</span><span class="p">(</span><span class="s1">&#39;blue&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos="26 "></span><span class="n">開始填色</span><span class="p">()</span>
+<span class="linenos" data-linenos="27 "></span><span class="k">for</span> <span class="n">數</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span> <span class="p">:</span>
+<span class="linenos" data-linenos="28 "></span>    <span class="n">向前</span><span class="p">(</span><span class="mi">100</span><span class="p">)</span>
+<span class="linenos" data-linenos="29 "></span>    <span class="n">右轉</span><span class="p">(</span><span class="mi">90</span><span class="p">)</span>
+<span class="linenos" data-linenos="30 "></span>    <span class="n">向前</span><span class="p">(</span><span class="mi">200</span><span class="p">)</span>
+<span class="linenos" data-linenos="31 "></span>    <span class="n">右轉</span><span class="p">(</span><span class="mi">90</span><span class="p">)</span>
+<span class="linenos" data-linenos="32 "></span><span class="n">停止填色</span><span class="p">()</span>
 </code></pre></div>
 <hr />
 <h3 id="_3">💻 執行截圖</h3>
@@ -1775,7 +1811,7 @@
     <nav class="md-footer__inner md-grid" aria-label="Footer">
       
         
-        <a href="../fractal_tree/" class="md-footer__link md-footer__link--prev" aria-label="上一頁: 🔰 碎形樹 範例" rel="prev">
+        <a href="../odd_number_star/" class="md-footer__link md-footer__link--prev" aria-label="上一頁: 🔰 奇數角星形 範例" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
           </div>
@@ -1784,7 +1820,7 @@
               <span class="md-footer__direction">
                 上一頁
               </span>
-              🔰 碎形樹 範例
+              🔰 奇數角星形 範例
             </div>
           </div>
         </a>
@@ -1812,7 +1848,7 @@
       <div class="md-copyright">
   
     <div class="md-copyright__highlight">
-      Copyright &copy; 2021 Wen-Hung, Chang. 張文宏
+      Copyright &copy; 2022 Wen-Hung, Chang. 張文宏, 桃園市桃園區南門國民小學教師
     </div>
   
   
