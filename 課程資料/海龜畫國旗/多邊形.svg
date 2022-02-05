@@ -21,6 +21,286 @@
      id="defs2">
     <marker
        style="overflow:visible"
+       id="marker1760"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mstart"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.6) translate(0,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         id="path1758" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker1750"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mstart"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.6) translate(0,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         id="path1748" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker3318"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="DotM"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.4) translate(7.4, 1)"
+         style="fill-rule:evenodd;stroke:#ff0000;stroke-width:1pt;stroke-opacity:0.705882;fill:#ff0000;fill-opacity:1"
+         d="M -2.5,-1.0 C -2.5,1.7600000 -4.7400000,4.0 -7.5,4.0 C -10.260000,4.0 -12.5,1.7600000 -12.5,-1.0 C -12.5,-3.7600000 -10.260000,-6.0 -7.5,-6.0 C -4.7400000,-6.0 -2.5,-3.7600000 -2.5,-1.0 z "
+         id="path3316" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="DotM"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="DotM"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.4) translate(7.4, 1)"
+         style="fill-rule:evenodd;stroke:#ff0000;stroke-width:1pt;stroke-opacity:0.705882;fill:#ff0000;fill-opacity:1"
+         d="M -2.5,-1.0 C -2.5,1.7600000 -4.7400000,4.0 -7.5,4.0 C -10.260000,4.0 -12.5,1.7600000 -12.5,-1.0 C -12.5,-3.7600000 -10.260000,-6.0 -7.5,-6.0 C -4.7400000,-6.0 -2.5,-3.7600000 -2.5,-1.0 z "
+         id="path1323" />
+    </marker>
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect2558"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect2530"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect2526"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect2522"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect2512"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect2508"
+       is_visible="true"
+       lpeversion="1" />
+    <marker
+       style="overflow:visible"
+       id="marker2276"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mstart"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.6) translate(0,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         id="path2274" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker2266"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mstart"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.6) translate(0,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         id="path2264" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker2256"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mstart"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.6) translate(0,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         id="path2254" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker1982"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mstart"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         transform="scale(0.6) translate(0,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         id="path1980" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker1856"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mstart"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         transform="scale(0.6) translate(0,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         id="path1854" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker1522"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Sstart"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.2) translate(6,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path1271" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker1089"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mstart"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.6) translate(0,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         id="path1087" />
+    </marker>
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect1102"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect1100"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect1092"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect1090"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect1082"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect1080"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect1068"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect1064"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect1060"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect1056"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect1052"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect1198"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect1194"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect1190"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect1186"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect1182"
+       is_visible="true"
+       lpeversion="1" />
+    <marker
+       style="overflow:visible"
+       id="marker1030"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Sstart"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.2) translate(6,0)"
+         style="fill-rule:evenodd;stroke:#ff8b05;stroke-width:1pt;stroke-opacity:0.772549;fill:#ff8b05;fill-opacity:0.772549"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path1028" />
+    </marker>
+    <marker
+       style="overflow:visible"
        id="marker2228"
        refX="0.0"
        refY="0.0"
@@ -84,7 +364,8 @@
        refY="0.0"
        orient="auto"
        inkscape:stockid="Arrow2Mstart"
-       inkscape:isstock="true">
+       inkscape:isstock="true"
+       inkscape:collect="always">
       <path
          transform="scale(0.6) translate(0,0)"
          d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
@@ -128,7 +409,8 @@
        refY="0.0"
        orient="auto"
        inkscape:stockid="Arrow1Sstart"
-       inkscape:isstock="true">
+       inkscape:isstock="true"
+       inkscape:collect="always">
       <path
          transform="scale(0.2) translate(6,0)"
          style="fill-rule:evenodd;stroke:#ff8b05;stroke-width:1pt;stroke-opacity:0.772549;fill:#ff8b05;fill-opacity:0.772549"
@@ -208,6 +490,17 @@
          style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#ff8b05;stroke-opacity:0.772549;fill:#ff8b05;fill-opacity:0.772549"
          id="path867" />
     </marker>
+    <marker
+       id="left-arrow"
+       viewBox="-4 -4 10 8"
+       orient="auto"
+       markerWidth="10"
+       markerHeight="8">
+      <path
+         fill="blue"
+         d="m2 0 4 4-10-4L6-4z"
+         id="path1302" />
+    </marker>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -216,9 +509,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.49497475"
-     inkscape:cx="-3445.1172"
-     inkscape:cy="2201.6502"
+     inkscape:zoom="0.7"
+     inkscape:cx="-6737.9726"
+     inkscape:cy="442.31871"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -245,13 +538,22 @@
      inkscape:groupmode="layer"
      id="layer1">
     <circle
+       style="opacity:0.770936;fill:#ff8b05;fill-opacity:1;stroke:none;stroke-width:5.14209;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="circle2192"
+       cx="-1249.2629"
+       cy="15.505276"
+       r="7.7485118"
+       inkscape:export-xdpi="43.728325"
+       inkscape:export-ydpi="43.728325"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\turtle_coordinate.png" />
+    <circle
        style="opacity:0.770936;fill:#ff8b05;fill-opacity:1;stroke:none;stroke-width:7.65042;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="circle978"
        cx="-518.90295"
        cy="79.181396"
        r="11.528274"
-       inkscape:export-xdpi="38.47998"
-       inkscape:export-ydpi="38.47998"
+       inkscape:export-xdpi="53.50634"
+       inkscape:export-ydpi="53.50634"
        inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\draw_square.png" />
     <text
        xml:space="preserve"
@@ -259,8 +561,8 @@
        x="-530.58319"
        y="71.48661"
        id="text982"
-       inkscape:export-xdpi="38.47998"
-       inkscape:export-ydpi="38.47998"
+       inkscape:export-xdpi="53.50634"
+       inkscape:export-ydpi="53.50634"
        inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\draw_square.png"><tspan
          sodipodi:role="line"
          id="tspan980"
@@ -271,8 +573,8 @@
        style="fill:none;stroke:#ff8b05;stroke-width:2.72607;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.772549;marker-start:url(#marker988)"
        d="m -486.82157,66.10323 -20.42025,0.37798"
        id="path984"
-       inkscape:export-xdpi="38.47998"
-       inkscape:export-ydpi="38.47998"
+       inkscape:export-xdpi="53.50634"
+       inkscape:export-ydpi="53.50634"
        inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\draw_square.png" />
     <circle
        style="opacity:0.770936;fill:#ff8b05;fill-opacity:1;stroke:none;stroke-width:7.65042;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -398,14 +700,14 @@
        inkscape:export-xdpi="73.203697"
        inkscape:export-ydpi="73.203697" />
     <path
-       style="fill:none;stroke:#1720ff;stroke-width:3.165;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.772549"
+       style="fill:none;stroke:#1720ff;stroke-width:3.165;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.772549"
        d="m -346.38131,210.07384 h 142.72193"
        id="path874"
        inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\draw_rectangle.png"
        inkscape:export-xdpi="49.012714"
        inkscape:export-ydpi="49.012714" />
     <path
-       style="fill:none;stroke:#31da29;stroke-width:3.165;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.772549"
+       style="fill:none;stroke:#31da29;stroke-width:3.165;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.772549"
        d="m -203.65938,119.73674 v 90.3371"
        id="path876"
        sodipodi:nodetypes="cc"
@@ -413,7 +715,7 @@
        inkscape:export-xdpi="49.012714"
        inkscape:export-ydpi="49.012714" />
     <path
-       style="fill:none;stroke:#31da29;stroke-width:3.165;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.772549"
+       style="fill:none;stroke:#31da29;stroke-width:3.165;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.772549"
        d="m -346.38131,119.73674 v 90.3371"
        id="path878"
        sodipodi:nodetypes="cc"
@@ -421,7 +723,7 @@
        inkscape:export-xdpi="49.012714"
        inkscape:export-ydpi="49.012714" />
     <path
-       style="fill:none;stroke:#1720ff;stroke-width:3.165;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.772549"
+       style="fill:none;stroke:#1720ff;stroke-width:3.165;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.772549"
        d="m -346.38131,119.73674 h 142.72193"
        id="path872"
        inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\draw_rectangle.png"
@@ -435,8 +737,8 @@
        x="-519.57196"
        y="79.646317"
        inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\draw_square.png"
-       inkscape:export-xdpi="38.47998"
-       inkscape:export-ydpi="38.47998" />
+       inkscape:export-xdpi="53.50634"
+       inkscape:export-ydpi="53.50634" />
     <rect
        style="opacity:0.770936;fill:none;stroke:#000000;stroke-width:1.33112;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.772549"
        id="rect1074"
@@ -555,33 +857,41 @@
        height="74.819237"
        x="-1412.0889"
        y="539.76007" />
-    <rect
-       style="opacity:1;fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.92910699;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:7.43285592,7.43285592;stroke-opacity:0.772549;stroke-dashoffset:0"
-       id="rect1779"
-       width="37.021606"
-       height="74.819237"
-       x="-811.90289"
-       y="660.14557" />
     <path
        id="rect1781"
-       style="opacity:1;fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.929;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:7.43200003,7.43200003;stroke-opacity:0.772549;stroke-dashoffset:0"
-       d="m -1141.4581,462.27506 v 74.81922 h 37.022 37.0216 37.0215 v -74.81922 h -37.0215 -37.0216 z" />
+       style="opacity:1;fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:16,16;stroke-opacity:0.772549;stroke-dashoffset:0"
+       d="m -1141.4581,462.27506 v 74.81922 h 37.022 37.0216 37.0215 v -74.81922 h -37.0215 -37.0216 z"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\french_flag_thought.png"
+       inkscape:export-xdpi="55.101334"
+       inkscape:export-ydpi="55.101334" />
     <path
        id="path1793"
        style="opacity:1;fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.929108;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.772549"
-       d="m -994.631,461.51911 v 74.81922 h 37.02198 37.0216 37.0215 v -74.81922 h -37.0215 -37.0216 z" />
+       d="m -994.631,461.51911 v 74.81922 h 37.02198 37.0216 37.0215 v -74.81922 h -37.0215 -37.0216 z"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\french_flag_thought.png"
+       inkscape:export-xdpi="55.101334"
+       inkscape:export-ydpi="55.101334" />
     <path
        id="rect1788"
-       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.929108;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:7.43286399,7.43286399;stroke-opacity:0.772549;stroke-dashoffset:0"
-       d="m -994.631,461.51911 v 74.81922 h 37.022 37.02151 V 461.51911 H -957.609 Z" />
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:16,16;stroke-opacity:0.772549;stroke-dashoffset:0"
+       d="m -994.631,461.51911 v 74.81922 h 37.022 37.02151 V 461.51911 H -957.609 Z"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\french_flag_thought.png"
+       inkscape:export-xdpi="55.101334"
+       inkscape:export-ydpi="55.101334" />
     <path
        id="path1795"
        style="opacity:1;fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.929108;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.772549"
-       d="m -847.04798,461.51911 v 74.81922 h 37.02198 37.0216 37.0215 v -74.81922 h -37.0215 -37.0216 z" />
+       d="m -847.04798,461.51911 v 74.81922 h 37.02198 37.0216 37.0215 v -74.81922 h -37.0215 -37.0216 z"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\french_flag_thought.png"
+       inkscape:export-xdpi="55.101334"
+       inkscape:export-ydpi="55.101334" />
     <path
        id="path1797"
        style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.929108;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.772549"
-       d="m -847.04798,461.51911 v 74.81922 h 37.022 37.02151 v -74.81922 h -37.02151 z" />
+       d="m -847.04798,461.51911 v 74.81922 h 37.022 37.02151 v -74.81922 h -37.02151 z"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\french_flag_thought.png"
+       inkscape:export-xdpi="55.101334"
+       inkscape:export-ydpi="55.101334" />
     <rect
        style="opacity:1;fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.929107;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.772549"
        id="rect1799"
@@ -590,26 +900,29 @@
        x="-1412.0889"
        y="539.76007" />
     <rect
-       style="opacity:1;fill:#6060f8;fill-opacity:1;stroke:#000000;stroke-width:0.92910699;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:7.43285592,7.43285592;stroke-opacity:0.772549;stroke-dashoffset:0"
+       style="opacity:1;fill:#6060f8;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:16,16;stroke-opacity:0.772549;stroke-dashoffset:0"
        id="rect1777"
        width="37.021606"
        height="74.819237"
        x="-847.04797"
-       y="461.5191" />
+       y="461.5191"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\french_flag_thought.png"
+       inkscape:export-xdpi="55.101334"
+       inkscape:export-ydpi="55.101334" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1.35509;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker1838)"
        d="m -1004.4885,499.86976 h -17.3061"
        id="path1834"
-       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\fill_color.png"
-       inkscape:export-xdpi="44.763512"
-       inkscape:export-ydpi="44.763512" />
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\french_flag_thought.png"
+       inkscape:export-xdpi="55.101334"
+       inkscape:export-ydpi="55.101334" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1.35509;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker1942)"
        d="m -857.07779,500.62571 h -17.3061"
        id="path1938"
-       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\fill_color.png"
-       inkscape:export-xdpi="44.763512"
-       inkscape:export-ydpi="44.763512" />
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\french_flag_thought.png"
+       inkscape:export-xdpi="55.101334"
+       inkscape:export-ydpi="55.101334" />
     <text
        xml:space="preserve"
        style="font-size:23.2094px;line-height:1.25;font-family:sans-serif;fill:#000000;stroke-width:0.580234"
@@ -617,9 +930,9 @@
        y="360.05762"
        id="text2052"
        transform="scale(0.85385502,1.171159)"
-       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\fill_color.png"
-       inkscape:export-xdpi="44.763512"
-       inkscape:export-ydpi="44.763512"><tspan
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\french_flag_thought.png"
+       inkscape:export-xdpi="55.101334"
+       inkscape:export-ydpi="55.101334"><tspan
          sodipodi:role="line"
          x="-1141.655"
          y="360.05762"
@@ -632,81 +945,96 @@
        y="531.7536"
        id="text2056"
        transform="scale(0.85385502,1.171159)"
-       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\fill_color.png"
-       inkscape:export-xdpi="44.763512"
-       inkscape:export-ydpi="44.763512"><tspan
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\french_flag_thought.png"
+       inkscape:export-xdpi="55.101334"
+       inkscape:export-ydpi="55.101334"><tspan
          sodipodi:role="line"
          x="-1142.5404"
          y="531.7536"
          style="fill:#000000;stroke-width:0.580234"
          id="tspan2054">想法二</tspan></text>
     <rect
-       style="opacity:1;fill:#6060f8;fill-opacity:1;stroke:#000000;stroke-width:0.929;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:7.43200003,7.43200003;stroke-opacity:0.772549;stroke-dashoffset:0"
+       style="opacity:1;fill:#6060f8;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:16,16;stroke-opacity:0.772549;stroke-dashoffset:0"
        id="rect2058"
        width="37.021606"
        height="74.819237"
        x="-1104.0718"
-       y="660.14557" />
+       y="660.14557"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\french_flag_thought.png"
+       inkscape:export-xdpi="55.101334"
+       inkscape:export-ydpi="55.101334" />
     <rect
        style="opacity:1;fill:#6060f8;fill-opacity:1;stroke:#000000;stroke-width:0.929107;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.772549"
        id="rect2060"
        width="37.021606"
        height="74.819237"
        x="-1012.6015"
-       y="660.14557" />
+       y="660.14557"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\french_flag_thought.png"
+       inkscape:export-xdpi="55.101334"
+       inkscape:export-ydpi="55.101334" />
     <rect
-       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.92910699;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:7.43285592,7.43285592;stroke-opacity:0.772549;stroke-dashoffset:0"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:16,16;stroke-opacity:0.772549;stroke-dashoffset:0"
        id="rect2062"
        width="37.021606"
        height="74.819237"
        x="-975.5799"
-       y="660.14557" />
+       y="660.14557"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\french_flag_thought.png"
+       inkscape:export-xdpi="55.101334"
+       inkscape:export-ydpi="55.101334" />
     <rect
        style="opacity:1;fill:#6060f8;fill-opacity:1;stroke:#000000;stroke-width:0.929107;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.772549"
        id="rect2064"
        width="37.021606"
        height="74.819237"
        x="-885.94611"
-       y="660.14557" />
+       y="660.14557"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\french_flag_thought.png"
+       inkscape:export-xdpi="55.101334"
+       inkscape:export-ydpi="55.101334" />
     <rect
        style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.929107;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.772549"
        id="rect2066"
        width="37.021606"
        height="74.819237"
        x="-848.9245"
-       y="660.14557" />
+       y="660.14557"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\french_flag_thought.png"
+       inkscape:export-xdpi="55.101334"
+       inkscape:export-ydpi="55.101334" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1.35509;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker2108)"
        d="m -1031.7028,696.41738 h -17.3061"
        id="path2104"
-       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\fill_color.png"
-       inkscape:export-xdpi="44.763512"
-       inkscape:export-ydpi="44.763512" />
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\french_flag_thought.png"
+       inkscape:export-xdpi="55.101334"
+       inkscape:export-ydpi="55.101334" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1.35509;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker2228)"
        d="m -906.21471,696.41738 h -17.3061"
        id="path2224"
-       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\fill_color.png"
-       inkscape:export-xdpi="44.763512"
-       inkscape:export-ydpi="44.763512" />
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\french_flag_thought.png"
+       inkscape:export-xdpi="55.101334"
+       inkscape:export-ydpi="55.101334" />
     <circle
        style="opacity:0.770936;fill:#ffeb05;fill-opacity:1;stroke:none;stroke-width:7.65042;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="circle1801"
        cx="-1138.9683"
        cy="461.91135"
        r="11.528274"
-       inkscape:export-xdpi="38.47998"
-       inkscape:export-ydpi="38.47998"
-       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\draw_square.png" />
+       inkscape:export-xdpi="55.101334"
+       inkscape:export-ydpi="55.101334"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\french_flag_thought.png" />
     <text
        xml:space="preserve"
        style="font-size:10.5833px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
        x="-1150.6484"
        y="454.21658"
        id="text1805"
-       inkscape:export-xdpi="38.47998"
-       inkscape:export-ydpi="38.47998"
-       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\draw_square.png"><tspan
+       inkscape:export-xdpi="55.101334"
+       inkscape:export-ydpi="55.101334"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\french_flag_thought.png"><tspan
          sodipodi:role="line"
          id="tspan1803"
          x="-1150.6484"
@@ -718,18 +1046,18 @@
        cx="-995.17725"
        cy="462.44589"
        r="11.528274"
-       inkscape:export-xdpi="38.47998"
-       inkscape:export-ydpi="38.47998"
-       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\draw_square.png" />
+       inkscape:export-xdpi="55.101334"
+       inkscape:export-ydpi="55.101334"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\french_flag_thought.png" />
     <text
        xml:space="preserve"
        style="font-size:10.5833px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
        x="-1006.8574"
        y="454.75113"
        id="text1816"
-       inkscape:export-xdpi="38.47998"
-       inkscape:export-ydpi="38.47998"
-       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\draw_square.png"><tspan
+       inkscape:export-xdpi="55.101334"
+       inkscape:export-ydpi="55.101334"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\french_flag_thought.png"><tspan
          sodipodi:role="line"
          id="tspan1814"
          x="-1006.8574"
@@ -741,18 +1069,18 @@
        cx="-847.10992"
        cy="461.91135"
        r="11.528274"
-       inkscape:export-xdpi="38.47998"
-       inkscape:export-ydpi="38.47998"
-       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\draw_square.png" />
+       inkscape:export-xdpi="55.101334"
+       inkscape:export-ydpi="55.101334"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\french_flag_thought.png" />
     <text
        xml:space="preserve"
        style="font-size:10.5833px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
        x="-858.7901"
        y="454.21658"
        id="text1824"
-       inkscape:export-xdpi="38.47998"
-       inkscape:export-ydpi="38.47998"
-       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\draw_square.png"><tspan
+       inkscape:export-xdpi="55.101334"
+       inkscape:export-ydpi="55.101334"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\french_flag_thought.png"><tspan
          sodipodi:role="line"
          id="tspan1822"
          x="-858.7901"
@@ -764,18 +1092,18 @@
        cx="-812.99274"
        cy="658.99353"
        r="11.528274"
-       inkscape:export-xdpi="38.47998"
-       inkscape:export-ydpi="38.47998"
-       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\draw_square.png" />
+       inkscape:export-xdpi="55.101334"
+       inkscape:export-ydpi="55.101334"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\french_flag_thought.png" />
     <text
        xml:space="preserve"
        style="font-size:10.5833px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
        x="-824.67291"
        y="651.29877"
        id="text2088"
-       inkscape:export-xdpi="38.47998"
-       inkscape:export-ydpi="38.47998"
-       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\draw_square.png"><tspan
+       inkscape:export-xdpi="55.101334"
+       inkscape:export-ydpi="55.101334"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\french_flag_thought.png"><tspan
          sodipodi:role="line"
          id="tspan2086"
          x="-824.67291"
@@ -787,18 +1115,18 @@
        cx="-976.27844"
        cy="658.99353"
        r="11.528274"
-       inkscape:export-xdpi="38.47998"
-       inkscape:export-ydpi="38.47998"
-       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\draw_square.png" />
+       inkscape:export-xdpi="55.101334"
+       inkscape:export-ydpi="55.101334"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\french_flag_thought.png" />
     <text
        xml:space="preserve"
        style="font-size:10.5833px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
        x="-987.95862"
        y="651.29877"
        id="text2080"
-       inkscape:export-xdpi="38.47998"
-       inkscape:export-ydpi="38.47998"
-       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\draw_square.png"><tspan
+       inkscape:export-xdpi="55.101334"
+       inkscape:export-ydpi="55.101334"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\french_flag_thought.png"><tspan
          sodipodi:role="line"
          id="tspan2078"
          x="-987.95862"
@@ -810,22 +1138,723 @@
        cx="-1105.5463"
        cy="658.99353"
        r="11.528274"
-       inkscape:export-xdpi="38.47998"
-       inkscape:export-ydpi="38.47998"
-       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\draw_square.png" />
+       inkscape:export-xdpi="55.101334"
+       inkscape:export-ydpi="55.101334"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\french_flag_thought.png" />
     <text
        xml:space="preserve"
        style="font-size:10.5833px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
        x="-1117.2264"
        y="651.29877"
        id="text2072"
-       inkscape:export-xdpi="38.47998"
-       inkscape:export-ydpi="38.47998"
-       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\draw_square.png"><tspan
+       inkscape:export-xdpi="55.101334"
+       inkscape:export-ydpi="55.101334"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\french_flag_thought.png"><tspan
          sodipodi:role="line"
          id="tspan2070"
          x="-1117.2264"
          y="651.29877"
          style="stroke-width:0.264583">起點</tspan></text>
+    <rect
+       style="opacity:1;fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:16,16;stroke-opacity:0.772549;stroke-dashoffset:0"
+       id="rect1779"
+       width="37.021606"
+       height="74.819237"
+       x="-811.90289"
+       y="660.14557"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\french_flag_thought.png"
+       inkscape:export-xdpi="55.101334"
+       inkscape:export-ydpi="55.101334" />
+    <rect
+       style="opacity:0.770936;fill:none;stroke:#1720ff;stroke-width:3.165;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.772549"
+       id="rect1026"
+       width="106.37327"
+       height="106.37327"
+       x="-1030.0568"
+       y="66.282845"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\square_def.png"
+       inkscape:export-xdpi="48.258385"
+       inkscape:export-ydpi="48.258385" />
+    <text
+       xml:space="preserve"
+       style="font-size:17.8441px;line-height:1.25;font-family:sans-serif;text-align:start;text-anchor:start;stroke-width:0.446104"
+       x="-906.5097"
+       y="111.88705"
+       id="text1176"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\square_def.png"
+       inkscape:export-xdpi="48.258385"
+       inkscape:export-ydpi="48.258385"><tspan
+         sodipodi:role="line"
+         id="tspan1174"
+         x="-906.5097"
+         y="111.88705"
+         style="text-align:start;text-anchor:start;stroke-width:0.446104">正方形的4邊等長</tspan><tspan
+         sodipodi:role="line"
+         x="-906.5097"
+         y="136.51852"
+         style="text-align:start;text-anchor:start;stroke-width:0.446104"
+         id="tspan1206">且4個角均為直角</tspan><tspan
+         sodipodi:role="line"
+         x="-906.5097"
+         y="158.82365"
+         style="text-align:start;text-anchor:start;stroke-width:0.446104"
+         id="tspan1178" /></text>
+    <path
+       style="fill:#008000;stroke:#63eb10;stroke-width:1.465;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M -976.21931,59.347263 V 71.908931"
+       id="path1184"
+       inkscape:path-effect="#path-effect1186"
+       inkscape:original-d="m -976.21931,59.347263 c 2.7e-4,4.187489 2.7e-4,8.374711 0,12.561668"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\square_def.png"
+       inkscape:export-xdpi="48.258385"
+       inkscape:export-ydpi="48.258385" />
+    <path
+       style="fill:#008000;stroke:#63eb10;stroke-width:1.465;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -976.21931,166.78961 v 12.56167"
+       id="path1188"
+       inkscape:path-effect="#path-effect1190"
+       inkscape:original-d="m -976.21931,166.78961 c 2.7e-4,4.18749 2.7e-4,8.37471 0,12.56167"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\square_def.png"
+       inkscape:export-xdpi="48.258385"
+       inkscape:export-ydpi="48.258385" />
+    <path
+       style="fill:#008000;stroke:#63eb10;stroke-width:1.465;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -1022.8578,116.94384 h -12.5616"
+       id="path1192"
+       inkscape:path-effect="#path-effect1194"
+       inkscape:original-d="m -1022.8578,116.94384 c -4.1875,2e-4 -8.3747,2e-4 -12.5616,0"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\square_def.png"
+       inkscape:export-xdpi="48.258385"
+       inkscape:export-ydpi="48.258385" />
+    <path
+       style="fill:#008000;stroke:#63eb10;stroke-width:1.465;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -918.08815,116.94384 h -12.5616"
+       id="path1196"
+       inkscape:path-effect="#path-effect1198"
+       inkscape:original-d="m -918.08815,116.94384 c -4.1875,2e-4 -8.3747,2e-4 -12.5616,0"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\square_def.png"
+       inkscape:export-xdpi="48.258385"
+       inkscape:export-ydpi="48.258385" />
+    <text
+       xml:space="preserve"
+       style="font-size:10.5833px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="-1008.8184"
+       y="84.666664"
+       id="text1202"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\square_def.png"
+       inkscape:export-xdpi="48.258385"
+       inkscape:export-ydpi="48.258385"><tspan
+         sodipodi:role="line"
+         id="tspan1200"
+         x="-1008.8184"
+         y="84.666664"
+         style="stroke-width:0.264583">90</tspan></text>
+    <circle
+       style="fill:none;fill-opacity:0.772549;stroke:#000000;stroke-width:0.475707;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path1204"
+       cx="-995.07965"
+       cy="75.261147"
+       r="1.4102428"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\square_def.png"
+       inkscape:export-xdpi="48.258385"
+       inkscape:export-ydpi="48.258385" />
+    <text
+       xml:space="preserve"
+       style="font-size:10.5833px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="-1099.2168"
+       y="550.65985"
+       id="text1048"
+       inkscape:export-xdpi="55.101334"
+       inkscape:export-ydpi="55.101334"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\french_flag_thought.png"><tspan
+         sodipodi:role="line"
+         id="tspan1046"
+         x="-1099.2168"
+         y="550.65985"
+         style="stroke-width:0.264583">畫紅色</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10.5833px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="-976.27283"
+       y="548.52167"
+       id="text1052"
+       inkscape:export-xdpi="55.101334"
+       inkscape:export-ydpi="55.101334"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\french_flag_thought.png"><tspan
+         sodipodi:role="line"
+         id="tspan1050"
+         x="-976.27283"
+         y="548.52167"
+         style="stroke-width:0.264583">畫白色</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10.5833px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="-845.30542"
+       y="549.05621"
+       id="text1056"
+       inkscape:export-xdpi="55.101334"
+       inkscape:export-ydpi="55.101334"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\french_flag_thought.png"><tspan
+         sodipodi:role="line"
+         id="tspan1054"
+         x="-845.30542"
+         y="549.05621"
+         style="stroke-width:0.264583">畫藍色</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10.5833px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="-1102.9532"
+       y="747.37018"
+       id="text1060"
+       inkscape:export-xdpi="55.101334"
+       inkscape:export-ydpi="55.101334"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\french_flag_thought.png"><tspan
+         sodipodi:role="line"
+         id="tspan1058"
+         x="-1102.9532"
+         y="747.37018"
+         style="stroke-width:0.264583">畫藍色</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10.5833px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="-970.92743"
+       y="749.50836"
+       id="text1064"
+       inkscape:export-xdpi="55.101334"
+       inkscape:export-ydpi="55.101334"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\french_flag_thought.png"><tspan
+         sodipodi:role="line"
+         id="tspan1062"
+         x="-970.92743"
+         y="749.50836"
+         style="stroke-width:0.264583">畫白色</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10.5833px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="-809.49664"
+       y="748.43927"
+       id="text1068"
+       inkscape:export-xdpi="55.101334"
+       inkscape:export-ydpi="55.101334"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\french_flag_thought.png"><tspan
+         sodipodi:role="line"
+         id="tspan1066"
+         x="-809.49664"
+         y="748.43927"
+         style="stroke-width:0.264583">畫紅色</tspan></text>
+    <g
+       id="g1072"
+       transform="translate(-0.56696428)"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\square_def.png"
+       inkscape:export-xdpi="48.258385"
+       inkscape:export-ydpi="48.258385">
+      <path
+         style="fill:none;stroke:#ff0303;stroke-width:1.865;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m -1027.2204,80.308934 h 11.4926"
+         id="path1062"
+         inkscape:path-effect="#path-effect1064"
+         inkscape:original-d="m -1027.2204,80.308934 c 3.8312,2.65e-4 7.662,2.65e-4 11.4926,0" />
+      <path
+         style="fill:none;stroke:#ff0303;stroke-width:1.865;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m -1015.7278,68.816334 v 11.4926"
+         id="path1066"
+         inkscape:path-effect="#path-effect1068"
+         inkscape:original-d="m -1015.7278,68.816334 c -3e-4,3.8312 -3e-4,7.662 0,11.4926" />
+    </g>
+    <g
+       id="g1078"
+       transform="matrix(-1,0,0,1,-1952.9899,0)"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\square_def.png"
+       inkscape:export-xdpi="48.258385"
+       inkscape:export-ydpi="48.258385">
+      <path
+         style="fill:none;stroke:#ff0303;stroke-width:1.865;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m -1027.2204,80.308934 h 11.4926"
+         id="path1074"
+         inkscape:path-effect="#path-effect1080"
+         inkscape:original-d="m -1027.2204,80.308934 c 3.8312,2.65e-4 7.662,2.65e-4 11.4926,0" />
+      <path
+         style="fill:none;stroke:#ff0303;stroke-width:1.865;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m -1015.7278,68.816334 v 11.4926"
+         id="path1076"
+         inkscape:path-effect="#path-effect1082"
+         inkscape:original-d="m -1015.7278,68.816334 c -3e-4,3.8312 -3e-4,7.662 0,11.4926" />
+    </g>
+    <g
+       id="g1088"
+       transform="matrix(0,-1,-1,0,-856.95317,-857.14212)"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\square_def.png"
+       inkscape:export-xdpi="48.258385"
+       inkscape:export-ydpi="48.258385">
+      <path
+         style="fill:none;stroke:#ff0303;stroke-width:1.865;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m -1027.2204,80.308934 h 11.4926"
+         id="path1084"
+         inkscape:path-effect="#path-effect1090"
+         inkscape:original-d="m -1027.2204,80.308934 c 3.8312,2.65e-4 7.662,2.65e-4 11.4926,0" />
+      <path
+         style="fill:none;stroke:#ff0303;stroke-width:1.865;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m -1015.7278,68.816334 v 11.4926"
+         id="path1086"
+         inkscape:path-effect="#path-effect1092"
+         inkscape:original-d="m -1015.7278,68.816334 c -3e-4,3.8312 -3e-4,7.662 0,11.4926" />
+    </g>
+    <g
+       id="g1098"
+       transform="rotate(-90,-976.96742,119.8253)"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\square_def.png"
+       inkscape:export-xdpi="48.258385"
+       inkscape:export-ydpi="48.258385">
+      <path
+         style="fill:none;stroke:#ff0303;stroke-width:1.865;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m -1027.2204,80.308934 h 11.4926"
+         id="path1094"
+         inkscape:path-effect="#path-effect1100"
+         inkscape:original-d="m -1027.2204,80.308934 c 3.8312,2.65e-4 7.662,2.65e-4 11.4926,0" />
+      <path
+         style="fill:none;stroke:#ff0303;stroke-width:1.865;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m -1015.7278,68.816334 v 11.4926"
+         id="path1096"
+         inkscape:path-effect="#path-effect1102"
+         inkscape:original-d="m -1015.7278,68.816334 c -3e-4,3.8312 -3e-4,7.662 0,11.4926" />
+    </g>
+    <circle
+       style="opacity:0.770936;fill:#ff8b05;fill-opacity:1;stroke:none;stroke-width:5.39292;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="circle1072"
+       cx="-1327.126"
+       cy="144.39516"
+       r="8.1264877"
+       inkscape:export-xdpi="43.728325"
+       inkscape:export-ydpi="43.728325"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\turtle_coordinate.png" />
+    <text
+       xml:space="preserve"
+       style="font-size:10.5833px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="-1393.8585"
+       y="127.07867"
+       id="text1076"
+       inkscape:export-xdpi="43.728325"
+       inkscape:export-ydpi="43.728325"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\turtle_coordinate.png"><tspan
+         sodipodi:role="line"
+         id="tspan1074"
+         x="-1393.8585"
+         y="127.07867"
+         style="stroke-width:0.264583">起點座標(0,0)</tspan><tspan
+         sodipodi:role="line"
+         x="-1393.8585"
+         y="141.68756"
+         style="stroke-width:0.264583"
+         id="tspan2166">又稱原點</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.813;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker1856)"
+       d="m -1167.3404,144.90979 h -318.4341"
+       id="path1085"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\turtle_coordinate.png"
+       inkscape:export-xdpi="43.728325"
+       inkscape:export-ydpi="43.728325" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.813;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker1982)"
+       d="m -1326.5576,-14.30726 v 318.4341"
+       id="path1978"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\turtle_coordinate.png"
+       inkscape:export-xdpi="43.728325"
+       inkscape:export-ydpi="43.728325" />
+    <text
+       xml:space="preserve"
+       style="font-size:9.626px;line-height:1.25;font-family:sans-serif;stroke-width:0.240651"
+       x="-1160.8108"
+       y="148.31969"
+       id="text2148"
+       inkscape:export-xdpi="43.728325"
+       inkscape:export-ydpi="43.728325"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\turtle_coordinate.png"
+       transform="scale(1.0008265,0.99917419)"><tspan
+         sodipodi:role="line"
+         id="tspan2146"
+         x="-1160.8108"
+         y="148.31969"
+         style="stroke-width:0.240651">右左x</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10.2469px;line-height:1.25;font-family:sans-serif;stroke-width:0.256173"
+       x="-1339.7448"
+       y="-21.45624"
+       id="text2152"
+       inkscape:export-xdpi="43.728325"
+       inkscape:export-ydpi="43.728325"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\turtle_coordinate.png"
+       transform="scale(1.0008265,0.99917419)"><tspan
+         sodipodi:role="line"
+         id="tspan2150"
+         x="-1339.7448"
+         y="-21.45624"
+         style="stroke-width:0.256173">上下y</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10.5833px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="-1233.9338"
+       y="9.0372534"
+       id="text2164"
+       inkscape:export-xdpi="43.728325"
+       inkscape:export-ydpi="43.728325"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\turtle_coordinate.png"><tspan
+         sodipodi:role="line"
+         id="tspan2162"
+         x="-1233.9338"
+         y="9.0372534"
+         style="stroke-width:0.264583">xy座標(50, 100)</tspan></text>
+    <path
+       style="fill:none;stroke:#31da29;stroke-width:5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -1326.4736,145.43912 77.8631,7.9e-4"
+       id="path2168"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\turtle_coordinate.png"
+       inkscape:export-xdpi="43.728325"
+       inkscape:export-ydpi="43.728325" />
+    <path
+       style="fill:none;stroke:#27acff;stroke-width:5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.77254897"
+       d="m -1248.6099,17.306109 -5e-4,128.133661"
+       id="path2170"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\turtle_coordinate.png"
+       inkscape:export-xdpi="43.728325"
+       inkscape:export-ydpi="43.728325" />
+    <text
+       xml:space="preserve"
+       style="font-size:10.5833px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="-1312.2935"
+       y="158.7581"
+       id="text2174"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\turtle_coordinate.png"
+       inkscape:export-xdpi="43.728325"
+       inkscape:export-ydpi="43.728325"><tspan
+         sodipodi:role="line"
+         id="tspan2172"
+         x="-1312.2935"
+         y="158.7581"
+         style="stroke-width:0.264583">往右走50步</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10.5833px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="-1244.6357"
+       y="85.808693"
+       id="text2178"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\turtle_coordinate.png"
+       inkscape:export-xdpi="43.728325"
+       inkscape:export-ydpi="43.728325"><tspan
+         sodipodi:role="line"
+         id="tspan2176"
+         x="-1244.6357"
+         y="85.808693"
+         style="stroke-width:0.264583">往上走100步</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:21.5562px;line-height:1.25;font-family:sans-serif;fill:#008000;stroke-width:0.538903"
+       x="-628.80157"
+       y="437.14444"
+       id="text2252"
+       transform="scale(0.91934073,1.087736)"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\penup_move.png"
+       inkscape:export-xdpi="51.882061"
+       inkscape:export-ydpi="51.882061"><tspan
+         sodipodi:role="line"
+         x="-628.80157"
+         y="437.14444"
+         style="fill:#008000;stroke-width:0.538903"
+         id="tspan2250">海龜移動順序(不畫線)</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.55864;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -623.41065,534.51219 h 94.13449"
+       id="path2506"
+       inkscape:path-effect="#path-effect2508"
+       inkscape:original-d="m -623.41065,534.51219 c 31.37855,2.7e-4 62.75674,2.7e-4 94.13449,0"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\penup_move.png"
+       inkscape:export-xdpi="51.882061"
+       inkscape:export-ydpi="51.882061" />
+    <circle
+       style="opacity:0.770936;fill:#ffeb05;fill-opacity:1;stroke:none;stroke-width:7.65042;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="circle2514"
+       cx="-623.72601"
+       cy="533.72687"
+       r="11.528274"
+       inkscape:export-xdpi="51.882061"
+       inkscape:export-ydpi="51.882061"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\penup_move.png" />
+    <text
+       xml:space="preserve"
+       style="font-size:10.5833px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="-635.40619"
+       y="526.0321"
+       id="text2518"
+       inkscape:export-xdpi="51.882061"
+       inkscape:export-ydpi="51.882061"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\penup_move.png"><tspan
+         sodipodi:role="line"
+         id="tspan2516"
+         x="-635.40619"
+         y="526.0321"
+         style="stroke-width:0.264583">起點</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.55864;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -435.55648,534.51219 h 94.13449"
+       id="path2528"
+       inkscape:path-effect="#path-effect2530"
+       inkscape:original-d="m -435.55648,534.51219 c 31.37855,2.7e-4 62.75674,2.7e-4 94.13449,0"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\penup_move.png"
+       inkscape:export-xdpi="51.882061"
+       inkscape:export-ydpi="51.882061" />
+    <text
+       xml:space="preserve"
+       style="font-size:10.5833px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="-585.13538"
+       y="530.56781"
+       id="text2534"
+       inkscape:export-xdpi="51.882061"
+       inkscape:export-ydpi="51.882061"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\penup_move.png"><tspan
+         sodipodi:role="line"
+         id="tspan2532"
+         x="-585.13538"
+         y="530.56781"
+         style="stroke-width:0.264583">向前</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10.5833px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583;fill:#ff0000;"
+       x="-540.30743"
+       y="530.56781"
+       id="text2538"
+       inkscape:export-xdpi="51.882061"
+       inkscape:export-ydpi="51.882061"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\penup_move.png"><tspan
+         sodipodi:role="line"
+         id="tspan2536"
+         x="-540.30743"
+         y="530.56781"
+         style="stroke-width:0.264583;fill:#ff0000;">停筆</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10.5833px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583;fill:#ff0000;"
+       x="-447.70328"
+       y="530.18982"
+       id="text2542"
+       inkscape:export-xdpi="51.882061"
+       inkscape:export-ydpi="51.882061"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\penup_move.png"><tspan
+         sodipodi:role="line"
+         id="tspan2540"
+         x="-447.70328"
+         y="530.18982"
+         style="stroke-width:0.264583;fill:#ff0000;">下筆</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10.5833px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="-396.90323"
+       y="530.56781"
+       id="text2546"
+       inkscape:export-xdpi="51.882061"
+       inkscape:export-ydpi="51.882061"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\penup_move.png"><tspan
+         sodipodi:role="line"
+         id="tspan2544"
+         x="-396.90323"
+         y="530.56781"
+         style="stroke-width:0.264583">向前</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10.5833px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="-496.31097"
+       y="530.56781"
+       id="text2550"
+       inkscape:export-xdpi="51.882061"
+       inkscape:export-ydpi="51.882061"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\penup_move.png"><tspan
+         sodipodi:role="line"
+         id="tspan2548"
+         x="-496.31097"
+         y="530.56781"
+         style="stroke-width:0.264583">向前</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#ff0000;stroke-width:0.264583"
+       x="-505.68765"
+       y="550.7793"
+       id="text2554"
+       inkscape:export-xdpi="51.882061"
+       inkscape:export-ydpi="51.882061"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\penup_move.png"><tspan
+         sodipodi:role="line"
+         id="tspan2552"
+         x="-505.68765"
+         y="550.7793"
+         style="fill:#ff0000;stroke-width:0.264583">只移動不畫線</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10.5833px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583;fill:#ff0000;"
+       x="-533.46997"
+       y="518.2356"
+       id="text3502"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\penup_move.png"
+       inkscape:export-xdpi="51.882061"
+       inkscape:export-ydpi="51.882061"><tspan
+         sodipodi:role="line"
+         id="tspan3500"
+         x="-533.46997"
+         y="518.2356"
+         style="stroke-width:0.264583;fill:#ff0000;">1.</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#ff0000;stroke-width:0.264583"
+       x="-514.4939"
+       y="551.37701"
+       id="text3554"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\penup_move.png"
+       inkscape:export-xdpi="51.882061"
+       inkscape:export-ydpi="51.882061"><tspan
+         sodipodi:role="line"
+         id="tspan3552"
+         x="-514.4939"
+         y="551.37701"
+         style="fill:#ff0000;stroke-width:0.264583">2.</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#ff0000;stroke-width:0.264583"
+       x="-439.65839"
+       y="519.30469"
+       id="text3558"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\penup_move.png"
+       inkscape:export-xdpi="51.882061"
+       inkscape:export-ydpi="51.882061"><tspan
+         sodipodi:role="line"
+         id="tspan3556"
+         x="-439.65839"
+         y="519.30469"
+         style="fill:#ff0000;stroke-width:0.264583">3.</tspan></text>
+    <path
+       style="fill:#ff0000;stroke:#ff0000;stroke-width:0.759;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:4.554, 1.518;stroke-dashoffset:0;stroke-opacity:0.705882;marker-start:url(#DotM);marker-end:url(#marker3318)"
+       d="m -529.69097,534.51219 h 94.13449"
+       id="path2556"
+       inkscape:path-effect="#path-effect2558"
+       inkscape:original-d="m -529.69097,534.51219 c 31.37855,2.7e-4 62.75674,2.7e-4 94.13449,0"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\penup_move.png"
+       inkscape:export-xdpi="51.882061"
+       inkscape:export-ydpi="51.882061" />
+    <g
+       opacity="0.5"
+       id="g1311"
+       style="font-family:Calibri, Arial, 'Liberation Sans', sans-serif;fill:none"
+       transform="matrix(0.00176139,0,0,0.00176139,-1767.2659,91.414671)"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\vietnam_flag_coordinate.png"
+       inkscape:export-xdpi="59.51437"
+       inkscape:export-ydpi="59.51437">
+      <path
+         fill="#da251d"
+         d="M -41580,-27720 H 41580 V 27720 H -41580 Z"
+         id="path1307" />
+      <path
+         fill="#ffff00"
+         d="M 0,-16632 9776,13456 -15818,-5140 H 15818 L -9776,13456 Z"
+         id="path1309" />
+    </g>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.42242;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker1760)"
+       d="m -1681.0477,140.63348 h -196.0094"
+       id="path1735"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\vietnam_flag_coordinate.png"
+       inkscape:export-xdpi="59.51437"
+       inkscape:export-ydpi="59.51437" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.30281;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker1750)"
+       d="M -1841.3187,16.751065 V 181.18286"
+       id="path1737"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\vietnam_flag_coordinate.png"
+       inkscape:export-xdpi="59.51437"
+       inkscape:export-ydpi="59.51437" />
+    <text
+       xml:space="preserve"
+       style="font-size:9.626px;line-height:1.25;font-family:sans-serif;stroke-width:0.240651"
+       x="-1675.1469"
+       y="144.03984"
+       id="text1741"
+       inkscape:export-xdpi="59.51437"
+       inkscape:export-ydpi="59.51437"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\vietnam_flag_coordinate.png"
+       transform="scale(1.0008265,0.99917419)"><tspan
+         sodipodi:role="line"
+         id="tspan1739"
+         x="-1675.1469"
+         y="144.03984"
+         style="stroke-width:0.240651">右左x</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10.2469px;line-height:1.25;font-family:sans-serif;stroke-width:0.256173"
+       x="-1853.8137"
+       y="10.642612"
+       id="text1746"
+       inkscape:export-xdpi="59.51437"
+       inkscape:export-ydpi="59.51437"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\vietnam_flag_coordinate.png"
+       transform="scale(1.0008265,0.99917419)"><tspan
+         sodipodi:role="line"
+         id="tspan1744"
+         x="-1853.8137"
+         y="10.642612"
+         style="stroke-width:0.256173">上下y</tspan></text>
+    <circle
+       style="opacity:1;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:2.12686;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="circle2024"
+       cx="-1841.5322"
+       cy="140.58742"
+       r="3.2049298"
+       inkscape:export-xdpi="59.51437"
+       inkscape:export-ydpi="59.51437"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\vietnam_flag_coordinate.png" />
+    <circle
+       style="opacity:1;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:2.12686;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="circle2028"
+       cx="-1794.76"
+       cy="83.124466"
+       r="3.2049298"
+       inkscape:export-xdpi="59.51437"
+       inkscape:export-ydpi="59.51437"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\vietnam_flag_coordinate.png" />
+    <text
+       xml:space="preserve"
+       style="font-size:10.5833px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="-1909.1541"
+       y="154.87469"
+       id="text2046"
+       inkscape:export-xdpi="59.51437"
+       inkscape:export-ydpi="59.51437"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\vietnam_flag_coordinate.png"><tspan
+         sodipodi:role="line"
+         id="tspan2042"
+         x="-1909.1541"
+         y="154.87469"
+         style="stroke-width:0.264583">國旗起點(0,0)</tspan><tspan
+         sodipodi:role="line"
+         x="-1909.1541"
+         y="168.10381"
+         style="stroke-width:0.264583"
+         id="tspan2044" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10.5833px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="-1839.6639"
+       y="72.288414"
+       id="text2053"
+       inkscape:export-xdpi="59.51437"
+       inkscape:export-ydpi="59.51437"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\vietnam_flag_coordinate.png"><tspan
+         sodipodi:role="line"
+         id="tspan2048"
+         x="-1839.6639"
+         y="72.288414"
+         style="stroke-width:0.264583">星形起點(9,12)</tspan><tspan
+         sodipodi:role="line"
+         x="-1839.6639"
+         y="85.51754"
+         style="stroke-width:0.264583"
+         id="tspan2051" /></text>
   </g>
 </svg>

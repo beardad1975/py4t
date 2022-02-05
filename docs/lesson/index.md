@@ -9,13 +9,13 @@ hide:
 
 ----------------------------
 
-#### 💡 <a href="/lesson/national_flag/" target="_blank">海龜畫國旗</a>
+#### 💡 <a href="national_flag/" target="_blank">海龜畫國旗</a>
 
 ??? info  "課程摘要"
     
     ![海龜畫國旗入門](national_flag/digest.jpg)
 
-    : 學習海龜程式，畫出與方形、圓形、星形相關的國旗。　 :fontawesome-solid-long-arrow-alt-right: <a href="/lesson/national_flag/" target="_blank">進入「海龜畫國旗」</a>
+    : 學習海龜程式，畫出與方形、圓形、星形相關的國旗。　 :fontawesome-solid-long-arrow-alt-right: <a href="national_flag/" target="_blank">進入「海龜畫國旗」</a>
 
     ---------------------------
 
@@ -23,7 +23,7 @@ hide:
 
     : 程式專題：中華民國國旗
 
-    : 利用所學的基本形狀，畫出我們的國旗。　 :fontawesome-solid-long-arrow-alt-right: <a href="/lesson/national_flag/project_roc_flag/" target="_blank">進入專題</a>
+    : 利用所學的基本形狀，畫出我們的國旗。　 :fontawesome-solid-long-arrow-alt-right: <a href="national_flag/project_roc_flag/" target="_blank">進入專題</a>
 
   
 

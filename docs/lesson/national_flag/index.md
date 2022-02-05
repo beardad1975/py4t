@@ -5,44 +5,55 @@ hide:
 
 # 📚海龜畫國旗
 
-海龜程式除了畫幾何圖形，也可以用來畫出許多不同的國旗，讓我們一起思考並實際動手做出。
+聯合國是一個由各個國家組成的國際組織，致力於促進各國在經濟、社會、人權、自由、民主以及世界和平的合作。聯合國的總部位於美國紐約市，在其外懸掛著各國的國旗。
 
-![各國旗](un_photorick_bajornas_small.jpg)
+![各國國旗](un_photorick_bajornas_small.jpg)
 
-: (圖片來源[^1])
+: <sup>(資料來源:</sup>[^1]<sup>)</sup>
 
-[^1]: United Nations Headquarters, New York by Rick Banjornas, https://uil.unesco.org/literacy/literacy-and-education-democracy-essential-milestones-advance-sdgs-during-and-beyond-covid
+[^1]: United Nations Headquarters, New York . By Rick Banjornas, [來源連結](https://uil.unesco.org/literacy/literacy-and-education-democracy-essential-milestones-advance-sdgs-during-and-beyond-covid) , 9 October 2020
+
+國旗是國家的代表，國旗裡的線條、顏色與形狀，都有它的歷史由來。在此，我們將一同思考、並利用海龜程式來實作出國旗。
+
+??? info "關於海龜程式"
+
+     :fontawesome-solid-link: <a href="../../turtle4t/" target="_blank">海龜學習模組 說明</a>
 
 
+<br/><br/><br/> 
 
 ----------------------------
 
 ##  📙 國旗基本外形 
 
-----------------------------
 
 ###  ▪️ 世界各國國旗 
 
 ----------------------------
 
-國旗出現的場合
+國旗會出現在什麼場合？
 
 <iframe width="480" height="270" src="https://www.youtube.com/embed/FX5F3pk5MWU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-國旗是國家的代表，旗子裡的線條、顏色與形狀，都有它的由來。
+: <sup>(資料來源:</sup>[^2]<sup>)</sup>
 
-<br/><br/> <br/>
+[^2]: 經典影音館 2020東京奧運 李洋/王齊麟 #麟洋配 男子羽球雙打金牌頒獎 #國旗歌 (2021.07.31) , By 台灣天眼 , [youtube連結](https://www.youtube.com/watch?v=FX5F3pk5MWU)  
+
+
+<br/>
+
+世界上的國旗有哪些？
 
 :fontawesome-solid-link: <a href="https://zh.wikipedia.org/wiki/%E5%9C%8B%E6%97%97%E5%88%97%E8%A1%A8" target="_blank">維基百科 國旗列表</a> - 列舉世界上主權國家的國旗
 
 ![世界國旗](640px-Flag-map_of_the_world_2018.png)
 
-: (圖片來源[^2])
+: <sup>(資料來源:</sup>[^3]<sup>)</sup>
 
-[^2]: 由 H8edge - 自己的作品, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=68410306
+[^3]: By H8edge, [維基百科連結](https://commons.wikimedia.org/w/index.php?curid=68410306) ,CC BY-SA 4.0
 
 
-??? question "資料搜尋"
+??? question "資料搜尋 練習"
 
     閱讀上方的國旗網路資料(或其他網站)，請挑選某一個國家的國旗，做出一篇世界國旗的簡介吧！    
 
@@ -59,19 +70,36 @@ hide:
 ----------------------------
 
 
-國旗的基本外形是長方形，而長方形之中最有規律的是正方形，讓我們先從畫正方形開始！
+各國國旗的基本外形都是長方形，而長方形之中最有規律的就是正方形，讓我們先從簡單的正方形開始實作。
 
-想一想，正方形有什麼特性與規律？
+想一想，在數學課曾經學過的正方形，它的性質是什麼？
+
+<br/>
+
+: ![正方形定義](square_def.png) 
+
+<br/><br/>
+
+如何利用海龜的「向前」及「右(左)轉」來畫出正方形？
 
 <br/>
 
 : ![正方形](draw_square.png) 
 
-可以利用海龜的「向前」及「右(左)轉」來畫出正方形嗎？
+<br/>
 
-??? example "Py4t範例程式 正方形"
+??? example "範例程式 正方形"
 
      :fontawesome-solid-link: <a href="../../turtle4t/draw_square/" target="_blank">Let's Code 畫出正方形 (含操作影片、程式碼及說明)</a>
+
+??? abstract "結構化程式設計"
+
+    :fontawesome-solid-link: <a href="../basic/scratch_python_compare/#_3" target="_blank">循序</a>
+
+    :fontawesome-solid-link: <a href="../basic/scratch_python_compare/#for" target="_blank">計次式重複 (for 迴圈)</a>
+
+
+
 
 <br/><br/><br/> 
 
@@ -101,21 +129,24 @@ hide:
 
 試著用海龜程式畫出長方形並填色。
 
+??? example "範例程式 長方形及填色"
+
+     :fontawesome-solid-link: <a href="../../turtle4t/rectangle_and_fill/" target="_blank">Let's Code 長方形及填色 (含操作影片、程式碼及說明)</a>
+
 <br/><br/><br/> 
 
 ----------------------------
 
 ##  📗 方形相關國旗
 
+
+###  ▪️ 國旗規格
+
 ----------------------------
 
-###  ▪️ 國旗的規格
+除了形狀以外，我們還需注意不同國旗的規格(如顏色、尺寸等)，這樣畫出來的國旗會更標準，以標準比例呈現的國旗也是一種國際禮儀與尊重。
 
-----------------------------
-
-除了形狀以外，我們還需注意不同國旗的規格(如顏色、尺寸等)，這樣畫出來的國旗會更標準。
-
-以法國國旗為例，它的形狀是3個長方形組成，相關規格如下：
+以法國國旗為例，它的形狀是由3個長方形色塊所組成，相關規格如下：
 
 ![法國國旗規格](french_flag_spec.png)
 
@@ -138,21 +169,33 @@ hide:
 
 ![國旗順序想法](french_flag_thought.png)
 
+<br/>
 
-用海龜程式來把想法一實作出來。
+用海龜程式來把想法一實作出來。(建議將規格尺寸放大100倍)
 
 ??? example "Py4t範例程式 法國國旗"
 
      :fontawesome-solid-link: <a href="../../turtle4t/flag_of_france/" target="_blank">Let's Code 法國國旗 (含操作影片、程式碼及說明)</a>
+ 
 
-??? question "練習 想法二"
+??? question "練習 想法二實作"
 
-    試試看，如何利用想法二來做出法國國旗呢？ 
+    生活中的問題常常不只一種解決方法。像上圖中的想法二就是另一種畫出法國國旗的方法，依藍、白、紅色畫出一樣大的色塊來完成。
+
+    請你試試看，如何用想法二來實作出法國國旗呢？(注意起點位置的變化) 
+
+??? question "練習 RGB國旗顏色"
+
+    在範例程式中，僅使用純藍、白、紅色來畫出法國國旗。但依照它的規格，其藍色的RGB值是(0,85,164)，白色的RGB值是(255,255,255)，紅色的RGB值是(250,60,50)。
+    
+    什麼是RGB值呢？RGB是紅綠藍顏色模型，將紅（Red）、綠（Green）、藍（Blue）三原色的色光以不同的比例相加以產生各種色光。(詳見<a href="https://zh.wikipedia.org/wiki/%E4%B8%89%E5%8E%9F%E8%89%B2%E5%85%89%E6%A8%A1%E5%BC%8F" target="_blank">維基百科</a>)
+
+    請使用標準RGB顏色值，讓海龜畫出法國國旗。(提示：「填充顏色 RGB」便利貼) 
 
 
-??? question "更多練習 "
+??? question "更多國旗練習 "
 
-    找找看，還有其他長方形相關的國旗嗎？
+    找找看，還有其他國家的國旗與長方形相關的嗎？
 
     請從 :fontawesome-solid-link: <a href="https://zh.wikipedia.org/wiki/%E5%9C%8B%E6%97%97%E5%88%97%E8%A1%A8" target="_blank">維基百科 國旗列表</a>中，找到由長方形或正方形組成的國旗，依據國旗的說明與規格，試著用海龜程式畫出來。(如中歐地區的德國)
 
@@ -160,78 +203,119 @@ hide:
 
 ----------------------------
 
-###  📘 圓形相關國旗
+## 📘 圓形相關國旗
 
-有些國家的國旗中有包含圓形。
+###  ▪️ 日本國旗規格
+
+----------------------------
+
+有些國家的國旗中有包含圓形，以下為日本國旗的規格：
 
 : ![日本國旗](japan_flag_spec.png)
 
-: (圖片來源[^3])
+: <sup>(資料來源:</sup>[^4]<sup>)</sup>
 
-[^3]: Zscout370 - 投稿者自身による作品, based on http://law.e-gov.go.jp/htmldata/H11/H11HO127.html, CC 表示-継承 4.0, https://commons.wikimedia.org/w/index.php?curid=3109313による
+[^4]: Zscout370 - 投稿者自身による作品, based on http://law.e-gov.go.jp/htmldata/H11/H11HO127.html, CC 表示-継承 4.0, https://commons.wikimedia.org/w/index.php?curid=3109313による
 
-你看得出日本國旗的長寬比例與紅色圓形比例嗎？用海龜來畫出日本國旗吧！
+
+你看得出日本國旗的寬高比例與紅色圓形比例嗎？(提示：圓形直徑為高的3/5)
+
+<br/><br/><br/>
+
+----------------------------
+
+###  ▪️ 座標與移動
+
+----------------------------
+
+除了規格以外，日本國旗的紅色圓形繪圖，需要有移動海龜而不畫線的功能，要怎麼做呢？
+
+首先要認識海龜程式的座標系統：
+
+<br/>
+
+: ![海龜座標](turtle_coordinate.png)
+
+<br/>
+
+接著是海龜的移動(不畫線)順序：
+
+<br/>
+
+: ![海龜移動不畫線](penup_move.png)
+
+
+<br/><br/><br/>
+
+
+----------------------------
+
+###  ▪️ 畫出日本國旗
+
+----------------------------
+
+
+知道了以上的資訊，就可以來實作出日本國旗了，請試試看。(建議將規格尺寸放大100倍)
 
 ??? example "Py4t範例程式 日本國旗"
 
      :fontawesome-solid-link: <a href="../../turtle4t/flag_of_japan/" target="_blank">Let's Code 日本國旗 (含操作影片、程式碼及說明)</a>
 
 
-??? question "資料搜尋"
+??? question "練習 資料搜尋"
 
     你能找出國旗中有包含圓形的國家嗎？請找出至少3個。    
 
     :fontawesome-solid-link: <a href="https://zh.wikipedia.org/wiki/%E5%9C%8B%E6%97%97%E5%88%97%E8%A1%A8" target="_blank">維基百科 國旗列表</a>
 
-??? success "進階學習"
-
-    恭喜你，學習了以海龜程式來畫出各式各樣的國旗，你的感想是什麼呢？
-
-    如果覺得有趣的話，可以挑戰下面的「進階程式設計」
 
 <br/><br/><br/>
 
 ----------------------------
 
-###  📓 進階: 畫出星形
+##  📙 星形相關國旗 
 
-當我們已經會寫正方形的海龜程式後，請試著把程式改成正三角形。
 
-程式要更改哪些地方呢？
+###  ▪️ 畫出星形 
+
+----------------------------
+
+相信你已經了解正方形的海龜程式，但如果要改成畫正三角形的話，要怎麼做？想想看三角形的性質是什麼？
 
 <br/>
 
 ![正三邊形](draw_triangle.png) 
 
+??? question "練習 正三角形"
 
-??? question "更多練習 正六邊形"
-
-    那如何讓海龜畫出正六邊形？
-
-    想一想，正三角形與正六邊形的程式有什麼不同！
-
-    ![正六邊形](draw_hex.png)  
-
-    
-
+    先把之前學過的正方形做出來，然後思考一下要如何修改程式變成畫正三角形？(提示：修改邊數與角度) 
 
 <br/><br/><br/>
 
-
+----------------------------
 
 你知道嗎？海龜在右(左)轉時，轉出來的角度其實是外角。
 
 : ![外角](external_angle.jpg)
 
-<br/><br/><br/>
+<br/>
 
-畫出星形時，需要轉彎的外角是幾度呢？
+
+畫出星形時，海龜需要轉彎的外角是幾度呢？以下是星形的外角公式：
+
+<br/>
 
 : ![星形公式](star_formula.jpg)
 
-: (公式來源[^3])
+: <sup>(資料來源:</sup>[^5]<sup>)</sup>
 
-[^3]: 自由軟體Scratch融入數學領域教學(王公國小102上半年教師在職資訊應用培訓)
+[^5]: 自由軟體Scratch融入數學領域教學(王公國小102上半年教師在職資訊應用培訓)
+
+<br/>
+
+有了以上的公式，試著用海龜程式來畫出星形。
+
+<br/>
 
 ??? example "Py4t範例程式 奇數角星形"
 
@@ -243,16 +327,60 @@ hide:
 
 <br/><br/><br/>
 
+
 ----------------------------
 
-###  📓 專題: 中華民國國旗
+###  ▪️ 越南國旗 
+
+----------------------------
+
+以下是越南國旗的規格：
+
+: ![越南國旗規格](vietnam_flag_spec.png)
+
+: <sup>(資料來源:</sup>[^6]<sup>)</sup>
+
+[^6]: By MapGrid . [維基百科連結](https://commons.wikimedia.org/wiki/File:Flag_of_Vietnam_(construction_sheet).svg)
+
+<br/>
+
+為能使用海龜繪製，還需要知道5角星形的繪製起點，經由規格估計星形起點大約在座標9,12處(原點於左下)
+
+<br/>
+
+: ![越南國旗座標](vietnam_flag_coordinate.png)
+
+<br/><br/>
+
+接下來，試著做出越南國旗的程式。(建議將規格尺寸放大10倍)
+
+??? example "Py4t範例程式 越南國旗"
+
+     :fontawesome-solid-link: <a href="../../turtle4t/flag_of_vietnam/" target="_blank">Let's Code 越南國旗 (含操作影片、程式碼及說明)</a>
+
+??? question "練習 資料搜尋"
+
+    你能找出國旗中有包含星形的國家嗎？請找出至少2個。    
+
+    :fontawesome-solid-link: <a href="https://zh.wikipedia.org/wiki/%E5%9C%8B%E6%97%97%E5%88%97%E8%A1%A8" target="_blank">維基百科 國旗列表</a>
+
+<br/><br/><br/>
+
+----------------------------
+
+##  🔗 進階專題: 中華民國國旗
+
+----------------------------
+
+太棒了，經過了前面的課程，相信你已經學會許多幾何形狀與各國國旗的畫法，以及問題思考與動手實作的方式。
+
+如果想要更進一步，可以挑戰下面的程式專題哦！
 
 
-:fontawesome-solid-link: <a href="/lesson/national_flag/project_roc_flag/" target="_blank">專題：中華民國國旗</a>
-
-: 利用前面所學的基本形狀，畫出我們的中華民國國旗
+:fontawesome-solid-link: <a href="project_roc_flag/" target="_blank">專題：中華民國國旗</a>
 
 
+<br/><br/><br/> 
 
 
 

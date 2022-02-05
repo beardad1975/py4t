@@ -15,7 +15,7 @@ Scratch 是一個很棒的程式入門工具，讓學習者可以從有趣的遊
 :fontawesome-brands-python: Python 是簡易且強大的文字語言。從 Scratch 中學習到的知識與能力，在學習  Python 時都可以用類比的方式將「**程式經驗遷移**」過來。
 
 
-兩者語法的差異，請參考[Scratch與Python語法比較](scratch_python_compare.md)
+兩者語法的差異，請參考[Scratch與Python語法比較](../lesson/basic/scratch_python_compare/index.md)
 
 
 
