@@ -23,7 +23,7 @@ hide:
 
     ---------------------------
 
-    : 進階學習 :fontawesome-solid-long-arrow-alt-right: <a href="national_flag/project_roc_flag/" target="_blank">「專題：中華民國國旗」</a>
+    : 進階學習 :fontawesome-solid-long-arrow-alt-right: <a href="project_roc_flag/" target="_blank">「專題：中華民國國旗」</a>
 
   
 <br/>
@@ -47,14 +47,14 @@ hide:
 
 ----------------------------
 
-#### ▪️ <a href="national_flag/project_roc_flag/" target="_blank">專題：中華民國國旗</a>
+#### ▪️ <a href="project_roc_flag/" target="_blank">專題：中華民國國旗</a>
 
 ??? info  "課程摘要"
-    :  ![中華民國國旗](national_flag/digest_roc_flag.jpg)
+    :  ![中華民國國旗](project_roc_flag/digest.jpg)
 
     : 程式專題：中華民國國旗
 
-    : 利用所學的長方形、圓形與星形，思考、設計與規劃，用海龜程式實作出我們的國旗。　 :fontawesome-solid-long-arrow-alt-right: <a href="national_flag/project_roc_flag/" target="_blank">「進入專題」</a>
+    : 利用所學的長方形、圓形與星形，思考、設計與規劃，用海龜程式實作出我們的國旗。　 :fontawesome-solid-long-arrow-alt-right: <a href="project_roc_flag/" target="_blank">「進入專題」</a>
 
     ---------------------------
 
