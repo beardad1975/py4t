@@ -17,7 +17,7 @@
     
     
       
-        <title>🔰 中華民國國旗 範例 - Py4t - 青少年的Python編輯器</title>
+        <title>🔰 中華民國國旗 專題範例 - Py4t - 青少年的Python編輯器</title>
       
     
     
@@ -132,7 +132,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              🔰 中華民國國旗 範例
+              🔰 中華民國國旗 專題範例
             
           </span>
         </div>
@@ -403,7 +403,9 @@
           
             
               
-              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" hidden>
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
                     
@@ -894,6 +896,8 @@
         
           
         
+          
+        
       
       
         
@@ -938,6 +942,20 @@
     <li class="md-nav__item">
       <a href="../rectangle_and_fill/" class="md-nav__link">
         🔰 長方形及填色 範例
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../draw_triangle/" class="md-nav__link">
+        🔰 正三角形 範例
       </a>
     </li>
   
@@ -1030,12 +1048,12 @@
       
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
-          🔰 中華民國國旗 範例
+          🔰 中華民國國旗 專題範例
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
-        🔰 中華民國國旗 範例
+        🔰 中華民國國旗 專題範例
       </a>
       
         
@@ -1054,29 +1072,50 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
-    🎦 範例影片
+  <a href="#1" class="md-nav__link">
+    階段1: 程式結構
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
-    🏷️ 原理說明
+  <a href="#2" class="md-nav__link">
+    階段2: 紅地與青天
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#py4t" class="md-nav__link">
-    📄 Py4t程式碼
+  <a href="#3" class="md-nav__link">
+    階段3: 光芒
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#_3" class="md-nav__link">
-    💻 執行截圖
+  <a href="#4" class="md-nav__link">
+    階段4: 白日
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5" class="md-nav__link">
+    階段5: 縮放倍率
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6" class="md-nav__link">
+    階段6: 座標平移
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7" class="md-nav__link">
+    階段7: 使用者介面
   </a>
   
 </li>
@@ -1674,6 +1713,8 @@
             
             
               
+                
+              
               <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
@@ -1693,29 +1734,50 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
-    🎦 範例影片
+  <a href="#1" class="md-nav__link">
+    階段1: 程式結構
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
-    🏷️ 原理說明
+  <a href="#2" class="md-nav__link">
+    階段2: 紅地與青天
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#py4t" class="md-nav__link">
-    📄 Py4t程式碼
+  <a href="#3" class="md-nav__link">
+    階段3: 光芒
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#_3" class="md-nav__link">
-    💻 執行截圖
+  <a href="#4" class="md-nav__link">
+    階段4: 白日
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5" class="md-nav__link">
+    階段5: 縮放倍率
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6" class="md-nav__link">
+    階段6: 座標平移
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7" class="md-nav__link">
+    階段7: 使用者介面
   </a>
   
 </li>
@@ -1733,90 +1795,499 @@
               
                 
 
-<h1 id="-">🔰 海龜範例 - 畫出國旗</h1>
+<h1 id="-">🔰 專題範例 - 中華民國國旗</h1>
 <hr />
-<h3 id="_1">🎦 範例影片</h3>
-<div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/640407629?h=a713b31afe&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="roc_flag.mp4"></iframe></div>
-<script src="https://player.vimeo.com/api/player.js"></script>
+<h2 id="1">階段1: 程式結構</h2>
+<p>🎦 範例影片</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qjlan7-zmu8?start=3&amp;end=281" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <hr />
-<h3 id="_2">🏷️ 原理說明</h3>
-<p>利用正方形、星形與圓形，再善用海龜填色功能，就可以畫出青天白日滿地紅的國旗。程式中的國旗大小有保留倍率的變數，當使用者輸入不同的倍率時，就可以改變國旗的大小。</p>
+<dl>
+<dt>🏷️ 重點說明</dt>
+<dd>
+<p>先儲存檔案，並匯入海龜模組。</p>
+</dd>
+<dd>
+<p>此階段先寫出程式的主要結構，每個函式會先印出該函式的名稱作為代表。</p>
+</dd>
+<dd>
+<p>先定義函式「主程式」，印出順序名稱，先呼叫主程式。</p>
+</dd>
+<dd>
+<p>接著再逐一定義函式，紅地、青天、光芒、白日，並印出該函式的名稱。最後在主程式中呼叫其餘4個函式，印出的文字1~5行，就代表著程式的主要流程。</p>
+</dd>
+</dl>
 <hr />
-<h3 id="py4t">📄 Py4t程式碼</h3>
-<div class="highlight"><pre><span></span><code><span class="linenos" data-linenos=" 1 "></span><span class="c1"># 需安裝py4t 0.9版以上</span>
-<span class="linenos" data-linenos=" 2 "></span><span class="kn">from</span> <span class="nn">海龜模組</span> <span class="kn">import</span> <span class="o">*</span>
-<span class="linenos" data-linenos=" 3 "></span>
-<span class="linenos" data-linenos=" 4 "></span><span class="c1"># 初始設定</span>
-<span class="linenos" data-linenos=" 5 "></span><span class="n">速度</span><span class="p">(</span><span class="s1">&#39;fast&#39;</span><span class="p">)</span>
-<span class="linenos" data-linenos=" 6 "></span><span class="n">視窗設定</span><span class="p">(</span><span class="mi">1200</span><span class="p">,</span> <span class="mi">800</span><span class="p">)</span>
-<span class="linenos" data-linenos=" 7 "></span><span class="n">出發點x</span> <span class="o">=</span> <span class="o">-</span><span class="mi">400</span>
-<span class="linenos" data-linenos=" 8 "></span><span class="n">出發點y</span> <span class="o">=</span> <span class="mi">300</span>
-<span class="linenos" data-linenos=" 9 "></span>
-<span class="linenos" data-linenos="10 "></span><span class="c1"># 輸入倍率</span>
-<span class="linenos" data-linenos="11 "></span><span class="n">倍率</span> <span class="o">=</span> <span class="n">輸入數字</span><span class="p">(</span><span class="s1">&#39;輸入&#39;</span><span class="p">,</span><span class="s1">&#39;請輸入國旗的倍率(1~8)&#39;</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">8</span><span class="p">)</span>
-<span class="linenos" data-linenos="12 "></span><span class="n">倍率</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">倍率</span><span class="p">)</span>
+<p>📄 Py4t程式碼</p>
+<div class="highlight"><pre><span></span><code><span class="linenos" data-linenos=" 1 "></span><span class="kn">from</span> <span class="nn">海龜模組</span> <span class="kn">import</span> <span class="o">*</span>
+<span class="linenos" data-linenos=" 2 "></span>
+<span class="linenos" data-linenos=" 3 "></span><span class="k">def</span> <span class="nf">紅地</span><span class="p">()</span> <span class="p">:</span>
+<span class="linenos" data-linenos=" 4 "></span>    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;2.紅地&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos=" 5 "></span>
+<span class="linenos" data-linenos=" 6 "></span><span class="k">def</span> <span class="nf">青天</span><span class="p">()</span> <span class="p">:</span>
+<span class="linenos" data-linenos=" 7 "></span>    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;3.青天&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos=" 8 "></span>
+<span class="linenos" data-linenos=" 9 "></span><span class="k">def</span> <span class="nf">光芒</span><span class="p">()</span> <span class="p">:</span>
+<span class="linenos" data-linenos="10 "></span>    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;4.光芒&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos="11 "></span>
+<span class="linenos" data-linenos="12 "></span><span class="k">def</span> <span class="nf">白日</span><span class="p">()</span> <span class="p">:</span>
+<span class="linenos" data-linenos="13 "></span>    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;5.白日 &#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos="14 "></span>
+<span class="linenos" data-linenos="15 "></span><span class="k">def</span> <span class="nf">主程式</span><span class="p">()</span> <span class="p">:</span>
+<span class="linenos" data-linenos="16 "></span>    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;1.主程式&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos="17 "></span>    <span class="n">紅地</span><span class="p">()</span>
+<span class="linenos" data-linenos="18 "></span>    <span class="n">青天</span><span class="p">()</span>
+<span class="linenos" data-linenos="19 "></span>    <span class="n">光芒</span><span class="p">()</span>
+<span class="linenos" data-linenos="20 "></span>    <span class="n">白日</span><span class="p">()</span>
+<span class="linenos" data-linenos="21 "></span>
+<span class="linenos" data-linenos="22 "></span><span class="n">主程式</span><span class="p">()</span>
+</code></pre></div>
+<p><br/><br/><br/></p>
+<hr />
+<h2 id="2">階段2: 紅地與青天</h2>
+<p>🎦 範例影片</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qjlan7-zmu8?start=283&amp;end=483" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<hr />
+<dl>
+<dt>🏷️ 重點說明</dt>
+<dd>
+<p>接下來實作紅地與青天</p>
+</dd>
+<dd>
+<p>紅地是一個長方形，寬高的比例為120:80，完成長方形後，填上紅色</p>
+</dd>
+<dd>
+<p>青天也是長方形，寬高的比例為60:40，完成長方形後，填上藍色</p>
+</dd>
+</dl>
+<hr />
+<p>📄 Py4t程式碼</p>
+<div class="highlight"><pre><span></span><code><span class="linenos" data-linenos=" 1 "></span><span class="kn">from</span> <span class="nn">海龜模組</span> <span class="kn">import</span> <span class="o">*</span>
+<span class="linenos" data-linenos=" 2 "></span>
+<span class="linenos" data-linenos=" 3 "></span><span class="k">def</span> <span class="nf">紅地</span><span class="p">()</span> <span class="p">:</span>
+<span class="linenos" data-linenos=" 4 "></span>    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;2.紅地&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos=" 5 "></span>    <span class="n">填充顏色</span><span class="p">(</span><span class="s1">&#39;red&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos=" 6 "></span>    <span class="n">開始填色</span><span class="p">()</span>
+<span class="linenos" data-linenos=" 7 "></span>    <span class="k">for</span> <span class="n">數</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span> <span class="p">:</span>
+<span class="linenos" data-linenos=" 8 "></span>        <span class="n">向前</span><span class="p">(</span><span class="mi">120</span><span class="p">)</span>
+<span class="linenos" data-linenos=" 9 "></span>        <span class="n">右轉</span><span class="p">(</span><span class="mi">90</span><span class="p">)</span>
+<span class="linenos" data-linenos="10 "></span>        <span class="n">向前</span><span class="p">(</span><span class="mi">80</span><span class="p">)</span>
+<span class="linenos" data-linenos="11 "></span>        <span class="n">右轉</span><span class="p">(</span><span class="mi">90</span><span class="p">)</span>
+<span class="linenos" data-linenos="12 "></span>    <span class="n">停止填色</span><span class="p">()</span>
 <span class="linenos" data-linenos="13 "></span>
-<span class="linenos" data-linenos="14 "></span><span class="k">def</span> <span class="nf">紅地</span><span class="p">()</span> <span class="p">:</span>
-<span class="linenos" data-linenos="15 "></span>    <span class="n">填充顏色</span><span class="p">(</span><span class="mi">255</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">)</span>
-<span class="linenos" data-linenos="16 "></span>    <span class="n">開始填色</span><span class="p">()</span>
-<span class="linenos" data-linenos="17 "></span>    <span class="k">for</span> <span class="n">數</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span> <span class="p">:</span>
-<span class="linenos" data-linenos="18 "></span>        <span class="n">向前</span><span class="p">(</span><span class="n">倍率</span><span class="o">*</span><span class="mi">120</span><span class="p">)</span>
+<span class="linenos" data-linenos="14 "></span><span class="k">def</span> <span class="nf">青天</span><span class="p">()</span> <span class="p">:</span>
+<span class="linenos" data-linenos="15 "></span>    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;3.青天&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos="16 "></span>    <span class="n">填充顏色</span><span class="p">(</span><span class="s1">&#39;blue&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos="17 "></span>    <span class="n">開始填色</span><span class="p">()</span>
+<span class="linenos" data-linenos="18 "></span>    <span class="k">for</span> <span class="n">數</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span> <span class="p">:</span>
+<span class="linenos" data-linenos="19 "></span>        <span class="n">向前</span><span class="p">(</span><span class="mi">60</span><span class="p">)</span>
+<span class="linenos" data-linenos="20 "></span>        <span class="n">右轉</span><span class="p">(</span><span class="mi">90</span><span class="p">)</span>
+<span class="linenos" data-linenos="21 "></span>        <span class="n">向前</span><span class="p">(</span><span class="mi">40</span><span class="p">)</span>
+<span class="linenos" data-linenos="22 "></span>        <span class="n">右轉</span><span class="p">(</span><span class="mi">90</span><span class="p">)</span>
+<span class="linenos" data-linenos="23 "></span>    <span class="n">停止填色</span><span class="p">()</span>
+<span class="linenos" data-linenos="24 "></span>
+<span class="linenos" data-linenos="25 "></span><span class="k">def</span> <span class="nf">光芒</span><span class="p">()</span> <span class="p">:</span>
+<span class="linenos" data-linenos="26 "></span>    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;4.光芒&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos="27 "></span>
+<span class="linenos" data-linenos="28 "></span><span class="k">def</span> <span class="nf">白日</span><span class="p">()</span> <span class="p">:</span>
+<span class="linenos" data-linenos="29 "></span>    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;5.白日 &#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos="30 "></span>
+<span class="linenos" data-linenos="31 "></span><span class="k">def</span> <span class="nf">主程式</span><span class="p">()</span> <span class="p">:</span>
+<span class="linenos" data-linenos="32 "></span>    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;1.主程式&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos="33 "></span>    <span class="n">紅地</span><span class="p">()</span>
+<span class="linenos" data-linenos="34 "></span>    <span class="n">青天</span><span class="p">()</span>
+<span class="linenos" data-linenos="35 "></span>    <span class="n">光芒</span><span class="p">()</span>
+<span class="linenos" data-linenos="36 "></span>    <span class="n">白日</span><span class="p">()</span>
+<span class="linenos" data-linenos="37 "></span>
+<span class="linenos" data-linenos="38 "></span><span class="n">主程式</span><span class="p">()</span>
+</code></pre></div>
+<p><br/><br/><br/></p>
+<hr />
+<h2 id="3">階段3: 光芒</h2>
+<p>🎦 範例影片</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qjlan7-zmu8?start=486&amp;end=718" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<hr />
+<p>🏷️ 重點說明</p>
+<p>先加快海龜速度，隱藏游標，以方便後續的測試與結果</p>
+<p>先把海龜移至光芒起點座標(15, -20)，移動時不畫線(停筆、移動、下筆)</p>
+<p>接下來畫12角星形，長為29，角度依公式為180-360/12，重複12次初步完成星形線條。
+畫筆顏色與填充顏色都設為白色。</p>
+<p>畫出來的星形需再調整角度(提前左轉15度)，就會對齊整點鐘方向。</p>
+<hr />
+<p>📄 Py4t程式碼</p>
+<div class="highlight"><pre><span></span><code><span class="linenos" data-linenos=" 1 "></span><span class="kn">from</span> <span class="nn">海龜模組</span> <span class="kn">import</span> <span class="o">*</span>
+<span class="linenos" data-linenos=" 2 "></span><span class="n">速度</span><span class="p">(</span><span class="s1">&#39;fast&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos=" 3 "></span><span class="n">隱藏游標</span><span class="p">()</span>
+<span class="linenos" data-linenos=" 4 "></span>
+<span class="linenos" data-linenos=" 5 "></span><span class="k">def</span> <span class="nf">紅地</span><span class="p">()</span> <span class="p">:</span>
+<span class="linenos" data-linenos=" 6 "></span>    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;2.紅地&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos=" 7 "></span>    <span class="n">填充顏色</span><span class="p">(</span><span class="s1">&#39;red&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos=" 8 "></span>    <span class="n">開始填色</span><span class="p">()</span>
+<span class="linenos" data-linenos=" 9 "></span>    <span class="k">for</span> <span class="n">數</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span> <span class="p">:</span>
+<span class="linenos" data-linenos="10 "></span>        <span class="n">向前</span><span class="p">(</span><span class="mi">120</span><span class="p">)</span>
+<span class="linenos" data-linenos="11 "></span>        <span class="n">右轉</span><span class="p">(</span><span class="mi">90</span><span class="p">)</span>
+<span class="linenos" data-linenos="12 "></span>        <span class="n">向前</span><span class="p">(</span><span class="mi">80</span><span class="p">)</span>
+<span class="linenos" data-linenos="13 "></span>        <span class="n">右轉</span><span class="p">(</span><span class="mi">90</span><span class="p">)</span>
+<span class="linenos" data-linenos="14 "></span>    <span class="n">停止填色</span><span class="p">()</span>
+<span class="linenos" data-linenos="15 "></span>
+<span class="linenos" data-linenos="16 "></span><span class="k">def</span> <span class="nf">青天</span><span class="p">()</span> <span class="p">:</span>
+<span class="linenos" data-linenos="17 "></span>    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;3.青天&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos="18 "></span>    <span class="n">填充顏色</span><span class="p">(</span><span class="s1">&#39;blue&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos="19 "></span>    <span class="n">開始填色</span><span class="p">()</span>
+<span class="linenos" data-linenos="20 "></span>    <span class="k">for</span> <span class="n">數</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span> <span class="p">:</span>
+<span class="linenos" data-linenos="21 "></span>        <span class="n">向前</span><span class="p">(</span><span class="mi">60</span><span class="p">)</span>
+<span class="linenos" data-linenos="22 "></span>        <span class="n">右轉</span><span class="p">(</span><span class="mi">90</span><span class="p">)</span>
+<span class="linenos" data-linenos="23 "></span>        <span class="n">向前</span><span class="p">(</span><span class="mi">40</span><span class="p">)</span>
+<span class="linenos" data-linenos="24 "></span>        <span class="n">右轉</span><span class="p">(</span><span class="mi">90</span><span class="p">)</span>
+<span class="linenos" data-linenos="25 "></span>    <span class="n">停止填色</span><span class="p">()</span>
+<span class="linenos" data-linenos="26 "></span>
+<span class="linenos" data-linenos="27 "></span><span class="k">def</span> <span class="nf">光芒</span><span class="p">()</span> <span class="p">:</span>
+<span class="linenos" data-linenos="28 "></span>    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;4.光芒&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos="29 "></span>    <span class="n">停筆</span><span class="p">()</span>
+<span class="linenos" data-linenos="30 "></span>    <span class="n">走到</span><span class="p">(</span><span class="mi">15</span><span class="p">,</span> <span class="o">-</span><span class="mi">20</span><span class="p">)</span>
+<span class="linenos" data-linenos="31 "></span>    <span class="n">下筆</span><span class="p">()</span>
+<span class="linenos" data-linenos="32 "></span>
+<span class="linenos" data-linenos="33 "></span>    <span class="n">左轉</span><span class="p">(</span><span class="mi">15</span><span class="p">)</span>
+<span class="linenos" data-linenos="34 "></span>
+<span class="linenos" data-linenos="35 "></span>    <span class="n">畫筆顏色</span><span class="p">(</span><span class="s1">&#39;white&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos="36 "></span>    <span class="n">填充顏色</span><span class="p">(</span><span class="s1">&#39;white&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos="37 "></span>    <span class="n">開始填色</span><span class="p">()</span>
+<span class="linenos" data-linenos="38 "></span>    <span class="k">for</span> <span class="n">數</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">12</span><span class="p">)</span> <span class="p">:</span>
+<span class="linenos" data-linenos="39 "></span>        <span class="n">向前</span><span class="p">(</span><span class="mi">29</span><span class="p">)</span>
+<span class="linenos" data-linenos="40 "></span>        <span class="n">右轉</span><span class="p">(</span><span class="mi">180</span><span class="o">-</span><span class="mi">360</span><span class="o">/</span><span class="mi">12</span><span class="p">)</span>
+<span class="linenos" data-linenos="41 "></span>    <span class="n">停止填色</span><span class="p">()</span>
+<span class="linenos" data-linenos="42 "></span>
+<span class="linenos" data-linenos="43 "></span><span class="k">def</span> <span class="nf">白日</span><span class="p">()</span> <span class="p">:</span>
+<span class="linenos" data-linenos="44 "></span>    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;5.白日 &#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos="45 "></span>
+<span class="linenos" data-linenos="46 "></span><span class="k">def</span> <span class="nf">主程式</span><span class="p">()</span> <span class="p">:</span>
+<span class="linenos" data-linenos="47 "></span>    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;1.主程式&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos="48 "></span>    <span class="n">紅地</span><span class="p">()</span>
+<span class="linenos" data-linenos="49 "></span>    <span class="n">青天</span><span class="p">()</span>
+<span class="linenos" data-linenos="50 "></span>    <span class="n">光芒</span><span class="p">()</span>
+<span class="linenos" data-linenos="51 "></span>    <span class="n">白日</span><span class="p">()</span>
+<span class="linenos" data-linenos="52 "></span>
+<span class="linenos" data-linenos="53 "></span><span class="n">主程式</span><span class="p">()</span>
+</code></pre></div>
+<p><br/><br/><br/></p>
+<hr />
+<h2 id="4">階段4: 白日</h2>
+<p>🎦 範例影片</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qjlan7-zmu8?start=721&amp;end=853" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<hr />
+<p>🏷️ 重點說明</p>
+<p>先將移至白日的開始圓心座標(30, -20)，移動時不畫線(停筆、移動、下筆)。</p>
+<p>畫出實心圓，直徑為17，顏色為藍色。再畫出小一點的實心圓，直徑15，顏色白色。完成了有青圈的白日</p>
+<hr />
+<p>📄 Py4t程式碼</p>
+<div class="highlight"><pre><span></span><code><span class="linenos" data-linenos=" 1 "></span><span class="kn">from</span> <span class="nn">海龜模組</span> <span class="kn">import</span> <span class="o">*</span>
+<span class="linenos" data-linenos=" 2 "></span><span class="n">速度</span><span class="p">(</span><span class="s1">&#39;fast&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos=" 3 "></span><span class="n">隱藏游標</span><span class="p">()</span>
+<span class="linenos" data-linenos=" 4 "></span>
+<span class="linenos" data-linenos=" 5 "></span><span class="k">def</span> <span class="nf">紅地</span><span class="p">()</span> <span class="p">:</span>
+<span class="linenos" data-linenos=" 6 "></span>    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;2.紅地&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos=" 7 "></span>    <span class="n">填充顏色</span><span class="p">(</span><span class="s1">&#39;red&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos=" 8 "></span>    <span class="n">開始填色</span><span class="p">()</span>
+<span class="linenos" data-linenos=" 9 "></span>    <span class="k">for</span> <span class="n">數</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span> <span class="p">:</span>
+<span class="linenos" data-linenos="10 "></span>        <span class="n">向前</span><span class="p">(</span><span class="mi">120</span><span class="p">)</span>
+<span class="linenos" data-linenos="11 "></span>        <span class="n">右轉</span><span class="p">(</span><span class="mi">90</span><span class="p">)</span>
+<span class="linenos" data-linenos="12 "></span>        <span class="n">向前</span><span class="p">(</span><span class="mi">80</span><span class="p">)</span>
+<span class="linenos" data-linenos="13 "></span>        <span class="n">右轉</span><span class="p">(</span><span class="mi">90</span><span class="p">)</span>
+<span class="linenos" data-linenos="14 "></span>    <span class="n">停止填色</span><span class="p">()</span>
+<span class="linenos" data-linenos="15 "></span>
+<span class="linenos" data-linenos="16 "></span><span class="k">def</span> <span class="nf">青天</span><span class="p">()</span> <span class="p">:</span>
+<span class="linenos" data-linenos="17 "></span>    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;3.青天&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos="18 "></span>    <span class="n">填充顏色</span><span class="p">(</span><span class="s1">&#39;blue&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos="19 "></span>    <span class="n">開始填色</span><span class="p">()</span>
+<span class="linenos" data-linenos="20 "></span>    <span class="k">for</span> <span class="n">數</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span> <span class="p">:</span>
+<span class="linenos" data-linenos="21 "></span>        <span class="n">向前</span><span class="p">(</span><span class="mi">60</span><span class="p">)</span>
+<span class="linenos" data-linenos="22 "></span>        <span class="n">右轉</span><span class="p">(</span><span class="mi">90</span><span class="p">)</span>
+<span class="linenos" data-linenos="23 "></span>        <span class="n">向前</span><span class="p">(</span><span class="mi">40</span><span class="p">)</span>
+<span class="linenos" data-linenos="24 "></span>        <span class="n">右轉</span><span class="p">(</span><span class="mi">90</span><span class="p">)</span>
+<span class="linenos" data-linenos="25 "></span>    <span class="n">停止填色</span><span class="p">()</span>
+<span class="linenos" data-linenos="26 "></span>
+<span class="linenos" data-linenos="27 "></span><span class="k">def</span> <span class="nf">光芒</span><span class="p">()</span> <span class="p">:</span>
+<span class="linenos" data-linenos="28 "></span>    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;4.光芒&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos="29 "></span>    <span class="n">停筆</span><span class="p">()</span>
+<span class="linenos" data-linenos="30 "></span>    <span class="n">走到</span><span class="p">(</span><span class="mi">15</span><span class="p">,</span> <span class="o">-</span><span class="mi">20</span><span class="p">)</span>
+<span class="linenos" data-linenos="31 "></span>    <span class="n">下筆</span><span class="p">()</span>
+<span class="linenos" data-linenos="32 "></span>
+<span class="linenos" data-linenos="33 "></span>    <span class="n">左轉</span><span class="p">(</span><span class="mi">15</span><span class="p">)</span>
+<span class="linenos" data-linenos="34 "></span>
+<span class="linenos" data-linenos="35 "></span>    <span class="n">畫筆顏色</span><span class="p">(</span><span class="s1">&#39;white&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos="36 "></span>    <span class="n">填充顏色</span><span class="p">(</span><span class="s1">&#39;white&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos="37 "></span>    <span class="n">開始填色</span><span class="p">()</span>
+<span class="linenos" data-linenos="38 "></span>    <span class="k">for</span> <span class="n">數</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">12</span><span class="p">)</span> <span class="p">:</span>
+<span class="linenos" data-linenos="39 "></span>        <span class="n">向前</span><span class="p">(</span><span class="mi">29</span><span class="p">)</span>
+<span class="linenos" data-linenos="40 "></span>        <span class="n">右轉</span><span class="p">(</span><span class="mi">180</span><span class="o">-</span><span class="mi">360</span><span class="o">/</span><span class="mi">12</span><span class="p">)</span>
+<span class="linenos" data-linenos="41 "></span>    <span class="n">停止填色</span><span class="p">()</span>
+<span class="linenos" data-linenos="42 "></span>
+<span class="linenos" data-linenos="43 "></span><span class="k">def</span> <span class="nf">白日</span><span class="p">()</span> <span class="p">:</span>
+<span class="linenos" data-linenos="44 "></span>    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;5.白日 &#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos="45 "></span>    <span class="n">停筆</span><span class="p">()</span>
+<span class="linenos" data-linenos="46 "></span>    <span class="n">走到</span><span class="p">(</span><span class="mi">30</span> <span class="p">,</span> <span class="o">-</span><span class="mi">20</span> <span class="p">)</span>
+<span class="linenos" data-linenos="47 "></span>    <span class="n">下筆</span><span class="p">()</span>
+<span class="linenos" data-linenos="48 "></span>
+<span class="linenos" data-linenos="49 "></span>    <span class="n">畫點</span><span class="p">(</span><span class="mi">17</span> <span class="p">,</span><span class="s1">&#39;blue&#39;</span> <span class="p">)</span>
+<span class="linenos" data-linenos="50 "></span>    <span class="n">畫點</span><span class="p">(</span><span class="mi">15</span> <span class="p">,</span> <span class="s1">&#39;white&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos="51 "></span>
+<span class="linenos" data-linenos="52 "></span><span class="k">def</span> <span class="nf">主程式</span><span class="p">()</span> <span class="p">:</span>
+<span class="linenos" data-linenos="53 "></span>    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;1.主程式&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos="54 "></span>    <span class="n">紅地</span><span class="p">()</span>
+<span class="linenos" data-linenos="55 "></span>    <span class="n">青天</span><span class="p">()</span>
+<span class="linenos" data-linenos="56 "></span>    <span class="n">光芒</span><span class="p">()</span>
+<span class="linenos" data-linenos="57 "></span>    <span class="n">白日</span><span class="p">()</span>
+<span class="linenos" data-linenos="58 "></span>
+<span class="linenos" data-linenos="59 "></span><span class="n">主程式</span><span class="p">()</span>
+</code></pre></div>
+<p><br/><br/><br/></p>
+<hr />
+<h2 id="5">階段5: 縮放倍率</h2>
+<p>🎦 範例影片</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qjlan7-zmu8?start=855&amp;end=1054" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<hr />
+<p>🏷️ 重點說明</p>
+<p>使用較大的視窗，將視窗設定寬1200、高800。</p>
+<p>建立倍率變數，長度、座標移動相關的數都需要乘上倍率(縮放時會一起變化)</p>
+<hr />
+<p>📄 Py4t程式碼</p>
+<div class="highlight"><pre><span></span><code><span class="linenos" data-linenos=" 1 "></span><span class="kn">from</span> <span class="nn">海龜模組</span> <span class="kn">import</span> <span class="o">*</span>
+<span class="linenos" data-linenos=" 2 "></span><span class="n">視窗設定</span><span class="p">(</span><span class="mi">1200</span><span class="p">,</span> <span class="mi">800</span><span class="p">)</span>
+<span class="linenos" data-linenos=" 3 "></span><span class="n">速度</span><span class="p">(</span><span class="s1">&#39;fast&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos=" 4 "></span><span class="n">隱藏游標</span><span class="p">()</span>
+<span class="linenos" data-linenos=" 5 "></span>
+<span class="linenos" data-linenos=" 6 "></span><span class="n">倍率</span> <span class="o">=</span> <span class="mi">7</span>
+<span class="linenos" data-linenos=" 7 "></span>
+<span class="linenos" data-linenos=" 8 "></span><span class="k">def</span> <span class="nf">紅地</span><span class="p">()</span> <span class="p">:</span>
+<span class="linenos" data-linenos=" 9 "></span>    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;2.紅地&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos="10 "></span>    <span class="n">填充顏色</span><span class="p">(</span><span class="s1">&#39;red&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos="11 "></span>    <span class="n">開始填色</span><span class="p">()</span>
+<span class="linenos" data-linenos="12 "></span>    <span class="k">for</span> <span class="n">數</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span> <span class="p">:</span>
+<span class="linenos" data-linenos="13 "></span>        <span class="n">向前</span><span class="p">(</span><span class="mi">120</span> <span class="o">*</span> <span class="n">倍率</span><span class="p">)</span>
+<span class="linenos" data-linenos="14 "></span>        <span class="n">右轉</span><span class="p">(</span><span class="mi">90</span><span class="p">)</span>
+<span class="linenos" data-linenos="15 "></span>        <span class="n">向前</span><span class="p">(</span><span class="mi">80</span> <span class="o">*</span> <span class="n">倍率</span><span class="p">)</span>
+<span class="linenos" data-linenos="16 "></span>        <span class="n">右轉</span><span class="p">(</span><span class="mi">90</span><span class="p">)</span>
+<span class="linenos" data-linenos="17 "></span>    <span class="n">停止填色</span><span class="p">()</span>   
+<span class="linenos" data-linenos="18 "></span>
+<span class="linenos" data-linenos="19 "></span><span class="k">def</span> <span class="nf">青天</span><span class="p">()</span> <span class="p">:</span>
+<span class="linenos" data-linenos="20 "></span>    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;3.青天&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos="21 "></span>    <span class="n">填充顏色</span><span class="p">(</span><span class="s1">&#39;blue&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos="22 "></span>    <span class="n">開始填色</span><span class="p">()</span>
+<span class="linenos" data-linenos="23 "></span>    <span class="k">for</span> <span class="n">數</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span> <span class="p">:</span>
+<span class="linenos" data-linenos="24 "></span>        <span class="n">向前</span><span class="p">(</span><span class="mi">60</span> <span class="o">*</span> <span class="n">倍率</span><span class="p">)</span>
+<span class="linenos" data-linenos="25 "></span>        <span class="n">右轉</span><span class="p">(</span><span class="mi">90</span><span class="p">)</span>
+<span class="linenos" data-linenos="26 "></span>        <span class="n">向前</span><span class="p">(</span><span class="mi">40</span> <span class="o">*</span> <span class="n">倍率</span><span class="p">)</span>
+<span class="linenos" data-linenos="27 "></span>        <span class="n">右轉</span><span class="p">(</span><span class="mi">90</span><span class="p">)</span>
+<span class="linenos" data-linenos="28 "></span>    <span class="n">停止填色</span><span class="p">()</span>
+<span class="linenos" data-linenos="29 "></span>
+<span class="linenos" data-linenos="30 "></span><span class="k">def</span> <span class="nf">光芒</span><span class="p">()</span> <span class="p">:</span>
+<span class="linenos" data-linenos="31 "></span>    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;4.光芒&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos="32 "></span>    <span class="n">停筆</span><span class="p">()</span>
+<span class="linenos" data-linenos="33 "></span>    <span class="n">走到</span><span class="p">(</span><span class="mi">15</span> <span class="o">*</span> <span class="n">倍率</span> <span class="p">,</span> <span class="o">-</span><span class="mi">20</span> <span class="o">*</span> <span class="n">倍率</span><span class="p">)</span>
+<span class="linenos" data-linenos="34 "></span>    <span class="n">下筆</span><span class="p">()</span>
+<span class="linenos" data-linenos="35 "></span>
+<span class="linenos" data-linenos="36 "></span>    <span class="n">左轉</span><span class="p">(</span><span class="mi">15</span><span class="p">)</span>
+<span class="linenos" data-linenos="37 "></span>
+<span class="linenos" data-linenos="38 "></span>    <span class="n">畫筆顏色</span><span class="p">(</span><span class="s1">&#39;white&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos="39 "></span>    <span class="n">填充顏色</span><span class="p">(</span><span class="s1">&#39;white&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos="40 "></span>    <span class="n">開始填色</span><span class="p">()</span>
+<span class="linenos" data-linenos="41 "></span>    <span class="k">for</span> <span class="n">數</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">12</span><span class="p">)</span> <span class="p">:</span>
+<span class="linenos" data-linenos="42 "></span>        <span class="n">向前</span><span class="p">(</span><span class="mi">29</span> <span class="o">*</span> <span class="n">倍率</span><span class="p">)</span>
+<span class="linenos" data-linenos="43 "></span>        <span class="n">右轉</span><span class="p">(</span><span class="mi">180</span><span class="o">-</span><span class="mi">360</span><span class="o">/</span><span class="mi">12</span><span class="p">)</span>
+<span class="linenos" data-linenos="44 "></span>    <span class="n">停止填色</span><span class="p">()</span>
+<span class="linenos" data-linenos="45 "></span>
+<span class="linenos" data-linenos="46 "></span><span class="k">def</span> <span class="nf">白日</span><span class="p">()</span> <span class="p">:</span>
+<span class="linenos" data-linenos="47 "></span>    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;5.白日&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos="48 "></span>    <span class="n">停筆</span><span class="p">()</span>
+<span class="linenos" data-linenos="49 "></span>    <span class="n">走到</span><span class="p">(</span><span class="mi">30</span> <span class="o">*</span> <span class="n">倍率</span><span class="p">,</span> <span class="o">-</span><span class="mi">20</span> <span class="o">*</span> <span class="n">倍率</span><span class="p">)</span>
+<span class="linenos" data-linenos="50 "></span>    <span class="n">下筆</span><span class="p">()</span>
+<span class="linenos" data-linenos="51 "></span>
+<span class="linenos" data-linenos="52 "></span>    <span class="n">畫點</span><span class="p">(</span><span class="mi">17</span> <span class="o">*</span> <span class="n">倍率</span><span class="p">,</span><span class="s1">&#39;blue&#39;</span> <span class="p">)</span>
+<span class="linenos" data-linenos="53 "></span>    <span class="n">畫點</span><span class="p">(</span><span class="mi">15</span> <span class="o">*</span> <span class="n">倍率</span><span class="p">,</span> <span class="s1">&#39;white&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos="54 "></span>
+<span class="linenos" data-linenos="55 "></span>
+<span class="linenos" data-linenos="56 "></span><span class="k">def</span> <span class="nf">主程式</span><span class="p">()</span> <span class="p">:</span>
+<span class="linenos" data-linenos="57 "></span>    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;1.主程式&#39;</span><span class="p">)</span> 
+<span class="linenos" data-linenos="58 "></span>    <span class="n">紅地</span><span class="p">()</span>
+<span class="linenos" data-linenos="59 "></span>    <span class="n">青天</span><span class="p">()</span>
+<span class="linenos" data-linenos="60 "></span>    <span class="n">光芒</span><span class="p">()</span>
+<span class="linenos" data-linenos="61 "></span>    <span class="n">白日</span><span class="p">()</span>    
+<span class="linenos" data-linenos="62 "></span>
+<span class="linenos" data-linenos="63 "></span><span class="n">主程式</span><span class="p">()</span>
+</code></pre></div>
+<p><br/><br/><br/></p>
+<hr />
+<h2 id="6">階段6: 座標平移</h2>
+<p>🎦 範例影片</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qjlan7-zmu8?start=1057&amp;end=1239" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<hr />
+<p>🏷️ 重點說明</p>
+<p>將起點改至左上角。建立變數，起點x為-500，起點y為300</p>
+<p>主程式於一開始，就將海龜移至新起點(移動不畫線)</p>
+<p>因應起點移位，每個與座標移動有相關的數，都需要分別加上起點x與起點y</p>
+<hr />
+<p>📄 Py4t程式碼</p>
+<div class="highlight"><pre><span></span><code><span class="linenos" data-linenos=" 1 "></span><span class="kn">from</span> <span class="nn">海龜模組</span> <span class="kn">import</span> <span class="o">*</span>
+<span class="linenos" data-linenos=" 2 "></span><span class="n">視窗設定</span><span class="p">(</span><span class="mi">1200</span><span class="p">,</span> <span class="mi">800</span><span class="p">)</span>
+<span class="linenos" data-linenos=" 3 "></span><span class="n">速度</span><span class="p">(</span><span class="s1">&#39;fast&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos=" 4 "></span><span class="n">隱藏游標</span><span class="p">()</span>
+<span class="linenos" data-linenos=" 5 "></span>
+<span class="linenos" data-linenos=" 6 "></span><span class="n">倍率</span> <span class="o">=</span> <span class="mi">7</span>
+<span class="linenos" data-linenos=" 7 "></span>
+<span class="linenos" data-linenos=" 8 "></span><span class="n">起點x</span> <span class="o">=</span> <span class="o">-</span><span class="mi">500</span>
+<span class="linenos" data-linenos=" 9 "></span><span class="n">起點y</span> <span class="o">=</span> <span class="mi">300</span>
+<span class="linenos" data-linenos="10 "></span>
+<span class="linenos" data-linenos="11 "></span><span class="k">def</span> <span class="nf">紅地</span><span class="p">()</span> <span class="p">:</span>
+<span class="linenos" data-linenos="12 "></span>    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;2.紅地&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos="13 "></span>    <span class="n">填充顏色</span><span class="p">(</span><span class="s1">&#39;red&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos="14 "></span>    <span class="n">開始填色</span><span class="p">()</span>
+<span class="linenos" data-linenos="15 "></span>    <span class="k">for</span> <span class="n">數</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span> <span class="p">:</span>
+<span class="linenos" data-linenos="16 "></span>        <span class="n">向前</span><span class="p">(</span><span class="mi">120</span> <span class="o">*</span> <span class="n">倍率</span><span class="p">)</span>
+<span class="linenos" data-linenos="17 "></span>        <span class="n">右轉</span><span class="p">(</span><span class="mi">90</span><span class="p">)</span>
+<span class="linenos" data-linenos="18 "></span>        <span class="n">向前</span><span class="p">(</span><span class="mi">80</span> <span class="o">*</span> <span class="n">倍率</span><span class="p">)</span>
 <span class="linenos" data-linenos="19 "></span>        <span class="n">右轉</span><span class="p">(</span><span class="mi">90</span><span class="p">)</span>
-<span class="linenos" data-linenos="20 "></span>        <span class="n">向前</span><span class="p">(</span><span class="n">倍率</span><span class="o">*</span><span class="mi">80</span><span class="p">)</span>
-<span class="linenos" data-linenos="21 "></span>        <span class="n">右轉</span><span class="p">(</span><span class="mi">90</span><span class="p">)</span>
-<span class="linenos" data-linenos="22 "></span>    <span class="n">停止填色</span><span class="p">()</span>
-<span class="linenos" data-linenos="23 "></span>
-<span class="linenos" data-linenos="24 "></span><span class="k">def</span> <span class="nf">藍天</span><span class="p">()</span> <span class="p">:</span>
-<span class="linenos" data-linenos="25 "></span>    <span class="n">填充顏色</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">255</span><span class="p">)</span>
-<span class="linenos" data-linenos="26 "></span>    <span class="n">開始填色</span><span class="p">()</span>
-<span class="linenos" data-linenos="27 "></span>    <span class="k">for</span> <span class="n">數</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span> <span class="p">:</span>
-<span class="linenos" data-linenos="28 "></span>        <span class="n">向前</span><span class="p">(</span><span class="n">倍率</span><span class="o">*</span><span class="mi">60</span><span class="p">)</span>
-<span class="linenos" data-linenos="29 "></span>        <span class="n">右轉</span><span class="p">(</span><span class="mi">90</span><span class="p">)</span>
-<span class="linenos" data-linenos="30 "></span>        <span class="n">向前</span><span class="p">(</span><span class="n">倍率</span><span class="o">*</span><span class="mi">40</span><span class="p">)</span>
-<span class="linenos" data-linenos="31 "></span>        <span class="n">右轉</span><span class="p">(</span><span class="mi">90</span><span class="p">)</span>
-<span class="linenos" data-linenos="32 "></span>    <span class="n">停止填色</span><span class="p">()</span>
-<span class="linenos" data-linenos="33 "></span>
-<span class="linenos" data-linenos="34 "></span><span class="k">def</span> <span class="nf">光芒</span><span class="p">()</span> <span class="p">:</span>
+<span class="linenos" data-linenos="20 "></span>    <span class="n">停止填色</span><span class="p">()</span>   
+<span class="linenos" data-linenos="21 "></span>
+<span class="linenos" data-linenos="22 "></span><span class="k">def</span> <span class="nf">青天</span><span class="p">()</span> <span class="p">:</span>
+<span class="linenos" data-linenos="23 "></span>    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;3.青天&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos="24 "></span>    <span class="n">填充顏色</span><span class="p">(</span><span class="s1">&#39;blue&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos="25 "></span>    <span class="n">開始填色</span><span class="p">()</span>
+<span class="linenos" data-linenos="26 "></span>    <span class="k">for</span> <span class="n">數</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span> <span class="p">:</span>
+<span class="linenos" data-linenos="27 "></span>        <span class="n">向前</span><span class="p">(</span><span class="mi">60</span> <span class="o">*</span> <span class="n">倍率</span><span class="p">)</span>
+<span class="linenos" data-linenos="28 "></span>        <span class="n">右轉</span><span class="p">(</span><span class="mi">90</span><span class="p">)</span>
+<span class="linenos" data-linenos="29 "></span>        <span class="n">向前</span><span class="p">(</span><span class="mi">40</span> <span class="o">*</span> <span class="n">倍率</span><span class="p">)</span>
+<span class="linenos" data-linenos="30 "></span>        <span class="n">右轉</span><span class="p">(</span><span class="mi">90</span><span class="p">)</span>
+<span class="linenos" data-linenos="31 "></span>    <span class="n">停止填色</span><span class="p">()</span>
+<span class="linenos" data-linenos="32 "></span>
+<span class="linenos" data-linenos="33 "></span><span class="k">def</span> <span class="nf">光芒</span><span class="p">()</span> <span class="p">:</span>
+<span class="linenos" data-linenos="34 "></span>    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;4.光芒&#39;</span><span class="p">)</span>
 <span class="linenos" data-linenos="35 "></span>    <span class="n">停筆</span><span class="p">()</span>
-<span class="linenos" data-linenos="36 "></span>    <span class="n">走到</span><span class="p">(</span><span class="n">出發點x</span> <span class="o">+</span> <span class="n">倍率</span><span class="o">*</span><span class="mi">15</span><span class="p">,</span><span class="n">出發點y</span> <span class="o">-</span> <span class="n">倍率</span><span class="o">*</span><span class="mi">20</span><span class="p">)</span>
+<span class="linenos" data-linenos="36 "></span>    <span class="n">走到</span><span class="p">(</span><span class="mi">15</span> <span class="o">*</span> <span class="n">倍率</span> <span class="o">+</span> <span class="n">起點x</span> <span class="p">,</span> <span class="o">-</span><span class="mi">20</span> <span class="o">*</span> <span class="n">倍率</span> <span class="o">+</span> <span class="n">起點y</span><span class="p">)</span>
 <span class="linenos" data-linenos="37 "></span>    <span class="n">下筆</span><span class="p">()</span>
 <span class="linenos" data-linenos="38 "></span>
 <span class="linenos" data-linenos="39 "></span>    <span class="n">左轉</span><span class="p">(</span><span class="mi">15</span><span class="p">)</span>
 <span class="linenos" data-linenos="40 "></span>
-<span class="linenos" data-linenos="41 "></span>    <span class="n">畫筆顏色</span><span class="p">(</span><span class="mi">255</span><span class="p">,</span><span class="mi">255</span><span class="p">,</span><span class="mi">255</span><span class="p">)</span>
-<span class="linenos" data-linenos="42 "></span>    <span class="n">填充顏色</span><span class="p">(</span><span class="mi">255</span><span class="p">,</span><span class="mi">255</span><span class="p">,</span><span class="mi">255</span><span class="p">)</span>
+<span class="linenos" data-linenos="41 "></span>    <span class="n">畫筆顏色</span><span class="p">(</span><span class="s1">&#39;white&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos="42 "></span>    <span class="n">填充顏色</span><span class="p">(</span><span class="s1">&#39;white&#39;</span><span class="p">)</span>
 <span class="linenos" data-linenos="43 "></span>    <span class="n">開始填色</span><span class="p">()</span>
-<span class="linenos" data-linenos="44 "></span>
-<span class="linenos" data-linenos="45 "></span>    <span class="k">for</span> <span class="n">數</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">12</span><span class="p">)</span> <span class="p">:</span>
-<span class="linenos" data-linenos="46 "></span>        <span class="n">向前</span><span class="p">(</span><span class="n">倍率</span><span class="o">*</span><span class="mi">30</span><span class="p">)</span>
-<span class="linenos" data-linenos="47 "></span>        <span class="n">右轉</span><span class="p">(</span><span class="mi">150</span><span class="p">)</span>
-<span class="linenos" data-linenos="48 "></span>    <span class="n">停止填色</span><span class="p">()</span>
-<span class="linenos" data-linenos="49 "></span>
-<span class="linenos" data-linenos="50 "></span><span class="k">def</span> <span class="nf">白日</span><span class="p">():</span>
+<span class="linenos" data-linenos="44 "></span>    <span class="k">for</span> <span class="n">數</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">12</span><span class="p">)</span> <span class="p">:</span>
+<span class="linenos" data-linenos="45 "></span>        <span class="n">向前</span><span class="p">(</span><span class="mi">29</span> <span class="o">*</span> <span class="n">倍率</span><span class="p">)</span>
+<span class="linenos" data-linenos="46 "></span>        <span class="n">右轉</span><span class="p">(</span><span class="mi">180</span><span class="o">-</span><span class="mi">360</span><span class="o">/</span><span class="mi">12</span><span class="p">)</span>
+<span class="linenos" data-linenos="47 "></span>    <span class="n">停止填色</span><span class="p">()</span>
+<span class="linenos" data-linenos="48 "></span>
+<span class="linenos" data-linenos="49 "></span><span class="k">def</span> <span class="nf">白日</span><span class="p">()</span> <span class="p">:</span>
+<span class="linenos" data-linenos="50 "></span>    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;5.白日&#39;</span><span class="p">)</span>
 <span class="linenos" data-linenos="51 "></span>    <span class="n">停筆</span><span class="p">()</span>
-<span class="linenos" data-linenos="52 "></span>    <span class="n">走到</span><span class="p">(</span><span class="n">出發點x</span> <span class="o">+</span> <span class="nb">int</span><span class="p">(</span><span class="n">倍率</span><span class="o">*</span><span class="mf">30.5</span><span class="p">),</span><span class="n">出發點y</span><span class="o">-</span><span class="n">倍率</span><span class="o">*</span><span class="mi">20</span><span class="p">)</span>
+<span class="linenos" data-linenos="52 "></span>    <span class="n">走到</span><span class="p">(</span><span class="mi">30</span> <span class="o">*</span> <span class="n">倍率</span> <span class="o">+</span> <span class="n">起點x</span> <span class="p">,</span> <span class="o">-</span><span class="mi">20</span> <span class="o">*</span> <span class="n">倍率</span> <span class="o">+</span> <span class="n">起點y</span><span class="p">)</span>
 <span class="linenos" data-linenos="53 "></span>    <span class="n">下筆</span><span class="p">()</span>
-<span class="linenos" data-linenos="54 "></span>    <span class="n">畫點</span><span class="p">(</span><span class="n">倍率</span><span class="o">*</span><span class="mi">17</span><span class="p">,</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">255</span><span class="p">])</span>
-<span class="linenos" data-linenos="55 "></span>    <span class="n">畫點</span><span class="p">(</span><span class="n">倍率</span><span class="o">*</span><span class="mi">15</span><span class="p">,</span> <span class="p">[</span><span class="mi">255</span><span class="p">,</span><span class="mi">255</span><span class="p">,</span><span class="mi">255</span><span class="p">])</span>
-<span class="linenos" data-linenos="56 "></span>
-<span class="linenos" data-linenos="57 "></span><span class="k">def</span> <span class="nf">國旗</span><span class="p">():</span>
-<span class="linenos" data-linenos="58 "></span>    <span class="n">停筆</span><span class="p">()</span>
-<span class="linenos" data-linenos="59 "></span>    <span class="n">走到</span><span class="p">(</span><span class="n">出發點x</span><span class="p">,</span><span class="n">出發點y</span><span class="p">)</span>
-<span class="linenos" data-linenos="60 "></span>    <span class="n">下筆</span><span class="p">()</span>
-<span class="linenos" data-linenos="61 "></span>    <span class="n">紅地</span><span class="p">()</span>    
-<span class="linenos" data-linenos="62 "></span>    <span class="n">藍天</span><span class="p">()</span>
-<span class="linenos" data-linenos="63 "></span>    <span class="n">光芒</span><span class="p">()</span>
-<span class="linenos" data-linenos="64 "></span>    <span class="n">白日</span><span class="p">()</span>
-<span class="linenos" data-linenos="65 "></span>
-<span class="linenos" data-linenos="66 "></span><span class="c1"># 主程式</span>
-<span class="linenos" data-linenos="67 "></span><span class="n">國旗</span><span class="p">()</span>
-<span class="linenos" data-linenos="68 "></span><span class="n">隱藏游標</span><span class="p">()</span>
-<span class="linenos" data-linenos="69 "></span><span class="n">完成</span><span class="p">()</span>
+<span class="linenos" data-linenos="54 "></span>
+<span class="linenos" data-linenos="55 "></span>    <span class="n">畫點</span><span class="p">(</span><span class="mi">17</span> <span class="o">*</span> <span class="n">倍率</span><span class="p">,</span><span class="s1">&#39;blue&#39;</span> <span class="p">)</span>
+<span class="linenos" data-linenos="56 "></span>    <span class="n">畫點</span><span class="p">(</span><span class="mi">15</span> <span class="o">*</span> <span class="n">倍率</span><span class="p">,</span> <span class="s1">&#39;white&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos="57 "></span>
+<span class="linenos" data-linenos="58 "></span>
+<span class="linenos" data-linenos="59 "></span><span class="k">def</span> <span class="nf">主程式</span><span class="p">()</span> <span class="p">:</span>
+<span class="linenos" data-linenos="60 "></span>    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;1.主程式&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos="61 "></span>    <span class="n">停筆</span><span class="p">()</span>
+<span class="linenos" data-linenos="62 "></span>    <span class="n">走到</span><span class="p">(</span><span class="n">起點x</span><span class="p">,</span><span class="n">起點y</span><span class="p">)</span>
+<span class="linenos" data-linenos="63 "></span>    <span class="n">下筆</span><span class="p">()</span>
+<span class="linenos" data-linenos="64 "></span>
+<span class="linenos" data-linenos="65 "></span>    <span class="n">紅地</span><span class="p">()</span>
+<span class="linenos" data-linenos="66 "></span>    <span class="n">青天</span><span class="p">()</span>
+<span class="linenos" data-linenos="67 "></span>    <span class="n">光芒</span><span class="p">()</span>
+<span class="linenos" data-linenos="68 "></span>    <span class="n">白日</span><span class="p">()</span>
+<span class="linenos" data-linenos="69 "></span>
+<span class="linenos" data-linenos="70 "></span><span class="n">主程式</span><span class="p">()</span>
 </code></pre></div>
+<p><br/><br/><br/></p>
 <hr />
-<h3 id="_3">💻 執行截圖</h3>
-<p><img alt="執行截圖" src="../roc_flag.jpg" /></p>
+<h2 id="7">階段7: 使用者介面</h2>
+<p>🎦 範例影片</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qjlan7-zmu8?start=1240&amp;end=1405" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<hr />
+<p>🏷️ 重點說明</p>
+<p>使用圖形框，讓使用者輸入數字。填入標題、說明、預設值、最小值、最大值，即可取得使用者的輸入。</p>
+<p>於主程式最後，加上點擊後離開，點一下視窗就會關閉程式。</p>
+<hr />
+<p>📄 Py4t程式碼</p>
+<div class="highlight"><pre><span></span><code><span class="linenos" data-linenos=" 1 "></span><span class="kn">from</span> <span class="nn">海龜模組</span> <span class="kn">import</span> <span class="o">*</span>
+<span class="linenos" data-linenos=" 2 "></span><span class="n">視窗設定</span><span class="p">(</span><span class="mi">1200</span><span class="p">,</span> <span class="mi">800</span><span class="p">)</span>
+<span class="linenos" data-linenos=" 3 "></span><span class="n">速度</span><span class="p">(</span><span class="s1">&#39;fast&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos=" 4 "></span><span class="n">隱藏游標</span><span class="p">()</span>
+<span class="linenos" data-linenos=" 5 "></span>
+<span class="linenos" data-linenos=" 6 "></span><span class="n">倍率</span> <span class="o">=</span> <span class="n">輸入數字</span><span class="p">(</span><span class="s1">&#39;中華民國國旗&#39;</span><span class="p">,</span><span class="s1">&#39;輸入倍率1-10&#39;</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">10</span><span class="p">)</span>
+<span class="linenos" data-linenos=" 7 "></span>
+<span class="linenos" data-linenos=" 8 "></span><span class="n">起點x</span> <span class="o">=</span> <span class="o">-</span><span class="mi">500</span>
+<span class="linenos" data-linenos=" 9 "></span><span class="n">起點y</span> <span class="o">=</span> <span class="mi">300</span>
+<span class="linenos" data-linenos="10 "></span>
+<span class="linenos" data-linenos="11 "></span><span class="k">def</span> <span class="nf">紅地</span><span class="p">()</span> <span class="p">:</span>
+<span class="linenos" data-linenos="12 "></span>    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;2.紅地&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos="13 "></span>    <span class="n">填充顏色</span><span class="p">(</span><span class="s1">&#39;red&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos="14 "></span>    <span class="n">開始填色</span><span class="p">()</span>
+<span class="linenos" data-linenos="15 "></span>    <span class="k">for</span> <span class="n">數</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span> <span class="p">:</span>
+<span class="linenos" data-linenos="16 "></span>        <span class="n">向前</span><span class="p">(</span><span class="mi">120</span> <span class="o">*</span> <span class="n">倍率</span><span class="p">)</span>
+<span class="linenos" data-linenos="17 "></span>        <span class="n">右轉</span><span class="p">(</span><span class="mi">90</span><span class="p">)</span>
+<span class="linenos" data-linenos="18 "></span>        <span class="n">向前</span><span class="p">(</span><span class="mi">80</span> <span class="o">*</span> <span class="n">倍率</span><span class="p">)</span>
+<span class="linenos" data-linenos="19 "></span>        <span class="n">右轉</span><span class="p">(</span><span class="mi">90</span><span class="p">)</span>
+<span class="linenos" data-linenos="20 "></span>    <span class="n">停止填色</span><span class="p">()</span>   
+<span class="linenos" data-linenos="21 "></span>
+<span class="linenos" data-linenos="22 "></span><span class="k">def</span> <span class="nf">青天</span><span class="p">()</span> <span class="p">:</span>
+<span class="linenos" data-linenos="23 "></span>    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;3.青天&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos="24 "></span>    <span class="n">填充顏色</span><span class="p">(</span><span class="s1">&#39;blue&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos="25 "></span>    <span class="n">開始填色</span><span class="p">()</span>
+<span class="linenos" data-linenos="26 "></span>    <span class="k">for</span> <span class="n">數</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span> <span class="p">:</span>
+<span class="linenos" data-linenos="27 "></span>        <span class="n">向前</span><span class="p">(</span><span class="mi">60</span> <span class="o">*</span> <span class="n">倍率</span><span class="p">)</span>
+<span class="linenos" data-linenos="28 "></span>        <span class="n">右轉</span><span class="p">(</span><span class="mi">90</span><span class="p">)</span>
+<span class="linenos" data-linenos="29 "></span>        <span class="n">向前</span><span class="p">(</span><span class="mi">40</span> <span class="o">*</span> <span class="n">倍率</span><span class="p">)</span>
+<span class="linenos" data-linenos="30 "></span>        <span class="n">右轉</span><span class="p">(</span><span class="mi">90</span><span class="p">)</span>
+<span class="linenos" data-linenos="31 "></span>    <span class="n">停止填色</span><span class="p">()</span>
+<span class="linenos" data-linenos="32 "></span>
+<span class="linenos" data-linenos="33 "></span><span class="k">def</span> <span class="nf">光芒</span><span class="p">()</span> <span class="p">:</span>
+<span class="linenos" data-linenos="34 "></span>    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;4.光芒&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos="35 "></span>    <span class="n">停筆</span><span class="p">()</span>
+<span class="linenos" data-linenos="36 "></span>    <span class="n">走到</span><span class="p">(</span><span class="mi">15</span> <span class="o">*</span> <span class="n">倍率</span> <span class="o">+</span> <span class="n">起點x</span> <span class="p">,</span> <span class="o">-</span><span class="mi">20</span> <span class="o">*</span> <span class="n">倍率</span> <span class="o">+</span> <span class="n">起點y</span><span class="p">)</span>
+<span class="linenos" data-linenos="37 "></span>    <span class="n">下筆</span><span class="p">()</span>
+<span class="linenos" data-linenos="38 "></span>
+<span class="linenos" data-linenos="39 "></span>    <span class="n">左轉</span><span class="p">(</span><span class="mi">15</span><span class="p">)</span>
+<span class="linenos" data-linenos="40 "></span>
+<span class="linenos" data-linenos="41 "></span>    <span class="n">畫筆顏色</span><span class="p">(</span><span class="s1">&#39;white&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos="42 "></span>    <span class="n">填充顏色</span><span class="p">(</span><span class="s1">&#39;white&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos="43 "></span>    <span class="n">開始填色</span><span class="p">()</span>
+<span class="linenos" data-linenos="44 "></span>    <span class="k">for</span> <span class="n">數</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">12</span><span class="p">)</span> <span class="p">:</span>
+<span class="linenos" data-linenos="45 "></span>        <span class="n">向前</span><span class="p">(</span><span class="mi">29</span> <span class="o">*</span> <span class="n">倍率</span><span class="p">)</span>
+<span class="linenos" data-linenos="46 "></span>        <span class="n">右轉</span><span class="p">(</span><span class="mi">180</span><span class="o">-</span><span class="mi">360</span><span class="o">/</span><span class="mi">12</span><span class="p">)</span>
+<span class="linenos" data-linenos="47 "></span>    <span class="n">停止填色</span><span class="p">()</span>
+<span class="linenos" data-linenos="48 "></span>
+<span class="linenos" data-linenos="49 "></span><span class="k">def</span> <span class="nf">白日</span><span class="p">()</span> <span class="p">:</span>
+<span class="linenos" data-linenos="50 "></span>    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;5.白日&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos="51 "></span>    <span class="n">停筆</span><span class="p">()</span>
+<span class="linenos" data-linenos="52 "></span>    <span class="n">走到</span><span class="p">(</span><span class="mi">30</span> <span class="o">*</span> <span class="n">倍率</span> <span class="o">+</span> <span class="n">起點x</span> <span class="p">,</span> <span class="o">-</span><span class="mi">20</span> <span class="o">*</span> <span class="n">倍率</span> <span class="o">+</span> <span class="n">起點y</span><span class="p">)</span>
+<span class="linenos" data-linenos="53 "></span>    <span class="n">下筆</span><span class="p">()</span>
+<span class="linenos" data-linenos="54 "></span>
+<span class="linenos" data-linenos="55 "></span>    <span class="n">畫點</span><span class="p">(</span><span class="mi">17</span> <span class="o">*</span> <span class="n">倍率</span><span class="p">,</span><span class="s1">&#39;blue&#39;</span> <span class="p">)</span>
+<span class="linenos" data-linenos="56 "></span>    <span class="n">畫點</span><span class="p">(</span><span class="mi">15</span> <span class="o">*</span> <span class="n">倍率</span><span class="p">,</span> <span class="s1">&#39;white&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos="57 "></span>
+<span class="linenos" data-linenos="58 "></span><span class="k">def</span> <span class="nf">主程式</span><span class="p">()</span> <span class="p">:</span>
+<span class="linenos" data-linenos="59 "></span>    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;1.主程式&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos="60 "></span>    <span class="n">停筆</span><span class="p">()</span>
+<span class="linenos" data-linenos="61 "></span>    <span class="n">走到</span><span class="p">(</span><span class="n">起點x</span><span class="p">,</span><span class="n">起點y</span><span class="p">)</span>
+<span class="linenos" data-linenos="62 "></span>    <span class="n">下筆</span><span class="p">()</span>
+<span class="linenos" data-linenos="63 "></span>
+<span class="linenos" data-linenos="64 "></span>    <span class="n">紅地</span><span class="p">()</span>
+<span class="linenos" data-linenos="65 "></span>    <span class="n">青天</span><span class="p">()</span>
+<span class="linenos" data-linenos="66 "></span>    <span class="n">光芒</span><span class="p">()</span>
+<span class="linenos" data-linenos="67 "></span>    <span class="n">白日</span><span class="p">()</span>
+<span class="linenos" data-linenos="68 "></span>
+<span class="linenos" data-linenos="69 "></span>    <span class="n">點擊後離開</span><span class="p">()</span>
+<span class="linenos" data-linenos="70 "></span>
+<span class="linenos" data-linenos="71 "></span><span class="n">主程式</span><span class="p">()</span>
+</code></pre></div>
+<p><br/><br/><br/></p>
 
               
             </article>
