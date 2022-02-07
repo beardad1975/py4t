@@ -52,8 +52,16 @@ hide:
 
 [^3]: By H8edge, [維基百科連結](https://commons.wikimedia.org/w/index.php?curid=68410306) ,CC BY-SA 4.0
 
+各國國旗的外形，有沒有什麼相同點呢？
 
-??? question "資料搜尋 練習"
+??? abstract "運算思維"
+
+    :fontawesome-solid-link: <a href="../basic/comthink/#_3" target="_blank">抽象化</a>
+
+    :fontawesome-solid-link: <a href="../basic/comthink/#_4" target="_blank">樣式辨識</a>
+
+
+??? question "自主學習 資料搜尋 "
 
     閱讀上方的國旗網路資料(或其他網站)，請挑選某一個國家的國旗，做出一篇世界國旗的簡介吧！    
 
@@ -171,20 +179,32 @@ hide:
 
 <br/>
 
+
+
+
+??? abstract "運算思維"
+
+    :fontawesome-solid-link: <a href="../basic/comthink/#_7" target="_blank">演算法思維</a>
+
+<br/><br/>
+
+
 用海龜程式來把想法一實作出來。(建議將規格尺寸放大100倍)
+
 
 ??? example "Py4t範例程式 法國國旗"
 
      :fontawesome-solid-link: <a href="../../turtle4t/flag_of_france/" target="_blank">Let's Code 法國國旗 (含操作影片、程式碼及說明)</a>
- 
 
-??? question "練習 想法二實作"
+<br/> 
+
+??? question "自主學習 想法二實作"
 
     生活中的問題常常不只一種解決方法。像上圖中的想法二就是另一種畫出法國國旗的方法，依藍、白、紅色畫出一樣大的色塊來完成。
 
     請你試試看，如何用想法二來實作出法國國旗呢？(注意起點位置的變化) 
 
-??? question "練習 RGB國旗顏色"
+??? question "自主學習 RGB國旗顏色"
 
     在範例程式中，僅使用純藍、白、紅色來畫出法國國旗。但依照它的規格，其藍色的RGB值是(0,85,164)，白色的RGB值是(255,255,255)，紅色的RGB值是(250,60,50)。
     
@@ -193,7 +213,7 @@ hide:
     請使用標準RGB顏色值，讓海龜畫出法國國旗。(提示：「填充顏色 RGB」便利貼) 
 
 
-??? question "更多國旗練習 "
+??? question "自主學習 其他方形國旗 "
 
     找找看，還有其他國家的國旗與長方形相關的嗎？
 
@@ -262,7 +282,7 @@ hide:
      :fontawesome-solid-link: <a href="../../turtle4t/flag_of_japan/" target="_blank">Let's Code 日本國旗 (含操作影片、程式碼及說明)</a>
 
 
-??? question "練習 資料搜尋"
+??? question "自主學習 資料搜尋"
 
     你能找出國旗中有包含圓形的國家嗎？請找出至少3個。    
 
@@ -284,11 +304,11 @@ hide:
 
 <br/>
 
-![正三邊形](draw_triangle.png) 
+![正三角形](draw_triangle.png) 
 
-??? question "練習 正三角形"
+??? example "範例程式 正三角形"
 
-    先把之前學過的正方形做出來，然後思考一下要如何修改程式變成畫正三角形？(提示：修改邊數與角度) 
+     :fontawesome-solid-link: <a href="../../turtle4t/draw_triangle/" target="_blank">Let's Code 畫出正三角形 (含操作影片、程式碼及說明)</a> 
 
 <br/><br/><br/>
 
@@ -321,7 +341,7 @@ hide:
 
      :fontawesome-solid-link: <a href="../../turtle4t/odd_number_star/" target="_blank">Let's Code 奇數角星形 (含操作影片、程式碼及說明)</a>
 
-??? question "練習題 十二角星形"
+??? question "自主學習 十二角星形"
 
     請利用上圖的公式，試著讓海龜程式畫出十二角星形吧！
 
@@ -358,7 +378,7 @@ hide:
 
      :fontawesome-solid-link: <a href="../../turtle4t/flag_of_vietnam/" target="_blank">Let's Code 越南國旗 (含操作影片、程式碼及說明)</a>
 
-??? question "練習 資料搜尋"
+??? question "自主學習 資料搜尋"
 
     你能找出國旗中有包含星形的國家嗎？請找出至少2個。    
 

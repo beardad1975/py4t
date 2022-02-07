@@ -19,6 +19,11 @@
    inkscape:export-ydpi="49.012714">
   <defs
      id="defs2">
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect1239"
+       is_visible="true"
+       lpeversion="1" />
     <marker
        style="overflow:visible"
        id="marker1760"
@@ -509,9 +514,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.7"
-     inkscape:cx="-6737.9726"
-     inkscape:cy="442.31871"
+     inkscape:zoom="0.35"
+     inkscape:cx="-3321.0003"
+     inkscape:cy="712.2888"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -520,7 +525,8 @@
      inkscape:window-height="998"
      inkscape:window-x="-9"
      inkscape:window-y="-9"
-     inkscape:window-maximized="1" />
+     inkscape:window-maximized="1"
+     inkscape:snap-global="false" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -612,8 +618,9 @@
        cx="95.816963"
        cy="94.683037"
        r="11.528274"
-       inkscape:export-xdpi="73.203697"
-       inkscape:export-ydpi="73.203697" />
+       inkscape:export-xdpi="69.371941"
+       inkscape:export-ydpi="69.371941"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\draw_triangle.png" />
     <path
        sodipodi:type="star"
        style="opacity:0.770936;fill:none;stroke:#1720ff;stroke-width:4.515;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -631,16 +638,18 @@
        d="m 153.08035,193.16322 -56.971681,-98.677852 113.943361,-3e-6 z"
        inkscape:transform-center-x="1.047619e-06"
        inkscape:transform-center-y="16.446306"
-       inkscape:export-xdpi="73.203697"
-       inkscape:export-ydpi="73.203697" />
+       inkscape:export-xdpi="69.371941"
+       inkscape:export-ydpi="69.371941"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\draw_triangle.png" />
     <text
        xml:space="preserve"
        style="font-size:10.5833px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
        x="84.136742"
        y="86.988243"
        id="text839"
-       inkscape:export-xdpi="73.203697"
-       inkscape:export-ydpi="73.203697"><tspan
+       inkscape:export-xdpi="69.371941"
+       inkscape:export-ydpi="69.371941"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\draw_triangle.png"><tspan
          sodipodi:role="line"
          id="tspan837"
          x="84.136742"
@@ -650,8 +659,9 @@
        style="fill:none;stroke:#ff8b05;stroke-width:2.72607;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.772549;marker-start:url(#Arrow1Sstart)"
        d="m 127.89834,81.604866 -20.42025,0.377979"
        id="path841"
-       inkscape:export-xdpi="73.203697"
-       inkscape:export-ydpi="73.203697" />
+       inkscape:export-xdpi="69.371941"
+       inkscape:export-ydpi="69.371941"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\draw_triangle.png" />
     <circle
        style="opacity:0.770936;fill:#ff8b05;fill-opacity:1;stroke:none;stroke-width:7.65042;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="circle1243"
@@ -1856,5 +1866,29 @@
          y="85.51754"
          style="stroke-width:0.264583"
          id="tspan2051" /></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2.265;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 186.24777,97.517857 c -0.64356,8.439433 2.60414,13.192403 11.52827,12.567703"
+       id="path1241"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\draw_triangle.png"
+       inkscape:export-xdpi="69.371941"
+       inkscape:export-ydpi="69.371941" />
+    <text
+       xml:space="preserve"
+       style="font-size:10.5833px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="169.18161"
+       y="115.7277"
+       id="text1245"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\draw_triangle.png"
+       inkscape:export-xdpi="69.371941"
+       inkscape:export-ydpi="69.371941"><tspan
+         sodipodi:role="line"
+         id="tspan1243"
+         x="169.18161"
+         y="115.7277"
+         style="stroke-width:0.264583">60<tspan
+   style="font-size:65%;baseline-shift:super"
+   id="tspan1248">o</tspan></tspan></text>
   </g>
 </svg>
