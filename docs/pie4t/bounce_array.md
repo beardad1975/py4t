@@ -1,3 +1,8 @@
+---
+hide:
+  - navigation
+---
+
 # 🔰 物理碰撞範例 - 彈性排列
 
 --------------
@@ -6,18 +11,18 @@
 
 --------------
 
-### 🎦 範例影片
+🎦 範例影片
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/U9DAN6NbkbY?start=0&amp;end=240" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### 🏷️ 重點說明
+🏷️ 重點說明
 
 : 建立物理舞台，寬度800，高度800。先產生1顆圓球，設定球的位置y為400(高度)，按住Ctrl 觀察座標(原點在左下角)。
 : 產生10顆圓球，半徑為40。設定x位置是迴圈變數的80倍，設定遞增的彈性是迴圈變數除以10(恢復系數的上限為1)。
 
 --------------
 
-### 📄 Py4t程式碼
+📄 Py4t程式碼
 
 ```python
 from 物理模組 import *
@@ -38,11 +43,11 @@ for 數 in range(10) :
 
 --------------
 
-### 🎦 範例影片
+🎦 範例影片
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/U9DAN6NbkbY?start=243&amp;end=406" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### 🏷️ 重點說明
+🏷️ 重點說明
 
 : 改為20顆圓球後，其他數字會依球數改變，如直徑半徑會減半，彈性為迴圈變數除以球數。
 
@@ -50,7 +55,7 @@ for 數 in range(10) :
 
 --------------
 
-### 📄 Py4t程式碼
+📄 Py4t程式碼
 
 ```python
 from 物理模組 import *
@@ -73,11 +78,11 @@ for 數 in range(球數) :
 
 --------------
 
-### 🎦 範例影片
+🎦 範例影片
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/U9DAN6NbkbY?start=408&amp;end=660" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### 🏷️ 重點說明
+🏷️ 重點說明
 
 : 讓彈性的變化在0.8到1之間，做法是恢復係數由基本的0.8起跳，變化幅度上限為0.2。
 : 測試不同的球數(勿過大)，如40顆或80顆
@@ -85,7 +90,7 @@ for 數 in range(球數) :
 
 --------------
 
-### 📄 Py4t程式碼
+📄 Py4t程式碼
 
 ```python
 from 物理模組 import *

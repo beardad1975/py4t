@@ -7,7 +7,7 @@ hide:
 從一場場的推廣研習簡報與實際教學資料轉化而成的課程講義，從單元主題開始，包含影片、圖片、說明、範例程式、練習與補充資料，方便資訊科技教師於教學現場使用。
 
 
-----------------------------
+<br/>
 
 ## 💡 入門
 
@@ -28,20 +28,23 @@ hide:
   
 <br/>
 
-#### ▪️ [力與運動遊樂場](mechanics_playground/index.md)
+#### ▪️ <a href="mechanics_playground/" target="_blank">力與運動遊樂場</a>
 
 ??? info  "課程摘要"
-    學習物理程式，做出與彈性、斜面、拋體與重力相關的模擬。
+    
 
     ![力與運動遊樂場](mechanics_playground/digest.jpg)
 
+    學習物理程式，做出彈性、斜面、拋體與重力等模擬程式。
+    :fontawesome-solid-long-arrow-alt-right: <a href="mechanics_playground/" target="_blank">「力與運動遊樂場」</a>
 
 
-<br/>
+
+
 
 <br/><br/>
 
-----------------------------
+
 
 ## 💡 進階
 

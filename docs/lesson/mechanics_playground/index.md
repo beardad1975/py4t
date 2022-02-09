@@ -9,7 +9,7 @@ hide:
 
 讓我們使用Py4t來進行各種有趣的 **力與運動程式模擬** 吧！
 
-相信你在體驗之後，未來學習相關的自然課或理化課時，就會更有 **學習動力**。
+相信你在體驗之後，未來學習相關的自然課或理化課時，就會更有 **學習動機**。
 
 <br/><br/><br/> 
 
@@ -23,9 +23,9 @@ hide:
 
 ![圓球](campus_basketball.jpg)
 
-: (圖片來源[^1])
+: <sup>(資料來源:</sup>[^1]<sup>)</sup>
 
-[^1]: 維基百科 https://zh.wikipedia.org/wiki/File:%E6%96%B0%E5%BB%BA%E4%B8%AD%E7%B1%83%E7%90%83%E5%A0%B420211110.jpg 
+[^1]: 新建中籃球場, By Yu tptw, [維基百科連結](https://zh.wikipedia.org/wiki/File:%E6%96%B0%E5%BB%BA%E4%B8%AD%E7%B1%83%E7%90%83%E5%A0%B420211110.jpg) 
 
 <br/><br/><br/> 
 
@@ -39,19 +39,25 @@ hide:
 
 ![圓球](circle.jpg) 
 
+<br/>
+
 一起動手來寫程式吧！
 
 ??? example "Py4t範例程式 新增圓球"
 
     :fontawesome-solid-link: <a href="../../pie4t/bounce_ball/#_1" target="_blank">Let's Code 新增圓球 (含操作影片、程式碼及說明)</a>
 
-??? info "補充資料"
+??? abstract "模擬主迴圈？流程？"
 
-    什麼是「模擬主迴圈」？
+    什麼是「模擬主迴圈」？它的程式結構與演算流程是什麼？
 
-    程式除了由依序執行、條件分支與重複結構，還有別的執行方式嗎？
+    :fontawesome-solid-link: <a href="../basic/scratch_python_compare/#_16" target="_blank">事件驅動程式 結構與流程</a>
+
+    -----------------------------
+
+    補充資料 
     
-    請參考:fontawesome-solid-link: <a href="https://zh.wikipedia.org/wiki/%E4%BA%8B%E4%BB%B6%E9%A9%85%E5%8B%95%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88" target="_blank">維基百科: 事件驅動程式設計</a>
+    :fontawesome-solid-link: <a href="https://zh.wikipedia.org/wiki/%E4%BA%8B%E4%BB%B6%E9%A9%85%E5%8B%95%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88" target="_blank">維基百科: 事件驅動程式設計</a>
 
 <br/><br/><br/> 
 
@@ -65,15 +71,20 @@ hide:
  
 <iframe width="560" height="315" src="https://www.youtube.com/embed/_RWqefx0vAg?start=95&amp;end=215" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+: <sup>(資料來源:</sup>[^2]<sup>)</sup>
+
+
+
 <br/><br/>
 
 恢復係數可以衡量兩個物體在碰撞後的反彈程度。
 
 
 ![恢復係數](cor_explain.jpg) 
-: (圖片來源[^2])
 
-[^2]: 引用自【Fun科學】超彈力橡皮筋球 https://www.youtube.com/watch?v=_RWqefx0vAg 
+: <sup>(資料來源:</sup>[^2]<sup>)</sup>
+
+[^2]: 【Fun科學】超彈力橡皮筋球, By 佑來了, [youtube連結](https://www.youtube.com/watch?v=_RWqefx0vAg) 
 
 <br/><br/>
 
@@ -101,16 +112,19 @@ hide:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/_RWqefx0vAg?start=227&amp;end=414" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+: <sup>(資料來源:</sup>[^2]<sup>)</sup>
+
 <br/><br/>
 
 
 
 ![超強彈性體](super_bounce.jpg) 
-: (圖片來源[^2])
 
-兩顆很有彈性的球在一起，下方的球數倍大於上方的球，就可以組成超越原本的彈性體。
+: <sup>(資料來源:</sup>[^2]<sup>)</sup>
 
-有沒有覺得很神奇？讓我們用程式來模擬看看吧！
+太奇妙了！將兩顆很有彈性的球在一起，下方的球較大，上方的球較小，竟然就變成可以超越原本高度的彈性體。
+
+讓我們用程式來模擬這個現象。
 
 ??? example "Py4t範例程式 超強彈性體"
 
@@ -120,7 +134,7 @@ hide:
 
     影片中有3顆球的實驗，請你試著改寫程式，讓大、中、小球組成超強彈性體吧。
 
-??? info "補充資料"
+??? info "彈性碰撞"
 
      超強彈性體的原理是什麼？請參考:fontawesome-solid-link: <a href="https://zh.wikipedia.org/wiki/%E5%BD%88%E6%80%A7%E7%A2%B0%E6%92%9E" target="_blank">維基百科: 彈性碰撞</a>
 
@@ -134,13 +148,13 @@ hide:
 
 ----------------------------
 
-溜滑梯的傾斜度不同，溜起來的感覺也不同。
+下圖是公園裡常會出現的溜滑梯，它的傾斜度不同時，溜起來的感覺也不同。
 
 ![溜滑梯](slide.jpg)
 
-: (圖片來源[^3])
+: <sup>(資料來源:</sup>[^3]<sup>)</sup>
 
-[^3]: 引用自維基百科 https://zh.wikipedia.org/wiki/File:葫蘆埤自然公園溜滑梯.jpg
+[^3]: 位於葫蘆埤自然公園中的溜滑梯, By 月亮灣, [維基百科連結](https://zh.wikipedia.org/wiki/File:葫蘆埤自然公園溜滑梯.jpg)
 
 <br/>
 
@@ -157,12 +171,16 @@ hide:
 
 ![不同斜面](multiple_slides.jpg) 
 
+<br/>
 
-Py4t物理學習模組內建了地形的輔助功能，操作如下圖：
+Py4t物理學習模組內建了地形的輔助功能，會使用到Ctrl鍵及Alt鍵(需英文輸入法)，操作如下圖：
 
 ![地形輔助](terrain_assist.jpg)
 
-動手做做看，建立不同的斜面。
+<br/>
+
+
+動手做做看，建立出不同的斜面。
 
 ??? example "Py4t範例程式 新增球與斜面"
 
@@ -176,9 +194,11 @@ Py4t物理學習模組內建了地形的輔助功能，操作如下圖：
 
 ----------------------------
 
-球在不同的斜面落下，會怎樣呢？
+當球在不同的斜面落下，會怎樣呢？
 
 ![球在不同斜面](ball_on_slide.jpg) 
+
+<br/>
 
 用程式來模擬看看。
 
@@ -204,15 +224,19 @@ Py4t物理學習模組內建了地形的輔助功能，操作如下圖：
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/JdMkAvibBec?start=12&amp;end=96" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+: <sup>(資料來源:</sup>[^4]<sup>)</sup>
+
+[^4]: 如果摩擦力消失一分鐘？, By 大膽科學, [youtube連結](https://www.youtube.com/watch?v=JdMkAvibBec&t=12s)
+
 <br/>
 
 摩擦力作用於物體的相反方向。
 
 ![摩擦力](friction_direction.jpg) 
 
-: (圖片來源[^4])
+: <sup>(資料來源:</sup>[^5]<sup>)</sup>
 
-[^4]: 引用自中學生網站 https://www.shs.edu.tw/works/essay/2011/03/2011033016033626.pdf
+[^5]: 摩擦力受各性質的影響, 引用自中學生網站, [pdf連結](https://www.shs.edu.tw/works/essay/2011/03/2011033016033626.pdf)
 
 用程式來模擬看看。
 
@@ -238,7 +262,12 @@ Py4t物理學習模組內建了地形的輔助功能，操作如下圖：
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/oPsfwZXCf1s?start=14&amp;end=77" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-衝上斜坡時，會發生什麼事？
+: <sup>(資料來源:</sup>[^6]<sup>)</sup>
+
+[^6]: 8歲女孩成功挑戰5公尺極限滑板, By 即新聞, [youtube連結](https://www.youtube.com/watch?v=oPsfwZXCf1s&t=14s)
+
+
+用滑板衝上斜坡時，會發生什麼事？
 
 用程式來模擬看看。
 
@@ -260,6 +289,11 @@ Py4t物理學習模組內建了地形的輔助功能，操作如下圖：
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/P7QrXW4ky34" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+: <sup>(資料來源:</sup>[^7]<sup>)</sup>
+
+[^7]: 繩波示波器, By 國中理化教學資料庫, [youtube連結](https://www.youtube.com/watch?v=P7QrXW4ky34)
+
+
 讓我們用多顆球的排列做出類似繩波的效果。
 
 ----------------------------
@@ -278,6 +312,11 @@ Py4t物理學習模組內建了地形的輔助功能，操作如下圖：
 
      :fontawesome-solid-link: <a href="../../pie4t/bounce_array/#1" target="_blank">Let's Code 固定球數 (含操作影片、程式碼及說明)</a>
 
+??? abstract "結構化程式設計"
+
+    :fontawesome-solid-link: <a href="../basic/scratch_python_compare/#for" target="_blank">計次式重複 (for 迴圈)</a>
+
+    :fontawesome-solid-link: <a href="../basic/scratch_python_compare/#_9" target="_blank">迴圈變數與圈數</a>
 
 
 <br/><br/><br/> 
@@ -297,10 +336,20 @@ Py4t物理學習模組內建了地形的輔助功能，操作如下圖：
 
 ![變數模式識別](variable_pattern.jpg)
 
+??? abstract "運算思維"
+
+    :fontawesome-solid-link: <a href="../basic/comthink/#_4" target="_blank">樣式辨識</a>
+
+<br/>
+
+想清楚了嗎？動手寫寫看。
 
 ??? example "Py4t範例程式 變數模式識別"
 
      :fontawesome-solid-link: <a href="../../pie4t/bounce_array/#2" target="_blank">Let's Code 變數模式識別 (含操作影片、程式碼及說明)</a>
+
+
+<br/><br/><br/>
 
 ----------------------------
 
@@ -318,6 +367,10 @@ Py4t物理學習模組內建了地形的輔助功能，操作如下圖：
      :fontawesome-solid-link: <a href="../../pie4t/bounce_array/#3" target="_blank">Let's Code 不同波動變化 (含操作影片、程式碼及說明)</a>
 
 
+??? abstract "結構化程式設計"
+
+    :fontawesome-solid-link: <a href="../basic/scratch_python_compare/#_6" target="_blank">雙向選擇結構</a>
+
 ??? info "補充資料"
 
     多顆圓球不斷彈跳的樣子，會聯想到什麼？ 
@@ -330,11 +383,15 @@ Py4t物理學習模組內建了地形的輔助功能，操作如下圖：
 
 ----------------------------
 
-##  ⭐ 專題：重力控制模擬
+##  📗 重力控制
 
 重力是什麼？如果有一天重力消失了會如何？
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/1rKUPNASJqQ?start=0&amp;end=183" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+: <sup>(資料來源:</sup>[^8]<sup>)</sup>
+
+[^8]: 如果重力不再存在?!, By 大膽科學, [youtube連結](https://www.youtube.com/watch?v=1rKUPNASJqQ)
 
 除非我們到外太空，不然在地球上很難進行重力的實驗。
 
@@ -344,7 +401,7 @@ Py4t物理學習模組內建了地形的輔助功能，操作如下圖：
 
 ----------------------------
 
-### ▪️ 慣性運動
+### ▪️ 慣性與重力
 
 ----------------------------
 
@@ -352,11 +409,19 @@ Py4t物理學習模組內建了地形的輔助功能，操作如下圖：
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/LeDtM7Hpl-Q?start=3&amp;end=98" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+: <sup>(資料來源:</sup>[^9]<sup>)</sup>
+
+[^9]: 慣性定律 Law of Inertia, By 中央大學科學教育中心實驗頻道, [youtube連結](https://www.youtube.com/watch?v=LeDtM7Hpl-Q&t=3s)
+
 <br/><br/>
 
 什麼是慣性定律呢？
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Wc9W-Fb44Dk?start=62&amp;end=132" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+: <sup>(資料來源:</sup>[^10]<sup>)</sup>
+
+[^10]: 吉娃斯科學小教室｜#13: 慣性定律｜兒童科普動畫, By EngineTV 原金動畫, [youtube連結](https://www.youtube.com/watch?v=Wc9W-Fb44Dk&t=62s)
 
 <br/><br/>
 
@@ -365,6 +430,9 @@ Py4t物理學習模組內建了地形的輔助功能，操作如下圖：
 ??? example "Py4t範例程式 施力"
 
     :fontawesome-solid-link: <a href="../../pie4t/inertia_gravity/#1" target="_blank">Let's Code 慣性運動 (含操作影片、程式碼及說明)</a>
+
+
+
 
 ??? info "補充資料" 
     
@@ -386,11 +454,20 @@ Py4t物理學習模組內建了地形的輔助功能，操作如下圖：
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/EkiaYNEAagA?start=0&amp;end=118" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+: <sup>(資料來源:</sup>[^11]<sup>)</sup>
+
+[^11]: 超越人類極限【金牌鉛球國手】巨人手掌宛如人體砲臺發射器, By 健人蓋伊, [youtube連結](https://www.youtube.com/watch?v=EkiaYNEAagA)
+
 <br/><br/> 
 
 鉛球被推出時，為什麼在空中的軌跡是拋物線？
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/bhavS93SEaM?start=32&amp;end=97" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+: <sup>(資料來源:</sup>[^12]<sup>)</sup>
+
+[^12]: 吉娃斯科學小教室｜#37 : 拋體運動｜動能、重力、運動半徑｜兒童科普動畫, By 
+EngineTV 原金動畫, [youtube連結](https://www.youtube.com/watch?v=bhavS93SEaM&t=32s)
 
 <br/><br/>
 
@@ -418,6 +495,11 @@ Py4t物理學習模組內建了地形的輔助功能，操作如下圖：
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZlPpHILyEl4?start=0&amp;end=54" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+: <sup>(資料來源:</sup>[^13]<sup>)</sup>
+
+[^13]: Highlights from the first-ever space Olympics!, By 
+NASA, [youtube連結](https://www.youtube.com/watch?v=ZlPpHILyEl4)
+
 <br/><br/>
 
 無重力漂浮是不是很特別。
@@ -426,6 +508,11 @@ Py4t物理學習模組內建了地形的輔助功能，操作如下圖：
 ??? example "Py4t範例程式 重力搬運"
 
     :fontawesome-solid-link: <a href="../../pie4t/inertia_gravity/#3" target="_blank">Let's Code 重力搬運 (含操作影片、程式碼及說明)</a>
+
+??? abstract "事件驅動程式"
+
+    :fontawesome-solid-link: <a href="../basic/scratch_python_compare/#_16" target="_blank">事件驅動程式 結構與流程</a>
+
 
 ??? question "更多練習"
 
