@@ -23,12 +23,13 @@
 | 範例                             | 截圖                                                              |
 | :-----------:                    | :------------------------------------:                            |
 | [無摩擦力](frictionless.md)          | [![無摩擦力](frictionless.jpg){width=150}](frictionless.md)           |
-| [射擊測試](shoot.md)          | [![射擊測試](shoot.jpg){width=150}](shoot.md)           |
+| [射擊場](shoot.md)          | [![射擊場](shoot.jpg){width=150}](shoot.md)           |
 | [操控重力](gravity.md)          | [![操控重力](gravity.jpg){width=150}](gravity.md)           |
 | [球的彈性](bounce_ball.md)          | [![球的彈性](bounce_ball.jpg){width=150}](bounce_ball.md)           |
+| [噴射拋體](projectile.md)          | [![噴射拋體](projectile.jpg){width=150}](projectile.md)           |
 | [彈跳吧！圓球](bounce_array.md)          | [![彈跳吧！圓球](bounce_array.jpg){width=150}](bounce_array.md)           |
 | [力與斜面](force_and_slide.md)          | [![力與斜面](force_and_slide.jpg){width=150}](force_and_slide.md)           |
-| [慣性與重力](inertia_gravity.md)          | [![慣性與重力](inertia_gravity.jpg){width=150}](inertia_gravity.md)           |
+| [重力控制](inertia_gravity.md)          | [![重力控制](inertia_gravity.jpg){width=150}](inertia_gravity.md)           |
 
 ---------------
 

@@ -5,11 +5,11 @@ hide:
 
 # 📚 力與運動遊樂場   
 
-電腦除了計算，也可以模擬科學實驗，幫助學習者理解概念。
+電腦除了計算以外，也可以模擬科學實驗，幫助學習者理解概念。
 
 讓我們使用Py4t來進行各種有趣的 **力與運動程式模擬** 吧！
 
-相信你在體驗之後，未來學習相關的自然課或理化課時，就會更有 **學習動機**。
+在體驗之後，未來學習相關的自然課或理化課時，就會更有 **學習的動機**哦。
 
 <br/><br/><br/> 
 
@@ -19,19 +19,21 @@ hide:
 
 ----------------------------
 
-很多同學下課時喜歡打球，球能做出各種不同的彈跳，彈性是什麼？彈性可以測量嗎？
+很多同學下課時喜歡打球，球有趣之處是會有產生各種不同的彈跳。
+
+彈性是什麼？彈性可以測量嗎？
 
 ![圓球](campus_basketball.jpg)
 
-: <sup>(資料來源:</sup>[^1]<sup>)</sup>
+: <sup>(資料來源:</sup>[^basketball_court]<sup>)</sup>
 
-[^1]: 新建中籃球場, By Yu tptw, [維基百科連結](https://zh.wikipedia.org/wiki/File:%E6%96%B0%E5%BB%BA%E4%B8%AD%E7%B1%83%E7%90%83%E5%A0%B420211110.jpg) 
+[^basketball_court]: 新建中籃球場, By Yu tptw, [維基百科連結](https://zh.wikipedia.org/wiki/File:%E6%96%B0%E5%BB%BA%E4%B8%AD%E7%B1%83%E7%90%83%E5%A0%B420211110.jpg) 
 
 <br/><br/><br/> 
 
 ----------------------------
 
-### ▪️ 新增圓球
+***新增圓球***
 
 ----------------------------
 
@@ -63,7 +65,7 @@ hide:
 
 ----------------------------
 
-### ▪️ 恢復係數
+***恢復係數***
 
 ----------------------------
 
@@ -71,7 +73,7 @@ hide:
  
 <iframe width="560" height="315" src="https://www.youtube.com/embed/_RWqefx0vAg?start=95&amp;end=215" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-: <sup>(資料來源:</sup>[^2]<sup>)</sup>
+: <sup>(資料來源:</sup>[^super_bounce]<sup>)</sup>
 
 
 
@@ -82,9 +84,9 @@ hide:
 
 ![恢復係數](cor_explain.jpg) 
 
-: <sup>(資料來源:</sup>[^2]<sup>)</sup>
+: <sup>(資料來源:</sup>[^super_bounce]<sup>)</sup>
 
-[^2]: 【Fun科學】超彈力橡皮筋球, By 佑來了, [youtube連結](https://www.youtube.com/watch?v=_RWqefx0vAg) 
+[^super_bounce]: 【Fun科學】超彈力橡皮筋球, By 佑來了, [youtube連結](https://www.youtube.com/watch?v=_RWqefx0vAg) 
 
 <br/><br/>
 
@@ -104,7 +106,7 @@ hide:
 
 ----------------------------
 
-### ▪️ 超強彈性體
+***超強彈性體***
 
 ----------------------------
 
@@ -112,7 +114,7 @@ hide:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/_RWqefx0vAg?start=227&amp;end=414" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-: <sup>(資料來源:</sup>[^2]<sup>)</sup>
+: <sup>(資料來源:</sup>[^super_bounce]<sup>)</sup>
 
 <br/><br/>
 
@@ -120,7 +122,7 @@ hide:
 
 ![超強彈性體](super_bounce.jpg) 
 
-: <sup>(資料來源:</sup>[^2]<sup>)</sup>
+: <sup>(資料來源:</sup>[^super_bounce]<sup>)</sup>
 
 太奇妙了！將兩顆很有彈性的球在一起，下方的球較大，上方的球較小，竟然就變成可以超越原本高度的彈性體。
 
@@ -152,15 +154,15 @@ hide:
 
 ![溜滑梯](slide.jpg)
 
-: <sup>(資料來源:</sup>[^3]<sup>)</sup>
+: <sup>(資料來源:</sup>[^slide]<sup>)</sup>
 
-[^3]: 位於葫蘆埤自然公園中的溜滑梯, By 月亮灣, [維基百科連結](https://zh.wikipedia.org/wiki/File:葫蘆埤自然公園溜滑梯.jpg)
+[^slide]: 位於葫蘆埤自然公園中的溜滑梯, By 月亮灣, [維基百科連結](https://zh.wikipedia.org/wiki/File:葫蘆埤自然公園溜滑梯.jpg)
 
 <br/>
 
 ----------------------------
 
-### ▪️ 新增球與斜面
+***新增球與斜面***
 
 ----------------------------
 
@@ -190,7 +192,7 @@ Py4t物理學習模組內建了地形的輔助功能，會使用到Ctrl鍵及Alt
 
 ----------------------------
 
-### ▪️ 速度比較
+***速度比較***
 
 ----------------------------
 
@@ -217,16 +219,16 @@ Py4t物理學習模組內建了地形的輔助功能，會使用到Ctrl鍵及Alt
 
 ----------------------------
 
-### ▪️ 摩擦力
+***摩擦力***
 
 ----------------------------
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/JdMkAvibBec?start=12&amp;end=96" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-: <sup>(資料來源:</sup>[^4]<sup>)</sup>
+: <sup>(資料來源:</sup>[^disappear_friction]<sup>)</sup>
 
-[^4]: 如果摩擦力消失一分鐘？, By 大膽科學, [youtube連結](https://www.youtube.com/watch?v=JdMkAvibBec&t=12s)
+[^disappear_friction]: 如果摩擦力消失一分鐘？, By 大膽科學, [youtube連結](https://www.youtube.com/watch?v=JdMkAvibBec&t=12s)
 
 <br/>
 
@@ -234,9 +236,9 @@ Py4t物理學習模組內建了地形的輔助功能，會使用到Ctrl鍵及Alt
 
 ![摩擦力](friction_direction.jpg) 
 
-: <sup>(資料來源:</sup>[^5]<sup>)</sup>
+: <sup>(資料來源:</sup>[^friction_example]<sup>)</sup>
 
-[^5]: 摩擦力受各性質的影響, 引用自中學生網站, [pdf連結](https://www.shs.edu.tw/works/essay/2011/03/2011033016033626.pdf)
+[^friction_example]: 摩擦力受各性質的影響, 引用自中學生網站, [pdf連結](https://www.shs.edu.tw/works/essay/2011/03/2011033016033626.pdf)
 
 用程式來模擬看看。
 
@@ -256,15 +258,15 @@ Py4t物理學習模組內建了地形的輔助功能，會使用到Ctrl鍵及Alt
 
 ----------------------------
 
-### ▪️ 施加力量
+***施加力量***
 
 ----------------------------
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/oPsfwZXCf1s?start=14&amp;end=77" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-: <sup>(資料來源:</sup>[^6]<sup>)</sup>
+: <sup>(資料來源:</sup>[^skateboard]<sup>)</sup>
 
-[^6]: 8歲女孩成功挑戰5公尺極限滑板, By 即新聞, [youtube連結](https://www.youtube.com/watch?v=oPsfwZXCf1s&t=14s)
+[^skateboard]: 8歲女孩成功挑戰5公尺極限滑板, By 即新聞, [youtube連結](https://www.youtube.com/watch?v=oPsfwZXCf1s&t=14s)
 
 
 用滑板衝上斜坡時，會發生什麼事？
@@ -283,22 +285,225 @@ Py4t物理學習模組內建了地形的輔助功能，會使用到Ctrl鍵及Alt
 
 ----------------------------
 
+##  📗 噴射拋體
+
+----------------------------
+
+推鉛球，是一個常見的運動會比賽項目。
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/EkiaYNEAagA?start=0&amp;end=118" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+: <sup>(資料來源:</sup>[^shot_put]<sup>)</sup>
+
+[^shot_put]: 超越人類極限【金牌鉛球國手】巨人手掌宛如人體砲臺發射器, By 健人蓋伊, [youtube連結](https://www.youtube.com/watch?v=EkiaYNEAagA)
+
+鉛球丟出後，就是一個在空中的拋物體，接下來探討拋體的原理與程式實作。
+
+<br/><br/><br/> 
+
+----------------------------
+
+***拋體運動***
+
+----------------------------
+
+鉛球被推出時，在空中的軌跡是什麼樣的線條？
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bhavS93SEaM?start=32&amp;end=97" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+: <sup>(資料來源:</sup>[^projectile_motion]<sup>)</sup>
+
+[^projectile_motion]: 吉娃斯科學小教室｜#37 : 拋體運動｜動能、重力、運動半徑｜兒童科普動畫, By 
+EngineTV 原金動畫, [youtube連結](https://www.youtube.com/watch?v=bhavS93SEaM&t=32s)
+
+<br/><br/>
+
+如果想用程式來模擬拋體，要先決定發射位置與速度。
+
+將圓球發射位置定在視窗左下角，用滑鼠的座標位置當作速度的大小，操作起來較為直覺，如下圖：
+
+
+![滑鼠速度向量](mouse_vector_from_origin.png) 
+
+
+一起來動手寫寫看。
+
+
+??? example "Py4t範例程式 拋體運動"
+
+    :fontawesome-solid-link: <a href="../../pie4t/projectile/#1" target="_blank">Let's Code 拋體運動 (含操作影片、程式碼及說明)</a>
+
+
+??? info "補充資料" 
+
+    :fontawesome-solid-link: <a href="https://zh.wikipedia.org/wiki/%E6%8B%8B%E9%AB%94" target="_blank">維基百科: 拋體</a>
+
+    :fontawesome-solid-link: <a href="https://www.zetria.org/view.php?subj=physics&chap=lfym2aorgz" target="_blank">學呀: 拋物線運動</a>
+
+
+<br/><br/><br/>
+
+
+----------------------------
+
+***連續噴射***
+
+----------------------------
+
+完成了基本的拋體運動程式，接下來可以做出什麼變化呢？
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HGBoMrsC0iE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+: <sup>(資料來源:</sup>[^sprinkler]<sup>)</sup>
+
+[^sprinkler]: 太陽能系統-自動灑水器-噴水頭, By CHIJIJOHNNY, [youtube連結](https://www.youtube.com/watch?v=HGBoMrsC0iE)
+
+<br/><br/>
+
+
+讓我們把多顆小圓球當成拋體，做出噴水的簡單模擬。
+
+這次將發射位置定在視窗中間底部，當發射位置改變時，要如何用滑鼠來呈現速度？為了達到直覺的操作，需做以下的修正：
+
+![滑鼠速度向量2](mouse_vector_from_middle_bottom.png) 
+
+<br/><br/>
+
+一起來動手寫寫看。
+
+??? example "Py4t範例程式 連續噴射"
+
+    :fontawesome-solid-link: <a href="../../pie4t/projectile/#2" target="_blank">Let's Code 連續噴射 (含操作影片、程式碼及說明)</a>
+
+??? abstract "滑鼠操作事件"
+
+    在某些程式中，會進一步將滑鼠操作細分多個動作，並觸發對應的事件
+
+    :fontawesome-solid-link: <a href="../basic/scratch_python_compare/#_17" target="_blank">滑鼠操作事件</a>
+
+<br/><br/><br/>
+
+----------------------------
+
+##  📗 重力控制
+
+----------------------------
+
+重力是什麼？重力消失了會如何？
+
+除非到外太空，不然在地球上很難進行重力的實驗。
+
+經由物理程式的模擬，可以做出無重力，甚至是重力反轉的效果。
+
+
+
+
+
+----------------------------
+
+***無重力狀態***
+
+----------------------------
+
+
+你知道如何在太空中做披薩嗎？
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UVGgrLqsAzw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+: <sup>(資料來源:</sup>[^space_pizza]<sup>)</sup>
+
+[^space_pizza]: Pizza Night on the Space Station!, By NASA, [youtube連結](https://youtu.be/UVGgrLqsAzw)
+
+在太空中的物體若沒有固定好，物體受到一點力量，就會照著慣性的作用，產生漂浮的現象。
+
+
+在物理模擬程式中，以重力加速度的平面向量來表示重力，向量代表著重力的方向及大小。
+
+: ![上下向量](y_vector_explained.png) 
+
+知道了這些，動手來寫無重力的模擬程式。
+
+
+??? example "Py4t範例程式 無重力狀態"
+
+    :fontawesome-solid-link: <a href="../../pie4t/inertia_gravity/#1" target="_blank">Let's Code 無重力狀態 (含操作影片、程式碼及說明)</a>
+
+??? abstract "事件驅動程式"
+
+    :fontawesome-solid-link: <a href="../basic/scratch_python_compare/#_16" target="_blank">事件驅動程式 結構與流程</a>
+
+??? info "補充資料" 
+    
+    :fontawesome-solid-link: <a href="https://zh.wikipedia.org/wiki/%E6%85%A3%E6%80%A7" target="_blank">維基百科: 慣性</a>
+
+    :fontawesome-solid-link: <a href="https://youtu.be/4H04xpngVlo?list=PLTQ2T0cDHYPfypQn6t_sXV1N581kwf7Ei" target="_blank">youtube: 平面運動 【觀念】向量（1）向量的表示方法</a>
+    
+
+<br/><br/><br/> 
+
+----------------------------
+
+***重力搬運***
+
+----------------------------
+
+除了上下的向量，也可以使用左右的向量
+
+: ![左右向量](x_vector_explained.png) 
+
+
+了解4個方向的向量，可以做什麼事嗎？
+
+來看看在國際太空站的太空人如何進行趣味奧運比賽。
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZlPpHILyEl4?start=0&amp;end=54" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+: <sup>(資料來源:</sup>[^space_olympics]<sup>)</sup>
+
+[^space_olympics]: Highlights from the first-ever space Olympics!, By 
+NASA, [youtube連結](https://www.youtube.com/watch?v=ZlPpHILyEl4)
+
+<br/><br/>
+
+
+請發揮你的創意，用控制重力的程式做出搬運物體的遊戲。
+
+??? example "Py4t範例程式 重力搬運"
+
+    :fontawesome-solid-link: <a href="../../pie4t/inertia_gravity/#2" target="_blank">Let's Code 重力搬運 (含操作影片、程式碼及說明)</a>
+
+??? abstract "結構化程式設計"
+
+    :fontawesome-solid-link: <a href="../basic/scratch_python_compare/#_4" target="_blank">選擇結構</a>
+
+??? info "補充資料" 
+   
+    :fontawesome-solid-link: <a href="https://www.youtube.com/watch?v=VB20FLopIWg" target="_blank">youtube: 高一物理【觀念】重力</a>
+    
+    :fontawesome-solid-link: <a href="https://zh.wikipedia.org/wiki/%E5%BC%95%E5%8A%9B" target="_blank">維基百科: 重力</a>
+
+<br/><br/><br/> 
+
+----------------------------
+
 ##  📙 彈性排列
+
+----------------------------
 
 什麼是繩波？
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/P7QrXW4ky34" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-: <sup>(資料來源:</sup>[^7]<sup>)</sup>
+: <sup>(資料來源:</sup>[^rope_wave]<sup>)</sup>
 
-[^7]: 繩波示波器, By 國中理化教學資料庫, [youtube連結](https://www.youtube.com/watch?v=P7QrXW4ky34)
+[^rope_wave]: 繩波示波器, By 國中理化教學資料庫, [youtube連結](https://www.youtube.com/watch?v=P7QrXW4ky34)
 
 
 讓我們用多顆球的排列做出類似繩波的效果。
 
 ----------------------------
 
-### ▪️ 固定球數
+***固定球數***
 
 ----------------------------
 
@@ -323,7 +528,7 @@ Py4t物理學習模組內建了地形的輔助功能，會使用到Ctrl鍵及Alt
 
 ----------------------------
 
-### ▪️ 變數模式識別
+***變數模式識別***
 
 ----------------------------
 
@@ -353,7 +558,7 @@ Py4t物理學習模組內建了地形的輔助功能，會使用到Ctrl鍵及Alt
 
 ----------------------------
 
-### ▪️ 不同波動變化
+***不同波動變化***
 
 ----------------------------
 
@@ -381,149 +586,3 @@ Py4t物理學習模組內建了地形的輔助功能，會使用到Ctrl鍵及Alt
 
 <br/><br/><br/>
 
-----------------------------
-
-##  📗 重力控制
-
-重力是什麼？如果有一天重力消失了會如何？
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/1rKUPNASJqQ?start=0&amp;end=183" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-: <sup>(資料來源:</sup>[^8]<sup>)</sup>
-
-[^8]: 如果重力不再存在?!, By 大膽科學, [youtube連結](https://www.youtube.com/watch?v=1rKUPNASJqQ)
-
-除非我們到外太空，不然在地球上很難進行重力的實驗。
-
-不過我們可以經由物理程式的模擬，做出無重力，甚至是重力反轉的現象。
-
-以下讓我們一步步探討來實做出重力模擬的程式。
-
-----------------------------
-
-### ▪️ 慣性與重力
-
-----------------------------
-
-: 筆要如何才能掉進罐子呢？
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/LeDtM7Hpl-Q?start=3&amp;end=98" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-: <sup>(資料來源:</sup>[^9]<sup>)</sup>
-
-[^9]: 慣性定律 Law of Inertia, By 中央大學科學教育中心實驗頻道, [youtube連結](https://www.youtube.com/watch?v=LeDtM7Hpl-Q&t=3s)
-
-<br/><br/>
-
-什麼是慣性定律呢？
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Wc9W-Fb44Dk?start=62&amp;end=132" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-: <sup>(資料來源:</sup>[^10]<sup>)</sup>
-
-[^10]: 吉娃斯科學小教室｜#13: 慣性定律｜兒童科普動畫, By EngineTV 原金動畫, [youtube連結](https://www.youtube.com/watch?v=Wc9W-Fb44Dk&t=62s)
-
-<br/><br/>
-
-用程式來模擬慣性吧。
-
-??? example "Py4t範例程式 施力"
-
-    :fontawesome-solid-link: <a href="../../pie4t/inertia_gravity/#1" target="_blank">Let's Code 慣性運動 (含操作影片、程式碼及說明)</a>
-
-
-
-
-??? info "補充資料" 
-    
-    :fontawesome-solid-link: <a href="https://zh.wikipedia.org/wiki/%E6%85%A3%E6%80%A7" target="_blank">維基百科: 慣性</a>
-
-    
-
-    衝力的方向使用到向量，可參考 :fontawesome-solid-link: <a href="https://youtu.be/4H04xpngVlo?list=PLTQ2T0cDHYPfypQn6t_sXV1N581kwf7Ei" target="_blank">youtube: 平面運動 【觀念】向量（1）向量的表示方法</a>
-
-<br/><br/><br/> 
-
-----------------------------
-
-### ▪️ 拋體運動
-
-----------------------------
-
-有看過推鉛球的運動嗎？
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/EkiaYNEAagA?start=0&amp;end=118" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-: <sup>(資料來源:</sup>[^11]<sup>)</sup>
-
-[^11]: 超越人類極限【金牌鉛球國手】巨人手掌宛如人體砲臺發射器, By 健人蓋伊, [youtube連結](https://www.youtube.com/watch?v=EkiaYNEAagA)
-
-<br/><br/> 
-
-鉛球被推出時，為什麼在空中的軌跡是拋物線？
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/bhavS93SEaM?start=32&amp;end=97" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-: <sup>(資料來源:</sup>[^12]<sup>)</sup>
-
-[^12]: 吉娃斯科學小教室｜#37 : 拋體運動｜動能、重力、運動半徑｜兒童科普動畫, By 
-EngineTV 原金動畫, [youtube連結](https://www.youtube.com/watch?v=bhavS93SEaM&t=32s)
-
-<br/><br/>
-
-用程式來模擬拋體運動吧。
-
-??? example "Py4t範例程式 拋體運動"
-
-    :fontawesome-solid-link: <a href="../../pie4t/inertia_gravity/#2" target="_blank">Let's Code 拋體運動 (含操作影片、程式碼及說明)</a>
-
-??? info "補充資料" 
-    
-    :fontawesome-solid-link: <a href="https://zh.wikipedia.org/wiki/%E6%8B%8B%E9%AB%94" target="_blank">維基百科: 拋體</a>
-
-    :fontawesome-solid-link: <a href="https://www.zetria.org/view.php?subj=physics&chap=lfym2aorgz" target="_blank">學呀: 拋物線運動</a>
-
-<br/><br/><br/> 
-
-----------------------------
-
-### ▪️ 重力搬運
-
-----------------------------
-
-在國際太空站的趣味奧運比賽。
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ZlPpHILyEl4?start=0&amp;end=54" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-: <sup>(資料來源:</sup>[^13]<sup>)</sup>
-
-[^13]: Highlights from the first-ever space Olympics!, By 
-NASA, [youtube連結](https://www.youtube.com/watch?v=ZlPpHILyEl4)
-
-<br/><br/>
-
-無重力漂浮是不是很特別。
-用程式來模擬重力的控制吧。
-
-??? example "Py4t範例程式 重力搬運"
-
-    :fontawesome-solid-link: <a href="../../pie4t/inertia_gravity/#3" target="_blank">Let's Code 重力搬運 (含操作影片、程式碼及說明)</a>
-
-??? abstract "事件驅動程式"
-
-    :fontawesome-solid-link: <a href="../basic/scratch_python_compare/#_16" target="_blank">事件驅動程式 結構與流程</a>
-
-
-??? question "更多練習"
-
-    範例程式中的方塊是由原點發射的，請修改程式，改成方塊會依滑鼠位置放置，但會有隨機的轉動及速度，類似太空中物體的漂浮，你有信心挑戰看看嗎？
-    
-    (提示：需使用随機模組，随機決定方塊的速度及角速度)。
-
-??? info "補充資料" 
-   
-    :fontawesome-solid-link: <a href="https://www.youtube.com/watch?v=VB20FLopIWg" target="_blank">youtube: 高一物理【觀念】重力</a>
-    
-    :fontawesome-solid-link: <a href="https://zh.wikipedia.org/wiki/%E5%BC%95%E5%8A%9B" target="_blank">維基百科: 重力</a>
-
-<br/><br/><br/> 

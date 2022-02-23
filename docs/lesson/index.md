@@ -9,30 +9,31 @@ hide:
 
 <br/>
 
-## 💡 入門
+## 📚 海龜繪圖
 
 ----------------------------
 
-####  ▪️ <a href="national_flag/" target="_blank">海龜畫國旗</a>
 
-??? info  "課程摘要"
+
+???+ success  "入門 - 海龜畫國旗 "
     
     ![海龜畫國旗入門](national_flag/digest.jpg)
 
     : 學習海龜程式，畫出與方形、圓形、星形相關的國旗。　 :fontawesome-solid-long-arrow-alt-right: <a href="national_flag/" target="_blank">「海龜畫國旗」</a>
 
-    ---------------------------
+??? abstract  "專題 - 中華民國國旗 "    
+    :  ![中華民國國旗](project_roc_flag/digest.jpg)
 
-    : 進階學習 :fontawesome-solid-long-arrow-alt-right: <a href="project_roc_flag/" target="_blank">「專題：中華民國國旗」</a>
+    : 利用所學的長方形、圓形與星形，思考、設計與規劃，用海龜程式實作出我們的國旗。　 :fontawesome-solid-long-arrow-alt-right: <a href="project_roc_flag/" target="_blank">「進入專題」</a>
 
-  
-<br/>
 
-#### ▪️ <a href="mechanics_playground/" target="_blank">力與運動遊樂場</a>
+<br/><br/><br/>
 
-??? info  "課程摘要"
-    
+## 📚 物理模擬
 
+-----------------------
+
+???+ success  "入門 - 力與運動遊樂場"
     ![力與運動遊樂場](mechanics_playground/digest.jpg)
 
     學習物理程式，做出彈性、斜面、拋體與重力等模擬程式。
@@ -42,25 +43,6 @@ hide:
 
 
 
-<br/><br/>
 
 
 
-## 💡 進階
-
-----------------------------
-
-#### ▪️ <a href="project_roc_flag/" target="_blank">專題：中華民國國旗</a>
-
-??? info  "課程摘要"
-    :  ![中華民國國旗](project_roc_flag/digest.jpg)
-
-    : 程式專題：中華民國國旗
-
-    : 利用所學的長方形、圓形與星形，思考、設計與規劃，用海龜程式實作出我們的國旗。　 :fontawesome-solid-long-arrow-alt-right: <a href="project_roc_flag/" target="_blank">「進入專題」</a>
-
-    ---------------------------
-
-    : 建議先備課程 :fontawesome-solid-long-arrow-alt-right:  <a href="national_flag/" target="_blank">「海龜畫國旗」</a>
-
-<br/>
