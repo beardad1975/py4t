@@ -24,7 +24,7 @@ hide:
 ??? abstract  "專題 - 中華民國國旗 "    
     :  ![中華民國國旗](project_roc_flag/digest.jpg)
 
-    : 利用所學的長方形、圓形與星形，思考、設計與規劃，用海龜程式實作出我們的國旗。　 :fontawesome-solid-long-arrow-alt-right: <a href="project_roc_flag/" target="_blank">「進入專題」</a>
+    : 利用所學的長方形、圓形與星形，思考、設計與規劃，用海龜程式實作出我們的國旗。　 :fontawesome-solid-long-arrow-alt-right: <a href="project_roc_flag/" target="_blank">「中華民國國旗」</a>
 
 
 <br/><br/><br/>
@@ -39,7 +39,10 @@ hide:
     學習物理程式，做出彈性、斜面、拋體與重力等模擬程式。
     :fontawesome-solid-long-arrow-alt-right: <a href="mechanics_playground/" target="_blank">「力與運動遊樂場」</a>
 
+??? abstract  "專題 - 物理撞擊實驗室 "    
+    
 
+    : 　 :fontawesome-solid-long-arrow-alt-right: <a href="project_collision_lab/" target="_blank">「物理撞擊實驗室」</a>
 
 
 

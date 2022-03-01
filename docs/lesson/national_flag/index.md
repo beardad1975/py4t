@@ -390,7 +390,7 @@ hide:
 
 ----------------------------
 
-##  ⭐ 專題: 中華民國國旗
+##  ⭐ 進階專題
 
 ----------------------------
 
@@ -399,7 +399,7 @@ hide:
 如果想要更進一步，可以挑戰下面的程式專題哦！
 
 
-:fontawesome-solid-link: <a href="../project_roc_flag/" target="_blank">專題：中華民國國旗</a>
+:fontawesome-solid-link: <a href="../project_roc_flag/" target="_blank">中華民國國旗</a>
 
 
 <br/><br/><br/> 

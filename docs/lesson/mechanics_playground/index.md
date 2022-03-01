@@ -499,7 +499,7 @@ NASA, [youtube連結](https://www.youtube.com/watch?v=ZlPpHILyEl4)
 [^rope_wave]: 繩波示波器, By 國中理化教學資料庫, [youtube連結](https://www.youtube.com/watch?v=P7QrXW4ky34)
 
 
-讓我們用多顆球的排列做出類似繩波的效果。
+讓我們用多顆球的排列並彈跳，來做出類似繩波的效果。
 
 ----------------------------
 
@@ -586,3 +586,17 @@ NASA, [youtube連結](https://www.youtube.com/watch?v=ZlPpHILyEl4)
 
 <br/><br/><br/>
 
+----------------------------
+
+##  ⭐ 進階專題
+
+----------------------------
+
+太棒了，經過了前面的課程，相信你已經學會基本的物理模擬程式，並能改變物體的物理性質來做出不同的變化。
+
+如果想要更進一步，可以挑戰下面的程式專題哦！
+
+
+:fontawesome-solid-link: <a href="../project_roc_flag/" target="_blank">物理撞擊實驗室</a>
+
+<br/><br/><br/>

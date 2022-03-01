@@ -16,7 +16,7 @@ PY4T_IN_PYTHON_PACKAGE.txt
 create_installer.bat( thonny install version)
 
 
-[git hub ]
+[py4t development git hub ]
 git tag -a v1.4
 git push origin v1.5
 

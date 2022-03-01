@@ -732,11 +732,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.35"
-     inkscape:cx="-7378.5714"
-     inkscape:cy="1697.1428"
+     inkscape:zoom="0.7"
+     inkscape:cx="-7860.7142"
+     inkscape:cy="1518.5714"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="g43827"
      inkscape:document-rotation="0"
      showgrid="false"
      inkscape:window-width="1920"
@@ -766,7 +766,10 @@
        id="path43481"
        style="mix-blend-mode:normal;fill:#666666;fill-opacity:1;stroke:none;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter43524)"
        d="m -8016.5703,1159.6543 c -58.201,0 -105.0547,46.8557 -105.0547,105.0566 v 24.2422 125.2598 c 0,58.201 46.8537,105.0566 105.0547,105.0566 h 32.3262 c 58.2009,0 105.0546,-46.8556 105.0546,-105.0566 v -125.2598 -24.2422 c 0,-58.2009 -46.8537,-105.0566 -105.0546,-105.0566 h -16.1641 z"
-       transform="matrix(0.26458333,0,0,0.26458333,-115.61239,33.299893)" />
+       transform="matrix(0.26458333,0,0,0.26458333,-115.61239,33.299893)"
+       inkscape:export-filename="C:\Users\user\Downloads\mouse_event.png"
+       inkscape:export-xdpi="43.728325"
+       inkscape:export-ydpi="43.728325" />
     <circle
        style="opacity:0.770936;fill:#ff8b05;fill-opacity:1;stroke:none;stroke-width:5.14209;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="circle2192"
@@ -2031,15 +2034,24 @@
     <path
        id="rect42961"
        style="fill:#ffffff;fill-opacity:1;stroke:#030303;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       d="m -2201.3837,372.1974 h -64.1444 v 33.14163 c 0,15.39902 12.3967,27.79625 27.7957,27.79625 h 8.553 c 15.399,0 27.7957,-12.39723 27.7957,-27.79625 z" />
+       d="m -2201.3837,372.1974 h -64.1444 v 33.14163 c 0,15.39902 12.3967,27.79625 27.7957,27.79625 h 8.553 c 15.399,0 27.7957,-12.39723 27.7957,-27.79625 z"
+       inkscape:export-filename="C:\Users\user\Downloads\mouse_event.png"
+       inkscape:export-xdpi="43.728325"
+       inkscape:export-ydpi="43.728325" />
     <path
        id="path43232"
        style="fill:#b3b3b3;fill-opacity:1;stroke:#030303;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       d="m -2233.4562,337.98708 h -4.2762 c -15.399,0 -27.7957,12.39724 -27.7957,27.79624 v 6.41408 h 32.0719 z" />
+       d="m -2233.4562,337.98708 h -4.2762 c -15.399,0 -27.7957,12.39724 -27.7957,27.79624 v 6.41408 h 32.0719 z"
+       inkscape:export-filename="C:\Users\user\Downloads\mouse_event.png"
+       inkscape:export-xdpi="43.728325"
+       inkscape:export-ydpi="43.728325" />
     <path
        id="path43352"
        style="fill:#ffffff;fill-opacity:1;stroke:#030303;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       d="m -2233.4562,337.98708 v 34.21032 h 32.0725 v -6.41408 c 0,-15.399 -12.3967,-27.79624 -27.7957,-27.79624 z" />
+       d="m -2233.4562,337.98708 v 34.21032 h 32.0725 v -6.41408 c 0,-15.399 -12.3967,-27.79624 -27.7957,-27.79624 z"
+       inkscape:export-filename="C:\Users\user\Downloads\mouse_event.png"
+       inkscape:export-xdpi="43.728325"
+       inkscape:export-ydpi="43.728325" />
     <rect
        style="fill:#ffffff;fill-opacity:1;stroke:#030303;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect43399"
@@ -2047,57 +2059,81 @@
        height="18.174328"
        x="-2237.7324"
        y="347.07431"
-       ry="4.2763124" />
+       ry="4.2763124"
+       inkscape:export-filename="C:\Users\user\Downloads\mouse_event.png"
+       inkscape:export-xdpi="43.728325"
+       inkscape:export-ydpi="43.728325" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.765;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m -2233.4612,337.53274 c -2.5605,-1.32406 -4.4469,-3.88114 -4.9561,-6.71841 -0.5093,-2.83726 0.37,-5.89075 2.3102,-8.02266 1.2452,-1.3682 2.8567,-2.33596 4.3488,-3.42959 1.4921,-1.09363 2.9327,-2.40015 3.5887,-4.12993 0.6662,-1.75668 0.4325,-3.74435 -0.1871,-5.518 -0.6196,-1.77364 -1.6006,-3.39397 -2.4587,-5.06533 -0.1287,-0.25064 -0.2547,-0.50265 -0.378,-0.75597"
        id="path43641"
        inkscape:path-effect="#path-effect43643"
-       inkscape:original-d="m -2233.4612,337.53274 c -0.7557,-4.91342 -1.7636,-9.82713 -2.6459,-14.74107 -0.8822,-4.91395 5.292,-5.03942 7.9375,-7.55952 2.6456,-2.5201 -1.7636,-7.0553 -2.6458,-10.58333 -0.8822,-3.52805 -0.2517,-0.50372 -0.378,-0.75597" />
+       inkscape:original-d="m -2233.4612,337.53274 c -0.7557,-4.91342 -1.7636,-9.82713 -2.6459,-14.74107 -0.8822,-4.91395 5.292,-5.03942 7.9375,-7.55952 2.6456,-2.5201 -1.7636,-7.0553 -2.6458,-10.58333 -0.8822,-3.52805 -0.2517,-0.50372 -0.378,-0.75597"
+       inkscape:export-filename="C:\Users\user\Downloads\mouse_event.png"
+       inkscape:export-xdpi="43.728325"
+       inkscape:export-ydpi="43.728325" />
     <path
        id="path43805"
        style="mix-blend-mode:normal;fill:#666666;fill-opacity:1;stroke:none;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter43524)"
        d="m -8016.5703,1159.6543 c -58.201,0 -105.0547,46.8557 -105.0547,105.0566 v 24.2422 125.2598 c 0,58.201 46.8537,105.0566 105.0547,105.0566 h 32.3262 c 58.2009,0 105.0546,-46.8556 105.0546,-105.0566 v -125.2598 -24.2422 c 0,-58.2009 -46.8537,-105.0566 -105.0546,-105.0566 h -16.1641 z"
-       transform="matrix(0.26458333,0,0,0.26458333,130.07213,43.883227)" />
+       transform="matrix(0.21788879,0,0,0.21788879,-245.39308,103.32608)"
+       inkscape:export-filename="C:\Users\user\Downloads\mouse_event.png"
+       inkscape:export-xdpi="43.728325"
+       inkscape:export-ydpi="43.728325" />
     <path
        id="path43807"
-       style="fill:#ffffff;fill-opacity:1;stroke:#030303;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       d="m -1955.6992,382.78073 h -64.1444 v 33.14163 c 0,15.39902 12.3967,27.79625 27.7957,27.79625 h 8.553 c 15.399,0 27.7957,-12.39723 27.7957,-27.79625 z" />
+       style="fill:#ffffff;fill-opacity:1;stroke:#030303;stroke-width:0.823517;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m -1963.0606,382.41383 h -52.824 v 27.29269 c 0,12.68135 10.2089,22.89067 22.8902,22.89067 h 7.0436 c 12.6813,0 22.8902,-10.20932 22.8902,-22.89067 z"
+       inkscape:export-filename="C:\Users\user\Downloads\mouse_event.png"
+       inkscape:export-xdpi="43.728325"
+       inkscape:export-ydpi="43.728325" />
     <path
        id="path43809"
-       style="fill:#b3b3b3;fill-opacity:1;stroke:#030303;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       d="m -1987.7717,348.57041 h -4.2762 c -15.399,0 -27.7957,12.39724 -27.7957,27.79624 v 6.41408 h 32.0719 z" />
+       style="fill:#b3b3b3;fill-opacity:1;stroke:#030303;stroke-width:0.823517;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m -1989.4729,354.24106 h -3.5215 c -12.6813,0 -22.8902,10.20934 -22.8902,22.89067 v 5.2821 h 26.4117 z"
+       inkscape:export-filename="C:\Users\user\Downloads\mouse_event.png"
+       inkscape:export-xdpi="43.728325"
+       inkscape:export-ydpi="43.728325" />
     <path
        id="path43811"
-       style="fill:#ffffff;fill-opacity:1;stroke:#030303;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       d="m -1987.7717,348.57041 v 34.21032 h 32.0725 v -6.41408 c 0,-15.399 -12.3967,-27.79624 -27.7957,-27.79624 z" />
+       style="fill:#ffffff;fill-opacity:1;stroke:#030303;stroke-width:0.823517;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m -1989.4729,354.24106 v 28.17277 h 26.4123 v -5.2821 c 0,-12.68133 -10.2089,-22.89067 -22.8902,-22.89067 z"
+       inkscape:export-filename="C:\Users\user\Downloads\mouse_event.png"
+       inkscape:export-xdpi="43.728325"
+       inkscape:export-ydpi="43.728325" />
     <rect
-       style="fill:#ffffff;fill-opacity:1;stroke:#030303;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="fill:#ffffff;fill-opacity:1;stroke:#030303;stroke-width:0.823517;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect43813"
-       width="8.5526247"
-       height="18.174328"
-       x="-1992.0479"
-       y="357.65765"
-       ry="4.2763124" />
+       width="7.0432291"
+       height="14.966863"
+       x="-1992.9943"
+       y="361.72455"
+       ry="3.5216146"
+       inkscape:export-filename="C:\Users\user\Downloads\mouse_event.png"
+       inkscape:export-xdpi="43.728325"
+       inkscape:export-ydpi="43.728325" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.765;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m -1987.7767,348.11607 c -2.5605,-1.32406 -4.4469,-3.88114 -4.9561,-6.71841 -0.5093,-2.83726 0.37,-5.89075 2.3102,-8.02266 1.2452,-1.3682 2.8567,-2.33596 4.3488,-3.42959 1.4921,-1.09363 2.9327,-2.40015 3.5887,-4.12993 0.6662,-1.75668 0.4325,-3.74435 -0.1871,-5.518 -0.6196,-1.77364 -1.6006,-3.39397 -2.4587,-5.06533 -0.1287,-0.25064 -0.2547,-0.50265 -0.378,-0.75597"
+       style="fill:none;stroke:#000000;stroke-width:0.62999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -1989.477,353.86691 c -2.1086,-1.09041 -3.662,-3.19621 -4.0814,-5.53274 -0.4194,-2.33653 0.3047,-4.85112 1.9025,-6.60678 1.0254,-1.12674 2.3525,-1.92371 3.5812,-2.82433 1.2288,-0.90063 2.4152,-1.97657 2.9554,-3.40106 0.5486,-1.44665 0.3562,-3.08353 -0.154,-4.54416 -0.5102,-1.46063 -1.3182,-2.79501 -2.0248,-4.17139 -0.106,-0.20641 -0.2097,-0.41394 -0.3113,-0.62256"
        id="path43815"
        inkscape:path-effect="#path-effect43819"
-       inkscape:original-d="m -1987.7767,348.11607 c -0.7557,-4.91342 -1.7636,-9.82713 -2.6459,-14.74107 -0.8822,-4.91395 5.292,-5.03942 7.9375,-7.55952 2.6456,-2.5201 -1.7636,-7.0553 -2.6458,-10.58333 -0.8822,-3.52805 -0.2517,-0.50372 -0.378,-0.75597" />
+       inkscape:original-d="m -1989.477,353.86691 c -0.6223,-4.04629 -1.4523,-8.09281 -2.1789,-12.13952 -0.7265,-4.04672 4.358,-4.15005 6.5366,-6.22539 2.1787,-2.07535 -1.4523,-5.81016 -2.1788,-8.71555 -0.7265,-2.90541 -0.2073,-0.41482 -0.3113,-0.62256"
+       inkscape:export-filename="C:\Users\user\Downloads\mouse_event.png"
+       inkscape:export-xdpi="43.728325"
+       inkscape:export-ydpi="43.728325" />
     <g
        id="g43827"
-       transform="matrix(-0.41375102,0.35023123,0.41794733,0.34671481,-2689.9738,722.65843)"
+       transform="matrix(-0.41375102,0.35023123,0.41794733,0.34671481,-2685.8161,726.06022)"
        style="fill:none;fill-opacity:1;stroke:#29d749;stroke-opacity:0.637821"
        inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\mechanics_playground\y_vector_explained.png"
        inkscape:export-xdpi="36.425335"
        inkscape:export-ydpi="36.425335">
       <path
          style="fill:none;fill-opacity:1;stroke:#29d749;stroke-width:7.8;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.637821"
-         d="m -1326.1181,148.26818 -5e-4,129.73727"
+         d="m -1326.1181,148.26818 c 0,0 11.1291,26.14945 9.9843,38.61942 -1.309,14.25893 -16.7611,22.19592 -18.7984,36.24622 -2.5228,17.39845 8.8136,54.87163 8.8136,54.87163"
          id="path43821"
-         sodipodi:nodetypes="cc"
-         inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\turtle_coordinate.png"
+         sodipodi:nodetypes="cssc"
+         inkscape:export-filename="C:\Users\user\Downloads\mouse_event.png"
          inkscape:export-xdpi="43.728325"
          inkscape:export-ydpi="43.728325" />
       <path
@@ -2105,7 +2141,7 @@
          d="m -1326.1186,278.00545 -14.9671,-20.31248"
          id="path43823"
          sodipodi:nodetypes="cc"
-         inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\turtle_coordinate.png"
+         inkscape:export-filename="C:\Users\user\Downloads\mouse_event.png"
          inkscape:export-xdpi="43.728325"
          inkscape:export-ydpi="43.728325" />
       <path
@@ -2113,7 +2149,7 @@
          d="m -1326.1186,278.00545 14.9671,-20.31248"
          id="path43825"
          sodipodi:nodetypes="cc"
-         inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\turtle_coordinate.png"
+         inkscape:export-filename="C:\Users\user\Downloads\mouse_event.png"
          inkscape:export-xdpi="43.728325"
          inkscape:export-ydpi="43.728325" />
     </g>
@@ -2121,33 +2157,51 @@
        id="path44982"
        style="mix-blend-mode:normal;fill:#666666;fill-opacity:1;stroke:none;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter43524)"
        d="m -8016.5703,1159.6543 c -58.201,0 -105.0547,46.8557 -105.0547,105.0566 v 24.2422 125.2598 c 0,58.201 46.8537,105.0566 105.0547,105.0566 h 32.3262 c 58.2009,0 105.0546,-46.8556 105.0546,-105.0566 v -125.2598 -24.2422 c 0,-58.2009 -46.8537,-105.0566 -105.0546,-105.0566 h -16.1641 z"
-       transform="matrix(0.26458333,0,0,0.26458333,331.15547,34.055845)" />
+       transform="matrix(0.23848932,0,0,0.23848932,121.82582,69.41948)"
+       inkscape:export-filename="C:\Users\user\Downloads\mouse_event.png"
+       inkscape:export-xdpi="43.728325"
+       inkscape:export-ydpi="43.728325" />
     <path
        id="path44984"
-       style="fill:#ffffff;fill-opacity:1;stroke:#030303;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       d="m -1754.6159,372.95335 h -64.1444 v 33.14163 c 0,15.39902 12.3967,27.79625 27.7957,27.79625 h 8.553 c 15.399,0 27.7957,-12.39723 27.7957,-27.79625 z" />
+       style="fill:#ffffff;fill-opacity:1;stroke:#030303;stroke-width:0.901377;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m -1758.2405,374.89389 h -57.8183 v 29.8731 c 0,13.88032 11.1741,25.0549 25.0544,25.0549 h 7.7095 c 13.8803,0 25.0544,-11.17458 25.0544,-25.0549 z"
+       inkscape:export-filename="C:\Users\user\Downloads\mouse_event.png"
+       inkscape:export-xdpi="43.728325"
+       inkscape:export-ydpi="43.728325" />
     <path
        id="path44986"
-       style="fill:#ffffff;fill-opacity:1;stroke:#030303;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       d="m -1786.6884,338.74303 h -4.2762 c -15.399,0 -27.7957,12.39724 -27.7957,27.79624 v 6.41408 h 32.0719 z" />
+       style="fill:#ffffff;fill-opacity:1;stroke:#030303;stroke-width:0.901377;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m -1787.1499,344.05749 h -3.8545 c -13.8803,0 -25.0544,11.17459 -25.0544,25.05489 v 5.78151 h 28.9089 z"
+       inkscape:export-filename="C:\Users\user\Downloads\mouse_event.png"
+       inkscape:export-xdpi="43.728325"
+       inkscape:export-ydpi="43.728325" />
     <path
        id="path44988"
-       style="fill:#ffffff;fill-opacity:1;stroke:#030303;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       d="m -1786.6884,338.74303 v 34.21032 h 32.0725 v -6.41408 c 0,-15.399 -12.3967,-27.79624 -27.7957,-27.79624 z" />
+       style="fill:#ffffff;fill-opacity:1;stroke:#030303;stroke-width:0.901377;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m -1787.1499,344.05749 v 30.8364 h 28.9094 v -5.78151 c 0,-13.8803 -11.1741,-25.05489 -25.0544,-25.05489 z"
+       inkscape:export-filename="C:\Users\user\Downloads\mouse_event.png"
+       inkscape:export-xdpi="43.728325"
+       inkscape:export-ydpi="43.728325" />
     <rect
-       style="fill:#ffffff;fill-opacity:1;stroke:#030303;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="fill:#ffffff;fill-opacity:1;stroke:#030303;stroke-width:0.901377;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect44990"
-       width="8.5526247"
-       height="18.174328"
-       x="-1790.9646"
-       y="347.83026"
-       ry="4.2763124" />
+       width="7.7091389"
+       height="16.38192"
+       x="-1791.0044"
+       y="352.2485"
+       ry="3.8545694"
+       inkscape:export-filename="C:\Users\user\Downloads\mouse_event.png"
+       inkscape:export-xdpi="43.728325"
+       inkscape:export-ydpi="43.728325" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.765;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m -1786.6934,338.28869 c -2.5605,-1.32406 -4.4469,-3.88114 -4.9561,-6.71841 -0.5093,-2.83726 0.37,-5.89075 2.3102,-8.02266 1.2452,-1.3682 2.8567,-2.33596 4.3488,-3.42959 1.4921,-1.09363 2.9327,-2.40015 3.5887,-4.12993 0.6662,-1.75668 0.4325,-3.74435 -0.1871,-5.518 -0.6196,-1.77364 -1.6006,-3.39397 -2.4587,-5.06533 -0.1287,-0.25064 -0.2547,-0.50265 -0.378,-0.75597"
+       style="fill:none;stroke:#000000;stroke-width:0.689553;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -1787.1544,343.64796 c -2.308,-1.19349 -4.0083,-3.49837 -4.4673,-6.05581 -0.4591,-2.55744 0.3335,-5.30978 2.0823,-7.23145 1.1224,-1.23328 2.5749,-2.10561 3.9198,-3.09139 1.345,-0.98577 2.6436,-2.16342 3.2349,-3.72259 0.6005,-1.58342 0.39,-3.37508 -0.1684,-4.97383 -0.5585,-1.59874 -1.4428,-3.05928 -2.2164,-4.56574 -0.116,-0.22592 -0.2296,-0.45307 -0.3408,-0.68141"
        id="path44992"
        inkscape:path-effect="#path-effect44996"
-       inkscape:original-d="m -1786.6934,338.28869 c -0.7557,-4.91342 -1.7636,-9.82713 -2.6459,-14.74107 -0.8822,-4.91395 5.292,-5.03942 7.9375,-7.55952 2.6456,-2.5201 -1.7636,-7.0553 -2.6458,-10.58333 -0.8822,-3.52805 -0.2517,-0.50372 -0.378,-0.75597" />
+       inkscape:original-d="m -1787.1544,343.64796 c -0.6812,-4.42884 -1.5897,-8.85795 -2.385,-13.28726 -0.7952,-4.42932 4.7701,-4.54242 7.1547,-6.81398 2.3847,-2.27156 -1.5896,-6.35948 -2.3848,-9.53957 -0.7952,-3.1801 -0.2269,-0.45404 -0.3408,-0.68141"
+       inkscape:export-filename="C:\Users\user\Downloads\mouse_event.png"
+       inkscape:export-xdpi="43.728325"
+       inkscape:export-ydpi="43.728325" />
     <text
        xml:space="preserve"
        style="font-size:21.5519px;line-height:1.25;font-family:sans-serif;text-align:center;text-anchor:middle;stroke-width:0.538801"
@@ -2156,7 +2210,7 @@
        id="text45128"
        inkscape:export-xdpi="43.728325"
        inkscape:export-ydpi="43.728325"
-       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\mechanics_playground\mouse_vector_from_origin.png"><tspan
+       inkscape:export-filename="C:\Users\user\Downloads\mouse_event.png"><tspan
          sodipodi:role="line"
          x="-2225.5332"
          y="472.64685"
@@ -2170,7 +2224,7 @@
        id="text45761"
        inkscape:export-xdpi="43.728325"
        inkscape:export-ydpi="43.728325"
-       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\mechanics_playground\mouse_vector_from_origin.png"><tspan
+       inkscape:export-filename="C:\Users\user\Downloads\mouse_event.png"><tspan
          sodipodi:role="line"
          x="-2007.063"
          y="472.63107"
@@ -2184,7 +2238,7 @@
        id="text46479"
        inkscape:export-xdpi="43.728325"
        inkscape:export-ydpi="43.728325"
-       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\mechanics_playground\mouse_vector_from_origin.png"><tspan
+       inkscape:export-filename="C:\Users\user\Downloads\mouse_event.png"><tspan
          sodipodi:role="line"
          x="-1787.8367"
          y="472.66791"
