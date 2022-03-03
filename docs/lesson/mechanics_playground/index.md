@@ -597,6 +597,6 @@ NASA, [youtube連結](https://www.youtube.com/watch?v=ZlPpHILyEl4)
 如果想要更進一步，可以挑戰下面的程式專題哦！
 
 
-:fontawesome-solid-link: <a href="../project_roc_flag/" target="_blank">物理撞擊實驗室</a>
+:fontawesome-solid-link: <a href="../project_shoot_lab/" target="_blank">物理射擊實驗室</a>
 
 <br/><br/><br/>

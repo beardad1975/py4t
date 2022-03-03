@@ -1,0 +1,1842 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   sodipodi:docname="說明圖.svg"
+   inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\draw_rectangle.png"
+   inkscape:export-xdpi="49.012714"
+   inkscape:export-ydpi="49.012714"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs2">
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect5251"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect5247"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect5243"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect44996"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect43819"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect43643"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect43270"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect43150"
+       is_visible="true"
+       lpeversion="1" />
+    <marker
+       style="overflow:visible"
+       id="EmptyTriangleOutL"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="EmptyTriangleOutL"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.8) translate(-6,0)"
+         style="fill-rule:evenodd;fill:context-fill;stroke:context-stroke;stroke-width:1.0pt"
+         d="M 5.77,0.0 L -2.88,5.0 L -2.88,-5.0 L 5.77,0.0 z "
+         id="path27698" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="StopL"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="StopL"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.8)"
+         style="fill:none;fill-opacity:0.75000000;fill-rule:evenodd;stroke:context-stroke;stroke-width:1.0pt"
+         d="M 0.0,5.65 L 0.0,-5.65"
+         id="path27707" />
+    </marker>
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect27972"
+       is_visible="true"
+       lpeversion="1" />
+    <marker
+       style="overflow:visible"
+       id="SquareL"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="SquareL"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.8)"
+         style="fill-rule:evenodd;fill:context-stroke;stroke:context-stroke;stroke-width:1.0pt"
+         d="M -5.0,-5.0 L -5.0,5.0 L 5.0,5.0 L 5.0,-5.0 L -5.0,-5.0 z "
+         id="path27608" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker27952"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lstart"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.8) translate(12.5,0)"
+         style="fill-rule:evenodd;fill:context-stroke;stroke:context-stroke;stroke-width:1.0pt"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path27538" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="SquareM"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="SquareM"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.4)"
+         style="fill-rule:evenodd;fill:context-stroke;stroke:context-stroke;stroke-width:1.0pt"
+         d="M -5.0,-5.0 L -5.0,5.0 L 5.0,5.0 L 5.0,-5.0 L -5.0,-5.0 z "
+         id="path27611" />
+    </marker>
+    <marker
+       inkscape:stockid="DistanceStart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker27846"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <g
+         id="g27844">
+        <path
+           id="path27838"
+           d="M 0,0 L 2,0"
+           style="fill:none;stroke:context-fill;stroke-width:1.15;stroke-linecap:square" />
+        <path
+           id="path27840"
+           d="M 0,0 L 13,4 L 9,0 13,-4 L 0,0 z "
+           style="fill:context-stroke;fill-rule:evenodd;stroke:none" />
+        <path
+           id="path27842"
+           d="M 0,-4 L 0,40"
+           style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:square" />
+      </g>
+    </marker>
+    <marker
+       inkscape:stockid="DistanceStart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="DistanceStart"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <g
+         id="g2300">
+        <path
+           id="path2306"
+           d="M 0,0 L 2,0"
+           style="fill:none;stroke:context-fill;stroke-width:1.15;stroke-linecap:square" />
+        <path
+           id="path2302"
+           d="M 0,0 L 13,4 L 9,0 13,-4 L 0,0 z "
+           style="fill:context-stroke;fill-rule:evenodd;stroke:none" />
+        <path
+           id="path2304"
+           d="M 0,-4 L 0,40"
+           style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:square" />
+      </g>
+    </marker>
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect27456"
+       is_visible="true"
+       lpeversion="1" />
+    <marker
+       style="overflow:visible"
+       id="marker2542"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mstart"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.6) translate(0,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         id="path2540" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker2532"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mstart"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.6) translate(0,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         id="path2530" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker2188"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mstart"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.6) translate(0,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         id="path2186" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker2178"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mstart"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.6) translate(0,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         id="path2176" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker2168"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mstart"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.6) translate(0,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         id="path2166" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker2158"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mstart"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.6) translate(0,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         id="path2156" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker1754"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mstart"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         transform="scale(0.6) translate(0,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         id="path1752" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker2107"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mstart"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.6) translate(0,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         id="path2105" />
+    </marker>
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect1239"
+       is_visible="true"
+       lpeversion="1" />
+    <marker
+       style="overflow:visible"
+       id="marker1760"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mstart"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         transform="scale(0.6) translate(0,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         id="path1758" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker1750"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mstart"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.6) translate(0,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         id="path1748" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker3318"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="DotM"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.4) translate(7.4, 1)"
+         style="fill-rule:evenodd;stroke:#ff0000;stroke-width:1pt;stroke-opacity:0.705882;fill:#ff0000;fill-opacity:1"
+         d="M -2.5,-1.0 C -2.5,1.7600000 -4.7400000,4.0 -7.5,4.0 C -10.260000,4.0 -12.5,1.7600000 -12.5,-1.0 C -12.5,-3.7600000 -10.260000,-6.0 -7.5,-6.0 C -4.7400000,-6.0 -2.5,-3.7600000 -2.5,-1.0 z "
+         id="path3316" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="DotM"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="DotM"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.4) translate(7.4, 1)"
+         style="fill-rule:evenodd;stroke:#ff0000;stroke-width:1pt;stroke-opacity:0.705882;fill:#ff0000;fill-opacity:1"
+         d="M -2.5,-1.0 C -2.5,1.7600000 -4.7400000,4.0 -7.5,4.0 C -10.260000,4.0 -12.5,1.7600000 -12.5,-1.0 C -12.5,-3.7600000 -10.260000,-6.0 -7.5,-6.0 C -4.7400000,-6.0 -2.5,-3.7600000 -2.5,-1.0 z "
+         id="path1323" />
+    </marker>
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect2558"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect2530"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect2526"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect2522"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect2512"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect2508"
+       is_visible="true"
+       lpeversion="1" />
+    <marker
+       style="overflow:visible"
+       id="marker2276"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mstart"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.6) translate(0,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         id="path2274" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker2266"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mstart"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.6) translate(0,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         id="path2264" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker2256"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mstart"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.6) translate(0,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         id="path2254" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker1982"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mstart"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         transform="scale(0.6) translate(0,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         id="path1980" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker1856"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mstart"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         transform="scale(0.6) translate(0,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         id="path1854" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker1522"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Sstart"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.2) translate(6,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path1271" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker1089"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mstart"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.6) translate(0,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         id="path1087" />
+    </marker>
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect1102"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect1100"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect1092"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect1090"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect1082"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect1080"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect1068"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect1064"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect1060"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect1056"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect1052"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect1198"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect1194"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect1190"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect1186"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect1182"
+       is_visible="true"
+       lpeversion="1" />
+    <marker
+       style="overflow:visible"
+       id="marker1030"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Sstart"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.2) translate(6,0)"
+         style="fill-rule:evenodd;stroke:#ff8b05;stroke-width:1pt;stroke-opacity:0.772549;fill:#ff8b05;fill-opacity:0.772549"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path1028" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker2228"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mstart"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.6) translate(0,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         id="path2226" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker1942"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mstart"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.6) translate(0,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         id="path1940" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lstart"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lstart"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.8) translate(12.5,0)"
+         style="fill-rule:evenodd;stroke:#ff8b05;stroke-width:1pt;stroke-opacity:0.772549;fill:#ff8b05;fill-opacity:0.772549"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path843" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mstart"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mstart"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.6) translate(0,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#ff8b05;stroke-opacity:0.772549;fill:#ff8b05;fill-opacity:0.772549"
+         id="path867" />
+    </marker>
+    <marker
+       id="left-arrow"
+       viewBox="-4 -4 10 8"
+       orient="auto"
+       markerWidth="10"
+       markerHeight="8">
+      <path
+         fill="blue"
+         d="m2 0 4 4-10-4L6-4z"
+         id="path1302" />
+    </marker>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter14743"
+       x="-0.082585598"
+       y="-0.066025423"
+       width="1.1651709"
+       height="1.1320514">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.31511378"
+         id="feGaussianBlur14745" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="-6452.8571"
+     inkscape:cy="1020"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="998"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:snap-global="false"
+     inkscape:pagecheckerboard="0" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <circle
+       style="opacity:0.770936;fill:#ff8b05;fill-opacity:1;stroke:none;stroke-width:5.39292;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="circle1072"
+       cx="-1774.0006"
+       cy="145.19699"
+       r="8.1264877"
+       inkscape:export-xdpi="43.728325"
+       inkscape:export-ydpi="43.728325"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\mechanics_playground\mouse_vector_from_origin.png" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.813;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker1856)"
+       d="m -1167.3404,144.90979 h -318.4341"
+       id="path1085"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\mechanics_playground\y_vector_explained.png"
+       inkscape:export-xdpi="36.425335"
+       inkscape:export-ydpi="36.425335" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.813;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker1982)"
+       d="m -1326.5576,-14.30726 v 318.4341"
+       id="path1978"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\mechanics_playground\y_vector_explained.png"
+       inkscape:export-xdpi="36.425335"
+       inkscape:export-ydpi="36.425335" />
+    <text
+       xml:space="preserve"
+       style="font-size:9.626px;line-height:1.25;font-family:sans-serif;stroke-width:0.240651"
+       x="-1160.8108"
+       y="148.31969"
+       id="text2148"
+       inkscape:export-xdpi="36.425335"
+       inkscape:export-ydpi="36.425335"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\mechanics_playground\y_vector_explained.png"
+       transform="scale(1.0008265,0.99917419)"><tspan
+         sodipodi:role="line"
+         id="tspan2146"
+         x="-1160.8108"
+         y="148.31969"
+         style="stroke-width:0.240651">右左x</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10.2469px;line-height:1.25;font-family:sans-serif;stroke-width:0.256173"
+       x="-1339.7448"
+       y="-21.45624"
+       id="text2152"
+       inkscape:export-xdpi="36.425335"
+       inkscape:export-ydpi="36.425335"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\mechanics_playground\y_vector_explained.png"
+       transform="scale(1.0008265,0.99917419)"><tspan
+         sodipodi:role="line"
+         id="tspan2150"
+         x="-1339.7448"
+         y="-21.45624"
+         style="stroke-width:0.256173">上下y</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:13.571px;line-height:1.25;font-family:sans-serif;stroke-width:0.339277"
+       x="-1274.0061"
+       y="55.370113"
+       id="text2164"
+       inkscape:export-xdpi="36.425335"
+       inkscape:export-ydpi="36.425335"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\mechanics_playground\y_vector_explained.png"><tspan
+         sodipodi:role="line"
+         id="tspan2162"
+         x="-1274.0061"
+         y="55.370113"
+         style="stroke-width:0.339277">向量[0, 800]</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10.5833px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="-1281.5189"
+       y="15.249538"
+       id="text2178"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\turtle_coordinate.png"
+       inkscape:export-xdpi="43.728325"
+       inkscape:export-ydpi="43.728325"><tspan
+         sodipodi:role="line"
+         id="tspan2176"
+         x="-1281.5189"
+         y="15.249538"
+         style="stroke-width:0.264583" /></text>
+    <g
+       id="g1706"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\mechanics_playground\y_vector_explained.png"
+       inkscape:export-xdpi="36.425335"
+       inkscape:export-ydpi="36.425335">
+      <path
+         style="fill:none;stroke:#27acff;stroke-width:7.8;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.63782054"
+         d="m -1326.1181,148.26818 -5e-4,129.73727"
+         id="path2170"
+         sodipodi:nodetypes="cc"
+         inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\turtle_coordinate.png"
+         inkscape:export-xdpi="43.728325"
+         inkscape:export-ydpi="43.728325" />
+      <path
+         style="fill:none;stroke:#27acff;stroke-width:7.8;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.63782054"
+         d="m -1326.1186,278.00545 -14.9671,-20.31248"
+         id="path1679"
+         sodipodi:nodetypes="cc"
+         inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\turtle_coordinate.png"
+         inkscape:export-xdpi="43.728325"
+         inkscape:export-ydpi="43.728325" />
+      <path
+         style="fill:none;stroke:#27acff;stroke-width:7.8;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.63782054"
+         d="m -1326.1186,278.00545 14.9671,-20.31248"
+         id="path1681"
+         sodipodi:nodetypes="cc"
+         inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\turtle_coordinate.png"
+         inkscape:export-xdpi="43.728325"
+         inkscape:export-ydpi="43.728325" />
+    </g>
+    <g
+       id="g1714"
+       transform="matrix(1,0,0,-1,0,296.53636)"
+       style="fill:none;fill-opacity:1;stroke:#29d749;stroke-opacity:0.63782054"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\mechanics_playground\y_vector_explained.png"
+       inkscape:export-xdpi="36.425335"
+       inkscape:export-ydpi="36.425335">
+      <path
+         style="fill:none;stroke:#29d749;stroke-width:7.8;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.63782054;fill-opacity:1"
+         d="m -1326.1181,148.26818 -5e-4,129.73727"
+         id="path1708"
+         sodipodi:nodetypes="cc"
+         inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\turtle_coordinate.png"
+         inkscape:export-xdpi="43.728325"
+         inkscape:export-ydpi="43.728325" />
+      <path
+         style="fill:none;stroke:#29d749;stroke-width:7.8;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.63782054;fill-opacity:1"
+         d="m -1326.1186,278.00545 -14.9671,-20.31248"
+         id="path1710"
+         sodipodi:nodetypes="cc"
+         inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\turtle_coordinate.png"
+         inkscape:export-xdpi="43.728325"
+         inkscape:export-ydpi="43.728325" />
+      <path
+         style="fill:none;stroke:#29d749;stroke-width:7.8;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.63782054;fill-opacity:1"
+         d="m -1326.1186,278.00545 14.9671,-20.31248"
+         id="path1712"
+         sodipodi:nodetypes="cc"
+         inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\turtle_coordinate.png"
+         inkscape:export-xdpi="43.728325"
+         inkscape:export-ydpi="43.728325" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:10.5833px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="-1263.1157"
+       y="80.18087"
+       id="text1718"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\mechanics_playground\y_vector_explained.png"
+       inkscape:export-xdpi="36.425335"
+       inkscape:export-ydpi="36.425335"><tspan
+         sodipodi:role="line"
+         id="tspan1716"
+         x="-1263.1157"
+         y="80.18087"
+         style="stroke-width:0.264583">大小: 800</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10.5833px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="-1262.5814"
+       y="98.355194"
+       id="text1722"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\mechanics_playground\y_vector_explained.png"
+       inkscape:export-xdpi="36.425335"
+       inkscape:export-ydpi="36.425335"><tspan
+         sodipodi:role="line"
+         id="tspan1720"
+         x="-1262.5814"
+         y="98.355194"
+         style="stroke-width:0.264583">方向: 向上</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.665;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker1760)"
+       d="m -1252.6489,15.35103 c 16.0709,17.951316 13.6829,17.66087 13.5612,24.849546"
+       id="path1724"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\mechanics_playground\y_vector_explained.png"
+       inkscape:export-xdpi="36.425335"
+       inkscape:export-ydpi="36.425335" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.665;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker1754)"
+       d="m -1191.0648,17.221917 c -16.6054,10.200499 -16.0883,15.789983 -15.9666,22.978659"
+       id="path1750"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\mechanics_playground\y_vector_explained.png"
+       inkscape:export-xdpi="36.425335"
+       inkscape:export-ydpi="36.425335" />
+    <text
+       xml:space="preserve"
+       style="font-size:10.5833px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="-1255.8997"
+       y="12.294404"
+       id="text1966"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\mechanics_playground\y_vector_explained.png"
+       inkscape:export-xdpi="36.425335"
+       inkscape:export-ydpi="36.425335"><tspan
+         sodipodi:role="line"
+         id="tspan1964"
+         x="-1255.8997"
+         y="12.294404"
+         style="stroke-width:0.264583">x</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10.5833px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="-1192.5568"
+       y="13.096212"
+       id="text1982"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\mechanics_playground\y_vector_explained.png"
+       inkscape:export-xdpi="36.425335"
+       inkscape:export-ydpi="36.425335"><tspan
+         sodipodi:role="line"
+         id="tspan1980"
+         x="-1192.5568"
+         y="13.096212"
+         style="stroke-width:0.264583">y</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:13.571px;line-height:1.25;font-family:sans-serif;stroke-width:0.339277"
+       x="-1272.4025"
+       y="216.8009"
+       id="text1998"
+       inkscape:export-xdpi="36.425335"
+       inkscape:export-ydpi="36.425335"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\mechanics_playground\y_vector_explained.png"><tspan
+         sodipodi:role="line"
+         id="tspan1996"
+         x="-1272.4025"
+         y="216.8009"
+         style="stroke-width:0.339277">向量[0, -800]</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10.5833px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="-1261.5121"
+       y="238.89287"
+       id="text2002"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\mechanics_playground\y_vector_explained.png"
+       inkscape:export-xdpi="36.425335"
+       inkscape:export-ydpi="36.425335"><tspan
+         sodipodi:role="line"
+         id="tspan2000"
+         x="-1261.5121"
+         y="238.89287"
+         style="stroke-width:0.264583">大小: 800</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10.5833px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="-1262.0468"
+       y="254.13512"
+       id="text2006"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\mechanics_playground\y_vector_explained.png"
+       inkscape:export-xdpi="36.425335"
+       inkscape:export-ydpi="36.425335"><tspan
+         sodipodi:role="line"
+         id="tspan2004"
+         x="-1262.0468"
+         y="254.13512"
+         style="stroke-width:0.264583">方向: 向下</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.813;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker2188)"
+       d="M -774.98874,144.90979 H -1093.4228"
+       id="path2092"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\mechanics_playground\x_vector_explained.png"
+       inkscape:export-xdpi="36.425335"
+       inkscape:export-ydpi="36.425335" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.813;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker2178)"
+       d="m -934.20594,-14.30726 v 318.4341"
+       id="path2094"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\mechanics_playground\x_vector_explained.png"
+       inkscape:export-xdpi="36.425335"
+       inkscape:export-ydpi="36.425335" />
+    <text
+       xml:space="preserve"
+       style="font-size:9.626px;line-height:1.25;font-family:sans-serif;stroke-width:0.240651"
+       x="-768.78314"
+       y="148.31969"
+       id="text2098"
+       inkscape:export-xdpi="36.425335"
+       inkscape:export-ydpi="36.425335"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\mechanics_playground\x_vector_explained.png"
+       transform="scale(1.0008265,0.99917419)"><tspan
+         sodipodi:role="line"
+         id="tspan2096"
+         x="-768.78314"
+         y="148.31969"
+         style="stroke-width:0.240651">右左x</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10.2469px;line-height:1.25;font-family:sans-serif;stroke-width:0.256173"
+       x="-947.7171"
+       y="-21.45624"
+       id="text2102"
+       inkscape:export-xdpi="36.425335"
+       inkscape:export-ydpi="36.425335"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\mechanics_playground\x_vector_explained.png"
+       transform="scale(1.0008265,0.99917419)"><tspan
+         sodipodi:role="line"
+         id="tspan2100"
+         x="-947.7171"
+         y="-21.45624"
+         style="stroke-width:0.256173">上下y</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:13.571px;line-height:1.25;font-family:sans-serif;stroke-width:0.339277"
+       x="-881.65442"
+       y="62.853661"
+       id="text2106"
+       inkscape:export-xdpi="36.425335"
+       inkscape:export-ydpi="36.425335"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\mechanics_playground\x_vector_explained.png"><tspan
+         sodipodi:role="line"
+         id="tspan2104"
+         x="-881.65442"
+         y="62.853661"
+         style="stroke-width:0.339277">向量[800, 0]</tspan></text>
+    <g
+       id="g2504"
+       transform="rotate(90,-932.43062,146.93182)"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\mechanics_playground\x_vector_explained.png"
+       inkscape:export-xdpi="36.425335"
+       inkscape:export-ydpi="36.425335">
+      <g
+         id="g2114"
+         inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\mechanics_playground\y_vector_explained.png"
+         inkscape:export-xdpi="36.425335"
+         inkscape:export-ydpi="36.425335"
+         transform="translate(392.35164,3.5e-5)">
+        <path
+           style="fill:none;stroke:#27acff;stroke-width:7.8;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.637821"
+           d="m -1326.1181,148.26818 -5e-4,129.73727"
+           id="path2108"
+           sodipodi:nodetypes="cc"
+           inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\turtle_coordinate.png"
+           inkscape:export-xdpi="43.728325"
+           inkscape:export-ydpi="43.728325" />
+        <path
+           style="fill:none;stroke:#27acff;stroke-width:7.8;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.637821"
+           d="m -1326.1186,278.00545 -14.9671,-20.31248"
+           id="path2110"
+           sodipodi:nodetypes="cc"
+           inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\turtle_coordinate.png"
+           inkscape:export-xdpi="43.728325"
+           inkscape:export-ydpi="43.728325" />
+        <path
+           style="fill:none;stroke:#27acff;stroke-width:7.8;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.637821"
+           d="m -1326.1186,278.00545 14.9671,-20.31248"
+           id="path2112"
+           sodipodi:nodetypes="cc"
+           inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\turtle_coordinate.png"
+           inkscape:export-xdpi="43.728325"
+           inkscape:export-ydpi="43.728325" />
+      </g>
+      <g
+         id="g2122"
+         transform="matrix(1,0,0,-1,392.35162,296.53631)"
+         style="fill:none;fill-opacity:1;stroke:#29d749;stroke-opacity:0.637821"
+         inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\mechanics_playground\y_vector_explained.png"
+         inkscape:export-xdpi="36.425335"
+         inkscape:export-ydpi="36.425335">
+        <path
+           style="fill:none;fill-opacity:1;stroke:#29d749;stroke-width:7.8;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.637821"
+           d="m -1326.1181,148.26818 -5e-4,129.73727"
+           id="path2116"
+           sodipodi:nodetypes="cc"
+           inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\turtle_coordinate.png"
+           inkscape:export-xdpi="43.728325"
+           inkscape:export-ydpi="43.728325" />
+        <path
+           style="fill:none;fill-opacity:1;stroke:#29d749;stroke-width:7.8;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.637821"
+           d="m -1326.1186,278.00545 -14.9671,-20.31248"
+           id="path2118"
+           sodipodi:nodetypes="cc"
+           inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\turtle_coordinate.png"
+           inkscape:export-xdpi="43.728325"
+           inkscape:export-ydpi="43.728325" />
+        <path
+           style="fill:none;fill-opacity:1;stroke:#29d749;stroke-width:7.8;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.637821"
+           d="m -1326.1186,278.00545 14.9671,-20.31248"
+           id="path2120"
+           sodipodi:nodetypes="cc"
+           inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\turtle_coordinate.png"
+           inkscape:export-xdpi="43.728325"
+           inkscape:export-ydpi="43.728325" />
+      </g>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:10.5833px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="-870.76404"
+       y="87.664413"
+       id="text2126"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\mechanics_playground\x_vector_explained.png"
+       inkscape:export-xdpi="36.425335"
+       inkscape:export-ydpi="36.425335"><tspan
+         sodipodi:role="line"
+         id="tspan2124"
+         x="-870.76404"
+         y="87.664413"
+         style="stroke-width:0.264583">大小: 800</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10.5833px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="-870.22974"
+       y="105.83874"
+       id="text2130"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\mechanics_playground\x_vector_explained.png"
+       inkscape:export-xdpi="36.425335"
+       inkscape:export-ydpi="36.425335"><tspan
+         sodipodi:role="line"
+         id="tspan2128"
+         x="-870.22974"
+         y="105.83874"
+         style="stroke-width:0.264583">方向: 向右</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:13.571px;line-height:1.25;font-family:sans-serif;stroke-width:0.339277"
+       x="-1054.845"
+       y="64.991814"
+       id="text2146"
+       inkscape:export-xdpi="36.425335"
+       inkscape:export-ydpi="36.425335"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\mechanics_playground\x_vector_explained.png"><tspan
+         sodipodi:role="line"
+         id="tspan2144"
+         x="-1054.845"
+         y="64.991814"
+         style="stroke-width:0.339277">向量[-800, 0]</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10.5833px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="-1043.9546"
+       y="87.083778"
+       id="text2150"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\mechanics_playground\x_vector_explained.png"
+       inkscape:export-xdpi="36.425335"
+       inkscape:export-ydpi="36.425335"><tspan
+         sodipodi:role="line"
+         id="tspan2148"
+         x="-1043.9546"
+         y="87.083778"
+         style="stroke-width:0.264583">大小: 800</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10.5833px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="-1044.4893"
+       y="102.32603"
+       id="text2154"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\mechanics_playground\x_vector_explained.png"
+       inkscape:export-xdpi="36.425335"
+       inkscape:export-ydpi="36.425335"><tspan
+         sodipodi:role="line"
+         id="tspan2152"
+         x="-1044.4893"
+         y="102.32603"
+         style="stroke-width:0.264583">方向: 向左</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.665;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker2542)"
+       d="m -861.90085,26.041811 c 16.0709,17.951316 13.6829,17.66087 13.5612,24.849546"
+       id="path2518"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\mechanics_playground\x_vector_explained.png"
+       inkscape:export-xdpi="36.425335"
+       inkscape:export-ydpi="36.425335" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.665;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker2532)"
+       d="m -800.31675,27.912698 c -16.6054,10.200499 -16.0883,15.789983 -15.9666,22.978659"
+       id="path2520"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\mechanics_playground\x_vector_explained.png"
+       inkscape:export-xdpi="36.425335"
+       inkscape:export-ydpi="36.425335" />
+    <text
+       xml:space="preserve"
+       style="font-size:10.5833px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="-865.15161"
+       y="22.985186"
+       id="text2524"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\mechanics_playground\x_vector_explained.png"
+       inkscape:export-xdpi="36.425335"
+       inkscape:export-ydpi="36.425335"><tspan
+         sodipodi:role="line"
+         id="tspan2522"
+         x="-865.15161"
+         y="22.985186"
+         style="stroke-width:0.264583">x</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10.5833px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="-801.80872"
+       y="23.786993"
+       id="text2528"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\mechanics_playground\x_vector_explained.png"
+       inkscape:export-xdpi="36.425335"
+       inkscape:export-ydpi="36.425335"><tspan
+         sodipodi:role="line"
+         id="tspan2526"
+         x="-801.80872"
+         y="23.786993"
+         style="stroke-width:0.264583">y</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.813;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker1856)"
+       d="m -1614.2151,145.97886 -160.2105,0"
+       id="path1173"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\mechanics_playground\mouse_vector_from_origin.png"
+       inkscape:export-xdpi="43.728325"
+       inkscape:export-ydpi="43.728325"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.813;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker1982)"
+       d="m -1773.4323,-13.238181 0,160.210531"
+       id="path1175"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\mechanics_playground\mouse_vector_from_origin.png"
+       inkscape:export-xdpi="43.728325"
+       inkscape:export-ydpi="43.728325"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-size:9.626px;line-height:1.25;font-family:sans-serif;stroke-width:0.240651"
+       x="-1607.3164"
+       y="149.38965"
+       id="text1179"
+       inkscape:export-xdpi="43.728325"
+       inkscape:export-ydpi="43.728325"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\mechanics_playground\mouse_vector_from_origin.png"
+       transform="scale(1.0008265,0.99917419)"><tspan
+         sodipodi:role="line"
+         id="tspan1177"
+         x="-1607.3164"
+         y="149.38965"
+         style="stroke-width:0.240651">右左x</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10.2469px;line-height:1.25;font-family:sans-serif;stroke-width:0.256173"
+       x="-1786.2504"
+       y="-20.386278"
+       id="text1183"
+       inkscape:export-xdpi="43.728325"
+       inkscape:export-ydpi="43.728325"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\mechanics_playground\mouse_vector_from_origin.png"
+       transform="scale(1.0008265,0.99917419)"><tspan
+         sodipodi:role="line"
+         id="tspan1181"
+         x="-1786.2504"
+         y="-20.386278"
+         style="stroke-width:0.256173">上下y</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10.0999px;line-height:1.25;font-family:sans-serif;text-align:center;text-anchor:middle;stroke-width:0.252499"
+       x="-1799.1929"
+       y="135.07849"
+       id="text1400"
+       inkscape:export-xdpi="43.728325"
+       inkscape:export-ydpi="43.728325"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\mechanics_playground\mouse_vector_from_origin.png"><tspan
+         sodipodi:role="line"
+         id="tspan1398"
+         x="-1799.1929"
+         y="135.07849"
+         style="text-align:center;text-anchor:middle;stroke-width:0.252499">發射位置</tspan><tspan
+         sodipodi:role="line"
+         x="-1799.1929"
+         y="148.76649"
+         style="text-align:center;text-anchor:middle;stroke-width:0.252499"
+         id="tspan23511">[0, 0]</tspan></text>
+    <circle
+       style="opacity:0.770936;fill:#ff8b05;fill-opacity:1;stroke:none;stroke-width:5.39292;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="circle10636"
+       cx="-1684.0604"
+       cy="24.485659"
+       r="8.1264877"
+       inkscape:export-xdpi="43.728325"
+       inkscape:export-ydpi="43.728325"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\mechanics_playground\mouse_vector_from_origin.png" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#29d749;stroke-width:3;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.637821"
+       d="m -1684.1542,143.44895 -4e-4,-115.793568"
+       id="path10638"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\mechanics_playground\mouse_vector_from_origin.png"
+       inkscape:export-xdpi="43.728325"
+       inkscape:export-ydpi="43.728325" />
+    <g
+       id="g10652"
+       transform="matrix(0,0.67874051,0.69431187,0,-1873.8073,1045.6776)"
+       style="fill:none;fill-opacity:1;stroke:#29d749;stroke-opacity:0.637821;stroke-width:4.37010704;stroke-miterlimit:4;stroke-dasharray:none"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\mechanics_playground\mouse_vector_from_origin.png"
+       inkscape:export-xdpi="43.728325"
+       inkscape:export-ydpi="43.728325">
+      <path
+         style="fill:none;fill-opacity:1;stroke:#29d749;stroke-width:4.37011;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.637821"
+         d="m -1326.1181,148.26818 -5e-4,125.51825"
+         id="path10646"
+         sodipodi:nodetypes="cc"
+         inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\turtle_coordinate.png"
+         inkscape:export-xdpi="43.728325"
+         inkscape:export-ydpi="43.728325" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:10.087px;line-height:1.25;font-family:sans-serif;stroke-width:0.252176"
+       x="-1660.0012"
+       y="47.653652"
+       id="text10736"
+       inkscape:export-xdpi="43.728325"
+       inkscape:export-ydpi="43.728325"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\mechanics_playground\mouse_vector_from_origin.png"><tspan
+         sodipodi:role="line"
+         id="tspan10734"
+         x="-1660.0012"
+         y="47.653652"
+         style="stroke-width:0.252176">作為速度向量</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10.5833px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="-1662.1493"
+       y="35.012314"
+       id="text12218"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\mechanics_playground\mouse_vector_from_origin.png"
+       inkscape:export-xdpi="43.728325"
+       inkscape:export-ydpi="43.728325"><tspan
+         sodipodi:role="line"
+         id="tspan12216"
+         x="-1662.1493"
+         y="35.012314"
+         style="stroke-width:0.264583">滑鼠座標[x, y]</tspan></text>
+    <g
+       id="g12912"
+       transform="matrix(0.87250687,0,0,-0.89252354,-614.07477,275.78179)"
+       style="fill:none;fill-opacity:1;stroke:#29d749;stroke-opacity:0.637821"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\mechanics_playground\mouse_vector_from_origin.png"
+       inkscape:export-xdpi="43.728325"
+       inkscape:export-ydpi="43.728325">
+      <g
+         id="g13187"
+         transform="matrix(0.81525545,-0.66039244,0.79850071,0.94203118,-371.12052,-859.25616)">
+        <path
+           style="fill:#ff0000;fill-opacity:1;stroke:#d729c0;stroke-width:7.8;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.637821"
+           d="m -1316.3856,145.23666 -9.733,132.76879"
+           id="path12906"
+           sodipodi:nodetypes="cc"
+           inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\turtle_coordinate.png"
+           inkscape:export-xdpi="43.728325"
+           inkscape:export-ydpi="43.728325" />
+        <path
+           style="fill:#ff0000;fill-opacity:1;stroke:#d729c0;stroke-width:6.66024;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.637821"
+           d="m -1325.8123,280.37205 -12.7801,-17.34436"
+           id="path12908"
+           sodipodi:nodetypes="cc"
+           inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\turtle_coordinate.png"
+           inkscape:export-xdpi="43.728325"
+           inkscape:export-ydpi="43.728325" />
+        <path
+           style="fill:#ff0000;fill-opacity:1;stroke:#d729c0;stroke-width:6.66024;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.637821"
+           d="m -1325.8123,280.37205 12.7801,-17.34436"
+           id="path12910"
+           sodipodi:nodetypes="cc"
+           inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\turtle_coordinate.png"
+           inkscape:export-xdpi="43.728325"
+           inkscape:export-ydpi="43.728325" />
+      </g>
+    </g>
+    <g
+       id="g14749"
+       transform="matrix(0.89142012,0,0,0.89142012,-215.96798,-9.2771682)"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\mechanics_playground\mouse_vector_from_origin.png"
+       inkscape:export-xdpi="43.728325"
+       inkscape:export-ydpi="43.728325">
+      <path
+         id="path13794"
+         style="fill:#010000;fill-opacity:1;stroke:#000000;stroke-width:0.581081;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.637821;filter:url(#filter14743)"
+         inkscape:transform-center-y="-0.97147245"
+         d="m -1643.851,39.5711 2.0318,12.829712 3.4665,-2.639974 4.314,5.664668 2.8631,-2.180441 -4.314,-5.664669 3.4666,-2.639983 z"
+         inkscape:transform-center-x="0.43924539" />
+      <path
+         id="path14161"
+         style="fill:#ffffff;stroke:#000000;stroke-width:0.581081;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.637821"
+         inkscape:transform-center-y="-0.97147245"
+         d="m -1643.5837,38.769291 2.0318,12.829712 3.4665,-2.639974 4.314,5.664668 2.8631,-2.180441 -4.314,-5.664669 3.4666,-2.639983 z"
+         inkscape:transform-center-x="0.43924539" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:9.626px;line-height:1.25;font-family:sans-serif;stroke-width:0.240651"
+       x="-1728.2894"
+       y="158.21683"
+       id="text19795"
+       inkscape:export-xdpi="43.728325"
+       inkscape:export-ydpi="43.728325"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\mechanics_playground\mouse_vector_from_origin.png"
+       transform="scale(1.0008265,0.99917419)"><tspan
+         sodipodi:role="line"
+         id="tspan19793"
+         x="-1728.2894"
+         y="158.21683"
+         style="stroke-width:0.240651">x</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:9.626px;line-height:1.25;font-family:sans-serif;stroke-width:0.240651"
+       x="-1673.2773"
+       y="92.949165"
+       id="text20725"
+       inkscape:export-xdpi="43.728325"
+       inkscape:export-ydpi="43.728325"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\mechanics_playground\mouse_vector_from_origin.png"
+       transform="scale(1.0008265,0.99917419)"><tspan
+         sodipodi:role="line"
+         id="tspan20723"
+         x="-1673.2773"
+         y="92.949165"
+         style="stroke-width:0.240651">y</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10.087px;line-height:1.25;font-family:sans-serif;stroke-width:0.252176"
+       x="-1753.6044"
+       y="45.544731"
+       id="text22773"
+       inkscape:export-xdpi="43.728325"
+       inkscape:export-ydpi="43.728325"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\mechanics_playground\mouse_vector_from_origin.png"
+       transform="rotate(-1.1595738)"><tspan
+         sodipodi:role="line"
+         id="tspan22771"
+         x="-1753.6044"
+         y="45.544731"
+         style="stroke-width:0.252176">速度</tspan></text>
+    <circle
+       style="opacity:0.770936;fill:#ff8b05;fill-opacity:1;stroke:none;stroke-width:5.39292;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="circle25259"
+       cx="-2054.3662"
+       cy="145.99879"
+       r="8.1264877"
+       inkscape:export-xdpi="43.728325"
+       inkscape:export-ydpi="43.728325"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\mechanics_playground\mouse_vector_from_middle_bottom.png" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.813;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker1856)"
+       d="m -1938.413,145.97886 h -205.3791"
+       id="path25261"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\mechanics_playground\mouse_vector_from_middle_bottom.png"
+       inkscape:export-xdpi="43.728325"
+       inkscape:export-ydpi="43.728325"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.813;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker1982)"
+       d="M -2142.7988,-13.238181 V 146.97235"
+       id="path25263"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\mechanics_playground\mouse_vector_from_middle_bottom.png"
+       inkscape:export-xdpi="43.728325"
+       inkscape:export-ydpi="43.728325"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-size:9.626px;line-height:1.25;font-family:sans-serif;stroke-width:0.240651"
+       x="-1932.3148"
+       y="149.38965"
+       id="text25267"
+       inkscape:export-xdpi="43.728325"
+       inkscape:export-ydpi="43.728325"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\mechanics_playground\mouse_vector_from_middle_bottom.png"
+       transform="scale(1.0008265,0.99917419)"><tspan
+         sodipodi:role="line"
+         id="tspan25265"
+         x="-1932.3148"
+         y="149.38965"
+         style="stroke-width:0.240651">右左x</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10.2469px;line-height:1.25;font-family:sans-serif;stroke-width:0.256173"
+       x="-2155.312"
+       y="-20.386278"
+       id="text25271"
+       inkscape:export-xdpi="43.728325"
+       inkscape:export-ydpi="43.728325"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\mechanics_playground\mouse_vector_from_middle_bottom.png"
+       transform="scale(1.0008265,0.99917419)"><tspan
+         sodipodi:role="line"
+         id="tspan25269"
+         x="-2155.312"
+         y="-20.386278"
+         style="stroke-width:0.256173">上下y</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10.0999px;line-height:1.25;font-family:sans-serif;text-align:center;text-anchor:middle;stroke-width:0.252499"
+       x="-2098.2676"
+       y="140.15659"
+       id="text25277"
+       inkscape:export-xdpi="43.728325"
+       inkscape:export-ydpi="43.728325"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\mechanics_playground\mouse_vector_from_middle_bottom.png"><tspan
+         sodipodi:role="line"
+         x="-2098.2676"
+         y="140.15659"
+         style="text-align:center;text-anchor:middle;stroke-width:0.252499"
+         id="tspan25275">發射位置[400, 0]</tspan></text>
+    <circle
+       style="opacity:0.770936;fill:#ff8b05;fill-opacity:1;stroke:none;stroke-width:5.39292;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="circle25279"
+       cx="-2000.5077"
+       cy="26.356544"
+       r="8.1264877"
+       inkscape:export-xdpi="43.728325"
+       inkscape:export-ydpi="43.728325"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\mechanics_playground\mouse_vector_from_middle_bottom.png" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#29d749;stroke-width:3;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.637821"
+       d="m -1999.7995,143.44895 -4e-4,-115.793568"
+       id="path25281"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\mechanics_playground\mouse_vector_from_middle_bottom.png"
+       inkscape:export-xdpi="43.728325"
+       inkscape:export-ydpi="43.728325" />
+    <g
+       id="g25285"
+       transform="matrix(0,0.67874051,0.69431187,0,-2157.3803,1045.9449)"
+       style="fill:none;fill-opacity:1;stroke:#29d749;stroke-width:4.37011;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.637821"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\mechanics_playground\mouse_vector_from_middle_bottom.png"
+       inkscape:export-xdpi="43.728325"
+       inkscape:export-ydpi="43.728325">
+      <path
+         style="fill:none;fill-opacity:1;stroke:#29d749;stroke-width:4.37011;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.637821"
+         d="m -1326.1181,148.26818 -5e-4,78.74784"
+         id="path25283"
+         sodipodi:nodetypes="cc"
+         inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\turtle_coordinate.png"
+         inkscape:export-xdpi="43.728325"
+         inkscape:export-ydpi="43.728325" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:10.087px;line-height:1.25;font-family:sans-serif;stroke-width:0.252176"
+       x="-1982.8629"
+       y="41.506451"
+       id="text25289"
+       inkscape:export-xdpi="43.728325"
+       inkscape:export-ydpi="43.728325"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\mechanics_playground\mouse_vector_from_middle_bottom.png"><tspan
+         sodipodi:role="line"
+         id="tspan25287"
+         x="-1982.8629"
+         y="41.506451"
+         style="stroke-width:0.252176">作為速度向量需</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10.5833px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="-1983.4072"
+       y="28.865116"
+       id="text25293"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\mechanics_playground\mouse_vector_from_middle_bottom.png"
+       inkscape:export-xdpi="43.728325"
+       inkscape:export-ydpi="43.728325"><tspan
+         sodipodi:role="line"
+         id="tspan25291"
+         x="-1983.4072"
+         y="28.865116"
+         style="stroke-width:0.264583">滑鼠位置[x, y]</tspan></text>
+    <g
+       id="g25303"
+       transform="matrix(0.87250687,0,0,-0.89252354,-929.45281,278.18722)"
+       style="fill:none;fill-opacity:1;stroke:#29d749;stroke-opacity:0.637821"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\mechanics_playground\mouse_vector_from_middle_bottom.png"
+       inkscape:export-xdpi="43.728325"
+       inkscape:export-ydpi="43.728325">
+      <g
+         id="g25301"
+         transform="matrix(0.81525545,-0.66039244,0.79850071,0.94203118,-371.12052,-859.25616)">
+        <path
+           style="fill:#ff0000;fill-opacity:1;stroke:#d729c0;stroke-width:7.8;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.637821"
+           d="m -1289.4935,167.26768 -36.6251,110.73777"
+           id="path25295"
+           sodipodi:nodetypes="cc"
+           inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\turtle_coordinate.png"
+           inkscape:export-xdpi="43.728325"
+           inkscape:export-ydpi="43.728325" />
+        <path
+           style="fill:#ff0000;fill-opacity:1;stroke:#d729c0;stroke-width:6.66024;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.637821"
+           d="m -1326.2868,277.47389 -7.3799,-19.46146"
+           id="path25297"
+           sodipodi:nodetypes="cc"
+           inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\turtle_coordinate.png"
+           inkscape:export-xdpi="43.728325"
+           inkscape:export-ydpi="43.728325" />
+        <path
+           style="fill:#ff0000;fill-opacity:1;stroke:#d729c0;stroke-width:6.66024;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.637821"
+           d="m -1326.2868,277.47389 17.4046,-14.17453"
+           id="path25299"
+           sodipodi:nodetypes="cc"
+           inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\turtle_coordinate.png"
+           inkscape:export-xdpi="43.728325"
+           inkscape:export-ydpi="43.728325" />
+      </g>
+    </g>
+    <g
+       id="g25309"
+       transform="matrix(0.89142012,0,0,0.89142012,-534.55325,-8.4753597)"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\mechanics_playground\mouse_vector_from_middle_bottom.png"
+       inkscape:export-xdpi="43.728325"
+       inkscape:export-ydpi="43.728325">
+      <path
+         id="path25305"
+         style="fill:#010000;fill-opacity:1;stroke:#000000;stroke-width:0.581081;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.637821;filter:url(#filter14743)"
+         inkscape:transform-center-y="-0.97147245"
+         d="m -1643.851,39.5711 2.0318,12.829712 3.4665,-2.639974 4.314,5.664668 2.8631,-2.180441 -4.314,-5.664669 3.4666,-2.639983 z"
+         inkscape:transform-center-x="0.43924539" />
+      <path
+         id="path25307"
+         style="fill:#ffffff;stroke:#000000;stroke-width:0.581081;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.637821"
+         inkscape:transform-center-y="-0.97147245"
+         d="m -1643.5837,38.769291 2.0318,12.829712 3.4665,-2.639974 4.314,5.664668 2.8631,-2.180441 -4.314,-5.664669 3.4666,-2.639983 z"
+         inkscape:transform-center-x="0.43924539" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:9.626px;line-height:1.25;font-family:sans-serif;stroke-width:0.240651"
+       x="-2031.1227"
+       y="142.1674"
+       id="text25313"
+       inkscape:export-xdpi="43.728325"
+       inkscape:export-ydpi="43.728325"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\mechanics_playground\mouse_vector_from_middle_bottom.png"
+       transform="scale(1.0008265,0.99917419)"><tspan
+         sodipodi:role="line"
+         id="tspan25311"
+         x="-2031.1227"
+         y="142.1674"
+         style="stroke-width:0.240651">x-400</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:9.626px;line-height:1.25;font-family:sans-serif;stroke-width:0.240651"
+       x="-1994.0029"
+       y="96.426544"
+       id="text25317"
+       inkscape:export-xdpi="43.728325"
+       inkscape:export-ydpi="43.728325"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\mechanics_playground\mouse_vector_from_middle_bottom.png"
+       transform="scale(1.0008265,0.99917419)"><tspan
+         sodipodi:role="line"
+         id="tspan25315"
+         x="-1994.0029"
+         y="96.426544"
+         style="stroke-width:0.240651">y</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10.087px;line-height:1.25;font-family:sans-serif;stroke-width:0.252176"
+       x="-2058.1245"
+       y="47.400631"
+       id="text25321"
+       inkscape:export-xdpi="43.728325"
+       inkscape:export-ydpi="43.728325"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\mechanics_playground\mouse_vector_from_middle_bottom.png"
+       transform="rotate(-1.1595738)"><tspan
+         sodipodi:role="line"
+         id="tspan25319"
+         x="-2058.1245"
+         y="47.400631"
+         style="stroke-width:0.252176">速度</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10.5833px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="-1982.8727"
+       y="55.592068"
+       id="text34609"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\mechanics_playground\mouse_vector_from_middle_bottom.png"
+       inkscape:export-xdpi="43.728325"
+       inkscape:export-ydpi="43.728325"><tspan
+         sodipodi:role="line"
+         id="tspan34607"
+         x="-1982.8727"
+         y="55.592068"
+         style="stroke-width:0.264583">修正成[x-400, y]</tspan></text>
+    <g
+       id="g35863"
+       transform="matrix(0,0.67874051,0.69431187,0,-2245.0447,1060.1102)"
+       style="fill:none;fill-opacity:1;stroke:#29d749;stroke-width:4.37011;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.637821"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\mechanics_playground\mouse_vector_from_middle_bottom.png"
+       inkscape:export-xdpi="43.728325"
+       inkscape:export-ydpi="43.728325">
+      <path
+         style="fill:none;fill-opacity:1;stroke:#0dcbff;stroke-width:4.37011;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.637821"
+         d="m -1316.6676,148.26818 -5e-4,126.86554"
+         id="path35861"
+         sodipodi:nodetypes="cc"
+         inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\turtle_coordinate.png"
+         inkscape:export-xdpi="43.728325"
+         inkscape:export-ydpi="43.728325" />
+      <path
+         style="fill:none;fill-opacity:1;stroke:#0dcaff;stroke-width:4.37011;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.639216"
+         d="m -1292.6475,148.26818 -5e-4,204.2388"
+         id="path36078"
+         sodipodi:nodetypes="cc"
+         inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\turtle_coordinate.png"
+         inkscape:export-xdpi="43.728325"
+         inkscape:export-ydpi="43.728325" />
+      <path
+         style="fill:none;fill-opacity:1;stroke:#030303;stroke-width:1.4567;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:5.82681, 5.82681;stroke-dashoffset:0;stroke-opacity:1"
+         d="m -1316.2738,276.83868 -5e-4,75.28336"
+         id="path38651"
+         sodipodi:nodetypes="cc"
+         inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\turtle_coordinate.png"
+         inkscape:export-xdpi="43.728325"
+         inkscape:export-ydpi="43.728325" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:9.626px;line-height:1.25;font-family:sans-serif;stroke-width:0.240651"
+       x="-2104.8281"
+       y="169.45143"
+       id="text37757"
+       inkscape:export-xdpi="43.728325"
+       inkscape:export-ydpi="43.728325"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\mechanics_playground\mouse_vector_from_middle_bottom.png"
+       transform="scale(1.0008265,0.99917419)"><tspan
+         sodipodi:role="line"
+         id="tspan37755"
+         x="-2104.8281"
+         y="169.45143"
+         style="stroke-width:0.240651">400</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:9.626px;line-height:1.25;font-family:sans-serif;stroke-width:0.240651"
+       x="-2074.1174"
+       y="185.23335"
+       id="text38145"
+       inkscape:export-xdpi="43.728325"
+       inkscape:export-ydpi="43.728325"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\mechanics_playground\mouse_vector_from_middle_bottom.png"
+       transform="scale(1.0008265,0.99917419)"><tspan
+         sodipodi:role="line"
+         id="tspan38143"
+         x="-2074.1174"
+         y="185.23335"
+         style="stroke-width:0.240651">x</tspan></text>
+    <g
+       id="g43827"
+       transform="matrix(-0.41375102,0.35023123,0.41794733,0.34671481,-2685.8161,726.06022)"
+       style="fill:none;fill-opacity:1;stroke:#29d749;stroke-opacity:0.637821"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\mechanics_playground\y_vector_explained.png"
+       inkscape:export-xdpi="36.425335"
+       inkscape:export-ydpi="36.425335" />
+    <rect
+       style="fill:#95f383;fill-opacity:1;stroke:#000000;stroke-width:2.165;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1856"
+       width="144.3869"
+       height="139.85118"
+       x="-1760.7144"
+       y="400.67453"
+       transform="rotate(4.2340954)"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\collision_thought.png"
+       inkscape:export-xdpi="43.728325"
+       inkscape:export-ydpi="43.728325" />
+    <circle
+       style="fill:#9dbbff;fill-opacity:1;stroke:#0065ff;stroke-width:3.765;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path1730"
+       cx="-1838.0983"
+       cy="357.1875"
+       r="52.538689"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\collision_thought.png"
+       inkscape:export-xdpi="43.728325"
+       inkscape:export-ydpi="43.728325" />
+    <path
+       sodipodi:type="star"
+       style="fill:#ff2200;fill-opacity:1;stroke:#ffea35;stroke-width:8.18268;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path4532"
+       inkscape:flatsided="false"
+       sodipodi:sides="11"
+       sodipodi:cx="-7362.8569"
+       sodipodi:cy="1128.5714"
+       sodipodi:r1="178.38277"
+       sodipodi:r2="89.191376"
+       sodipodi:arg1="1.0138948"
+       sodipodi:arg2="1.2994941"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m -7268.5712,1280 -70.3837,-65.4996 -26.4523,92.4355 -23.7988,-93.154 -72.2275,63.4605 30.3421,-91.2327 -95.071,14.3372 74.8495,-60.3457 -87.7301,-39.338 95.5927,-10.2993 -52.5355,-80.5238 85.986,43.017 -0.6613,-96.1437 49.0793,82.6758 51.4229,-81.23881 -3.4098,96.08551 87.1808,-40.541 -54.8163,78.9888 95.2593,13.0281 -88.819,36.8137 73.0936,62.461 -94.6222,-17.0494 z"
+       transform="matrix(0.26458333,0,-0.0390216,0.26458333,201.06102,57.452381)"
+       inkscape:transform-center-x="10.119794"
+       inkscape:transform-center-y="-0.78575514"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\collision_thought.png"
+       inkscape:export-xdpi="43.728325"
+       inkscape:export-ydpi="43.728325" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2.565;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m -1865.6905,340.93451 h -80.8869"
+       id="path5241"
+       inkscape:path-effect="#path-effect5243"
+       inkscape:original-d="m -1865.6905,340.93451 c -26.962,2.7e-4 -53.9243,2.7e-4 -80.8869,0"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\collision_thought.png"
+       inkscape:export-xdpi="43.728325"
+       inkscape:export-ydpi="43.728325" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2.565;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m -1864.9345,360.58927 h -94.4941"
+       id="path5245"
+       inkscape:path-effect="#path-effect5247"
+       inkscape:original-d="m -1864.9345,360.58927 c -31.4977,2.6e-4 -62.9958,2.6e-4 -94.4941,0"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\collision_thought.png"
+       inkscape:export-xdpi="43.728325"
+       inkscape:export-ydpi="43.728325" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2.565;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m -1871.7381,377.97618 h -61.9881"
+       id="path5249"
+       inkscape:path-effect="#path-effect5251"
+       inkscape:original-d="m -1871.7381,377.97618 c -20.1584,2.6e-4 -41.3251,2.6e-4 -61.9881,0"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\collision_thought.png"
+       inkscape:export-xdpi="43.728325"
+       inkscape:export-ydpi="43.728325" />
+    <text
+       xml:space="preserve"
+       style="font-size:19.7639px;line-height:1.25;font-family:sans-serif;text-align:center;text-anchor:middle;stroke-width:0.4941"
+       x="-1926.1016"
+       y="325.32141"
+       id="text6919"
+       inkscape:export-xdpi="43.728325"
+       inkscape:export-ydpi="43.728325"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\collision_thought.png"><tspan
+         sodipodi:role="line"
+         x="-1926.1016"
+         y="325.32141"
+         style="text-align:center;text-anchor:middle;stroke-width:0.4941"
+         id="tspan6917">撞擊物體</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:19.7639px;line-height:1.25;font-family:sans-serif;text-align:center;text-anchor:middle;stroke-width:0.4941"
+       x="-1696.292"
+       y="318.13986"
+       id="text9595"
+       inkscape:export-xdpi="43.728325"
+       inkscape:export-ydpi="43.728325"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\collision_thought.png"><tspan
+         sodipodi:role="line"
+         x="-1696.292"
+         y="318.13986"
+         style="text-align:center;text-anchor:middle;stroke-width:0.4941"
+         id="tspan9593">障礙物</tspan></text>
+  </g>
+</svg>
