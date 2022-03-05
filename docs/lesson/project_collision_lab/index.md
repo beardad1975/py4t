@@ -3,7 +3,7 @@ hide:
   - navigation
 ---
 
-# 📚專題：物理射擊實驗室
+# 📚專題：物理撞擊實驗室
 
 ----------------------------
 ##  📕 引言 
@@ -20,7 +20,7 @@ hide:
 
 在正面、後面與測面撞擊的測試中，車子與障礙物的質量、速度、方向、結構、材料…等，都會影響撞擊結果，從車內假人身上的感測器，也可以了解撞擊過程中，對人類身體的影響。
 
-在之前的學習中，相信各位已經練習與運動相關物理量的設置與模擬。請利用所學，做出一個**與物理碰撞模擬有關的程式，並探討影響碰撞的各種因素**。
+在之前的學習中，相信各位已經練習過運動物理量的設置與模擬。在本專題中，請做出一個**與物理撞擊模擬有關的程式**。
 
 
 ??? quote "建議先備課程"
@@ -45,7 +45,7 @@ hide:
 ##  📙 問題 
 ----------------------------
 
-首先，將碰撞模擬中的物體分成「撞擊物體」與「障礙物」。
+首先，將撞擊模擬的物體分成「撞擊物」與「障礙物」，分別以圓形及方形做為代表。
 
 <br/>
 
@@ -54,14 +54,14 @@ hide:
 
 接著思考以下的問題：
 
-* 撞擊物體的運動方式有哪些呢？
+* 撞擊物的運動有哪些性質呢？
 
-* 障礙物的結構有哪些形式？
+* 障礙物的結構要如何設計？
 
-* 哪些因素會影響碰撞的結果？
+* 哪些因素會影響撞擊的結果？
 
 
-還有想到其他與碰撞模擬相關的問題嗎？
+還有想到其他與撞擊模擬相關的問題嗎？
 
 
 <br/><br/><br/> 
@@ -74,7 +74,7 @@ hide:
 
 <br/>
 
-撞擊物體的運動相關性質：
+撞擊物的運動相關性質：
 
 : :fontawesome-solid-long-arrow-alt-right: <a href="https://zh.wikipedia.org/wiki/%E6%85%A3%E6%80%A7" target="_blank">維基百科: 慣性</a>
 
@@ -84,6 +84,8 @@ hide:
 : :fontawesome-solid-long-arrow-alt-right: <a href="https://zh.wikipedia.org/wiki/%E6%8B%8B%E9%AB%94" target="_blank">維基百科: 拋體</a>
 
 : :fontawesome-solid-long-arrow-alt-right: <a href="https://www.zetria.org/view.php?subj=physics&chap=lfym2aorgz" target="_blank">學呀: 拋物線運動</a>
+
+
 
 
 <br/>
@@ -103,8 +105,8 @@ hide:
 
 可能會影響碰撞的因素：
 
+: :fontawesome-solid-long-arrow-alt-right:  <a href="https://zh.wikipedia.org/wiki/%E4%BD%93%E7%A7%AF" target="_blank">維基百科: 體積</a>
 
-: :fontawesome-solid-long-arrow-alt-right:  <a href="https://zh.wikipedia.org/wiki/%E5%86%B2%E9%87%8F" target="_blank">維基百科: 衝量</a>
 
 : :fontawesome-solid-long-arrow-alt-right:  <a href="https://zh.wikipedia.org/wiki/%E8%B3%AA%E9%87%8F%E8%88%87%E9%87%8D%E9%87%8F%E7%9A%84%E6%AF%94%E8%BC%83" target="_blank">維基百科: 質量與重量的比較</a>
 
@@ -113,9 +115,8 @@ hide:
 
 : :fontawesome-solid-long-arrow-alt-right:  <a href="https://lis.org.tw/post/00000175" target="_blank">LIS情境科學教材: 浮力與密度-阿基米德</a>
 
-: :fontawesome-solid-long-arrow-alt-right:  <a href="https://zh.wikipedia.org/wiki/%E5%BD%88%E6%80%A7%E7%A2%B0%E6%92%9E" target="_blank">維基百科: 彈性碰撞</a>
+: :fontawesome-solid-long-arrow-alt-right:  <a href="https://zh.wikipedia.org/wiki/%E5%86%B2%E9%87%8F" target="_blank">維基百科: 衝量</a>
 
-: :fontawesome-solid-long-arrow-alt-right: <a href="https://www.youtube.com/watch?v=Bhm3iPFqYEo" target="_blank">youtube: 均一教育平台【八下理化】【觀念】摩擦力</a>
 
 除了以上的資料，還有沒有其他的參考資料？找到資料後，要怎麼運用這些資料呢？
 
@@ -126,9 +127,7 @@ hide:
 ##  📒 規劃
 ----------------------------
 
-為了讓碰撞模擬在操作上更為多變化與增加互動，撞擊物體會採用「射擊」的方式來設計，從左向右發射。
-
-當我們施力在撞擊物體上，它會產生速度並移動，物體同時也會受到重力的影響，產生如下的拋物線軌跡：
+為了讓碰撞模擬在操作上有多變性與互動性，撞擊物的設計在點擊滑鼠時會從左向右射出，當一開始施力於撞擊物時，跟據牛頓運動定關，會產生加速度並且移動，物體運動的同時也會受到重力的影響，產生如下的拋物線軌跡：
 
 <br/> 
 
@@ -136,12 +135,12 @@ hide:
 
 <br/>
 
-由上圖可以得知，讓撞擊物體增加一些向上的力量，可以讓物體射擊的軌跡可以較遠且不會飛得太高。
+由上圖可以得知，讓撞擊物的開始方向稍微斜上，可以讓運動的軌跡不會降低太快也不會飛得太高。
 
 <br/>
 <br/>
 
-接下來是障礙物的設計，在參考一些常見的建築結構後，會採用以下的3個障礙物設計，提供撞擊物體做不同的碰撞模擬：
+接下來是障礙物的設計，在參考相關資料並簡化後，採用3種障礙物設計，供撞擊物做不同的碰撞模擬：
 
 <br/> 
 
@@ -150,7 +149,7 @@ hide:
 <br/>
 <br/>
 
-撞擊物體以滑鼠控制，設置障礙物以鍵盤控製，如下圖設計：
+撞擊物以滑鼠控制，障礙物以鍵盤設置，模擬操作的設計構想如下圖：
 
 <br/>
 
@@ -158,7 +157,7 @@ hide:
 
 <br/>
 
-經過以上的規畫，接下來可以動手寫程式了。
+初步完成規畫後，接下來可以動手寫程式了。
 
 <br/><br/><br/> 
 

@@ -39,10 +39,10 @@ hide:
     學習物理程式，做出彈性、斜面、拋體與重力等模擬程式。
     :fontawesome-solid-long-arrow-alt-right: <a href="mechanics_playground/" target="_blank">「力與運動遊樂場」</a>
 
-??? abstract  "專題 - 物理射擊實驗室 "    
+??? abstract  "專題 - 物理撞擊實驗室 "    
     
 
-    : 　 :fontawesome-solid-long-arrow-alt-right: <a href="project_shoot_lab/" target="_blank">「物理射擊實驗室」</a>
+    : 　 :fontawesome-solid-long-arrow-alt-right: <a href="project_collision_lab/" target="_blank">「物理撞擊實驗室」</a>
 
 
 

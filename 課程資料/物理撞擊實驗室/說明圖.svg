@@ -744,8 +744,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.12374369"
-     inkscape:cx="-6012.4279"
-     inkscape:cy="4743.6763"
+     inkscape:cx="-3547.6556"
+     inkscape:cy="3943.6354"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -778,10 +778,10 @@
        id="rect25068"
        width="41.359573"
        height="41.359573"
-       x="-1381.9556"
-       y="1533.6595"
+       x="-1368.0575"
+       y="1550.7649"
        ry="12.089723"
-       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\operation.png"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\operation.png"
        inkscape:export-xdpi="14.701098"
        inkscape:export-ydpi="14.701098" />
     <path
@@ -1856,14 +1856,14 @@
        inkscape:export-xdpi="36.425335"
        inkscape:export-ydpi="36.425335" />
     <rect
-       style="fill:#95f383;fill-opacity:1;stroke:#000000;stroke-width:2.165;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#95f383;fill-opacity:1;stroke:#127f05;stroke-width:2.165;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect1856"
-       width="144.3869"
+       width="144.38699"
        height="139.85118"
        x="-1760.7144"
        y="400.67453"
        transform="rotate(4.2340954)"
-       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\collision_thought.png"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\collision_thought.png"
        inkscape:export-xdpi="43.728325"
        inkscape:export-ydpi="43.728325" />
     <circle
@@ -1872,7 +1872,7 @@
        cx="-1838.0983"
        cy="357.1875"
        r="52.538689"
-       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\collision_thought.png"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\collision_thought.png"
        inkscape:export-xdpi="43.728325"
        inkscape:export-ydpi="43.728325" />
     <path
@@ -1893,7 +1893,7 @@
        transform="matrix(0.26458333,0,-0.0390216,0.26458333,201.06102,57.452381)"
        inkscape:transform-center-x="10.119794"
        inkscape:transform-center-y="-0.78575514"
-       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\collision_thought.png"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\collision_thought.png"
        inkscape:export-xdpi="43.728325"
        inkscape:export-ydpi="43.728325" />
     <path
@@ -1902,7 +1902,7 @@
        id="path5241"
        inkscape:path-effect="#path-effect5243"
        inkscape:original-d="m -1865.6905,340.93451 c -26.962,2.7e-4 -53.9243,2.7e-4 -80.8869,0"
-       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\collision_thought.png"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\collision_thought.png"
        inkscape:export-xdpi="43.728325"
        inkscape:export-ydpi="43.728325" />
     <path
@@ -1911,7 +1911,7 @@
        id="path5245"
        inkscape:path-effect="#path-effect5247"
        inkscape:original-d="m -1864.9345,360.58927 c -31.4977,2.6e-4 -62.9958,2.6e-4 -94.4941,0"
-       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\collision_thought.png"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\collision_thought.png"
        inkscape:export-xdpi="43.728325"
        inkscape:export-ydpi="43.728325" />
     <path
@@ -1920,7 +1920,7 @@
        id="path5249"
        inkscape:path-effect="#path-effect5251"
        inkscape:original-d="m -1871.7381,377.97618 c -20.1584,2.6e-4 -41.3251,2.6e-4 -61.9881,0"
-       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\collision_thought.png"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\collision_thought.png"
        inkscape:export-xdpi="43.728325"
        inkscape:export-ydpi="43.728325" />
     <text
@@ -1931,12 +1931,12 @@
        id="text6919"
        inkscape:export-xdpi="43.728325"
        inkscape:export-ydpi="43.728325"
-       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\collision_thought.png"><tspan
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\collision_thought.png"><tspan
          sodipodi:role="line"
          x="-1926.1016"
          y="325.32141"
          style="text-align:center;text-anchor:middle;stroke-width:0.4941"
-         id="tspan6917">撞擊物體</tspan></text>
+         id="tspan6917">撞擊物</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:19.7639px;line-height:1.25;font-family:sans-serif;text-align:center;text-anchor:middle;stroke-width:0.4941"
@@ -1945,7 +1945,7 @@
        id="text9595"
        inkscape:export-xdpi="43.728325"
        inkscape:export-ydpi="43.728325"
-       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\collision_thought.png"><tspan
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\collision_thought.png"><tspan
          sodipodi:role="line"
          x="-1696.292"
          y="318.13986"
@@ -2095,7 +2095,7 @@
        height="50.782265"
        x="-576.48041"
        y="831.10291"
-       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\obstacle_type.png"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\obstacle_type.png"
        inkscape:export-xdpi="20.950556"
        inkscape:export-ydpi="20.950556" />
     <rect
@@ -2105,7 +2105,7 @@
        height="50.782265"
        x="-576.48041"
        y="780.32062"
-       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\obstacle_type.png"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\obstacle_type.png"
        inkscape:export-xdpi="20.950556"
        inkscape:export-ydpi="20.950556" />
     <rect
@@ -2115,7 +2115,7 @@
        height="50.782265"
        x="-576.48041"
        y="729.53833"
-       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\obstacle_type.png"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\obstacle_type.png"
        inkscape:export-xdpi="20.950556"
        inkscape:export-ydpi="20.950556" />
     <rect
@@ -2125,7 +2125,7 @@
        height="50.782265"
        x="-576.48041"
        y="678.75604"
-       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\obstacle_type.png"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\obstacle_type.png"
        inkscape:export-xdpi="20.950556"
        inkscape:export-ydpi="20.950556" />
     <rect
@@ -2135,7 +2135,7 @@
        height="50.782265"
        x="-409.41492"
        y="831.10291"
-       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\obstacle_type.png"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\obstacle_type.png"
        inkscape:export-xdpi="20.950556"
        inkscape:export-ydpi="20.950556" />
     <rect
@@ -2145,7 +2145,7 @@
        height="50.782265"
        x="-409.41492"
        y="780.32062"
-       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\obstacle_type.png"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\obstacle_type.png"
        inkscape:export-xdpi="20.950556"
        inkscape:export-ydpi="20.950556" />
     <rect
@@ -2155,7 +2155,7 @@
        height="50.782265"
        x="-409.41492"
        y="729.53833"
-       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\obstacle_type.png"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\obstacle_type.png"
        inkscape:export-xdpi="20.950556"
        inkscape:export-ydpi="20.950556" />
     <rect
@@ -2165,7 +2165,7 @@
        height="50.782265"
        x="-409.41492"
        y="678.75604"
-       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\obstacle_type.png"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\obstacle_type.png"
        inkscape:export-xdpi="20.950556"
        inkscape:export-ydpi="20.950556" />
     <rect
@@ -2175,7 +2175,7 @@
        height="50.782265"
        x="-358.63266"
        y="831.10291"
-       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\obstacle_type.png"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\obstacle_type.png"
        inkscape:export-xdpi="20.950556"
        inkscape:export-ydpi="20.950556" />
     <rect
@@ -2185,7 +2185,7 @@
        height="50.782265"
        x="-358.63266"
        y="780.32062"
-       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\obstacle_type.png"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\obstacle_type.png"
        inkscape:export-xdpi="20.950556"
        inkscape:export-ydpi="20.950556" />
     <rect
@@ -2195,7 +2195,7 @@
        height="50.782265"
        x="-358.63266"
        y="729.53833"
-       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\obstacle_type.png"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\obstacle_type.png"
        inkscape:export-xdpi="20.950556"
        inkscape:export-ydpi="20.950556" />
     <rect
@@ -2205,7 +2205,7 @@
        height="50.782265"
        x="-358.63266"
        y="678.75604"
-       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\obstacle_type.png"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\obstacle_type.png"
        inkscape:export-xdpi="20.950556"
        inkscape:export-ydpi="20.950556" />
     <rect
@@ -2215,7 +2215,7 @@
        height="50.782265"
        x="-307.8504"
        y="831.10291"
-       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\obstacle_type.png"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\obstacle_type.png"
        inkscape:export-xdpi="20.950556"
        inkscape:export-ydpi="20.950556" />
     <rect
@@ -2225,7 +2225,7 @@
        height="50.782265"
        x="-307.8504"
        y="780.32062"
-       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\obstacle_type.png"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\obstacle_type.png"
        inkscape:export-xdpi="20.950556"
        inkscape:export-ydpi="20.950556" />
     <rect
@@ -2235,7 +2235,7 @@
        height="50.782265"
        x="-307.8504"
        y="729.53833"
-       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\obstacle_type.png"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\obstacle_type.png"
        inkscape:export-xdpi="20.950556"
        inkscape:export-ydpi="20.950556" />
     <rect
@@ -2245,7 +2245,7 @@
        height="50.782265"
        x="-307.8504"
        y="678.75604"
-       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\obstacle_type.png"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\obstacle_type.png"
        inkscape:export-xdpi="20.950556"
        inkscape:export-ydpi="20.950556" />
     <rect
@@ -2255,7 +2255,7 @@
        height="50.782265"
        x="-181.11729"
        y="831.10291"
-       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\obstacle_type.png"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\obstacle_type.png"
        inkscape:export-xdpi="20.950556"
        inkscape:export-ydpi="20.950556" />
     <rect
@@ -2265,7 +2265,7 @@
        height="50.782265"
        x="-130.33504"
        y="831.10291"
-       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\obstacle_type.png"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\obstacle_type.png"
        inkscape:export-xdpi="20.950556"
        inkscape:export-ydpi="20.950556" />
     <rect
@@ -2275,7 +2275,7 @@
        height="50.782265"
        x="-79.55278"
        y="831.10291"
-       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\obstacle_type.png"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\obstacle_type.png"
        inkscape:export-xdpi="20.950556"
        inkscape:export-ydpi="20.950556" />
     <rect
@@ -2285,7 +2285,7 @@
        height="50.782265"
        x="-28.770515"
        y="831.10291"
-       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\obstacle_type.png"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\obstacle_type.png"
        inkscape:export-xdpi="20.950556"
        inkscape:export-ydpi="20.950556" />
     <rect
@@ -2295,7 +2295,7 @@
        height="50.782265"
        x="-153.76956"
        y="780.32062"
-       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\obstacle_type.png"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\obstacle_type.png"
        inkscape:export-xdpi="20.950556"
        inkscape:export-ydpi="20.950556" />
     <rect
@@ -2305,7 +2305,7 @@
        height="50.782265"
        x="-102.9873"
        y="780.32062"
-       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\obstacle_type.png"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\obstacle_type.png"
        inkscape:export-xdpi="20.950556"
        inkscape:export-ydpi="20.950556" />
     <rect
@@ -2315,7 +2315,7 @@
        height="50.782265"
        x="-52.20504"
        y="780.32062"
-       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\obstacle_type.png"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\obstacle_type.png"
        inkscape:export-xdpi="20.950556"
        inkscape:export-ydpi="20.950556" />
     <rect
@@ -2325,7 +2325,7 @@
        height="50.782265"
        x="-126.42182"
        y="729.53833"
-       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\obstacle_type.png"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\obstacle_type.png"
        inkscape:export-xdpi="20.950556"
        inkscape:export-ydpi="20.950556" />
     <rect
@@ -2335,7 +2335,7 @@
        height="50.782265"
        x="-75.639565"
        y="729.53833"
-       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\obstacle_type.png"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\obstacle_type.png"
        inkscape:export-xdpi="20.950556"
        inkscape:export-ydpi="20.950556" />
     <rect
@@ -2345,7 +2345,7 @@
        height="50.782265"
        x="-100.58599"
        y="678.75604"
-       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\obstacle_type.png"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\obstacle_type.png"
        inkscape:export-xdpi="20.950556"
        inkscape:export-ydpi="20.950556" />
     <text
@@ -2356,12 +2356,12 @@
        id="text13745"
        inkscape:export-xdpi="20.950556"
        inkscape:export-ydpi="20.950556"
-       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\obstacle_type.png"><tspan
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\obstacle_type.png"><tspan
          sodipodi:role="line"
          x="-554.57422"
          y="937.15942"
          style="text-align:center;text-anchor:middle;stroke-width:0.77041"
-         id="tspan13743">柱形</tspan></text>
+         id="tspan13743">柱子</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:30.8163px;line-height:1.25;font-family:sans-serif;text-align:center;text-anchor:middle;stroke-width:0.77041"
@@ -2370,12 +2370,12 @@
        id="text14631"
        inkscape:export-xdpi="20.950556"
        inkscape:export-ydpi="20.950556"
-       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\obstacle_type.png"><tspan
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\obstacle_type.png"><tspan
          sodipodi:role="line"
          x="-336.10397"
          y="937.15942"
          style="text-align:center;text-anchor:middle;stroke-width:0.77041"
-         id="tspan14629">方陣形</tspan></text>
+         id="tspan14629">牆面</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:30.8163px;line-height:1.25;font-family:sans-serif;text-align:center;text-anchor:middle;stroke-width:0.77041"
@@ -2384,12 +2384,12 @@
        id="text15205"
        inkscape:export-xdpi="20.950556"
        inkscape:export-ydpi="20.950556"
-       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\obstacle_type.png"><tspan
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\obstacle_type.png"><tspan
          sodipodi:role="line"
          x="-76.056351"
          y="937.15942"
          style="text-align:center;text-anchor:middle;stroke-width:0.77041"
-         id="tspan15203">金字塔形</tspan></text>
+         id="tspan15203">金字塔</tspan></text>
     <rect
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.9521;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect17431"
@@ -2397,7 +2397,7 @@
        height="379.60098"
        x="-2054.7349"
        y="1079.4435"
-       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\operation.png"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\operation.png"
        inkscape:export-xdpi="14.701098"
        inkscape:export-ydpi="14.701098" />
     <path
@@ -2405,7 +2405,7 @@
        d="m -2043.283,1181.7916 c 178.0413,-107.4179 350.9158,95.313 320.7235,99.4243 v -1.0691"
        id="path17535"
        sodipodi:nodetypes="ccc"
-       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\operation.png"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\operation.png"
        inkscape:export-xdpi="14.701098"
        inkscape:export-ydpi="14.701098" />
     <circle
@@ -2414,14 +2414,14 @@
        cx="-2053.6775"
        cy="1181.0636"
        r="21.52206"
-       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\operation.png"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\operation.png"
        inkscape:export-xdpi="14.701098"
        inkscape:export-ydpi="14.701098" />
     <g
        id="g17545"
        transform="matrix(0.68577225,-0.230488,0.230488,0.68577225,-810.60818,265.29649)"
        style="stroke:#b81139;stroke-opacity:1"
-       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\operation.png"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\operation.png"
        inkscape:export-xdpi="14.701098"
        inkscape:export-ydpi="14.701098">
       <path
@@ -2452,7 +2452,7 @@
     <g
        id="g1368"
        transform="matrix(1.6896564,0,0,1.6896564,953.908,1110.7856)"
-       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\operation.png"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\operation.png"
        inkscape:export-xdpi="14.701098"
        inkscape:export-ydpi="14.701098">
       <path
@@ -2473,28 +2473,28 @@
        style="mix-blend-mode:normal;fill:#666666;fill-opacity:1;stroke:none;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter43524)"
        d="m -8016.5703,1159.6543 c -58.201,0 -105.0547,46.8557 -105.0547,105.0566 v 24.2422 125.2598 c 0,58.201 46.8537,105.0566 105.0547,105.0566 h 32.3262 c 58.2009,0 105.0546,-46.8556 105.0546,-105.0566 v -125.2598 -24.2422 c 0,-58.2009 -46.8537,-105.0566 -105.0546,-105.0566 h -16.1641 z"
        transform="matrix(0.26458333,0,0,0.26458333,16.738683,1184.1203)"
-       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\operation.png"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\operation.png"
        inkscape:export-xdpi="14.701098"
        inkscape:export-ydpi="14.701098" />
     <path
        id="rect42961"
        style="fill:#ffffff;fill-opacity:1;stroke:#030303;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="m -2069.0326,1523.0178 h -64.1444 v 33.1416 c 0,15.3991 12.3967,27.7963 27.7957,27.7963 h 8.553 c 15.399,0 27.7957,-12.3972 27.7957,-27.7963 z"
-       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\operation.png"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\operation.png"
        inkscape:export-xdpi="14.701098"
        inkscape:export-ydpi="14.701098" />
     <path
        id="path43232"
        style="fill:#b3b3b3;fill-opacity:1;stroke:#030303;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="m -2101.1051,1488.8075 h -4.2762 c -15.3989,0 -27.7957,12.3972 -27.7957,27.7962 v 6.4141 h 32.0719 z"
-       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\operation.png"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\operation.png"
        inkscape:export-xdpi="14.701098"
        inkscape:export-ydpi="14.701098" />
     <path
        id="path43352"
        style="fill:#ffffff;fill-opacity:1;stroke:#030303;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="m -2101.1051,1488.8075 v 34.2103 h 32.0725 v -6.4141 c 0,-15.399 -12.3966,-27.7962 -27.7957,-27.7962 z"
-       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\operation.png"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\operation.png"
        inkscape:export-xdpi="14.701098"
        inkscape:export-ydpi="14.701098" />
     <rect
@@ -2505,7 +2505,7 @@
        x="-2105.3813"
        y="1497.8945"
        ry="4.2763124"
-       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\operation.png"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\operation.png"
        inkscape:export-xdpi="14.701098"
        inkscape:export-ydpi="14.701098" />
     <path
@@ -2514,23 +2514,28 @@
        id="path43641"
        inkscape:path-effect="#path-effect43643-5"
        inkscape:original-d="m -2101.1101,1488.3531 c -0.7557,-4.9134 -1.7636,-9.8271 -2.6459,-14.741 -0.8822,-4.914 5.292,-5.0394 7.9375,-7.5595 2.6456,-2.5201 -1.7636,-7.0553 -2.6458,-10.5834 -0.8822,-3.528 -0.2516,-0.5037 -0.378,-0.7559"
-       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\operation.png"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\operation.png"
        inkscape:export-xdpi="14.701098"
        inkscape:export-ydpi="14.701098" />
     <text
        xml:space="preserve"
-       style="font-size:30.8163px;line-height:1.25;font-family:sans-serif;text-align:center;text-anchor:middle;stroke-width:0.77041"
-       x="-1829.11"
-       y="1552.5046"
+       style="font-size:30.8163px;line-height:1.25;font-family:sans-serif;text-align:start;text-anchor:start;stroke-width:0.77041"
+       x="-2057.3123"
+       y="1526.8468"
        id="text17596"
        inkscape:export-xdpi="14.701098"
        inkscape:export-ydpi="14.701098"
-       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\operation.png"><tspan
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\operation.png"><tspan
          sodipodi:role="line"
-         x="-1829.11"
-         y="1552.5046"
-         style="text-align:center;text-anchor:middle;stroke-width:0.77041"
-         id="tspan17594">滑鼠點擊時，物體從左向右發射</tspan></text>
+         x="-2057.3123"
+         y="1526.8468"
+         style="text-align:start;text-anchor:start;stroke-width:0.77041"
+         id="tspan17594">滑鼠點擊時，撞擊物從左向右發射</tspan><tspan
+         sodipodi:role="line"
+         x="-2057.3123"
+         y="1568.611"
+         style="text-align:start;text-anchor:start;stroke-width:0.77041"
+         id="tspan4155">並依滑鼠位置決定高度</tspan></text>
     <rect
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.9521;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect18204"
@@ -2538,7 +2543,7 @@
        height="379.60098"
        x="-1363.7944"
        y="1079.4435"
-       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\operation.png"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\operation.png"
        inkscape:export-xdpi="14.701098"
        inkscape:export-ydpi="14.701098" />
     <path
@@ -2546,7 +2551,7 @@
        d="m -2011.0919,1409.8445 303.2362,-4e-4"
        id="path18208"
        sodipodi:nodetypes="cc"
-       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\operation.png"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\operation.png"
        inkscape:export-xdpi="14.701098"
        inkscape:export-ydpi="14.701098" />
     <path
@@ -2554,13 +2559,13 @@
        d="m -1299.0859,1409.8445 303.23622,-4e-4"
        id="path19090"
        sodipodi:nodetypes="cc"
-       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\operation.png"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\operation.png"
        inkscape:export-xdpi="14.701098"
        inkscape:export-ydpi="14.701098" />
     <g
        id="g19096"
        transform="matrix(1.6896564,0,0,1.6896564,1624.22,1336.3611)"
-       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\operation.png"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\operation.png"
        inkscape:export-xdpi="14.701098"
        inkscape:export-ydpi="14.701098">
       <path
@@ -2583,7 +2588,7 @@
        height="50.782265"
        x="-1152.8717"
        y="1351.0856"
-       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\operation.png"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\operation.png"
        inkscape:export-xdpi="14.701098"
        inkscape:export-ydpi="14.701098" />
     <rect
@@ -2593,7 +2598,7 @@
        height="50.782265"
        x="-1152.8717"
        y="1300.3033"
-       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\operation.png"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\operation.png"
        inkscape:export-xdpi="14.701098"
        inkscape:export-ydpi="14.701098" />
     <rect
@@ -2603,7 +2608,7 @@
        height="50.782265"
        x="-1152.8717"
        y="1249.521"
-       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\operation.png"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\operation.png"
        inkscape:export-xdpi="14.701098"
        inkscape:export-ydpi="14.701098" />
     <rect
@@ -2613,99 +2618,85 @@
        height="50.782265"
        x="-1152.8717"
        y="1198.7388"
-       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\operation.png"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\operation.png"
        inkscape:export-xdpi="14.701098"
        inkscape:export-ydpi="14.701098" />
     <text
        xml:space="preserve"
        style="font-size:30.8163px;line-height:1.25;font-family:sans-serif;text-align:center;text-anchor:middle;stroke-width:0.77041"
-       x="-1150.7958"
-       y="1508.704"
+       x="-1154.0031"
+       y="1516.1876"
        id="text19108"
        inkscape:export-xdpi="14.701098"
        inkscape:export-ydpi="14.701098"
-       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\operation.png"><tspan
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\operation.png"><tspan
          sodipodi:role="line"
-         x="-1150.7958"
-         y="1508.704"
+         x="-1154.0031"
+         y="1516.1876"
          style="text-align:center;text-anchor:middle;stroke-width:0.77041"
-         id="tspan19106">按下鍵盤時，設置障礙物</tspan></text>
+         id="tspan19106">按鍵盤方向鍵時，設置障礙物於滑鼠位置</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:30.8163px;line-height:1.25;font-family:sans-serif;text-align:center;text-anchor:middle;stroke-width:0.77041"
-       x="-1305.991"
-       y="1566.264"
+       x="-1292.0929"
+       y="1583.392"
        id="text19940"
        inkscape:export-xdpi="14.701098"
        inkscape:export-ydpi="14.701098"
-       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\operation.png"><tspan
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\operation.png"><tspan
          sodipodi:role="line"
-         x="-1305.991"
-         y="1566.264"
+         x="-1292.0929"
+         y="1583.392"
          style="text-align:center;text-anchor:middle;stroke-width:0.77041"
-         id="tspan19938">柱形</tspan></text>
+         id="tspan19938">柱子</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:30.8163px;line-height:1.25;font-family:sans-serif;text-align:center;text-anchor:middle;stroke-width:0.77041"
-       x="-1159.1461"
-       y="1566.264"
+       x="-1153.8007"
+       y="1583.2642"
        id="text19944"
        inkscape:export-xdpi="14.701098"
        inkscape:export-ydpi="14.701098"
-       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\operation.png"><tspan
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\operation.png"><tspan
          sodipodi:role="line"
-         x="-1159.1461"
-         y="1566.264"
+         x="-1153.8007"
+         y="1583.2642"
          style="text-align:center;text-anchor:middle;stroke-width:0.77041"
-         id="tspan19942">方陣形</tspan></text>
+         id="tspan19942">牆面</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:30.8163px;line-height:1.25;font-family:sans-serif;text-align:center;text-anchor:middle;stroke-width:0.77041"
-       x="-986.763"
-       y="1566.2791"
+       x="-998.52289"
+       y="1583.3995"
        id="text19948"
        inkscape:export-xdpi="14.701098"
        inkscape:export-ydpi="14.701098"
-       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\operation.png"><tspan
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\operation.png"><tspan
          sodipodi:role="line"
-         x="-986.763"
-         y="1566.2791"
+         x="-998.52289"
+         y="1583.3995"
          style="text-align:center;text-anchor:middle;stroke-width:0.77041"
-         id="tspan19946">金字塔形</tspan></text>
+         id="tspan19946">金字塔</tspan></text>
     <rect
        style="fill:#f4f4f4;fill-opacity:1;stroke:#656363;stroke-width:1.662;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect19972"
        width="41.359573"
        height="41.359573"
-       x="-1383.9009"
-       y="1533.6595"
+       x="-1370.0028"
+       y="1550.7649"
        ry="12.089723"
-       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\operation.png"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\operation.png"
        inkscape:export-xdpi="14.701098"
        inkscape:export-ydpi="14.701098" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:34.5171px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:0.639216;stroke-width:0.862929"
-       x="-1364.1161"
-       y="1566.7439"
-       id="text20490"
-       inkscape:export-xdpi="14.701098"
-       inkscape:export-ydpi="14.701098"
-       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\operation.png"><tspan
-         sodipodi:role="line"
-         x="-1364.1161"
-         y="1566.7439"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:34.5171px;font-family:Arial;-inkscape-font-specification:'Arial, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:0.639216;stroke-width:0.862929"
-         id="tspan20488">1</tspan></text>
     <rect
        style="mix-blend-mode:normal;fill:#414141;fill-opacity:1;stroke:none;stroke-width:1.662;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.639216;filter:url(#filter26050)"
        id="rect27232"
        width="41.359573"
        height="41.359573"
-       x="-1249.3899"
-       y="1533.6595"
+       x="-1235.4918"
+       y="1550.7649"
        ry="12.089723"
-       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\operation.png"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\operation.png"
        inkscape:export-xdpi="14.701098"
        inkscape:export-ydpi="14.701098" />
     <rect
@@ -2713,35 +2704,21 @@
        id="rect27234"
        width="41.359573"
        height="41.359573"
-       x="-1251.3352"
-       y="1533.6595"
+       x="-1237.4371"
+       y="1550.7649"
        ry="12.089723"
-       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\operation.png"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\operation.png"
        inkscape:export-xdpi="14.701098"
        inkscape:export-ydpi="14.701098" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:34.5171px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:0.639216;stroke-width:0.862929"
-       x="-1231.5504"
-       y="1566.7439"
-       id="text27238"
-       inkscape:export-xdpi="14.701098"
-       inkscape:export-ydpi="14.701098"
-       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\operation.png"><tspan
-         sodipodi:role="line"
-         x="-1231.5504"
-         y="1566.7439"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:34.5171px;font-family:Arial;-inkscape-font-specification:'Arial, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:0.639216;stroke-width:0.862929"
-         id="tspan27236">2</tspan></text>
     <rect
        style="mix-blend-mode:normal;fill:#414141;fill-opacity:1;stroke:none;stroke-width:1.662;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.639216;filter:url(#filter26050)"
        id="rect27918"
        width="41.359573"
        height="41.359573"
-       x="-1095.9772"
-       y="1533.6595"
+       x="-1098.1152"
+       y="1550.7649"
        ry="12.089723"
-       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\operation.png"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\operation.png"
        inkscape:export-xdpi="14.701098"
        inkscape:export-ydpi="14.701098" />
     <rect
@@ -2749,25 +2726,51 @@
        id="rect27920"
        width="41.359573"
        height="41.359573"
-       x="-1097.9225"
-       y="1533.6595"
+       x="-1100.0605"
+       y="1550.7649"
        ry="12.089723"
-       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\operation.png"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\operation.png"
        inkscape:export-xdpi="14.701098"
        inkscape:export-ydpi="14.701098" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:34.5171px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:0.639216;stroke-width:0.862929"
-       x="-1078.1377"
-       y="1566.5332"
-       id="text27924"
+    <path
+       id="path14130"
+       style="fill:#b3b3b3;stroke:#000000;stroke-width:0.981827;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.637821"
+       inkscape:transform-center-y="0.16922755"
+       d="m -1361.9631,1572.416 19.287,10.475 0.027,-7.3623 0.023,-6.0808 0.028,-7.3624 z"
+       inkscape:transform-center-x="2.4995454"
+       sodipodi:nodetypes="cccccc"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\operation.png"
        inkscape:export-xdpi="14.701098"
-       inkscape:export-ydpi="14.701098"
-       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\operation.png"><tspan
-         sodipodi:role="line"
-         x="-1078.1377"
-         y="1566.5332"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:34.5171px;font-family:Arial;-inkscape-font-specification:'Arial, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:0.639216;stroke-width:0.862929"
-         id="tspan27922">3</tspan></text>
+       inkscape:export-ydpi="14.701098" />
+    <path
+       id="path14816"
+       style="fill:#b3b3b3;stroke:#000000;stroke-width:0.981827;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.637821"
+       inkscape:transform-center-y="0.16922755"
+       d="m -1361.9631,1572.416 19.287,10.475 0.027,-7.3623 0.023,-6.0808 0.028,-7.3624 z"
+       inkscape:transform-center-x="2.4995454"
+       sodipodi:nodetypes="cccccc"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\operation.png"
+       inkscape:export-xdpi="14.701098"
+       inkscape:export-ydpi="14.701098" />
+    <path
+       id="path14818"
+       style="fill:#b3b3b3;stroke:#000000;stroke-width:0.981827;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.637821"
+       inkscape:transform-center-y="0.16922755"
+       d="m -1207.8942,1572.416 -19.287,10.475 -0.027,-7.3623 -0.023,-6.0808 -0.028,-7.3624 z"
+       inkscape:transform-center-x="-2.4995912"
+       sodipodi:nodetypes="cccccc"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\operation.png"
+       inkscape:export-xdpi="14.701098"
+       inkscape:export-ydpi="14.701098" />
+    <path
+       id="path14820"
+       style="fill:#b3b3b3;stroke:#000000;stroke-width:0.981827;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.637821"
+       inkscape:transform-center-y="-2.4996224"
+       d="m -1081.5337,1560.1369 10.475,19.287 -7.3623,0.027 -6.0808,0.023 -7.3624,0.028 z"
+       inkscape:transform-center-x="-0.1692412"
+       sodipodi:nodetypes="cccccc"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\operation.png"
+       inkscape:export-xdpi="14.701098"
+       inkscape:export-ydpi="14.701098" />
   </g>
 </svg>
