@@ -70,6 +70,54 @@ hide:
 ##  📗 搜尋
 ----------------------------
 
+利用**搜尋引擎**，運用「運動定律」「碰撞」…等**關鍵字**，可以找到許多相關的資料。
+
+<br/>
+
+撞擊物體的運動相關性質：
+
+: :fontawesome-solid-long-arrow-alt-right: <a href="https://zh.wikipedia.org/wiki/%E6%85%A3%E6%80%A7" target="_blank">維基百科: 慣性</a>
+
+
+: :fontawesome-solid-long-arrow-alt-right: <a href="https://zh.wikipedia.org/wiki/%E5%8A%A0%E9%80%9F%E5%BA%A6" target="_blank">維基百科: 加速度</a>    
+
+: :fontawesome-solid-long-arrow-alt-right: <a href="https://zh.wikipedia.org/wiki/%E6%8B%8B%E9%AB%94" target="_blank">維基百科: 拋體</a>
+
+: :fontawesome-solid-long-arrow-alt-right: <a href="https://www.zetria.org/view.php?subj=physics&chap=lfym2aorgz" target="_blank">學呀: 拋物線運動</a>
+
+
+<br/>
+
+障礙物參考資料：
+
+: :fontawesome-solid-long-arrow-alt-right:  <a href="https://zh.wikipedia.org/wiki/%E5%A4%9A%E7%B1%B3%E8%AB%BE%E9%AA%A8%E7%89%8C%E6%95%88%E6%87%89" target="_blank">維基百科: 多米諾骨牌效應</a>
+
+: :fontawesome-solid-long-arrow-alt-right:  <a href="https://zh.wikipedia.org/wiki/%E5%A2%99" target="_blank">維基百科: 牆</a>
+
+
+: :fontawesome-solid-long-arrow-alt-right:  <a href="https://zh.wikipedia.org/wiki/%E9%87%91%E5%AD%97%E5%A1%94" target="_blank">維基百科: 金字塔</a>
+
+
+<br/>
+
+
+可能會影響碰撞的因素：
+
+
+: :fontawesome-solid-long-arrow-alt-right:  <a href="https://zh.wikipedia.org/wiki/%E5%86%B2%E9%87%8F" target="_blank">維基百科: 衝量</a>
+
+: :fontawesome-solid-long-arrow-alt-right:  <a href="https://zh.wikipedia.org/wiki/%E8%B3%AA%E9%87%8F%E8%88%87%E9%87%8D%E9%87%8F%E7%9A%84%E6%AF%94%E8%BC%83" target="_blank">維基百科: 質量與重量的比較</a>
+
+: :fontawesome-solid-long-arrow-alt-right:  <a href="https://zh.wikipedia.org/wiki/%E5%AF%86%E5%BA%A6" target="_blank">維基百科: 密度</a>
+
+
+: :fontawesome-solid-long-arrow-alt-right:  <a href="https://lis.org.tw/post/00000175" target="_blank">LIS情境科學教材: 浮力與密度-阿基米德</a>
+
+: :fontawesome-solid-long-arrow-alt-right:  <a href="https://zh.wikipedia.org/wiki/%E5%BD%88%E6%80%A7%E7%A2%B0%E6%92%9E" target="_blank">維基百科: 彈性碰撞</a>
+
+: :fontawesome-solid-long-arrow-alt-right: <a href="https://www.youtube.com/watch?v=Bhm3iPFqYEo" target="_blank">youtube: 均一教育平台【八下理化】【觀念】摩擦力</a>
+
+除了以上的資料，還有沒有其他的參考資料？找到資料後，要怎麼運用這些資料呢？
 
 
 <br/><br/><br/> 
@@ -78,8 +126,39 @@ hide:
 ##  📒 規劃
 ----------------------------
 
+為了讓碰撞模擬在操作上更為多變化與增加互動，撞擊物體會採用「射擊」的方式來設計，從左向右發射。
 
+當我們施力在撞擊物體上，它會產生速度並移動，物體同時也會受到重力的影響，產生如下的拋物線軌跡：
 
+<br/> 
+
+: ![拋物線軌跡](projectile_track.png)
+
+<br/>
+
+由上圖可以得知，讓撞擊物體增加一些向上的力量，可以讓物體射擊的軌跡可以較遠且不會飛得太高。
+
+<br/>
+<br/>
+
+接下來是障礙物的設計，在參考一些常見的建築結構後，會採用以下的3個障礙物設計，提供撞擊物體做不同的碰撞模擬：
+
+<br/> 
+
+: ![障礙物種類](obstacle_type.png)
+
+<br/>
+<br/>
+
+撞擊物體以滑鼠控制，設置障礙物以鍵盤控製，如下圖設計：
+
+<br/>
+
+: ![操作方式](operation.png)
+
+<br/>
+
+經過以上的規畫，接下來可以動手寫程式了。
 
 <br/><br/><br/> 
 

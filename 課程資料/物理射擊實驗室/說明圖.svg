@@ -21,6 +21,26 @@
      id="defs2">
     <inkscape:path-effect
        effect="spiro"
+       id="path-effect10120"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect7732"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect7449"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect3438"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
        id="path-effect5251"
        is_visible="true"
        lpeversion="1" />
@@ -666,6 +686,55 @@
          stdDeviation="0.31511378"
          id="feGaussianBlur14745" />
     </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter14743-4"
+       x="-0.082585598"
+       y="-0.066025423"
+       width="1.1651709"
+       height="1.1320514">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.31511378"
+         id="feGaussianBlur14745-8" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter43524"
+       x="-0.067611362"
+       y="-0.045580372"
+       width="1.1352227"
+       height="1.0911607">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="6.8297479"
+         id="feGaussianBlur43526" />
+    </filter>
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect43643-5"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect43643-1"
+       is_visible="true"
+       lpeversion="1" />
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter26050"
+       x="-0.086982248"
+       y="-0.086982248"
+       width="1.1739645"
+       height="1.1739645">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="1.4989786"
+         id="feGaussianBlur26052" />
+    </filter>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -674,9 +743,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.35"
-     inkscape:cx="-6452.8571"
-     inkscape:cy="1020"
+     inkscape:zoom="0.12374369"
+     inkscape:cx="-6012.4279"
+     inkscape:cy="4743.6763"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -704,6 +773,50 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1">
+    <rect
+       style="mix-blend-mode:normal;fill:#414141;fill-opacity:1;stroke:none;stroke-width:1.662;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.639216;filter:url(#filter26050)"
+       id="rect25068"
+       width="41.359573"
+       height="41.359573"
+       x="-1381.9556"
+       y="1533.6595"
+       ry="12.089723"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\operation.png"
+       inkscape:export-xdpi="14.701098"
+       inkscape:export-ydpi="14.701098" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#0dcaff;stroke-width:3;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.639216"
+       d="m -2101.4753,623.19817 1114.66646,-3.4e-4"
+       id="path12015"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\projectile_track.png"
+       inkscape:export-xdpi="18.220343"
+       inkscape:export-ydpi="18.220343" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2.065;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:6.195, 6.195;stroke-dashoffset:0;stroke-opacity:1"
+       d="m -1334.2095,623.27253 c 120.823,-146.11098 244.6684,-100.8362 320.7235,99.42426 v -1.06908"
+       id="path10622"
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\projectile_track.png"
+       inkscape:export-xdpi="18.220343"
+       inkscape:export-ydpi="18.220343" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2.065;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:6.195, 6.195;stroke-dashoffset:0;stroke-opacity:1"
+       d="m -1739.3901,625.41069 c 178.0413,-107.41792 350.9158,95.31294 320.7235,99.42426 v -1.06908"
+       id="path11119"
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\projectile_track.png"
+       inkscape:export-xdpi="18.220343"
+       inkscape:export-ydpi="18.220343" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2.065;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:6.195, 6.195;stroke-dashoffset:0;stroke-opacity:1"
+       d="m -2065.4589,621.66892 c 77.6931,-6.5642 157.5284,16.55112 219.6956,63.61014 4.5489,3.44341 9.0055,7.0087 13.3635,10.69078"
+       id="path3436"
+       inkscape:path-effect="#path-effect3438"
+       inkscape:original-d="m -2065.4589,621.66892 c 73.5885,21.02545 146.464,42.40701 219.6956,63.61014 73.2316,21.20313 8.9092,7.12745 13.3635,10.69078"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\projectile_track.png"
+       inkscape:export-xdpi="18.220343"
+       inkscape:export-ydpi="18.220343" />
     <circle
        style="opacity:0.770936;fill:#ff8b05;fill-opacity:1;stroke:none;stroke-width:5.39292;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="circle1072"
@@ -1838,5 +1951,823 @@
          y="318.13986"
          style="text-align:center;text-anchor:middle;stroke-width:0.4941"
          id="tspan9593">障礙物</tspan></text>
+    <circle
+       style="fill:#9dbbff;fill-opacity:1;stroke:#0065ff;stroke-width:1.5423;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="circle1288"
+       cx="-2066.2317"
+       cy="623.61353"
+       r="21.52206"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\projectile_track.png"
+       inkscape:export-xdpi="18.220343"
+       inkscape:export-ydpi="18.220343" />
+    <text
+       xml:space="preserve"
+       style="font-size:30.8163px;line-height:1.25;font-family:sans-serif;text-align:center;text-anchor:middle;stroke-width:0.77041"
+       x="-1561.5028"
+       y="817.71899"
+       id="text4422"
+       inkscape:export-xdpi="18.220343"
+       inkscape:export-ydpi="18.220343"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\projectile_track.png"><tspan
+         sodipodi:role="line"
+         x="-1561.5028"
+         y="817.71899"
+         style="text-align:center;text-anchor:middle;stroke-width:0.77041"
+         id="tspan4420">不同施力方向的拋物線軌跡</tspan></text>
+    <circle
+       style="fill:#9dbbff;fill-opacity:1;stroke:#0065ff;stroke-width:1.5423;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="circle7451"
+       cx="-1749.7845"
+       cy="624.68262"
+       r="21.52206"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\projectile_track.png"
+       inkscape:export-xdpi="18.220343"
+       inkscape:export-ydpi="18.220343" />
+    <circle
+       style="fill:#9dbbff;fill-opacity:1;stroke:#0065ff;stroke-width:1.5423;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="circle7734"
+       cx="-1330.7059"
+       cy="624.68256"
+       r="21.52206"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\projectile_track.png"
+       inkscape:export-xdpi="18.220343"
+       inkscape:export-ydpi="18.220343" />
+    <g
+       id="g7742"
+       transform="matrix(0.45608792,-0.56159781,0.56159781,0.45608792,-775.21555,-810.12314)"
+       style="stroke:#b81139;stroke-opacity:1"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\projectile_track.png"
+       inkscape:export-xdpi="18.220343"
+       inkscape:export-ydpi="18.220343">
+      <path
+         style="fill:none;fill-opacity:1;stroke:#b81139;stroke-width:7.79948;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m -2022.8587,652.77787 63.7223,-10e-4"
+         id="path7736"
+         sodipodi:nodetypes="cc"
+         inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\turtle_coordinate.png"
+         inkscape:export-xdpi="43.728325"
+         inkscape:export-ydpi="43.728325" />
+      <path
+         style="fill:none;fill-opacity:1;stroke:#b81139;stroke-width:7.8;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m -1959.1367,652.77711 -20.3125,-14.9671"
+         id="path7738"
+         sodipodi:nodetypes="cc"
+         inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\turtle_coordinate.png"
+         inkscape:export-xdpi="43.728325"
+         inkscape:export-ydpi="43.728325" />
+      <path
+         style="fill:none;fill-opacity:1;stroke:#b81139;stroke-width:7.8;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m -1959.404,653.84619 -20.3125,14.9671"
+         id="path7740"
+         sodipodi:nodetypes="cc"
+         inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\turtle_coordinate.png"
+         inkscape:export-xdpi="43.728325"
+         inkscape:export-ydpi="43.728325" />
+    </g>
+    <g
+       id="g2497"
+       transform="matrix(0.72346962,0,0,0.72346962,-597.34348,150.97385)"
+       style="stroke:#b81139;stroke-opacity:1"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\projectile_track.png"
+       inkscape:export-xdpi="18.220343"
+       inkscape:export-ydpi="18.220343">
+      <path
+         style="fill:none;fill-opacity:1;stroke:#b81139;stroke-width:7.79948;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m -2022.8587,652.77787 63.7223,-10e-4"
+         id="path1290"
+         sodipodi:nodetypes="cc"
+         inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\turtle_coordinate.png"
+         inkscape:export-xdpi="43.728325"
+         inkscape:export-ydpi="43.728325" />
+      <path
+         style="fill:none;fill-opacity:1;stroke:#b81139;stroke-width:7.8;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m -1959.1367,652.77711 -20.3125,-14.9671"
+         id="path1292"
+         sodipodi:nodetypes="cc"
+         inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\turtle_coordinate.png"
+         inkscape:export-xdpi="43.728325"
+         inkscape:export-ydpi="43.728325" />
+      <path
+         style="fill:none;fill-opacity:1;stroke:#b81139;stroke-width:7.8;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m -1959.404,653.84619 -20.3125,14.9671"
+         id="path1294"
+         sodipodi:nodetypes="cc"
+         inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\turtle_coordinate.png"
+         inkscape:export-xdpi="43.728325"
+         inkscape:export-ydpi="43.728325" />
+    </g>
+    <g
+       id="g7459"
+       transform="matrix(0.68577225,-0.230488,0.230488,0.68577225,-506.71532,-291.08446)"
+       style="stroke:#b81139;stroke-opacity:1"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\projectile_track.png"
+       inkscape:export-xdpi="18.220343"
+       inkscape:export-ydpi="18.220343">
+      <path
+         style="fill:none;fill-opacity:1;stroke:#b81139;stroke-width:7.79948;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m -2022.8587,652.77787 63.7223,-10e-4"
+         id="path7453"
+         sodipodi:nodetypes="cc"
+         inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\turtle_coordinate.png"
+         inkscape:export-xdpi="43.728325"
+         inkscape:export-ydpi="43.728325" />
+      <path
+         style="fill:none;fill-opacity:1;stroke:#b81139;stroke-width:7.8;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m -1959.1367,652.77711 -20.3125,-14.9671"
+         id="path7455"
+         sodipodi:nodetypes="cc"
+         inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\turtle_coordinate.png"
+         inkscape:export-xdpi="43.728325"
+         inkscape:export-ydpi="43.728325" />
+      <path
+         style="fill:none;fill-opacity:1;stroke:#b81139;stroke-width:7.8;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m -1959.404,653.84619 -20.3125,14.9671"
+         id="path7457"
+         sodipodi:nodetypes="cc"
+         inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\turtle_coordinate.png"
+         inkscape:export-xdpi="43.728325"
+         inkscape:export-ydpi="43.728325" />
+    </g>
+    <rect
+       style="fill:#00ffff;fill-opacity:1;stroke:#000000;stroke-width:1.17559;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect12587"
+       width="50.782265"
+       height="50.782265"
+       x="-576.48041"
+       y="831.10291"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\obstacle_type.png"
+       inkscape:export-xdpi="20.950556"
+       inkscape:export-ydpi="20.950556" />
+    <rect
+       style="fill:#00ffff;fill-opacity:1;stroke:#000000;stroke-width:1.17559;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect13693"
+       width="50.782265"
+       height="50.782265"
+       x="-576.48041"
+       y="780.32062"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\obstacle_type.png"
+       inkscape:export-xdpi="20.950556"
+       inkscape:export-ydpi="20.950556" />
+    <rect
+       style="fill:#00ffff;fill-opacity:1;stroke:#000000;stroke-width:1.17559;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect13695"
+       width="50.782265"
+       height="50.782265"
+       x="-576.48041"
+       y="729.53833"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\obstacle_type.png"
+       inkscape:export-xdpi="20.950556"
+       inkscape:export-ydpi="20.950556" />
+    <rect
+       style="fill:#00ffff;fill-opacity:1;stroke:#000000;stroke-width:1.17559;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect13697"
+       width="50.782265"
+       height="50.782265"
+       x="-576.48041"
+       y="678.75604"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\obstacle_type.png"
+       inkscape:export-xdpi="20.950556"
+       inkscape:export-ydpi="20.950556" />
+    <rect
+       style="fill:#ffaaaa;fill-opacity:1;stroke:#000000;stroke-width:1.17559;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect13699"
+       width="50.782265"
+       height="50.782265"
+       x="-409.41492"
+       y="831.10291"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\obstacle_type.png"
+       inkscape:export-xdpi="20.950556"
+       inkscape:export-ydpi="20.950556" />
+    <rect
+       style="fill:#ffaaaa;fill-opacity:1;stroke:#000000;stroke-width:1.17559;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect13701"
+       width="50.782265"
+       height="50.782265"
+       x="-409.41492"
+       y="780.32062"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\obstacle_type.png"
+       inkscape:export-xdpi="20.950556"
+       inkscape:export-ydpi="20.950556" />
+    <rect
+       style="fill:#ffaaaa;fill-opacity:1;stroke:#000000;stroke-width:1.17559;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect13703"
+       width="50.782265"
+       height="50.782265"
+       x="-409.41492"
+       y="729.53833"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\obstacle_type.png"
+       inkscape:export-xdpi="20.950556"
+       inkscape:export-ydpi="20.950556" />
+    <rect
+       style="fill:#ffaaaa;fill-opacity:1;stroke:#000000;stroke-width:1.17559;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect13705"
+       width="50.782265"
+       height="50.782265"
+       x="-409.41492"
+       y="678.75604"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\obstacle_type.png"
+       inkscape:export-xdpi="20.950556"
+       inkscape:export-ydpi="20.950556" />
+    <rect
+       style="fill:#ffaaaa;fill-opacity:1;stroke:#000000;stroke-width:1.17559;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect13707"
+       width="50.782265"
+       height="50.782265"
+       x="-358.63266"
+       y="831.10291"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\obstacle_type.png"
+       inkscape:export-xdpi="20.950556"
+       inkscape:export-ydpi="20.950556" />
+    <rect
+       style="fill:#ffaaaa;fill-opacity:1;stroke:#000000;stroke-width:1.17559;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect13709"
+       width="50.782265"
+       height="50.782265"
+       x="-358.63266"
+       y="780.32062"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\obstacle_type.png"
+       inkscape:export-xdpi="20.950556"
+       inkscape:export-ydpi="20.950556" />
+    <rect
+       style="fill:#ffaaaa;fill-opacity:1;stroke:#000000;stroke-width:1.17559;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect13711"
+       width="50.782265"
+       height="50.782265"
+       x="-358.63266"
+       y="729.53833"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\obstacle_type.png"
+       inkscape:export-xdpi="20.950556"
+       inkscape:export-ydpi="20.950556" />
+    <rect
+       style="fill:#ffaaaa;fill-opacity:1;stroke:#000000;stroke-width:1.17559;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect13713"
+       width="50.782265"
+       height="50.782265"
+       x="-358.63266"
+       y="678.75604"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\obstacle_type.png"
+       inkscape:export-xdpi="20.950556"
+       inkscape:export-ydpi="20.950556" />
+    <rect
+       style="fill:#ffaaaa;fill-opacity:1;stroke:#000000;stroke-width:1.17559;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect13715"
+       width="50.782265"
+       height="50.782265"
+       x="-307.8504"
+       y="831.10291"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\obstacle_type.png"
+       inkscape:export-xdpi="20.950556"
+       inkscape:export-ydpi="20.950556" />
+    <rect
+       style="fill:#ffaaaa;fill-opacity:1;stroke:#000000;stroke-width:1.17559;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect13717"
+       width="50.782265"
+       height="50.782265"
+       x="-307.8504"
+       y="780.32062"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\obstacle_type.png"
+       inkscape:export-xdpi="20.950556"
+       inkscape:export-ydpi="20.950556" />
+    <rect
+       style="fill:#ffaaaa;fill-opacity:1;stroke:#000000;stroke-width:1.17559;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect13719"
+       width="50.782265"
+       height="50.782265"
+       x="-307.8504"
+       y="729.53833"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\obstacle_type.png"
+       inkscape:export-xdpi="20.950556"
+       inkscape:export-ydpi="20.950556" />
+    <rect
+       style="fill:#ffaaaa;fill-opacity:1;stroke:#000000;stroke-width:1.17559;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect13721"
+       width="50.782265"
+       height="50.782265"
+       x="-307.8504"
+       y="678.75604"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\obstacle_type.png"
+       inkscape:export-xdpi="20.950556"
+       inkscape:export-ydpi="20.950556" />
+    <rect
+       style="fill:#a5ffb9;fill-opacity:1;stroke:#000000;stroke-width:1.17559;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect13723"
+       width="50.782265"
+       height="50.782265"
+       x="-181.11729"
+       y="831.10291"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\obstacle_type.png"
+       inkscape:export-xdpi="20.950556"
+       inkscape:export-ydpi="20.950556" />
+    <rect
+       style="fill:#a5ffb9;fill-opacity:1;stroke:#000000;stroke-width:1.17559;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect13725"
+       width="50.782265"
+       height="50.782265"
+       x="-130.33504"
+       y="831.10291"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\obstacle_type.png"
+       inkscape:export-xdpi="20.950556"
+       inkscape:export-ydpi="20.950556" />
+    <rect
+       style="fill:#a5ffb9;fill-opacity:1;stroke:#000000;stroke-width:1.17559;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect13727"
+       width="50.782265"
+       height="50.782265"
+       x="-79.55278"
+       y="831.10291"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\obstacle_type.png"
+       inkscape:export-xdpi="20.950556"
+       inkscape:export-ydpi="20.950556" />
+    <rect
+       style="fill:#a5ffb9;fill-opacity:1;stroke:#000000;stroke-width:1.17559;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect13729"
+       width="50.782265"
+       height="50.782265"
+       x="-28.770515"
+       y="831.10291"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\obstacle_type.png"
+       inkscape:export-xdpi="20.950556"
+       inkscape:export-ydpi="20.950556" />
+    <rect
+       style="fill:#a5ffb9;fill-opacity:1;stroke:#000000;stroke-width:1.17559;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect13731"
+       width="50.782265"
+       height="50.782265"
+       x="-153.76956"
+       y="780.32062"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\obstacle_type.png"
+       inkscape:export-xdpi="20.950556"
+       inkscape:export-ydpi="20.950556" />
+    <rect
+       style="fill:#a5ffb9;fill-opacity:1;stroke:#000000;stroke-width:1.17559;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect13733"
+       width="50.782265"
+       height="50.782265"
+       x="-102.9873"
+       y="780.32062"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\obstacle_type.png"
+       inkscape:export-xdpi="20.950556"
+       inkscape:export-ydpi="20.950556" />
+    <rect
+       style="fill:#a5ffb9;fill-opacity:1;stroke:#000000;stroke-width:1.17559;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect13735"
+       width="50.782265"
+       height="50.782265"
+       x="-52.20504"
+       y="780.32062"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\obstacle_type.png"
+       inkscape:export-xdpi="20.950556"
+       inkscape:export-ydpi="20.950556" />
+    <rect
+       style="fill:#a5ffb9;fill-opacity:1;stroke:#000000;stroke-width:1.17559;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect13737"
+       width="50.782265"
+       height="50.782265"
+       x="-126.42182"
+       y="729.53833"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\obstacle_type.png"
+       inkscape:export-xdpi="20.950556"
+       inkscape:export-ydpi="20.950556" />
+    <rect
+       style="fill:#a5ffb9;fill-opacity:1;stroke:#000000;stroke-width:1.17559;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect13739"
+       width="50.782265"
+       height="50.782265"
+       x="-75.639565"
+       y="729.53833"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\obstacle_type.png"
+       inkscape:export-xdpi="20.950556"
+       inkscape:export-ydpi="20.950556" />
+    <rect
+       style="fill:#a5ffb9;fill-opacity:1;stroke:#000000;stroke-width:1.17559;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect13741"
+       width="50.782265"
+       height="50.782265"
+       x="-100.58599"
+       y="678.75604"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\obstacle_type.png"
+       inkscape:export-xdpi="20.950556"
+       inkscape:export-ydpi="20.950556" />
+    <text
+       xml:space="preserve"
+       style="font-size:30.8163px;line-height:1.25;font-family:sans-serif;text-align:center;text-anchor:middle;stroke-width:0.77041"
+       x="-554.57422"
+       y="937.15942"
+       id="text13745"
+       inkscape:export-xdpi="20.950556"
+       inkscape:export-ydpi="20.950556"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\obstacle_type.png"><tspan
+         sodipodi:role="line"
+         x="-554.57422"
+         y="937.15942"
+         style="text-align:center;text-anchor:middle;stroke-width:0.77041"
+         id="tspan13743">柱形</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:30.8163px;line-height:1.25;font-family:sans-serif;text-align:center;text-anchor:middle;stroke-width:0.77041"
+       x="-336.10397"
+       y="937.15942"
+       id="text14631"
+       inkscape:export-xdpi="20.950556"
+       inkscape:export-ydpi="20.950556"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\obstacle_type.png"><tspan
+         sodipodi:role="line"
+         x="-336.10397"
+         y="937.15942"
+         style="text-align:center;text-anchor:middle;stroke-width:0.77041"
+         id="tspan14629">方陣形</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:30.8163px;line-height:1.25;font-family:sans-serif;text-align:center;text-anchor:middle;stroke-width:0.77041"
+       x="-76.056351"
+       y="937.15942"
+       id="text15205"
+       inkscape:export-xdpi="20.950556"
+       inkscape:export-ydpi="20.950556"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\obstacle_type.png"><tspan
+         sodipodi:role="line"
+         x="-76.056351"
+         y="937.15942"
+         style="text-align:center;text-anchor:middle;stroke-width:0.77041"
+         id="tspan15203">金字塔形</tspan></text>
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.9521;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect17431"
+       width="415.88669"
+       height="379.60098"
+       x="-2054.7349"
+       y="1079.4435"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\operation.png"
+       inkscape:export-xdpi="14.701098"
+       inkscape:export-ydpi="14.701098" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2.065;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:6.195, 6.195;stroke-dashoffset:0;stroke-opacity:1"
+       d="m -2043.283,1181.7916 c 178.0413,-107.4179 350.9158,95.313 320.7235,99.4243 v -1.0691"
+       id="path17535"
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\operation.png"
+       inkscape:export-xdpi="14.701098"
+       inkscape:export-ydpi="14.701098" />
+    <circle
+       style="fill:#9dbbff;fill-opacity:1;stroke:#0065ff;stroke-width:1.5423;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="circle17537"
+       cx="-2053.6775"
+       cy="1181.0636"
+       r="21.52206"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\operation.png"
+       inkscape:export-xdpi="14.701098"
+       inkscape:export-ydpi="14.701098" />
+    <g
+       id="g17545"
+       transform="matrix(0.68577225,-0.230488,0.230488,0.68577225,-810.60818,265.29649)"
+       style="stroke:#b81139;stroke-opacity:1"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\operation.png"
+       inkscape:export-xdpi="14.701098"
+       inkscape:export-ydpi="14.701098">
+      <path
+         style="fill:none;fill-opacity:1;stroke:#b81139;stroke-width:7.79948;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m -2022.8587,652.77787 63.7223,-10e-4"
+         id="path17539"
+         sodipodi:nodetypes="cc"
+         inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\turtle_coordinate.png"
+         inkscape:export-xdpi="43.728325"
+         inkscape:export-ydpi="43.728325" />
+      <path
+         style="fill:none;fill-opacity:1;stroke:#b81139;stroke-width:7.8;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m -1959.1367,652.77711 -20.3125,-14.9671"
+         id="path17541"
+         sodipodi:nodetypes="cc"
+         inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\turtle_coordinate.png"
+         inkscape:export-xdpi="43.728325"
+         inkscape:export-ydpi="43.728325" />
+      <path
+         style="fill:none;fill-opacity:1;stroke:#b81139;stroke-width:7.8;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m -1959.404,653.84619 -20.3125,14.9671"
+         id="path17543"
+         sodipodi:nodetypes="cc"
+         inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\turtle_coordinate.png"
+         inkscape:export-xdpi="43.728325"
+         inkscape:export-ydpi="43.728325" />
+    </g>
+    <g
+       id="g1368"
+       transform="matrix(1.6896564,0,0,1.6896564,953.908,1110.7856)"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\operation.png"
+       inkscape:export-xdpi="14.701098"
+       inkscape:export-ydpi="14.701098">
+      <path
+         id="path1364"
+         style="fill:#010000;fill-opacity:1;stroke:#000000;stroke-width:0.581081;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.637821;filter:url(#filter14743-4)"
+         inkscape:transform-center-y="-0.97147245"
+         d="m -1643.851,39.5711 2.0318,12.829712 3.4665,-2.639974 4.314,5.664668 2.8631,-2.180441 -4.314,-5.664669 3.4666,-2.639983 z"
+         inkscape:transform-center-x="0.43924539" />
+      <path
+         id="path1366"
+         style="fill:#ffffff;stroke:#000000;stroke-width:0.581081;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.637821"
+         inkscape:transform-center-y="-0.97147245"
+         d="m -1643.5837,38.769291 2.0318,12.829712 3.4665,-2.639974 4.314,5.664668 2.8631,-2.180441 -4.314,-5.664669 3.4666,-2.639983 z"
+         inkscape:transform-center-x="0.43924539" />
+    </g>
+    <path
+       id="path43481"
+       style="mix-blend-mode:normal;fill:#666666;fill-opacity:1;stroke:none;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter43524)"
+       d="m -8016.5703,1159.6543 c -58.201,0 -105.0547,46.8557 -105.0547,105.0566 v 24.2422 125.2598 c 0,58.201 46.8537,105.0566 105.0547,105.0566 h 32.3262 c 58.2009,0 105.0546,-46.8556 105.0546,-105.0566 v -125.2598 -24.2422 c 0,-58.2009 -46.8537,-105.0566 -105.0546,-105.0566 h -16.1641 z"
+       transform="matrix(0.26458333,0,0,0.26458333,16.738683,1184.1203)"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\operation.png"
+       inkscape:export-xdpi="14.701098"
+       inkscape:export-ydpi="14.701098" />
+    <path
+       id="rect42961"
+       style="fill:#ffffff;fill-opacity:1;stroke:#030303;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m -2069.0326,1523.0178 h -64.1444 v 33.1416 c 0,15.3991 12.3967,27.7963 27.7957,27.7963 h 8.553 c 15.399,0 27.7957,-12.3972 27.7957,-27.7963 z"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\operation.png"
+       inkscape:export-xdpi="14.701098"
+       inkscape:export-ydpi="14.701098" />
+    <path
+       id="path43232"
+       style="fill:#b3b3b3;fill-opacity:1;stroke:#030303;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m -2101.1051,1488.8075 h -4.2762 c -15.3989,0 -27.7957,12.3972 -27.7957,27.7962 v 6.4141 h 32.0719 z"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\operation.png"
+       inkscape:export-xdpi="14.701098"
+       inkscape:export-ydpi="14.701098" />
+    <path
+       id="path43352"
+       style="fill:#ffffff;fill-opacity:1;stroke:#030303;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m -2101.1051,1488.8075 v 34.2103 h 32.0725 v -6.4141 c 0,-15.399 -12.3966,-27.7962 -27.7957,-27.7962 z"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\operation.png"
+       inkscape:export-xdpi="14.701098"
+       inkscape:export-ydpi="14.701098" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#030303;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect43399"
+       width="8.5526247"
+       height="18.174328"
+       x="-2105.3813"
+       y="1497.8945"
+       ry="4.2763124"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\operation.png"
+       inkscape:export-xdpi="14.701098"
+       inkscape:export-ydpi="14.701098" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.765;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -2101.1101,1488.3531 c -2.5605,-1.3241 -4.4468,-3.8811 -4.9561,-6.7184 -0.5093,-2.8372 0.37,-5.8907 2.3102,-8.0226 1.2452,-1.3682 2.8566,-2.336 4.3487,-3.4296 1.4922,-1.0936 2.9328,-2.4001 3.5888,-4.1299 0.6662,-1.7567 0.4326,-3.7444 -0.187,-5.518 -0.6196,-1.7737 -1.6007,-3.3941 -2.4588,-5.0654 -0.1287,-0.2506 -0.2547,-0.5026 -0.378,-0.7559"
+       id="path43641"
+       inkscape:path-effect="#path-effect43643-5"
+       inkscape:original-d="m -2101.1101,1488.3531 c -0.7557,-4.9134 -1.7636,-9.8271 -2.6459,-14.741 -0.8822,-4.914 5.292,-5.0394 7.9375,-7.5595 2.6456,-2.5201 -1.7636,-7.0553 -2.6458,-10.5834 -0.8822,-3.528 -0.2516,-0.5037 -0.378,-0.7559"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\operation.png"
+       inkscape:export-xdpi="14.701098"
+       inkscape:export-ydpi="14.701098" />
+    <text
+       xml:space="preserve"
+       style="font-size:30.8163px;line-height:1.25;font-family:sans-serif;text-align:center;text-anchor:middle;stroke-width:0.77041"
+       x="-1829.11"
+       y="1552.5046"
+       id="text17596"
+       inkscape:export-xdpi="14.701098"
+       inkscape:export-ydpi="14.701098"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\operation.png"><tspan
+         sodipodi:role="line"
+         x="-1829.11"
+         y="1552.5046"
+         style="text-align:center;text-anchor:middle;stroke-width:0.77041"
+         id="tspan17594">滑鼠點擊時，物體從左向右發射</tspan></text>
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.9521;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect18204"
+       width="415.88669"
+       height="379.60098"
+       x="-1363.7944"
+       y="1079.4435"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\operation.png"
+       inkscape:export-xdpi="14.701098"
+       inkscape:export-ydpi="14.701098" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#c97800;stroke-width:5.3;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.639216"
+       d="m -2011.0919,1409.8445 303.2362,-4e-4"
+       id="path18208"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\operation.png"
+       inkscape:export-xdpi="14.701098"
+       inkscape:export-ydpi="14.701098" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#c97800;stroke-width:5.3;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.639216"
+       d="m -1299.0859,1409.8445 303.23622,-4e-4"
+       id="path19090"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\operation.png"
+       inkscape:export-xdpi="14.701098"
+       inkscape:export-ydpi="14.701098" />
+    <g
+       id="g19096"
+       transform="matrix(1.6896564,0,0,1.6896564,1624.22,1336.3611)"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\operation.png"
+       inkscape:export-xdpi="14.701098"
+       inkscape:export-ydpi="14.701098">
+      <path
+         id="path19092"
+         style="fill:#010000;fill-opacity:1;stroke:#000000;stroke-width:0.581081;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.637821;filter:url(#filter14743-4)"
+         inkscape:transform-center-y="-0.97147245"
+         d="m -1643.851,39.5711 2.0318,12.829712 3.4665,-2.639974 4.314,5.664668 2.8631,-2.180441 -4.314,-5.664669 3.4666,-2.639983 z"
+         inkscape:transform-center-x="0.43924539" />
+      <path
+         id="path19094"
+         style="fill:#ffffff;stroke:#000000;stroke-width:0.581081;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.637821"
+         inkscape:transform-center-y="-0.97147245"
+         d="m -1643.5837,38.769291 2.0318,12.829712 3.4665,-2.639974 4.314,5.664668 2.8631,-2.180441 -4.314,-5.664669 3.4666,-2.639983 z"
+         inkscape:transform-center-x="0.43924539" />
+    </g>
+    <rect
+       style="fill:#00ffff;fill-opacity:1;stroke:#000000;stroke-width:1.17559;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect19098"
+       width="50.782265"
+       height="50.782265"
+       x="-1152.8717"
+       y="1351.0856"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\operation.png"
+       inkscape:export-xdpi="14.701098"
+       inkscape:export-ydpi="14.701098" />
+    <rect
+       style="fill:#00ffff;fill-opacity:1;stroke:#000000;stroke-width:1.17559;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect19100"
+       width="50.782265"
+       height="50.782265"
+       x="-1152.8717"
+       y="1300.3033"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\operation.png"
+       inkscape:export-xdpi="14.701098"
+       inkscape:export-ydpi="14.701098" />
+    <rect
+       style="fill:#00ffff;fill-opacity:1;stroke:#000000;stroke-width:1.17559;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect19102"
+       width="50.782265"
+       height="50.782265"
+       x="-1152.8717"
+       y="1249.521"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\operation.png"
+       inkscape:export-xdpi="14.701098"
+       inkscape:export-ydpi="14.701098" />
+    <rect
+       style="fill:#00ffff;fill-opacity:1;stroke:#000000;stroke-width:1.17559;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect19104"
+       width="50.782265"
+       height="50.782265"
+       x="-1152.8717"
+       y="1198.7388"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\operation.png"
+       inkscape:export-xdpi="14.701098"
+       inkscape:export-ydpi="14.701098" />
+    <text
+       xml:space="preserve"
+       style="font-size:30.8163px;line-height:1.25;font-family:sans-serif;text-align:center;text-anchor:middle;stroke-width:0.77041"
+       x="-1150.7958"
+       y="1508.704"
+       id="text19108"
+       inkscape:export-xdpi="14.701098"
+       inkscape:export-ydpi="14.701098"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\operation.png"><tspan
+         sodipodi:role="line"
+         x="-1150.7958"
+         y="1508.704"
+         style="text-align:center;text-anchor:middle;stroke-width:0.77041"
+         id="tspan19106">按下鍵盤時，設置障礙物</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:30.8163px;line-height:1.25;font-family:sans-serif;text-align:center;text-anchor:middle;stroke-width:0.77041"
+       x="-1305.991"
+       y="1566.264"
+       id="text19940"
+       inkscape:export-xdpi="14.701098"
+       inkscape:export-ydpi="14.701098"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\operation.png"><tspan
+         sodipodi:role="line"
+         x="-1305.991"
+         y="1566.264"
+         style="text-align:center;text-anchor:middle;stroke-width:0.77041"
+         id="tspan19938">柱形</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:30.8163px;line-height:1.25;font-family:sans-serif;text-align:center;text-anchor:middle;stroke-width:0.77041"
+       x="-1159.1461"
+       y="1566.264"
+       id="text19944"
+       inkscape:export-xdpi="14.701098"
+       inkscape:export-ydpi="14.701098"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\operation.png"><tspan
+         sodipodi:role="line"
+         x="-1159.1461"
+         y="1566.264"
+         style="text-align:center;text-anchor:middle;stroke-width:0.77041"
+         id="tspan19942">方陣形</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:30.8163px;line-height:1.25;font-family:sans-serif;text-align:center;text-anchor:middle;stroke-width:0.77041"
+       x="-986.763"
+       y="1566.2791"
+       id="text19948"
+       inkscape:export-xdpi="14.701098"
+       inkscape:export-ydpi="14.701098"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\operation.png"><tspan
+         sodipodi:role="line"
+         x="-986.763"
+         y="1566.2791"
+         style="text-align:center;text-anchor:middle;stroke-width:0.77041"
+         id="tspan19946">金字塔形</tspan></text>
+    <rect
+       style="fill:#f4f4f4;fill-opacity:1;stroke:#656363;stroke-width:1.662;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect19972"
+       width="41.359573"
+       height="41.359573"
+       x="-1383.9009"
+       y="1533.6595"
+       ry="12.089723"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\operation.png"
+       inkscape:export-xdpi="14.701098"
+       inkscape:export-ydpi="14.701098" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:34.5171px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:0.639216;stroke-width:0.862929"
+       x="-1364.1161"
+       y="1566.7439"
+       id="text20490"
+       inkscape:export-xdpi="14.701098"
+       inkscape:export-ydpi="14.701098"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\operation.png"><tspan
+         sodipodi:role="line"
+         x="-1364.1161"
+         y="1566.7439"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:34.5171px;font-family:Arial;-inkscape-font-specification:'Arial, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:0.639216;stroke-width:0.862929"
+         id="tspan20488">1</tspan></text>
+    <rect
+       style="mix-blend-mode:normal;fill:#414141;fill-opacity:1;stroke:none;stroke-width:1.662;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.639216;filter:url(#filter26050)"
+       id="rect27232"
+       width="41.359573"
+       height="41.359573"
+       x="-1249.3899"
+       y="1533.6595"
+       ry="12.089723"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\operation.png"
+       inkscape:export-xdpi="14.701098"
+       inkscape:export-ydpi="14.701098" />
+    <rect
+       style="fill:#f4f4f4;fill-opacity:1;stroke:#656363;stroke-width:1.662;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect27234"
+       width="41.359573"
+       height="41.359573"
+       x="-1251.3352"
+       y="1533.6595"
+       ry="12.089723"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\operation.png"
+       inkscape:export-xdpi="14.701098"
+       inkscape:export-ydpi="14.701098" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:34.5171px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:0.639216;stroke-width:0.862929"
+       x="-1231.5504"
+       y="1566.7439"
+       id="text27238"
+       inkscape:export-xdpi="14.701098"
+       inkscape:export-ydpi="14.701098"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\operation.png"><tspan
+         sodipodi:role="line"
+         x="-1231.5504"
+         y="1566.7439"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:34.5171px;font-family:Arial;-inkscape-font-specification:'Arial, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:0.639216;stroke-width:0.862929"
+         id="tspan27236">2</tspan></text>
+    <rect
+       style="mix-blend-mode:normal;fill:#414141;fill-opacity:1;stroke:none;stroke-width:1.662;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.639216;filter:url(#filter26050)"
+       id="rect27918"
+       width="41.359573"
+       height="41.359573"
+       x="-1095.9772"
+       y="1533.6595"
+       ry="12.089723"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\operation.png"
+       inkscape:export-xdpi="14.701098"
+       inkscape:export-ydpi="14.701098" />
+    <rect
+       style="fill:#f4f4f4;fill-opacity:1;stroke:#656363;stroke-width:1.662;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect27920"
+       width="41.359573"
+       height="41.359573"
+       x="-1097.9225"
+       y="1533.6595"
+       ry="12.089723"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\operation.png"
+       inkscape:export-xdpi="14.701098"
+       inkscape:export-ydpi="14.701098" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:34.5171px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:0.639216;stroke-width:0.862929"
+       x="-1078.1377"
+       y="1566.5332"
+       id="text27924"
+       inkscape:export-xdpi="14.701098"
+       inkscape:export-ydpi="14.701098"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_shoot_lab\operation.png"><tspan
+         sodipodi:role="line"
+         x="-1078.1377"
+         y="1566.5332"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:34.5171px;font-family:Arial;-inkscape-font-specification:'Arial, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:0.639216;stroke-width:0.862929"
+         id="tspan27922">3</tspan></text>
   </g>
 </svg>

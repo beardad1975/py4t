@@ -732,11 +732,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.7"
-     inkscape:cx="-7860.7142"
-     inkscape:cy="1518.5714"
+     inkscape:zoom="0.35"
+     inkscape:cx="-7770"
+     inkscape:cy="1000"
      inkscape:document-units="mm"
-     inkscape:current-layer="g43827"
+     inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
      showgrid="false"
      inkscape:window-width="1920"
@@ -2244,5 +2244,24 @@
          y="472.66791"
          style="text-align:center;text-anchor:middle;stroke-width:0.538801"
          id="tspan46477">放開滑鼠時</tspan></text>
+    <g
+       id="g1368"
+       transform="matrix(0.89142012,0,0,0.89142012,-215.96798,-9.2771682)"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\mechanics_playground\mouse_vector_from_origin.png"
+       inkscape:export-xdpi="43.728325"
+       inkscape:export-ydpi="43.728325">
+      <path
+         id="path1364"
+         style="fill:#010000;fill-opacity:1;stroke:#000000;stroke-width:0.581081;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.637821;filter:url(#filter14743)"
+         inkscape:transform-center-y="-0.97147245"
+         d="m -1643.851,39.5711 2.0318,12.829712 3.4665,-2.639974 4.314,5.664668 2.8631,-2.180441 -4.314,-5.664669 3.4666,-2.639983 z"
+         inkscape:transform-center-x="0.43924539" />
+      <path
+         id="path1366"
+         style="fill:#ffffff;stroke:#000000;stroke-width:0.581081;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.637821"
+         inkscape:transform-center-y="-0.97147245"
+         d="m -1643.5837,38.769291 2.0318,12.829712 3.4665,-2.639974 4.314,5.664668 2.8631,-2.180441 -4.314,-5.664669 3.4666,-2.639983 z"
+         inkscape:transform-center-x="0.43924539" />
+    </g>
   </g>
 </svg>
