@@ -300,7 +300,14 @@ hide:
 
 ??? example "Py4t範例程式 日本國旗"
 
-     :fontawesome-solid-link: <a href="../../turtle4t/flag_of_japan/" target="_blank">Let's Code 日本國旗 (含操作影片、程式碼及說明)</a>
+
+    === "🎦操作影片"
+    
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/upF-HpneLPY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    === "💻程式碼"
+
+        ![程式截圖](snapshot/flag_of_japan.jpg) 
 
 
 ??? question "自主學習 資料搜尋"
@@ -329,7 +336,16 @@ hide:
 
 ??? example "範例程式 正三角形"
 
-     :fontawesome-solid-link: <a href="../../turtle4t/draw_triangle/" target="_blank">Let's Code 畫出正三角形 (含操作影片、程式碼及說明)</a> 
+
+    === "🎦操作影片"
+    
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/5vxxz9MCqUw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    === "💻程式碼"
+
+        ![程式截圖](snapshot/draw_triangle.jpg) 
+
+
 
 <br/><br/><br/>
 
@@ -360,7 +376,15 @@ hide:
 
 ??? example "Py4t範例程式 奇數角星形"
 
-     :fontawesome-solid-link: <a href="../../turtle4t/odd_number_star/" target="_blank">Let's Code 奇數角星形 (含操作影片、程式碼及說明)</a>
+    === "🎦操作影片"
+    
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/hlib0KmRiI0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    === "💻程式碼"
+
+        ![程式截圖](snapshot/odd_number_star.jpg) 
+
+
 
 ??? question "自主學習 十二角星形"
 
@@ -397,7 +421,13 @@ hide:
 
 ??? example "Py4t範例程式 越南國旗"
 
-     :fontawesome-solid-link: <a href="../../turtle4t/flag_of_vietnam/" target="_blank">Let's Code 越南國旗 (含操作影片、程式碼及說明)</a>
+    === "🎦操作影片"
+    
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/3Fa8GosgRIw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    === "💻程式碼"
+
+        ![程式截圖](snapshot/flag_of_vietnam.jpg) 
 
 ??? question "自主學習 資料搜尋"
 

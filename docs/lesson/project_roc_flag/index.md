@@ -11,16 +11,16 @@ hide:
 
 ![日本協助救援](jp_rescue.jpg)
 
-: <sup>(圖為2011年台灣搜救隊從松山機場出發，前往日本協助救援311大地震。資料來源:</sup>[^1]<sup>)</sup>
+: <sup>(圖為2011年台灣搜救隊從松山機場出發，前往日本協助救援311大地震。資料來源:</sup>[^taiwan_rescue311]<sup>)</sup>
 
-[^1]: 311大地震災後送暖 意外牽起台日10年友情, 中央社檔案照片, [來源連結](https://www.cna.com.tw/news/firstnews/202103110084.aspx) , 引用時間2022-02-07
+[^taiwan_rescue311]: 311大地震災後送暖 意外牽起台日10年友情, 中央社檔案照片, [來源連結](https://www.cna.com.tw/news/firstnews/202103110084.aspx) , 引用時間2022-02-07
 
 
-在國際救援活動場合中，參與救災的我國醫療人員曾表示，最感動的就是看到架設在醫療站的中華民國青天白日滿地紅國旗，和其他國家的國旗一同飄揚，讓他在參與國際救援行動時，很感動也很驕傲！<small>(資料來源:</small>[^2]<small>)</small>
+在國際救援活動場合中，參與救災的我國醫療人員曾表示，最感動的就是看到架設在醫療站的中華民國青天白日滿地紅國旗，和其他國家的國旗一同飄揚，讓他在參與國際救援行動時，很感動也很驕傲！<small>(資料來源:</small>[^moi_flag]<small>)</small>
 
 中華民國國旗是我國的象徵之一，平常會固定在學校禮堂、政府機關會議室。遇到國家慶典或紀念日時，會懸掛於街道。在中小學的升旗典禮中，也是儀式的主角。
 
-[^2]: 中華民國內政部 國旗懸掛禮儀網, [來源連結](https://www.moi.gov.tw/cl.aspx?n=10609) , 2022-02-07
+[^moi_flag]: 中華民國內政部 國旗懸掛禮儀網, [來源連結](https://www.moi.gov.tw/cl.aspx?n=10609) , 2022-02-07
 
 在本專題中，請**利用海龜程式來畫出中華民國的國旗**。
 
@@ -46,9 +46,9 @@ hide:
 
 ![中華民國國旗](flag_windy.jpg)
 
-: <sup>(資料來源:</sup>[^3]<sup>)</sup>
+: <sup>(資料來源:</sup>[^flag_windy]<sup>)</sup>
 
-[^3]: 飄揚的中華民國國旗 , by jitcji , [維基百科連結](https://commons.wikimedia.org/wiki/File:Flag_of_the_Republic_of_China_(3).JPG) 
+[^flag_windy]: 飄揚的中華民國國旗 , by jitcji , [維基百科連結](https://commons.wikimedia.org/wiki/File:Flag_of_the_Republic_of_China_(3).JPG) 
 
 
 還有想到與國旗相關的問題嗎？這些問題要怎麼克服呢？
@@ -65,7 +65,7 @@ hide:
 
 : ![中華民國國旗規格](roc_flag_spec.jpg)
 
-: <sup>(資料來源:</sup>[^4]<sup>)</sup>
+: <sup>(資料來源:</sup>[^roc_flag_spec]<sup>)</sup>
 
 <br/>
 
@@ -156,9 +156,9 @@ hide:
 : ![紅地與青天](red_and_blue.png)
 
 
-: <sup>(資料來源:</sup>[^4]<sup>)</sup>
+: <sup>(資料來源:</sup>[^roc_flag_spec]<sup>)</sup>
 
-[^4]: by Jason22 , CC BY-SA 3.0, [維基百科連結](https://commons.wikimedia.org/w/index.php?curid=1577907) .  Modified by Chang Wen-Hung , 加入輔助說明  
+[^roc_flag_spec]: by Jason22 , CC BY-SA 3.0, [維基百科連結](https://commons.wikimedia.org/w/index.php?curid=1577907) .  Modified by Chang Wen-Hung , 加入輔助說明  
 
 
 也要留意海龜的起點位置。試著用程式寫寫看。
@@ -186,9 +186,9 @@ hide:
 
 : ![星形公式](../national_flag/star_formula.jpg)
 
-: <sup>(資料來源:</sup>[^5]<sup>)</sup>
+: <sup>(資料來源:</sup>[^star_fomula]<sup>)</sup>
 
-[^5]: 自由軟體Scratch融入數學領域教學(王公國小102上半年教師在職資訊應用培訓)
+[^star_fomula]: 自由軟體Scratch融入數學領域教學(王公國小102上半年教師在職資訊應用培訓)
 
 <br/>
 
@@ -196,7 +196,7 @@ hide:
 
 : ![光芒](shining.png)
 
-: <sup>(資料來源:</sup>[^4]<sup>)</sup>
+: <sup>(資料來源:</sup>[^roc_flag_spec]<sup>)</sup>
 
 ??? abstract "光芒的邊長？"
 
@@ -241,7 +241,7 @@ hide:
 
 : ![白日](sun.png)
 
-: <sup>(資料來源:</sup>[^4]<sup>)</sup>
+: <sup>(資料來源:</sup>[^roc_flag_spec]<sup>)</sup>
 
 有了這些資訊，就可以寫出白日的海龜程式。
 
