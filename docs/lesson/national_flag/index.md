@@ -9,9 +9,9 @@ hide:
 
 ![各國國旗](un_photorick_bajornas_small.jpg)
 
-: <sup>(資料來源:</sup>[^1]<sup>)</sup>
+: <sup>(資料來源:</sup>[^flags_un]<sup>)</sup>
 
-[^1]: United Nations Headquarters, New York . By Rick Banjornas, [來源連結](https://uil.unesco.org/literacy/literacy-and-education-democracy-essential-milestones-advance-sdgs-during-and-beyond-covid) , 9 October 2020
+[^flags_un]: United Nations Headquarters, New York . By Rick Banjornas, [來源連結](https://uil.unesco.org/literacy/literacy-and-education-democracy-essential-milestones-advance-sdgs-during-and-beyond-covid) , 9 October 2020
 
 國旗是國家的代表，國旗裡的線條、顏色與形狀，都有它的歷史由來。在此，我們將一同思考、並利用海龜程式來實作出國旗。
 
@@ -35,9 +35,9 @@ hide:
 
 <iframe width="480" height="270" src="https://www.youtube.com/embed/FX5F3pk5MWU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-: <sup>(資料來源:</sup>[^2]<sup>)</sup>
+: <sup>(資料來源:</sup>[^tokyo_olympics_badminton]<sup>)</sup>
 
-[^2]: 經典影音館 2020東京奧運 李洋/王齊麟 #麟洋配 男子羽球雙打金牌頒獎 #國旗歌 (2021.07.31) , By 台灣天眼 , [youtube連結](https://www.youtube.com/watch?v=FX5F3pk5MWU)  
+[^tokyo_olympics_badminton]: 經典影音館 2020東京奧運 李洋/王齊麟 #麟洋配 男子羽球雙打金牌頒獎 #國旗歌 (2021.07.31) , By 台灣天眼 , [youtube連結](https://www.youtube.com/watch?v=FX5F3pk5MWU)  
 
 
 <br/>
@@ -48,9 +48,9 @@ hide:
 
 ![世界國旗](640px-Flag-map_of_the_world_2018.png)
 
-: <sup>(資料來源:</sup>[^3]<sup>)</sup>
+: <sup>(資料來源:</sup>[^wikipedia_national_flags]<sup>)</sup>
 
-[^3]: By H8edge, [維基百科連結](https://commons.wikimedia.org/w/index.php?curid=68410306) ,CC BY-SA 4.0
+[^wikipedia_national_flags]: By H8edge, [維基百科連結](https://commons.wikimedia.org/w/index.php?curid=68410306) ,CC BY-SA 4.0
 
 各國國旗的外形，有沒有什麼相同點呢？
 
@@ -98,7 +98,13 @@ hide:
 
 ??? example "範例程式 正方形"
 
-     :fontawesome-solid-link: <a href="../../turtle4t/draw_square/" target="_blank">Let's Code 畫出正方形 (含操作影片、程式碼及說明)</a>
+    === "🎦操作影片"
+    
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Wh7ExxELMYg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    === "💻程式碼"
+
+        ![程式截圖](snapshot/draw_square.jpg) 
 
 ??? abstract "結構化程式設計"
 
@@ -139,7 +145,13 @@ hide:
 
 ??? example "範例程式 長方形及填色"
 
-     :fontawesome-solid-link: <a href="../../turtle4t/rectangle_and_fill/" target="_blank">Let's Code 長方形及填色 (含操作影片、程式碼及說明)</a>
+    === "🎦操作影片"
+    
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/xL_e-SZklWo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    === "💻程式碼"
+
+        ![程式截圖](snapshot/rectangle_and_fill.jpg) 
 
 <br/><br/><br/> 
 
@@ -194,7 +206,14 @@ hide:
 
 ??? example "Py4t範例程式 法國國旗"
 
-     :fontawesome-solid-link: <a href="../../turtle4t/flag_of_france/" target="_blank">Let's Code 法國國旗 (含操作影片、程式碼及說明)</a>
+    === "🎦操作影片"
+    
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/GKyYdbDMH1A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    === "💻程式碼"
+
+        ![程式截圖](snapshot/flag_of_france.jpg) 
+
 
 <br/> 
 
@@ -233,9 +252,9 @@ hide:
 
 : ![日本國旗](japan_flag_spec.png)
 
-: <sup>(資料來源:</sup>[^4]<sup>)</sup>
+: <sup>(資料來源:</sup>[^japan_flag]<sup>)</sup>
 
-[^4]: Zscout370 - 投稿者自身による作品, based on http://law.e-gov.go.jp/htmldata/H11/H11HO127.html, CC 表示-継承 4.0, https://commons.wikimedia.org/w/index.php?curid=3109313による
+[^japan_flag]: Zscout370 - 投稿者自身による作品, based on http://law.e-gov.go.jp/htmldata/H11/H11HO127.html, CC 表示-継承 4.0, https://commons.wikimedia.org/w/index.php?curid=3109313による
 
 
 你看得出日本國旗的寬高比例與紅色圓形比例嗎？(提示：圓形直徑為高的3/5)
@@ -329,9 +348,9 @@ hide:
 
 : ![星形公式](star_formula.jpg)
 
-: <sup>(資料來源:</sup>[^5]<sup>)</sup>
+: <sup>(資料來源:</sup>[^star_fomula]<sup>)</sup>
 
-[^5]: 自由軟體Scratch融入數學領域教學(王公國小102上半年教師在職資訊應用培訓)
+[^star_fomula]: 自由軟體Scratch融入數學領域教學(王公國小102上半年教師在職資訊應用培訓)
 
 <br/>
 
@@ -360,9 +379,9 @@ hide:
 
 : ![越南國旗規格](vietnam_flag_spec.png)
 
-: <sup>(資料來源:</sup>[^6]<sup>)</sup>
+: <sup>(資料來源:</sup>[^vietnam_flag]<sup>)</sup>
 
-[^6]: By MapGrid . [維基百科連結](https://commons.wikimedia.org/wiki/File:Flag_of_Vietnam_(construction_sheet).svg)
+[^vietnam_flag]: Flag of Vietnam, By MapGrid , [維基百科連結](https://commons.wikimedia.org/wiki/File:Flag_of_Vietnam_(construction_sheet).svg)
 
 <br/>
 
