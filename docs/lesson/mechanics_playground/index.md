@@ -45,9 +45,19 @@ hide:
 
 一起動手來寫程式吧！
 
-??? example "Py4t範例程式 新增圓球"
+<br/>
 
-    :fontawesome-solid-link: <a href="../../pie4t/bounce_ball/#_1" target="_blank">Let's Code 新增圓球 (含操作影片、程式碼及說明)</a>
+???+ example "範例程式 新增圓球"
+
+
+    === "🎦操作影片"
+    
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/sIAgw3FryX8?start=1&amp;end=128" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    === "💻程式碼截圖"
+
+        ![程式截圖](snapshot/bounce_ball_add.jpg)
+
 
 ??? abstract "模擬主迴圈？流程？"
 
@@ -92,9 +102,18 @@ hide:
 
 讓我們用程式來模擬不同彈性的球吧！
 
-??? example "Py4t範例程式 恢復係數"
+<br/>
 
-     :fontawesome-solid-link: <a href="../../pie4t/bounce_ball/#2" target="_blank"> Let's Code 恢復係數 (含操作影片、程式碼及說明)</a>
+???+ example "範例程式 恢復係數"
+
+    === "🎦操作影片"
+    
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/sIAgw3FryX8?start=131&amp;end=251" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    === "💻程式碼截圖"
+
+        ![程式截圖](snapshot/bounce_ball_restitution.jpg)
+
 
 ??? info "補充資料"
 
@@ -128,9 +147,19 @@ hide:
 
 讓我們用程式來模擬這個現象。
 
-??? example "Py4t範例程式 超強彈性體"
+<br/>
 
-     :fontawesome-solid-link: <a href="../../pie4t/bounce_ball/#3" target="_blank"> Let's Code 超強彈性體 (含操作影片、程式碼及說明)</a>
+???+ example "範例程式 超強彈性體"
+
+
+    === "🎦操作影片"
+    
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/sIAgw3FryX8?start=253&amp;end=410" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    === "💻程式碼截圖"
+
+        ![程式截圖](snapshot/bounce_ball_super.jpg)
+
 
 ??? question "更多練習"
 
@@ -184,19 +213,29 @@ Py4t物理學習模組內建了地形的輔助功能，會使用到Ctrl鍵及Alt
 
 動手做做看，建立出不同的斜面。
 
-??? example "Py4t範例程式 新增球與斜面"
+<br/>
 
-     :fontawesome-solid-link: <a href="../../pie4t/force_and_slide/#1" target="_blank">Let's Code 新增球與斜面 (含操作影片、程式碼及說明)</a>
+???+ example "範例程式 新增球與斜面"
+
+
+    === "🎦操作影片"
+    
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/U3dnShwtdDQ?start=2&amp;end=302" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    === "💻程式碼截圖"
+
+        ![程式截圖](snapshot/force_and_slide_terrain.jpg)
+
 
 <br/><br/><br/> 
 
 ----------------------------
 
-***速度比較***
+***落下速度比較***
 
 ----------------------------
 
-當球在不同的斜面落下，會怎樣呢？
+當球在不同的斜面落下時，哪個快？哪個慢？
 
 ![球在不同斜面](ball_on_slide.jpg) 
 
@@ -204,9 +243,18 @@ Py4t物理學習模組內建了地形的輔助功能，會使用到Ctrl鍵及Alt
 
 用程式來模擬看看。
 
-??? example "Py4t範例程式 速度比較"
+<br/>
 
-     :fontawesome-solid-link: <a href="../../pie4t/force_and_slide/#2" target="_blank">Let's Code 速度比較 (含操作影片、程式碼及說明)</a>
+???+ example "範例程式 落下速度比較"
+
+    === "🎦操作影片"
+    
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/U3dnShwtdDQ?start=303&amp;end=339" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    === "💻程式碼截圖"
+
+        ![程式截圖](snapshot/force_and_slide_velocity.jpg)
+
 
 ??? info "補充資料" 
     
@@ -242,9 +290,18 @@ Py4t物理學習模組內建了地形的輔助功能，會使用到Ctrl鍵及Alt
 
 用程式來模擬看看。
 
-??? example "Py4t範例程式 摩擦力"
+<br/>
 
-     :fontawesome-solid-link: <a href="../../pie4t/force_and_slide/#3" target="_blank">Let's Code 摩擦力 (含操作影片、程式碼及說明)</a>
+???+ example "範例程式 摩擦力"
+
+    === "🎦操作影片"
+    
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/U3dnShwtdDQ?start=341&amp;end=504" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    === "💻程式碼截圖"
+
+        ![程式截圖](snapshot/force_and_slide_friction.jpg)
+
 
 ??? info "補充資料" 
     
@@ -273,9 +330,18 @@ Py4t物理學習模組內建了地形的輔助功能，會使用到Ctrl鍵及Alt
 
 用程式來模擬看看。
 
-??? example "Py4t範例程式 施力"
+<br/>
 
-    :fontawesome-solid-link: <a href="../../pie4t/force_and_slide/#4" target="_blank">Let's Code 施力 (含操作影片、程式碼及說明)</a>
+???+ example "範例程式 施力"
+
+
+    === "🎦操作影片"
+    
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/U3dnShwtdDQ?start=505&amp;end=633" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    === "💻程式碼截圖"
+
+        ![程式截圖](snapshot/force_and_slide_impulse.jpg)
 
 ??? info "補充資料" 
     
@@ -325,13 +391,22 @@ EngineTV 原金動畫, [youtube連結](https://www.youtube.com/watch?v=bhavS93SE
 
 ![滑鼠速度向量](mouse_vector_from_origin.png) 
 
+<br/><br/>
 
 一起來動手寫寫看。
 
+<br/>
 
-??? example "Py4t範例程式 拋體運動"
+???+ example "範例程式 拋體運動"
 
-    :fontawesome-solid-link: <a href="../../pie4t/projectile/#1" target="_blank">Let's Code 拋體運動 (含操作影片、程式碼及說明)</a>
+
+    === "🎦操作影片"
+    
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/UgJ6ed8H03Q?start=2&amp;end=192" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    === "💻程式碼截圖"
+
+        ![程式截圖](snapshot/projectile_basic.jpg)
 
 
 ??? info "補充資料" 
@@ -371,9 +446,19 @@ EngineTV 原金動畫, [youtube連結](https://www.youtube.com/watch?v=bhavS93SE
 
 一起來動手寫寫看。
 
-??? example "Py4t範例程式 連續噴射"
+<br/>
 
-    :fontawesome-solid-link: <a href="../../pie4t/projectile/#2" target="_blank">Let's Code 連續噴射 (含操作影片、程式碼及說明)</a>
+???+ example "範例程式 連續噴射"
+
+
+    === "🎦操作影片"
+    
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/UgJ6ed8H03Q?start=193&amp;end=383" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    === "💻程式碼截圖"
+
+        ![程式截圖](snapshot/projectile_continuous.jpg)
+
 
 ??? abstract "滑鼠操作事件"
 
@@ -421,12 +506,21 @@ EngineTV 原金動畫, [youtube連結](https://www.youtube.com/watch?v=bhavS93SE
 
 : ![上下向量](y_vector_explained.png) 
 
-知道了這些，動手來寫無重力的模擬程式。
+知道了這些，就可以來寫無重力的模擬程式。
+
+<br/>
+
+???+ example "範例程式 無重力狀態"
 
 
-??? example "Py4t範例程式 無重力狀態"
+    === "🎦操作影片"
+    
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/I_i5OyGIObQ?start=0&amp;end=343" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    :fontawesome-solid-link: <a href="../../pie4t/inertia_gravity/#1" target="_blank">Let's Code 無重力狀態 (含操作影片、程式碼及說明)</a>
+    === "💻程式碼截圖"
+
+        ![程式截圖](snapshot/gravity_float.jpg)
+
 
 ??? abstract "事件驅動程式"
 
@@ -452,7 +546,7 @@ EngineTV 原金動畫, [youtube連結](https://www.youtube.com/watch?v=bhavS93SE
 : ![左右向量](x_vector_explained.png) 
 
 
-了解4個方向的向量，可以做什麼事嗎？
+如果可以控制4個方向的向量，可以做什麼呢？
 
 來看看在國際太空站的太空人如何進行趣味奧運比賽。
 
@@ -468,9 +562,18 @@ NASA, [youtube連結](https://www.youtube.com/watch?v=ZlPpHILyEl4)
 
 請發揮你的創意，用控制重力的程式做出搬運物體的遊戲。
 
-??? example "Py4t範例程式 重力搬運"
+<br/>
 
-    :fontawesome-solid-link: <a href="../../pie4t/inertia_gravity/#2" target="_blank">Let's Code 重力搬運 (含操作影片、程式碼及說明)</a>
+???+ example "範例程式 重力搬運"
+
+    === "🎦操作影片"
+    
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/I_i5OyGIObQ?start=347&amp;end=667" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    === "💻程式碼截圖"
+
+        ![程式截圖](snapshot/gravity_game.jpg)
+
 
 ??? abstract "結構化程式設計"
 
@@ -513,9 +616,18 @@ NASA, [youtube連結](https://www.youtube.com/watch?v=ZlPpHILyEl4)
 
 利用之前的恢復係數，讓我們來實作程式吧！
 
-??? example "Py4t範例程式 固定球數"
+<br/>
 
-     :fontawesome-solid-link: <a href="../../pie4t/bounce_array/#1" target="_blank">Let's Code 固定球數 (含操作影片、程式碼及說明)</a>
+???+ example "範例程式 固定球數"
+
+
+    === "🎦操作影片"
+    
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/U9DAN6NbkbY?start=0&amp;end=240" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    === "💻程式碼截圖"
+
+        ![程式截圖](snapshot/bounce_array_constant.jpg)
 
 ??? abstract "結構化程式設計"
 
@@ -549,9 +661,18 @@ NASA, [youtube連結](https://www.youtube.com/watch?v=ZlPpHILyEl4)
 
 想清楚了嗎？動手寫寫看。
 
-??? example "Py4t範例程式 變數模式識別"
+<br/>
 
-     :fontawesome-solid-link: <a href="../../pie4t/bounce_array/#2" target="_blank">Let's Code 變數模式識別 (含操作影片、程式碼及說明)</a>
+???+ example "範例程式 變數模式識別"
+
+
+    === "🎦操作影片"
+    
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/U9DAN6NbkbY?start=243&amp;end=406" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    === "💻程式碼截圖"
+
+        ![程式截圖](snapshot/bounce_array_pattern.jpg)
 
 
 <br/><br/><br/>
@@ -567,10 +688,18 @@ NASA, [youtube連結](https://www.youtube.com/watch?v=ZlPpHILyEl4)
 
 利用不同的彈性排列變化，來做出不同的效果吧
 
-??? example "Py4t範例程式 不同波動變化"
+<br/>
 
-     :fontawesome-solid-link: <a href="../../pie4t/bounce_array/#3" target="_blank">Let's Code 不同波動變化 (含操作影片、程式碼及說明)</a>
+???+ example "範例程式 不同波動變化"
 
+
+    === "🎦操作影片"
+    
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/U9DAN6NbkbY?start=408&amp;end=660" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    === "💻程式碼截圖"
+
+        ![程式截圖](snapshot/bounce_array_various.jpg)
 
 ??? abstract "結構化程式設計"
 

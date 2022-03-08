@@ -90,7 +90,7 @@ hide:
 <br/><br/><br/> 
 
 ----------------------------
-##  📒 規劃
+##  📒 構思
 ----------------------------
 
 當我們對國旗有了基本的了解之後，就可以把大的問題拆解成小的問題，再逐一克服。
@@ -136,9 +136,19 @@ hide:
 
 動手來寫國旗主要結構的程式。
 
-??? example "範例程式 程式結構"
+<br/>
 
-     :fontawesome-solid-link: <a href="../../turtle4t/roc_flag/#1" target="_blank">Let's Code 程式結構 (含操作影片、程式碼及說明)</a>
+???+ example "範例程式 程式結構"
+
+    === "🎦操作影片"
+    
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/qjlan7-zmu8?start=3&amp;end=281" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    === "💻程式碼截圖"
+
+        ![程式截圖](snapshot/roc_flag_structure.jpg) 
+
+
 
 <br/><br/><br/> 
 
@@ -163,9 +173,19 @@ hide:
 
 也要留意海龜的起點位置。試著用程式寫寫看。
 
-??? example "範例程式 紅地與青天"
+<br/>
 
-     :fontawesome-solid-link: <a href="../../turtle4t/roc_flag/#2" target="_blank">Let's Code 紅地與青天 (含操作影片、程式碼及說明)</a>
+???+ example "範例程式 紅地與青天"
+
+
+    === "🎦操作影片"
+    
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/qjlan7-zmu8?start=283&amp;end=483" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    === "💻程式碼截圖"
+
+        ![程式截圖](snapshot/roc_flag_ground_sky.jpg) 
+
 
 ??? abstract "結構化程式設計"
 
@@ -216,10 +236,17 @@ hide:
 
 最後，再讓線條與填充都是白色就可以了，用海龜程式來做做看。
 
+<br/>
 
-??? example "範例程式 光芒"
+???+ example "範例程式 光芒"
 
-     :fontawesome-solid-link: <a href="../../turtle4t/roc_flag/#3" target="_blank">Let's Code 光芒 (含操作影片、程式碼及說明)</a>
+    === "🎦操作影片"
+    
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/qjlan7-zmu8?start=486&amp;end=718" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    === "💻程式碼截圖"
+
+        ![程式截圖](snapshot/roc_flag_shining.jpg) 
 
 
 
@@ -245,9 +272,19 @@ hide:
 
 有了這些資訊，就可以寫出白日的海龜程式。
 
-??? example "範例程式 白日"
+<br/>
 
-     :fontawesome-solid-link: <a href="../../turtle4t/roc_flag/#4" target="_blank">Let's Code 白日 (含操作影片、程式碼及說明)</a>
+???+ example "範例程式 白日"
+
+
+    === "🎦操作影片"
+    
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/qjlan7-zmu8?start=721&amp;end=853" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    === "💻程式碼截圖"
+
+        ![程式截圖](snapshot/roc_flag_sun.jpg) 
+
 
 <br/>
 
@@ -283,9 +320,18 @@ hide:
 
 想清楚了嗎？試著來寫寫看倍率放大的國旗。
 
-??? example "範例程式 縮放倍率"
+<br/>
 
-     :fontawesome-solid-link: <a href="../../turtle4t/roc_flag/#5" target="_blank">Let's Code 縮放倍率 (含操作影片、程式碼及說明)</a>
+???+ example "範例程式 縮放倍率"
+
+    === "🎦操作影片"
+    
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/qjlan7-zmu8?start=855&amp;end=1054" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    === "💻程式碼截圖"
+
+        ![程式截圖](snapshot/roc_flag_scale.jpg) 
+
 
 <br/><br/><br/>
 
@@ -304,9 +350,17 @@ hide:
 
 想好了嗎？試著來寫寫看座標平移的國旗。
 
-??? example "範例程式 座標平移"
+<br/>
 
-     :fontawesome-solid-link: <a href="../../turtle4t/roc_flag/#6" target="_blank">Let's Code 座標平移 (含操作影片、程式碼及說明)</a>
+???+ example "範例程式 座標平移"
+
+    === "🎦操作影片"
+    
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/qjlan7-zmu8?start=1057&amp;end=1239" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    === "💻程式碼截圖"
+
+        ![程式截圖](snapshot/roc_flag_pan.jpg) 
 
 
 <br/><br/><br/>
@@ -329,10 +383,19 @@ hide:
 
 實際來寫相關的海龜程式。
 
+<br/>
 
-??? example "範例程式 使用者介面"
+???+ example "範例程式 使用者介面"
 
-     :fontawesome-solid-link: <a href="../../turtle4t/roc_flag/#7" target="_blank">Let's Code 使用者介面 (含操作影片、程式碼及說明)</a>
+    === "🎦操作影片"
+    
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/qjlan7-zmu8?start=1240&amp;end=1405" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    === "💻程式碼截圖"
+
+        ![程式截圖](snapshot/roc_flag_ui.jpg) 
+
+
 
 ??? info "補充資料 使用者介面"
 

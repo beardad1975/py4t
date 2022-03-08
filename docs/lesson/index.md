@@ -41,6 +41,7 @@ hide:
 
 ??? abstract  "專題 - 物理撞擊實驗室 "    
     
+    建構中…
 
     : 　 :fontawesome-solid-long-arrow-alt-right: <a href="project_collision_lab/" target="_blank">「物理撞擊實驗室」</a>
 

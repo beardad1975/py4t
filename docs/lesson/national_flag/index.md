@@ -96,13 +96,13 @@ hide:
 
 <br/>
 
-??? example "範例程式 正方形"
+???+ example "範例程式 正方形"
 
     === "🎦操作影片"
     
         <iframe width="560" height="315" src="https://www.youtube.com/embed/Wh7ExxELMYg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    === "💻程式碼"
+    === "💻程式碼截圖"
 
         ![程式截圖](snapshot/draw_square.jpg) 
 
@@ -143,13 +143,15 @@ hide:
 
 試著用海龜程式畫出長方形並填色。
 
-??? example "範例程式 長方形及填色"
+<br/>
+
+???+ example "範例程式 長方形及填色"
 
     === "🎦操作影片"
     
         <iframe width="560" height="315" src="https://www.youtube.com/embed/xL_e-SZklWo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    === "💻程式碼"
+    === "💻程式碼截圖"
 
         ![程式截圖](snapshot/rectangle_and_fill.jpg) 
 
@@ -203,14 +205,15 @@ hide:
 
 用海龜程式來把想法一實作出來。(建議將規格尺寸放大100倍)
 
+<br/>
 
-??? example "Py4t範例程式 法國國旗"
+???+ example "範例程式 法國國旗"
 
     === "🎦操作影片"
     
         <iframe width="560" height="315" src="https://www.youtube.com/embed/GKyYdbDMH1A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    === "💻程式碼"
+    === "💻程式碼截圖"
 
         ![程式截圖](snapshot/flag_of_france.jpg) 
 
@@ -298,14 +301,16 @@ hide:
 
 在做之前，請你先思考一下繪製順序(先畫圓形或長方形)，再動手寫寫看。
 
-??? example "Py4t範例程式 日本國旗"
+<br/>
+
+???+ example "範例程式 日本國旗"
 
 
     === "🎦操作影片"
     
         <iframe width="560" height="315" src="https://www.youtube.com/embed/upF-HpneLPY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    === "💻程式碼"
+    === "💻程式碼截圖"
 
         ![程式截圖](snapshot/flag_of_japan.jpg) 
 
@@ -334,14 +339,16 @@ hide:
 
 ![正三角形](draw_triangle.png) 
 
-??? example "範例程式 正三角形"
+<br/>
+
+???+ example "範例程式 正三角形"
 
 
     === "🎦操作影片"
     
         <iframe width="560" height="315" src="https://www.youtube.com/embed/5vxxz9MCqUw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    === "💻程式碼"
+    === "💻程式碼截圖"
 
         ![程式截圖](snapshot/draw_triangle.jpg) 
 
@@ -374,13 +381,13 @@ hide:
 
 <br/>
 
-??? example "Py4t範例程式 奇數角星形"
+???+ example "範例程式 奇數角星形"
 
     === "🎦操作影片"
     
         <iframe width="560" height="315" src="https://www.youtube.com/embed/hlib0KmRiI0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    === "💻程式碼"
+    === "💻程式碼截圖"
 
         ![程式截圖](snapshot/odd_number_star.jpg) 
 
@@ -419,13 +426,15 @@ hide:
 
 接下來，試著做出越南國旗的程式。(建議將規格尺寸放大10倍)
 
-??? example "Py4t範例程式 越南國旗"
+<br/>
+
+???+ example "範例程式 越南國旗"
 
     === "🎦操作影片"
     
         <iframe width="560" height="315" src="https://www.youtube.com/embed/3Fa8GosgRIw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    === "💻程式碼"
+    === "💻程式碼截圖"
 
         ![程式截圖](snapshot/flag_of_vietnam.jpg) 
 
