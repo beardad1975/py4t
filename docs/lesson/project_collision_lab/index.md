@@ -185,14 +185,180 @@ hide:
 
 
 
+???+ example "範例程式 程式結構"
+
+    === "🎦操作影片"
+    
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/dIjMzArPjqI?start=2&amp;end=260" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    === "💻程式碼截圖"
+
+        ![程式截圖](snapshot/collision_lab_structure.jpg) 
+
+
 
 <br/><br/><br/>
+
+
+
+----------------------------
+
+###  ***發射撞擊物***
+
+----------------------------
+
+
+
+
+
+???+ example "範例程式 發射撞擊物"
+
+    === "🎦操作影片"
+    
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/dIjMzArPjqI?start=263&amp;end=378" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    === "💻程式碼截圖"
+
+        ![程式截圖](snapshot/collision_lab_launch.jpg) 
+
+<br/><br/><br/>
+
+
+----------------------------
+
+###  ***障礙物 - 柱***
+
+----------------------------
+
+
+
+
+???+ example "範例程式 柱"
+
+    === "🎦操作影片"
+    
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/dIjMzArPjqI?start=380&amp;end=590" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    === "💻程式碼截圖"
+
+        ![程式截圖](snapshot/collision_lab_pillar.jpg) 
+
+
+<br/><br/><br/>
+
+----------------------------
+
+###  ***障礙物 - 牆***
+
+----------------------------
+
+
+
+
+
+???+ example "範例程式 牆"
+
+    === "🎦操作影片"
+    
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/dIjMzArPjqI?start=595&amp;end=722" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    === "💻程式碼截圖"
+
+        ![程式截圖](snapshot/collision_lab_wall.jpg) 
+
+<br/><br/><br/>
+
+----------------------------
+
+###  ***障礙物 - 金字塔***
+
+----------------------------
+
+
+
+
+???+ example "範例程式 金字塔"
+
+    === "🎦操作影片"
+    
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/dIjMzArPjqI?start=725&amp;end=886" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    === "💻程式碼截圖"
+
+        ![程式截圖](snapshot/collision_lab_pyramid.jpg) 
+
+
+<br/><br/><br/>
+
+----------------------------
+
+###  ***實驗組與對照組***
+
+----------------------------
+
+
+
+
+???+ example "範例程式 實驗組與對照組"
+
+    === "🎦操作影片"
+    
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/dIjMzArPjqI?start=888&amp;end=1014" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    === "💻程式碼截圖"
+
+        ![程式截圖](snapshot/collision_lab_experiment_and_control.jpg) 
+
+
+<br/><br/><br/>
+
+----------------------------
+
+###  ***撞擊測試***
+
+----------------------------
+
+
+
+
+???+ example "範例程式 撞擊測試"
+
+    === "🎦操作影片"
+    
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/dIjMzArPjqI?start=1016&amp;end=1267" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    === "💻程式碼截圖"
+
+        ![程式截圖](snapshot/collision_lab_test.jpg) 
+
+
+<br/><br/><br/>
+
 
 ----------------------------
 ##  📙 擴展
 
 
-***慢動作***
+### ***慢動作***
+
+----------------------------
+
+???+ example "範例程式 慢動作"
+
+    === "🎦操作影片"
+    
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/dIjMzArPjqI?start=1269&amp;end=1415" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    === "💻程式碼截圖"
+
+        ![程式截圖](snapshot/collision_lab_slow_motion.jpg) 
+
+<br/><br/><br/>
+
+
+----------------------------
+
+###  ***子彈射擊***
 
 ----------------------------
 
@@ -200,9 +366,21 @@ hide:
 
 
 
+???+ example "範例程式 子彈射擊"
+
+    === "🎦操作影片"
+    
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/dIjMzArPjqI?start=1417&amp;end=1521" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    === "💻程式碼截圖"
+
+        ![程式截圖](snapshot/collision_lab_bullet.jpg) 
+
+<br/><br/><br/>
+
 ----------------------------
 
-***結語***
+##  📒 結語
 
 ----------------------------
 
