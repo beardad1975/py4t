@@ -127,22 +127,17 @@ hide:
 ##  📒 規劃
 ----------------------------
 
-為了讓碰撞模擬在操作上有多變性與互動性，撞擊物的設計在點擊滑鼠時會從左向右射出
+在進行撞擊模擬時，參考以下圖的方式，來判斷撞墼力的大小：
 
-當一開始施力於撞擊物時，跟據牛頓運動定關，會產生加速度並且移動，物體運動的同時也會受到重力的影響，產生如下的拋物線軌跡：
+: ![電磁砲與硬幣](railgun_coin.jpg)
 
-<br/> 
+: <sup>(資料來源:</sup>[^railgun]<sup>)</sup>
 
-: ![拋物線軌跡](projectile_track.png)
-
-<br/>
-
-由上圖可以得知，讓撞擊物的開始方向稍微斜上，可以讓運動的軌跡不會降低太快也不會飛得太高。
+[^railgun]: Fun科學-超‧電磁砲-噴飛的硬幣, By 佑來了, [youtube連結](https://youtu.be/sKcblM1ayts) 
 
 <br/>
-<br/>
 
-接下來是障礙物的設計，在參考相關資料並簡化後，採用3種障礙物設計，供撞擊物做不同的碰撞模擬：
+在參考資料並簡化後，採用3種障礙物設計，供撞擊物做不同的碰撞模擬：
 
 <br/> 
 
@@ -159,17 +154,7 @@ hide:
 
 <br/>
 
-程式的主要流程設計如下：
 
-
-
-: ![流程](collision_flow.jpg)
-
-
-
-初步完成規畫後，接下來可以動手寫程式了。
-
-<br/>
 
 
 
@@ -183,7 +168,17 @@ hide:
 
 ----------------------------
 
+程式的主要流程設計如下：
 
+
+
+: ![流程](collision_flow.jpg)
+
+
+
+初步完成規畫後，接下來可以動手寫程式了。
+
+<br/>
 
 ???+ example "範例程式 程式結構"
 
@@ -208,7 +203,21 @@ hide:
 ----------------------------
 
 
+為了讓碰撞模擬在操作上有多變性與互動性，撞擊物的設計在點擊滑鼠時會從左向右射出
 
+當一開始施力於撞擊物時，跟據牛頓運動定關，會產生加速度並且移動，物體運動的同時也會受到重力的影響，產生如下的拋物線軌跡：
+
+<br/> 
+
+: ![拋物線軌跡](projectile_track.png)
+
+<br/>
+
+由上圖可以得知，讓撞擊物的開始方向稍微斜上，可以讓運動的軌跡不會降低太快也不會飛得太高。在發射的程式中，會加一些方向向上的力量。
+
+<br/>
+來動手寫寫看。
+<br/>
 
 
 ???+ example "範例程式 發射撞擊物"
@@ -231,7 +240,7 @@ hide:
 ----------------------------
 
 
-
+: ![柱的思考與重複結構](pillar_and_loop.png)
 
 ???+ example "範例程式 柱"
 
@@ -253,7 +262,7 @@ hide:
 ----------------------------
 
 
-
+: ![牆的思考與双層重複結構](wall_and_double_loop.png)
 
 
 ???+ example "範例程式 牆"
@@ -275,7 +284,7 @@ hide:
 ----------------------------
 
 
-
+: ![拋物線軌跡](pyramid_and_loop.png)
 
 ???+ example "範例程式 金字塔"
 
@@ -342,6 +351,13 @@ hide:
 ### ***慢動作***
 
 ----------------------------
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0-pZ4t-kAWw?start=0&amp;end=36" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+: <sup>(資料來源:</sup>[^slow_motion]<sup>)</sup>
+
+[^slow_motion]: EVERYTHING Looks Better in Slow Motion, By Legendary Shots, [youtube連結](https://youtu.be/0-pZ4t-kAWw) 
 
 ???+ example "範例程式 慢動作"
 
