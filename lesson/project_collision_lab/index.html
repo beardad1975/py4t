@@ -1168,20 +1168,6 @@
   
   
     <li class="md-nav__item">
-      <a href="../../pie4t/shoot/" class="md-nav__link">
-        🔰 射擊場 範例
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
       <a href="../../pie4t/gravity/" class="md-nav__link">
         🔰 操控重力 範例
       </a>
@@ -1254,6 +1240,20 @@
     <li class="md-nav__item">
       <a href="../../pie4t/inertia_gravity/" class="md-nav__link">
         🔰 重力控制 範例
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../pie4t/collision_lab/" class="md-nav__link">
+        🔰 物理撞擊實驗室 範例
       </a>
     </li>
   
@@ -1705,14 +1705,83 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    發射撞擊物
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#-" class="md-nav__link">
+    障礙物 - 柱
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#-_1" class="md-nav__link">
+    障礙物 - 牆
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#-_2" class="md-nav__link">
+    障礙物 - 金字塔
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    實驗組與對照組
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    撞擊測試
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#_8" class="md-nav__link">
+  <a href="#_11" class="md-nav__link">
     📙 擴展
+  </a>
+  
+    <nav class="md-nav" aria-label="📙 擴展">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_12" class="md-nav__link">
+    慢動作
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_13" class="md-nav__link">
+    子彈射擊
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_14" class="md-nav__link">
+    📒 結語
   </a>
   
 </li>
@@ -1734,7 +1803,7 @@
 <hr />
 <h2 id="_2">📕 引言</h2>
 <hr />
-<p>汽車撞擊測試是一種對市售新車所做的撞擊試驗，測試車輛的耐撞性是否符合安全設計標準。在車禍事故發生時，能最大程度保障司機與乘客的安全。</p>
+<p>汽車撞擊測試是一種對市售新車所做的撞擊試驗，測試車輛的耐撞性是否符合安全設計標準，讓車子在發生車禍事故發生時，能最大程度保障司機與乘客的安全。</p>
 <dl>
 <dt><iframe width="560" height="315" src="https://www.youtube.com/embed/G0EVIYU59zk?start=0&amp;end=125" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </dt>
@@ -1743,7 +1812,7 @@
 </dd>
 </dl>
 <p>在正面、後面與測面撞擊的測試中，車子與障礙物的質量、速度、方向、結構、材料…等，都會影響撞擊結果，從車內假人身上的感測器，也可以了解撞擊過程中，對人類身體的影響。</p>
-<p>在之前的學習中，相信各位已經練習過運動物理量的設置與模擬。在本專題中，請做出一個<strong>與物理撞擊模擬有關的程式</strong>。</p>
+<p>在之前的學習中，相信各位已經練習過利用物理程式來做運動物理量的設置與模擬。在本專題中，請做出一個<strong>與物理撞擊模擬有關的程式</strong>。</p>
 <details class="quote"><summary>建議先備課程</summary><p>在學習本專題前，建議先完成 <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M313.941 216H12c-6.627 0-12 5.373-12 12v56c0 6.627 5.373 12 12 12h301.941v46.059c0 21.382 25.851 32.09 40.971 16.971l86.059-86.059c9.373-9.373 9.373-24.569 0-33.941l-86.059-86.059c-15.119-15.119-40.971-4.411-40.971 16.971V216z"/></svg></span> <a href="../mechanics_playground/" target="_blank">「力與運動遊樂場」</a> ，在學習概念銜接上會較為平順。</p>
 </details>
 <details class="info"><summary>補充資料</summary><p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></span> <a href="https://www.car-safety.org.tw/car_safety/TemplateOneList?OpID=373" target="_blank">車輛安全資訊網 實車碰撞</a></p>
@@ -1753,6 +1822,7 @@
 <hr />
 <h2 id="_3">📙 問題</h2>
 <hr />
+<p>要如何進行撞擊的模擬呢？</p>
 <p>首先，將撞擊模擬的物體分成「撞擊物」與「障礙物」，分別以圓形及方形做為代表。</p>
 <dl>
 <dt><br/></dt>
@@ -1766,13 +1836,14 @@
 <p>撞擊物的運動有哪些性質呢？</p>
 </li>
 <li>
-<p>障礙物的結構要如何設計？</p>
+<p>障礙物的排列結構有哪些形式？</p>
 </li>
 <li>
-<p>哪些因素會影響撞擊的結果？</p>
+<p>什麼因素會影響撞擊的結果？</p>
 </li>
 </ul>
-<p>還有想到其他與撞擊模擬相關的問題嗎？</p>
+<p><br/></p>
+<p>想一想，還有想到與撞擊模擬相關的問題嗎？</p>
 <p><br/><br/><br/> </p>
 <hr />
 <h2 id="_4">📗 搜尋</h2>
@@ -1831,19 +1902,17 @@
 <hr />
 <h2 id="_5">📒 規劃</h2>
 <hr />
-<p>為了讓碰撞模擬在操作上有多變性與互動性，撞擊物的設計在點擊滑鼠時會從左向右射出</p>
-<p>當一開始施力於撞擊物時，跟據牛頓運動定關，會產生加速度並且移動，物體運動的同時也會受到重力的影響，產生如下的拋物線軌跡：</p>
 <dl>
-<dt><br/> </dt>
+<dt>在進行撞擊模擬時，會參考下圖的方式，由撞擊後掉落物體的多或少，來判斷撞墼力的大小：</dt>
 <dd>
-<p><img alt="拋物線軌跡" src="projectile_track.png" /></p>
+<p><img alt="電磁砲與硬幣" src="railgun_coin.jpg" /></p>
+</dd>
+<dd>
+<p><sup>(資料來源:</sup><sup id="fnref:railgun"><a class="footnote-ref" href="#fn:railgun">2</a></sup><sup>)</sup></p>
 </dd>
 </dl>
 <p><br/></p>
-<p>由上圖可以得知，讓撞擊物的開始方向稍微斜上，可以讓運動的軌跡不會降低太快也不會飛得太高。</p>
-<p><br/>
-<br/></p>
-<p>接下來是障礙物的設計，在參考相關資料並簡化後，採用3種障礙物設計，供撞擊物做不同的碰撞模擬：</p>
+<p>參考資料並簡化後，將採用3種障礙物設計，供撞擊物做不同的碰撞模擬：</p>
 <dl>
 <dt><br/> </dt>
 <dd>
@@ -1852,7 +1921,7 @@
 </dl>
 <p><br/>
 <br/></p>
-<p>撞擊物以滑鼠控制，障礙物以鍵盤設置，模擬操作的設計構想如下圖：</p>
+<p>在程式的操作方式，撞擊物使用滑鼠控制，障礙物以鍵盤設置，模擬操作的設計構想如下圖：</p>
 <dl>
 <dt><br/></dt>
 <dd>
@@ -1860,33 +1929,274 @@
 </dd>
 </dl>
 <p><br/></p>
-<dl>
-<dt>程式的主要流程設計如下：</dt>
-<dd>
-<p><img alt="流程" src="collision_flow.jpg" /></p>
-</dd>
-</dl>
-<p>初步完成規畫後，接下來可以動手寫程式了。</p>
-<p><br/></p>
 <p><br/><br/><br/> </p>
 <hr />
 <h2 id="_6">📘 實作</h2>
 <h3 id="_7"><strong><em>程式結構</em></strong></h3>
 <hr />
+<dl>
+<dt>由於物理程式是採用事件驅動的方式，所以程式的主要流程與結構設計會考慮到鍵盤與滑鼠的事件處理函式，如下圖：</dt>
+<dd>
+<p><img alt="流程" src="collision_flow.jpg" /></p>
+</dd>
+</dl>
+<p>初步完成規畫後，就可以動手寫程式的主要結構。</p>
+<p><br/></p>
+<details class="example" open="open"><summary>範例程式 程式結構</summary><div class="tabbed-set tabbed-alternate" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">🎦操作影片</label><label for="__tabbed_1_2">💻程式碼截圖</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/dIjMzArPjqI?start=2&amp;end=260" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+</div>
+<div class="tabbed-block">
+<p><img alt="程式截圖" src="snapshot/collision_lab_structure.jpg" /> </p>
+</div>
+</div>
+</div>
+</details>
+<details class="abstract"><summary>模擬主迴圈</summary><p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></span> <a href="../basic/scratch_python_compare/#_16" target="_blank">事件驅動程式 結構與流程</a></p>
+</details>
+<details class="abstract"><summary>結構化程式設計</summary><p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></span> <a href="../basic/scratch_python_compare/#_5" target="_blank">選擇結構</a></p>
+</details>
 <p><br/><br/><br/></p>
 <hr />
-<h2 id="_8">📙 擴展</h2>
-<p><strong><em>慢動作</em></strong></p>
+<h3 id="_8"><strong><em>發射撞擊物</em></strong></h3>
 <hr />
+<p>為了讓碰撞模擬在操作上有多變性與互動性，撞擊物的設計在點擊滑鼠時會從左向右射出</p>
+<p>當一開始施力於撞擊物時，根據牛頓運動定律，會產生加速度並且移動，物體在空中移動的同時也會受到重力的影響，產生如下的拋物線軌跡：</p>
+<dl>
+<dt><br/> </dt>
+<dd>
+<p><img alt="拋物線軌跡" src="projectile_track.png" /></p>
+</dd>
+</dl>
+<p><br/></p>
+<p>由上圖可以得知，讓撞擊物的開始方向些微的斜上，可以讓運動的軌跡不會降低太快也不會飛得太高。所以在發射的程式中，會加一些向上的力量，儘量保持高度。</p>
+<p><br/></p>
+<p>動手寫寫看發射的程式。</p>
+<p><br/></p>
+<details class="example" open="open"><summary>範例程式 發射撞擊物</summary><div class="tabbed-set tabbed-alternate" data-tabs="2:2"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio" /><input id="__tabbed_2_2" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="__tabbed_2_1">🎦操作影片</label><label for="__tabbed_2_2">💻程式碼截圖</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/dIjMzArPjqI?start=263&amp;end=378" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+</div>
+<div class="tabbed-block">
+<p><img alt="程式截圖" src="snapshot/collision_lab_launch.jpg" /> </p>
+</div>
+</div>
+</div>
+</details>
+<p><br/><br/><br/></p>
 <hr />
-<p><strong><em>結語</em></strong></p>
+<h3 id="-"><strong><em>障礙物 - 柱</em></strong></h3>
 <hr />
+<p>先利用之前學到的方式，按滑鼠就會產生方塊。之後就要思考一下，如何使用重複結構(迴圈)，一次就能產生柱的障礙物。在迴圈中，柱的直排方塊座標，有沒有什麼規律呢？</p>
+<dl>
+<dt><br/></dt>
+<dd>
+<p><img alt="柱的思考與重複結構" src="pillar_and_loop.png" /></p>
+</dd>
+</dl>
+<p><br/></p>
+<p>動手實作看看。</p>
+<p><br/></p>
+<details class="example" open="open"><summary>範例程式 柱</summary><div class="tabbed-set tabbed-alternate" data-tabs="3:2"><input checked="checked" id="__tabbed_3_1" name="__tabbed_3" type="radio" /><input id="__tabbed_3_2" name="__tabbed_3" type="radio" /><div class="tabbed-labels"><label for="__tabbed_3_1">🎦操作影片</label><label for="__tabbed_3_2">💻程式碼截圖</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/dIjMzArPjqI?start=380&amp;end=590" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+</div>
+<div class="tabbed-block">
+<p><img alt="程式截圖" src="snapshot/collision_lab_pillar.jpg" /> </p>
+</div>
+</div>
+</div>
+</details>
+<details class="abstract"><summary>結構化程式設計</summary><p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></span> <a href="../basic/scratch_python_compare/#for" target="_blank">重複結構</a></p>
+</details>
+<p><br/><br/><br/></p>
+<hr />
+<h3 id="-_1"><strong><em>障礙物 - 牆</em></strong></h3>
+<hr />
+<p>牆的實作可以從柱的程式而來，柱是一層迴圈，而牆就需要使用双層迴圈。在双層迴圈中，能夠找出方塊座標的樣式嗎？</p>
+<dl>
+<dt><br/></dt>
+<dd>
+<p><img alt="牆的思考與双層重複結構" src="wall_and_double_loop.png" /></p>
+</dd>
+</dl>
+<p><br/></p>
+<p>請試著寫出程式。</p>
+<p><br/></p>
+<details class="example" open="open"><summary>範例程式 牆</summary><div class="tabbed-set tabbed-alternate" data-tabs="4:2"><input checked="checked" id="__tabbed_4_1" name="__tabbed_4" type="radio" /><input id="__tabbed_4_2" name="__tabbed_4" type="radio" /><div class="tabbed-labels"><label for="__tabbed_4_1">🎦操作影片</label><label for="__tabbed_4_2">💻程式碼截圖</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/dIjMzArPjqI?start=595&amp;end=722" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+</div>
+<div class="tabbed-block">
+<p><img alt="程式截圖" src="snapshot/collision_lab_wall.jpg" /> </p>
+</div>
+</div>
+</div>
+</details>
+<p><br/><br/><br/></p>
+<hr />
+<h3 id="-_2"><strong><em>障礙物 - 金字塔</em></strong></h3>
+<hr />
+<p>如何從牆的程式來做出金字塔呢？要先思考如何双層迴圈的關係，做出樓梯的形狀。再思考如何從樓梯形狀變化成金字塔形狀。相關思考如下圖：</p>
+<dl>
+<dt><br/></dt>
+<dd>
+<p><img alt="拋物線軌跡" src="pyramid_and_loop.png" /></p>
+</dd>
+</dl>
+<p><br/></p>
+<p>動手寫出程式</p>
+<p><br/></p>
+<details class="example" open="open"><summary>範例程式 金字塔</summary><div class="tabbed-set tabbed-alternate" data-tabs="5:2"><input checked="checked" id="__tabbed_5_1" name="__tabbed_5" type="radio" /><input id="__tabbed_5_2" name="__tabbed_5" type="radio" /><div class="tabbed-labels"><label for="__tabbed_5_1">🎦操作影片</label><label for="__tabbed_5_2">💻程式碼截圖</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/dIjMzArPjqI?start=725&amp;end=886" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+</div>
+<div class="tabbed-block">
+<p><img alt="程式截圖" src="snapshot/collision_lab_pyramid.jpg" /> </p>
+</div>
+</div>
+</div>
+</details>
+<p><br/><br/><br/></p>
+<hr />
+<h3 id="_9"><strong><em>實驗組與對照組</em></strong></h3>
+<hr />
+<p>為了讓撞擊的結果更為清楚，會將畫面分成上下兩部份，上方為實驗組，下方為對照組。</p>
+<p><br/></p>
+<p><img alt="實驗組與對照組" src="experimental_method.png" /></p>
+<p><br/></p>
+<p>依規劃的方式動手實作</p>
+<p><br/></p>
+<details class="abstract"><summary>如何新增地形？</summary><p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></span> <a href="../mechanics_playground/terrain_assist.jpg" target="_blank">增加刪除地形 操作說明</a></p>
+</details>
+<details class="example" open="open"><summary>範例程式 實驗組與對照組</summary><div class="tabbed-set tabbed-alternate" data-tabs="6:2"><input checked="checked" id="__tabbed_6_1" name="__tabbed_6" type="radio" /><input id="__tabbed_6_2" name="__tabbed_6" type="radio" /><div class="tabbed-labels"><label for="__tabbed_6_1">🎦操作影片</label><label for="__tabbed_6_2">💻程式碼截圖</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/dIjMzArPjqI?start=888&amp;end=1014" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+</div>
+<div class="tabbed-block">
+<p><img alt="程式截圖" src="snapshot/collision_lab_experiment_and_control.jpg" /> </p>
+</div>
+</div>
+</div>
+</details>
+<p><br/><br/><br/></p>
+<hr />
+<h3 id="_10"><strong><em>撞擊測試</em></strong></h3>
+<hr />
+<p>到此終於可以開始進行撞擊測試了。到底什麼會影響撞擊的結果呢？</p>
+<p><br/></p>
+<p><img alt="影響撞擊的因素" src="test_factor.png" /></p>
+<p><br/></p>
+<p>越重的物體也有可能會影響結果，但是當撞擊物有不同大小時，要如何決定重量呢？先了解一下什麼是密度：</p>
+<p><br/></p>
+<dl>
+<dt><iframe width="560" height="315" src="https://www.youtube.com/embed/DG44CT46rSM?start=0&amp;end=137" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</dt>
+<dd>
+<p><sup>(資料來源:</sup><sup id="fnref:density"><a class="footnote-ref" href="#fn:density">3</a></sup><sup>)</sup></p>
+</dd>
+</dl>
+<p><br/></p>
+<p>根據以上的思考，將會對「不同結構」、「不同高度」、「不同大小」、「不同密度」，分別進行撞擊測試。</p>
+<p><br/></p>
+<details class="example" open="open"><summary>範例程式 撞擊測試</summary><div class="tabbed-set tabbed-alternate" data-tabs="7:2"><input checked="checked" id="__tabbed_7_1" name="__tabbed_7" type="radio" /><input id="__tabbed_7_2" name="__tabbed_7" type="radio" /><div class="tabbed-labels"><label for="__tabbed_7_1">🎦操作影片</label><label for="__tabbed_7_2">💻程式碼截圖</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/dIjMzArPjqI?start=1016&amp;end=1267" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+</div>
+<div class="tabbed-block">
+<p><img alt="程式截圖" src="snapshot/collision_lab_test.jpg" /> </p>
+</div>
+</div>
+</div>
+</details>
+<p><br/><br/><br/></p>
+<hr />
+<h2 id="_11">📙 擴展</h2>
+<h3 id="_12"><strong><em>慢動作</em></strong></h3>
+<hr />
+<p>在有些真實世界的實驗中，會使用高速攝影機錄影，在事後以慢動作播放來做出更詳細的分析，看一下高速攝影機的慢動作效果：</p>
+<p><br/></p>
+<dl>
+<dt><iframe width="560" height="315" src="https://www.youtube.com/embed/0-pZ4t-kAWw?start=0&amp;end=36" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</dt>
+<dd>
+<p><sup>(資料來源:</sup><sup id="fnref:slow_motion"><a class="footnote-ref" href="#fn:slow_motion">4</a></sup><sup>)</sup></p>
+</dd>
+</dl>
+<p><br/></p>
+<p>物理程式中有慢動作的控制方法，增加新的事件處理函式，可以利用按鍵來控制慢動作的有無。</p>
+<p>一起來實作看看。</p>
+<p><br/></p>
+<details class="example" open="open"><summary>範例程式 慢動作</summary><div class="tabbed-set tabbed-alternate" data-tabs="8:2"><input checked="checked" id="__tabbed_8_1" name="__tabbed_8" type="radio" /><input id="__tabbed_8_2" name="__tabbed_8" type="radio" /><div class="tabbed-labels"><label for="__tabbed_8_1">🎦操作影片</label><label for="__tabbed_8_2">💻程式碼截圖</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/dIjMzArPjqI?start=1269&amp;end=1415" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+</div>
+<div class="tabbed-block">
+<p><img alt="程式截圖" src="snapshot/collision_lab_slow_motion.jpg" /> </p>
+</div>
+</div>
+</div>
+</details>
+<p><br/><br/><br/></p>
+<hr />
+<h3 id="_13"><strong><em>子彈射擊</em></strong></h3>
+<hr />
+<p>撞擊物的開始速度會不會影響結果？我們先來看一下子彈發射的樣子：</p>
+<p><br/></p>
+<dl>
+<dt><iframe width="560" height="315" src="https://www.youtube.com/embed/JFEkpBhBJug?start=0&amp;end=166" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</dt>
+<dd>
+<p><sup>(資料來源:</sup><sup id="fnref:student_shoot_target"><a class="footnote-ref" href="#fn:student_shoot_target">5</a></sup><sup>)</sup></p>
+</dd>
+</dl>
+<p><br/></p>
+<p>在物理程式的內部原理是一格一格的模擬計算，當撞擊物速度快到某個程度時，會產生穿越的情形，這是物理程式模擬的原理與極限。不過我們會儘量在此限制中做出子彈模擬，只要找出適當的速度，並且將且將障礙物放在適當的位置(瞬間到達的位置)就可以。</p>
+<p>動手做做看。</p>
+<p><br/></p>
+<details class="example" open="open"><summary>範例程式 子彈射擊</summary><div class="tabbed-set tabbed-alternate" data-tabs="9:2"><input checked="checked" id="__tabbed_9_1" name="__tabbed_9" type="radio" /><input id="__tabbed_9_2" name="__tabbed_9" type="radio" /><div class="tabbed-labels"><label for="__tabbed_9_1">🎦操作影片</label><label for="__tabbed_9_2">💻程式碼截圖</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/dIjMzArPjqI?start=1417&amp;end=1521" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+</div>
+<div class="tabbed-block">
+<p><img alt="程式截圖" src="snapshot/collision_lab_bullet.jpg" /> </p>
+</div>
+</div>
+</div>
+</details>
+<p><br/><br/><br/></p>
+<hr />
+<h2 id="_14">📒 結語</h2>
+<hr />
+<p>物理的學習常常會與數學一樣的抽象，利用物理程式的模擬，讓我們更能理解各個物理量之間的關係，也可以在有趣的氣氛下學習。</p>
+<p>希望本課程可以讓你實踐所學的知識，並能提高你對相關學科的興趣。下次再見了。</p>
 <p><br/><br/></p>
 <div class="footnote">
 <hr />
 <ol>
 <li id="fn:car_collision">
 <p>汽車撞擊測試, By 消費者委員會(香港), <a href="https://www.youtube.com/watch?v=G0EVIYU59zk">youtube連結</a>&#160;<a class="footnote-backref" href="#fnref:car_collision" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+<li id="fn:railgun">
+<p>Fun科學-超‧電磁砲-噴飛的硬幣, By 佑來了, <a href="https://youtu.be/sKcblM1ayts">youtube連結</a>&#160;<a class="footnote-backref" href="#fnref:railgun" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+</li>
+<li id="fn:density">
+<p>基本測量 密度的測量, By 均一教育平台 Junyi Academy, <a href="https://www.youtube.com/watch?v=DG44CT46rSM">youtube連結</a>&#160;<a class="footnote-backref" href="#fnref:density" title="Jump back to footnote 3 in the text">&#8617;</a></p>
+</li>
+<li id="fn:slow_motion">
+<p>EVERYTHING Looks Better in Slow Motion, By Legendary Shots, <a href="https://youtu.be/0-pZ4t-kAWw">youtube連結</a>&#160;<a class="footnote-backref" href="#fnref:slow_motion" title="Jump back to footnote 4 in the text">&#8617;</a></p>
+</li>
+<li id="fn:student_shoot_target">
+<p>2017.03.29國軍教學生打靶 培養高中"神射手", By udn video, <a href="https://youtu.be/JFEkpBhBJug">youtube連結</a>&#160;<a class="footnote-backref" href="#fnref:student_shoot_target" title="Jump back to footnote 5 in the text">&#8617;</a></p>
 </li>
 </ol>
 </div>
