@@ -19,6 +19,42 @@
    xmlns:dc="http://purl.org/dc/elements/1.1/">
   <defs
      id="defs2">
+    <rect
+       x="-6119.9999"
+       y="13954.285"
+       width="891.42855"
+       height="234.28571"
+       id="rect37761" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect25959"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect25955"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect25951"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect25757"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect25751"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect25745"
+       is_visible="true"
+       lpeversion="1" />
     <inkscape:path-effect
        effect="spiro"
        id="path-effect88516"
@@ -832,9 +868,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.087500002"
-     inkscape:cx="-1200"
-     inkscape:cy="7131.4284"
+     inkscape:zoom="0.175"
+     inkscape:cx="-7234.2856"
+     inkscape:cy="12720"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -862,6 +898,133 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1">
+    <g
+       id="g7440"
+       transform="matrix(0.50267039,0,0,0.50267039,-924.62909,1429.5545)"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\test_factor.png"
+       inkscape:export-xdpi="14.714805"
+       inkscape:export-ydpi="14.714805">
+      <rect
+         style="fill:#ff4444;fill-opacity:1;stroke:#000000;stroke-width:1.17559;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect7324"
+         width="50.782265"
+         height="50.782265"
+         x="-1499.8745"
+         y="2791.792"
+         inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\obstacle_type.png"
+         inkscape:export-xdpi="20.950556"
+         inkscape:export-ydpi="20.950556" />
+      <rect
+         style="fill:#ff4444;fill-opacity:1;stroke:#000000;stroke-width:1.17559;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect7326"
+         width="50.782265"
+         height="50.782265"
+         x="-1499.8745"
+         y="2741.0098"
+         inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\obstacle_type.png"
+         inkscape:export-xdpi="20.950556"
+         inkscape:export-ydpi="20.950556" />
+      <rect
+         style="fill:#ff4444;fill-opacity:1;stroke:#000000;stroke-width:1.17559;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect7328"
+         width="50.782265"
+         height="50.782265"
+         x="-1499.8745"
+         y="2690.2275"
+         inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\obstacle_type.png"
+         inkscape:export-xdpi="20.950556"
+         inkscape:export-ydpi="20.950556" />
+      <rect
+         style="fill:#ff4444;fill-opacity:1;stroke:#000000;stroke-width:1.17559;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect7330"
+         width="50.782265"
+         height="50.782265"
+         x="-1499.8745"
+         y="2639.4453"
+         inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\obstacle_type.png"
+         inkscape:export-xdpi="20.950556"
+         inkscape:export-ydpi="20.950556" />
+      <rect
+         style="fill:#ff4444;fill-opacity:1;stroke:#000000;stroke-width:1.17559;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect7332"
+         width="50.782265"
+         height="50.782265"
+         x="-1449.0923"
+         y="2791.792"
+         inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\obstacle_type.png"
+         inkscape:export-xdpi="20.950556"
+         inkscape:export-ydpi="20.950556" />
+      <rect
+         style="fill:#ff4444;fill-opacity:1;stroke:#000000;stroke-width:1.17559;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect7334"
+         width="50.782265"
+         height="50.782265"
+         x="-1449.0923"
+         y="2741.0098"
+         inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\obstacle_type.png"
+         inkscape:export-xdpi="20.950556"
+         inkscape:export-ydpi="20.950556" />
+      <rect
+         style="fill:#ff4444;fill-opacity:1;stroke:#000000;stroke-width:1.17559;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect7336"
+         width="50.782265"
+         height="50.782265"
+         x="-1449.0923"
+         y="2690.2275"
+         inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\obstacle_type.png"
+         inkscape:export-xdpi="20.950556"
+         inkscape:export-ydpi="20.950556" />
+      <rect
+         style="fill:#ff4444;fill-opacity:1;stroke:#000000;stroke-width:1.17559;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect7338"
+         width="50.782265"
+         height="50.782265"
+         x="-1449.0923"
+         y="2639.4453"
+         inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\obstacle_type.png"
+         inkscape:export-xdpi="20.950556"
+         inkscape:export-ydpi="20.950556" />
+      <rect
+         style="fill:#ff4444;fill-opacity:1;stroke:#000000;stroke-width:1.17559;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect7340"
+         width="50.782265"
+         height="50.782265"
+         x="-1398.3101"
+         y="2791.792"
+         inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\obstacle_type.png"
+         inkscape:export-xdpi="20.950556"
+         inkscape:export-ydpi="20.950556" />
+      <rect
+         style="fill:#ff4444;fill-opacity:1;stroke:#000000;stroke-width:1.17559;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect7342"
+         width="50.782265"
+         height="50.782265"
+         x="-1398.3101"
+         y="2741.0098"
+         inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\obstacle_type.png"
+         inkscape:export-xdpi="20.950556"
+         inkscape:export-ydpi="20.950556" />
+      <rect
+         style="fill:#ff4444;fill-opacity:1;stroke:#000000;stroke-width:1.17559;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect7344"
+         width="50.782265"
+         height="50.782265"
+         x="-1398.3101"
+         y="2690.2275"
+         inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\obstacle_type.png"
+         inkscape:export-xdpi="20.950556"
+         inkscape:export-ydpi="20.950556" />
+      <rect
+         style="fill:#ff4444;fill-opacity:1;stroke:#000000;stroke-width:1.17559;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect7346"
+         width="50.782265"
+         height="50.782265"
+         x="-1398.3101"
+         y="2639.4453"
+         inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\obstacle_type.png"
+         inkscape:export-xdpi="20.950556"
+         inkscape:export-ydpi="20.950556" />
+    </g>
     <rect
        style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.099;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.996078"
        id="rect128737"
@@ -6981,5 +7144,855 @@
          y="2408.5044"
          style="text-align:center;text-anchor:middle;stroke-width:1.24145"
          id="tspan131109">反向樓梯 </tspan></text>
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:2.02426;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1885"
+       width="415.81451"
+       height="408.255"
+       x="-2405.4604"
+       y="2491.5986"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\test_factor.png"
+       inkscape:export-xdpi="14.714805"
+       inkscape:export-ydpi="14.714805" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#c97800;stroke-width:5.3;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.639216"
+       d="m -2354.3953,2861.273 303.2362,-4e-4"
+       id="path1887"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\test_factor.png"
+       inkscape:export-xdpi="14.714805"
+       inkscape:export-ydpi="14.714805" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#c97800;stroke-width:5.3;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.639216"
+       d="m -2354.3953,2704.0349 303.2362,-4e-4"
+       id="path1983"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\test_factor.png"
+       inkscape:export-xdpi="14.714805"
+       inkscape:export-ydpi="14.714805" />
+    <g
+       id="g1989"
+       transform="translate(201.08333,711.35118)"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\test_factor.png"
+       inkscape:export-xdpi="14.714805"
+       inkscape:export-ydpi="14.714805">
+      <rect
+         style="fill:#00ffff;fill-opacity:1;stroke:#000000;stroke-width:0.594052;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect1895"
+         width="25.661423"
+         height="25.661423"
+         x="-2361.1743"
+         y="1964.861"
+         inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\operation.png"
+         inkscape:export-xdpi="14.701098"
+         inkscape:export-ydpi="14.701098" />
+      <rect
+         style="fill:#00ffff;fill-opacity:1;stroke:#000000;stroke-width:0.594052;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect1897"
+         width="25.661423"
+         height="25.661423"
+         x="-2361.1743"
+         y="1939.1995"
+         inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\operation.png"
+         inkscape:export-xdpi="14.701098"
+         inkscape:export-ydpi="14.701098" />
+      <rect
+         style="fill:#00ffff;fill-opacity:1;stroke:#000000;stroke-width:0.594052;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect1899"
+         width="25.661423"
+         height="25.661423"
+         x="-2361.1743"
+         y="1913.538"
+         inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\operation.png"
+         inkscape:export-xdpi="14.701098"
+         inkscape:export-ydpi="14.701098" />
+      <rect
+         style="fill:#00ffff;fill-opacity:1;stroke:#000000;stroke-width:0.594052;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect1901"
+         width="25.661423"
+         height="25.661423"
+         x="-2361.1743"
+         y="1887.8766"
+         inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\operation.png"
+         inkscape:export-xdpi="14.701098"
+         inkscape:export-ydpi="14.701098" />
+    </g>
+    <g
+       id="g1999"
+       transform="translate(201.08333,867.83331)"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\test_factor.png"
+       inkscape:export-xdpi="14.714805"
+       inkscape:export-ydpi="14.714805">
+      <rect
+         style="fill:#00ffff;fill-opacity:1;stroke:#000000;stroke-width:0.594052;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect1991"
+         width="25.661423"
+         height="25.661423"
+         x="-2361.1743"
+         y="1964.861"
+         inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\operation.png"
+         inkscape:export-xdpi="14.701098"
+         inkscape:export-ydpi="14.701098" />
+      <rect
+         style="fill:#00ffff;fill-opacity:1;stroke:#000000;stroke-width:0.594052;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect1993"
+         width="25.661423"
+         height="25.661423"
+         x="-2361.1743"
+         y="1939.1995"
+         inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\operation.png"
+         inkscape:export-xdpi="14.701098"
+         inkscape:export-ydpi="14.701098" />
+      <rect
+         style="fill:#00ffff;fill-opacity:1;stroke:#000000;stroke-width:0.594052;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect1995"
+         width="25.661423"
+         height="25.661423"
+         x="-2361.1743"
+         y="1913.538"
+         inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\operation.png"
+         inkscape:export-xdpi="14.701098"
+         inkscape:export-ydpi="14.701098" />
+      <rect
+         style="fill:#00ffff;fill-opacity:1;stroke:#000000;stroke-width:0.594052;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect1997"
+         width="25.661423"
+         height="25.661423"
+         x="-2361.1743"
+         y="1887.8766"
+         inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\operation.png"
+         inkscape:export-xdpi="14.701098"
+         inkscape:export-ydpi="14.701098" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:35.7002px;line-height:1.25;font-family:sans-serif;text-align:center;text-anchor:middle;stroke-width:0.892507"
+       x="-2203.3159"
+       y="2540.8086"
+       id="text2003"
+       inkscape:export-xdpi="14.714805"
+       inkscape:export-ydpi="14.714805"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\test_factor.png"><tspan
+         sodipodi:role="line"
+         x="-2203.3159"
+         y="2540.8086"
+         style="text-align:center;text-anchor:middle;stroke-width:0.892507"
+         id="tspan2001">不同高度?</tspan></text>
+    <circle
+       style="fill:#9dbbff;fill-opacity:1;stroke:#0065ff;stroke-width:1.5423;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="circle3827"
+       cx="-2274.8748"
+       cy="2602.6968"
+       r="21.52206"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\test_factor.png"
+       inkscape:export-xdpi="14.714805"
+       inkscape:export-ydpi="14.714805" />
+    <g
+       id="g3835"
+       transform="matrix(0.72346962,0,0,0.72346962,-805.98633,2130.0572)"
+       style="stroke:#b81139;stroke-opacity:1"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\test_factor.png"
+       inkscape:export-xdpi="14.714805"
+       inkscape:export-ydpi="14.714805">
+      <path
+         style="fill:none;fill-opacity:1;stroke:#b81139;stroke-width:7.79948;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m -2022.8587,652.77787 63.7223,-10e-4"
+         id="path3829"
+         sodipodi:nodetypes="cc"
+         inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\turtle_coordinate.png"
+         inkscape:export-xdpi="43.728325"
+         inkscape:export-ydpi="43.728325" />
+      <path
+         style="fill:none;fill-opacity:1;stroke:#b81139;stroke-width:7.8;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m -1959.1367,652.77711 -20.3125,-14.9671"
+         id="path3831"
+         sodipodi:nodetypes="cc"
+         inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\turtle_coordinate.png"
+         inkscape:export-xdpi="43.728325"
+         inkscape:export-ydpi="43.728325" />
+      <path
+         style="fill:none;fill-opacity:1;stroke:#b81139;stroke-width:7.8;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m -1959.404,653.84619 -20.3125,14.9671"
+         id="path3833"
+         sodipodi:nodetypes="cc"
+         inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\turtle_coordinate.png"
+         inkscape:export-xdpi="43.728325"
+         inkscape:export-ydpi="43.728325" />
+    </g>
+    <circle
+       style="fill:#9dbbff;fill-opacity:1;stroke:#0065ff;stroke-width:1.5423;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="circle3837"
+       cx="-2274.8748"
+       cy="2830.9944"
+       r="21.52206"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\test_factor.png"
+       inkscape:export-xdpi="14.714805"
+       inkscape:export-ydpi="14.714805" />
+    <g
+       id="g3845"
+       transform="matrix(0.72346962,0,0,0.72346962,-805.98633,2358.3548)"
+       style="stroke:#b81139;stroke-opacity:1"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\test_factor.png"
+       inkscape:export-xdpi="14.714805"
+       inkscape:export-ydpi="14.714805">
+      <path
+         style="fill:none;fill-opacity:1;stroke:#b81139;stroke-width:7.79948;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m -2022.8587,652.77787 63.7223,-10e-4"
+         id="path3839"
+         sodipodi:nodetypes="cc"
+         inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\turtle_coordinate.png"
+         inkscape:export-xdpi="43.728325"
+         inkscape:export-ydpi="43.728325" />
+      <path
+         style="fill:none;fill-opacity:1;stroke:#b81139;stroke-width:7.8;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m -1959.1367,652.77711 -20.3125,-14.9671"
+         id="path3841"
+         sodipodi:nodetypes="cc"
+         inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\turtle_coordinate.png"
+         inkscape:export-xdpi="43.728325"
+         inkscape:export-ydpi="43.728325" />
+      <path
+         style="fill:none;fill-opacity:1;stroke:#b81139;stroke-width:7.8;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m -1959.404,653.84619 -20.3125,14.9671"
+         id="path3843"
+         sodipodi:nodetypes="cc"
+         inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\turtle_coordinate.png"
+         inkscape:export-xdpi="43.728325"
+         inkscape:export-ydpi="43.728325" />
+    </g>
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:2.02426;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4724"
+       width="415.81451"
+       height="408.255"
+       x="-1924.6748"
+       y="2491.5986"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\test_factor.png"
+       inkscape:export-xdpi="14.714805"
+       inkscape:export-ydpi="14.714805" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#c97800;stroke-width:5.3;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.639216"
+       d="m -1873.6096,2861.273 303.2362,-4e-4"
+       id="path4726"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\test_factor.png"
+       inkscape:export-xdpi="14.714805"
+       inkscape:export-ydpi="14.714805" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#c97800;stroke-width:5.3;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.639216"
+       d="m -1873.6096,2704.0349 303.2362,-4e-4"
+       id="path4728"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\test_factor.png"
+       inkscape:export-xdpi="14.714805"
+       inkscape:export-ydpi="14.714805" />
+    <g
+       id="g4738"
+       transform="translate(681.86903,711.35118)"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\test_factor.png"
+       inkscape:export-xdpi="14.714805"
+       inkscape:export-ydpi="14.714805">
+      <rect
+         style="fill:#00ffff;fill-opacity:1;stroke:#000000;stroke-width:0.594052;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect4730"
+         width="25.661423"
+         height="25.661423"
+         x="-2361.1743"
+         y="1964.861"
+         inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\operation.png"
+         inkscape:export-xdpi="14.701098"
+         inkscape:export-ydpi="14.701098" />
+      <rect
+         style="fill:#00ffff;fill-opacity:1;stroke:#000000;stroke-width:0.594052;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect4732"
+         width="25.661423"
+         height="25.661423"
+         x="-2361.1743"
+         y="1939.1995"
+         inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\operation.png"
+         inkscape:export-xdpi="14.701098"
+         inkscape:export-ydpi="14.701098" />
+      <rect
+         style="fill:#00ffff;fill-opacity:1;stroke:#000000;stroke-width:0.594052;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect4734"
+         width="25.661423"
+         height="25.661423"
+         x="-2361.1743"
+         y="1913.538"
+         inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\operation.png"
+         inkscape:export-xdpi="14.701098"
+         inkscape:export-ydpi="14.701098" />
+      <rect
+         style="fill:#00ffff;fill-opacity:1;stroke:#000000;stroke-width:0.594052;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect4736"
+         width="25.661423"
+         height="25.661423"
+         x="-2361.1743"
+         y="1887.8766"
+         inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\operation.png"
+         inkscape:export-xdpi="14.701098"
+         inkscape:export-ydpi="14.701098" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:35.7002px;line-height:1.25;font-family:sans-serif;text-align:center;text-anchor:middle;stroke-width:0.892507"
+       x="-1722.5303"
+       y="2540.8086"
+       id="text4752"
+       inkscape:export-xdpi="14.714805"
+       inkscape:export-ydpi="14.714805"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\test_factor.png"><tspan
+         sodipodi:role="line"
+         x="-1722.5303"
+         y="2540.8086"
+         style="text-align:center;text-anchor:middle;stroke-width:0.892507"
+         id="tspan4750">不同結構?</tspan></text>
+    <circle
+       style="fill:#9dbbff;fill-opacity:1;stroke:#0065ff;stroke-width:1.5423;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="circle4754"
+       cx="-1794.0891"
+       cy="2648.8098"
+       r="21.52206"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\test_factor.png"
+       inkscape:export-xdpi="14.714805"
+       inkscape:export-ydpi="14.714805" />
+    <g
+       id="g4762"
+       transform="matrix(0.72346962,0,0,0.72346962,-325.20063,2176.1703)"
+       style="stroke:#b81139;stroke-opacity:1"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\test_factor.png"
+       inkscape:export-xdpi="14.714805"
+       inkscape:export-ydpi="14.714805">
+      <path
+         style="fill:none;fill-opacity:1;stroke:#b81139;stroke-width:7.79948;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m -2022.8587,652.77787 63.7223,-10e-4"
+         id="path4756"
+         sodipodi:nodetypes="cc"
+         inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\turtle_coordinate.png"
+         inkscape:export-xdpi="43.728325"
+         inkscape:export-ydpi="43.728325" />
+      <path
+         style="fill:none;fill-opacity:1;stroke:#b81139;stroke-width:7.8;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m -1959.1367,652.77711 -20.3125,-14.9671"
+         id="path4758"
+         sodipodi:nodetypes="cc"
+         inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\turtle_coordinate.png"
+         inkscape:export-xdpi="43.728325"
+         inkscape:export-ydpi="43.728325" />
+      <path
+         style="fill:none;fill-opacity:1;stroke:#b81139;stroke-width:7.8;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m -1959.404,653.84619 -20.3125,14.9671"
+         id="path4760"
+         sodipodi:nodetypes="cc"
+         inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\turtle_coordinate.png"
+         inkscape:export-xdpi="43.728325"
+         inkscape:export-ydpi="43.728325" />
+    </g>
+    <circle
+       style="fill:#9dbbff;fill-opacity:1;stroke:#0065ff;stroke-width:1.5423;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="circle4764"
+       cx="-1794.0891"
+       cy="2809.8276"
+       r="21.52206"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\test_factor.png"
+       inkscape:export-xdpi="14.714805"
+       inkscape:export-ydpi="14.714805" />
+    <g
+       id="g4772"
+       transform="matrix(0.72346962,0,0,0.72346962,-325.20063,2337.1881)"
+       style="stroke:#b81139;stroke-opacity:1"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\test_factor.png"
+       inkscape:export-xdpi="14.714805"
+       inkscape:export-ydpi="14.714805">
+      <path
+         style="fill:none;fill-opacity:1;stroke:#b81139;stroke-width:7.79948;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m -2022.8587,652.77787 63.7223,-10e-4"
+         id="path4766"
+         sodipodi:nodetypes="cc"
+         inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\turtle_coordinate.png"
+         inkscape:export-xdpi="43.728325"
+         inkscape:export-ydpi="43.728325" />
+      <path
+         style="fill:none;fill-opacity:1;stroke:#b81139;stroke-width:7.8;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m -1959.1367,652.77711 -20.3125,-14.9671"
+         id="path4768"
+         sodipodi:nodetypes="cc"
+         inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\turtle_coordinate.png"
+         inkscape:export-xdpi="43.728325"
+         inkscape:export-ydpi="43.728325" />
+      <path
+         style="fill:none;fill-opacity:1;stroke:#b81139;stroke-width:7.8;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m -1959.404,653.84619 -20.3125,14.9671"
+         id="path4770"
+         sodipodi:nodetypes="cc"
+         inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\turtle_coordinate.png"
+         inkscape:export-xdpi="43.728325"
+         inkscape:export-ydpi="43.728325" />
+    </g>
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:2.02426;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect8352"
+       width="415.81451"
+       height="408.255"
+       x="-1442.3772"
+       y="2491.5986"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\test_factor.png"
+       inkscape:export-xdpi="14.714805"
+       inkscape:export-ydpi="14.714805" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#c97800;stroke-width:5.3;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.639216"
+       d="m -1391.312,2861.273 303.2362,-4e-4"
+       id="path8354"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\test_factor.png"
+       inkscape:export-xdpi="14.714805"
+       inkscape:export-ydpi="14.714805" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#c97800;stroke-width:5.3;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.639216"
+       d="m -1391.312,2704.0349 303.2362,-4e-4"
+       id="path8356"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\test_factor.png"
+       inkscape:export-xdpi="14.714805"
+       inkscape:export-ydpi="14.714805" />
+    <g
+       id="g8366"
+       transform="translate(1164.1666,711.35118)"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\test_factor.png"
+       inkscape:export-xdpi="14.714805"
+       inkscape:export-ydpi="14.714805">
+      <rect
+         style="fill:#00ffff;fill-opacity:1;stroke:#000000;stroke-width:0.594052;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect8358"
+         width="25.661423"
+         height="25.661423"
+         x="-2361.1743"
+         y="1964.861"
+         inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\operation.png"
+         inkscape:export-xdpi="14.701098"
+         inkscape:export-ydpi="14.701098" />
+      <rect
+         style="fill:#00ffff;fill-opacity:1;stroke:#000000;stroke-width:0.594052;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect8360"
+         width="25.661423"
+         height="25.661423"
+         x="-2361.1743"
+         y="1939.1995"
+         inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\operation.png"
+         inkscape:export-xdpi="14.701098"
+         inkscape:export-ydpi="14.701098" />
+      <rect
+         style="fill:#00ffff;fill-opacity:1;stroke:#000000;stroke-width:0.594052;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect8362"
+         width="25.661423"
+         height="25.661423"
+         x="-2361.1743"
+         y="1913.538"
+         inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\operation.png"
+         inkscape:export-xdpi="14.701098"
+         inkscape:export-ydpi="14.701098" />
+      <rect
+         style="fill:#00ffff;fill-opacity:1;stroke:#000000;stroke-width:0.594052;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect8364"
+         width="25.661423"
+         height="25.661423"
+         x="-2361.1743"
+         y="1887.8766"
+         inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\operation.png"
+         inkscape:export-xdpi="14.701098"
+         inkscape:export-ydpi="14.701098" />
+    </g>
+    <g
+       id="g8376"
+       transform="translate(1164.1666,867.83331)"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\test_factor.png"
+       inkscape:export-xdpi="14.714805"
+       inkscape:export-ydpi="14.714805">
+      <rect
+         style="fill:#00ffff;fill-opacity:1;stroke:#000000;stroke-width:0.594052;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect8368"
+         width="25.661423"
+         height="25.661423"
+         x="-2361.1743"
+         y="1964.861"
+         inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\operation.png"
+         inkscape:export-xdpi="14.701098"
+         inkscape:export-ydpi="14.701098" />
+      <rect
+         style="fill:#00ffff;fill-opacity:1;stroke:#000000;stroke-width:0.594052;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect8370"
+         width="25.661423"
+         height="25.661423"
+         x="-2361.1743"
+         y="1939.1995"
+         inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\operation.png"
+         inkscape:export-xdpi="14.701098"
+         inkscape:export-ydpi="14.701098" />
+      <rect
+         style="fill:#00ffff;fill-opacity:1;stroke:#000000;stroke-width:0.594052;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect8372"
+         width="25.661423"
+         height="25.661423"
+         x="-2361.1743"
+         y="1913.538"
+         inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\operation.png"
+         inkscape:export-xdpi="14.701098"
+         inkscape:export-ydpi="14.701098" />
+      <rect
+         style="fill:#00ffff;fill-opacity:1;stroke:#000000;stroke-width:0.594052;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect8374"
+         width="25.661423"
+         height="25.661423"
+         x="-2361.1743"
+         y="1887.8766"
+         inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\operation.png"
+         inkscape:export-xdpi="14.701098"
+         inkscape:export-ydpi="14.701098" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:35.7002px;line-height:1.25;font-family:sans-serif;text-align:center;text-anchor:middle;stroke-width:0.892507"
+       x="-1240.2327"
+       y="2540.8086"
+       id="text8380"
+       inkscape:export-xdpi="14.714805"
+       inkscape:export-ydpi="14.714805"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\test_factor.png"><tspan
+         sodipodi:role="line"
+         x="-1240.2327"
+         y="2540.8086"
+         style="text-align:center;text-anchor:middle;stroke-width:0.892507"
+         id="tspan8378">不同大小?</tspan></text>
+    <circle
+       style="fill:#9dbbff;fill-opacity:1;stroke:#0065ff;stroke-width:2.43138;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="circle8382"
+       cx="-1311.7915"
+       cy="2650.3218"
+       r="33.928711"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\test_factor.png"
+       inkscape:export-xdpi="14.714805"
+       inkscape:export-ydpi="14.714805" />
+    <g
+       id="g8390"
+       transform="matrix(0.72346962,0,0,0.72346962,157.09698,2177.6822)"
+       style="stroke:#b81139;stroke-opacity:1"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\test_factor.png"
+       inkscape:export-xdpi="14.714805"
+       inkscape:export-ydpi="14.714805">
+      <path
+         style="fill:none;fill-opacity:1;stroke:#b81139;stroke-width:7.79948;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m -2022.8587,652.77787 63.7223,-10e-4"
+         id="path8384"
+         sodipodi:nodetypes="cc"
+         inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\turtle_coordinate.png"
+         inkscape:export-xdpi="43.728325"
+         inkscape:export-ydpi="43.728325" />
+      <path
+         style="fill:none;fill-opacity:1;stroke:#b81139;stroke-width:7.8;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m -1959.1367,652.77711 -20.3125,-14.9671"
+         id="path8386"
+         sodipodi:nodetypes="cc"
+         inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\turtle_coordinate.png"
+         inkscape:export-xdpi="43.728325"
+         inkscape:export-ydpi="43.728325" />
+      <path
+         style="fill:none;fill-opacity:1;stroke:#b81139;stroke-width:7.8;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m -1959.404,653.84619 -20.3125,14.9671"
+         id="path8388"
+         sodipodi:nodetypes="cc"
+         inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\turtle_coordinate.png"
+         inkscape:export-xdpi="43.728325"
+         inkscape:export-ydpi="43.728325" />
+    </g>
+    <circle
+       style="fill:#9dbbff;fill-opacity:1;stroke:#0065ff;stroke-width:1.07161;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="circle8392"
+       cx="-1311.7915"
+       cy="2812.8516"
+       r="14.953834"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\test_factor.png"
+       inkscape:export-xdpi="14.714805"
+       inkscape:export-ydpi="14.714805" />
+    <g
+       id="g8400"
+       transform="matrix(0.72346962,0,0,0.72346962,157.09698,2340.2119)"
+       style="stroke:#b81139;stroke-opacity:1"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\test_factor.png"
+       inkscape:export-xdpi="14.714805"
+       inkscape:export-ydpi="14.714805">
+      <path
+         style="fill:none;fill-opacity:1;stroke:#b81139;stroke-width:7.79948;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m -2022.8587,652.77787 63.7223,-10e-4"
+         id="path8394"
+         sodipodi:nodetypes="cc"
+         inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\turtle_coordinate.png"
+         inkscape:export-xdpi="43.728325"
+         inkscape:export-ydpi="43.728325" />
+      <path
+         style="fill:none;fill-opacity:1;stroke:#b81139;stroke-width:7.8;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m -1959.1367,652.77711 -20.3125,-14.9671"
+         id="path8396"
+         sodipodi:nodetypes="cc"
+         inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\turtle_coordinate.png"
+         inkscape:export-xdpi="43.728325"
+         inkscape:export-ydpi="43.728325" />
+      <path
+         style="fill:none;fill-opacity:1;stroke:#b81139;stroke-width:7.8;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m -1959.404,653.84619 -20.3125,14.9671"
+         id="path8398"
+         sodipodi:nodetypes="cc"
+         inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\turtle_coordinate.png"
+         inkscape:export-xdpi="43.728325"
+         inkscape:export-ydpi="43.728325" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:52.5571px;line-height:1.25;font-family:sans-serif;text-align:center;text-anchor:middle;stroke-width:1.31393"
+       x="-1723.3719"
+       y="3005.3701"
+       id="text9339"
+       inkscape:export-xdpi="14.714805"
+       inkscape:export-ydpi="14.714805"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\test_factor.png"><tspan
+         sodipodi:role="line"
+         x="-1723.3719"
+         y="3005.3701"
+         style="text-align:center;text-anchor:middle;stroke-width:1.31393"
+         id="tspan9337">可能會影響撞擊的因素</tspan></text>
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:2.02426;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect25525"
+       width="415.81451"
+       height="408.255"
+       x="-2266.365"
+       y="3200.6821"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\experimental_method.png"
+       inkscape:export-xdpi="14.714805"
+       inkscape:export-ydpi="14.714805" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#c97800;stroke-width:5.3;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.639216"
+       d="m -2215.3001,3570.3563 303.2362,-4e-4"
+       id="path25527"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\experimental_method.png"
+       inkscape:export-xdpi="14.714805"
+       inkscape:export-ydpi="14.714805" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#c97800;stroke-width:5.3;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.639216"
+       d="m -2215.3001,3382.1242 303.2362,-4e-4"
+       id="path25529"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\experimental_method.png"
+       inkscape:export-xdpi="14.714805"
+       inkscape:export-ydpi="14.714805" />
+    <text
+       xml:space="preserve"
+       style="font-size:35.7002px;line-height:1.25;font-family:sans-serif;text-align:center;text-anchor:middle;stroke-width:0.892507"
+       x="-1918.3217"
+       y="3247.624"
+       id="text25553"
+       inkscape:export-xdpi="14.714805"
+       inkscape:export-ydpi="14.714805"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\experimental_method.png"><tspan
+         sodipodi:role="line"
+         x="-1918.3217"
+         y="3247.624"
+         style="text-align:center;text-anchor:middle;stroke-width:0.892507"
+         id="tspan25551">實驗組</tspan></text>
+    <rect
+       style="fill:#95f383;fill-opacity:1;stroke:#127f05;stroke-width:1.48797;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect25735"
+       width="99.234894"
+       height="96.1175"
+       x="-1832.7513"
+       y="3420.3188"
+       transform="rotate(4.2340952)"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\experimental_method.png"
+       inkscape:export-xdpi="14.714805"
+       inkscape:export-ydpi="14.714805" />
+    <circle
+       style="fill:#9dbbff;fill-opacity:1;stroke:#0065ff;stroke-width:3.60746;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="circle25737"
+       cx="-2131.1743"
+       cy="3321.1355"
+       r="50.340164"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\experimental_method.png"
+       inkscape:export-xdpi="14.714805"
+       inkscape:export-ydpi="14.714805" />
+    <path
+       sodipodi:type="star"
+       style="fill:#ff2200;fill-opacity:1;stroke:#ffea35;stroke-width:8.18268;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path25739"
+       inkscape:flatsided="false"
+       sodipodi:sides="11"
+       sodipodi:cx="-7362.8569"
+       sodipodi:cy="1128.5714"
+       sodipodi:r1="178.38277"
+       sodipodi:r2="89.191376"
+       sodipodi:arg1="1.0138948"
+       sodipodi:arg2="1.2994941"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       transform="matrix(0.21559152,0,-0.03179613,0.21559152,-454.84743,3085.6297)"
+       inkscape:transform-center-x="11.997852"
+       inkscape:transform-center-y="-0.93160696"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\experimental_method.png"
+       inkscape:export-xdpi="14.714805"
+       inkscape:export-ydpi="14.714805"
+       d="m -7268.5712,1280 -70.3837,-65.4996 -26.4523,92.4355 -23.7988,-93.154 -72.2275,63.4605 30.3421,-91.2327 -95.071,14.3372 74.8495,-60.3457 -87.7301,-39.338 95.5927,-10.2993 -52.5355,-80.5238 85.986,43.017 -0.6613,-96.1437 49.0793,82.6758 51.4229,-81.23881 -3.4098,96.08551 87.1808,-40.541 -54.8163,78.9888 95.2593,13.0281 -88.819,36.8137 73.0936,62.461 -94.6222,-17.0494 z" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.76288;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -2135.3968,3324.7064 h -55.5923"
+       id="path25741"
+       inkscape:path-effect="#path-effect25745"
+       inkscape:original-d="m -2135.3968,3324.7064 c -18.5306,3e-4 -37.0613,3e-4 -55.5923,0"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\experimental_method.png"
+       inkscape:export-xdpi="14.714805"
+       inkscape:export-ydpi="14.714805" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.76288;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -2134.8772,3338.2149 h -64.9443"
+       id="path25747"
+       inkscape:path-effect="#path-effect25751"
+       inkscape:original-d="m -2134.8772,3338.2149 c -21.6479,1e-4 -43.296,1e-4 -64.9443,0"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\experimental_method.png"
+       inkscape:export-xdpi="14.714805"
+       inkscape:export-ydpi="14.714805" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.76288;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -2139.5532,3350.1646 h -42.6035"
+       id="path25753"
+       inkscape:path-effect="#path-effect25757"
+       inkscape:original-d="m -2139.5532,3350.1646 c -13.8546,2e-4 -28.4021,2e-4 -42.6035,0"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\experimental_method.png"
+       inkscape:export-xdpi="14.714805"
+       inkscape:export-ydpi="14.714805" />
+    <rect
+       style="fill:#95f383;fill-opacity:1;stroke:#127f05;stroke-width:1.48797;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect25935"
+       width="99.234894"
+       height="96.1175"
+       x="-1818.6864"
+       y="3610.2988"
+       transform="rotate(4.2340952)"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\experimental_method.png"
+       inkscape:export-xdpi="14.714805"
+       inkscape:export-ydpi="14.714805" />
+    <circle
+       style="fill:#9dbbff;fill-opacity:1;stroke:#0065ff;stroke-width:2.58763;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="circle25937"
+       cx="-2116.4331"
+       cy="3526.3765"
+       r="36.109009"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\experimental_method.png"
+       inkscape:export-xdpi="14.714805"
+       inkscape:export-ydpi="14.714805" />
+    <path
+       sodipodi:type="star"
+       style="fill:#ff2200;fill-opacity:1;stroke:#ffea35;stroke-width:8.18268;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path25939"
+       inkscape:flatsided="false"
+       sodipodi:sides="11"
+       sodipodi:cx="-7362.8569"
+       sodipodi:cy="1128.5714"
+       sodipodi:r1="178.38277"
+       sodipodi:r2="89.191376"
+       sodipodi:arg1="1.0138948"
+       sodipodi:arg2="1.2994941"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       transform="matrix(0.18184393,0,-0.02681893,0.18184393,-714.9512,3320.3736)"
+       inkscape:transform-center-x="10.119794"
+       inkscape:transform-center-y="-0.78575514"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\experimental_method.png"
+       inkscape:export-xdpi="14.714805"
+       inkscape:export-ydpi="14.714805"
+       d="m -7268.5712,1280 -70.3837,-65.4996 -26.4523,92.4355 -23.7988,-93.154 -72.2275,63.4605 30.3421,-91.2327 -95.071,14.3372 74.8495,-60.3457 -87.7301,-39.338 95.5927,-10.2993 -52.5355,-80.5238 85.986,43.017 -0.6613,-96.1437 49.0793,82.6758 51.4229,-81.23881 -3.4098,96.08551 87.1808,-40.541 -54.8163,78.9888 95.2593,13.0281 -88.819,36.8137 73.0936,62.461 -94.6222,-17.0494 z" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.76288;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -2135.3968,3515.2063 h -55.5923"
+       id="path25941"
+       inkscape:path-effect="#path-effect25951"
+       inkscape:original-d="m -2135.3968,3515.2063 c -18.5306,3e-4 -37.0613,3e-4 -55.5923,0"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\experimental_method.png"
+       inkscape:export-xdpi="14.714805"
+       inkscape:export-ydpi="14.714805" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.76288;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -2134.8772,3528.7148 h -64.9443"
+       id="path25943"
+       inkscape:path-effect="#path-effect25955"
+       inkscape:original-d="m -2134.8772,3528.7148 c -21.6479,10e-5 -43.296,10e-5 -64.9443,0"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\experimental_method.png"
+       inkscape:export-xdpi="14.714805"
+       inkscape:export-ydpi="14.714805" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.76288;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -2139.5532,3540.6645 h -42.6035"
+       id="path25945"
+       inkscape:path-effect="#path-effect25959"
+       inkscape:original-d="m -2139.5532,3540.6645 c -13.8546,2e-4 -28.4021,2e-4 -42.6035,0"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\experimental_method.png"
+       inkscape:export-xdpi="14.714805"
+       inkscape:export-ydpi="14.714805" />
+    <text
+       xml:space="preserve"
+       style="font-size:35.7002px;line-height:1.25;font-family:sans-serif;text-align:center;text-anchor:middle;stroke-width:0.892507"
+       x="-1918.3217"
+       y="3440.3918"
+       id="text26613"
+       inkscape:export-xdpi="14.714805"
+       inkscape:export-ydpi="14.714805"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\experimental_method.png"><tspan
+         sodipodi:role="line"
+         x="-1918.3217"
+         y="3440.3918"
+         style="text-align:center;text-anchor:middle;stroke-width:0.892507"
+         id="tspan26611"> 對照組</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:42.8785px;line-height:1.25;font-family:sans-serif;text-align:start;text-anchor:start;stroke-width:1.07197"
+       x="-1801.7983"
+       y="3280.3811"
+       id="text29225"
+       inkscape:export-xdpi="14.714805"
+       inkscape:export-ydpi="14.714805"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\experimental_method.png"
+       transform="scale(0.99293073,1.0071196)"><tspan
+         sodipodi:role="line"
+         x="-1801.7983"
+         y="3280.3811"
+         style="text-align:start;text-anchor:start;stroke-width:1.07197"
+         id="tspan29223">實驗組：改變想測試的因素</tspan><tspan
+         sodipodi:role="line"
+         x="-1801.7983"
+         y="3338.4927"
+         style="text-align:start;text-anchor:start;stroke-width:1.07197"
+         id="tspan31643">對照組：保持原有狀態</tspan><tspan
+         sodipodi:role="line"
+         x="-1801.7983"
+         y="3392.0908"
+         style="text-align:start;text-anchor:start;stroke-width:1.07197"
+         id="tspan35221" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:77.306px;line-height:1.25;font-family:sans-serif;text-align:start;text-anchor:start;fill:#d45500;stroke-width:1.93266"
+       x="-1808.9287"
+       y="3484.6274"
+       id="text36411"
+       inkscape:export-xdpi="14.714805"
+       inkscape:export-ydpi="14.714805"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\project_collision_lab\experimental_method.png"
+       transform="scale(0.99293073,1.0071196)"><tspan
+         sodipodi:role="line"
+         x="-1808.9287"
+         y="3484.6274"
+         style="text-align:start;text-anchor:start;fill:#d45500;stroke-width:1.93266"
+         id="tspan36409">1次改變1個因素</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text37759"
+       style="line-height:1.25;font-family:sans-serif;font-size:40px;white-space:pre;shape-inside:url(#rect37761)" />
   </g>
 </svg>

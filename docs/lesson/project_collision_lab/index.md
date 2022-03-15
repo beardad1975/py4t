@@ -305,6 +305,8 @@ hide:
 
 ----------------------------
 
+![實驗組與對照組](experimental_method.png)
+
 
 
 
@@ -328,7 +330,14 @@ hide:
 ----------------------------
 
 
+![影響撞擊的因素](test_factor.png)
 
+<!--
+https://www.youtube.com/watch?v=DG44CT46rSM
+
+【基本測量】密度的測量
+均一教育平台 Junyi Academy
+-->
 
 ???+ example "範例程式 撞擊測試"
 
