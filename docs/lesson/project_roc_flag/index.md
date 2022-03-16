@@ -22,7 +22,7 @@ hide:
 
 [^moi_flag]: 中華民國內政部 國旗懸掛禮儀網, [來源連結](https://www.moi.gov.tw/cl.aspx?n=10609) , 2022-02-07
 
-在本專題中，請**利用海龜程式來畫出中華民國的國旗**。
+在本專題中，請**利用海龜程式畫出中華民國國旗**。
 
 ??? quote "建議先備課程"
 
@@ -140,11 +140,11 @@ hide:
 
 ???+ example "範例程式 程式結構"
 
-    === "🎦操作影片"
+    === "🎦Py4t操作影片"
     
         <iframe width="560" height="315" src="https://www.youtube.com/embed/qjlan7-zmu8?start=3&amp;end=281" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    === "💻程式碼截圖"
+    === "💻Python程式截圖"
 
         ![程式截圖](snapshot/roc_flag_structure.jpg) 
 
@@ -178,11 +178,11 @@ hide:
 ???+ example "範例程式 紅地與青天"
 
 
-    === "🎦操作影片"
+    === "🎦Py4t操作影片"
     
         <iframe width="560" height="315" src="https://www.youtube.com/embed/qjlan7-zmu8?start=283&amp;end=483" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    === "💻程式碼截圖"
+    === "💻Python程式截圖"
 
         ![程式截圖](snapshot/roc_flag_ground_sky.jpg) 
 
@@ -240,11 +240,11 @@ hide:
 
 ???+ example "範例程式 光芒"
 
-    === "🎦操作影片"
+    === "🎦Py4t操作影片"
     
         <iframe width="560" height="315" src="https://www.youtube.com/embed/qjlan7-zmu8?start=486&amp;end=718" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    === "💻程式碼截圖"
+    === "💻Python程式截圖"
 
         ![程式截圖](snapshot/roc_flag_shining.jpg) 
 
@@ -277,11 +277,11 @@ hide:
 ???+ example "範例程式 白日"
 
 
-    === "🎦操作影片"
+    === "🎦Py4t操作影片"
     
         <iframe width="560" height="315" src="https://www.youtube.com/embed/qjlan7-zmu8?start=721&amp;end=853" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    === "💻程式碼截圖"
+    === "💻Python程式截圖"
 
         ![程式截圖](snapshot/roc_flag_sun.jpg) 
 
@@ -324,11 +324,11 @@ hide:
 
 ???+ example "範例程式 縮放倍率"
 
-    === "🎦操作影片"
+    === "🎦Py4t操作影片"
     
         <iframe width="560" height="315" src="https://www.youtube.com/embed/qjlan7-zmu8?start=855&amp;end=1054" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    === "💻程式碼截圖"
+    === "💻Python程式截圖"
 
         ![程式截圖](snapshot/roc_flag_scale.jpg) 
 
@@ -354,11 +354,11 @@ hide:
 
 ???+ example "範例程式 座標平移"
 
-    === "🎦操作影片"
+    === "🎦Py4t操作影片"
     
         <iframe width="560" height="315" src="https://www.youtube.com/embed/qjlan7-zmu8?start=1057&amp;end=1239" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    === "💻程式碼截圖"
+    === "💻Python程式截圖"
 
         ![程式截圖](snapshot/roc_flag_pan.jpg) 
 
@@ -387,11 +387,11 @@ hide:
 
 ???+ example "範例程式 使用者介面"
 
-    === "🎦操作影片"
+    === "🎦Py4t操作影片"
     
         <iframe width="560" height="315" src="https://www.youtube.com/embed/qjlan7-zmu8?start=1240&amp;end=1405" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    === "💻程式碼截圖"
+    === "💻Python程式截圖"
 
         ![程式截圖](snapshot/roc_flag_ui.jpg) 
 

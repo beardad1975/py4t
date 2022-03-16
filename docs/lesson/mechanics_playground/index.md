@@ -50,11 +50,11 @@ hide:
 ???+ example "範例程式 新增圓球"
 
 
-    === "🎦操作影片"
+    === "🎦Py4t操作影片"
     
         <iframe width="560" height="315" src="https://www.youtube.com/embed/sIAgw3FryX8?start=1&amp;end=128" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    === "💻程式碼截圖"
+    === "💻Python程式截圖"
 
         ![程式截圖](snapshot/bounce_ball_add.jpg)
 
@@ -106,11 +106,11 @@ hide:
 
 ???+ example "範例程式 恢復係數"
 
-    === "🎦操作影片"
+    === "🎦Py4t操作影片"
     
         <iframe width="560" height="315" src="https://www.youtube.com/embed/sIAgw3FryX8?start=131&amp;end=251" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    === "💻程式碼截圖"
+    === "💻Python程式截圖"
 
         ![程式截圖](snapshot/bounce_ball_restitution.jpg)
 
@@ -152,11 +152,11 @@ hide:
 ???+ example "範例程式 超強彈性體"
 
 
-    === "🎦操作影片"
+    === "🎦Py4t操作影片"
     
         <iframe width="560" height="315" src="https://www.youtube.com/embed/sIAgw3FryX8?start=253&amp;end=410" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    === "💻程式碼截圖"
+    === "💻Python程式截圖"
 
         ![程式截圖](snapshot/bounce_ball_super.jpg)
 
@@ -218,11 +218,11 @@ Py4t物理學習模組內建了地形的輔助功能，會使用到Ctrl鍵及Alt
 ???+ example "範例程式 新增球與斜面"
 
 
-    === "🎦操作影片"
+    === "🎦Py4t操作影片"
     
         <iframe width="560" height="315" src="https://www.youtube.com/embed/U3dnShwtdDQ?start=2&amp;end=302" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    === "💻程式碼截圖"
+    === "💻Python程式截圖"
 
         ![程式截圖](snapshot/force_and_slide_terrain.jpg)
 
@@ -247,11 +247,11 @@ Py4t物理學習模組內建了地形的輔助功能，會使用到Ctrl鍵及Alt
 
 ???+ example "範例程式 落下速度比較"
 
-    === "🎦操作影片"
+    === "🎦Py4t操作影片"
     
         <iframe width="560" height="315" src="https://www.youtube.com/embed/U3dnShwtdDQ?start=303&amp;end=339" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    === "💻程式碼截圖"
+    === "💻Python程式截圖"
 
         ![程式截圖](snapshot/force_and_slide_velocity.jpg)
 
@@ -294,11 +294,11 @@ Py4t物理學習模組內建了地形的輔助功能，會使用到Ctrl鍵及Alt
 
 ???+ example "範例程式 摩擦力"
 
-    === "🎦操作影片"
+    === "🎦Py4t操作影片"
     
         <iframe width="560" height="315" src="https://www.youtube.com/embed/U3dnShwtdDQ?start=341&amp;end=504" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    === "💻程式碼截圖"
+    === "💻Python程式截圖"
 
         ![程式截圖](snapshot/force_and_slide_friction.jpg)
 
@@ -335,11 +335,11 @@ Py4t物理學習模組內建了地形的輔助功能，會使用到Ctrl鍵及Alt
 ???+ example "範例程式 施力"
 
 
-    === "🎦操作影片"
+    === "🎦Py4t操作影片"
     
         <iframe width="560" height="315" src="https://www.youtube.com/embed/U3dnShwtdDQ?start=505&amp;end=633" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    === "💻程式碼截圖"
+    === "💻Python程式截圖"
 
         ![程式截圖](snapshot/force_and_slide_impulse.jpg)
 
@@ -400,11 +400,11 @@ EngineTV 原金動畫, [youtube連結](https://www.youtube.com/watch?v=bhavS93SE
 ???+ example "範例程式 拋體運動"
 
 
-    === "🎦操作影片"
+    === "🎦Py4t操作影片"
     
         <iframe width="560" height="315" src="https://www.youtube.com/embed/UgJ6ed8H03Q?start=2&amp;end=192" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    === "💻程式碼截圖"
+    === "💻Python程式截圖"
 
         ![程式截圖](snapshot/projectile_basic.jpg)
 
@@ -451,11 +451,11 @@ EngineTV 原金動畫, [youtube連結](https://www.youtube.com/watch?v=bhavS93SE
 ???+ example "範例程式 連續噴射"
 
 
-    === "🎦操作影片"
+    === "🎦Py4t操作影片"
     
         <iframe width="560" height="315" src="https://www.youtube.com/embed/UgJ6ed8H03Q?start=193&amp;end=383" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    === "💻程式碼截圖"
+    === "💻Python程式截圖"
 
         ![程式截圖](snapshot/projectile_continuous.jpg)
 
@@ -513,11 +513,11 @@ EngineTV 原金動畫, [youtube連結](https://www.youtube.com/watch?v=bhavS93SE
 ???+ example "範例程式 無重力狀態"
 
 
-    === "🎦操作影片"
+    === "🎦Py4t操作影片"
     
         <iframe width="560" height="315" src="https://www.youtube.com/embed/I_i5OyGIObQ?start=0&amp;end=343" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    === "💻程式碼截圖"
+    === "💻Python程式截圖"
 
         ![程式截圖](snapshot/gravity_float.jpg)
 
@@ -566,11 +566,11 @@ NASA, [youtube連結](https://www.youtube.com/watch?v=ZlPpHILyEl4)
 
 ???+ example "範例程式 重力搬運"
 
-    === "🎦操作影片"
+    === "🎦Py4t操作影片"
     
         <iframe width="560" height="315" src="https://www.youtube.com/embed/I_i5OyGIObQ?start=347&amp;end=667" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    === "💻程式碼截圖"
+    === "💻Python程式截圖"
 
         ![程式截圖](snapshot/gravity_game.jpg)
 
@@ -621,11 +621,11 @@ NASA, [youtube連結](https://www.youtube.com/watch?v=ZlPpHILyEl4)
 ???+ example "範例程式 固定球數"
 
 
-    === "🎦操作影片"
+    === "🎦Py4t操作影片"
     
         <iframe width="560" height="315" src="https://www.youtube.com/embed/U9DAN6NbkbY?start=0&amp;end=240" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    === "💻程式碼截圖"
+    === "💻Python程式截圖"
 
         ![程式截圖](snapshot/bounce_array_constant.jpg)
 
@@ -666,11 +666,11 @@ NASA, [youtube連結](https://www.youtube.com/watch?v=ZlPpHILyEl4)
 ???+ example "範例程式 變數模式識別"
 
 
-    === "🎦操作影片"
+    === "🎦Py4t操作影片"
     
         <iframe width="560" height="315" src="https://www.youtube.com/embed/U9DAN6NbkbY?start=243&amp;end=406" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    === "💻程式碼截圖"
+    === "💻Python程式截圖"
 
         ![程式截圖](snapshot/bounce_array_pattern.jpg)
 
@@ -693,11 +693,11 @@ NASA, [youtube連結](https://www.youtube.com/watch?v=ZlPpHILyEl4)
 ???+ example "範例程式 不同波動變化"
 
 
-    === "🎦操作影片"
+    === "🎦Py4t操作影片"
     
         <iframe width="560" height="315" src="https://www.youtube.com/embed/U9DAN6NbkbY?start=408&amp;end=660" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    === "💻程式碼截圖"
+    === "💻Python程式截圖"
 
         ![程式截圖](snapshot/bounce_array_various.jpg)
 

@@ -98,11 +98,11 @@ hide:
 
 ???+ example "範例程式 正方形"
 
-    === "🎦操作影片"
+    === "🎦Py4t操作影片"
     
         <iframe width="560" height="315" src="https://www.youtube.com/embed/Wh7ExxELMYg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    === "💻程式碼截圖"
+    === "💻Python程式截圖"
 
         ![程式截圖](snapshot/draw_square.jpg) 
 
@@ -147,11 +147,11 @@ hide:
 
 ???+ example "範例程式 長方形及填色"
 
-    === "🎦操作影片"
+    === "🎦Py4t操作影片"
     
         <iframe width="560" height="315" src="https://www.youtube.com/embed/xL_e-SZklWo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    === "💻程式碼截圖"
+    === "💻Python程式截圖"
 
         ![程式截圖](snapshot/rectangle_and_fill.jpg) 
 
@@ -209,11 +209,11 @@ hide:
 
 ???+ example "範例程式 法國國旗"
 
-    === "🎦操作影片"
+    === "🎦Py4t操作影片"
     
         <iframe width="560" height="315" src="https://www.youtube.com/embed/GKyYdbDMH1A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    === "💻程式碼截圖"
+    === "💻Python程式截圖"
 
         ![程式截圖](snapshot/flag_of_france.jpg) 
 
@@ -306,11 +306,11 @@ hide:
 ???+ example "範例程式 日本國旗"
 
 
-    === "🎦操作影片"
+    === "🎦Py4t操作影片"
     
         <iframe width="560" height="315" src="https://www.youtube.com/embed/upF-HpneLPY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    === "💻程式碼截圖"
+    === "💻Python程式截圖"
 
         ![程式截圖](snapshot/flag_of_japan.jpg) 
 
@@ -344,11 +344,11 @@ hide:
 ???+ example "範例程式 正三角形"
 
 
-    === "🎦操作影片"
+    === "🎦Py4t操作影片"
     
         <iframe width="560" height="315" src="https://www.youtube.com/embed/5vxxz9MCqUw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    === "💻程式碼截圖"
+    === "💻Python程式截圖"
 
         ![程式截圖](snapshot/draw_triangle.jpg) 
 
@@ -383,11 +383,11 @@ hide:
 
 ???+ example "範例程式 奇數角星形"
 
-    === "🎦操作影片"
+    === "🎦Py4t操作影片"
     
         <iframe width="560" height="315" src="https://www.youtube.com/embed/hlib0KmRiI0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    === "💻程式碼截圖"
+    === "💻Python程式截圖"
 
         ![程式截圖](snapshot/odd_number_star.jpg) 
 
@@ -430,11 +430,11 @@ hide:
 
 ???+ example "範例程式 越南國旗"
 
-    === "🎦操作影片"
+    === "🎦Py4t操作影片"
     
         <iframe width="560" height="315" src="https://www.youtube.com/embed/3Fa8GosgRIw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    === "💻程式碼截圖"
+    === "💻Python程式截圖"
 
         ![程式截圖](snapshot/flag_of_vietnam.jpg) 
 

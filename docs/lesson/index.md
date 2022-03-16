@@ -41,12 +41,24 @@ hide:
 
 ??? abstract  "專題 - 物理撞擊實驗室 "    
     
-    建構中…
+    ![物理撞擊實驗室](project_collision_lab/digest.jpg)
 
-    : 　 :fontawesome-solid-long-arrow-alt-right: <a href="project_collision_lab/" target="_blank">「物理撞擊實驗室」</a>
+    利用撞擊物與障礙物，進行撞擊的測試，找出影響撞擊的因素。
+    :fontawesome-solid-long-arrow-alt-right: <a href="project_collision_lab/" target="_blank">「物理撞擊實驗室」</a>
+
+<br/><br/><br/>
+
+## 📚 教科書範例
+
+-----------------------
+
+???+ success  "從Scratch到Python (9上翰林版)"
+    建構中
+
+    :fontawesome-solid-long-arrow-alt-right: <a href="textbook_hanlin9_example/" target="_blank">「從Scratch到Python (9上翰林版)」</a>
 
 
 
 
-
+<br/><br/>
 
