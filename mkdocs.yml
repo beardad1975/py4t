@@ -42,65 +42,66 @@ nav:
     - Py4t課程: 'lesson/index.md'
     - 海龜畫國旗: 'lesson/national_flag/index.md'
     - 力與運動遊樂場: 'lesson/mechanics_playground/index.md'
-  - 推廣: 
-    - 💚 推廣紀錄: 'promotion/activities.md'
-    - 💙 使用回饋: 'promotion/user_feedback.md' 
-    - 🧡 教學資料: 'promotion/teaching.md'
-  - 影片: 
+  - 整合函式庫: 
+    - 索引頁: 'integrated_lib.md' 
+    - 海龜: 
+      - Ⓜ️ 模組說明 - 海龜: 'turtle4t/index.md'
+      - 🔰 正方形 範例: 'turtle4t/draw_square.md' 
+      - 🔰 長方形及填色 範例: 'turtle4t/rectangle_and_fill.md' 
+      - 🔰 正三角形 範例: 'turtle4t/draw_triangle.md' 
+      - 🔰 正多邊形 範例: 'turtle4t/regular_polygon.md'  
+      - 🔰 奇數角星形 範例: 'turtle4t/odd_number_star.md'
+      - 🔰 法國國旗 範例: 'turtle4t/flag_of_france.md'
+      - 🔰 日本國旗 範例: 'turtle4t/flag_of_japan.md'
+      - 🔰 越南國旗 範例: 'turtle4t/flag_of_vietnam.md'
+      - 🔰 中華民國國旗 專題範例: 'turtle4t/roc_flag.md'
+      - 🔰 螺旋形 範例: 'turtle4t/spiral.md'
+      - 🔰 圓形纏繞畫 範例: 'turtle4t/circle_zentangle.md'
+      - 🔰 碎形樹 範例: 'turtle4t/fractal_tree.md'
+
+    - 物理:
+      - Ⓜ️ 模組說明 - 物理: 'pie4t/index.md'
+      - 🔰 無摩擦力 範例: 'pie4t/frictionless.md'
+      - 🔰 操控重力 範例: 'pie4t/gravity.md'
+      - 🔰 球的彈性 範例: 'pie4t/bounce_ball.md'
+      - 🔰 噴射拋體 範例: 'pie4t/projectile.md'
+      - 🔰 彈性排列 範例: 'pie4t/bounce_array.md'
+      - 🔰 力與斜面 範例: 'pie4t/force_and_slide.md'
+      - 🔰 重力控制 範例: 'pie4t/inertia_gravity.md'
+      - 🔰 物理撞擊實驗室 範例: 'pie4t/collision_lab.md'
+    - 3D:
+      - Ⓜ️ 模組說明 - 3D: 'threed4t/index.md'
+      - 🔰 3D方塊 範例: 'threed4t/first_3d.md'
+      - 🔰 彩色方陣 範例: 'threed4t/color_array.md'
+      - 🔰 彩色螺旋 範例: 'threed4t/color_spiral.md'
+      - 🔰 太陽系 範例: 'threed4t/solar_system.md'
+
+    - 運算思維:
+      - Ⓜ️ 模組說明 - 運算思維: 'comthink/index.md'
+      - 🔰 排序撲克 範例: 'comthink/poker_sort.md'
+      - 🔰 搜尋猜數 範例: 'comthink/search_guess.md'
+
+    - 視覺:
+      - Ⓜ️ 模組說明 - 視覺: 'cv4t/index.md'
+      - 🔰 攝影機 範例: 'cv4t/camera.md'
+      - 🔰 影像格線 範例: 'cv4t/camera_slice.md'
+      - 🔰 電視牆 範例: 'cv4t/camera_tile.md'
+
+    - 語音:
+      - Ⓜ️ 模組說明 - 語音與聲音: 'sound_and_speech/index.md'
+      - 🔰 文字轉語音 範例: 'sound_and_speech/tts.md'
+      - 🔰 語音辨識 範例: 'sound_and_speech/speech_recog.md'  
+  - 研習影片: 
     - 📚 影片索引: 'self_study/index.md'
     - 🕒 快速入門: 'self_study/quick_start.md'
     - 🕕 3D模擬: 'self_study/tutorial_3d.md'
     - 🕘 視覺影像: 'self_study/tutorial_cv.md'
     - 🕛 演算法: 'self_study/tutorial_algorithm.md'
-    
-  - 海龜: 
-    - Ⓜ️ 模組說明 - 海龜: 'turtle4t/index.md'
-    - 🔰 正方形 範例: 'turtle4t/draw_square.md' 
-    - 🔰 長方形及填色 範例: 'turtle4t/rectangle_and_fill.md' 
-    - 🔰 正三角形 範例: 'turtle4t/draw_triangle.md' 
-    - 🔰 正多邊形 範例: 'turtle4t/regular_polygon.md'  
-    - 🔰 奇數角星形 範例: 'turtle4t/odd_number_star.md'
-    - 🔰 法國國旗 範例: 'turtle4t/flag_of_france.md'
-    - 🔰 日本國旗 範例: 'turtle4t/flag_of_japan.md'
-    - 🔰 越南國旗 範例: 'turtle4t/flag_of_vietnam.md'
-    - 🔰 中華民國國旗 專題範例: 'turtle4t/roc_flag.md'
-    - 🔰 螺旋形 範例: 'turtle4t/spiral.md'
-    - 🔰 圓形纏繞畫 範例: 'turtle4t/circle_zentangle.md'
-    - 🔰 碎形樹 範例: 'turtle4t/fractal_tree.md'
-
-  - 物理:
-    - Ⓜ️ 模組說明 - 物理: 'pie4t/index.md'
-    - 🔰 無摩擦力 範例: 'pie4t/frictionless.md'
-    - 🔰 操控重力 範例: 'pie4t/gravity.md'
-    - 🔰 球的彈性 範例: 'pie4t/bounce_ball.md'
-    - 🔰 噴射拋體 範例: 'pie4t/projectile.md'
-    - 🔰 彈性排列 範例: 'pie4t/bounce_array.md'
-    - 🔰 力與斜面 範例: 'pie4t/force_and_slide.md'
-    - 🔰 重力控制 範例: 'pie4t/inertia_gravity.md'
-    - 🔰 物理撞擊實驗室 範例: 'pie4t/collision_lab.md'
-  - 3D:
-    - Ⓜ️ 模組說明 - 3D: 'threed4t/index.md'
-    - 🔰 3D方塊 範例: 'threed4t/first_3d.md'
-    - 🔰 彩色方陣 範例: 'threed4t/color_array.md'
-    - 🔰 彩色螺旋 範例: 'threed4t/color_spiral.md'
-    - 🔰 太陽系 範例: 'threed4t/solar_system.md'
-
-  - 運算思維:
-    - Ⓜ️ 模組說明 - 運算思維: 'comthink/index.md'
-    - 🔰 排序撲克 範例: 'comthink/poker_sort.md'
-    - 🔰 搜尋猜數 範例: 'comthink/search_guess.md'
-
-  - 視覺:
-    - Ⓜ️ 模組說明 - 視覺: 'cv4t/index.md'
-    - 🔰 攝影機 範例: 'cv4t/camera.md'
-    - 🔰 影像格線 範例: 'cv4t/camera_slice.md'
-    - 🔰 電視牆 範例: 'cv4t/camera_tile.md'
-
-  - 語音:
-    - Ⓜ️ 模組說明 - 語音與聲音: 'sound_and_speech/index.md'
-    - 🔰 文字轉語音 範例: 'sound_and_speech/tts.md'
-    - 🔰 語音辨識 範例: 'sound_and_speech/speech_recog.md'  
-
+  - 推廣: 
+    - 💚 推廣紀錄: 'promotion/activities.md'
+    - 💙 使用回饋: 'promotion/user_feedback.md' 
+    - 🧡 教學資料: 'promotion/teaching.md'
+  
 
 theme:
   name: material

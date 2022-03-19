@@ -2,6 +2,8 @@
 
 
 ```python
-name = input('請問您的名字是？')
-print('哈囉！', name, '您好！')
+x = int(input('請輸入數字 x:'))
+y = int(input('請輸入數字 y:'))
+average = (x + y) / 2
+print('平均是' + str(average))
 ```

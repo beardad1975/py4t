@@ -4,7 +4,7 @@ hide:
 ---
 
 
-從一場場的推廣研習簡報與實際教學資料轉化而成的課程講義，從單元主題開始，包含影片、圖片、說明、範例程式、練習與補充資料，方便資訊科技教師於教學現場使用。
+從推廣研習的簡報與範例程式轉化而成的課程講義，從單元主題開始，包含影片、圖片、說明、範例程式、練習與補充資料，可讓資訊科技教師於教學現場使用，也可以讓有興趣者自學。
 
 
 <br/>
@@ -52,10 +52,10 @@ hide:
 
 -----------------------
 
-???+ success  "從Scratch到Python (9上翰林版)"
+???+ success  "邁向Python - 程式設計 計算篇 (9上翰林版2-2)"
     建構中
 
-    :fontawesome-solid-long-arrow-alt-right: <a href="textbook_hanlin9_example/" target="_blank">「從Scratch到Python (9上翰林版)」</a>
+    :fontawesome-solid-long-arrow-alt-right: <a href="textbook_hanlin9_example/" target="_blank">「Python程式設計-計算篇 (9上翰林版2-2)」</a>
 
 
 
