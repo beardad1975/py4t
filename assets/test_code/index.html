@@ -1632,10 +1632,15 @@
 
   <h1>Test code</h1>
 
-<div class="highlight"><pre><span></span><code><span class="linenos" data-linenos="1 "></span><span class="n">x</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s1">&#39;請輸入數字 x:&#39;</span><span class="p">))</span>
-<span class="linenos" data-linenos="2 "></span><span class="n">y</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s1">&#39;請輸入數字 y:&#39;</span><span class="p">))</span>
-<span class="linenos" data-linenos="3 "></span><span class="n">average</span> <span class="o">=</span> <span class="p">(</span><span class="n">x</span> <span class="o">+</span> <span class="n">y</span><span class="p">)</span> <span class="o">/</span> <span class="mi">2</span>
-<span class="linenos" data-linenos="4 "></span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;平均是&#39;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">average</span><span class="p">))</span>
+<div class="highlight"><pre><span></span><code><span class="linenos" data-linenos="1 "></span><span class="n">score1</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s1">&#39;請輸入作業成績：&#39;</span><span class="p">))</span>
+<span class="linenos" data-linenos="2 "></span><span class="n">score2</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s1">&#39;請輸入測驗成績：&#39;</span><span class="p">))</span>
+<span class="linenos" data-linenos="3 "></span><span class="n">score3</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s1">&#39;請輸入平時成績：&#39;</span><span class="p">))</span>
+<span class="linenos" data-linenos="4 "></span><span class="n">grade</span> <span class="o">=</span> <span class="n">score1</span> <span class="o">*</span> <span class="mf">0.4</span> <span class="o">+</span> <span class="n">score2</span> <span class="o">*</span> <span class="mf">0.4</span> <span class="o">+</span> <span class="n">score3</span> <span class="o">*</span> <span class="mf">0.2</span>
+<span class="linenos" data-linenos="5 "></span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;學期成績是&#39;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">grade</span><span class="p">))</span>
+<span class="linenos" data-linenos="6 "></span><span class="k">if</span> <span class="n">grade</span> <span class="o">&lt;</span> <span class="mi">60</span> <span class="p">:</span>
+<span class="linenos" data-linenos="7 "></span>    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;不及格&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos="8 "></span><span class="k">else</span> <span class="p">:</span>
+<span class="linenos" data-linenos="9 "></span>    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;及格&#39;</span><span class="p">)</span>
 </code></pre></div>
 
               
