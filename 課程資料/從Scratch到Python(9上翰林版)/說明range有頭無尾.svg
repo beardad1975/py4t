@@ -1,0 +1,2557 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   sodipodi:docname="說明range有頭無尾.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.32026165"
+     inkscape:cx="-3899.9363"
+     inkscape:cy="780.61174"
+     inkscape:window-width="1920"
+     inkscape:window-height="998"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     inkscape:snap-global="false" />
+  <defs
+     id="defs2">
+    <marker
+       style="overflow:visible;"
+       id="marker3050"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.6) rotate(180) translate(0,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="stroke:context-stroke;fill-rule:evenodd;fill:context-stroke;stroke-width:0.62500000;stroke-linejoin:round;"
+         id="path2816" />
+    </marker>
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect2337"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect28256"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect27999"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect27634"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect24111"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect23782"
+       is_visible="true"
+       lpeversion="1" />
+    <marker
+       style="overflow:visible;"
+       id="Arrow2Mend"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.6) rotate(180) translate(0,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="stroke:context-stroke;fill-rule:evenodd;fill:context-stroke;stroke-width:0.62500000;stroke-linejoin:round;"
+         id="path22955" />
+    </marker>
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect22926"
+       is_visible="true"
+       lpeversion="1" />
+  </defs>
+  <g
+     inkscape:label="圖層 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#fffc9f;fill-opacity:1;stroke:#a4a4a4;stroke-width:2.46851;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect850"
+       width="113.60643"
+       height="23.768978"
+       x="-418.03809"
+       y="48.630814"
+       ry="5.8301272"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\number_string_in_memory.png"
+       inkscape:export-xdpi="50.669521"
+       inkscape:export-ydpi="50.669521" />
+    <rect
+       style="fill:none;stroke:#a4a4a4;stroke-width:1.18986;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect982"
+       width="25.047634"
+       height="25.047634"
+       x="-298.79422"
+       y="47.991486"
+       ry="6.1437597"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\number_string_in_memory.png"
+       inkscape:export-xdpi="50.669521"
+       inkscape:export-ydpi="50.669521" />
+    <rect
+       style="fill:none;stroke:#a4a4a4;stroke-width:1.18986;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect984"
+       width="25.047634"
+       height="25.047634"
+       x="-268.82343"
+       y="47.991486"
+       ry="6.1437597"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\number_string_in_memory.png"
+       inkscape:export-xdpi="50.669521"
+       inkscape:export-ydpi="50.669521" />
+    <rect
+       style="fill:#ffca93;fill-opacity:1;stroke:#a4a4a4;stroke-width:1.18986;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect986"
+       width="25.047634"
+       height="25.047634"
+       x="-238.85265"
+       y="47.991486"
+       ry="6.1437597"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\number_string_in_memory.png"
+       inkscape:export-xdpi="50.669521"
+       inkscape:export-ydpi="50.669521" />
+    <rect
+       style="fill:#ffca93;fill-opacity:1;stroke:#a4a4a4;stroke-width:1.18986;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect988"
+       width="25.047634"
+       height="25.047634"
+       x="-208.88187"
+       y="47.991486"
+       ry="6.1437597"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\number_string_in_memory.png"
+       inkscape:export-xdpi="50.669521"
+       inkscape:export-ydpi="50.669521" />
+    <rect
+       style="fill:none;stroke:#a4a4a4;stroke-width:1.18986;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect990"
+       width="25.047634"
+       height="25.047634"
+       x="-178.91106"
+       y="47.991486"
+       ry="6.1437597"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\number_string_in_memory.png"
+       inkscape:export-xdpi="50.669521"
+       inkscape:export-ydpi="50.669521" />
+    <rect
+       style="fill:none;stroke:#a4a4a4;stroke-width:1.18986;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect992"
+       width="25.047634"
+       height="25.047634"
+       x="-148.94026"
+       y="47.991486"
+       ry="6.1437597"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\number_string_in_memory.png"
+       inkscape:export-xdpi="50.669521"
+       inkscape:export-ydpi="50.669521" />
+    <rect
+       style="fill:none;stroke:#a4a4a4;stroke-width:1.18986;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect994"
+       width="25.047634"
+       height="25.047634"
+       x="-418.6774"
+       y="76.493568"
+       ry="6.1437597"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\number_string_in_memory.png"
+       inkscape:export-xdpi="50.669521"
+       inkscape:export-ydpi="50.669521" />
+    <rect
+       style="fill:none;stroke:#a4a4a4;stroke-width:1.18986;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect996"
+       width="25.047634"
+       height="25.047634"
+       x="-388.70663"
+       y="76.493568"
+       ry="6.1437597"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\number_string_in_memory.png"
+       inkscape:export-xdpi="50.669521"
+       inkscape:export-ydpi="50.669521" />
+    <rect
+       style="fill:none;stroke:#a4a4a4;stroke-width:1.18986;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect998"
+       width="25.047634"
+       height="25.047634"
+       x="-358.73581"
+       y="76.493568"
+       ry="6.1437597"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\number_string_in_memory.png"
+       inkscape:export-xdpi="50.669521"
+       inkscape:export-ydpi="50.669521" />
+    <rect
+       style="fill:none;stroke:#a4a4a4;stroke-width:1.18986;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1000"
+       width="25.047634"
+       height="25.047634"
+       x="-328.76505"
+       y="76.493568"
+       ry="6.1437597"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\number_string_in_memory.png"
+       inkscape:export-xdpi="50.669521"
+       inkscape:export-ydpi="50.669521" />
+    <rect
+       style="fill:none;stroke:#a4a4a4;stroke-width:1.18986;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1002"
+       width="25.047634"
+       height="25.047634"
+       x="-298.79422"
+       y="76.493568"
+       ry="6.1437597"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\number_string_in_memory.png"
+       inkscape:export-xdpi="50.669521"
+       inkscape:export-ydpi="50.669521" />
+    <rect
+       style="fill:none;stroke:#a4a4a4;stroke-width:1.18986;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1004"
+       width="25.047634"
+       height="25.047634"
+       x="-268.82343"
+       y="76.493568"
+       ry="6.1437597"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\number_string_in_memory.png"
+       inkscape:export-xdpi="50.669521"
+       inkscape:export-ydpi="50.669521" />
+    <rect
+       style="fill:none;stroke:#a4a4a4;stroke-width:1.18986;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1006"
+       width="25.047634"
+       height="25.047634"
+       x="-238.85265"
+       y="76.493568"
+       ry="6.1437597"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\number_string_in_memory.png"
+       inkscape:export-xdpi="50.669521"
+       inkscape:export-ydpi="50.669521" />
+    <rect
+       style="fill:none;stroke:#a4a4a4;stroke-width:1.18986;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1008"
+       width="25.047634"
+       height="25.047634"
+       x="-208.88187"
+       y="76.493568"
+       ry="6.1437597"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\number_string_in_memory.png"
+       inkscape:export-xdpi="50.669521"
+       inkscape:export-ydpi="50.669521" />
+    <rect
+       style="fill:none;stroke:#a4a4a4;stroke-width:1.18986;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1014"
+       width="25.047634"
+       height="25.047634"
+       x="-418.6774"
+       y="104.99565"
+       ry="6.1437597"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\number_string_in_memory.png"
+       inkscape:export-xdpi="50.669521"
+       inkscape:export-ydpi="50.669521" />
+    <rect
+       style="fill:none;stroke:#a4a4a4;stroke-width:1.18986;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1024"
+       width="25.047634"
+       height="25.047634"
+       x="-268.82343"
+       y="104.99565"
+       ry="6.1437597"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\number_string_in_memory.png"
+       inkscape:export-xdpi="50.669521"
+       inkscape:export-ydpi="50.669521" />
+    <rect
+       style="fill:none;stroke:#a4a4a4;stroke-width:1.18986;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1026"
+       width="25.047634"
+       height="25.047634"
+       x="-238.85265"
+       y="104.99565"
+       ry="6.1437597"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\number_string_in_memory.png"
+       inkscape:export-xdpi="50.669521"
+       inkscape:export-ydpi="50.669521" />
+    <rect
+       style="fill:none;stroke:#a4a4a4;stroke-width:1.18986;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1028"
+       width="25.047634"
+       height="25.047634"
+       x="-208.88187"
+       y="104.99565"
+       ry="6.1437597"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\number_string_in_memory.png"
+       inkscape:export-xdpi="50.669521"
+       inkscape:export-ydpi="50.669521" />
+    <rect
+       style="fill:none;stroke:#a4a4a4;stroke-width:1.18986;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1030"
+       width="25.047634"
+       height="25.047634"
+       x="-178.91106"
+       y="104.99565"
+       ry="6.1437597"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\number_string_in_memory.png"
+       inkscape:export-xdpi="50.669521"
+       inkscape:export-ydpi="50.669521" />
+    <rect
+       style="fill:none;stroke:#a4a4a4;stroke-width:1.18986;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1032"
+       width="25.047634"
+       height="25.047634"
+       x="-148.94026"
+       y="104.99565"
+       ry="6.1437597"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\number_string_in_memory.png"
+       inkscape:export-xdpi="50.669521"
+       inkscape:export-ydpi="50.669521" />
+    <rect
+       style="fill:none;stroke:#a4a4a4;stroke-width:1.18986;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1042"
+       width="25.047634"
+       height="25.047634"
+       x="-298.79422"
+       y="133.91081"
+       ry="6.1437597"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\number_string_in_memory.png"
+       inkscape:export-xdpi="50.669521"
+       inkscape:export-ydpi="50.669521" />
+    <rect
+       style="fill:none;stroke:#a4a4a4;stroke-width:1.18986;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1048"
+       width="25.047634"
+       height="25.047634"
+       x="-208.88187"
+       y="133.91081"
+       ry="6.1437597"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\number_string_in_memory.png"
+       inkscape:export-xdpi="50.669521"
+       inkscape:export-ydpi="50.669521" />
+    <rect
+       style="fill:none;stroke:#a4a4a4;stroke-width:1.18986;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1050"
+       width="25.047634"
+       height="25.047634"
+       x="-178.91106"
+       y="133.91081"
+       ry="6.1437597"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\number_string_in_memory.png"
+       inkscape:export-xdpi="50.669521"
+       inkscape:export-ydpi="50.669521" />
+    <rect
+       style="fill:none;stroke:#a4a4a4;stroke-width:1.18986;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1052"
+       width="25.047634"
+       height="25.047634"
+       x="-148.94026"
+       y="133.91081"
+       ry="6.1437597"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\number_string_in_memory.png"
+       inkscape:export-xdpi="50.669521"
+       inkscape:export-ydpi="50.669521" />
+    <rect
+       style="fill:#fffc9f;fill-opacity:1;stroke:#a4a4a4;stroke-width:2.46851;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect2704"
+       width="113.60643"
+       height="23.768978"
+       x="-387.66101"
+       y="105.87991"
+       ry="5.8301272"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\number_string_in_memory.png"
+       inkscape:export-xdpi="50.669521"
+       inkscape:export-ydpi="50.669521" />
+    <rect
+       style="fill:#fffc9f;fill-opacity:1;stroke:#a4a4a4;stroke-width:2.46851;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect2786"
+       width="113.60643"
+       height="23.768978"
+       x="-419.20645"
+       y="134.50446"
+       ry="5.8301272"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\number_string_in_memory.png"
+       inkscape:export-xdpi="50.669521"
+       inkscape:export-ydpi="50.669521" />
+    <rect
+       style="fill:#ffca93;fill-opacity:1;stroke:#a4a4a4;stroke-width:1.18986;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect3686"
+       width="25.047634"
+       height="25.047634"
+       x="-268.18088"
+       y="134.73697"
+       ry="6.1437597"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\number_string_in_memory.png"
+       inkscape:export-xdpi="50.669521"
+       inkscape:export-ydpi="50.669521" />
+    <rect
+       style="fill:#ffca93;fill-opacity:1;stroke:#a4a4a4;stroke-width:1.18986;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect3688"
+       width="25.047634"
+       height="25.047634"
+       x="-238.2101"
+       y="134.73697"
+       ry="6.1437597"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\number_string_in_memory.png"
+       inkscape:export-xdpi="50.669521"
+       inkscape:export-ydpi="50.669521" />
+    <rect
+       style="fill:#ffca93;fill-opacity:1;stroke:#a4a4a4;stroke-width:1.18986;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect3850"
+       width="25.047634"
+       height="25.047634"
+       x="-179.37003"
+       y="76.493568"
+       ry="6.1437597"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\number_string_in_memory.png"
+       inkscape:export-xdpi="50.669521"
+       inkscape:export-ydpi="50.669521" />
+    <rect
+       style="fill:#ffca93;fill-opacity:1;stroke:#a4a4a4;stroke-width:1.18986;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect3852"
+       width="25.047634"
+       height="25.047634"
+       x="-149.39925"
+       y="76.493568"
+       ry="6.1437597"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\number_string_in_memory.png"
+       inkscape:export-xdpi="50.669521"
+       inkscape:export-ydpi="50.669521" />
+    <text
+       xml:space="preserve"
+       style="font-size:14.9222px;line-height:1.25;font-family:sans-serif;fill:#0000ff;stroke-width:0.373057"
+       x="-390.12744"
+       y="66.374023"
+       id="text4705"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\number_string_in_memory.png"
+       inkscape:export-xdpi="50.669521"
+       inkscape:export-ydpi="50.669521"><tspan
+         sodipodi:role="line"
+         id="tspan4703"
+         style="fill:#0000ff;stroke-width:0.373057"
+         x="-390.12744"
+         y="66.374023">整數  12</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:14.9222px;line-height:1.25;font-family:sans-serif;fill:#0000ff;stroke-width:0.373057"
+       x="-359.14691"
+       y="123.3782"
+       id="text5625"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\number_string_in_memory.png"
+       inkscape:export-xdpi="50.669521"
+       inkscape:export-ydpi="50.669521"><tspan
+         sodipodi:role="line"
+         id="tspan5623"
+         style="fill:#0000ff;stroke-width:0.373057"
+         x="-359.14691"
+         y="123.3782">整數  34</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:14.9222px;line-height:1.25;font-family:sans-serif;fill:#0000ff;stroke-width:0.373057"
+       x="-391.77972"
+       y="152.29335"
+       id="text6503"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\number_string_in_memory.png"
+       inkscape:export-xdpi="50.669521"
+       inkscape:export-ydpi="50.669521"><tspan
+         sodipodi:role="line"
+         id="tspan6501"
+         style="fill:#0000ff;stroke-width:0.373057"
+         x="-391.77972"
+         y="152.29335">整數  56</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:8.36788px;line-height:1.25;font-family:sans-serif;stroke-width:0.209199"
+       x="-234.77357"
+       y="55.989349"
+       id="text9106"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\number_string_in_memory.png"
+       inkscape:export-xdpi="50.669521"
+       inkscape:export-ydpi="50.669521"><tspan
+         sodipodi:role="line"
+         id="tspan9104"
+         style="stroke-width:0.209199"
+         x="-234.77357"
+         y="55.989349">字元</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:16.9131px;line-height:1.25;font-family:sans-serif;stroke-width:0.422831;fill:#800000"
+       x="-230.77844"
+       y="69.620789"
+       id="text9776"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\number_string_in_memory.png"
+       inkscape:export-xdpi="50.669521"
+       inkscape:export-ydpi="50.669521"><tspan
+         sodipodi:role="line"
+         id="tspan9774"
+         style="stroke-width:0.422831;fill:#800000"
+         x="-230.77844"
+         y="69.620789">1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:8.36788px;line-height:1.25;font-family:sans-serif;stroke-width:0.209199"
+       x="-205.2388"
+       y="55.989349"
+       id="text10534"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\number_string_in_memory.png"
+       inkscape:export-xdpi="50.669521"
+       inkscape:export-ydpi="50.669521"><tspan
+         sodipodi:role="line"
+         id="tspan10532"
+         style="stroke-width:0.209199"
+         x="-205.2388"
+         y="55.989349">字元</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:16.9131px;line-height:1.25;font-family:sans-serif;stroke-width:0.422831;fill:#800000"
+       x="-201.24367"
+       y="69.620789"
+       id="text10538"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\number_string_in_memory.png"
+       inkscape:export-xdpi="50.669521"
+       inkscape:export-ydpi="50.669521"><tspan
+         sodipodi:role="line"
+         id="tspan10536"
+         style="stroke-width:0.422831;fill:#800000"
+         x="-201.24367"
+         y="69.620789">2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:8.36788px;line-height:1.25;font-family:sans-serif;stroke-width:0.209199"
+       x="-175.4975"
+       y="85.730659"
+       id="text11292"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\number_string_in_memory.png"
+       inkscape:export-xdpi="50.669521"
+       inkscape:export-ydpi="50.669521"><tspan
+         sodipodi:role="line"
+         id="tspan11290"
+         style="stroke-width:0.209199"
+         x="-175.4975"
+         y="85.730659">字元</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:16.9131px;line-height:1.25;font-family:sans-serif;stroke-width:0.422831;fill:#800000"
+       x="-171.50237"
+       y="99.362099"
+       id="text11296"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\number_string_in_memory.png"
+       inkscape:export-xdpi="50.669521"
+       inkscape:export-ydpi="50.669521"><tspan
+         sodipodi:role="line"
+         id="tspan11294"
+         style="stroke-width:0.422831;fill:#800000"
+         x="-171.50237"
+         y="99.362099">5</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:8.36788px;line-height:1.25;font-family:sans-serif;stroke-width:0.209199"
+       x="-145.54965"
+       y="85.317589"
+       id="text11300"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\number_string_in_memory.png"
+       inkscape:export-xdpi="50.669521"
+       inkscape:export-ydpi="50.669521"><tspan
+         sodipodi:role="line"
+         id="tspan11298"
+         style="stroke-width:0.209199"
+         x="-145.54965"
+         y="85.317589">字元</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:16.9131px;line-height:1.25;font-family:sans-serif;stroke-width:0.422831;fill:#800000"
+       x="-141.55452"
+       y="98.949028"
+       id="text11304"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\number_string_in_memory.png"
+       inkscape:export-xdpi="50.669521"
+       inkscape:export-ydpi="50.669521"><tspan
+         sodipodi:role="line"
+         id="tspan11302"
+         style="stroke-width:0.422831;fill:#800000"
+         x="-141.55452"
+         y="98.949028">6</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:8.36788px;line-height:1.25;font-family:sans-serif;stroke-width:0.209199"
+       x="-264.51489"
+       y="143.76753"
+       id="text11308"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\number_string_in_memory.png"
+       inkscape:export-xdpi="50.669521"
+       inkscape:export-ydpi="50.669521"><tspan
+         sodipodi:role="line"
+         id="tspan11306"
+         style="stroke-width:0.209199"
+         x="-264.51489"
+         y="143.76753">字元</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:16.9131px;line-height:1.25;font-family:sans-serif;stroke-width:0.422831;fill:#800000"
+       x="-260.51974"
+       y="157.39897"
+       id="text11312"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\number_string_in_memory.png"
+       inkscape:export-xdpi="50.669521"
+       inkscape:export-ydpi="50.669521"><tspan
+         sodipodi:role="line"
+         id="tspan11310"
+         style="stroke-width:0.422831;fill:#800000"
+         x="-260.51974"
+         y="157.39897">3</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:8.36788px;line-height:1.25;font-family:sans-serif;stroke-width:0.209199"
+       x="-234.56705"
+       y="143.35446"
+       id="text11316"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\number_string_in_memory.png"
+       inkscape:export-xdpi="50.669521"
+       inkscape:export-ydpi="50.669521"><tspan
+         sodipodi:role="line"
+         id="tspan11314"
+         style="stroke-width:0.209199"
+         x="-234.56705"
+         y="143.35446">字元</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:16.9131px;line-height:1.25;font-family:sans-serif;stroke-width:0.422831;fill:#800000"
+       x="-230.57191"
+       y="156.9859"
+       id="text11320"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\number_string_in_memory.png"
+       inkscape:export-xdpi="50.669521"
+       inkscape:export-ydpi="50.669521"><tspan
+         sodipodi:role="line"
+         id="tspan11318"
+         style="stroke-width:0.422831;fill:#800000"
+         x="-230.57191"
+         y="156.9859">4</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:22.5819px;line-height:1.25;font-family:sans-serif;stroke-width:0.56455"
+       x="-438.85501"
+       y="-7.7271967"
+       id="text18767"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\number_string_in_memory.png"
+       inkscape:export-xdpi="50.669521"
+       inkscape:export-ydpi="50.669521"><tspan
+         sodipodi:role="line"
+         id="tspan18765"
+         style="stroke-width:0.56455"
+         x="-438.85501"
+         y="-7.7271967">數字與字串在電腦內部的不同形式</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:19.3373px;line-height:1.25;font-family:sans-serif;fill:#0000ff;stroke-width:0.483434"
+       x="-465.19232"
+       y="41.237011"
+       id="text22369"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\number_string_in_memory.png"
+       inkscape:export-xdpi="50.669521"
+       inkscape:export-ydpi="50.669521"><tspan
+         sodipodi:role="line"
+         id="tspan22367"
+         style="fill:#0000ff;stroke-width:0.483434"
+         x="-465.19232"
+         y="41.237011">12</tspan></text>
+    <path
+       style="fill:#999999;stroke:#868686;stroke-width:0.865;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend)"
+       d="m -439.88335,37.387162 42.64474,22.198629"
+       id="path22924"
+       inkscape:path-effect="#path-effect22926"
+       inkscape:original-d="m -439.88335,37.387162 c 16.55189,2.65e-4 26.09339,22.198894 42.64474,22.198629"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\number_string_in_memory.png"
+       inkscape:export-xdpi="50.669521"
+       inkscape:export-ydpi="50.669521" />
+    <text
+       xml:space="preserve"
+       style="font-size:19.3373px;line-height:1.25;font-family:sans-serif;fill:#0000ff;stroke-width:0.483434"
+       x="-466.94482"
+       y="100.82281"
+       id="text23776"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\number_string_in_memory.png"
+       inkscape:export-xdpi="50.669521"
+       inkscape:export-ydpi="50.669521"><tspan
+         sodipodi:role="line"
+         id="tspan23774"
+         style="fill:#0000ff;stroke-width:0.483434"
+         x="-466.94482"
+         y="100.82281">34</tspan></text>
+    <path
+       style="fill:#999999;stroke:#868686;stroke-width:0.865;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend)"
+       d="m -435.79413,97.55713 63.09085,21.03028"
+       id="path23778"
+       inkscape:path-effect="#path-effect23782"
+       inkscape:original-d="m -435.79413,97.55713 c 16.55189,2.65e-4 46.5395,21.03055 63.09085,21.03028"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\number_string_in_memory.png"
+       inkscape:export-xdpi="50.669521"
+       inkscape:export-ydpi="50.669521" />
+    <text
+       xml:space="preserve"
+       style="font-size:19.3373px;line-height:1.25;font-family:sans-serif;white-space:pre;inline-size:26.9139;fill:#0000ff;stroke-width:0.483434"
+       x="-393.92303"
+       y="124.77396"
+       id="text24105"
+       transform="translate(-73.60598,12.851838)"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\number_string_in_memory.png"
+       inkscape:export-xdpi="50.669521"
+       inkscape:export-ydpi="50.669521"><tspan
+         x="-393.92303"
+         y="124.77396"
+         id="tspan123177">56</tspan></text>
+    <path
+       style="fill:#999999;stroke:#868686;stroke-width:0.865;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend)"
+       d="m -437.54666,134.36012 31.54543,8.76262"
+       id="path24107"
+       inkscape:path-effect="#path-effect24111"
+       inkscape:original-d="m -437.54666,134.36012 c 16.55189,2.6e-4 14.99408,8.76288 31.54543,8.76262"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\number_string_in_memory.png"
+       inkscape:export-xdpi="50.669521"
+       inkscape:export-ydpi="50.669521" />
+    <path
+       style="fill:#999999;stroke:#868686;stroke-width:0.865;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend)"
+       d="M -109.24062,30.377069 -184.01494,46.14978"
+       id="path27630"
+       inkscape:path-effect="#path-effect27634"
+       inkscape:original-d="m -109.24062,30.377069 c 16.551895,2.65e-4 -91.32567,15.772976 -74.77432,15.772711"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\number_string_in_memory.png"
+       inkscape:export-xdpi="50.669521"
+       inkscape:export-ydpi="50.669521" />
+    <path
+       style="fill:#999999;stroke:#868686;stroke-width:0.865;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend)"
+       d="m -96.848408,78.29362 -24.792402,7.3047"
+       id="path27995"
+       inkscape:path-effect="#path-effect27999"
+       inkscape:original-d="m -96.848408,78.29362 c 16.551895,2.65e-4 -41.343752,7.304965 -24.792402,7.3047"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\number_string_in_memory.png"
+       inkscape:export-xdpi="50.669521"
+       inkscape:export-ydpi="50.669521" />
+    <path
+       style="fill:#999999;stroke:#868686;stroke-width:0.865;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend)"
+       d="m -106.76218,137.5697 -104.72216,7.71777"
+       id="path28252"
+       inkscape:path-effect="#path-effect28256"
+       inkscape:original-d="m -106.76218,137.5697 c 16.551898,2.6e-4 -121.27351,7.71803 -104.72216,7.71777"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\number_string_in_memory.png"
+       inkscape:export-xdpi="50.669521"
+       inkscape:export-ydpi="50.669521" />
+    <text
+       xml:space="preserve"
+       style="font-size:19.3373px;line-height:1.25;font-family:sans-serif;fill:#800000;stroke-width:0.483434"
+       x="-106.64434"
+       y="36.693199"
+       id="text28435"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\number_string_in_memory.png"
+       inkscape:export-xdpi="50.669521"
+       inkscape:export-ydpi="50.669521"><tspan
+         sodipodi:role="line"
+         id="tspan28433"
+         style="fill:#800000;stroke-width:0.483434"
+         x="-106.64434"
+         y="36.693199">'12'</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:19.3373px;line-height:1.25;font-family:sans-serif;fill:#800000;stroke-width:0.483434"
+       x="-95.491348"
+       y="84.609749"
+       id="text28877"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\number_string_in_memory.png"
+       inkscape:export-xdpi="50.669521"
+       inkscape:export-ydpi="50.669521"><tspan
+         sodipodi:role="line"
+         id="tspan28875"
+         style="fill:#800000;stroke-width:0.483434"
+         x="-95.491348"
+         y="84.609749">'56'</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:19.3373px;line-height:1.25;font-family:sans-serif;fill:#800000;stroke-width:0.483434"
+       x="-104.57897"
+       y="142.44006"
+       id="text29479"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\number_string_in_memory.png"
+       inkscape:export-xdpi="50.669521"
+       inkscape:export-ydpi="50.669521"><tspan
+         sodipodi:role="line"
+         id="tspan29477"
+         style="fill:#800000;stroke-width:0.483434"
+         x="-104.57897"
+         y="142.44006">'34'</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:11.8734px;line-height:1.25;font-family:sans-serif;fill:#666666;stroke-width:0.296835"
+       x="-373.68869"
+       y="38.725296"
+       id="text30016"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\number_string_in_memory.png"
+       inkscape:export-xdpi="50.669521"
+       inkscape:export-ydpi="50.669521"><tspan
+         sodipodi:role="line"
+         id="tspan30014"
+         style="fill:#666666;stroke-width:0.296835"
+         x="-373.68869"
+         y="38.725296">記憶體(單位：位元組)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:8.625px;line-height:1.25;font-family:sans-serif;fill:#666666;stroke-width:0.215625"
+       x="-380.90039"
+       y="184.31598"
+       id="text30965"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\number_string_in_memory.png"
+       inkscape:export-xdpi="50.669521"
+       inkscape:export-ydpi="50.669521"><tspan
+         sodipodi:role="line"
+         id="tspan30963"
+         style="fill:#666666;stroke-width:0.215625"
+         x="-380.90039"
+         y="184.31598">註1：實際資料是以2進位形式保存(位元)，8個位元會組成1個位元組</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:8.625px;line-height:1.25;font-family:sans-serif;fill:#666666;stroke-width:0.215625"
+       x="-380.90039"
+       y="195.05589"
+       id="text32699"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\number_string_in_memory.png"
+       inkscape:export-xdpi="50.669521"
+       inkscape:export-ydpi="50.669521"><tspan
+         sodipodi:role="line"
+         id="tspan32697"
+         style="fill:#666666;stroke-width:0.215625"
+         x="-380.90039"
+         y="195.05589">註2：實際的字元常以ASCII或UNICODE編碼方式(如UTF8)表達</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:22.5819px;line-height:1.25;font-family:sans-serif;stroke-width:0.56455"
+       x="-1338.5297"
+       y="109.58575"
+       id="text924"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\left_closed_right_open.png"
+       inkscape:export-xdpi="21.588606"
+       inkscape:export-ydpi="21.588606"><tspan
+         sodipodi:role="line"
+         id="tspan922"
+         style="stroke-width:0.56455"
+         x="-1338.5297"
+         y="109.58575">range( <tspan
+   style="fill:#ff0000"
+   id="tspan78381">起始值</tspan>,  <tspan
+   style="fill:#039214;fill-opacity:1"
+   id="tspan79319">終止值</tspan> )</tspan></text>
+    <path
+       style="fill:none;stroke:#06992b;stroke-width:1.465;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker3050)"
+       d="m -1120.2558,114.00835 26.8498,30.98053"
+       id="path2707"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\left_closed_right_open.png"
+       inkscape:export-xdpi="21.588606"
+       inkscape:export-ydpi="21.588606" />
+    <text
+       xml:space="preserve"
+       style="font-size:12.7312px;line-height:1.25;font-family:sans-serif;fill:#007f0e;fill-opacity:1;stroke-width:0.31828"
+       x="-1110.8862"
+       y="159.57706"
+       id="text3885"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\left_closed_right_open.png"
+       inkscape:export-xdpi="21.588606"
+       inkscape:export-ydpi="21.588606"><tspan
+         sodipodi:role="line"
+         id="tspan3883"
+         style="fill:#007f0e;fill-opacity:1;stroke-width:0.31828"
+         x="-1110.8862"
+         y="159.57706">不包含</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:22.5819px;line-height:1.25;font-family:sans-serif;stroke-width:0.56455"
+       x="-1024.5936"
+       y="108.75959"
+       id="text4849"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\left_closed_right_open.png"
+       inkscape:export-xdpi="21.588606"
+       inkscape:export-ydpi="21.588606"><tspan
+         sodipodi:role="line"
+         id="tspan4847"
+         style="stroke-width:0.56455"
+         x="-1024.5936"
+         y="108.75959">例：range(<tspan
+   style="fill:#0000ff"
+   id="tspan75305"> <tspan
+   style="fill:#ff0000"
+   id="tspan106198">1</tspan><tspan
+   style="fill:#000000"
+   id="tspan113877">,</tspan>  </tspan><tspan
+   id="tspan114471"
+   style="fill:#00981b;fill-opacity:1">5</tspan> ) 產生數列 [<tspan
+   style="fill:#0000ff"
+   id="tspan73071"> </tspan><tspan
+   id="tspan116909"
+   style="fill:#ff0000">1</tspan>, 2, 3, 4 ]</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:26.0891px;line-height:1.25;font-family:sans-serif;fill:#0000ff;stroke-width:0.652228"
+       x="-932.06226"
+       y="148.36874"
+       id="text9354"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\left_closed_right_open.png"
+       inkscape:export-xdpi="21.588606"
+       inkscape:export-ydpi="21.588606"><tspan
+         sodipodi:role="line"
+         id="tspan9352"
+         style="fill:#0000ff;stroke-width:0.652228"
+         x="-932.06226"
+         y="148.36874"><tspan
+           style="fill:#000000"
+           id="tspan85425">簡稱「有<tspan
+   style="fill:#ff0000"
+   id="tspan103450">頭</tspan>無</tspan><tspan
+           style="fill:#009117;fill-opacity:1"
+           id="tspan100128">尾</tspan><tspan
+           style="fill:#000000"
+           id="tspan101844">」</tspan></tspan></text>
+    <image
+       width="34.924999"
+       height="41.275002"
+       preserveAspectRatio="none"
+       xlink:href="data:image/png;base64,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
+628jk8lFAAAAAElFTkSuQmCC
+"
+       id="image10587"
+       x="-1246.7699"
+       y="287.10245"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\left_closed_right_open.png"
+       inkscape:export-xdpi="21.588606"
+       inkscape:export-ydpi="21.588606" />
+    <text
+       xml:space="preserve"
+       style="font-size:22.5819px;line-height:1.25;font-family:sans-serif;stroke-width:0.56455"
+       x="-1332.2241"
+       y="245.0739"
+       id="text10593"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\left_closed_right_open.png"
+       inkscape:export-xdpi="21.588606"
+       inkscape:export-ydpi="21.588606"><tspan
+         sodipodi:role="line"
+         id="tspan10591"
+         style="stroke-width:0.56455"
+         x="-1332.2241"
+         y="245.0739">以樹表示range( <tspan
+   style="fill:#ff0000"
+   id="tspan26006">1</tspan>,  <tspan
+   style="fill:#00b216;fill-opacity:1;stroke:none;stroke-opacity:1"
+   id="tspan27776">5</tspan> )的數列</tspan></text>
+    <rect
+       style="fill:none;stroke:#868686;stroke-width:1.13452;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect12227"
+       width="199.01892"
+       height="28.419493"
+       x="-1295.9775"
+       y="322.44534"
+       ry="4.3982534"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\left_closed_right_open.png"
+       inkscape:export-xdpi="21.588606"
+       inkscape:export-ydpi="21.588606" />
+    <path
+       style="fill:#808080;stroke:#868686;stroke-width:1.0793;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -1283.42,322.1975 v 13.63143"
+       id="path12364"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\left_closed_right_open.png"
+       inkscape:export-xdpi="21.588606"
+       inkscape:export-ydpi="21.588606" />
+    <path
+       style="fill:#808080;stroke:#868686;stroke-width:1.0793;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -1248.5566,322.1975 v 13.01182"
+       id="path12526"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\left_closed_right_open.png"
+       inkscape:export-xdpi="21.588606"
+       inkscape:export-ydpi="21.588606" />
+    <path
+       style="fill:#808080;stroke:#868686;stroke-width:1.0793;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -1213.6932,322.1975 v 12.59875"
+       id="path12528"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\left_closed_right_open.png"
+       inkscape:export-xdpi="21.588606"
+       inkscape:export-ydpi="21.588606" />
+    <path
+       style="fill:#808080;stroke:#868686;stroke-width:1.0793;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -1178.8296,322.1975 v 12.80528"
+       id="path12530"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\left_closed_right_open.png"
+       inkscape:export-xdpi="21.588606"
+       inkscape:export-ydpi="21.588606" />
+    <path
+       style="fill:#808080;stroke:#868686;stroke-width:1.0793;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -1143.9663,322.1975 v 12.39221"
+       id="path12532"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\left_closed_right_open.png"
+       inkscape:export-xdpi="21.588606"
+       inkscape:export-ydpi="21.588606" />
+    <path
+       style="fill:#808080;stroke:#868686;stroke-width:1.0793;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -1109.1028,322.1975 v 13.01182"
+       id="path12534"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\left_closed_right_open.png"
+       inkscape:export-xdpi="21.588606"
+       inkscape:export-ydpi="21.588606" />
+    <image
+       width="34.924999"
+       height="41.275002"
+       preserveAspectRatio="none"
+       xlink:href="data:image/png;base64,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
+628jk8lFAAAAAElFTkSuQmCC
+"
+       id="image12536"
+       x="-1212.6224"
+       y="287.10245"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\left_closed_right_open.png"
+       inkscape:export-xdpi="21.588606"
+       inkscape:export-ydpi="21.588606" />
+    <image
+       width="34.924999"
+       height="41.275002"
+       preserveAspectRatio="none"
+       xlink:href="data:image/png;base64,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
+628jk8lFAAAAAElFTkSuQmCC
+"
+       id="image12538"
+       x="-1178.4751"
+       y="287.10245"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\left_closed_right_open.png"
+       inkscape:export-xdpi="21.588606"
+       inkscape:export-ydpi="21.588606" />
+    <image
+       width="34.924999"
+       height="41.275002"
+       preserveAspectRatio="none"
+       xlink:href="data:image/png;base64,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
+628jk8lFAAAAAElFTkSuQmCC
+"
+       id="image12540"
+       x="-1144.3278"
+       y="287.10245"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\left_closed_right_open.png"
+       inkscape:export-xdpi="21.588606"
+       inkscape:export-ydpi="21.588606" />
+    <path
+       style="fill:none;stroke:#e4e4e4;stroke-width:1.0793;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -1265.9057,322.1975 v 8.26147"
+       id="path12668"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\left_closed_right_open.png"
+       inkscape:export-xdpi="21.588606"
+       inkscape:export-ydpi="21.588606" />
+    <path
+       style="fill:none;stroke:#e4e4e4;stroke-width:1.0793;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -1230.1748,322.1975 v 8.26147"
+       id="path12807"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\left_closed_right_open.png"
+       inkscape:export-xdpi="21.588606"
+       inkscape:export-ydpi="21.588606" />
+    <path
+       style="fill:none;stroke:#e4e4e4;stroke-width:1.0793;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -1196.0962,322.1975 v 8.26147"
+       id="path12809"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\left_closed_right_open.png"
+       inkscape:export-xdpi="21.588606"
+       inkscape:export-ydpi="21.588606" />
+    <path
+       style="fill:none;stroke:#e4e4e4;stroke-width:1.0793;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -1160.9849,322.1975 v 8.26147"
+       id="path12811"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\left_closed_right_open.png"
+       inkscape:export-xdpi="21.588606"
+       inkscape:export-ydpi="21.588606" />
+    <path
+       style="fill:none;stroke:#e4e4e4;stroke-width:1.0793;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -1126.6998,322.1975 v 8.26147"
+       id="path12813"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\left_closed_right_open.png"
+       inkscape:export-xdpi="21.588606"
+       inkscape:export-ydpi="21.588606" />
+    <text
+       xml:space="preserve"
+       style="font-size:14.8825px;line-height:1.25;font-family:sans-serif;stroke-width:0.372063"
+       x="-1234.1678"
+       y="289.92697"
+       id="text15087"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\left_closed_right_open.png"
+       inkscape:export-xdpi="21.588606"
+       inkscape:export-ydpi="21.588606"><tspan
+         sodipodi:role="line"
+         id="tspan15085"
+         style="stroke-width:0.372063"
+         x="-1234.1678"
+         y="289.92697">1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:14.8825px;line-height:1.25;font-family:sans-serif;stroke-width:0.372063"
+       x="-1199.8827"
+       y="289.92697"
+       id="text15989"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\left_closed_right_open.png"
+       inkscape:export-xdpi="21.588606"
+       inkscape:export-ydpi="21.588606"><tspan
+         sodipodi:role="line"
+         id="tspan15987"
+         style="stroke-width:0.372063"
+         x="-1199.8827"
+         y="289.92697">2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:14.8825px;line-height:1.25;font-family:sans-serif;stroke-width:0.372063"
+       x="-1165.5975"
+       y="289.92697"
+       id="text15993"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\left_closed_right_open.png"
+       inkscape:export-xdpi="21.588606"
+       inkscape:export-ydpi="21.588606"><tspan
+         sodipodi:role="line"
+         id="tspan15991"
+         style="stroke-width:0.372063"
+         x="-1165.5975"
+         y="289.92697">3</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:14.8825px;line-height:1.25;font-family:sans-serif;stroke-width:0.372063"
+       x="-1131.5189"
+       y="289.92697"
+       id="text15997"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\left_closed_right_open.png"
+       inkscape:export-xdpi="21.588606"
+       inkscape:export-ydpi="21.588606"><tspan
+         sodipodi:role="line"
+         id="tspan15995"
+         style="stroke-width:0.372063"
+         x="-1131.5189"
+         y="289.92697">4</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:11.8312px;line-height:1.25;font-family:sans-serif;fill:#ff0000;stroke-width:0.295779"
+       x="-1252.2799"
+       y="346.42996"
+       id="text17871"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\left_closed_right_open.png"
+       inkscape:export-xdpi="21.588606"
+       inkscape:export-ydpi="21.588606"><tspan
+         sodipodi:role="line"
+         id="tspan17869"
+         style="fill:#ff0000;stroke-width:0.295779"
+         x="-1252.2799"
+         y="346.42996">1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:6.72768px;line-height:1.25;font-family:sans-serif;stroke-width:0.168192"
+       x="-1216.1703"
+       y="342.28452"
+       id="text18137"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\left_closed_right_open.png"
+       inkscape:export-xdpi="21.588606"
+       inkscape:export-ydpi="21.588606"><tspan
+         sodipodi:role="line"
+         id="tspan18135"
+         style="stroke-width:0.168192"
+         x="-1216.1703"
+         y="342.28452">2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:13.7294px;line-height:1.25;font-family:sans-serif;fill:#00b216;fill-opacity:0.968627;stroke-width:0.343236"
+       x="-1112.6122"
+       y="347.60437"
+       id="text18149"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\left_closed_right_open.png"
+       inkscape:export-xdpi="21.588606"
+       inkscape:export-ydpi="21.588606"><tspan
+         sodipodi:role="line"
+         id="tspan18147"
+         style="fill:#00b216;fill-opacity:0.968627;stroke-width:0.343236"
+         x="-1112.6122"
+         y="347.60437">5</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:18.1936px;line-height:1.25;font-family:sans-serif;stroke-width:0.454842"
+       x="-1281.8414"
+       y="407.39691"
+       id="text23634"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\left_closed_right_open.png"
+       inkscape:export-xdpi="21.588606"
+       inkscape:export-ydpi="21.588606"><tspan
+         sodipodi:role="line"
+         id="tspan23632"
+         style="stroke-width:0.454842"
+         x="-1281.8414"
+         y="407.39691">幾棵樹?</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:18.1936px;line-height:1.25;font-family:sans-serif;stroke-width:0.454842"
+       x="-1193.8567"
+       y="407.39691"
+       id="text24658"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\left_closed_right_open.png"
+       inkscape:export-xdpi="21.588606"
+       inkscape:export-ydpi="21.588606"><tspan
+         sodipodi:role="line"
+         id="tspan24656"
+         style="stroke-width:0.454842"
+         x="-1193.8567"
+         y="407.39691"><tspan
+   style="fill:#00ac26;fill-opacity:1"
+   id="tspan38965">5</tspan> - <tspan
+   style="fill:#ff0000;fill-opacity:1"
+   id="tspan40267">1</tspan> = 4</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:6.72768px;line-height:1.25;font-family:sans-serif;stroke-width:0.168192"
+       x="-1180.8278"
+       y="342.28452"
+       id="text36501"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\left_closed_right_open.png"
+       inkscape:export-xdpi="21.588606"
+       inkscape:export-ydpi="21.588606"><tspan
+         sodipodi:role="line"
+         id="tspan36499"
+         style="stroke-width:0.168192"
+         x="-1180.8278"
+         y="342.28452">3</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:6.72768px;line-height:1.25;font-family:sans-serif;stroke-width:0.168192"
+       x="-1146.0693"
+       y="342.28452"
+       id="text36505"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\left_closed_right_open.png"
+       inkscape:export-xdpi="21.588606"
+       inkscape:export-ydpi="21.588606"><tspan
+         sodipodi:role="line"
+         id="tspan36503"
+         style="stroke-width:0.168192"
+         x="-1146.0693"
+         y="342.28452">4</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:6.72768px;line-height:1.25;font-family:sans-serif;stroke-width:0.168192"
+       x="-1285.2489"
+       y="342.28452"
+       id="text38105"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\left_closed_right_open.png"
+       inkscape:export-xdpi="21.588606"
+       inkscape:export-ydpi="21.588606"><tspan
+         sodipodi:role="line"
+         id="tspan38103"
+         style="stroke-width:0.168192"
+         x="-1285.2489"
+         y="342.28452">0</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -1409.4074,187.53546 h 821.19044"
+       id="path44723"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\left_closed_right_open.png"
+       inkscape:export-xdpi="21.588606"
+       inkscape:export-ydpi="21.588606" />
+    <text
+       xml:space="preserve"
+       style="font-size:11.1555px;line-height:1.25;font-family:sans-serif;fill:#ff0000;stroke-width:0.278887"
+       x="-1172.323"
+       y="388.36627"
+       id="text44807"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\left_closed_right_open.png"
+       inkscape:export-xdpi="21.588606"
+       inkscape:export-ydpi="21.588606"><tspan
+         sodipodi:role="line"
+         id="tspan44805"
+         style="fill:#ff0000;fill-opacity:1;stroke-width:0.278887"
+         x="-1172.323"
+         y="388.36627">起始</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:11.1555px;line-height:1.25;font-family:sans-serif;fill:#03b903;fill-opacity:1;stroke-width:0.278887"
+       x="-1201.238"
+       y="420.58603"
+       id="text45873"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\left_closed_right_open.png"
+       inkscape:export-xdpi="21.588606"
+       inkscape:export-ydpi="21.588606"><tspan
+         sodipodi:role="line"
+         id="tspan45871"
+         style="fill:#03b903;fill-opacity:1;stroke-width:0.278887"
+         x="-1201.238"
+         y="420.58603">終止</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.272038px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -1016.1613,187.32893 -0.8261,291.83656"
+       id="path52277"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\left_closed_right_open.png"
+       inkscape:export-xdpi="21.588606"
+       inkscape:export-ydpi="21.588606" />
+    <text
+       xml:space="preserve"
+       style="font-size:11.1555px;line-height:1.25;font-family:sans-serif;fill:#ff0000;stroke-width:0.278887"
+       x="-1260.3077"
+       y="363.16879"
+       id="text52853"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\left_closed_right_open.png"
+       inkscape:export-xdpi="21.588606"
+       inkscape:export-ydpi="21.588606"><tspan
+         sodipodi:role="line"
+         id="tspan52851"
+         style="fill:#ff0000;stroke-width:0.278887"
+         x="-1260.3077"
+         y="363.16879">起始</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:11.1555px;line-height:1.25;font-family:sans-serif;fill:#03b903;fill-opacity:1;stroke-width:0.278887"
+       x="-1121.1018"
+       y="363.58185"
+       id="text52857"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\left_closed_right_open.png"
+       inkscape:export-xdpi="21.588606"
+       inkscape:export-ydpi="21.588606"><tspan
+         sodipodi:role="line"
+         id="tspan52855"
+         style="fill:#03b903;fill-opacity:1;stroke-width:0.278887"
+         x="-1121.1018"
+         y="363.58185">終止</tspan></text>
+    <image
+       width="34.924999"
+       height="41.275002"
+       preserveAspectRatio="none"
+       xlink:href="data:image/png;base64,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
+628jk8lFAAAAAElFTkSuQmCC
+"
+       id="image53028"
+       x="-900.61414"
+       y="286.27631"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\left_closed_right_open.png"
+       inkscape:export-xdpi="21.588606"
+       inkscape:export-ydpi="21.588606" />
+    <text
+       xml:space="preserve"
+       style="font-size:22.5819px;line-height:1.25;font-family:sans-serif;stroke-width:0.56455"
+       x="-986.06836"
+       y="245.0739"
+       id="text53036"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\left_closed_right_open.png"
+       inkscape:export-xdpi="21.588606"
+       inkscape:export-ydpi="21.588606"><tspan
+         sodipodi:role="line"
+         id="tspan53034"
+         style="stroke-width:0.56455"
+         x="-986.06836"
+         y="245.0739">以樹表示range( <tspan
+   style="fill:#ff0000"
+   id="tspan54623">5</tspan>,  <tspan
+   style="fill:#00a822;fill-opacity:1"
+   id="tspan56409">10</tspan> )的數列</tspan></text>
+    <rect
+       style="fill:none;stroke:#868686;stroke-width:1.13452;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect53038"
+       width="199.01892"
+       height="28.419493"
+       x="-949.82178"
+       y="321.6192"
+       ry="4.3982534"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\left_closed_right_open.png"
+       inkscape:export-xdpi="21.588606"
+       inkscape:export-ydpi="21.588606" />
+    <path
+       style="fill:#808080;stroke:#868686;stroke-width:1.0793;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -937.26423,321.37135 v 13.63143"
+       id="path53040"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\left_closed_right_open.png"
+       inkscape:export-xdpi="21.588606"
+       inkscape:export-ydpi="21.588606" />
+    <path
+       style="fill:#808080;stroke:#868686;stroke-width:1.0793;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -902.40083,321.37135 v 13.01182"
+       id="path53042"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\left_closed_right_open.png"
+       inkscape:export-xdpi="21.588606"
+       inkscape:export-ydpi="21.588606" />
+    <path
+       style="fill:#808080;stroke:#868686;stroke-width:1.0793;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M -867.53743,321.37135 V 333.9701"
+       id="path53044"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\left_closed_right_open.png"
+       inkscape:export-xdpi="21.588606"
+       inkscape:export-ydpi="21.588606" />
+    <path
+       style="fill:#808080;stroke:#868686;stroke-width:1.0793;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -832.67383,321.37135 v 12.80528"
+       id="path53046"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\left_closed_right_open.png"
+       inkscape:export-xdpi="21.588606"
+       inkscape:export-ydpi="21.588606" />
+    <path
+       style="fill:#808080;stroke:#868686;stroke-width:1.0793;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -797.81053,321.37135 v 12.39221"
+       id="path53048"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\left_closed_right_open.png"
+       inkscape:export-xdpi="21.588606"
+       inkscape:export-ydpi="21.588606" />
+    <path
+       style="fill:#808080;stroke:#868686;stroke-width:1.0793;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -762.94703,321.37135 v 13.01182"
+       id="path53050"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\left_closed_right_open.png"
+       inkscape:export-xdpi="21.588606"
+       inkscape:export-ydpi="21.588606" />
+    <image
+       width="34.924999"
+       height="41.275002"
+       preserveAspectRatio="none"
+       xlink:href="data:image/png;base64,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
+628jk8lFAAAAAElFTkSuQmCC
+"
+       id="image53052"
+       x="-866.46667"
+       y="286.27631"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\left_closed_right_open.png"
+       inkscape:export-xdpi="21.588606"
+       inkscape:export-ydpi="21.588606" />
+    <image
+       width="34.924999"
+       height="41.275002"
+       preserveAspectRatio="none"
+       xlink:href="data:image/png;base64,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
+628jk8lFAAAAAElFTkSuQmCC
+"
+       id="image53054"
+       x="-832.31934"
+       y="286.27631"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\left_closed_right_open.png"
+       inkscape:export-xdpi="21.588606"
+       inkscape:export-ydpi="21.588606" />
+    <image
+       width="34.924999"
+       height="41.275002"
+       preserveAspectRatio="none"
+       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIQAAACcCAYAAAC+wQNRAAARN0lEQVR4nO2db2wb533Hv6T4V6TF
+E2VJjhSDdKWuQORNtBuvS9NAFwxI0gyolHVZgAKNmXeNtxdM0uXF3ph+OWMZmBe1u62AqAzDEgxL
+5ABNbAOD6GXZ1ikL6dUK0k4qKbuWZckRKYkURVPU7QVNmSfxnvt//Pd8AMK0eDwe7z73e37P73nu
+aOI4DhRKBXO9N4DSWFAhKDyoEBQeVAgKDyoEhQcVgsKDCkHhQYWg8KBCUHhQISg8qBAUHlQICg8q
+BIUHFYLCgwpB4UGFoPCw1HsDapHJZHDt2jUuFoshkUjs/a3yvEIgEADDMAAAlmURCAQwNjZmqvxN
+TyrbF4vF9v5W/RwA/H4//H7/3nOWZTE2Nmaq/K0h4TiuIR7T09NcKBTiAoEAB0DVIxAIcOFwmIvH
+45xW2xePx7lIJMKxLKt6+/x+PxcMBrloNKrZ9mn1qOuHp9NpRKNRzu/3q97JJDnU7PiZmRlNJBB6
+MAzDhcNhLp1O112GugmRTqcRCoU4hmF029G1zspIJCJ5x+staq1HMBjkkslkewkRiUQMFaHWGfnB
+Bx9wQtsXj8cNF2H/IxwOC25fywiRTCahZ+iV+5iYmDgQLcLhcN23q/IIBAKa5kANJcTk5GRdo4LQ
+g2EYbmZmhovH45oks3o8QqGQoVKYOI6Dnpw7d44Lh8OK3mt3mfHoY070+e3l/3ea954XciWsLN4H
+ANyay2N1sYBCbleTbZZDeftssLs60Ocr/wsA66tFbKzuAABWUgX89ou84u0LBoOYnJw0abbRBHQV
+4pVXXuGi0ais93T1WjDCduHoY04cHXHKeu9KqoBbc3l8cW0DK6n7st4rZ/uGT7kwwnbtySl3+xY+
+y+HWXF7WewOBAGZmZnSvsegmhFwZhk658M3nGdkSCHFrLo+52Abmrm1qsr6jI06c/K4Hw7/v1mR9
+K6kCPv95Rtb2GSGFLkLIkeHoiBPPvtoHT59V8+0AgPWVIq5cXJF9Rlbo6rXguTP9mom6n+1cCbHo
+PcliBAIBxONx3ZoPzYWIRCLca6+9Jrqc3WXGE3/ixTf/SP8yMwDM/3cWly+uyGrHn3jRi2+/6NVx
+qx5yay6Pyxfu7uUdJPTMKTQVIpFIcCdOnBBdrs9vw4tnB+F4kIAZxfpKER/+9R3R/MLuMuNPzw7K
+zhHUsp0rITZ1D3Mx8WgxOTmJYDCouRSaCZHJZHDs2DEuk8kQlxthD4E9fdhwGaq5fOGu4E6vl6zV
+zERX8flH66LLxeNxBAIBTaXQTIinn36a2z/at58R9hCeO9OvyeeppZYUjSBDhRuxDVy5sEJcxu/3
+I5lMaiqEJvMhYrFYU8kAAM+d6ccIe2jv/40kAwAcZ7vwdPAwcZlUKoVIJKJpEqhJhDhx4gS3f65C
+NY22syts50r453O3sb66gx/+1VHdejpqIDVvAMAwDJLJpGZdUdURIhqNEmWwu8x49kx/w8kAAA5X
+B77340cw/uNHGlIGAGBPH0af3yb4eiaT0TRKqI4Qx44d41KplODrz53pwwjbpeozmoXCVgn2Tmni
+y1l2faWIn/35InGZZDKpyUwsVRFienqaKEOf39Y2MgCQVS6Xs6ynz8rLd2oRjUY1iRKqhBCrRrKn
+e2Wtb342q8uyRiGnGrqaKshaN3v6MOwu4cM1NTUla31CKBYik8ng0qVLgq8fHZE3OFXYKkkqyMhd
+1mxSf+JIXcdvv8hjReKBnp/NYWO1KHkbHK4OnHxeOHFMpVJIJBKqv6xiIaanp4kffvJ5j6z1zUTv
+obAlraxca1mLpYRDnQX0dOXR05XHIz1ZPNKTRb83V/U8i56uPDzuApz2HVg6Hn4Fs4mDw76zt45e
+ZqvmOirr97gLcNgPlpljU/ckf+fLInWG/YyMiTYbstZXCzVCCL5md5kxfEr6qODnH2Ukn/HVyzrs
+O/C4C+j3ZtHrycPtLMJmLcFmLdV8r9kE2KwldNqLYNzb6GVyOOzZQk9XHv3eHLrd23vrsHTUlrOy
+/k57Ed3ubfR7s+h25+G078DufDgmIQU5ywLlXGL4lEvwdS2aDUXXZYg1F6SNrmZjtYiZ6D3Mz+Zk
+LTs0asP3X3ej270teZuFsFrUTaoxmwCHvQSHvYQfvHkIH/0M+OzqJlZTBbDBXhx9jNxszsWkLwuU
+963Q/npw7QqnppytqNs5PT3NvfDCC4KvD59yoVdkYGhhNnsg065MjhFadmjUhmdedmMoINwvbwTW
+lkt47/w6Fq7fR5/fhkdHnAe6mHOxjQMjm0LLVlPYKuHznwuPc5w9exbhcNhYIUKhEPf2228r/UxF
+PPOyG8+c1mZyilHMXsnjwwsbyGf1naZYzdjYGGKxmLFCiJWqtcTpNuGlv/Dg+Hcchnye1tyeL+Kn
+b6wZKgXHcYqFkJ1UPujeKP08WXiPdOBHb3mbVgYAGBy24i//sRcDw8ZdRivWAyQhW4hYLGaI6k63
+Ca/9bQ8GhxtzjEEOTrcZr77lNUwKsZFnEkqEUPxhcvjRW1443a1ztwKn24zguW443frPpr927Zri
+98re42o+TCovvelpiciwn0oTqDeJRAJiM9eEkBXDUqkUfD4ffD6fog8DxIV66vudOPWsPjOcG4HB
+YSvG/+wQLv2EXIgbHR2FmjkOiUSCY1lWdjiSJYTf71fVpYlGoxxJCKfbhGderm/XsrRtwvYdK1zH
+9LnQBwCe+mMXbvx7AQvXhT+DZVlEIhFDrtaqxtBGWqy0On6mq655Q/6OBQs/PYzUlBfphL5RSkx8
+rUYv5WLY3k+lUsSE1HukA4/XsanI37EgNeVFMVOuEi5NeyRLkc/KL38PBWwYGiXPhNJqjoMcDBNC
+7Mt971XySB6J9N3ag1kV8ncsWIm5kUsJH4Bb73Zjd5u/O6RIQQr7Yrz0JnlEmDSAqBeGVUtIg2FO
+t0lV8WlrcxcLifs1I0zlzN/dNmMVgNmxiz42i54/2NpbJp1worhee/xgabp80LoDBye/LC0Ukc/u
+Km7mvEc6MDRqE5TKiB7dfgyJELXuIFfN8SfVVSIHh634t/dz+OwK/6BVy1Bhd9uM5ctduPlPDErb
+5Zxt80vyQFytSJG/Y8Hs31lVb/vx7wh/diaTMawQWMEQIcS+1MiT6i+ZO/6kA+//TRbJq+X6RS0Z
+qtn8lQPLl8sjq7t58d1QLUX+jgX/9/fdOGxR3sxVGPk2WSijCoEVDGkySNHB6TapPssqfOtrg9j6
+Dy9WbFl89V+dgjJUyCScYEbzuJ+RNvt5adqDYqYD9/6zEx27ZpgPiV+YK4b3SAcGhi1Ymq+9LqOF
+MCpCCL42MKRNRbKjaMFwf7kKuBpzi8pQ4atfdMLGkJPSalZjbnCF8ro3t7SpVZBOiMVF8vR7rTFE
+CNKX0mqyy9aKsq+y+aUD3/AMK3rv4lfiF+RKgTS+QbrMQQ8MEULvL5XP7hK7lGI8OuCF1SrvyrK1
+bB6/+jIr2uWVgliUNDKxrPtwordf/EBUundCfPL+FnZURG+3246To/LGZ37xm9sAgEs/2SAup4Uw
+RlJ3IbqPiAsxMGTFe+fXa0qxtFDE1aks1nLKbhnk6ixHliF/L35n+Iik93zy65tYXi9fKHTj08KB
+7m6FSxc24HCJD0cMDDXOPeh1F0Kr5mIoYMPFN9Z4UiwtFHHx9TUAwM2v1nF/R/7ZODjwcDj68YAP
+Tz3xdcH1LGey+Ph/5zF/d43393fPrx+Q4r3z60gvlyQVrRpp3ofuamr1UwADQ1YszW/i4htrePUt
+L9J3S7j4On+u4tztVZzwSTvLAcBq7cDvPTbI+9vRQS+S2U18+Zu7cDts8LqcWMvlsZbNI1sQbpfe
+PV9OMB9/1on3zq9j9kq+6SYFAw36exkkluZ3cPGNNaSXSwcmriZuLsPX44HXLW1Q6uSoDzbbwV3g
+tFvLEuTyuCmjJ/HuAxHkjm8sLUi/pE9v6h6rlOyMpfkdwVnMH/9yHssZ8oXAVmsHvvX41zDkr30x
+stOuvDaiZLDLyBnZYhgiBGmG1dqytHZf6o6+v1PCx7+cx79+kTxwdme372NpI4vv/uHvCsoAAJ0q
+hKhmaV6a7GmRfaD1jcVIGNJk+P1+weKUUMl2P0KZ/H48Hg8YhsHi4mLNcB/4+gDcbvLYidMhLMTo
+6CgA4Pr166LbcuPTgqTR0NuEKOnz+VRNpZOLIRGCZVnB16Sc+Z+8n5MUSTweD2KxGDGRdUg4+0kR
+4vr164jFYqaKGGJ8eEH8ImbSSWH073MZIkQgECC+fuNT4Yt2lxaKohNSgYcyiIVXp01cCDFpGIaR
+LMXslTwxuuWzu6JzK43EqAhBPEhzn9a+yUZ1nYGEVBkAaQmjlBxCjhS16hQVhL57hZYUgmEYjI2N
+Cb5eK0JUZBDLwGvJsL4u3FV02sXTJqdD2riIFlKQoqPH4xE9mbTGsG7nxMSE4Gv5LMfbWWpkAETm
+X9jFD7acXoYaKdJ3S7hBiBCkfaYXhgkhdqPuq++UawdqZRBDUoQQEWL/6KNSKa5OkeslwWBQdH1a
+Y5gQDMNgfHxc8PW15RIuXdjQVQYA6JTQHHQSup1CyJXi6jtZzBKSTZ/PZ3hzARhcqQyFQsTXP/mX
+LV1lAKQllVJ6IrWQI0UjRgfAYCFYljWRkksxpMggdpGrJCEURIgKcqQQwuPxIBQKGR4dgDqMZSj9
+hT6pkUHsXo1ShHDYrDCpOBxqpQiFQoZWJ6sxXAglUUJtM1GN1B4EKdeQMhNaqRT1jA5AnUY75UQJ
+LWUApI9kajHApUSKcDhct+gA1EkIlmVNp0+fFl1OaxkA6fmBlDEPKciRwufz1TU6AHWcDxEOh00e
+j/DFrkplEEsqJTcZGgkBSJdCi1sTq6VuQvj9fsFuqJrIIHaHPCmVyvJy2t7SSEyK8fHxutQd9lPX
+GVPhcNi0f/KMHs1EBbvVArNZ2mrVJpW1EJLC4/HU5W4xtaj7FLpIJLL3XE8ZAHn1Ba0jRIVaUoRC
+IcPnPQhRdyEmJiZMY2NjussAyKtAKilfS6VaikZIJKtpiFnX0WjUlMlkVN3FvQIpqZRzkJWWr6VS
+kSKRSHD17GbupyGEeBAuNTlLyEPfMoTQMUJUYBimIRLJaureZBiJHCFI3c563OrHKNpKCHuNi3KE
+kNo9bTXaSohOGQdZz6SykWk5IUjzKeUcZK1K181GywmhVVKpZem6mWg5IUi4JM6mBsTl0eI3MhuR
+thJCVoQQaV6U/vxAo9NWQsgqTNFeRusjZcb13rI0h2h+xO7WJqfJsNssquZVNistJYQYcpJKgBxR
+jPplQqNpKyHkDmmTmg2aVLYAcquPes2JaGTaTAjtmoxWpaWEEJvaJveMpxGihVFytpOEoEllk6Ok
+rkASgiaVTY6SGVDtOATeNkLIrUEANIdoekhJpZKDK2dCTavQUkKQUBL+SbcfknLj0makbYRQ1mSQ
+f3m3FWkbIZR0O2lS2cIoazKoEE0N6XoJGiGk0VJCkFBWmCJL1IrzKttHCEVJJfnCnlZMLKkQBNpx
+XmUbCaGkMEVziKZFbD6lkjpEO86rbBkhxFDaYyCJZPTvchtB2wihNB8g1SKoEE2MS2GEaLfiVFsI
+YTIBNquym+W027zKlhGCNPR9qNOheL00QrQgakrQpK4nzSGaFCVdzgqkqXetKERD3IVObzZy2/iH
+y58peu/iclrjrWls2kKI1UwO73z8P/XejKagZZqMVr1OwmhaRoh6jDwK/cB9M9MyQtSDVkwqqRAU
+HlQICg8Tx7XGLLDu7m6uHnkEx3EtNUDeMkJQtIE2GRQeVAgKDyoEhQcVgsKDCkHhQYWg8KBCUHhQ
+ISg8qBAUHlQICg8qBIUHFYLCgwpB4UGFoPCgQlB4UCEoPKgQFB5UCAoPKgSFBxWCwoMKQeHx/8Dx
+628jk8lFAAAAAElFTkSuQmCC
+"
+       id="image53056"
+       x="-798.172"
+       y="286.27631"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\left_closed_right_open.png"
+       inkscape:export-xdpi="21.588606"
+       inkscape:export-ydpi="21.588606" />
+    <path
+       style="fill:none;stroke:#e4e4e4;stroke-width:1.0793;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -919.74993,321.37135 v 8.26147"
+       id="path53058"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\left_closed_right_open.png"
+       inkscape:export-xdpi="21.588606"
+       inkscape:export-ydpi="21.588606" />
+    <path
+       style="fill:none;stroke:#e4e4e4;stroke-width:1.0793;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -884.01903,321.37135 v 8.26147"
+       id="path53060"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\left_closed_right_open.png"
+       inkscape:export-xdpi="21.588606"
+       inkscape:export-ydpi="21.588606" />
+    <path
+       style="fill:none;stroke:#e4e4e4;stroke-width:1.0793;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -849.94043,321.37135 v 8.26147"
+       id="path53062"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\left_closed_right_open.png"
+       inkscape:export-xdpi="21.588606"
+       inkscape:export-ydpi="21.588606" />
+    <path
+       style="fill:none;stroke:#e4e4e4;stroke-width:1.0793;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -814.82913,321.37135 v 8.26147"
+       id="path53064"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\left_closed_right_open.png"
+       inkscape:export-xdpi="21.588606"
+       inkscape:export-ydpi="21.588606" />
+    <path
+       style="fill:none;stroke:#e4e4e4;stroke-width:1.0793;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -780.54403,321.37135 v 8.26147"
+       id="path53066"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\left_closed_right_open.png"
+       inkscape:export-xdpi="21.588606"
+       inkscape:export-ydpi="21.588606" />
+    <text
+       xml:space="preserve"
+       style="font-size:14.8825px;line-height:1.25;font-family:sans-serif;stroke-width:0.372063"
+       x="-888.01208"
+       y="289.10083"
+       id="text53070"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\left_closed_right_open.png"
+       inkscape:export-xdpi="21.588606"
+       inkscape:export-ydpi="21.588606"><tspan
+         sodipodi:role="line"
+         id="tspan53068"
+         style="stroke-width:0.372063"
+         x="-888.01208"
+         y="289.10083">6</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:14.8825px;line-height:1.25;font-family:sans-serif;stroke-width:0.372063"
+       x="-853.72693"
+       y="289.10083"
+       id="text53074"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\left_closed_right_open.png"
+       inkscape:export-xdpi="21.588606"
+       inkscape:export-ydpi="21.588606"><tspan
+         sodipodi:role="line"
+         id="tspan53072"
+         style="stroke-width:0.372063"
+         x="-853.72693"
+         y="289.10083">7</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:14.8825px;line-height:1.25;font-family:sans-serif;stroke-width:0.372063"
+       x="-819.44177"
+       y="289.10083"
+       id="text53078"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\left_closed_right_open.png"
+       inkscape:export-xdpi="21.588606"
+       inkscape:export-ydpi="21.588606"><tspan
+         sodipodi:role="line"
+         id="tspan53076"
+         style="stroke-width:0.372063"
+         x="-819.44177"
+         y="289.10083">8</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:14.8825px;line-height:1.25;font-family:sans-serif;stroke-width:0.372063"
+       x="-785.36316"
+       y="289.10083"
+       id="text53082"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\left_closed_right_open.png"
+       inkscape:export-xdpi="21.588606"
+       inkscape:export-ydpi="21.588606"><tspan
+         sodipodi:role="line"
+         id="tspan53080"
+         style="stroke-width:0.372063"
+         x="-785.36316"
+         y="289.10083">9</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:11.8312px;line-height:1.25;font-family:sans-serif;fill:#ff0000;stroke-width:0.295779"
+       x="-941.02887"
+       y="345.60382"
+       id="text53086"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\left_closed_right_open.png"
+       inkscape:export-xdpi="21.588606"
+       inkscape:export-ydpi="21.588606"><tspan
+         sodipodi:role="line"
+         id="tspan53084"
+         style="fill:#ff0000;stroke-width:0.295779"
+         x="-941.02887"
+         y="345.60382">5</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:6.72768px;line-height:1.25;font-family:sans-serif;stroke-width:0.168192"
+       x="-870.01453"
+       y="341.45837"
+       id="text53090"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\left_closed_right_open.png"
+       inkscape:export-xdpi="21.588606"
+       inkscape:export-ydpi="21.588606"><tspan
+         sodipodi:role="line"
+         id="tspan53088"
+         style="stroke-width:0.168192"
+         x="-870.01453"
+         y="341.45837">7</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:13.7294px;line-height:1.25;font-family:sans-serif;fill:#00b216;fill-opacity:0.968627;stroke-width:0.343236"
+       x="-771.41333"
+       y="346.77823"
+       id="text53094"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\left_closed_right_open.png"
+       inkscape:export-xdpi="21.588606"
+       inkscape:export-ydpi="21.588606"><tspan
+         sodipodi:role="line"
+         id="tspan53092"
+         style="fill:#00b216;fill-opacity:0.968627;stroke-width:0.343236"
+         x="-771.41333"
+         y="346.77823">10</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:18.1936px;line-height:1.25;font-family:sans-serif;stroke-width:0.454842"
+       x="-935.68567"
+       y="406.57077"
+       id="text53098"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\left_closed_right_open.png"
+       inkscape:export-xdpi="21.588606"
+       inkscape:export-ydpi="21.588606"><tspan
+         sodipodi:role="line"
+         id="tspan53096"
+         style="stroke-width:0.454842"
+         x="-935.68567"
+         y="406.57077">幾棵樹?</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:18.1936px;line-height:1.25;font-family:sans-serif;stroke-width:0.454842"
+       x="-855.13623"
+       y="406.57077"
+       id="text53106"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\left_closed_right_open.png"
+       inkscape:export-xdpi="21.588606"
+       inkscape:export-ydpi="21.588606"><tspan
+         sodipodi:role="line"
+         id="tspan53104"
+         style="stroke-width:0.454842"
+         x="-855.13623"
+         y="406.57077"><tspan
+   style="fill:#059823;fill-opacity:1"
+   id="tspan68369">10</tspan> - <tspan
+   style="fill:#ff0000;fill-opacity:1"
+   id="tspan68907">5</tspan> = 5</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:6.72768px;line-height:1.25;font-family:sans-serif;stroke-width:0.168192"
+       x="-834.672"
+       y="341.45837"
+       id="text53110"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\left_closed_right_open.png"
+       inkscape:export-xdpi="21.588606"
+       inkscape:export-ydpi="21.588606"><tspan
+         sodipodi:role="line"
+         id="tspan53108"
+         style="stroke-width:0.168192"
+         x="-834.672"
+         y="341.45837">8</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:6.72768px;line-height:1.25;font-family:sans-serif;stroke-width:0.168192"
+       x="-799.91357"
+       y="341.45837"
+       id="text53114"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\left_closed_right_open.png"
+       inkscape:export-xdpi="21.588606"
+       inkscape:export-ydpi="21.588606"><tspan
+         sodipodi:role="line"
+         id="tspan53112"
+         style="stroke-width:0.168192"
+         x="-799.91357"
+         y="341.45837">9</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:11.1555px;line-height:1.25;font-family:sans-serif;fill:#ff0000;stroke-width:0.278887"
+       x="-822.44958"
+       y="387.54013"
+       id="text53122"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\left_closed_right_open.png"
+       inkscape:export-xdpi="21.588606"
+       inkscape:export-ydpi="21.588606"><tspan
+         sodipodi:role="line"
+         id="tspan53120"
+         style="fill:#ff0000;stroke-width:0.278887"
+         x="-822.44958"
+         y="387.54013">起始</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:11.1555px;line-height:1.25;font-family:sans-serif;fill:#059a05;fill-opacity:1;stroke-width:0.278887"
+       x="-855.0824"
+       y="418.1076"
+       id="text53126"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\left_closed_right_open.png"
+       inkscape:export-xdpi="21.588606"
+       inkscape:export-ydpi="21.588606"><tspan
+         sodipodi:role="line"
+         id="tspan53124"
+         style="fill:#059a05;fill-opacity:1;stroke-width:0.278887"
+         x="-855.0824"
+         y="418.1076">終止</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:11.1555px;line-height:1.25;font-family:sans-serif;fill:#ff0000;stroke-width:0.278887"
+       x="-947.19781"
+       y="362.75571"
+       id="text53130"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\left_closed_right_open.png"
+       inkscape:export-xdpi="21.588606"
+       inkscape:export-ydpi="21.588606"><tspan
+         sodipodi:role="line"
+         id="tspan53128"
+         style="fill:#ff0000;stroke-width:0.278887"
+         x="-947.19781"
+         y="362.75571">起始</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:11.1555px;line-height:1.25;font-family:sans-serif;fill:#03b903;fill-opacity:1;stroke-width:0.278887"
+       x="-774.94604"
+       y="362.75571"
+       id="text53134"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\left_closed_right_open.png"
+       inkscape:export-xdpi="21.588606"
+       inkscape:export-ydpi="21.588606"><tspan
+         sodipodi:role="line"
+         id="tspan53132"
+         style="fill:#03b903;fill-opacity:1;stroke-width:0.278887"
+         x="-774.94604"
+         y="362.75571">終止</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:6.72768px;line-height:1.25;font-family:sans-serif;stroke-width:0.168192"
+       x="-904.50616"
+       y="341.45837"
+       id="text58823"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\left_closed_right_open.png"
+       inkscape:export-xdpi="21.588606"
+       inkscape:export-ydpi="21.588606"><tspan
+         sodipodi:role="line"
+         id="tspan58821"
+         style="stroke-width:0.168192"
+         x="-904.50616"
+         y="341.45837">6</tspan></text>
+    <image
+       width="34.924999"
+       height="41.275002"
+       preserveAspectRatio="none"
+       xlink:href="data:image/png;base64,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
+628jk8lFAAAAAElFTkSuQmCC
+"
+       id="image61785"
+       x="-936.9646"
+       y="286.27631"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\left_closed_right_open.png"
+       inkscape:export-xdpi="21.588606"
+       inkscape:export-ydpi="21.588606" />
+    <text
+       xml:space="preserve"
+       style="font-size:14.8825px;line-height:1.25;font-family:sans-serif;stroke-width:0.372063"
+       x="-923.94952"
+       y="289.10083"
+       id="text61789"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\left_closed_right_open.png"
+       inkscape:export-xdpi="21.588606"
+       inkscape:export-ydpi="21.588606"><tspan
+         sodipodi:role="line"
+         id="tspan61787"
+         style="stroke-width:0.372063"
+         x="-923.94952"
+         y="289.10083">5</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:11.1555px;line-height:1.25;font-family:sans-serif;fill:#ff0000;stroke-width:0.278887"
+       x="-1171.0837"
+       y="223.54985"
+       id="text70697"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\left_closed_right_open.png"
+       inkscape:export-xdpi="21.588606"
+       inkscape:export-ydpi="21.588606"><tspan
+         sodipodi:role="line"
+         id="tspan70695"
+         style="fill:#ff0000;stroke-width:0.278887"
+         x="-1171.0837"
+         y="223.54985">起始</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:11.1555px;line-height:1.25;font-family:sans-serif;fill:#03b903;fill-opacity:1;stroke-width:0.278887"
+       x="-1140.5164"
+       y="260.7265"
+       id="text70701"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\left_closed_right_open.png"
+       inkscape:export-xdpi="21.588606"
+       inkscape:export-ydpi="21.588606"><tspan
+         sodipodi:role="line"
+         id="tspan70699"
+         style="fill:#03b903;fill-opacity:1;stroke-width:0.278887"
+         x="-1140.5164"
+         y="260.7265">終止</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:11.1555px;line-height:1.25;font-family:sans-serif;fill:#ff0000;stroke-width:0.278887"
+       x="-826.16724"
+       y="222.72371"
+       id="text70705"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\left_closed_right_open.png"
+       inkscape:export-xdpi="21.588606"
+       inkscape:export-ydpi="21.588606"><tspan
+         sodipodi:role="line"
+         id="tspan70703"
+         style="fill:#ff0000;stroke-width:0.278887"
+         x="-826.16724"
+         y="222.72371">起始</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:11.1555px;line-height:1.25;font-family:sans-serif;fill:#03b903;fill-opacity:1;stroke-width:0.278887"
+       x="-786.51215"
+       y="259.48727"
+       id="text70709"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\left_closed_right_open.png"
+       inkscape:export-xdpi="21.588606"
+       inkscape:export-ydpi="21.588606"><tspan
+         sodipodi:role="line"
+         id="tspan70707"
+         style="fill:#03b903;fill-opacity:1;stroke-width:0.278887"
+         x="-786.51215"
+         y="259.48727">終止</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:19.5184px;line-height:1.25;font-family:sans-serif;stroke-width:0.487965"
+       x="-1338.9106"
+       y="140.00262"
+       id="text80713"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\left_closed_right_open.png"
+       inkscape:export-xdpi="21.588606"
+       inkscape:export-ydpi="21.588606"><tspan
+         sodipodi:role="line"
+         id="tspan80711"
+         style="stroke-width:0.487965"
+         x="-1338.9106"
+         y="140.00262">產生範圍內的整數數列</tspan></text>
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#797979;stroke-width:1.03655;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect121277"
+       width="822.54608"
+       height="442.83267"
+       x="-1409.7273"
+       y="37.372936"
+       ry="88.34034"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\left_closed_right_open.png"
+       inkscape:export-xdpi="21.588606"
+       inkscape:export-ydpi="21.588606" />
+  </g>
+</svg>

@@ -130,7 +130,7 @@ hide:
 
 ??? abstract "模組化程式設計"
 
-    :fontawesome-solid-link: <a href="../basic/scratch_python_compare/#_14" target="_blank">函式 (function 功能)</a>
+    :fontawesome-solid-link: <a href="../basic/scratch_python_compare/#function" target="_blank">函式 (function 功能)</a>
 
 <br/>
 

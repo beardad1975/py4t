@@ -53,7 +53,10 @@ hide:
 -----------------------
 
 ???+ success  "邁向Python - 程式設計 計算篇 (9上翰林版2-2)"
-    建構中
+    
+    利用Py4t的便利貼與輔助排版，實作課本上的範例程式。
+
+    學習Python基本語法，銜接高中資訊科技課程。
 
     :fontawesome-solid-long-arrow-alt-right: <a href="textbook_hanlin9_example/" target="_blank">「Python程式設計-計算篇 (9上翰林版2-2)」</a>
 

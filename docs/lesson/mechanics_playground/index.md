@@ -63,7 +63,7 @@ hide:
 
     什麼是「模擬主迴圈」？它的程式結構與演算流程是什麼？
 
-    :fontawesome-solid-link: <a href="../basic/scratch_python_compare/#_16" target="_blank">事件驅動程式 結構與流程</a>
+    :fontawesome-solid-link: <a href="../basic/scratch_python_compare/#event_driven" target="_blank">事件驅動程式 結構與流程</a>
 
     -----------------------------
 
@@ -464,7 +464,7 @@ EngineTV 原金動畫, [youtube連結](https://www.youtube.com/watch?v=bhavS93SE
 
     在某些程式中，會進一步將滑鼠操作細分多個動作，並觸發對應的事件
 
-    :fontawesome-solid-link: <a href="../basic/scratch_python_compare/#_17" target="_blank">滑鼠操作事件</a>
+    :fontawesome-solid-link: <a href="../basic/scratch_python_compare/#mouse_event" target="_blank">滑鼠操作事件</a>
 
 <br/><br/><br/>
 
@@ -524,7 +524,7 @@ EngineTV 原金動畫, [youtube連結](https://www.youtube.com/watch?v=bhavS93SE
 
 ??? abstract "事件驅動程式"
 
-    :fontawesome-solid-link: <a href="../basic/scratch_python_compare/#_16" target="_blank">事件驅動程式 結構與流程</a>
+    :fontawesome-solid-link: <a href="../basic/scratch_python_compare/#event_driven" target="_blank">事件驅動程式 結構與流程</a>
 
 ??? info "補充資料" 
     
@@ -577,7 +577,7 @@ NASA, [youtube連結](https://www.youtube.com/watch?v=ZlPpHILyEl4)
 
 ??? abstract "結構化程式設計"
 
-    :fontawesome-solid-link: <a href="../basic/scratch_python_compare/#_4" target="_blank">選擇結構</a>
+    :fontawesome-solid-link: <a href="../basic/scratch_python_compare/#if" target="_blank">選擇結構</a>
 
 ??? info "補充資料" 
    
@@ -633,7 +633,7 @@ NASA, [youtube連結](https://www.youtube.com/watch?v=ZlPpHILyEl4)
 
     :fontawesome-solid-link: <a href="../basic/scratch_python_compare/#for" target="_blank">計次式重複 (for 迴圈)</a>
 
-    :fontawesome-solid-link: <a href="../basic/scratch_python_compare/#_9" target="_blank">迴圈變數與圈數</a>
+    :fontawesome-solid-link: <a href="../basic/scratch_python_compare/#loop_var" target="_blank">迴圈變數與圈數</a>
 
 
 <br/><br/><br/> 
@@ -703,7 +703,7 @@ NASA, [youtube連結](https://www.youtube.com/watch?v=ZlPpHILyEl4)
 
 ??? abstract "結構化程式設計"
 
-    :fontawesome-solid-link: <a href="../basic/scratch_python_compare/#_6" target="_blank">雙向選擇結構</a>
+    :fontawesome-solid-link: <a href="../basic/scratch_python_compare/#if_else" target="_blank">雙向選擇結構</a>
 
 ??? info "補充資料"
 

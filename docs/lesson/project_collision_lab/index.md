@@ -195,11 +195,11 @@ hide:
 
 
 ??? abstract "模擬主迴圈"
-    :fontawesome-solid-link: <a href="../basic/scratch_python_compare/#_16" target="_blank">事件驅動程式 結構與流程</a>
+    :fontawesome-solid-link: <a href="../basic/scratch_python_compare/#event_driven" target="_blank">事件驅動程式 結構與流程</a>
 
 ??? abstract "結構化程式設計"
 
-    :fontawesome-solid-link: <a href="../basic/scratch_python_compare/#_5" target="_blank">選擇結構</a>
+    :fontawesome-solid-link: <a href="../basic/scratch_python_compare/#if" target="_blank">選擇結構</a>
 
 <br/><br/><br/>
 

@@ -108,7 +108,7 @@ hide:
 
 ??? abstract "結構化程式設計"
 
-    :fontawesome-solid-link: <a href="../basic/scratch_python_compare/#_3" target="_blank">循序</a>
+    :fontawesome-solid-link: <a href="../basic/scratch_python_compare/#sequence" target="_blank">循序</a>
 
     :fontawesome-solid-link: <a href="../basic/scratch_python_compare/#for" target="_blank">計次式重複 (for 迴圈)</a>
 

@@ -6,7 +6,7 @@ hide:
 # 📚 Python程式設計-計算篇 (9上翰林版2-2)
 
 
-本課程是做為資訊科技教科書的補充教材與範例操作，搭配課本中的內容，來學習Python的基本輸入輸出，資料型態的轉換、內建函式的使用、認識選擇與重複結構…等，入門文字型程式語言，銜接高中資訊科技課程。
+本課程是資訊科技教科書(9上翰林版)的補充教材與範例操作，搭配課本中的內容，來學習Python的基本輸入輸出，資料型態的轉換、內建函式的使用、認識選擇與重複結構…等，入門文字型程式語言，銜接高中資訊科技課程。
 
 實際撰寫程式時，搭配Py4t專為中小學學生設計的便利貼與輔助排版功能，簡化Python程式撰寫的步驟。希望讓學生能更專注於程式的思考及運算思維的培養。
 
@@ -194,7 +194,7 @@ hide:
 
 ??? abstract "結構化程式設計"
 
-    :fontawesome-solid-link: <a href="../basic/scratch_python_compare/#_6" target="_blank">選擇結構</a>
+    :fontawesome-solid-link: <a href="../basic/scratch_python_compare/#if_else" target="_blank">雙向選擇結構</a>
 
 <br/><br/><br/>
 
@@ -205,6 +205,23 @@ hide:
 
 ----------------------------
 
+接下來，**請設計一個程式，讓使用者輸入數字 n 後，再計算 1 ＋ 2 ＋ 3 ＋⋯＋ n 的值。**
+
+
+先將問題簡化，想一想計算1+2+3+4的值，如何用程式來做呢？
+
+使用Python的for重複結構可以解決這個問題。for常常會搭配range函式所產生的整數數列來執行計次的迴圈。不過你知道嗎？如果要產生1~4的數列，要使用range(1, 4+1)，奇怪，到底是為什麼呢？
+
+
+<br/>
+
+: ![有頭無尾](left_closed_right_open.png)
+
+<br/>
+
+想清楚了嗎？實際來寫程式看看：
+
+<br/>
 
 ???+ example "範例 累加計算"
 
@@ -224,7 +241,9 @@ hide:
 
         ![Scratch對照](snapshot/accumulation_scratch.png)
 
-        
+??? abstract "結構化程式設計"
+
+    :fontawesome-solid-link: <a href="../basic/scratch_python_compare/#for" target="_blank">重複結構</a>        
         
 <br/><br/><br/>
 
@@ -234,6 +253,26 @@ hide:
 ##  📕 密碼檢查
 
 ----------------------------
+
+當我們使用晶片金融卡到自動提款機(ATM)領錢時，要注意什麼事呢？
+
+<br/>
+
+: ![提款](atm_casher.png)
+
+: <sup>(資料來源:</sup>[^atm]<sup>)</sup>
+
+[^atm]: 自動提款機, By Solomon203, [維基百科連結](https://wuu.wikipedia.org/wiki/%E8%87%AA%E5%8A%A8%E6%9F%9C%E5%91%98%E6%9C%BA#/media/File:Chunghwa_Post_ATM_in_ROC-NCL_headquarters_20100908.jpg)
+
+
+<br/>
+
+根據以上的情境，**請設計一個電腦系統的密碼驗證機制，條件如下**：
+
+1. 若第一次輸入密碼錯誤後，可再重複嘗試輸入兩次。
+2. 若三次密碼都錯誤，跳出使用者帳號被鎖定的訊息。
+
+<br/>
 
 ???+ example "範例 密碼檢查"
 
@@ -249,6 +288,12 @@ hide:
 
         ![Scratch對照](snapshot/check_password_scratch.png)
 
+??? abstract "結構化程式設計"
+
+    :fontawesome-solid-link: <a href="../basic/scratch_python_compare/#while" target="_blank">while重複結構</a> 
+
+    :fontawesome-solid-link: <a href="../basic/scratch_python_compare/#if_else" target="_blank">雙向選擇結構</a> 
+
 <br/><br/><br/>
 
 ----------------------------
@@ -256,6 +301,26 @@ hide:
 ##  📙 任意數的所有因數
 
 ----------------------------
+
+接下來，**請設計一個程式，讓使用者輸入一個數字後，再找出該數字的所有因數**。
+
+<br/>
+
+還記得以前學過的因數與倍數嗎？
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NEafa4sDswc?start=0&amp;end=112" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+: <sup>(資料來源:</sup>[^factor_multiple]<sup>)</sup>
+
+[^factor_multiple]: 因數與倍數, By均一教育平台 Junyi Academy, [youtube連結](https://youtu.be/NEafa4sDswc)
+
+<br/>
+
+在Python中， % 是代表除法取餘數的運算，比如說 6 % 2 的餘數是 0 ，而 5 % 2 的餘數是 1，利用 % 可以讓我們找出因數。
+
+想清楚了嗎？試著寫寫看程式。
+
+<br/>
 
 ???+ example "範例 任意數的所有因數"
 
@@ -280,6 +345,13 @@ hide:
 ##  📒  抽獎
 
 ----------------------------
+
+
+**有三十人參加摸獎活動，分別有編號 1 ∼ 30 的摸獎券，透過電腦進行抽獎，從中抽出三位幸運兒頒發獎品**。
+
+Python的random模組中，有個randint函式，類似Scratch中的隨機取數，試著寫寫看程式。
+
+<br/>
 
 ???+ example "範例 抽獎"
 
