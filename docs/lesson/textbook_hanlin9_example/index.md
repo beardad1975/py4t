@@ -6,9 +6,9 @@ hide:
 # 📚 Python程式設計-計算篇 (9上翰林版2-2)
 
 
-本課程編寫目的是做為翰林版資訊科技教科書的補充教材，搭配課本中的內容，來學習Python的基本輸入輸出，資料型態的轉換、內建函式的使用、認識選擇與重複結構…等，入門文字程式，銜接高中資訊科技課程。
+本課程是做為資訊科技教科書的補充教材與範例操作，搭配課本中的內容，來學習Python的基本輸入輸出，資料型態的轉換、內建函式的使用、認識選擇與重複結構…等，入門文字型程式語言，銜接高中資訊科技課程。
 
-在實際操作時，搭配Py4t的便利貼與輔助排版功能，降低Python程式撰寫的複雜度。希望讓學生能更專注於程式的思考及運算思維的培養。
+實際撰寫程式時，搭配Py4t專為中小學學生設計的便利貼與輔助排版功能，簡化Python程式撰寫的步驟。希望讓學生能更專注於程式的思考及運算思維的培養。
 
 
 ??? info "教科書資料引用來源"
@@ -20,7 +20,7 @@ hide:
 
 ----------------------------
 
-##  📕 哈囉 程式
+##  📕 哈囉 
 
 ----------------------------
 
@@ -40,7 +40,7 @@ hide:
 
 <br/>
 
-***請設計一個程式，讓使用者輸入名字後，電腦會將名字呈現在畫面上與使用者打招呼。***
+**請設計一個程式，讓使用者輸入名字後，電腦會將名字呈現在畫面上與使用者打招呼。**
 
 <br/>
 
@@ -72,7 +72,7 @@ hide:
 
 ----------------------------
 
-##  📙 求三數之和 程式
+##  📙 求三數之和 
 
 ----------------------------
 
@@ -89,7 +89,7 @@ hide:
 
 所以記得要把「輸入文字」先轉換成「整數」哦。
 
-接下來，***請設計一個程式，讓使用者輸入三個數字後，再呈現三個數字相加的和***。
+接下來，**請設計一個程式，讓使用者輸入三個數字後，再呈現三個數字相加的和**。
 
 <br/>
 
@@ -114,13 +114,13 @@ hide:
 
 ----------------------------
 
-##  📒 求平均數 程式
+##  📒 求平均數 
 
 ----------------------------
 
 計算後的數字，也可以再轉換成字串，做出不同的輸出組合。再來做個練習。
 
-***請設計一個程式，讓使用者輸入兩個數字後，再呈現兩個數字的平均值***。
+**請設計一個程式，讓使用者輸入兩個數字後，再呈現兩個數字的平均值**。
 
 程式資料的轉換流程如下：
 
@@ -153,3 +153,146 @@ hide:
 
 <br/><br/><br/>
 
+----------------------------
+
+##  📗 計算學期成績 
+
+----------------------------
+
+
+除了計算以外，我們也常常會對結果做分析，從數字中取出有意義的訊息。
+
+
+<br/>
+
+: ![資料分析](analyze_data.jpg)
+
+<br/>
+
+**請設計一個程式，讓使用者輸入各項成績後，再將各項成績轉換為學期成績，並判
+斷學期成績是否及格？（其中，作業成績占 40％，測驗成績占 40％，平時成績占
+20％，學期成績 60 分為及格分數。）**
+
+
+<br/>
+
+???+ example "範例 計算學期成績"
+
+    === "🎦Py4t操作影片"
+    
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/H4ouv9LyflI?start=2&amp;end=555" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    === "💻Python程式截圖"
+
+        ![程式截圖](snapshot/grade.jpg)
+        
+
+    === "🗒️Scratch積木對照"
+
+        
+        ![Scratch對照](snapshot/grade_scratch.png)
+
+??? abstract "結構化程式設計"
+
+    :fontawesome-solid-link: <a href="../basic/scratch_python_compare/#_6" target="_blank">選擇結構</a>
+
+<br/><br/><br/>
+
+
+----------------------------
+
+##  📘 累加計算 
+
+----------------------------
+
+
+???+ example "範例 累加計算"
+
+    === "🎦Py4t操作影片"
+    
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/DhcDjRpchoA?start=2&amp;end=399" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    === "💻Python程式截圖"
+
+        ![程式截圖](snapshot/accumulation.jpg)
+        
+
+        註：課本範例使用sum做為變數名稱，但sum為python內建函式，不建議使用，故在本範例中改為total
+        
+
+    === "🗒️Scratch積木對照"
+
+        ![Scratch對照](snapshot/accumulation_scratch.png)
+
+        
+        
+<br/><br/><br/>
+
+
+----------------------------
+
+##  📕 密碼檢查
+
+----------------------------
+
+???+ example "範例 密碼檢查"
+
+    === "🎦Py4t操作影片"
+    
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/rZMMfeqgRnw?start=2&amp;end=505" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    === "💻Python程式截圖"
+
+        ![程式截圖](snapshot/check_password.jpg)       
+
+    === "🗒️Scratch積木對照"
+
+        ![Scratch對照](snapshot/check_password_scratch.png)
+
+<br/><br/><br/>
+
+----------------------------
+
+##  📙 任意數的所有因數
+
+----------------------------
+
+???+ example "範例 任意數的所有因數"
+
+    === "🎦Py4t操作影片"
+    
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/_5sLEY8aFAA?start=2&amp;end=330" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    === "💻Python程式截圖"
+
+        ![程式截圖](snapshot/factors.jpg)       
+
+    === "🗒️Scratch積木對照"
+
+        ![Scratch對照](snapshot/factors_scratch.png)
+
+
+
+<br/><br/><br/>
+
+----------------------------
+
+##  📒  抽獎
+
+----------------------------
+
+???+ example "範例 抽獎"
+
+    === "🎦Py4t操作影片"
+    
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/vOE9gW7T2Fc?start=2&amp;end=464" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    === "💻Python程式截圖"
+
+        ![程式截圖](snapshot/lottery.jpg)       
+
+    === "🗒️Scratch積木對照"
+
+        ![Scratch對照](snapshot/lottery_scratch.png)
+
+<br/><br/><br/>

@@ -638,8 +638,8 @@
     <text
        xml:space="preserve"
        style="font-size:22.5819px;line-height:1.25;font-family:sans-serif;stroke-width:0.56455"
-       x="-436.78964"
-       y="-10.205639"
+       x="-438.85501"
+       y="-7.7271967"
        id="text18767"
        inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\textbook_hanlin9_example\number_string_in_memory.png"
        inkscape:export-xdpi="50.669521"
@@ -647,8 +647,8 @@
          sodipodi:role="line"
          id="tspan18765"
          style="stroke-width:0.56455"
-         x="-436.78964"
-         y="-10.205639">數字與字串在電腦內部有什麼不同？</tspan></text>
+         x="-438.85501"
+         y="-7.7271967">數字與字串在電腦內部的不同形式</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:19.3373px;line-height:1.25;font-family:sans-serif;fill:#0000ff;stroke-width:0.483434"
@@ -709,7 +709,7 @@
        inkscape:export-ydpi="50.669521"><tspan
          x="-393.92303"
          y="124.77396"
-         id="tspan14149">56</tspan></text>
+         id="tspan3011">56</tspan></text>
     <path
        style="fill:#999999;stroke:#868686;stroke-width:0.865;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend)"
        d="m -437.54666,134.36012 31.54543,8.76262"
