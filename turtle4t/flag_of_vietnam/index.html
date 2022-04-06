@@ -842,29 +842,15 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
-    🎦 示範影片
+  <a href="#1" class="md-nav__link">
+    階段1: 紅色長方形
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
-    🏷️ 重點說明
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#py4t" class="md-nav__link">
-    📄 Py4t程式碼
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_3" class="md-nav__link">
-    💻 執行截圖
+  <a href="#2-5" class="md-nav__link">
+    階段2: 黃色5角星形
   </a>
   
 </li>
@@ -1721,29 +1707,15 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
-    🎦 示範影片
+  <a href="#1" class="md-nav__link">
+    階段1: 紅色長方形
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
-    🏷️ 重點說明
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#py4t" class="md-nav__link">
-    📄 Py4t程式碼
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_3" class="md-nav__link">
-    💻 執行截圖
+  <a href="#2-5" class="md-nav__link">
+    階段2: 黃色5角星形
   </a>
   
 </li>
@@ -1761,53 +1733,62 @@
               
                 
 
-<h1 id="-">🔰 海龜範例 - 越南國旗</h1>
-<hr />
-<h3 id="_1">🎦 示範影片</h3>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/3Fa8GosgRIw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<h1 id="-">🔰 星形相關國旗 - 越南國旗</h1>
+<h2 id="1">階段1: 紅色長方形</h2>
+<p>🎦 範例影片</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KL5OYhQZq-E?start=2&amp;end=173" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<hr />
-<h3 id="_2">🏷️ 重點說明</h3>
-<p>將視窗設定寬為800，高為600</p>
-<p>畫出寬300，高200的長方形(使用左轉，可以讓座標在第1象限)，將長方形填滿紅色red</p>
-<p>先下筆，接下來將海龜移至星形的起點座標90,120，然後再停筆</p>
-<p>接著畫出5角星形，其規格為長度120，有5條線，右轉的外角為 180 – 180/5，設定填充顏色與畫筆顏色均為黃色，就會產生黃色5角星形。</p>
-<p>隱藏游標，讓游標不會擋住星形，最後加上完成(可避色偶發的程式無回應)</p>
-<hr />
-<h3 id="py4t">📄 Py4t程式碼</h3>
+<p>📄 Py4t程式碼</p>
 <div class="highlight"><pre><span></span><code><span class="linenos" data-linenos=" 1 "></span><span class="kn">from</span> <span class="nn">海龜模組</span> <span class="kn">import</span> <span class="o">*</span>
 <span class="linenos" data-linenos=" 2 "></span><span class="n">視窗設定</span><span class="p">(</span><span class="mi">800</span><span class="p">,</span> <span class="mi">600</span><span class="p">)</span>
 <span class="linenos" data-linenos=" 3 "></span>
-<span class="linenos" data-linenos=" 4 "></span><span class="c1"># 畫出紅色長方形 寬高比3:2</span>
-<span class="linenos" data-linenos=" 5 "></span><span class="n">填充顏色</span><span class="p">(</span><span class="s1">&#39;red&#39;</span><span class="p">)</span>
-<span class="linenos" data-linenos=" 6 "></span><span class="n">開始填色</span><span class="p">()</span>
-<span class="linenos" data-linenos=" 7 "></span><span class="k">for</span> <span class="n">數</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span> <span class="p">:</span>
-<span class="linenos" data-linenos=" 8 "></span>    <span class="n">向前</span><span class="p">(</span><span class="mi">300</span><span class="p">)</span>
-<span class="linenos" data-linenos=" 9 "></span>    <span class="n">左轉</span><span class="p">(</span><span class="mi">90</span><span class="p">)</span>
-<span class="linenos" data-linenos="10 "></span>    <span class="n">向前</span><span class="p">(</span><span class="mi">200</span><span class="p">)</span>
-<span class="linenos" data-linenos="11 "></span>    <span class="n">左轉</span><span class="p">(</span><span class="mi">90</span><span class="p">)</span>
-<span class="linenos" data-linenos="12 "></span><span class="n">停止填色</span><span class="p">()</span>
-<span class="linenos" data-linenos="13 "></span>
-<span class="linenos" data-linenos="14 "></span><span class="c1"># 移至星形起點</span>
-<span class="linenos" data-linenos="15 "></span><span class="n">停筆</span><span class="p">()</span>
-<span class="linenos" data-linenos="16 "></span><span class="n">走到</span><span class="p">(</span><span class="mi">90</span><span class="p">,</span><span class="mi">120</span><span class="p">)</span>
-<span class="linenos" data-linenos="17 "></span><span class="n">下筆</span><span class="p">()</span>
-<span class="linenos" data-linenos="18 "></span>
-<span class="linenos" data-linenos="19 "></span><span class="c1"># 畫出黃色5角星形</span>
-<span class="linenos" data-linenos="20 "></span><span class="n">填充顏色</span><span class="p">(</span><span class="s1">&#39;yellow&#39;</span><span class="p">)</span>
-<span class="linenos" data-linenos="21 "></span><span class="n">畫筆顏色</span><span class="p">(</span><span class="s1">&#39;yellow&#39;</span><span class="p">)</span>
-<span class="linenos" data-linenos="22 "></span><span class="n">開始填色</span><span class="p">()</span>
-<span class="linenos" data-linenos="23 "></span><span class="k">for</span> <span class="n">數</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span> <span class="p">:</span>
-<span class="linenos" data-linenos="24 "></span>    <span class="n">向前</span><span class="p">(</span><span class="mi">120</span><span class="p">)</span>
-<span class="linenos" data-linenos="25 "></span>    <span class="n">右轉</span><span class="p">(</span><span class="mi">180</span> <span class="o">-</span> <span class="mi">180</span> <span class="o">/</span> <span class="mi">5</span><span class="p">)</span>
-<span class="linenos" data-linenos="26 "></span><span class="n">停止填色</span><span class="p">()</span>
-<span class="linenos" data-linenos="27 "></span>
-<span class="linenos" data-linenos="28 "></span><span class="n">隱藏游標</span><span class="p">()</span>
-<span class="linenos" data-linenos="29 "></span><span class="n">完成</span><span class="p">()</span>
+<span class="linenos" data-linenos=" 4 "></span><span class="n">填充顏色</span><span class="p">(</span><span class="s1">&#39;red&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos=" 5 "></span><span class="n">開始填色</span><span class="p">()</span>
+<span class="linenos" data-linenos=" 6 "></span><span class="k">for</span> <span class="n">數</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span> <span class="p">:</span>
+<span class="linenos" data-linenos=" 7 "></span>    <span class="n">向前</span><span class="p">(</span><span class="mi">300</span><span class="p">)</span>
+<span class="linenos" data-linenos=" 8 "></span>    <span class="n">左轉</span><span class="p">(</span><span class="mi">90</span><span class="p">)</span>
+<span class="linenos" data-linenos=" 9 "></span>    <span class="n">向前</span><span class="p">(</span><span class="mi">200</span><span class="p">)</span>
+<span class="linenos" data-linenos="10 "></span>    <span class="n">左轉</span><span class="p">(</span><span class="mi">90</span><span class="p">)</span>    
+<span class="linenos" data-linenos="11 "></span><span class="n">停止填色</span><span class="p">()</span>
+<span class="linenos" data-linenos="12 "></span>
+<span class="linenos" data-linenos="13 "></span><span class="n">完成</span><span class="p">()</span>
 </code></pre></div>
+<p><br/><br/></p>
 <hr />
-<h3 id="_3">💻 執行截圖</h3>
-<p><img alt="執行截圖" src="../flag_of_vietnam.jpg" /></p>
+<h2 id="2-5">階段2: 黃色5角星形</h2>
+<p>🎦 範例影片</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KL5OYhQZq-E?start=175&amp;end=404" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<p>📄 Py4t程式碼</p>
+<div class="highlight"><pre><span></span><code><span class="linenos" data-linenos=" 1 "></span><span class="kn">from</span> <span class="nn">海龜模組</span> <span class="kn">import</span> <span class="o">*</span>
+<span class="linenos" data-linenos=" 2 "></span><span class="n">視窗設定</span><span class="p">(</span><span class="mi">800</span><span class="p">,</span> <span class="mi">600</span><span class="p">)</span>
+<span class="linenos" data-linenos=" 3 "></span>
+<span class="linenos" data-linenos=" 4 "></span><span class="n">填充顏色</span><span class="p">(</span><span class="s1">&#39;red&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos=" 5 "></span><span class="n">開始填色</span><span class="p">()</span>
+<span class="linenos" data-linenos=" 6 "></span><span class="k">for</span> <span class="n">數</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span> <span class="p">:</span>
+<span class="linenos" data-linenos=" 7 "></span>    <span class="n">向前</span><span class="p">(</span><span class="mi">300</span><span class="p">)</span>
+<span class="linenos" data-linenos=" 8 "></span>    <span class="n">左轉</span><span class="p">(</span><span class="mi">90</span><span class="p">)</span>
+<span class="linenos" data-linenos=" 9 "></span>    <span class="n">向前</span><span class="p">(</span><span class="mi">200</span><span class="p">)</span>
+<span class="linenos" data-linenos="10 "></span>    <span class="n">左轉</span><span class="p">(</span><span class="mi">90</span><span class="p">)</span>    
+<span class="linenos" data-linenos="11 "></span><span class="n">停止填色</span><span class="p">()</span>
+<span class="linenos" data-linenos="12 "></span>
+<span class="linenos" data-linenos="13 "></span><span class="n">停筆</span><span class="p">()</span>
+<span class="linenos" data-linenos="14 "></span><span class="n">走到</span><span class="p">(</span><span class="mi">90</span><span class="p">,</span><span class="mi">120</span><span class="p">)</span>
+<span class="linenos" data-linenos="15 "></span><span class="n">下筆</span><span class="p">()</span>
+<span class="linenos" data-linenos="16 "></span>
+<span class="linenos" data-linenos="17 "></span><span class="n">填充顏色</span><span class="p">(</span><span class="s1">&#39;yellow&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos="18 "></span><span class="n">畫筆顏色</span><span class="p">(</span><span class="s1">&#39;yellow&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos="19 "></span><span class="n">開始填色</span><span class="p">()</span>
+<span class="linenos" data-linenos="20 "></span><span class="k">for</span> <span class="n">數</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span> <span class="p">:</span>
+<span class="linenos" data-linenos="21 "></span>    <span class="n">向前</span><span class="p">(</span><span class="mi">120</span><span class="p">)</span>
+<span class="linenos" data-linenos="22 "></span>    <span class="n">右轉</span><span class="p">(</span><span class="mi">180</span> <span class="o">-</span> <span class="mi">180</span> <span class="o">/</span> <span class="mi">5</span><span class="p">)</span>    
+<span class="linenos" data-linenos="23 "></span><span class="n">停止填色</span><span class="p">()</span>
+<span class="linenos" data-linenos="24 "></span>
+<span class="linenos" data-linenos="25 "></span><span class="n">隱藏游標</span><span class="p">()</span>
+<span class="linenos" data-linenos="26 "></span>
+<span class="linenos" data-linenos="27 "></span><span class="n">完成</span><span class="p">()</span>
+</code></pre></div>
+<p><br/><br/></p>
 
               
             </article>
