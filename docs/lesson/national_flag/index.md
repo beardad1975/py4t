@@ -13,7 +13,7 @@ hide:
 
 [^flags_un]: United Nations Headquarters, New York . By Rick Banjornas, [來源連結](https://uil.unesco.org/literacy/literacy-and-education-democracy-essential-milestones-advance-sdgs-during-and-beyond-covid) , 9 October 2020
 
-國旗是國家的代表，國旗裡的線條、顏色與形狀，都有它的歷史由來。在此，我們將一同思考、並利用海龜程式來實作出國旗。
+國旗是國家的代表，國旗裡的線條、顏色與形狀，都有它的歷史由來。在課程中，我們將一同思考、並利用海龜程式來實作出各國國旗。
 
 ??? info "關於海龜程式"
 
@@ -24,7 +24,7 @@ hide:
 
 ----------------------------
 
-##  📙 國旗基本外形 
+##  📙 國旗基本元素(3) 
 
 
 ***世界各國國旗*** 
@@ -42,9 +42,7 @@ hide:
 
 <br/>
 
-世界上的國旗有哪些？
-
-:fontawesome-solid-link: <a href="https://zh.wikipedia.org/wiki/%E5%9C%8B%E6%97%97%E5%88%97%E8%A1%A8" target="_blank">維基百科 國旗列表</a> - 列舉世界上主權國家的國旗
+世界上的國旗有哪些？ :fontawesome-solid-link: <a href="https://zh.wikipedia.org/wiki/%E5%9C%8B%E6%97%97%E5%88%97%E8%A1%A8" target="_blank">維基百科 國旗列表</a>
 
 ![世界國旗](640px-Flag-map_of_the_world_2018.png)
 
@@ -52,7 +50,7 @@ hide:
 
 [^wikipedia_national_flags]: By H8edge, [維基百科連結](https://commons.wikimedia.org/w/index.php?curid=68410306) ,CC BY-SA 4.0
 
-各國國旗的外形，有沒有什麼相同點呢？
+觀察各國國旗的造型，有沒有什麼相同點呢？
 
 ??? abstract "運算思維"
 
@@ -73,12 +71,12 @@ hide:
 ----------------------------
 
 
-***畫出正方形***
+***正方形***
 
 ----------------------------
 
 
-各國國旗的基本外形都是長方形，而長方形之中最有規律的就是正方形，讓我們先從簡單的正方形開始實作。
+各國國旗的基本外形都是長方形，而長方形之中最有規律的就是正方形，讓我們先來畫出正方形。
 
 想一想，在數學課曾經學過的正方形，它的性質是什麼？
 
@@ -96,21 +94,21 @@ hide:
 
 <br/>
 
-???+ example "範例程式 正方形"
+???+ example "國旗基本元素 範例 (1/3 新檔) --- 正方形"
 
-    === "🎦Py4t操作影片"
+    === "🎦Py4t操作影片(2:04)"
     
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/Wh7ExxELMYg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/IlQmn6eC1dg?start=2&amp;end=126" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
     === "💻Python程式截圖"
 
-        ![程式截圖](snapshot/draw_square.jpg) 
+        ![程式截圖](snapshot/flag_element_square.jpg) 
 
 ??? abstract "結構化程式設計"
 
-    :fontawesome-solid-link: <a href="../basic/scratch_python_compare/#sequence" target="_blank">循序</a>
-
     :fontawesome-solid-link: <a href="../basic/scratch_python_compare/#for" target="_blank">計次式重複 (for 迴圈)</a>
+
+    :fontawesome-solid-link: <a href="../basic/scratch_python_compare/#block" target="_blank">區塊需相同縮排</a>
 
 
 
@@ -119,11 +117,12 @@ hide:
 
 ----------------------------
 
-***長方形及填色***
+***長方形***
 
 ----------------------------
 
-畫出正方形後，接著來畫出長方形。
+
+畫出正方形後，接著來畫出國旗中會出現的長方形。
 
 想想看，長方形與正方形有什麼不同？長方形的規律又是什麼？
 
@@ -133,8 +132,29 @@ hide:
 
 <br/>
 
+???+ example "國旗基本元素 範例 (2/3 接續) --- 長方形"
 
- 還有要如何用海龜程式在長方形中填色呢？
+    === "🎦Py4t操作影片(1:10)"
+    
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/IlQmn6eC1dg?start=129&amp;end=199" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    === "💻Python程式截圖"
+
+        ![程式截圖](snapshot/flag_element_rectangle.jpg) 
+
+<br/>
+<br/>
+
+----------------------------
+
+***填色***
+
+----------------------------
+
+
+各國國旗有著各式各樣的顏色，讓人一眼就可以辨識。
+
+如何用海龜程式在長方形中填色呢？
 
 <br/>
 
@@ -145,21 +165,21 @@ hide:
 
 <br/>
 
-???+ example "範例程式 長方形及填色"
+???+ example "國旗基本元素 範例 (3/3 接續) --- 填色"
 
-    === "🎦Py4t操作影片"
+    === "🎦Py4t操作影片(1:10)"
     
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/xL_e-SZklWo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/IlQmn6eC1dg?start=201&amp;end=271" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
     === "💻Python程式截圖"
 
-        ![程式截圖](snapshot/rectangle_and_fill.jpg) 
+        ![程式截圖](snapshot/flag_element_fill.jpg) 
 
 <br/><br/><br/> 
 
 ----------------------------
 
-##  📗 方形相關國旗
+##  📗 方形相關國旗(1)
 
 
 ***國旗規格***
@@ -203,15 +223,23 @@ hide:
 <br/><br/>
 
 
-用海龜程式來把想法一實作出來。(建議將規格尺寸放大100倍)
+綜合資料後，把想法一的法國國旗規格整理如下：(規格尺寸放大100倍)
 
 <br/>
 
-???+ example "範例程式 法國國旗"
+![想法一規格](french_flag_thought1_spec.png)
 
-    === "🎦Py4t操作影片"
+<br/>
+
+想一想，試著把想法一的法國國旗實作出來。
+
+<br/>
+
+???+ example "方形相關國旗 範例 (1/1 新檔) --- 法國國旗"
+
+    === "🎦Py4t操作影片(5:25)"
     
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/GKyYdbDMH1A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/jSS289nWjdQ?start=0&amp;end=325" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
     === "💻Python程式截圖"
 
@@ -245,7 +273,7 @@ hide:
 
 ----------------------------
 
-## 📘 圓形相關國旗
+## 📘 圓形相關國旗(1)
 
 ***日本國旗規格***
 
@@ -260,7 +288,7 @@ hide:
 [^japan_flag]: Zscout370 - 投稿者自身による作品, based on http://law.e-gov.go.jp/htmldata/H11/H11HO127.html, CC 表示-継承 4.0, https://commons.wikimedia.org/w/index.php?curid=3109313による
 
 
-你看得出日本國旗的寬高比例與紅色圓形比例嗎？(提示：圓形直徑為高的3/5)
+你看得出日本國旗的寬高比例與紅色圓形比例嗎？
 
 <br/><br/><br/>
 
@@ -297,18 +325,26 @@ hide:
 ----------------------------
 
 
-知道了以上的資訊，就可以實作出日本國旗了。(建議將規格尺寸放大100倍)
+將日本國旗的資訊整理如下：(規格尺寸放大100倍)
 
-在做之前，請你先思考一下繪製順序(先畫圓形或長方形)，再動手寫寫看。
+: ![日本國旗座標](japan_flag_coordinate.png)
+
+: <sup>(資料來源:</sup>[^japan_flag_coordinate]<sup>)</sup>
+
+[^japan_flag_coordinate]: based on http://law.e-gov.go.jp/htmldata/H11/H11HO127.html, 修改自日本國旗規格, by beardad1975
+
+當海龜畫長方形從起點向右出發，在轉彎的時候，要使用右轉或是左轉？
+
+思考一下日本國旗繪製順序，再動手寫寫看。
 
 <br/>
 
-???+ example "範例程式 日本國旗"
+???+ example "圓形相關國旗 範例 (1/1 新檔) --- 日本國旗"
 
 
-    === "🎦Py4t操作影片"
+    === "🎦Py4t操作影片(5:03)"
     
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/upF-HpneLPY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/KIVH9CxhiT4?start=0&amp;end=303" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
     === "💻Python程式截圖"
 
@@ -326,7 +362,7 @@ hide:
 
 ----------------------------
 
-##  📙 星形相關國旗 
+##  📙 星形相關國旗(3)
 
 
 ***畫出星形 ***
@@ -341,12 +377,12 @@ hide:
 
 <br/>
 
-???+ example "範例程式 正三角形"
+???+ example "星形相關國旗 範例 (1/3 新檔) --- 正三角形"
 
 
-    === "🎦Py4t操作影片"
+    === "🎦Py4t操作影片(2:07)"
     
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/5vxxz9MCqUw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/wOcEgr5CXHY?start=2&amp;end=129" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
     === "💻Python程式截圖"
 
@@ -381,11 +417,11 @@ hide:
 
 <br/>
 
-???+ example "範例程式 奇數角星形"
+???+ example "星形相關國旗 範例 (2/3 接續) --- 奇數角星形"
 
-    === "🎦Py4t操作影片"
+    === "🎦Py4t操作影片(1:11)"
     
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/hlib0KmRiI0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/wOcEgr5CXHY?start=131&amp;end=202" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
     === "💻Python程式截圖"
 
@@ -416,7 +452,9 @@ hide:
 
 <br/>
 
-為能使用海龜繪製，還需要知道5角星形的繪製起點，經由規格估計星形起點大約在座標9,12處(原點於左下)
+為能使用海龜繪製，還需要知道5角星形的繪製起點，經由規格估計星形起點大約在座標9,12處
+
+將越南國旗的座標資訊整理如下(將規格放大10倍):
 
 <br/>
 
@@ -424,15 +462,17 @@ hide:
 
 <br/><br/>
 
-接下來，試著做出越南國旗的程式。(建議將規格尺寸放大10倍)
+越南國旗的海龜元素有長方形、填色、位移與星形
+
+想好順序了嗎？試著做出越南國旗的程式。
 
 <br/>
 
-???+ example "範例程式 越南國旗"
+???+ example "星形相關國旗 範例 (3/3 新檔) --- 越南國旗"
 
-    === "🎦Py4t操作影片"
+    === "🎦Py4t操作影片(6:44)"
     
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/3Fa8GosgRIw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/KL5OYhQZq-E?start=0&amp;end=404" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
     === "💻Python程式截圖"
 

@@ -3,40 +3,48 @@ hide:
   - navigation
 ---
 
-# 🔰 海龜範例 - 奇數角星形
+# 🔰 星形相關國旗 - 三角與星形
 
---------------
+## 階段1: 正三角形
 
-### 🎦 示範影片
+🎦 範例影片
 
-<iframe width="896" height="504" src="https://www.youtube.com/embed/hlib0KmRiI0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wOcEgr5CXHY?start=2&amp;end=129" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
---------------
-
-### 🏷️ 原理說明
-
-首先畫出基本的正方形。再來以奇數角星形的公式來決定外角 180 - 180/n
-
-5角星形公式的外角為 180 – 180/5，並且有5條線，故需重複5次。
-
-畫出5角星形後，也可試試看畫出7角星形哦！
-
---------------
-
-### 📄 Py4t程式碼
+📄 Py4t程式碼
 
 ```python
 from 海龜模組 import *
+視窗設定(800, 600)
 
-for 數 in range(7) :
-    向前(100)
-    右轉(180 - 180/7)
+for 數 in range(3) :
+    向前(200)
+    右轉(180 - 60)    
+
+完成()
 ```
+
+<br/><br/>
 
 --------------
 
-### 💻 執行截圖
+## 階段2: 奇數角星形
 
-![執行截圖](odd_number_star.jpg)
+🎦 範例影片
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wOcEgr5CXHY?start=131&amp;end=202" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+📄 Py4t程式碼
+
+```python
+from 海龜模組 import *
+視窗設定(800, 600)
+
+for 數 in range(7) :
+    向前(200)
+    右轉(180 - 180 / 7)    
+
+完成()
+```
+
+<br/><br/>

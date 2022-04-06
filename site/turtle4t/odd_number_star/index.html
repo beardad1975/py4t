@@ -724,20 +724,6 @@
   
   
     <li class="md-nav__item">
-      <a href="../rectangle_and_fill/" class="md-nav__link">
-        🔰 長方形及填色 範例
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
       <a href="../draw_triangle/" class="md-nav__link">
         🔰 正三角形 範例
       </a>
@@ -800,29 +786,15 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
-    🎦 示範影片
+  <a href="#1" class="md-nav__link">
+    階段1: 正三角形
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
-    🏷️ 原理說明
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#py4t" class="md-nav__link">
-    📄 Py4t程式碼
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_3" class="md-nav__link">
-    💻 執行截圖
+  <a href="#2" class="md-nav__link">
+    階段2: 奇數角星形
   </a>
   
 </li>
@@ -831,6 +803,20 @@
   
 </nav>
       
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../flag_element/" class="md-nav__link">
+        🔰 國旗的基本元素 範例
+      </a>
     </li>
   
 
@@ -1721,29 +1707,15 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
-    🎦 示範影片
+  <a href="#1" class="md-nav__link">
+    階段1: 正三角形
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
-    🏷️ 原理說明
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#py4t" class="md-nav__link">
-    📄 Py4t程式碼
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_3" class="md-nav__link">
-    💻 執行截圖
+  <a href="#2" class="md-nav__link">
+    階段2: 奇數角星形
   </a>
   
 </li>
@@ -1761,27 +1733,38 @@
               
                 
 
-<h1 id="-">🔰 海龜範例 - 奇數角星形</h1>
-<hr />
-<h3 id="_1">🎦 示範影片</h3>
-<iframe width="896" height="504" src="https://www.youtube.com/embed/hlib0KmRiI0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<h1 id="-">🔰 星形相關國旗 - 三角與星形</h1>
+<h2 id="1">階段1: 正三角形</h2>
+<p>🎦 範例影片</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wOcEgr5CXHY?start=2&amp;end=129" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<hr />
-<h3 id="_2">🏷️ 原理說明</h3>
-<p>首先畫出基本的正方形。再來以奇數角星形的公式來決定外角 180 - 180/n</p>
-<p>5角星形公式的外角為 180 – 180/5，並且有5條線，故需重複5次。</p>
-<p>畫出5角星形後，也可試試看畫出7角星形哦！</p>
-<hr />
-<h3 id="py4t">📄 Py4t程式碼</h3>
+<p>📄 Py4t程式碼</p>
 <div class="highlight"><pre><span></span><code><span class="linenos" data-linenos="1 "></span><span class="kn">from</span> <span class="nn">海龜模組</span> <span class="kn">import</span> <span class="o">*</span>
-<span class="linenos" data-linenos="2 "></span>
-<span class="linenos" data-linenos="3 "></span><span class="k">for</span> <span class="n">數</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">7</span><span class="p">)</span> <span class="p">:</span>
-<span class="linenos" data-linenos="4 "></span>    <span class="n">向前</span><span class="p">(</span><span class="mi">100</span><span class="p">)</span>
-<span class="linenos" data-linenos="5 "></span>    <span class="n">右轉</span><span class="p">(</span><span class="mi">180</span> <span class="o">-</span> <span class="mi">180</span><span class="o">/</span><span class="mi">7</span><span class="p">)</span>
+<span class="linenos" data-linenos="2 "></span><span class="n">視窗設定</span><span class="p">(</span><span class="mi">800</span><span class="p">,</span> <span class="mi">600</span><span class="p">)</span>
+<span class="linenos" data-linenos="3 "></span>
+<span class="linenos" data-linenos="4 "></span><span class="k">for</span> <span class="n">數</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span> <span class="p">:</span>
+<span class="linenos" data-linenos="5 "></span>    <span class="n">向前</span><span class="p">(</span><span class="mi">200</span><span class="p">)</span>
+<span class="linenos" data-linenos="6 "></span>    <span class="n">右轉</span><span class="p">(</span><span class="mi">180</span> <span class="o">-</span> <span class="mi">60</span><span class="p">)</span>    
+<span class="linenos" data-linenos="7 "></span>
+<span class="linenos" data-linenos="8 "></span><span class="n">完成</span><span class="p">()</span>
 </code></pre></div>
+<p><br/><br/></p>
 <hr />
-<h3 id="_3">💻 執行截圖</h3>
-<p><img alt="執行截圖" src="../odd_number_star.jpg" /></p>
+<h2 id="2">階段2: 奇數角星形</h2>
+<p>🎦 範例影片</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wOcEgr5CXHY?start=131&amp;end=202" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<p>📄 Py4t程式碼</p>
+<div class="highlight"><pre><span></span><code><span class="linenos" data-linenos="1 "></span><span class="kn">from</span> <span class="nn">海龜模組</span> <span class="kn">import</span> <span class="o">*</span>
+<span class="linenos" data-linenos="2 "></span><span class="n">視窗設定</span><span class="p">(</span><span class="mi">800</span><span class="p">,</span> <span class="mi">600</span><span class="p">)</span>
+<span class="linenos" data-linenos="3 "></span>
+<span class="linenos" data-linenos="4 "></span><span class="k">for</span> <span class="n">數</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">7</span><span class="p">)</span> <span class="p">:</span>
+<span class="linenos" data-linenos="5 "></span>    <span class="n">向前</span><span class="p">(</span><span class="mi">200</span><span class="p">)</span>
+<span class="linenos" data-linenos="6 "></span>    <span class="n">右轉</span><span class="p">(</span><span class="mi">180</span> <span class="o">-</span> <span class="mi">180</span> <span class="o">/</span> <span class="mi">7</span><span class="p">)</span>    
+<span class="linenos" data-linenos="7 "></span>
+<span class="linenos" data-linenos="8 "></span><span class="n">完成</span><span class="p">()</span>
+</code></pre></div>
+<p><br/><br/></p>
 
               
             </article>
@@ -1811,13 +1794,13 @@
       
       
         
-        <a href="../flag_of_france/" class="md-footer__link md-footer__link--next" aria-label="下一頁: 🔰 法國國旗 範例" rel="next">
+        <a href="../flag_element/" class="md-footer__link md-footer__link--next" aria-label="下一頁: 🔰 國旗的基本元素 範例" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 下一頁
               </span>
-              🔰 法國國旗 範例
+              🔰 國旗的基本元素 範例
             </div>
           </div>
           <div class="md-footer__button md-icon">

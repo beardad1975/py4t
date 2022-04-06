@@ -724,20 +724,6 @@
   
   
     <li class="md-nav__item">
-      <a href="../rectangle_and_fill/" class="md-nav__link">
-        🔰 長方形及填色 範例
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
       <a href="../draw_triangle/" class="md-nav__link">
         🔰 正三角形 範例
       </a>
@@ -768,6 +754,20 @@
     <li class="md-nav__item">
       <a href="../odd_number_star/" class="md-nav__link">
         🔰 奇數角星形 範例
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../flag_element/" class="md-nav__link">
+        🔰 國旗的基本元素 範例
       </a>
     </li>
   
@@ -828,29 +828,15 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
-    🎦 示範影片
+  <a href="#1-32" class="md-nav__link">
+    階段1: 白色長方形3:2
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
-    🏷️ 重點說明
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#py4t" class="md-nav__link">
-    📄 Py4t程式碼
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_3" class="md-nav__link">
-    💻 執行截圖
+  <a href="#2" class="md-nav__link">
+    階段2: 紅色實心圓
   </a>
   
 </li>
@@ -1721,29 +1707,15 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
-    🎦 示範影片
+  <a href="#1-32" class="md-nav__link">
+    階段1: 白色長方形3:2
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
-    🏷️ 重點說明
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#py4t" class="md-nav__link">
-    📄 Py4t程式碼
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_3" class="md-nav__link">
-    💻 執行截圖
+  <a href="#2" class="md-nav__link">
+    階段2: 紅色實心圓
   </a>
   
 </li>
@@ -1761,40 +1733,48 @@
               
                 
 
-<h1 id="-">🔰 海龜範例 - 日本國旗</h1>
-<hr />
-<h3 id="_1">🎦 示範影片</h3>
-<iframe width="896" height="504" src="https://www.youtube.com/embed/upF-HpneLPY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<h1 id="-">🔰 圓形相關國旗 - 日本國旗</h1>
+<h2 id="1-32">階段1: 白色長方形3:2</h2>
+<p>🎦 範例影片</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KIVH9CxhiT4?start=0&amp;end=150" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<hr />
-<h3 id="_2">🏷️ 重點說明</h3>
-<p>日本國旗的寬高比是3:2，先重複2次的寬高，來畫出3:2的長方形(程式採用左轉，讓座標值xy都為正)</p>
-<p>停筆(避免海龜畫線)，先移動到國旗中心(座標為寬與高各一半的位置)</p>
-<p>下筆(繼續畫線)後，畫出紅色圓形(直徑:高的3/5，且紅色rgb值為255, 0, 0)</p>
-<hr />
-<h3 id="py4t">📄 Py4t程式碼</h3>
+<p>📄 Py4t程式碼</p>
 <div class="highlight"><pre><span></span><code><span class="linenos" data-linenos=" 1 "></span><span class="kn">from</span> <span class="nn">海龜模組</span> <span class="kn">import</span> <span class="o">*</span>
 <span class="linenos" data-linenos=" 2 "></span><span class="n">視窗設定</span><span class="p">(</span><span class="mi">800</span><span class="p">,</span> <span class="mi">600</span><span class="p">)</span>
 <span class="linenos" data-linenos=" 3 "></span>
-<span class="linenos" data-linenos=" 4 "></span><span class="c1"># 長方形線條 寬高比3:2</span>
-<span class="linenos" data-linenos=" 5 "></span><span class="k">for</span> <span class="n">數</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span> <span class="p">:</span>
-<span class="linenos" data-linenos=" 6 "></span>    <span class="n">向前</span><span class="p">(</span><span class="mi">300</span><span class="p">)</span>
-<span class="linenos" data-linenos=" 7 "></span>    <span class="n">左轉</span><span class="p">(</span><span class="mi">90</span><span class="p">)</span>
-<span class="linenos" data-linenos=" 8 "></span>    <span class="n">向前</span><span class="p">(</span><span class="mi">200</span><span class="p">)</span>
-<span class="linenos" data-linenos=" 9 "></span>    <span class="n">左轉</span><span class="p">(</span><span class="mi">90</span><span class="p">)</span>
-<span class="linenos" data-linenos="10 "></span>
-<span class="linenos" data-linenos="11 "></span><span class="c1"># 移動至長方形中心(不畫線)    </span>
-<span class="linenos" data-linenos="12 "></span><span class="n">停筆</span><span class="p">()</span>
-<span class="linenos" data-linenos="13 "></span><span class="n">走到</span><span class="p">(</span><span class="mi">300</span><span class="o">/</span><span class="mi">2</span><span class="p">,</span><span class="mi">200</span><span class="o">/</span><span class="mi">2</span><span class="p">)</span>
-<span class="linenos" data-linenos="14 "></span><span class="n">下筆</span><span class="p">()</span>
-<span class="linenos" data-linenos="15 "></span>
-<span class="linenos" data-linenos="16 "></span><span class="c1"># 畫紅色實心圓</span>
-<span class="linenos" data-linenos="17 "></span><span class="n">畫點</span><span class="p">(</span><span class="mi">200</span><span class="o">*</span><span class="mi">3</span><span class="o">/</span><span class="mi">5</span><span class="p">,</span> <span class="p">[</span><span class="mi">255</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">])</span>
-<span class="linenos" data-linenos="18 "></span><span class="n">隱藏游標</span><span class="p">()</span>
+<span class="linenos" data-linenos=" 4 "></span><span class="k">for</span> <span class="n">數</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span> <span class="p">:</span>
+<span class="linenos" data-linenos=" 5 "></span>    <span class="n">向前</span><span class="p">(</span><span class="mi">300</span><span class="p">)</span>
+<span class="linenos" data-linenos=" 6 "></span>    <span class="n">左轉</span><span class="p">(</span><span class="mi">90</span><span class="p">)</span>
+<span class="linenos" data-linenos=" 7 "></span>    <span class="n">向前</span><span class="p">(</span><span class="mi">200</span><span class="p">)</span>
+<span class="linenos" data-linenos=" 8 "></span>    <span class="n">左轉</span><span class="p">(</span><span class="mi">90</span><span class="p">)</span>    
+<span class="linenos" data-linenos=" 9 "></span>
+<span class="linenos" data-linenos="10 "></span><span class="n">完成</span><span class="p">()</span>
 </code></pre></div>
+<p><br/><br/></p>
 <hr />
-<h3 id="_3">💻 執行截圖</h3>
-<p><img alt="執行截圖" src="../flag_of_japan.jpg" /></p>
+<h2 id="2">階段2: 紅色實心圓</h2>
+<p>🎦 範例影片</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KIVH9CxhiT4?start=152&amp;end=303" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<p>📄 Py4t程式碼</p>
+<div class="highlight"><pre><span></span><code><span class="linenos" data-linenos=" 1 "></span><span class="kn">from</span> <span class="nn">海龜模組</span> <span class="kn">import</span> <span class="o">*</span>
+<span class="linenos" data-linenos=" 2 "></span><span class="n">視窗設定</span><span class="p">(</span><span class="mi">800</span><span class="p">,</span> <span class="mi">600</span><span class="p">)</span>
+<span class="linenos" data-linenos=" 3 "></span>
+<span class="linenos" data-linenos=" 4 "></span><span class="k">for</span> <span class="n">數</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span> <span class="p">:</span>
+<span class="linenos" data-linenos=" 5 "></span>    <span class="n">向前</span><span class="p">(</span><span class="mi">300</span><span class="p">)</span>
+<span class="linenos" data-linenos=" 6 "></span>    <span class="n">左轉</span><span class="p">(</span><span class="mi">90</span><span class="p">)</span>
+<span class="linenos" data-linenos=" 7 "></span>    <span class="n">向前</span><span class="p">(</span><span class="mi">200</span><span class="p">)</span>
+<span class="linenos" data-linenos=" 8 "></span>    <span class="n">左轉</span><span class="p">(</span><span class="mi">90</span><span class="p">)</span>    
+<span class="linenos" data-linenos=" 9 "></span>
+<span class="linenos" data-linenos="10 "></span><span class="n">停筆</span><span class="p">()</span>
+<span class="linenos" data-linenos="11 "></span><span class="n">走到</span><span class="p">(</span><span class="mi">300</span> <span class="o">/</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">200</span> <span class="o">/</span> <span class="mi">2</span><span class="p">)</span>
+<span class="linenos" data-linenos="12 "></span><span class="n">下筆</span><span class="p">()</span>
+<span class="linenos" data-linenos="13 "></span><span class="n">畫點</span><span class="p">(</span><span class="mi">200</span> <span class="o">*</span> <span class="mi">3</span> <span class="o">/</span> <span class="mi">5</span><span class="p">,</span> <span class="s1">&#39;red&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos="14 "></span><span class="n">隱藏游標</span><span class="p">()</span>
+<span class="linenos" data-linenos="15 "></span>
+<span class="linenos" data-linenos="16 "></span><span class="n">完成</span><span class="p">()</span>
+</code></pre></div>
+<p><br/><br/></p>
 
               
             </article>

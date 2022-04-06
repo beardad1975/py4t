@@ -47,10 +47,10 @@ nav:
     - 海龜: 
       - Ⓜ️ 模組說明 - 海龜: 'turtle4t/index.md'
       - 🔰 正方形 範例: 'turtle4t/draw_square.md' 
-      - 🔰 長方形及填色 範例: 'turtle4t/rectangle_and_fill.md' 
       - 🔰 正三角形 範例: 'turtle4t/draw_triangle.md' 
       - 🔰 正多邊形 範例: 'turtle4t/regular_polygon.md'  
       - 🔰 奇數角星形 範例: 'turtle4t/odd_number_star.md'
+      - 🔰 國旗的基本元素 範例: 'turtle4t/flag_element.md' 
       - 🔰 法國國旗 範例: 'turtle4t/flag_of_france.md'
       - 🔰 日本國旗 範例: 'turtle4t/flag_of_japan.md'
       - 🔰 越南國旗 範例: 'turtle4t/flag_of_vietnam.md'

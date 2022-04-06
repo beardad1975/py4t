@@ -1,24 +1,39 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="210mm"
    height="297mm"
    viewBox="0 0 210 297"
    version="1.1"
    id="svg8"
-   inkscape:version="1.0.2-2 (e86c870879, 2021-01-15)"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
    sodipodi:docname="多邊形.svg"
    inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\draw_rectangle.png"
    inkscape:export-xdpi="49.012714"
-   inkscape:export-ydpi="49.012714">
+   inkscape:export-ydpi="49.012714"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <defs
      id="defs2">
+    <marker
+       style="overflow:visible;"
+       id="Arrow1Mend"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.4) rotate(180) translate(10,0)"
+         style="fill-rule:evenodd;fill:context-stroke;stroke:context-stroke;stroke-width:1.0pt;"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path34857" />
+    </marker>
     <marker
        style="overflow:visible"
        id="marker2107"
@@ -574,18 +589,19 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.49497475"
-     inkscape:cx="-2056.175"
-     inkscape:cy="1770.4942"
+     inkscape:cx="-6489.2199"
+     inkscape:cy="2771.8586"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
      showgrid="false"
      inkscape:window-width="1920"
-     inkscape:window-height="1001"
+     inkscape:window-height="998"
      inkscape:window-x="-9"
      inkscape:window-y="-9"
      inkscape:window-maximized="1"
-     inkscape:snap-global="false" />
+     inkscape:snap-global="false"
+     inkscape:pagecheckerboard="0" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -1870,7 +1886,7 @@
          y="10.642612"
          style="stroke-width:0.256173">上下y</tspan></text>
     <circle
-       style="opacity:1;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:2.12686;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="opacity:1;fill:#00ff00;fill-opacity:1;stroke:none;stroke-width:2.12686;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="circle2024"
        cx="-1841.5322"
        cy="140.58742"
@@ -1889,41 +1905,41 @@
        inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\vietnam_flag_coordinate.png" />
     <text
        xml:space="preserve"
-       style="font-size:10.5833px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
-       x="-1909.1541"
-       y="154.87469"
+       style="font-size:8.93777px;line-height:1.25;font-family:sans-serif;stroke-width:0.223445"
+       x="-1896.6724"
+       y="152.4381"
        id="text2046"
        inkscape:export-xdpi="59.51437"
        inkscape:export-ydpi="59.51437"
        inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\vietnam_flag_coordinate.png"><tspan
          sodipodi:role="line"
          id="tspan2042"
-         x="-1909.1541"
-         y="154.87469"
-         style="stroke-width:0.264583">國旗起點(0,0)</tspan><tspan
+         x="-1896.6724"
+         y="152.4381"
+         style="stroke-width:0.223445">國旗起點(0,0)</tspan><tspan
          sodipodi:role="line"
-         x="-1909.1541"
-         y="168.10381"
-         style="stroke-width:0.264583"
+         x="-1896.6724"
+         y="163.61031"
+         style="stroke-width:0.223445"
          id="tspan2044" /></text>
     <text
        xml:space="preserve"
-       style="font-size:10.5833px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
-       x="-1839.6639"
-       y="72.288414"
+       style="font-size:7.90537px;line-height:1.25;font-family:sans-serif;stroke-width:0.197635"
+       x="-1833.8748"
+       y="77.559532"
        id="text2053"
        inkscape:export-xdpi="59.51437"
        inkscape:export-ydpi="59.51437"
        inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\vietnam_flag_coordinate.png"><tspan
          sodipodi:role="line"
          id="tspan2048"
-         x="-1839.6639"
-         y="72.288414"
-         style="stroke-width:0.264583">星形起點(9,12)</tspan><tspan
+         x="-1833.8748"
+         y="77.559532"
+         style="stroke-width:0.197635">星形起點(90,120)</tspan><tspan
          sodipodi:role="line"
-         x="-1839.6639"
-         y="85.51754"
-         style="stroke-width:0.264583"
+         x="-1833.8748"
+         y="87.441246"
+         style="stroke-width:0.197635"
          id="tspan2051" /></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:2.265;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -2091,5 +2107,923 @@
        inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\penup_move.png"
        inkscape:export-xdpi="50.72403"
        inkscape:export-ydpi="50.72403" />
+    <image
+       width="191.2812"
+       height="112.28004"
+       preserveAspectRatio="none"
+       xlink:href="data:image/png;base64,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
+PYV6uzT278+qODjidSx4yAr4FexoUe8f/rZaH9ul6PpVXkcCUGcolcBSZFmygwFFN/Wp88nH5G+M
+aex7zyjff0lusex1OiwwX0NEsR0b1PnFx9T62C6FVq2QHQ55HQtAnaFUAkuYHQ4qfstm+eMNsvx+
+Tfz4ZeVOXVA1Pe11NCyQQGuT4rdtUdsn7lPnF/co0Nooy+/zOhaAOkSpBJY4y+9TdONq9f7hVxRs
+a1Lye89o+uAJVWeykmu8jod5Yvl98jVElbhrh7p/9zfV+tgu+RrYwxSAdyiVwHJgWfJFQur80h5F
+N6xW8nvPaOQf/kNOrigZiuVyFOxoVftvPqgVX/uMGjb3yRcNex0JQJ2jVALLhWXJF4sqdssmWeGg
+gt3tSn73JyoOjsjJF71Ohzlih0NK3LldbZ+8X62P3qPI2pWMUAKS8vm88vm8EomE/H6/7A/ZFWNq
+akqSFIvF5PdTh+YCzyKwzPib4orfvEmBtib5GsKaeukNzbx5WsUrSUYtlzAr4FewvUWNu25R62O7
+1Hz/HYqsXel1LGDRqFarGhsbMy+99JJ27dpldXZ2vu/jXNfVzMyM9u/fb2KxmO6++26OmpojlEpg
+GbIjIUXX9ar3f/6SohvXaPwHLyj9/H6VRsblVqqUy6XEsuRriCi0slNN99yiFf/p04rfupkTcoBf
+EQgEND09rW9+85uyLMvs3r3bSiQS73qM4ziamZnRgQMHzPPPP6/Nmzdr165dHiVefiiVwHJlWbKC
+AbU+tlvRjasVu2mjLv1f31F5LCW3XPE6HT4iy+dTbMcGrfjqJ9X5pT3yxaKyfNzdDfyqSCSiaDSq
+ZDKpP//zP9f09LT53Oc+965RyHw+rxMnTpivf/3r2rRpE4VyjlEqgWXO8tkK93ap/TMPqmHzWo3/
+6CWlX9iv/OkBGUYsFy3L71dkbY/aP/2AWh66Ww3bN8gXb5DF6UnAB4rH47r77rv18ssv6zvf+Y5S
+qZR57LHHZIzR1NSUnnvuOfOXf/mXGhgY0COPPKK+vj6vIy8rlEqgDtjhkMIruxTsbJW/MabImh6l
+X35DmdeOqJqZkak6XkfEVVbAr1B3hxJ3blfzfbercdetim5YxXQ38BHEYjFr165dZv/+/Tpx4oRc
+11Uul9PExIReeOEFVSoVHTx4UNVqVWvWrNHKlStZTzmHKJVAvbAt2aGgEnftUHhNt6KbVivQ0qjc
+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
+"
+       id="image1289"
+       x="-1858.1053"
+       y="237.05467"
+       style="opacity:0.647202"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\japan_flag_coordinate.png"
+       inkscape:export-xdpi="59.51437"
+       inkscape:export-ydpi="59.51437" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.42242;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker1760)"
+       d="m -1681.0477,345.89648 h -196.0094"
+       id="path1923"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\japan_flag_coordinate.png"
+       inkscape:export-xdpi="59.51437"
+       inkscape:export-ydpi="59.51437" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.30281;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker1750)"
+       d="m -1841.3187,222.01406 v 164.4318"
+       id="path1925"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\japan_flag_coordinate.png"
+       inkscape:export-xdpi="59.51437"
+       inkscape:export-ydpi="59.51437" />
+    <text
+       xml:space="preserve"
+       style="font-size:9.626px;line-height:1.25;font-family:sans-serif;stroke-width:0.240651"
+       x="-1675.1469"
+       y="349.47247"
+       id="text1929"
+       inkscape:export-xdpi="59.51437"
+       inkscape:export-ydpi="59.51437"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\japan_flag_coordinate.png"
+       transform="scale(1.0008265,0.99917419)"><tspan
+         sodipodi:role="line"
+         id="tspan1927"
+         x="-1675.1469"
+         y="349.47247"
+         style="stroke-width:0.240651">右左x</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10.2469px;line-height:1.25;font-family:sans-serif;stroke-width:0.256173"
+       x="-1853.8137"
+       y="216.07526"
+       id="text1933"
+       inkscape:export-xdpi="59.51437"
+       inkscape:export-ydpi="59.51437"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\japan_flag_coordinate.png"
+       transform="scale(1.0008265,0.99917419)"><tspan
+         sodipodi:role="line"
+         id="tspan1931"
+         x="-1853.8137"
+         y="216.07526"
+         style="stroke-width:0.256173">上下y</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:8.1849px;line-height:1.25;font-family:sans-serif;stroke-width:0.204623"
+       x="-1896.3196"
+       y="357.07541"
+       id="text1939"
+       inkscape:export-xdpi="59.51437"
+       inkscape:export-ydpi="59.51437"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\japan_flag_coordinate.png"><tspan
+         sodipodi:role="line"
+         id="tspan1935"
+         x="-1896.3196"
+         y="357.07541"
+         style="stroke-width:0.204623">國旗起點(0,0)</tspan><tspan
+         sodipodi:role="line"
+         x="-1896.3196"
+         y="367.30655"
+         style="stroke-width:0.204623"
+         id="tspan1937" /></text>
+    <circle
+       style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.12686;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="circle1941"
+       cx="-1769.6108"
+       cy="297.38675"
+       r="3.2049298"
+       inkscape:export-xdpi="59.51437"
+       inkscape:export-ydpi="59.51437"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\japan_flag_coordinate.png" />
+    <text
+       xml:space="preserve"
+       style="font-size:8.02779px;line-height:1.25;font-family:sans-serif;fill:#ff0000;stroke-width:0.200696"
+       x="-1792.4812"
+       y="335.81815"
+       id="text1947"
+       inkscape:export-xdpi="59.51437"
+       inkscape:export-ydpi="59.51437"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\japan_flag_coordinate.png"><tspan
+         sodipodi:role="line"
+         id="tspan1943"
+         x="-1792.4812"
+         y="335.81815"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#ff0000;stroke-width:0.200696">圓心的座標？</tspan><tspan
+         sodipodi:role="line"
+         x="-1792.4812"
+         y="345.85287"
+         style="fill:#ff0000;stroke-width:0.200696"
+         id="tspan1945" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.09114px;line-height:1.25;font-family:sans-serif;stroke-width:0.177279"
+       x="-1780.6611"
+       y="244.60522"
+       id="text2887"
+       inkscape:export-xdpi="59.51437"
+       inkscape:export-ydpi="59.51437"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\japan_flag_coordinate.png"><tspan
+         sodipodi:role="line"
+         id="tspan2883"
+         x="-1780.6611"
+         y="244.60522"
+         style="stroke-width:0.177279">寬 300</tspan><tspan
+         sodipodi:role="line"
+         x="-1780.6611"
+         y="253.46915"
+         style="stroke-width:0.177279"
+         id="tspan2885" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.09114px;line-height:1.25;font-family:sans-serif;writing-mode:vertical-lr;stroke-width:0.177279"
+       x="-1849.075"
+       y="285.42664"
+       id="text3473"
+       inkscape:export-xdpi="59.51437"
+       inkscape:export-ydpi="59.51437"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\japan_flag_coordinate.png"><tspan
+         sodipodi:role="line"
+         id="tspan3469"
+         x="305.08142"
+         y="-1868.7296"
+         style="writing-mode:vertical-lr;stroke-width:0.177279">高 200</tspan><tspan
+         sodipodi:role="line"
+         x="305.08142"
+         y="-1859.4924"
+         style="writing-mode:vertical-lr;stroke-width:0.177279"
+         id="tspan3471" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.09114px;line-height:1.25;font-family:sans-serif;stroke-width:0.177279"
+       x="-1688.057"
+       y="299.78973"
+       id="text4805"
+       inkscape:export-xdpi="59.51437"
+       inkscape:export-ydpi="59.51437"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\japan_flag_coordinate.png"><tspan
+         sodipodi:role="line"
+         id="tspan4801"
+         x="-1688.057"
+         y="299.78973"
+         style="stroke-width:0.177279">直徑:高的3/5</tspan><tspan
+         sodipodi:role="line"
+         x="-1688.057"
+         y="308.65366"
+         style="stroke-width:0.177279"
+         id="tspan4803" /></text>
+    <circle
+       style="opacity:1;fill:#b2f82e;fill-opacity:1;stroke:none;stroke-width:2.12686;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="circle21396"
+       cx="-1769.6108"
+       cy="297.38675"
+       r="3.2049298"
+       inkscape:export-xdpi="59.51437"
+       inkscape:export-ydpi="59.51437"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\japan_flag_coordinate.png" />
+    <circle
+       style="opacity:1;fill:#2e98f8;fill-opacity:1;stroke:none;stroke-width:2.12686;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="circle21398"
+       cx="-1841.239"
+       cy="345.76254"
+       r="3.2049298"
+       inkscape:export-xdpi="59.51437"
+       inkscape:export-ydpi="59.51437"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\japan_flag_coordinate.png" />
+    <path
+       style="fill:#666666;stroke:#000000;stroke-width:0.578824;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker1838);marker-end:url(#Arrow1Mend)"
+       d="M -1846.6316,139.63881 V 44.531488"
+       id="path34846"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\vietnam_flag_coordinate.png"
+       inkscape:export-xdpi="59.51437"
+       inkscape:export-ydpi="59.51437" />
+    <path
+       style="fill:#666666;stroke:#000000;stroke-width:0.51;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker1838);marker-end:url(#Arrow1Mend)"
+       d="m -1839.354,38.232155 h 143.2711"
+       id="path35134"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\vietnam_flag_coordinate.png"
+       inkscape:export-xdpi="59.51437"
+       inkscape:export-ydpi="59.51437" />
+    <text
+       xml:space="preserve"
+       style="font-size:7.09114px;line-height:1.25;font-family:sans-serif;writing-mode:vertical-lr;stroke-width:0.177279"
+       x="-1853.4429"
+       y="79.667091"
+       id="text36364"
+       inkscape:export-xdpi="59.51437"
+       inkscape:export-ydpi="59.51437"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\vietnam_flag_coordinate.png"><tspan
+         sodipodi:role="line"
+         id="tspan36360"
+         x="77.399231"
+         y="-1851.175"
+         style="writing-mode:vertical-lr;stroke-width:0.177279">高 200</tspan><tspan
+         sodipodi:role="line"
+         x="77.399231"
+         y="-1841.9379"
+         style="writing-mode:vertical-lr;stroke-width:0.177279"
+         id="tspan36362" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.09114px;line-height:1.25;font-family:sans-serif;stroke-width:0.177279"
+       x="-1779.592"
+       y="35.065918"
+       id="text36370"
+       inkscape:export-xdpi="59.51437"
+       inkscape:export-ydpi="59.51437"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\vietnam_flag_coordinate.png"><tspan
+         sodipodi:role="line"
+         id="tspan36366"
+         x="-1779.592"
+         y="35.065918"
+         style="stroke-width:0.177279">寬 300</tspan><tspan
+         sodipodi:role="line"
+         x="-1779.592"
+         y="43.92984"
+         style="stroke-width:0.177279"
+         id="tspan36368" /></text>
+    <path
+       id="path36372"
+       style="opacity:1;fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:1.20849;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.772549"
+       d="m -1793.8399,578.91859 v 97.3169 h 48.1543 48.1537 48.1537 v -97.3169 h -48.1537 -48.1537 z"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\french_flag_thought.png"
+       inkscape:export-xdpi="55.101334"
+       inkscape:export-ydpi="55.101334" />
+    <path
+       id="path36374"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.20849;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.772549"
+       d="m -1793.8399,578.91859 v 97.3169 h 48.1543 48.1536 v -97.3169 h -48.1536 z"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\french_flag_thought.png"
+       inkscape:export-xdpi="55.101334"
+       inkscape:export-ydpi="55.101334" />
+    <rect
+       style="opacity:1;fill:#6060f8;fill-opacity:1;stroke:#000000;stroke-width:1.20848;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.772549"
+       id="rect36376"
+       width="48.153774"
+       height="97.316917"
+       x="-1793.8397"
+       y="578.91858"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\french_flag_thought.png"
+       inkscape:export-xdpi="55.101334"
+       inkscape:export-ydpi="55.101334" />
+    <text
+       xml:space="preserve"
+       style="font-size:10.2469px;line-height:1.25;font-family:sans-serif;stroke-width:0.256173"
+       x="-1806.8131"
+       y="448.79193"
+       id="text36388"
+       inkscape:export-xdpi="59.51437"
+       inkscape:export-ydpi="59.51437"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\vietnam_flag_coordinate.png"
+       transform="scale(1.0008265,0.99917419)"><tspan
+         sodipodi:role="line"
+         id="tspan36386"
+         x="-1806.8131"
+         y="448.79193"
+         style="stroke-width:0.256173">上下y</tspan></text>
+    <path
+       style="fill:#666666;stroke:#000000;stroke-width:0.582001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker1838);marker-end:url(#Arrow1Mend)"
+       d="M -1799.5922,675.50458 V 579.35037"
+       id="path36398"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\vietnam_flag_coordinate.png"
+       inkscape:export-xdpi="59.51437"
+       inkscape:export-ydpi="59.51437" />
+    <text
+       xml:space="preserve"
+       style="font-size:7.09114px;line-height:1.25;font-family:sans-serif;writing-mode:vertical-lr;stroke-width:0.177279"
+       x="-1808.0071"
+       y="616.07703"
+       id="text36406"
+       inkscape:export-xdpi="59.51437"
+       inkscape:export-ydpi="59.51437"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\vietnam_flag_coordinate.png"><tspan
+         sodipodi:role="line"
+         id="tspan36402"
+         x="515.85095"
+         y="-1707.781"
+         style="writing-mode:vertical-lr;stroke-width:0.177279">高 200</tspan><tspan
+         sodipodi:role="line"
+         x="515.85095"
+         y="-1698.5438"
+         style="writing-mode:vertical-lr;stroke-width:0.177279"
+         id="tspan36404" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.09114px;line-height:1.25;font-family:sans-serif;stroke-width:0.177279"
+       x="-1691.9277"
+       y="568.26862"
+       id="text36412"
+       inkscape:export-xdpi="59.51437"
+       inkscape:export-ydpi="59.51437"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\vietnam_flag_coordinate.png"><tspan
+         sodipodi:role="line"
+         id="tspan36408"
+         x="-1691.9277"
+         y="568.26862"
+         style="stroke-width:0.177279">寬 300</tspan><tspan
+         sodipodi:role="line"
+         x="-1691.9277"
+         y="577.13257"
+         style="stroke-width:0.177279"
+         id="tspan36410" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10.5833px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="-1821.1782"
+       y="570.63324"
+       id="text37973"
+       inkscape:export-xdpi="55.101334"
+       inkscape:export-ydpi="55.101334"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\french_flag_thought.png"><tspan
+         sodipodi:role="line"
+         id="tspan37971"
+         x="-1821.1782"
+         y="570.63324"
+         style="stroke-width:0.264583">起點</tspan></text>
+    <circle
+       style="opacity:0.770936;fill:#ffeb05;fill-opacity:1;stroke:none;stroke-width:7.65042;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="circle38055"
+       cx="-1793.623"
+       cy="578.70599"
+       r="11.528274"
+       inkscape:export-xdpi="55.101334"
+       inkscape:export-ydpi="55.101334"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\french_flag_thought.png" />
+    <path
+       style="fill:#666666;stroke:#000000;stroke-width:0.414713;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker1838);marker-end:url(#Arrow1Mend)"
+       d="m -1793.6449,595.40392 h 94.7359"
+       id="path38057"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\vietnam_flag_coordinate.png"
+       inkscape:export-xdpi="59.51437"
+       inkscape:export-ydpi="59.51437" />
+    <path
+       style="fill:#666666;stroke:#000000;stroke-width:0.293512;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker1838);marker-end:url(#Arrow1Mend)"
+       d="m -1793.9578,614.68071 h 47.4537"
+       id="path38059"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\vietnam_flag_coordinate.png"
+       inkscape:export-xdpi="59.51437"
+       inkscape:export-ydpi="59.51437" />
+    <text
+       xml:space="preserve"
+       style="font-size:7.09114px;line-height:1.25;font-family:sans-serif;stroke-width:0.177279"
+       x="-1735.7599"
+       y="591.78833"
+       id="text38731"
+       inkscape:export-xdpi="59.51437"
+       inkscape:export-ydpi="59.51437"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\vietnam_flag_coordinate.png"><tspan
+         sodipodi:role="line"
+         id="tspan38727"
+         x="-1735.7599"
+         y="591.78833"
+         style="stroke-width:0.177279">紅：寬 300</tspan><tspan
+         sodipodi:role="line"
+         x="-1735.7599"
+         y="600.65228"
+         style="stroke-width:0.177279"
+         id="tspan38729" /></text>
+    <path
+       id="path40406"
+       style="opacity:1;fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.7;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.772549"
+       d="m -1875.9148,731.68274 v 74.81922 h 37.022 37.0216 37.0215 v -74.81922 h -37.0215 -37.0216 z"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\french_flag_thought1_spec.png"
+       inkscape:export-xdpi="51.208572"
+       inkscape:export-ydpi="51.208572" />
+    <path
+       id="path40410"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.7;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.772549"
+       d="m -1721.1502,730.92679 v 74.81922 h 37.022 37.0215 v -74.81922 h -37.0215 z"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\french_flag_thought1_spec.png"
+       inkscape:export-xdpi="51.208572"
+       inkscape:export-ydpi="51.208572" />
+    <rect
+       style="opacity:1;fill:#6060f8;fill-opacity:1;stroke:#000000;stroke-width:0.7;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.772549"
+       id="rect40416"
+       width="37.021606"
+       height="74.819237"
+       x="-1602.9938"
+       y="730.92676"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\french_flag_thought1_spec.png"
+       inkscape:export-xdpi="51.208572"
+       inkscape:export-ydpi="51.208572" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.35509;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker1838)"
+       d="m -1738.9452,769.27744 h -17.3061"
+       id="path40418"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\french_flag_thought1_spec.png"
+       inkscape:export-xdpi="51.208572"
+       inkscape:export-ydpi="51.208572" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.35509;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker1942)"
+       d="m -1620.961,770.03339 h -17.3061"
+       id="path40420"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\french_flag_thought1_spec.png"
+       inkscape:export-xdpi="51.208572"
+       inkscape:export-ydpi="51.208572" />
+    <circle
+       style="opacity:0.770936;fill:#ffeb05;fill-opacity:1;stroke:none;stroke-width:4.81256;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="circle40422"
+       cx="-1875.2959"
+       cy="731.85352"
+       r="7.2519612"
+       inkscape:export-xdpi="51.208572"
+       inkscape:export-ydpi="51.208572"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\french_flag_thought1_spec.png" />
+    <text
+       xml:space="preserve"
+       style="font-size:6.00154px;line-height:1.25;font-family:sans-serif;stroke-width:0.150039"
+       x="-1887.8857"
+       y="731.336"
+       id="text40426"
+       inkscape:export-xdpi="51.208572"
+       inkscape:export-ydpi="51.208572"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\french_flag_thought1_spec.png"><tspan
+         sodipodi:role="line"
+         id="tspan40424"
+         x="-1887.8857"
+         y="731.336"
+         style="stroke-width:0.150039">起點</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10.5833px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="-1844.8989"
+       y="820.0675"
+       id="text40442"
+       inkscape:export-xdpi="51.208572"
+       inkscape:export-ydpi="51.208572"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\french_flag_thought1_spec.png"><tspan
+         sodipodi:role="line"
+         id="tspan40440"
+         x="-1844.8989"
+         y="820.0675"
+         style="stroke-width:0.264583">紅色長方形</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10.5833px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="-1709.7411"
+       y="817.92932"
+       id="text40446"
+       inkscape:export-xdpi="51.208572"
+       inkscape:export-ydpi="51.208572"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\french_flag_thought1_spec.png"><tspan
+         sodipodi:role="line"
+         id="tspan40444"
+         x="-1709.7411"
+         y="817.92932"
+         style="stroke-width:0.264583">白色長方形</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10.5833px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="-1610.3384"
+       y="818.46387"
+       id="text40450"
+       inkscape:export-xdpi="51.208572"
+       inkscape:export-ydpi="51.208572"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\french_flag_thought1_spec.png"><tspan
+         sodipodi:role="line"
+         id="tspan40448"
+         x="-1610.3384"
+         y="818.46387"
+         style="stroke-width:0.264583">藍色長方形</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.09114px;line-height:1.25;font-family:sans-serif;writing-mode:vertical-lr;stroke-width:0.177279"
+       x="-1881.1676"
+       y="757.55109"
+       id="text40458"
+       inkscape:export-xdpi="51.208572"
+       inkscape:export-ydpi="51.208572"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\french_flag_thought1_spec.png"><tspan
+         sodipodi:role="line"
+         id="tspan40454"
+         x="769.6463"
+         y="-1893.2629"
+         style="writing-mode:vertical-lr;stroke-width:0.177279">高 200</tspan><tspan
+         sodipodi:role="line"
+         x="769.6463"
+         y="-1884.0258"
+         style="writing-mode:vertical-lr;stroke-width:0.177279"
+         id="tspan40456" /></text>
+    <circle
+       style="opacity:0.770936;fill:#ffeb05;fill-opacity:1;stroke:none;stroke-width:4.81256;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="circle43154"
+       cx="-1721.9637"
+       cy="731.85352"
+       r="7.2519612"
+       inkscape:export-xdpi="51.208572"
+       inkscape:export-ydpi="51.208572"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\french_flag_thought1_spec.png" />
+    <circle
+       style="opacity:0.770936;fill:#ffeb05;fill-opacity:1;stroke:none;stroke-width:4.81256;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="circle43156"
+       cx="-1602.2538"
+       cy="731.85352"
+       r="7.2519612"
+       inkscape:export-xdpi="51.208572"
+       inkscape:export-ydpi="51.208572"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\french_flag_thought1_spec.png" />
+    <text
+       xml:space="preserve"
+       style="font-size:7.09114px;line-height:1.25;font-family:sans-serif;stroke-width:0.177279"
+       x="-1831.0229"
+       y="728.15259"
+       id="text45796"
+       inkscape:export-xdpi="51.208572"
+       inkscape:export-ydpi="51.208572"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\french_flag_thought1_spec.png"><tspan
+         sodipodi:role="line"
+         id="tspan45792"
+         x="-1831.0229"
+         y="728.15259"
+         style="stroke-width:0.177279">寬 300</tspan><tspan
+         sodipodi:role="line"
+         x="-1831.0229"
+         y="737.01654"
+         style="stroke-width:0.177279"
+         id="tspan45794" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.09114px;line-height:1.25;font-family:sans-serif;stroke-width:0.177279"
+       x="-1693.8176"
+       y="728.15259"
+       id="text45802"
+       inkscape:export-xdpi="51.208572"
+       inkscape:export-ydpi="51.208572"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\french_flag_thought1_spec.png"><tspan
+         sodipodi:role="line"
+         id="tspan45798"
+         x="-1693.8176"
+         y="728.15259"
+         style="stroke-width:0.177279">寬 200</tspan><tspan
+         sodipodi:role="line"
+         x="-1693.8176"
+         y="737.01654"
+         style="stroke-width:0.177279"
+         id="tspan45800" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.09114px;line-height:1.25;font-family:sans-serif;stroke-width:0.177279"
+       x="-1594.0319"
+       y="727.39661"
+       id="text45808"
+       inkscape:export-xdpi="51.208572"
+       inkscape:export-ydpi="51.208572"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\french_flag_thought1_spec.png"><tspan
+         sodipodi:role="line"
+         id="tspan45804"
+         x="-1594.0319"
+         y="727.39661"
+         style="stroke-width:0.177279">寬 100</tspan><tspan
+         sodipodi:role="line"
+         x="-1594.0319"
+         y="736.26056"
+         style="stroke-width:0.177279"
+         id="tspan45806" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.09114px;line-height:1.25;font-family:sans-serif;writing-mode:vertical-lr;stroke-width:0.177279"
+       x="-1727.3313"
+       y="757.55109"
+       id="text47316"
+       inkscape:export-xdpi="51.208572"
+       inkscape:export-ydpi="51.208572"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\french_flag_thought1_spec.png"><tspan
+         sodipodi:role="line"
+         id="tspan47312"
+         x="911.38739"
+         y="-1881.1676"
+         style="writing-mode:vertical-lr;stroke-width:0.177279">高 200</tspan><tspan
+         sodipodi:role="line"
+         x="911.38739"
+         y="-1871.9304"
+         style="writing-mode:vertical-lr;stroke-width:0.177279"
+         id="tspan47314" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.09114px;line-height:1.25;font-family:sans-serif;writing-mode:vertical-lr;stroke-width:0.177279"
+       x="-1609.7808"
+       y="757.55109"
+       id="text47322"
+       inkscape:export-xdpi="51.208572"
+       inkscape:export-ydpi="51.208572"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\french_flag_thought1_spec.png"><tspan
+         sodipodi:role="line"
+         id="tspan47318"
+         x="875.10168"
+         y="-1727.3313"
+         style="writing-mode:vertical-lr;stroke-width:0.177279">高 200</tspan><tspan
+         sodipodi:role="line"
+         x="875.10168"
+         y="-1718.0941"
+         style="writing-mode:vertical-lr;stroke-width:0.177279"
+         id="tspan47320" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:6.00154px;line-height:1.25;font-family:sans-serif;stroke-width:0.150039"
+       x="-1733.6713"
+       y="731.336"
+       id="text47699"
+       inkscape:export-xdpi="51.208572"
+       inkscape:export-ydpi="51.208572"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\french_flag_thought1_spec.png"><tspan
+         sodipodi:role="line"
+         id="tspan47697"
+         x="-1733.6713"
+         y="731.336"
+         style="stroke-width:0.150039">起點</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:6.00154px;line-height:1.25;font-family:sans-serif;stroke-width:0.150039"
+       x="-1615.8054"
+       y="731.336"
+       id="text47703"
+       inkscape:export-xdpi="51.208572"
+       inkscape:export-ydpi="51.208572"
+       inkscape:export-filename="D:\py4t\py4t-development\docs\lesson\national_flag\french_flag_thought1_spec.png"><tspan
+         sodipodi:role="line"
+         id="tspan47701"
+         x="-1615.8054"
+         y="731.336"
+         style="stroke-width:0.150039">起點</tspan></text>
   </g>
 </svg>

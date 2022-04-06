@@ -1,7 +1,7 @@
-thonny-postit==0.13.1
+thonny-postit==0.14
 pie4t==0.0.9
 turtle4t==0.0.3
-threed4t==0.0.3
+threed4t==0.0.4
 cv4t==0.0.5
 serial4t==0.0.1
 speech4t==0.0.5
