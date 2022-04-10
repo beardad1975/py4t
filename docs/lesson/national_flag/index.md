@@ -35,7 +35,7 @@ hide:
 
 <iframe width="480" height="270" src="https://www.youtube.com/embed/FX5F3pk5MWU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-: <sup>(資料來源:</sup>[^tokyo_olympics_badminton]<sup>)</sup>
+: <sup>(1分31秒, 資料來源:</sup>[^tokyo_olympics_badminton]<sup>)</sup>
 
 [^tokyo_olympics_badminton]: 經典影音館 2020東京奧運 李洋/王齊麟 #麟洋配 男子羽球雙打金牌頒獎 #國旗歌 (2021.07.31) , By 台灣天眼 , [youtube連結](https://www.youtube.com/watch?v=FX5F3pk5MWU)  
 

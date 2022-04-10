@@ -13,7 +13,7 @@ hide:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/G0EVIYU59zk?start=0&amp;end=125" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-: <sup>(資料來源:</sup>[^car_collision]<sup>)</sup>
+: <sup>(2分05秒, 資料來源:</sup>[^car_collision]<sup>)</sup>
 
 [^car_collision]: 汽車撞擊測試, By 消費者委員會(香港), [youtube連結](https://www.youtube.com/watch?v=G0EVIYU59zk) 
 
@@ -164,7 +164,7 @@ hide:
 <br/><br/><br/> 
 
 ----------------------------
-##  📘 實作
+##  📘 實作(7)
 
 
 ###  ***程式結構***
@@ -179,19 +179,35 @@ hide:
 
 
 
-初步完成規畫後，就可以動手寫程式的主要結構。
+初步完成規劃後，就可以動手寫程式的主要結構。
 
 <br/>
 
-???+ example "範例程式 程式結構"
+???+ example "專題實作 範例 (1/7 新檔) --- 程式結構"
 
-    === "🎦Py4t操作影片"
+    === "🎦Py4t操作影片(4:18)"
     
         <iframe width="560" height="315" src="https://www.youtube.com/embed/dIjMzArPjqI?start=2&amp;end=260" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    === "💻Python程式截圖"
+    === "💻Python程式碼"
 
-        ![程式截圖](snapshot/collision_lab_structure.jpg) 
+        ```python
+        from 物理模組 import *
+        舞台 = 物理引擎(800,800)
+                    
+        def 按下鍵盤時(按鍵, x, y):
+            if 按鍵 == key.LEFT :
+                print('柱')
+            if 按鍵 == key.RIGHT :
+                print('牆')
+            if 按鍵 == key.UP :
+                print('金字塔')
+
+        def 按下滑鼠時(x, y):
+            print('發射')
+
+        模擬主迴圈()
+        ``` 
 
 
 ??? abstract "模擬主迴圈"
@@ -231,15 +247,35 @@ hide:
 <br/>
 
 
-???+ example "範例程式 發射撞擊物"
+???+ example "專題實作 範例 (2/7 接續) --- 發射撞擊物"
 
-    === "🎦Py4t操作影片"
+    === "🎦Py4t操作影片(1:55)"
     
         <iframe width="560" height="315" src="https://www.youtube.com/embed/dIjMzArPjqI?start=263&amp;end=378" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    === "💻Python程式截圖"
+    === "💻Python程式碼"
 
-        ![程式截圖](snapshot/collision_lab_launch.jpg) 
+        ```python
+        from 物理模組 import *
+        舞台 = 物理引擎(800,800)
+
+        def 按下鍵盤時(按鍵, x, y):
+            if 按鍵 == key.LEFT :
+                print('柱')
+            if 按鍵 == key.RIGHT :
+                print('牆')
+            if 按鍵 == key.UP :
+                print('金字塔')
+
+        def 按下滑鼠時(x, y):
+            print('發射')
+            物體 = 新增圓球(半徑=20)
+            物體.位置 = [0, y]
+            向量 = [2000, 200]
+            物體.施加衝力(向量)
+            
+        模擬主迴圈()
+        ``` 
 
 <br/><br/><br/>
 
@@ -262,15 +298,41 @@ hide:
 
 <br/>
 
-???+ example "範例程式 柱"
+???+ example "專題實作 範例 (3/7 接續) --- 柱"
 
-    === "🎦Py4t操作影片"
+    === "🎦Py4t操作影片(3:30)"
     
         <iframe width="560" height="315" src="https://www.youtube.com/embed/dIjMzArPjqI?start=380&amp;end=590" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    === "💻Python程式截圖"
+    === "💻Python程式碼"
 
-        ![程式截圖](snapshot/collision_lab_pillar.jpg) 
+        ```python
+        from 物理模組 import *
+        舞台 = 物理引擎(800,800)
+
+        def 柱(x, y) :
+            for 直 in range(10) :
+                物體 = 新增方塊(寬=20,高=20)
+                物體.位置 = [x, y + 20 * 直]
+                
+        def 按下鍵盤時(按鍵, x, y):
+            if 按鍵 == key.LEFT :
+                print('柱')
+                柱(x, y)
+            if 按鍵 == key.RIGHT :
+                print('牆')
+            if 按鍵 == key.UP :
+                print('金字塔')
+
+        def 按下滑鼠時(x, y):
+            print('發射')
+            物體 = 新增圓球(半徑=20)
+            物體.位置 = [0, y]
+            向量 = [2000, 200]
+            物體.施加衝力(向量)
+            
+        模擬主迴圈()
+        ```
 
 ??? abstract "結構化程式設計"
 
@@ -297,15 +359,48 @@ hide:
 
 <br/>
 
-???+ example "範例程式 牆"
+???+ example "專題實作 範例 (4/7 接續) --- 牆"
 
-    === "🎦Py4t操作影片"
+    === "🎦Py4t操作影片(2:07)"
     
         <iframe width="560" height="315" src="https://www.youtube.com/embed/dIjMzArPjqI?start=595&amp;end=722" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    === "💻Python程式截圖"
+    === "💻Python程式碼"
 
-        ![程式截圖](snapshot/collision_lab_wall.jpg) 
+        ```python
+        from 物理模組 import *
+        舞台 = 物理引擎(800,800)
+
+        def 柱(x, y) :
+            for 直 in range(10) :
+                物體 = 新增方塊(寬=20,高=20)
+                物體.位置 = [x, y + 20 * 直]
+
+        def 牆(x, y) :
+            for 橫 in range(10) :
+                for 直 in range(10) :
+                    物體 = 新增方塊(寬=20,高=20)
+                    物體.位置 = [x + 20 * 橫, y + 20 * 直]
+
+        def 按下鍵盤時(按鍵, x, y):
+            if 按鍵 == key.LEFT :
+                print('柱')
+                柱(x, y)
+            if 按鍵 == key.RIGHT :
+                print('牆')
+                牆(x, y)
+            if 按鍵 == key.UP :
+                print('金字塔')
+
+        def 按下滑鼠時(x, y):
+            print('發射')
+            物體 = 新增圓球(半徑=20)
+            物體.位置 = [0, y]
+            向量 = [2000, 200]
+            物體.施加衝力(向量)
+            
+        模擬主迴圈()
+        ``` 
 
 <br/><br/><br/>
 
@@ -328,15 +423,55 @@ hide:
 <br/>
 
 
-???+ example "範例程式 金字塔"
+???+ example "專題實作 範例 (5/7 接續) --- 金字塔"
 
-    === "🎦Py4t操作影片"
+    === "🎦Py4t操作影片(2:41)"
     
         <iframe width="560" height="315" src="https://www.youtube.com/embed/dIjMzArPjqI?start=725&amp;end=886" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    === "💻Python程式截圖"
+    === "💻Python程式碼"
 
-        ![程式截圖](snapshot/collision_lab_pyramid.jpg) 
+        ```python
+        from 物理模組 import *
+        舞台 = 物理引擎(800,800)
+
+        def 柱(x, y) :
+            for 直 in range(10) :
+                物體 = 新增方塊(寬=20,高=20)
+                物體.位置 = [x, y + 20 * 直]
+
+        def 牆(x, y) :
+            for 橫 in range(10) :
+                for 直 in range(10) :
+                    物體 = 新增方塊(寬=20,高=20)
+                    物體.位置 = [x + 20 * 橫, y + 20 * 直]
+
+        def 金字塔(x, y) :
+            for 橫 in range(10) :
+                for 直 in range(10 - 橫) :
+                    物體 = 新增方塊(寬=20,高=20)
+                    物體.位置 = [x + 20 * 橫 + 10 * 直, y + 20 * 直]
+
+        def 按下鍵盤時(按鍵, x, y):
+            if 按鍵 == key.LEFT :
+                print('柱')
+                柱(x, y)
+            if 按鍵 == key.RIGHT :
+                print('牆')
+                牆(x, y)
+            if 按鍵 == key.UP :
+                print('金字塔')
+                金字塔(x, y)
+
+        def 按下滑鼠時(x, y):
+            print('發射')
+            物體 = 新增圓球(半徑=20)
+            物體.位置 = [0, y]
+            向量 = [2000, 200]
+            物體.施加衝力(向量)
+            
+        模擬主迴圈()
+        ``` 
 
 
 <br/><br/><br/>
@@ -367,15 +502,64 @@ hide:
 
 
 
-???+ example "範例程式 實驗組與對照組"
+???+ example "專題實作 範例 (6/7 接續) --- 實驗組與對照組"
 
-    === "🎦Py4t操作影片"
+    === "🎦Py4t操作影片(2:06)"
     
         <iframe width="560" height="315" src="https://www.youtube.com/embed/dIjMzArPjqI?start=888&amp;end=1014" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    === "💻Python程式截圖"
+    === "💻Python程式碼"
 
-        ![程式截圖](snapshot/collision_lab_experiment_and_control.jpg) 
+        ```python
+        from 物理模組 import *
+        舞台 = 物理引擎(800,800)
+
+        def 柱(x, y) :
+            for 直 in range(10) :
+                物體 = 新增方塊(寬=20,高=20)
+                物體.位置 = [x, y + 20 * 直]
+
+        def 牆(x, y) :
+            for 橫 in range(10) :
+                for 直 in range(10) :
+                    物體 = 新增方塊(寬=20,高=20)
+                    物體.位置 = [x + 20 * 橫, y + 20 * 直]
+
+        def 金字塔(x, y) :
+            for 橫 in range(10) :
+                for 直 in range(10 - 橫) :
+                    物體 = 新增方塊(寬=20,高=20)
+                    物體.位置 = [x + 20 * 橫 + 10 * 直, y + 20 * 直]
+
+        def 按下鍵盤時(按鍵, x, y):
+            if 按鍵 == key.LEFT :
+                print('柱')
+                柱(x, y)
+            if 按鍵 == key.RIGHT :
+                print('牆')
+                牆(x, y)
+            if 按鍵 == key.UP :
+                print('金字塔')
+                金字塔(x, y)
+
+        def 按下滑鼠時(x, y):
+            print('發射')
+            
+            if y > 400 :
+                print('實驗組')
+                物體 = 新增圓球(半徑=20)
+                物體.位置 = [0, y]
+                向量 = [2000, 200]
+                物體.施加衝力(向量)
+            else :
+                print('對照組')
+                物體 = 新增圓球(半徑=20)
+                物體.位置 = [0, y]
+                向量 = [2000, 200]
+                物體.施加衝力(向量)
+
+        模擬主迴圈()
+        ``` 
 
 
 <br/><br/><br/>
@@ -400,7 +584,7 @@ hide:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/DG44CT46rSM?start=0&amp;end=137" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-: <sup>(資料來源:</sup>[^density]<sup>)</sup>
+: <sup>(2分17秒, 資料來源:</sup>[^density]<sup>)</sup>
 
 [^density]: 基本測量 密度的測量, By 均一教育平台 Junyi Academy, [youtube連結](https://www.youtube.com/watch?v=DG44CT46rSM) 
 
@@ -411,22 +595,76 @@ hide:
 <br/>
 
 
-???+ example "範例程式 撞擊測試"
+???+ example "專題實作 範例 (7/7 接續) --- 撞擊測試"
 
-    === "🎦Py4t操作影片"
+    === "🎦Py4t操作影片(4:11)"
     
         <iframe width="560" height="315" src="https://www.youtube.com/embed/dIjMzArPjqI?start=1016&amp;end=1267" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    === "💻Python程式截圖"
+    === "💻Python程式碼"
 
-        ![程式截圖](snapshot/collision_lab_test.jpg) 
+        ```python
+        from 物理模組 import *
+        舞台 = 物理引擎(800,800)
+
+        def 柱(x, y) :
+            for 直 in range(10) :
+                物體 = 新增方塊(寬=20,高=20)
+                物體.位置 = [x, y + 20 * 直]
+                物體.密度 = 1
+
+        def 牆(x, y) :
+            for 橫 in range(10) :
+                for 直 in range(10) :
+                    物體 = 新增方塊(寬=20,高=20)
+                    物體.位置 = [x + 20 * 橫, y + 20 * 直]
+                    物體.密度 = 1
+
+        def 金字塔(x, y) :
+            for 橫 in range(10) :
+                for 直 in range(10 - 橫) :
+                    物體 = 新增方塊(寬=20,高=20)
+                    物體.位置 = [x + 20 * 橫 + 10 * 直, y + 20 * 直]
+                    物體.密度 = 1
+
+        def 按下鍵盤時(按鍵, x, y):
+            if 按鍵 == key.LEFT :
+                print('柱')
+                柱(x, y)
+            if 按鍵 == key.RIGHT :
+                print('牆')
+                牆(x, y)
+            if 按鍵 == key.UP :
+                print('金字塔')
+                金字塔(x, y)
+
+        def 按下滑鼠時(x, y):
+            print('發射')
+            
+            if y > 400 :
+                print('實驗組')
+                物體 = 新增圓球(半徑=60)
+                物體.位置 = [0, y]
+                向量 = [2000, 200]
+                物體.施加衝力(向量)
+                物體.密度 = 10
+            else :
+                print('對照組')
+                物體 = 新增圓球(半徑=60)
+                物體.位置 = [0, y]
+                向量 = [2000, 200]
+                物體.施加衝力(向量)
+                物體.密度 = 1
+
+        模擬主迴圈()
+        ```
 
 
 <br/><br/><br/>
 
 
 ----------------------------
-##  📙 擴展
+##  📙 擴展(2)
 
 
 ### ***慢動作***
@@ -439,7 +677,7 @@ hide:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0-pZ4t-kAWw?start=0&amp;end=36" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-: <sup>(資料來源:</sup>[^slow_motion]<sup>)</sup>
+: <sup>(36秒, 資料來源:</sup>[^slow_motion]<sup>)</sup>
 
 [^slow_motion]: EVERYTHING Looks Better in Slow Motion, By Legendary Shots, [youtube連結](https://youtu.be/0-pZ4t-kAWw) 
 
@@ -451,15 +689,74 @@ hide:
 
 <br/>
 
-???+ example "範例程式 慢動作"
+???+ example "專題擴展 範例 (1/2 接續) --- 慢動作"
 
-    === "🎦Py4t操作影片"
+    === "🎦Py4t操作影片(2:26)"
     
         <iframe width="560" height="315" src="https://www.youtube.com/embed/dIjMzArPjqI?start=1269&amp;end=1415" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    === "💻Python程式截圖"
+    === "💻Python程式碼"
 
-        ![程式截圖](snapshot/collision_lab_slow_motion.jpg) 
+        ```python
+        from 物理模組 import *
+        舞台 = 物理引擎(800,800)
+
+        def 柱(x, y) :
+            for 直 in range(10) :
+                物體 = 新增方塊(寬=20,高=20)
+                物體.位置 = [x, y + 20 * 直]
+                物體.密度 = 1
+
+        def 牆(x, y) :
+            for 橫 in range(10) :
+                for 直 in range(10) :
+                    物體 = 新增方塊(寬=20,高=20)
+                    物體.位置 = [x + 20 * 橫, y + 20 * 直]
+                    物體.密度 = 1
+
+        def 金字塔(x, y) :
+            for 橫 in range(10) :
+                for 直 in range(10 - 橫) :
+                    物體 = 新增方塊(寬=20,高=20)
+                    物體.位置 = [x + 20 * 橫 + 10 * 直, y + 20 * 直]
+                    物體.密度 = 1
+
+        def 按下鍵盤時(按鍵, x, y):
+            if 按鍵 == key.LEFT :
+                print('柱')
+                柱(x, y)
+            if 按鍵 == key.RIGHT :
+                print('牆')
+                牆(x, y)
+            if 按鍵 == key.UP :
+                print('金字塔')
+                金字塔(x, y)
+            if 按鍵 == key.SPACE :
+                舞台.慢動作 = True
+
+        def 放開鍵盤時(按鍵, x, y):
+            舞台.慢動作 = False
+
+        def 按下滑鼠時(x, y):
+            print('發射')
+            
+            if y > 400 :
+                print('實驗組')
+                物體 = 新增圓球(半徑=60)
+                物體.位置 = [0, y]
+                向量 = [2000, 200]
+                物體.施加衝力(向量)
+                物體.密度 = 10
+            else :
+                print('對照組')
+                物體 = 新增圓球(半徑=60)
+                物體.位置 = [0, y]
+                向量 = [2000, 200]
+                物體.施加衝力(向量)
+                物體.密度 = 1
+
+        模擬主迴圈()
+        ``` 
 
 <br/><br/><br/>
 
@@ -476,7 +773,7 @@ hide:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/JFEkpBhBJug?start=0&amp;end=166" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-: <sup>(資料來源:</sup>[^student_shoot_target]<sup>)</sup>
+: <sup>(2分46秒, 資料來源:</sup>[^student_shoot_target]<sup>)</sup>
 
 [^student_shoot_target]: 2017.03.29國軍教學生打靶 培養高中"神射手", By udn video, [youtube連結](https://youtu.be/JFEkpBhBJug) 
 
@@ -489,15 +786,74 @@ hide:
 
 <br/>
 
-???+ example "範例程式 子彈射擊"
+???+ example "專題擴展 範例 (2/2 接續) --- 子彈射擊"
 
-    === "🎦Py4t操作影片"
+    === "🎦Py4t操作影片(1:44)"
     
         <iframe width="560" height="315" src="https://www.youtube.com/embed/dIjMzArPjqI?start=1417&amp;end=1521" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    === "💻Python程式截圖"
+    === "💻Python程式碼"
 
-        ![程式截圖](snapshot/collision_lab_bullet.jpg) 
+        ```python
+        from 物理模組 import *
+        舞台 = 物理引擎(800,800)
+
+        def 柱(x, y) :
+            for 直 in range(10) :
+                物體 = 新增方塊(寬=20,高=20)
+                物體.位置 = [x, y + 20 * 直]
+                物體.密度 = 1
+                
+        def 牆(x, y) :
+            for 橫 in range(10) :
+                for 直 in range(10) :
+                    物體 = 新增方塊(寬=20,高=20)
+                    物體.位置 = [x + 20 * 橫, y + 20 * 直]
+                    物體.密度 = 1
+                    
+        def 金字塔(x, y) :
+            for 橫 in range(10) :
+                for 直 in range(10 - 橫) :
+                    物體 = 新增方塊(寬=20,高=20)
+                    物體.位置 = [x + 20 * 橫 + 10 * 直, y + 20 * 直]
+                    物體.密度 = 1
+
+        def 按下鍵盤時(按鍵, x, y):
+            if 按鍵 == key.LEFT :
+                print('柱')
+                柱(x, y)
+            if 按鍵 == key.RIGHT :
+                print('牆')
+                牆(x, y)
+            if 按鍵 == key.UP :
+                print('金字塔')
+                金字塔(x, y)
+            if 按鍵 == key.SPACE :
+                舞台.慢動作 = True
+
+        def 放開鍵盤時(按鍵, x, y):
+            舞台.慢動作 = False
+
+        def 按下滑鼠時(x, y):
+            print('發射')
+            
+            if y > 400 :
+                print('實驗組')
+                物體 = 新增圓球(半徑=10)
+                物體.位置 = [0, y]
+                向量 = [100000, 200]
+                物體.施加衝力(向量)
+                物體.密度 = 1
+            else :
+                print('對照組')
+                物體 = 新增圓球(半徑=10)
+                物體.位置 = [0, y]
+                向量 = [2000, 200]
+                物體.施加衝力(向量)
+                物體.密度 = 1
+
+        模擬主迴圈()
+        ```
 
 <br/><br/><br/>
 

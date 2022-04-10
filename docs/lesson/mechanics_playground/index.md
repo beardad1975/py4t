@@ -7,21 +7,25 @@ hide:
 
 電腦除了計算以外，也可以模擬科學實驗，幫助學習者理解概念。
 
-讓我們使用Py4t來進行各種有趣的 **力與運動程式模擬** 吧！
+讓我們使用Py4t物理程式來進行各種有趣的 **力與運動程式模擬** 吧！
 
 在體驗之後，未來學習相關的自然課或理化課時，就會更有 **學習的動機**哦。
+
+??? info "關於物理程式"
+
+     :fontawesome-solid-link: <a href="../../pie4t/" target="_blank">物理學習模組 說明</a>
 
 <br/><br/><br/> 
 
 ----------------------------
 
-##  📕 球的彈性
+##  📕 球的彈性(3)
 
 ----------------------------
 
 很多同學下課時喜歡打球，球有趣之處是會有產生各種不同的彈跳。
 
-彈性是什麼？彈性可以測量嗎？
+想一想，彈性是什麼？彈性可以測量嗎？
 
 ![圓球](campus_basketball.jpg)
 
@@ -47,10 +51,10 @@ hide:
 
 <br/>
 
-???+ example "範例程式 新增圓球"
+???+ example "球的彈性 範例 (1/3 新檔) --- 新增圓球"
 
 
-    === "🎦Py4t操作影片"
+    === "🎦Py4t操作影片(2:07)"
     
         <iframe width="560" height="315" src="https://www.youtube.com/embed/sIAgw3FryX8?start=1&amp;end=128" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -83,7 +87,7 @@ hide:
  
 <iframe width="560" height="315" src="https://www.youtube.com/embed/_RWqefx0vAg?start=95&amp;end=215" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-: <sup>(資料來源:</sup>[^super_bounce]<sup>)</sup>
+: <sup>(2分00秒, 資料來源:</sup>[^super_bounce]<sup>)</sup>
 
 
 
@@ -104,9 +108,9 @@ hide:
 
 <br/>
 
-???+ example "範例程式 恢復係數"
+???+ example "球的彈性 範例 (2/3 接續) --- 恢復係數"
 
-    === "🎦Py4t操作影片"
+    === "🎦Py4t操作影片(2:00)"
     
         <iframe width="560" height="315" src="https://www.youtube.com/embed/sIAgw3FryX8?start=131&amp;end=251" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -133,7 +137,7 @@ hide:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/_RWqefx0vAg?start=227&amp;end=414" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-: <sup>(資料來源:</sup>[^super_bounce]<sup>)</sup>
+: <sup>(3分07秒, 資料來源:</sup>[^super_bounce]<sup>)</sup>
 
 <br/><br/>
 
@@ -149,10 +153,10 @@ hide:
 
 <br/>
 
-???+ example "範例程式 超強彈性體"
+???+ example "球的彈性 範例 (3/3 接續) --- 超強彈性體"
 
 
-    === "🎦Py4t操作影片"
+    === "🎦Py4t操作影片(2:37)"
     
         <iframe width="560" height="315" src="https://www.youtube.com/embed/sIAgw3FryX8?start=253&amp;end=410" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -175,7 +179,7 @@ hide:
 
 ----------------------------
 
-##  📒 力與斜面
+##  📒 力與斜面(4)
 
 ----------------------------
 
@@ -215,10 +219,10 @@ Py4t物理學習模組內建了地形的輔助功能，會使用到Ctrl鍵及Alt
 
 <br/>
 
-???+ example "範例程式 新增球與斜面"
+???+ example "力與斜面 範例 (1/4 新檔) --- 新增球與斜面"
 
 
-    === "🎦Py4t操作影片"
+    === "🎦Py4t操作影片(5:00)"
     
         <iframe width="560" height="315" src="https://www.youtube.com/embed/U3dnShwtdDQ?start=2&amp;end=302" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -245,9 +249,9 @@ Py4t物理學習模組內建了地形的輔助功能，會使用到Ctrl鍵及Alt
 
 <br/>
 
-???+ example "範例程式 落下速度比較"
+???+ example "力與斜面 範例 (2/4 接續) --- 速度比較"
 
-    === "🎦Py4t操作影片"
+    === "🎦Py4t操作影片(0:36)"
     
         <iframe width="560" height="315" src="https://www.youtube.com/embed/U3dnShwtdDQ?start=303&amp;end=339" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -274,7 +278,7 @@ Py4t物理學習模組內建了地形的輔助功能，會使用到Ctrl鍵及Alt
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/JdMkAvibBec?start=12&amp;end=96" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-: <sup>(資料來源:</sup>[^disappear_friction]<sup>)</sup>
+: <sup>(1分24秒, 資料來源:</sup>[^disappear_friction]<sup>)</sup>
 
 [^disappear_friction]: 如果摩擦力消失一分鐘？, By 大膽科學, [youtube連結](https://www.youtube.com/watch?v=JdMkAvibBec&t=12s)
 
@@ -292,9 +296,9 @@ Py4t物理學習模組內建了地形的輔助功能，會使用到Ctrl鍵及Alt
 
 <br/>
 
-???+ example "範例程式 摩擦力"
+???+ example "力與斜面 範例 (3/4 接續) --- 摩擦力"
 
-    === "🎦Py4t操作影片"
+    === "🎦Py4t操作影片(2:43)"
     
         <iframe width="560" height="315" src="https://www.youtube.com/embed/U3dnShwtdDQ?start=341&amp;end=504" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -321,7 +325,7 @@ Py4t物理學習模組內建了地形的輔助功能，會使用到Ctrl鍵及Alt
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/oPsfwZXCf1s?start=14&amp;end=77" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-: <sup>(資料來源:</sup>[^skateboard]<sup>)</sup>
+: <sup>(1分03秒, 資料來源:</sup>[^skateboard]<sup>)</sup>
 
 [^skateboard]: 8歲女孩成功挑戰5公尺極限滑板, By 即新聞, [youtube連結](https://www.youtube.com/watch?v=oPsfwZXCf1s&t=14s)
 
@@ -332,10 +336,10 @@ Py4t物理學習模組內建了地形的輔助功能，會使用到Ctrl鍵及Alt
 
 <br/>
 
-???+ example "範例程式 施力"
+???+ example "力與斜面 範例 (4/4 接續) --- 施力"
 
 
-    === "🎦Py4t操作影片"
+    === "🎦Py4t操作影片(2:08)"
     
         <iframe width="560" height="315" src="https://www.youtube.com/embed/U3dnShwtdDQ?start=505&amp;end=633" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -351,7 +355,7 @@ Py4t物理學習模組內建了地形的輔助功能，會使用到Ctrl鍵及Alt
 
 ----------------------------
 
-##  📗 噴射拋體
+##  📗 噴射拋體(2)
 
 ----------------------------
 
@@ -359,7 +363,7 @@ Py4t物理學習模組內建了地形的輔助功能，會使用到Ctrl鍵及Alt
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/EkiaYNEAagA?start=0&amp;end=118" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-: <sup>(資料來源:</sup>[^shot_put]<sup>)</sup>
+: <sup>(1分58秒, 資料來源:</sup>[^shot_put]<sup>)</sup>
 
 [^shot_put]: 超越人類極限【金牌鉛球國手】巨人手掌宛如人體砲臺發射器, By 健人蓋伊, [youtube連結](https://www.youtube.com/watch?v=EkiaYNEAagA)
 
@@ -377,7 +381,7 @@ Py4t物理學習模組內建了地形的輔助功能，會使用到Ctrl鍵及Alt
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/bhavS93SEaM?start=32&amp;end=97" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-: <sup>(資料來源:</sup>[^projectile_motion]<sup>)</sup>
+: <sup>(1分05秒, 資料來源:</sup>[^projectile_motion]<sup>)</sup>
 
 [^projectile_motion]: 吉娃斯科學小教室｜#37 : 拋體運動｜動能、重力、運動半徑｜兒童科普動畫, By 
 EngineTV 原金動畫, [youtube連結](https://www.youtube.com/watch?v=bhavS93SEaM&t=32s)
@@ -397,10 +401,10 @@ EngineTV 原金動畫, [youtube連結](https://www.youtube.com/watch?v=bhavS93SE
 
 <br/>
 
-???+ example "範例程式 拋體運動"
+???+ example "噴射拋體 範例 (1/2 新檔) --- 拋體運動"
 
 
-    === "🎦Py4t操作影片"
+    === "🎦Py4t操作影片(3:10)"
     
         <iframe width="560" height="315" src="https://www.youtube.com/embed/UgJ6ed8H03Q?start=2&amp;end=192" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -429,7 +433,7 @@ EngineTV 原金動畫, [youtube連結](https://www.youtube.com/watch?v=bhavS93SE
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/HGBoMrsC0iE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-: <sup>(資料來源:</sup>[^sprinkler]<sup>)</sup>
+: <sup>(9秒, 資料來源:</sup>[^sprinkler]<sup>)</sup>
 
 [^sprinkler]: 太陽能系統-自動灑水器-噴水頭, By CHIJIJOHNNY, [youtube連結](https://www.youtube.com/watch?v=HGBoMrsC0iE)
 
@@ -448,10 +452,10 @@ EngineTV 原金動畫, [youtube連結](https://www.youtube.com/watch?v=bhavS93SE
 
 <br/>
 
-???+ example "範例程式 連續噴射"
+???+ example "噴射拋體 範例 (2/2 接續) --- 連續噴射"
 
 
-    === "🎦Py4t操作影片"
+    === "🎦Py4t操作影片(3:10)"
     
         <iframe width="560" height="315" src="https://www.youtube.com/embed/UgJ6ed8H03Q?start=193&amp;end=383" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -470,7 +474,7 @@ EngineTV 原金動畫, [youtube連結](https://www.youtube.com/watch?v=bhavS93SE
 
 ----------------------------
 
-##  📗 重力控制
+##  📗 重力控制(2)
 
 ----------------------------
 
@@ -495,7 +499,7 @@ EngineTV 原金動畫, [youtube連結](https://www.youtube.com/watch?v=bhavS93SE
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/UVGgrLqsAzw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-: <sup>(資料來源:</sup>[^space_pizza]<sup>)</sup>
+: <sup>(1分00秒, 資料來源:</sup>[^space_pizza]<sup>)</sup>
 
 [^space_pizza]: Pizza Night on the Space Station!, By NASA, [youtube連結](https://youtu.be/UVGgrLqsAzw)
 
@@ -510,10 +514,10 @@ EngineTV 原金動畫, [youtube連結](https://www.youtube.com/watch?v=bhavS93SE
 
 <br/>
 
-???+ example "範例程式 無重力狀態"
+???+ example "重力控制 範例 (1/2 新檔) --- 無重力狀態"
 
 
-    === "🎦Py4t操作影片"
+    === "🎦Py4t操作影片(5:43)"
     
         <iframe width="560" height="315" src="https://www.youtube.com/embed/I_i5OyGIObQ?start=0&amp;end=343" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -550,9 +554,9 @@ EngineTV 原金動畫, [youtube連結](https://www.youtube.com/watch?v=bhavS93SE
 
 來看看在國際太空站的太空人如何進行趣味奧運比賽。
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ZlPpHILyEl4?start=0&amp;end=54" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZlPpHILyEl4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-: <sup>(資料來源:</sup>[^space_olympics]<sup>)</sup>
+: <sup>(1分14秒, 資料來源:</sup>[^space_olympics]<sup>)</sup>
 
 [^space_olympics]: Highlights from the first-ever space Olympics!, By 
 NASA, [youtube連結](https://www.youtube.com/watch?v=ZlPpHILyEl4)
@@ -564,9 +568,9 @@ NASA, [youtube連結](https://www.youtube.com/watch?v=ZlPpHILyEl4)
 
 <br/>
 
-???+ example "範例程式 重力搬運"
+???+ example "重力控制 範例 (2/2 接續) --- 重力搬運"
 
-    === "🎦Py4t操作影片"
+    === "🎦Py4t操作影片(5:20)"
     
         <iframe width="560" height="315" src="https://www.youtube.com/embed/I_i5OyGIObQ?start=347&amp;end=667" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -589,7 +593,7 @@ NASA, [youtube連結](https://www.youtube.com/watch?v=ZlPpHILyEl4)
 
 ----------------------------
 
-##  📙 彈性排列
+##  📙 彈性排列(3)
 
 ----------------------------
 
@@ -597,7 +601,7 @@ NASA, [youtube連結](https://www.youtube.com/watch?v=ZlPpHILyEl4)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/P7QrXW4ky34" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-: <sup>(資料來源:</sup>[^rope_wave]<sup>)</sup>
+: <sup>(31秒, 資料來源:</sup>[^rope_wave]<sup>)</sup>
 
 [^rope_wave]: 繩波示波器, By 國中理化教學資料庫, [youtube連結](https://www.youtube.com/watch?v=P7QrXW4ky34)
 
@@ -618,10 +622,10 @@ NASA, [youtube連結](https://www.youtube.com/watch?v=ZlPpHILyEl4)
 
 <br/>
 
-???+ example "範例程式 固定球數"
+???+ example "彈性排列 範例 (1/3 新檔) --- 固定球數"
 
 
-    === "🎦Py4t操作影片"
+    === "🎦Py4t操作影片(4:00)"
     
         <iframe width="560" height="315" src="https://www.youtube.com/embed/U9DAN6NbkbY?start=0&amp;end=240" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -663,10 +667,10 @@ NASA, [youtube連結](https://www.youtube.com/watch?v=ZlPpHILyEl4)
 
 <br/>
 
-???+ example "範例程式 變數模式識別"
+???+ example "彈性排列 範例 (2/3 接續) --- 變數模式識別"
 
 
-    === "🎦Py4t操作影片"
+    === "🎦Py4t操作影片(2:43)"
     
         <iframe width="560" height="315" src="https://www.youtube.com/embed/U9DAN6NbkbY?start=243&amp;end=406" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -690,10 +694,10 @@ NASA, [youtube連結](https://www.youtube.com/watch?v=ZlPpHILyEl4)
 
 <br/>
 
-???+ example "範例程式 不同波動變化"
+???+ example "彈性排列 範例 (3/3 接續) --- 不同波動變化"
 
 
-    === "🎦Py4t操作影片"
+    === "🎦Py4t操作影片(4:12)"
     
         <iframe width="560" height="315" src="https://www.youtube.com/embed/U9DAN6NbkbY?start=408&amp;end=660" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

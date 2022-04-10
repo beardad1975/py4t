@@ -113,7 +113,7 @@ hide:
 <br/><br/><br/> 
 
 ----------------------------
-##  📘 實作
+##  📘 實作(4)
 
 
 ###  ***程式結構***
@@ -138,15 +138,39 @@ hide:
 
 <br/>
 
-???+ example "範例程式 程式結構"
+???+ example "專題實作 範例 (1/4 新檔) --- 程式結構"
 
-    === "🎦Py4t操作影片"
+    === "🎦Py4t操作影片(4:38)"
     
         <iframe width="560" height="315" src="https://www.youtube.com/embed/qjlan7-zmu8?start=3&amp;end=281" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    === "💻Python程式截圖"
+    === "💻Python程式碼"
 
-        ![程式截圖](snapshot/roc_flag_structure.jpg) 
+        ```python
+        from 海龜模組 import *
+
+        def 紅地() :
+            print('2.紅地')
+            
+        def 青天() :
+            print('3.青天')
+
+        def 光芒() :
+            print('4.光芒')
+
+        def 白日() :
+            print('5.白日 ')
+
+        def 主程式() :
+            print('1.主程式')
+            紅地()
+            青天()
+            光芒()
+            白日()
+            
+        主程式()
+        完成()
+        ```
 
 
 
@@ -175,16 +199,56 @@ hide:
 
 <br/>
 
-???+ example "範例程式 紅地與青天"
+???+ example "專題實作 範例 (2/4 接續) --- 紅地與青天"
 
 
-    === "🎦Py4t操作影片"
+    === "🎦Py4t操作影片(3:20)"
     
         <iframe width="560" height="315" src="https://www.youtube.com/embed/qjlan7-zmu8?start=283&amp;end=483" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    === "💻Python程式截圖"
+    === "💻Python程式碼"
 
-        ![程式截圖](snapshot/roc_flag_ground_sky.jpg) 
+        ```python
+        from 海龜模組 import *
+
+        def 紅地() :
+            print('2.紅地')
+            填充顏色('red')
+            開始填色()
+            for 數 in range(2) :
+                向前(120)
+                右轉(90)
+                向前(80)
+                右轉(90)
+            停止填色()
+            
+        def 青天() :
+            print('3.青天')
+            填充顏色('blue')
+            開始填色()
+            for 數 in range(2) :
+                向前(60)
+                右轉(90)
+                向前(40)
+                右轉(90)
+            停止填色()
+
+        def 光芒() :
+            print('4.光芒')
+
+        def 白日() :
+            print('5.白日 ')
+
+        def 主程式() :
+            print('1.主程式')
+            紅地()
+            青天()
+            光芒()
+            白日()
+            
+        主程式()
+        完成()
+        ``` 
 
 
 ??? abstract "結構化程式設計"
@@ -238,15 +302,71 @@ hide:
 
 <br/>
 
-???+ example "範例程式 光芒"
+???+ example "專題實作 範例 (3/4 接續) --- 光芒"
 
-    === "🎦Py4t操作影片"
+    === "🎦Py4t操作影片(3:52)"
     
         <iframe width="560" height="315" src="https://www.youtube.com/embed/qjlan7-zmu8?start=486&amp;end=718" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    === "💻Python程式截圖"
+    === "💻Python程式碼"
 
-        ![程式截圖](snapshot/roc_flag_shining.jpg) 
+        ```python
+        from 海龜模組 import *
+        速度('fast')
+        隱藏游標()
+
+        def 紅地() :
+            print('2.紅地')
+            填充顏色('red')
+            開始填色()
+            for 數 in range(2) :
+                向前(120)
+                右轉(90)
+                向前(80)
+                右轉(90)
+            停止填色()
+            
+        def 青天() :
+            print('3.青天')
+            填充顏色('blue')
+            開始填色()
+            for 數 in range(2) :
+                向前(60)
+                右轉(90)
+                向前(40)
+                右轉(90)
+            停止填色()
+
+        def 光芒() :
+            print('4.光芒')
+            停筆()
+            走到(15, -20)
+            下筆()
+            
+            左轉(15)
+            
+            畫筆顏色('white')
+            填充顏色('white')
+            開始填色()
+            for 數 in range(12) :
+                向前(29)
+                右轉(180-360/12)
+            停止填色()
+
+        def 白日() :
+            print('5.白日 ')
+
+        def 主程式() :
+            print('1.主程式')
+            紅地()
+            青天()
+            光芒()
+            白日()
+            
+        主程式()
+        完成()
+        ```
+
 
 
 
@@ -274,16 +394,77 @@ hide:
 
 <br/>
 
-???+ example "範例程式 白日"
+???+ example "專題實作 範例 (4/4 接續) --- 白日"
 
 
-    === "🎦Py4t操作影片"
+    === "🎦Py4t操作影片(2:12)"
     
         <iframe width="560" height="315" src="https://www.youtube.com/embed/qjlan7-zmu8?start=721&amp;end=853" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    === "💻Python程式截圖"
+    === "💻Python程式碼"
 
-        ![程式截圖](snapshot/roc_flag_sun.jpg) 
+        ```python
+        from 海龜模組 import *
+        速度('fast')
+        隱藏游標()
+
+        def 紅地() :
+            print('2.紅地')
+            填充顏色('red')
+            開始填色()
+            for 數 in range(2) :
+                向前(120)
+                右轉(90)
+                向前(80)
+                右轉(90)
+            停止填色()
+            
+        def 青天() :
+            print('3.青天')
+            填充顏色('blue')
+            開始填色()
+            for 數 in range(2) :
+                向前(60)
+                右轉(90)
+                向前(40)
+                右轉(90)
+            停止填色()
+
+        def 光芒() :
+            print('4.光芒')
+            停筆()
+            走到(15, -20)
+            下筆()
+            
+            左轉(15)
+            
+            畫筆顏色('white')
+            填充顏色('white')
+            開始填色()
+            for 數 in range(12) :
+                向前(29)
+                右轉(180-360/12)
+            停止填色()
+
+        def 白日() :
+            print('5.白日 ')
+            停筆()
+            走到(30 , -20 )
+            下筆()
+            
+            畫點(17 ,'blue' )
+            畫點(15 , 'white')
+
+        def 主程式() :
+            print('1.主程式')
+            紅地()
+            青天()
+            光芒()
+            白日()
+            
+        主程式()
+        完成()
+        ```
 
 
 <br/>
@@ -293,7 +474,7 @@ hide:
 
 <br/><br/><br/>
 ----------------------------
-##  📙 擴展
+##  📙 擴展(3)
 
 
 ### ***縮放倍率***
@@ -322,15 +503,81 @@ hide:
 
 <br/>
 
-???+ example "範例程式 縮放倍率"
+???+ example "專題擴展 範例 (1/3 接續) --- 縮放倍率"
 
-    === "🎦Py4t操作影片"
+    === "🎦Py4t操作影片(3:19)"
     
         <iframe width="560" height="315" src="https://www.youtube.com/embed/qjlan7-zmu8?start=855&amp;end=1054" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    === "💻Python程式截圖"
+    === "💻Python程式碼"
 
-        ![程式截圖](snapshot/roc_flag_scale.jpg) 
+        ```python
+        from 海龜模組 import *
+        視窗設定(1200, 800)
+        速度('fast')
+        隱藏游標()
+
+        倍率 = 7
+
+        def 紅地() :
+            print('2.紅地')
+            填充顏色('red')
+            開始填色()
+            for 數 in range(2) :
+                向前(120 * 倍率)
+                右轉(90)
+                向前(80 * 倍率)
+                右轉(90)
+            停止填色()   
+            
+        def 青天() :
+            print('3.青天')
+            填充顏色('blue')
+            開始填色()
+            for 數 in range(2) :
+                向前(60 * 倍率)
+                右轉(90)
+                向前(40 * 倍率)
+                右轉(90)
+            停止填色()
+            
+        def 光芒() :
+            print('4.光芒')
+            停筆()
+            走到(15 * 倍率 , -20 * 倍率)
+            下筆()
+            
+            左轉(15)
+            
+            畫筆顏色('white')
+            填充顏色('white')
+            開始填色()
+            for 數 in range(12) :
+                向前(29 * 倍率)
+                右轉(180-360/12)
+            停止填色()
+            
+        def 白日() :
+            print('5.白日')
+            停筆()
+            走到(30 * 倍率, -20 * 倍率)
+            下筆()
+            
+            畫點(17 * 倍率,'blue' )
+            畫點(15 * 倍率, 'white')
+            
+
+        def 主程式() :
+            print('1.主程式') 
+            紅地()
+            青天()
+            光芒()
+            白日()    
+            
+        主程式()
+        完成()
+        ```
+ 
 
 
 <br/><br/><br/>
@@ -352,15 +599,87 @@ hide:
 
 <br/>
 
-???+ example "範例程式 座標平移"
+???+ example "專題擴展 範例 (2/3 接續) --- 座標平移"
 
-    === "🎦Py4t操作影片"
+    === "🎦Py4t操作影片(3:02)"
     
         <iframe width="560" height="315" src="https://www.youtube.com/embed/qjlan7-zmu8?start=1057&amp;end=1239" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    === "💻Python程式截圖"
+    === "💻Python程式碼"
 
-        ![程式截圖](snapshot/roc_flag_pan.jpg) 
+        ```python
+        from 海龜模組 import *
+        視窗設定(1200, 800)
+        速度('fast')
+        隱藏游標()
+
+        倍率 = 7
+
+        起點x = -500
+        起點y = 300
+
+        def 紅地() :
+            print('2.紅地')
+            填充顏色('red')
+            開始填色()
+            for 數 in range(2) :
+                向前(120 * 倍率)
+                右轉(90)
+                向前(80 * 倍率)
+                右轉(90)
+            停止填色()   
+            
+        def 青天() :
+            print('3.青天')
+            填充顏色('blue')
+            開始填色()
+            for 數 in range(2) :
+                向前(60 * 倍率)
+                右轉(90)
+                向前(40 * 倍率)
+                右轉(90)
+            停止填色()
+            
+        def 光芒() :
+            print('4.光芒')
+            停筆()
+            走到(15 * 倍率 + 起點x , -20 * 倍率 + 起點y)
+            下筆()
+            
+            左轉(15)
+            
+            畫筆顏色('white')
+            填充顏色('white')
+            開始填色()
+            for 數 in range(12) :
+                向前(29 * 倍率)
+                右轉(180-360/12)
+            停止填色()
+            
+        def 白日() :
+            print('5.白日')
+            停筆()
+            走到(30 * 倍率 + 起點x , -20 * 倍率 + 起點y)
+            下筆()
+            
+            畫點(17 * 倍率,'blue' )
+            畫點(15 * 倍率, 'white')
+            
+
+        def 主程式() :
+            print('1.主程式')
+            停筆()
+            走到(起點x,起點y)
+            下筆()
+            
+            紅地()
+            青天()
+            光芒()
+            白日()
+        
+        主程式()
+        完成()
+        ``` 
 
 
 <br/><br/><br/>
@@ -385,15 +704,87 @@ hide:
 
 <br/>
 
-???+ example "範例程式 使用者介面"
+???+ example "專題擴展 範例 (3/3 接續) --- 使用者介面"
 
-    === "🎦Py4t操作影片"
+    === "🎦Py4t操作影片(2:45)"
     
         <iframe width="560" height="315" src="https://www.youtube.com/embed/qjlan7-zmu8?start=1240&amp;end=1405" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    === "💻Python程式截圖"
+    === "💻Python程式碼"
 
-        ![程式截圖](snapshot/roc_flag_ui.jpg) 
+        ```python
+        from 海龜模組 import *
+        視窗設定(1200, 800)
+        速度('fast')
+        隱藏游標()
+
+        倍率 = 輸入數字('中華民國國旗','輸入倍率1-10',5, 1, 10)
+
+        起點x = -500
+        起點y = 300
+
+        def 紅地() :
+            print('2.紅地')
+            填充顏色('red')
+            開始填色()
+            for 數 in range(2) :
+                向前(120 * 倍率)
+                右轉(90)
+                向前(80 * 倍率)
+                右轉(90)
+            停止填色()   
+            
+        def 青天() :
+            print('3.青天')
+            填充顏色('blue')
+            開始填色()
+            for 數 in range(2) :
+                向前(60 * 倍率)
+                右轉(90)
+                向前(40 * 倍率)
+                右轉(90)
+            停止填色()
+            
+        def 光芒() :
+            print('4.光芒')
+            停筆()
+            走到(15 * 倍率 + 起點x , -20 * 倍率 + 起點y)
+            下筆()
+            
+            左轉(15)
+            
+            畫筆顏色('white')
+            填充顏色('white')
+            開始填色()
+            for 數 in range(12) :
+                向前(29 * 倍率)
+                右轉(180-360/12)
+            停止填色()
+            
+        def 白日() :
+            print('5.白日')
+            停筆()
+            走到(30 * 倍率 + 起點x , -20 * 倍率 + 起點y)
+            下筆()
+            
+            畫點(17 * 倍率,'blue' )
+            畫點(15 * 倍率, 'white')
+            
+        def 主程式() :
+            print('1.主程式')
+            停筆()
+            走到(起點x,起點y)
+            下筆()
+            
+            紅地()
+            青天()
+            光芒()
+            白日()
+            
+            點擊後離開()
+            
+        主程式()
+        ``` 
 
 
 

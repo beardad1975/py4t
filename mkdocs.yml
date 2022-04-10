@@ -1,6 +1,6 @@
-site_name: Py4t - 青少年的Python編輯器
+site_name: Py4t 教青少年學Python
 
-site_description: Py4t - 青少年的Python編輯器
+site_description: Py4t 教青少年學Python
 site_author: Wen-Hung, Chang. 張文宏
 
 markdown_extensions:
@@ -101,7 +101,9 @@ nav:
     - 💚 推廣紀錄: 'promotion/activities.md'
     - 💙 使用回饋: 'promotion/user_feedback.md' 
     - 🧡 教學資料: 'promotion/teaching.md'
-  
+  - 社群: 
+    - 👨‍👩‍👧‍👦 fb社團: 'community/society.md'
+    - 👨‍👩‍👧‍👦 改名討論: 'community/name_change.md'
 
 theme:
   name: material

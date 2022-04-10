@@ -45,12 +45,12 @@ hide:
 <br/>
 
 
-???+ example "範例 哈囉程式"
+???+ example "Python計算篇 範例 (1/8 新檔) --- 哈囉程式"
 
 
 
 
-    === "🎦Py4t操作影片"
+    === "🎦Py4t操作影片(3:41)"
     
         <iframe width="560" height="315" src="https://www.youtube.com/embed/XdwNrOKtyUU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -93,9 +93,9 @@ hide:
 
 <br/>
 
-???+ example "範例 求三數之和"
+???+ example "Python計算篇 範例 (2/8 新檔) --- 求三數之和"
 
-    === "🎦Py4t操作影片"
+    === "🎦Py4t操作影片(5:06)"
     
         <iframe width="560" height="315" src="https://www.youtube.com/embed/fgobY4o2BTU?start=2&amp;end=306" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -134,9 +134,9 @@ hide:
 
 <br/>
 
-???+ example "範例 求平均數"
+???+ example "Python計算篇 範例 (3/8 新檔) --- 求平均數"
 
-    === "🎦Py4t操作影片"
+    === "🎦Py4t操作影片(5:35)"
     
         <iframe width="560" height="315" src="https://www.youtube.com/embed/4_UyYrlISZw?start=2&amp;end=336" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -176,9 +176,9 @@ hide:
 
 <br/>
 
-???+ example "範例 計算學期成績"
+???+ example "Python計算篇 範例 (4/8 新檔) --- 計算學期成績"
 
-    === "🎦Py4t操作影片"
+    === "🎦Py4t操作影片(9:15)"
     
         <iframe width="560" height="315" src="https://www.youtube.com/embed/H4ouv9LyflI?start=2&amp;end=555" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -223,9 +223,9 @@ hide:
 
 <br/>
 
-???+ example "範例 累加計算"
+???+ example "Python計算篇 範例 (5/8 新檔) --- 累加計算"
 
-    === "🎦Py4t操作影片"
+    === "🎦Py4t操作影片(6:39)"
     
         <iframe width="560" height="315" src="https://www.youtube.com/embed/DhcDjRpchoA?start=2&amp;end=399" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -274,9 +274,9 @@ hide:
 
 <br/>
 
-???+ example "範例 密碼檢查"
+???+ example "Python計算篇 範例 (6/8 新檔) --- 密碼檢查"
 
-    === "🎦Py4t操作影片"
+    === "🎦Py4t操作影片(8:25)"
     
         <iframe width="560" height="315" src="https://www.youtube.com/embed/rZMMfeqgRnw?start=2&amp;end=505" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -310,7 +310,7 @@ hide:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/NEafa4sDswc?start=0&amp;end=112" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-: <sup>(資料來源:</sup>[^factor_multiple]<sup>)</sup>
+: <sup>(1分52秒, 資料來源:</sup>[^factor_multiple]<sup>)</sup>
 
 [^factor_multiple]: 因數與倍數, By均一教育平台 Junyi Academy, [youtube連結](https://youtu.be/NEafa4sDswc)
 
@@ -322,9 +322,9 @@ hide:
 
 <br/>
 
-???+ example "範例 任意數的所有因數"
+???+ example "Python計算篇 範例 (7/8 新檔) --- 任意數的所有因數"
 
-    === "🎦Py4t操作影片"
+    === "🎦Py4t操作影片(5:29)"
     
         <iframe width="560" height="315" src="https://www.youtube.com/embed/_5sLEY8aFAA?start=2&amp;end=330" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -353,9 +353,9 @@ Python的random模組中，有個randint函式，類似Scratch中的隨機取數
 
 <br/>
 
-???+ example "範例 抽獎"
+???+ example "Python計算篇 範例 (8/8 新檔) --- 抽獎"
 
-    === "🎦Py4t操作影片"
+    === "🎦Py4t操作影片(7:44)"
     
         <iframe width="560" height="315" src="https://www.youtube.com/embed/vOE9gW7T2Fc?start=2&amp;end=464" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
