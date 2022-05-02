@@ -17,7 +17,7 @@
     
     
       
-        <title>📚 3D空間趣探索 - Py4t 教青少年學Python</title>
+        <title>📚 3D空間大探索 - Py4t 教青少年學Python</title>
       
     
     
@@ -132,7 +132,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              📚 3D空間趣探索
+              📚 3D空間大探索
             
           </span>
         </div>
@@ -1756,18 +1756,49 @@
               
                 
 
-<h1 id="3d">📚 3D空間趣探索</h1>
+<h1 id="3d">📚 3D空間大探索</h1>
+<dl>
+<dt>我們人類生活的地方，就是一個3D的立體空間。比起平面來說，空間中的位置與角度…等更是相對地複雜。近年來，由於3D硬體加速與軟體的發展，利用資訊科技來模擬3D已變得容易許多。所以不管在遊戲、VR、AR、電影、工業設計、生物科技、建築展示…等許多領域，都可以看到3D技術的運用。</dt>
+<dd>
+<p><img alt="新冠病毒" src="sars-cov-2_virion_animation.gif" /> <img alt="人腦中央溝" src="central_sulcus_animation.gif" /></p>
+</dd>
+<dd>
+<p><sup>(資料來源:新冠病毒</sup><sup id="fnref:sars-cov-2"><a class="footnote-ref" href="#fn:sars-cov-2">1</a></sup>  <sup>, 人腦中央溝</sup><sup id="fnref:central_sulcus"><a class="footnote-ref" href="#fn:central_sulcus">2</a></sup>    <sup>)</sup></p>
+</dd>
+</dl>
+<p>在這個課程中，我們將從基礎開始，透過Python程式的撰寫活動，一起來學習3D程式並體驗其樂趣。</p>
 <details class="info"><summary>關於3D程式</summary><p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></span> <a href="../../threed4t/" target="_blank">3D學習模組 說明</a></p>
 </details>
 <p><br/><br/><br/> </p>
 <hr />
 <h2 id="3d_1">📕 3D程式基礎</h2>
 <hr />
+<p>什麼是3D呢？3D也可稱為3維空間，是由右左、上下、前後3個維度(3 Dimensions)所構成的空間。</p>
 <dl>
-<dd><img alt="座標系統" src="coordinate_systems.jpg" /></dd>
-<dd><img alt="輔助功能" src="assistant.jpg" /></dd>
+<dt>在3D空間中，要如何將物體定位呢？想一想，在平面的空間(2維)，我們會使用x與y座標來做為定位。從這樣的概念延伸，就可以用xyz的座標，做為空間中的定位。不過，空間座標中的xyz，分別代表什麼呢？</dt>
+<dd>
+<p><img alt="座標系統" src="coordinate_systems.jpg" /></p>
+</dd>
+</dl>
+<p><br/><br/></p>
+<dl>
+<dt>Py4t為了容易理解與學習3D，特別內建了座標與攝影機(視角)的輔助操作，幫助我們了解與驗証3D模擬空間。輔助的操作如下：    </dt>
+<dd>
+<p><img alt="輔助功能" src="assistant.jpg" /></p>
+</dd>
 </dl>
 <p><br/></p>
+<dl>
+<dt>當3D空間的模擬物體，投影至2D畫面(觀看者的視角)時，可以分成透視與正交投影2種方式：</dt>
+<dd>
+<p><img alt="透視與正交投影" src="projection.jpg" /></p>
+</dd>
+<dd>
+<p><sup>(資料來源:</sup><sup id="fnref:3d_projection"><a class="footnote-ref" href="#fn:3d_projection">3</a></sup><sup>)</sup></p>
+</dd>
+</dl>
+<p><br/></p>
+<p>一起動手來寫程式。</p>
 <details class="example"><summary>3D程式基礎 範例 (1/3 新檔) --- 空間座標與位置</summary><div class="tabbed-set tabbed-alternate" data-tabs="1:1"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">💻Python程式截圖</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
@@ -1776,8 +1807,10 @@
 </div>
 </div>
 </details>
+<p><br/><br/><br/></p>
+<hr />
 <dl>
-<dt><br/></dt>
+<dt>藉由3D的模擬，我們可以將3D模型，依xyz三個軸向來做出縮放與旋轉的動作，如下圖：</dt>
 <dd>
 <p><img alt="3d縮放" src="scale_by_axes.jpg" /></p>
 </dd>
@@ -1785,6 +1818,7 @@
 <p><img alt="3d旋轉" src="rotate_around_axes.jpg" /></p>
 </dd>
 </dl>
+<p>一起來寫寫看。</p>
 <details class="example"><summary>3D程式基礎 範例 (2/3 新檔) --- 3軸縮放與旋轉</summary><div class="tabbed-set tabbed-alternate" data-tabs="2:1"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="__tabbed_2_1">💻Python程式截圖</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
@@ -1793,7 +1827,26 @@
 </div>
 </div>
 </details>
+<p><br/><br/><br/></p>
+<hr />
+<dl>
+<dt>電腦的影像經由螢幕發光後，被使用者看見。光的顏色由基本的紅、綠、藍三個色光混合而成，又稱為RGB三原色。</dt>
+<dd>
+<p><img alt="rgb" src="rgb_color_model.jpg" /></p>
+</dd>
+</dl>
 <p><br/></p>
+<dl>
+<dt>透過平面的材質貼圖，對應到3D物體中的不同面，可以讓3D模型更加的生動有趣。</dt>
+<dd>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/Yx2JNbv8Kpg?start=115&amp;end=218" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+</dd>
+<dd>
+<p><sup>(1分43秒, 資料來源:</sup><sup id="fnref:uv_map"><a class="footnote-ref" href="#fn:uv_map">4</a></sup><sup>)</sup></p>
+</dd>
+</dl>
+<p><br/></p>
+<p>一起動手實作出程式吧</p>
 <details class="example"><summary>3D程式基礎 範例 (3/3 新檔) --- 顏色與材質貼圖</summary><div class="tabbed-set tabbed-alternate" data-tabs="3:1"><input checked="checked" id="__tabbed_3_1" name="__tabbed_3" type="radio" /><div class="tabbed-labels"><label for="__tabbed_3_1">💻Python程式截圖</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
@@ -1802,6 +1855,24 @@
 </div>
 </div>
 </details>
+<div class="footnote">
+<hr />
+<ol>
+<li id="fn:sars-cov-2">
+<p>SARS-CoV-2形態, By AustroHungarian1867, <a href="https://commons.wikimedia.org/wiki/File:SARS-CoV-2_virion_animation.gif">維基百科連結</a>&#160;<a class="footnote-backref" href="#fnref:sars-cov-2" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+<li id="fn:central_sulcus">
+<p>人腦中央溝, By Polygon data were generated by Database Center for Life Science(DBCLS), <a href="https://es.m.wikipedia.org/wiki/Archivo:Central_sulcus_animation_small.gif">維基百科連結</a>&#160;<a class="footnote-backref" href="#fnref:central_sulcus" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+</li>
+<li id="fn:3d_projection">
+<p>3d projection, <a href="https://en.wikipedia.org/wiki/3D_projection">維基百科連結</a>&#160;<a class="footnote-backref" href="#fnref:3d_projection" title="Jump back to footnote 3 in the text">&#8617;</a></p>
+</li>
+<li id="fn:uv_map">
+<p>UV Maps Explained, By 
+FlippedNormals Marketplace, <a href="https://www.youtube.com/watch?v=Yx2JNbv8Kpg">youtube連結</a>&#160;<a class="footnote-backref" href="#fnref:uv_map" title="Jump back to footnote 4 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>
 
               
             </article>
