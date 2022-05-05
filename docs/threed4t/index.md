@@ -3,7 +3,7 @@ hide:
   - navigation
 ---
 
-# Ⓜ️ 立體3D模組
+# Ⓜ️ 3D程式模組
 
 ---------------
 
@@ -17,7 +17,7 @@ hide:
 
 
 
-### 📘 立體3D 程式範例
+### 📘 範例
 
 
 
@@ -27,7 +27,11 @@ hide:
 | [彩色方陣](color_array.md)          | [![彩色方陣](color_array.jpg){width=150}](color_array.md)           |
 | [彩色螺旋](color_spiral.md)          | [![彩色螺旋](color_spiral.jpg){width=150}](color_spiral.md)           |
 | [太陽系](solar_system.md)          | [![太陽系](solar_system.jpg){width=150}](solar_system.md)           |
-
+| [空間座標與位置](coor_and_position.md)          | [![空間座標與位置](coor_and_position.jpg){width=150}](coor_and_position.md)           |
+| [3軸縮放與旋轉](scale_and_rotate.md)          | [![3軸縮放與旋轉](scale_and_rotate.jpg){width=150}](scale_and_rotate.md)           |
+| [顏色與材質貼圖](color_and_texture.md)          | [![顏色與材質貼圖](color_and_texture.jpg){width=150}](color_and_texture.md)           |
+| [魔術方塊](rubik_cube.md)          | [![魔術方塊](rubik_cube.jpg){width=150}](rubik_cube.md)           |
+| [彩色漸層](color_gradient.md)          | [![彩色漸層](color_gradient.jpg){width=150}](color_gradient.md)           |
 
 ---------------
 

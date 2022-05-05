@@ -48,6 +48,19 @@ hide:
 
 <br/><br/><br/>
 
+## 📚 3D程式
+
+-----------------------
+
+???+ success  "入門 - 3D空間大探索"
+
+    課程建構中 …… (預計py4t 0.15版適用)
+
+    :fontawesome-solid-long-arrow-alt-right: <a href="explore3d/" target="_blank">「3D空間大探索」</a>
+
+
+
+<br/><br/><br/>
 ## 📚 教科書與Python
 
 -----------------------

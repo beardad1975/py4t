@@ -11,6 +11,14 @@ hide:
 
 在體驗之後，未來學習相關的自然課或理化課時，就會更有 **學習的動機**哦。
 
+![原理與蘋果樹](newton.jpg)
+
+: <sup>(資料來源:</sup>[^newton]<sup>)</sup>
+
+[^newton]: 艾薩克·牛頓 , [維基百科連結](https://zh.wikipedia.org/zh-tw/%E8%89%BE%E8%90%A8%E5%85%8B%C2%B7%E7%89%9B%E9%A1%BF) 
+
+
+
 ??? info "關於物理程式"
 
      :fontawesome-solid-link: <a href="../../pie4t/" target="_blank">物理學習模組 說明</a>

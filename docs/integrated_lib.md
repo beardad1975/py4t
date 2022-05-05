@@ -12,6 +12,6 @@ hide:
 |                 |                            |
 | :-----------                    | :------------------------------------            |
 |  [ Ⓜ️ 海龜繪圖 ](turtle4t/index.md)  |  [ Ⓜ️ 運算思維 ](comthink/index.md)      |
-|  [ Ⓜ️ 物理碰撞 ](pie4t/index.md)  |  [ Ⓜ️ 3D模擬 ](threed4t/index.md)     |
+|  [ Ⓜ️ 物理碰撞 ](pie4t/index.md)  |  [ Ⓜ️ 3D程式 ](threed4t/index.md)     |
 |  [ Ⓜ️ 視覺影像 ](cv4t/index.md)  |  [ Ⓜ️ 簡易語音 ](sound_and_speech/index.md)     |
 
