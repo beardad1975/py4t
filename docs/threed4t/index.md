@@ -32,6 +32,9 @@ hide:
 | [顏色與材質貼圖](color_and_texture.md)          | [![顏色與材質貼圖](color_and_texture.jpg){width=150}](color_and_texture.md)           |
 | [魔術方塊](rubik_cube.md)          | [![魔術方塊](rubik_cube.jpg){width=150}](rubik_cube.md)           |
 | [彩色漸層](color_gradient.md)          | [![彩色漸層](color_gradient.jpg){width=150}](color_gradient.md)           |
+| [轉動吧地球](earth_rotation.md)          | [![轉動吧地球](earth_rotation.jpg){width=150}](earth_rotation.md)           |
+| [地球儀](globe.md)          | [![地球儀](globe.jpg){width=150}](globe.md)           |
+| [水晶球](crystal_ball.md)          | [![水晶球](crystal_ball.jpg){width=150}](crystal_ball.md)           |
 
 ---------------
 
