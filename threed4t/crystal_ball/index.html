@@ -17,7 +17,7 @@
     
     
       
-        <title>📚 3D空間大探索 - Py4t 教青少年學Python</title>
+        <title>🔰 3D程式範例 - 水晶球 - Py4t 教青少年學Python</title>
       
     
     
@@ -66,7 +66,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#3d" class="md-skip">
+        <a href="#3d-" class="md-skip">
           跳轉到
         </a>
       
@@ -132,7 +132,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              📚 3D空間大探索
+              🔰 3D程式範例 - 水晶球
             
           </span>
         </div>
@@ -255,7 +255,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../" class="md-tabs__link">
+      <a href="../../lesson/" class="md-tabs__link">
         課程
       </a>
     </li>
@@ -531,7 +531,7 @@
         
         
         <div class="md-nav__link md-nav__link--index ">
-          <a href="../">課程</a>
+          <a href="../../lesson/">課程</a>
           
         </div>
       
@@ -723,7 +723,7 @@
         
         
         <div class="md-nav__link md-nav__link--index ">
-          <a href="../../threed4t/">3D</a>
+          <a href="../">3D</a>
           
         </div>
       
@@ -1170,35 +1170,6 @@
     
   
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      目錄
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#3d_1" class="md-nav__link">
-    📕 3D程式基礎
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
-    📕 魔術方塊
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
-    📕 彩色漸層
-  </a>
-  
-</li>
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -1210,240 +1181,42 @@
               
                 
 
-<h1 id="3d">📚 3D空間大探索</h1>
-<dl>
-<dt>我們人類生活的地方，就是一個3D的立體空間。比起平面來說，空間中的位置與角度…等更是相對地複雜。近年來，由於3D硬體加速與軟體的發展，利用資訊科技來模擬3D已變得容易許多。所以不管在遊戲、VR、AR、電影、工業設計、生物科技、建築展示…等許多領域，都可以看到3D技術的運用。</dt>
-<dd>
-<p><img alt="新冠病毒" src="sars-cov-2_virion_animation.gif" /> <img alt="人腦中央溝" src="central_sulcus_animation.gif" /></p>
-</dd>
-<dd>
-<p><sup>(資料來源:新冠病毒</sup><sup id="fnref:sars-cov-2"><a class="footnote-ref" href="#fn:sars-cov-2">1</a></sup>  <sup>, 人腦中央溝</sup><sup id="fnref:central_sulcus"><a class="footnote-ref" href="#fn:central_sulcus">2</a></sup>    <sup>)</sup></p>
-</dd>
-</dl>
-<p>在這個課程中，我們將從基礎開始，透過Python程式的撰寫活動，一起來學習3D程式並體驗其樂趣。</p>
-<details class="info"><summary>關於3D程式</summary><p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></span> <a href="../../threed4t/" target="_blank">3D學習模組 說明</a></p>
-</details>
-<p><br/><br/><br/> </p>
+<h1 id="3d-">🔰 3D程式範例 - 水晶球</h1>
 <hr />
-<h2 id="3d_1">📕 3D程式基礎</h2>
-<hr />
-<p>什麼是3D呢？3D也可稱為3維空間，是由右左、上下、前後3個維度(3 Dimensions)所構成的空間。</p>
 <dl>
-<dt>在3D空間中，要如何將物體定位呢？想一想，在平面的空間(2維)，我們會使用x與y座標來做為定位。從這樣的概念延伸，就可以用xyz的座標，做為空間中的定位。不過，空間座標中的xyz，分別是代表哪些維度呢？</dt>
-<dd>
-<p><img alt="座標系統" src="coordinate_systems.jpg" /></p>
-</dd>
-</dl>
-<p><br/><br/></p>
-<dl>
-<dt>Py4t為了讓學習者容易理解3D程式，內建了座標與攝影機(視角)的輔助操作，幫助我們了解與驗証3D模擬空間。輔助的操作如下：    </dt>
-<dd>
-<p><img alt="輔助功能" src="assistant.jpg" /></p>
-</dd>
+<dd><img alt="水晶球" src="../crystal_ball.jpg" /></dd>
 </dl>
 <p><br/></p>
 <dl>
-<dt>當3D空間的模擬物體，投影至2D畫面時(如觀看者的螢幕)，可以分成透視與正交投影2種方式：</dt>
+<dt>🎦 範例影片</dt>
 <dd>
-<p><img alt="透視與正交投影" src="projection.jpg" /></p>
-</dd>
-<dd>
-<p><sup>(資料來源:</sup><sup id="fnref:3d_projection"><a class="footnote-ref" href="#fn:3d_projection">3</a></sup><sup>)</sup></p>
+<p>建構中</p>
 </dd>
 </dl>
-<p><br/></p>
-<p>一起動手來寫程式。</p>
-<details class="example" open="open"><summary>3D程式基礎 範例 (1/3 新檔) --- 空間座標與位置</summary><div class="tabbed-set tabbed-alternate" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">🎦Py4t操作影片(6:29)</label><label for="__tabbed_1_2">💻Python程式截圖</label></div>
-<div class="tabbed-content">
-<div class="tabbed-block">
-<p><iframe width="560" height="315" src="https://www.youtube.com/embed/xnP4PEybUJ0?start=2&amp;end=390" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
-</div>
-<div class="tabbed-block">
-<p><img alt="程式截圖" src="snapshot/coor_and_position.jpg" /></p>
-</div>
-</div>
-</div>
-</details>
-<details class="abstract"><summary>模擬主迴圈？流程？</summary><p>什麼是「模擬主迴圈」？它的程式結構與演算流程是什麼？</p>
-<p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></span> <a href="../basic/scratch_python_compare/#event_driven" target="_blank">事件驅動程式 結構與流程</a></p>
-<hr />
-<p>補充資料 </p>
-<p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></span> <a href="https://zh.wikipedia.org/wiki/%E4%BA%8B%E4%BB%B6%E9%A9%85%E5%8B%95%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88" target="_blank">維基百科: 事件驅動程式設計</a></p>
-</details>
-<p><br/><br/><br/></p>
-<hr />
+<p>📄 Py4t程式碼</p>
 <dl>
-<dt>藉由3D的模擬，我們可以將3D模型，依xyz三個軸向來做出縮放與旋轉的動作，如下圖：</dt>
+<dt><div class="highlight"><pre><span></span><code><span class="linenos" data-linenos=" 1 "></span><span class="kn">from</span> <span class="nn">模擬3D模組</span> <span class="kn">import</span> <span class="o">*</span>
+<span class="linenos" data-linenos=" 2 "></span><span class="n">舞台</span> <span class="o">=</span> <span class="n">模擬3D引擎</span><span class="p">(</span><span class="mi">800</span><span class="p">,</span><span class="mi">800</span><span class="p">)</span>
+<span class="linenos" data-linenos=" 3 "></span>
+<span class="linenos" data-linenos=" 4 "></span><span class="n">水晶球</span> <span class="o">=</span> <span class="n">新增內面貼圖球體</span><span class="p">()</span>
+<span class="linenos" data-linenos=" 5 "></span><span class="n">水晶球</span><span class="o">.</span><span class="n">材質貼圖</span> <span class="o">=</span> <span class="s1">&#39;教室360.jpg&#39;</span>
+<span class="linenos" data-linenos=" 6 "></span><span class="n">水晶球</span><span class="o">.</span><span class="n">縮放</span> <span class="o">=</span> <span class="p">[</span><span class="mi">5</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">5</span><span class="p">]</span>
+<span class="linenos" data-linenos=" 7 "></span>
+<span class="linenos" data-linenos=" 8 "></span><span class="n">外框</span> <span class="o">=</span> <span class="n">新增方形平面</span><span class="p">()</span>
+<span class="linenos" data-linenos=" 9 "></span><span class="n">外框</span><span class="o">.</span><span class="n">材質貼圖</span> <span class="o">=</span> <span class="s1">&#39;水晶球外框.png&#39;</span>
+<span class="linenos" data-linenos="10 "></span><span class="n">外框</span><span class="o">.</span><span class="n">親代</span> <span class="o">=</span> <span class="n">舞台</span><span class="o">.</span><span class="n">使用者介面</span>
+<span class="linenos" data-linenos="11 "></span><span class="n">外框</span><span class="o">.</span><span class="n">縮放</span> <span class="o">=</span> <span class="mf">0.8</span>
+<span class="linenos" data-linenos="12 "></span><span class="n">外框</span><span class="o">.</span><span class="n">位置y</span> <span class="o">=</span> <span class="o">-</span><span class="mf">0.03</span>
+<span class="linenos" data-linenos="13 "></span>
+<span class="linenos" data-linenos="14 "></span><span class="k">def</span> <span class="nf">當更新時</span><span class="p">(</span><span class="n">dt</span><span class="p">):</span>
+<span class="linenos" data-linenos="15 "></span>    <span class="n">水晶球</span><span class="o">.</span><span class="n">旋轉y</span> <span class="o">+=</span> <span class="mf">0.1</span>
+<span class="linenos" data-linenos="16 "></span>
+<span class="linenos" data-linenos="17 "></span><span class="n">模擬主迴圈</span><span class="p">()</span>
+</code></pre></div></dt>
 <dd>
-<p><img alt="3d縮放" src="scale_by_axes.jpg" /></p>
-</dd>
-<dd>
-<p><img alt="3d旋轉" src="rotate_around_axes.jpg" /></p>
-</dd>
-</dl>
-<p>一起來寫寫看。</p>
-<details class="example"><summary>3D程式基礎 範例 (2/3 新檔) --- 3軸縮放與旋轉</summary><div class="tabbed-set tabbed-alternate" data-tabs="2:1"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="__tabbed_2_1">💻Python程式截圖</label></div>
-<div class="tabbed-content">
-<div class="tabbed-block">
-<p><img alt="程式截圖" src="snapshot/scale_and_rotate.jpg" /></p>
-</div>
-</div>
-</div>
-</details>
-<p><br/><br/><br/></p>
-<hr />
-<dl>
-<dt>電腦的影像經由螢幕發光後，被使用者看見。光的顏色由基本的紅、綠、藍三個色光混合而成，又稱為RGB三原色。</dt>
-<dd>
-<p><img alt="rgb" src="rgb_color_model.jpg" /></p>
+<p>註: 材質貼圖檔需匯入並修改。</p>
 </dd>
 </dl>
-<p><br/></p>
-<dl>
-<dt>透過平面的材質貼圖，對應到3D物體中的不同多邊形的平面上，可以讓3D模型更加的生動有趣。</dt>
-<dd>
-<p><iframe width="560" height="315" src="https://www.youtube.com/embed/Yx2JNbv8Kpg?start=115&amp;end=218" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
-</dd>
-<dd>
-<p><sup>(1分43秒, 資料來源:</sup><sup id="fnref:uv_map"><a class="footnote-ref" href="#fn:uv_map">4</a></sup><sup>)</sup></p>
-</dd>
-</dl>
-<p><br/></p>
-<p>一起動手實作出程式吧</p>
-<details class="example"><summary>3D程式基礎 範例 (3/3 新檔) --- 顏色與材質貼圖</summary><div class="tabbed-set tabbed-alternate" data-tabs="3:1"><input checked="checked" id="__tabbed_3_1" name="__tabbed_3" type="radio" /><div class="tabbed-labels"><label for="__tabbed_3_1">💻Python程式截圖</label></div>
-<div class="tabbed-content">
-<div class="tabbed-block">
-<p><img alt="程式截圖" src="snapshot/color_and_texture.jpg" /></p>
-</div>
-</div>
-</div>
-</details>
-<p><br/><br/><br/> </p>
-<hr />
-<h2 id="_1">📕 魔術方塊</h2>
-<hr />
-<p>魯比克·厄爾諾是匈牙利的建築學和雕塑學教授，為了幫助學生們認識空間立方體的組成和結構，所以他自己動手做出了第一個魔術方塊的雛形來，其靈感是來自於多瑙河中的沙礫。</p>
-<p>1974年，魯比克教授發明了第一個魔術方塊，1980年Ideal Toys公司於販售此玩具，並將名稱改為Rubik's Cube。</p>
-<dl>
-<dt><br/></dt>
-<dd>
-<p><img alt="魔術方塊" src="rubik_pic.jpg" /></p>
-</dd>
-<dd>
-<p><sup>(資料來源:</sup><sup id="fnref2:rubik_cube"><a class="footnote-ref" href="#fn:rubik_cube">5</a></sup><sup>)</sup></p>
-</dd>
-</dl>
-<p><br/>
-<br/></p>
-<dl>
-<dt>常見的魔術方塊為3x3x3(長寬高)，官方配色有6色，並有固定排列</dt>
-<dd>
-<p><img alt="官方配色" src="rubik_colors.png" /></p>
-</dd>
-<dd>
-<p><sup>(資料來源:</sup><sup id="fnref:rubik_cube"><a class="footnote-ref" href="#fn:rubik_cube">5</a></sup><sup>)</sup></p>
-</dd>
-</dl>
-<p><br/></p>
-<p>利用3D程式，把魔術方塊的外觀模型建立起來，一起動手做做看！</p>
-<details class="example"><summary>魔術方塊 範例 (1/1 新檔) --- 魔術方塊</summary><div class="tabbed-set tabbed-alternate" data-tabs="4:1"><input checked="checked" id="__tabbed_4_1" name="__tabbed_4" type="radio" /><div class="tabbed-labels"><label for="__tabbed_4_1">💻Python程式截圖</label></div>
-<div class="tabbed-content">
-<div class="tabbed-block">
-<p><img alt="程式截圖" src="snapshot/rubik_cube.jpg" /></p>
-</div>
-</div>
-</div>
-</details>
-<details class="question"><summary>自主學習 更多魔方變化</summary><p>1.市面上有4x4x4或5x5x5的魔術方塊，可以用程式做出來嗎？</p>
-<p>2.魔術方塊常常一不小心就轉亂了，可以做出轉亂過的魔方嗎？ </p>
-</details>
-<p><br/><br/><br/> </p>
-<hr />
-<h2 id="_2">📕 彩色漸層</h2>
-<hr />
-<dl>
-<dt>油畫是西方繪畫史中的主要繪畫方式。由於油畫顏料不透明，覆蓋力強，繪畫時可以由深到淺，逐層覆蓋，使繪畫產生立體感，畫出豐富、逼真的色彩。</dt>
-<dd>
-<p><img alt="蒙娜麗莎" src="mona_lisa.jpg" /></p>
-</dd>
-<dd>
-<p><sup>(資料來源:</sup><sup id="fnref:mona_lisa"><a class="footnote-ref" href="#fn:mona_lisa">6</a></sup><sup>)</sup></p>
-</dd>
-</dl>
-<p><br/></p>
-<p>利用不同油畫顏料的比例混合，改變顏色的飽和度，可以調製出顏色漸漸改變的漸層色：</p>
-<dl>
-<dt><iframe width="560" height="315" src="https://www.youtube.com/embed/x2WAKqIe2UU?start=35&amp;end=170" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</dt>
-<dd>
-<p><sup>(2分15秒, 資料來源:</sup><sup id="fnref:hue_oilpaint"><a class="footnote-ref" href="#fn:hue_oilpaint">7</a></sup><sup>)</sup></p>
-</dd>
-</dl>
-<p><br/></p>
-<p>電腦的顯示器，將不同強度的紅、綠、藍色光混合來生成不同的顏色，這就是RGB三原色的加色法，但這種顏色對大多數人來說並不直覺，比如我們很難直接判斷出橘色的RGB比例。</p>
-<dl>
-<dt>HSV是另一種色彩的模型，它代表的是色相、飽和度與明度。以人類更熟悉的方式來表達顏色：「這是什麼顏色？深淺如何？明暗如何？」。</dt>
-<dd>
-<p><img alt="hsv色彩空間" src="hsv_color_space.jpg" /></p>
-</dd>
-<dd>
-<p><sup>(資料來源:</sup><sup id="fnref:hsv_color"><a class="footnote-ref" href="#fn:hsv_color">8</a></sup><sup>)</sup></p>
-</dd>
-</dl>
-<p><br/></p>
-<dl>
-<dt>在賣場的展售顯示器，常常會條列出相關的規格，比如螢幕的尺寸、比例與解析度。</dt>
-<dd>
-<p><img alt="比例與解析度" src="ratio_and_resolution.jpg" /></p>
-</dd>
-<dd>
-<p><sup>(資料來源:</sup><sup id="fnref:ratio_resolution"><a class="footnote-ref" href="#fn:ratio_resolution">9</a></sup><sup>)</sup></p>
-</dd>
-</dl>
-<p><br/></p>
-<p>利用HSV的色彩模型，做出一個可以表現出不同顏色漸層的程式。</p>
-<details class="example"><summary>彩色漸層 範例 (1/1 新檔) --- 彩色漸層</summary><div class="tabbed-set tabbed-alternate" data-tabs="5:1"><input checked="checked" id="__tabbed_5_1" name="__tabbed_5" type="radio" /><div class="tabbed-labels"><label for="__tabbed_5_1">💻Python程式截圖</label></div>
-<div class="tabbed-content">
-<div class="tabbed-block">
-<p><img alt="程式截圖" src="snapshot/color_gradient.jpg" /></p>
-</div>
-</div>
-</div>
-</details>
-<p><br/><br/><br/></p>
-<div class="footnote">
-<hr />
-<ol>
-<li id="fn:sars-cov-2">
-<p>SARS-CoV-2形態, By AustroHungarian1867, <a href="https://commons.wikimedia.org/wiki/File:SARS-CoV-2_virion_animation.gif">維基百科連結</a>&#160;<a class="footnote-backref" href="#fnref:sars-cov-2" title="Jump back to footnote 1 in the text">&#8617;</a></p>
-</li>
-<li id="fn:central_sulcus">
-<p>人腦中央溝, By Polygon data were generated by Database Center for Life Science(DBCLS), <a href="https://es.m.wikipedia.org/wiki/Archivo:Central_sulcus_animation_small.gif">維基百科連結</a>&#160;<a class="footnote-backref" href="#fnref:central_sulcus" title="Jump back to footnote 2 in the text">&#8617;</a></p>
-</li>
-<li id="fn:3d_projection">
-<p>3d projection, <a href="https://en.wikipedia.org/wiki/3D_projection">維基百科連結</a>&#160;<a class="footnote-backref" href="#fnref:3d_projection" title="Jump back to footnote 3 in the text">&#8617;</a></p>
-</li>
-<li id="fn:uv_map">
-<p>UV Maps Explained, By 
-FlippedNormals Marketplace, <a href="https://www.youtube.com/watch?v=Yx2JNbv8Kpg">youtube連結</a>&#160;<a class="footnote-backref" href="#fnref:uv_map" title="Jump back to footnote 4 in the text">&#8617;</a></p>
-</li>
-<li id="fn:rubik_cube">
-<p>魔術方塊, <a href="https://zh.m.wikipedia.org/zh-tw/%E9%AD%94%E6%96%B9">維基百科連結</a>&#160;<a class="footnote-backref" href="#fnref:rubik_cube" title="Jump back to footnote 5 in the text">&#8617;</a><a class="footnote-backref" href="#fnref2:rubik_cube" title="Jump back to footnote 5 in the text">&#8617;</a></p>
-</li>
-<li id="fn:mona_lisa">
-<p>油畫, <a href="https://zh.wikipedia.org/zh-mo/%E6%B2%B9%E7%94%BB">維基百科連結</a>&#160;<a class="footnote-backref" href="#fnref:mona_lisa" title="Jump back to footnote 6 in the text">&#8617;</a></p>
-</li>
-<li id="fn:hue_oilpaint">
-<p>Tutorial : Hue, Value &amp; Saturation , By CITY STATIONERY GROUP SAL , <a href="https://youtu.be/x2WAKqIe2UU">youtube連結</a>&#160;<a class="footnote-backref" href="#fnref:hue_oilpaint" title="Jump back to footnote 7 in the text">&#8617;</a></p>
-</li>
-<li id="fn:hsv_color">
-<p>HSL和HSV色彩空間, <a href="https://zh.wikipedia.org/zh-tw/HSL%E5%92%8CHSV%E8%89%B2%E5%BD%A9%E7%A9%BA%E9%97%B4">維基百科連結</a>&#160;<a class="footnote-backref" href="#fnref:hsv_color" title="Jump back to footnote 8 in the text">&#8617;</a></p>
-</li>
-<li id="fn:ratio_resolution">
-<p>16:9 aspect ratio, <a href="https://en.wikipedia.org/wiki/16:9_aspect_ratio">維基百科連結</a>. Computer monitor, https://en.wikipedia.org/wiki/Computer_monitor&#160;<a class="footnote-backref" href="#fnref:ratio_resolution" title="Jump back to footnote 9 in the text">&#8617;</a></p>
-</li>
-</ol>
-</div>
 
               
             </article>
