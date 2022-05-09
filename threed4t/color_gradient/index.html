@@ -1170,6 +1170,28 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目錄
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1" class="md-nav__link">
+    階段1: 虛擬螢幕
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    階段2: 彩色漸層
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -1187,6 +1209,38 @@
 <dd><img alt="彩色漸層" src="../color_gradient.jpg" /></dd>
 </dl>
 <p><br/></p>
+<hr />
+<h2 id="1">階段1: 虛擬螢幕</h2>
+<dl>
+<dt>🎦 範例影片</dt>
+<dd>
+<p>建構中</p>
+</dd>
+</dl>
+<p>📄 Py4t程式碼</p>
+<dl>
+<dt><div class="highlight"><pre><span></span><code><span class="linenos" data-linenos=" 1 "></span><span class="kn">from</span> <span class="nn">模擬3D模組</span> <span class="kn">import</span> <span class="o">*</span>
+<span class="linenos" data-linenos=" 2 "></span>
+<span class="linenos" data-linenos=" 3 "></span><span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">16</span><span class="p">)</span> <span class="p">:</span>
+<span class="linenos" data-linenos=" 4 "></span>    <span class="k">for</span> <span class="n">y</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">12</span><span class="p">)</span> <span class="p">:</span>
+<span class="linenos" data-linenos=" 5 "></span>        <span class="n">物體</span> <span class="o">=</span> <span class="n">新增圓形平面</span><span class="p">()</span>
+<span class="linenos" data-linenos=" 6 "></span>        <span class="n">物體</span><span class="o">.</span><span class="n">位置</span> <span class="o">=</span> <span class="p">[</span><span class="n">x</span><span class="p">,</span><span class="n">y</span><span class="p">,</span><span class="mi">0</span><span class="p">]</span>
+<span class="linenos" data-linenos=" 7 "></span>        <span class="n">物體</span><span class="o">.</span><span class="n">顏色</span> <span class="o">=</span> <span class="n">color</span><span class="o">.</span><span class="n">red</span>
+<span class="linenos" data-linenos=" 8 "></span>
+<span class="linenos" data-linenos=" 9 "></span><span class="n">框</span> <span class="o">=</span> <span class="n">新增方形平面</span><span class="p">()</span>
+<span class="linenos" data-linenos="10 "></span><span class="n">框</span><span class="o">.</span><span class="n">材質貼圖</span> <span class="o">=</span> <span class="s1">&#39;平板外框.png&#39;</span>
+<span class="linenos" data-linenos="11 "></span><span class="n">框</span><span class="o">.</span><span class="n">縮放</span> <span class="o">=</span> <span class="p">[</span><span class="mi">16</span><span class="o">*</span><span class="mf">1.2</span><span class="p">,</span> <span class="mi">12</span><span class="o">*</span><span class="mf">1.2</span><span class="p">,</span> <span class="mi">1</span><span class="p">]</span>
+<span class="linenos" data-linenos="12 "></span><span class="n">框</span><span class="o">.</span><span class="n">位置</span> <span class="o">=</span> <span class="p">[</span><span class="mi">15</span><span class="o">/</span><span class="mi">2</span><span class="p">,</span> <span class="mi">11</span><span class="o">/</span><span class="mi">2</span><span class="p">,</span> <span class="mi">0</span><span class="p">]</span>
+<span class="linenos" data-linenos="13 "></span>
+<span class="linenos" data-linenos="14 "></span><span class="n">模擬主迴圈</span><span class="p">()</span>
+</code></pre></div></dt>
+<dd>
+<p>註: 材質貼圖檔需匯入。</p>
+</dd>
+</dl>
+<p><br/><br/></p>
+<hr />
+<h2 id="2">階段2: 彩色漸層</h2>
 <dl>
 <dt>🎦 範例影片</dt>
 <dd>
@@ -1205,8 +1259,8 @@
 <span class="linenos" data-linenos=" 8 "></span>
 <span class="linenos" data-linenos=" 9 "></span><span class="n">框</span> <span class="o">=</span> <span class="n">新增方形平面</span><span class="p">()</span>
 <span class="linenos" data-linenos="10 "></span><span class="n">框</span><span class="o">.</span><span class="n">材質貼圖</span> <span class="o">=</span> <span class="s1">&#39;平板外框.png&#39;</span>
-<span class="linenos" data-linenos="11 "></span><span class="n">框</span><span class="o">.</span><span class="n">縮放</span> <span class="o">=</span> <span class="p">[</span><span class="mi">16</span><span class="o">+</span><span class="mi">1</span><span class="p">,</span> <span class="mi">12</span><span class="o">+</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">]</span>
-<span class="linenos" data-linenos="12 "></span><span class="n">框</span><span class="o">.</span><span class="n">位置</span> <span class="o">=</span> <span class="p">[</span><span class="mf">7.5</span><span class="p">,</span> <span class="mf">5.5</span><span class="p">,</span> <span class="o">-</span><span class="mf">0.1</span><span class="p">]</span>
+<span class="linenos" data-linenos="11 "></span><span class="n">框</span><span class="o">.</span><span class="n">縮放</span> <span class="o">=</span> <span class="p">[</span><span class="mi">16</span><span class="o">*</span><span class="mf">1.2</span><span class="p">,</span> <span class="mi">12</span><span class="o">*</span><span class="mf">1.2</span><span class="p">,</span> <span class="mi">1</span><span class="p">]</span>
+<span class="linenos" data-linenos="12 "></span><span class="n">框</span><span class="o">.</span><span class="n">位置</span> <span class="o">=</span> <span class="p">[</span><span class="mi">15</span><span class="o">/</span><span class="mi">2</span><span class="p">,</span> <span class="mi">11</span><span class="o">/</span><span class="mi">2</span><span class="p">,</span> <span class="mi">0</span><span class="p">]</span>
 <span class="linenos" data-linenos="13 "></span>
 <span class="linenos" data-linenos="14 "></span><span class="n">模擬主迴圈</span><span class="p">()</span>
 </code></pre></div></dt>
