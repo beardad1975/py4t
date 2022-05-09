@@ -17,7 +17,7 @@
     
     
       
-        <title>🔰 3D程式範例 - 轉動吧！地球 - Py4t 教青少年學Python</title>
+        <title>🔰 3D程式範例 - 轉動地球 - Py4t 教青少年學Python</title>
       
     
     
@@ -132,7 +132,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              🔰 3D程式範例 - 轉動吧！地球
+              🔰 3D程式範例 - 轉動地球
             
           </span>
         </div>
@@ -1170,6 +1170,28 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目錄
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1" class="md-nav__link">
+    階段1: 地球自轉
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    階段2: 自轉軸傾斜
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -1181,11 +1203,38 @@
               
                 
 
-<h1 id="3d-">🔰 3D程式範例 - 轉動吧！地球</h1>
+<h1 id="3d-">🔰 3D程式範例 - 轉動地球</h1>
 <dl>
 <dd><img alt="轉動地球" src="../earth_rotation.jpg" /></dd>
 </dl>
 <p><br/></p>
+<h2 id="1">階段1: 地球自轉</h2>
+<dl>
+<dt>🎦 範例影片</dt>
+<dd>
+<p>建構中</p>
+</dd>
+</dl>
+<p>📄 Py4t程式碼</p>
+<dl>
+<dt><div class="highlight"><pre><span></span><code><span class="linenos" data-linenos=" 1 "></span><span class="kn">from</span> <span class="nn">模擬3D模組</span> <span class="kn">import</span> <span class="o">*</span>
+<span class="linenos" data-linenos=" 2 "></span>
+<span class="linenos" data-linenos=" 3 "></span><span class="n">地球</span> <span class="o">=</span> <span class="n">新增球體</span><span class="p">()</span>
+<span class="linenos" data-linenos=" 4 "></span><span class="n">地球</span><span class="o">.</span><span class="n">材質貼圖</span> <span class="o">=</span> <span class="s1">&#39;地球.jpg&#39;</span>
+<span class="linenos" data-linenos=" 5 "></span><span class="n">地球</span><span class="o">.</span><span class="n">縮放</span> <span class="o">=</span> <span class="p">[</span><span class="mi">5</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">5</span><span class="p">]</span>
+<span class="linenos" data-linenos=" 6 "></span>
+<span class="linenos" data-linenos=" 7 "></span><span class="k">def</span> <span class="nf">當更新時</span><span class="p">(</span><span class="n">dt</span><span class="p">):</span>
+<span class="linenos" data-linenos=" 8 "></span>    <span class="n">地球</span><span class="o">.</span><span class="n">旋轉y</span> <span class="o">-=</span> <span class="mf">0.1</span>
+<span class="linenos" data-linenos=" 9 "></span>
+<span class="linenos" data-linenos="10 "></span><span class="n">模擬主迴圈</span><span class="p">()</span>
+</code></pre></div></dt>
+<dd>
+<p>註: 材質貼圖檔需匯入在相同資料夾。</p>
+</dd>
+</dl>
+<p><br/><br/></p>
+<hr />
+<h2 id="2">階段2: 自轉軸傾斜</h2>
 <dl>
 <dt>🎦 範例影片</dt>
 <dd>
