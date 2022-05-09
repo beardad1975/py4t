@@ -29,11 +29,29 @@ hide:
 
 ----------------------------
 
-##  📕 3D程式基礎
+##  📙 3D基礎(3)
 
 ----------------------------
 
-什麼是3D呢？3D也可稱為3維空間，是由右左、上下、前後3個維度(3 Dimensions)所構成的空間。
+3D的基礎是什麼？先從3D圖形設計者的角度來瞭解：
+
+: <iframe width="560" height="315" src="https://www.youtube.com/embed/VT5oZndzj68?start=25&amp;end=118" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+: <sup>(1分33秒, 選中文字幕,  資料來源:</sup>[^intro_3d_graphics]<sup>)</sup>
+
+[^intro_3d_graphics]:學習3D電腦圖像的新手指南, By 
+Blender Guru, [youtube連結](https://youtu.be/VT5oZndzj68) 
+
+<br/><br/>
+
+----------------------------
+
+***空間座標與位置***
+
+----------------------------
+
+
+3D也可稱為3維空間，是由右左、上下、前後3個維度(3 Dimensions)所構成的空間。
 
 在3D空間中，要如何將物體定位呢？想一想，在平面的空間(2維)，我們會使用x與y座標來做為定位。從這樣的概念延伸，就可以用xyz的座標，做為空間中的定位。不過，空間座標中的xyz，分別是代表哪些維度呢？
 
@@ -41,7 +59,7 @@ hide:
 
 <br/><br/>
 
-Py4t為了讓學習者容易理解3D程式，內建了座標與攝影機(視角)的輔助操作，幫助我們了解與驗証3D模擬空間。輔助的操作如下：    
+為了讓學習者容易理解3D程式，Py4t內建了座標與攝影機(視角)的輔助操作，幫助我們了解與驗証3D模擬空間。輔助的操作如下：    
 
 
 : ![輔助功能](assistant.jpg)
@@ -59,7 +77,7 @@ Py4t為了讓學習者容易理解3D程式，內建了座標與攝影機(視角)
 
 <br/>
 
-一起動手來寫程式。
+跟著範例，寫出空間位置的程式。
 
 ???+ example "3D程式基礎 範例 (1/3 新檔) --- 空間座標與位置"
     === "🎦Py4t操作影片(6:29)"
@@ -85,7 +103,14 @@ Py4t為了讓學習者容易理解3D程式，內建了座標與攝影機(視角)
 
 <br/><br/><br/>
 
+
+
 ----------------------------
+
+***3軸縮放與旋轉***
+
+----------------------------
+
 
 藉由3D的模擬，我們可以將3D模型，依xyz三個軸向來做出縮放與旋轉的動作，如下圖：
 
@@ -96,11 +121,12 @@ Py4t為了讓學習者容易理解3D程式，內建了座標與攝影機(視角)
 : ![3d旋轉](rotate_around_axes.jpg)
 
 
-一起來寫寫看。
+一起來寫寫看縮放與旋轉的程式。
 
-??? example "3D程式基礎 範例 (2/3 新檔) --- 3軸縮放與旋轉"
+???+ example "3D程式基礎 範例 (2/3 新檔) --- 3軸縮放與旋轉"
 
-
+    === "🎦Py4t操作影片(x:xx)"
+        建構中…
 
     === "💻Python程式截圖"
 
@@ -111,6 +137,11 @@ Py4t為了讓學習者容易理解3D程式，內建了座標與攝影機(視角)
 
 
 ----------------------------
+
+***顏色與材質貼圖***
+
+----------------------------
+
 
 電腦的影像經由螢幕發光後，被使用者看見。光的顏色由基本的紅、綠、藍三個色光混合而成，又稱為RGB三原色。
 
@@ -129,11 +160,12 @@ FlippedNormals Marketplace, [youtube連結](https://www.youtube.com/watch?v=Yx2J
 
 <br/>
 
-一起動手實作出程式吧
+一起動手實作出程式，控制3D物體的顏色材質。
 
-??? example "3D程式基礎 範例 (3/3 新檔) --- 顏色與材質貼圖"
+???+ example "3D程式基礎 範例 (3/3 新檔) --- 顏色與材質貼圖"
 
-
+    === "🎦Py4t操作影片(x:xx)"
+        建構中…
 
     === "💻Python程式截圖"
 
@@ -143,63 +175,150 @@ FlippedNormals Marketplace, [youtube連結](https://www.youtube.com/watch?v=Yx2J
 
 <br/><br/><br/> 
 
-----------------------------
-
-##  📕 魔術方塊
 
 ----------------------------
 
-魯比克·厄爾諾是匈牙利的建築學和雕塑學教授，為了幫助學生們認識空間立方體的組成和結構，所以他自己動手做出了第一個魔術方塊的雛形來，其靈感是來自於多瑙河中的沙礫。
-
-1974年，魯比克教授發明了第一個魔術方塊，1980年Ideal Toys公司於販售此玩具，並將名稱改為Rubik's Cube。
-
-<br/>
-
-: ![魔術方塊](rubik_pic.jpg)
-
-: <sup>(資料來源:</sup>[^rubik_cube]<sup>)</sup>
-
-[^rubik_cube]: 魔術方塊, [維基百科連結](https://zh.m.wikipedia.org/zh-tw/%E9%AD%94%E6%96%B9)
+##  📕 轉動地球(2)
 
 
-<br/>
-<br/>
+: ***地球自轉***
 
-常見的魔術方塊為3x3x3(長寬高)，官方配色有6色，並有固定排列
+----------------------------
 
-: ![官方配色](rubik_colors.png)
+地球是我們居住的星球，也是宇宙中人類已知唯一存在生命的天體。
 
-: <sup>(資料來源:</sup>[^rubik_cube]<sup>)</sup>
+地球的轉動會造成日夜的變化，它是如何轉動的呢？
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CDrcJ0OBvdU?start=0&amp;end=45" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+: <sup>(45秒, 資料來源:</sup>[^earth_rotation]<sup>)</sup>
+
+[^earth_rotation]: 地球自轉與晝夜變化｜國中地科 , By 張鎰銳 , [youtube連結](https://youtu.be/CDrcJ0OBvdU)
 
 <br/>
 
-利用3D程式，把魔術方塊的外觀模型建立起來，一起動手做做看！
 
+從影片中可以得知，地球的自轉規則如下：
 
-??? example "魔術方塊 範例 (1/1 新檔) --- 魔術方塊"
+![自轉規則](earth_rotation_rule.jpg)
 
+: <sup>(資料來源:</sup>[^earth_rotation]<sup>)</sup>
 
+[^earth_rotation]: 地球自轉與晝夜變化｜國中地科 , By 張鎰銳 , [youtube連結](https://youtu.be/CDrcJ0OBvdU)
+
+<br/>
+
+利用3D程式與地球的材質貼圖，請做出地球的自轉程式。
+
+???+ example "轉動吧地球 範例 (1/2 新檔) --- 地球自轉"
+
+    === "🎦Py4t操作影片(x:xx)"
+        建構中…
 
     === "💻Python程式截圖"
 
-        ![程式截圖](snapshot/rubik_cube.jpg)
+        ![程式截圖](snapshot/earth_rotation.jpg)
 
-
-??? question "自主學習 更多魔方變化"
-
-    1.市面上有4x4x4或5x5x5的魔術方塊，可以用程式做出來嗎？
-
-    2.魔術方塊常常一不小心就轉亂了，可以做出轉亂過的魔方嗎？ 
-
-
-
-<br/><br/><br/> 
+<br/><br/><br/>
 
 ----------------------------
 
-##  📕 彩色漸層
+***地球傾斜***
+
+---------------------------
+
+
+在自然教室或地科教室中，常常可以看到地球儀，是一個用來表示地球的球體模型。
+
+
+
+: ![地球儀](globe_photo.jpg)
+
+: <sup>(資料來源:</sup>[^globe]<sup>)</sup>
+
+[^globe]: World Globe Map , By Intisar Ali , [維基百科連結](https://commons.wikimedia.org/wiki/File:World_Globe_Map.jpg)
+
+<br/>
+
+為什麼地球儀中的地球是傾斜的呢？
+
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vsTt5HS8b2c?start=58&amp;end=91" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+: <sup>(33秒, 資料來源:</sup>[^earth_revolution]<sup>)</sup>
+
+[^earth_revolution]: 晝夜交替與四季變化 , By 臺灣南區氣象中心 , [youtube連結](https://youtu.be/vsTt5HS8b2c)
+
+<br/>
+
+由於地球的公轉與傾斜，產生了一年四季的變化。
+
+
+![地軸傾斜](earth_revolution.jpg)
+
+
+: <sup>(資料來源:</sup>[^earth_revolution]<sup>)</sup>
+
+
+<br/>
+
+將剛剛的自轉程式，再加上自轉軸，試著寫出地球傾斜的程式。
+
+???+ example "轉動吧地球 範例 (2/2 接續) --- 地球傾斜"
+
+    === "🎦Py4t操作影片(x:xx)"
+        建構中…
+
+    === "💻Python程式截圖"
+
+        ![程式截圖](snapshot/earth_tilt.jpg)
+
+<br/><br/><br/>
+
+
+ 
 
 ----------------------------
+
+##  📘 彩色漸層(2)
+
+: ***虛擬螢幕***
+
+----------------------------
+
+在賣場的展售顯示器，常常會條列出相關的規格，比如螢幕的尺寸、比例與解析度。
+
+: ![比例與解析度](ratio_and_resolution.jpg)
+
+: <sup>(資料來源:</sup>[^ratio_resolution]<sup>)</sup>
+
+[^ratio_resolution]: 16:9 aspect ratio, [維基百科連結](https://en.wikipedia.org/wiki/16:9_aspect_ratio). Computer monitor, https://en.wikipedia.org/wiki/Computer_monitor
+
+
+<br/>
+
+請利用3D程式做出一個虛擬螢幕(虛擬ipad)。
+
+???+ example "彩色漸層 範例 (1/2 新檔) --- 虛擬螢幕"
+
+    === "🎦Py4t操作影片(x:xx)"
+        建構中…
+
+    === "💻Python程式截圖"
+
+        ![程式截圖](snapshot/virtual_screen.jpg)
+
+
+<br/>
+
+----------------------------
+
+
+***彩色漸層***
+
+----------------------------
+
 
 油畫是西方繪畫史中的主要繪畫方式。由於油畫顏料不透明，覆蓋力強，繪畫時可以由深到淺，逐層覆蓋，使繪畫產生立體感，畫出豐富、逼真的色彩。
 
@@ -236,32 +355,181 @@ HSV是另一種色彩的模型，它代表的是色相、飽和度與明度。�
 
 <br/>
 
-在賣場的展售顯示器，常常會條列出相關的規格，比如螢幕的尺寸、比例與解析度。
 
-: ![比例與解析度](ratio_and_resolution.jpg)
-
-: <sup>(資料來源:</sup>[^ratio_resolution]<sup>)</sup>
-
-[^ratio_resolution]: 16:9 aspect ratio, [維基百科連結](https://en.wikipedia.org/wiki/16:9_aspect_ratio). Computer monitor, https://en.wikipedia.org/wiki/Computer_monitor
-
-
-<br/>
 
 
 
 利用HSV的色彩模型，做出一個可以表現出不同顏色漸層的程式。
 
-??? example "彩色漸層 範例 (1/1 新檔) --- 彩色漸層"
+???+ example "彩色漸層 範例 (2/2 接續) --- 彩色漸層"
 
-
+    === "🎦Py4t操作影片(x:xx)"
+        建構中…
 
     === "💻Python程式截圖"
 
         ![程式截圖](snapshot/color_gradient.jpg)
 
 
+??? question "更多練習"
+
+    1.可以改變漸層的方向嗎？做出如上下或斜向的漸層嗎？
+
+    2.可以改變漸層的顏色嗎？如紅綠漸層、綠藍漸層等。 
 
 <br/><br/><br/>
 
 
 
+
+
+----------------------------
+
+##  📙 360水晶球(2)
+
+: ***360全景相片***
+
+----------------------------
+
+Google街景圖(由Google公司開發)，提供水平方向360°及垂直方向180°的街道全景，讓使用者能檢視所選城市地面上街道不同位置及其兩旁的景物，由Google街景車拍攝了許多的360度全景照片所構成。
+
+
+![google街景服務](google_map.jpg)
+
+: <sup>(資料來源:Google地圖街景服務</sup><sup>)</sup>
+
+<br/>
+
+如何產生360全景相片呢？其中一種方法是透過相機的魚眼鏡頭，1顆魚眼鏡頭可拍下 180 度的環境，同時使用 2 顆的話，就可以拼接出 360 度的全景照片。
+
+![360環景照片](360camera.jpg)
+
+<br/>
+
+請用3D程式做出360全景相片。
+
+???+ example "360水晶球 範例 (1/2 新檔) --- 全景相片"
+
+    === "🎦Py4t操作影片(x:xx)"
+        建構中…
+
+    === "💻Python程式截圖"
+
+        ![程式截圖](snapshot/360_photo.jpg)
+
+
+
+----------------------------
+
+
+***全景水晶球***
+
+----------------------------
+
+
+水晶球是指由水晶或玻璃製作的球體，在古代是被用來宗教、占卜，也可當成魔術的道具。
+
+ 
+: ![水晶球](crystal_ball_photo.jpg)
+
+: <sup>(資料來源:</sup>[^crystal_ball]<sup>)</sup>
+
+[^crystal_ball]: 水晶球 , [維基百科連結](https://zh.wikipedia.org/wiki/%E6%B0%B4%E6%99%B6%E7%90%83)
+
+<br/>
+
+
+抬頭顯示器(HUD)是一種目前普遍運用在航空器上的飛行輔助儀器，飛行員不需要低頭查看儀表就能夠看到需要的資訊。部分汽車也以類似的裝置。在電子遊戲領域中，HUD是用戶介面的一部分。
+
+: ![HUD](hud.jpg)
+
+: <sup>(資料來源:</sup>[^hud]<sup>)</sup>
+
+[^hud]: Head-up display , [維基百科連結](https://en.wikipedia.org/wiki/Head-up_display)
+
+<br/>
+
+將水晶球的照片，以HUD的用戶介面方式，再加上全景照片，就可以做出一個特別的水晶球，一起來寫寫看。
+
+
+???+ example "360水晶球 範例 (2/2 接續) --- 水晶球"
+
+    === "🎦Py4t操作影片(x:xx)"
+        建構中…
+
+    === "💻Python程式截圖"
+
+        ![程式截圖](snapshot/360_crystal_ball.jpg)
+
+
+<br/><br/><br/>
+
+----------------------------
+
+##  📗 魔術方塊(2)
+
+: ***魔方模型***
+
+----------------------------
+
+魯比克·厄爾諾是匈牙利的建築學和雕塑學教授，為了幫助學生們認識空間立方體的組成和結構，所以他自己動手做出了第一個魔術方塊的雛形來，其靈感是來自於多瑙河中的沙礫。
+
+1974年，魯比克教授發明了第一個魔術方塊，1980年Ideal Toys公司於販售此玩具，並將名稱改為Rubik's Cube。
+
+<br/>
+
+: ![魔術方塊](rubik_pic.jpg)
+
+: <sup>(資料來源:</sup>[^rubik_cube]<sup>)</sup>
+
+[^rubik_cube]: 魔術方塊, [維基百科連結](https://zh.m.wikipedia.org/zh-tw/%E9%AD%94%E6%96%B9)
+
+
+<br/>
+<br/>
+
+常見的魔術方塊為3x3x3(長寬高)，官方配色有6色，並有固定排列
+
+: ![官方配色](rubik_colors.png)
+
+: <sup>(資料來源:</sup>[^rubik_cube]<sup>)</sup>
+
+<br/>
+
+利用3D程式，把魔術方塊的外觀模型建立起來，一起動手做做看！
+
+
+???+ example "魔術方塊 範例 (1/2 新檔) --- 魔方模型"
+
+    === "🎦Py4t操作影片(x:xx)"
+        建構中…
+
+    === "💻Python程式截圖"
+
+        ![程式截圖](snapshot/rubik_cube.jpg)
+
+
+
+----------------------------
+
+***簡單轉動***
+
+----------------------------
+
+
+??? question "更多練習"
+
+    1.市面上有4x4x4或5x5x5的魔術方塊，可以用程式做出來嗎？
+
+    2.魔術方塊常常一不小心就轉亂了，可以做出轉亂過的魔方嗎？ 
+
+???+ example "魔術方塊 範例 (2/2 接續) --- 簡單轉動"
+
+    === "🎦Py4t操作影片(x:xx)"
+        建構中…
+
+    === "💻Python程式截圖"
+
+        ![程式截圖](snapshot/simple_rotation.jpg)
+
+<br/><br/><br/>
