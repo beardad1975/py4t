@@ -1226,7 +1226,7 @@
 
 <h1 id="3d">📚 3D空間大探索</h1>
 <dl>
-<dt>我們人類生活的地方，就是一個3D的立體空間。比起平面來說，空間中的位置與角度…等更是相對地複雜。近年來，由於3D硬體加速與軟體的發展，利用資訊科技來模擬3D已變得容易許多。所以不管在遊戲、VR、AR、電影、工業設計、生物科技、建築展示…等許多領域，都可以看到3D技術的運用。</dt>
+<dt>我們人類生活的地方，就是一個3D的立體空間。比起平面來說，空間中的位置、長度與角度…等更是複雜。近年來，由於3D硬體加速與軟體的發展，利用資訊科技來計算模擬3D已變得容易許多。所以不管在遊戲、VR、AR、電影、工業設計、生物科技、建築展示…等許多領域，都可以看到3D技術的運用。</dt>
 <dd>
 <p><img alt="新冠病毒" src="sars-cov-2_virion_animation.gif" /> <img alt="人腦中央溝" src="central_sulcus_animation.gif" /></p>
 </dd>
@@ -1343,8 +1343,8 @@
 </dd>
 </dl>
 <p><br/></p>
-<p>一起動手實作出程式，控制3D物體的顏色材質。</p>
-<details class="example" open="open"><summary>3D程式基礎 範例 (3/3 新檔) --- 顏色與材質貼圖</summary><div class="tabbed-set tabbed-alternate" data-tabs="3:2"><input checked="checked" id="__tabbed_3_1" name="__tabbed_3" type="radio" /><input id="__tabbed_3_2" name="__tabbed_3" type="radio" /><div class="tabbed-labels"><label for="__tabbed_3_1">🎦Py4t操作影片(x:xx)</label><label for="__tabbed_3_2">💻Python程式截圖</label></div>
+<p>一起動手實作出程式，控制3D物體的顏色與材質。</p>
+<details class="example" open="open"><summary>3D程式基礎 範例 (3/3 新檔) --- 顏色與材質</summary><div class="tabbed-set tabbed-alternate" data-tabs="3:2"><input checked="checked" id="__tabbed_3_1" name="__tabbed_3" type="radio" /><input id="__tabbed_3_2" name="__tabbed_3" type="radio" /><div class="tabbed-labels"><label for="__tabbed_3_1">🎦Py4t操作影片(x:xx)</label><label for="__tabbed_3_2">💻Python程式截圖</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <p>建構中…</p>
@@ -1379,6 +1379,14 @@
 <p><sup>(資料來源:</sup><sup id="fnref:earth_rotation"><a class="footnote-ref" href="#fn:earth_rotation">6</a></sup><sup>)</sup></p>
 </dd>
 </dl>
+<details class="abstract"><summary>關於赤道</summary><dl>
+<dd><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M313.941 216H12c-6.627 0-12 5.373-12 12v56c0 6.627 5.373 12 12 12h301.941v46.059c0 21.382 25.851 32.09 40.971 16.971l86.059-86.059c9.373-9.373 9.373-24.569 0-33.941l-86.059-86.059c-15.119-15.119-40.971-4.411-40.971 16.971V216z"/></svg></span> <a href="https://zh.wikipedia.org/wiki/%E8%B5%A4%E9%81%93" target="_blank">維基百科: 赤道</a></dd>
+</dl>
+</details>
+<details class="question"><summary>更多練習</summary><dl>
+<dd>請在地球的材質貼圖上，標示地球轉動的方向。</dd>
+</dl>
+</details>
 <p><br/></p>
 <p>利用3D程式與地球的材質貼圖，請做出地球的自轉程式。</p>
 <details class="example" open="open"><summary>轉動吧地球 範例 (1/2 新檔) --- 地球自轉</summary><div class="tabbed-set tabbed-alternate" data-tabs="4:2"><input checked="checked" id="__tabbed_4_1" name="__tabbed_4" type="radio" /><input id="__tabbed_4_2" name="__tabbed_4" type="radio" /><div class="tabbed-labels"><label for="__tabbed_4_1">🎦Py4t操作影片(x:xx)</label><label for="__tabbed_4_2">💻Python程式截圖</label></div>
@@ -1452,7 +1460,9 @@
 </dd>
 </dl>
 <p><br/></p>
-<p>請利用3D程式做出一個虛擬螢幕(虛擬ipad)。</p>
+<p>請利用3D程式做出一個虛擬螢幕(規格如下)：</p>
+<p><br/></p>
+<p><img alt="虛擬螢幕解析度" src="virtual_screen_ratio.png" /></p>
 <details class="example" open="open"><summary>彩色漸層 範例 (1/2 新檔) --- 虛擬螢幕</summary><div class="tabbed-set tabbed-alternate" data-tabs="6:2"><input checked="checked" id="__tabbed_6_1" name="__tabbed_6" type="radio" /><input id="__tabbed_6_2" name="__tabbed_6" type="radio" /><div class="tabbed-labels"><label for="__tabbed_6_1">🎦Py4t操作影片(x:xx)</label><label for="__tabbed_6_2">💻Python程式截圖</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
@@ -1498,7 +1508,15 @@
 </dd>
 </dl>
 <p><br/></p>
-<p>利用HSV的色彩模型，做出一個可以表現出不同顏色漸層的程式。</p>
+<p>認識了HSV色彩空間後，要怎麼做出漸層色呢？</p>
+<dl>
+<dt><br/></dt>
+<dd>
+<p><img alt="左右漸層思考" src="left_right_gradient.png" /></p>
+</dd>
+</dl>
+<p><br/></p>
+<p>綜合以上，請寫出漸層顏色的程式。</p>
 <details class="example" open="open"><summary>彩色漸層 範例 (2/2 接續) --- 彩色漸層</summary><div class="tabbed-set tabbed-alternate" data-tabs="7:2"><input checked="checked" id="__tabbed_7_1" name="__tabbed_7" type="radio" /><input id="__tabbed_7_2" name="__tabbed_7" type="radio" /><div class="tabbed-labels"><label for="__tabbed_7_1">🎦Py4t操作影片(x:xx)</label><label for="__tabbed_7_2">💻Python程式截圖</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
@@ -1510,8 +1528,11 @@
 </div>
 </div>
 </details>
-<details class="question"><summary>更多練習</summary><p>1.可以改變漸層的方向嗎？做出如上下或斜向的漸層嗎？</p>
-<p>2.可以改變漸層的顏色嗎？如紅綠漸層、綠藍漸層等。 </p>
+<details class="question"><summary>更多漸層練習</summary><dl>
+<dd>1.可以改變漸層的方向嗎？做出如上下或斜向的漸層嗎？</dd>
+<dd>2.可以改變漸層的顏色嗎？如紅綠漸層、綠藍漸層等。 </dd>
+<dd><img alt="白色螢幕" src="virtual_screen_white.png" /></dd>
+</dl>
 </details>
 <p><br/><br/><br/></p>
 <hr />
@@ -1520,16 +1541,22 @@
 <dd><strong><em>360全景相片</em></strong></dd>
 </dl>
 <hr />
-<p>Google街景圖(由Google公司開發)，提供水平方向360°及垂直方向180°的街道全景，讓使用者能檢視所選城市地面上街道不同位置及其兩旁的景物，由Google街景車拍攝了許多的360度全景照片所構成。</p>
 <dl>
-<dt><img alt="google街景服務" src="google_map.jpg" /></dt>
+<dt>Google街景圖(由Google公司開發)，提供水平方向360°及垂直方向180°的街道全景，讓使用者能檢視所選城市地面上街道不同位置及其兩旁的景物，由Google街景車拍攝了許多的360度全景照片所構成。</dt>
+<dd>
+<p><img alt="google街景服務" src="google_map.jpg" /></p>
+</dd>
 <dd>
 <p><sup>(資料來源:Google地圖街景服務</sup><sup>)</sup></p>
 </dd>
 </dl>
 <p><br/></p>
-<p>如何產生360全景相片呢？其中一種方法是透過相機的魚眼鏡頭，1顆魚眼鏡頭可拍下 180 度的環境，同時使用 2 顆的話，就可以拼接出 360 度的全景照片。</p>
+<dl>
+<dt>如何產生360全景相片呢？其中一種方法是透過相機的魚眼鏡頭，1顆魚眼鏡頭可拍下 180 度的環境，同時使用 2 顆的話，就可以拼接出 360 度的全景照片。</dt>
+<dd>
 <p><img alt="360環景照片" src="360camera.jpg" /></p>
+</dd>
+</dl>
 <p><br/></p>
 <p>請用3D程式做出360全景相片。</p>
 <details class="example" open="open"><summary>360水晶球 範例 (1/2 新檔) --- 全景相片</summary><div class="tabbed-set tabbed-alternate" data-tabs="8:2"><input checked="checked" id="__tabbed_8_1" name="__tabbed_8" type="radio" /><input id="__tabbed_8_2" name="__tabbed_8" type="radio" /><div class="tabbed-labels"><label for="__tabbed_8_1">🎦Py4t操作影片(x:xx)</label><label for="__tabbed_8_2">💻Python程式截圖</label></div>
@@ -1557,7 +1584,7 @@
 </dl>
 <p><br/></p>
 <dl>
-<dt>抬頭顯示器(HUD)是一種目前普遍運用在航空器上的飛行輔助儀器，飛行員不需要低頭查看儀表就能夠看到需要的資訊。部分汽車也以類似的裝置。在電子遊戲領域中，HUD是用戶介面的一部分。</dt>
+<dt>抬頭顯示器(HUD)是一種目前普遍運用在航空器上的飛行輔助儀器，飛行員不需要低頭查看儀表就能夠看到需要的資訊。部分汽車也以類似的裝置。在電子遊戲領域中，HUD是使用者介面的一部分。</dt>
 <dd>
 <p><img alt="HUD" src="hud.jpg" /></p>
 </dd>
@@ -1566,7 +1593,14 @@
 </dd>
 </dl>
 <p><br/></p>
-<p>將水晶球的照片，以HUD的用戶介面方式，再加上全景照片，就可以做出一個特別的水晶球，一起來寫寫看。</p>
+<dl>
+<dt>3D程式的使用者介面(UI)有自己獨立的座標，如下圖：</dt>
+<dd>
+<p><img alt="UI座標" src="ui_coordinate.png" /></p>
+</dd>
+</dl>
+<p><br/></p>
+<p>請將水晶球的照片，以HUD的使用者介面方式，再加上全景照片，就可以做出一個特別的水晶球，一起來寫寫看。</p>
 <details class="example" open="open"><summary>360水晶球 範例 (2/2 接續) --- 水晶球</summary><div class="tabbed-set tabbed-alternate" data-tabs="9:2"><input checked="checked" id="__tabbed_9_1" name="__tabbed_9" type="radio" /><input id="__tabbed_9_2" name="__tabbed_9" type="radio" /><div class="tabbed-labels"><label for="__tabbed_9_1">🎦Py4t操作影片(x:xx)</label><label for="__tabbed_9_2">💻Python程式截圖</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
@@ -1590,10 +1624,10 @@
 <dl>
 <dt><br/></dt>
 <dd>
-<p><img alt="魔術方塊" src="rubik_pic.jpg" /></p>
+<p><img alt="魔術方塊" src="rubik_pic_restore.jpg" /></p>
 </dd>
 <dd>
-<p><sup>(資料來源:</sup><sup id="fnref2:rubik_cube"><a class="footnote-ref" href="#fn:rubik_cube">15</a></sup><sup>)</sup></p>
+<p><sup>(資料來源:</sup><sup id="fnref4:rubik_cube"><a class="footnote-ref" href="#fn:rubik_cube">15</a></sup><sup>)</sup></p>
 </dd>
 </dl>
 <p><br/>
@@ -1604,7 +1638,7 @@
 <p><img alt="官方配色" src="rubik_colors.png" /></p>
 </dd>
 <dd>
-<p><sup>(資料來源:</sup><sup id="fnref:rubik_cube"><a class="footnote-ref" href="#fn:rubik_cube">15</a></sup><sup>)</sup></p>
+<p><sup>(資料來源:</sup><sup id="fnref3:rubik_cube"><a class="footnote-ref" href="#fn:rubik_cube">15</a></sup><sup>)</sup></p>
 </dd>
 </dl>
 <p><br/></p>
@@ -1620,12 +1654,52 @@
 </div>
 </div>
 </details>
+<details class="question"><summary>練習 自訂材質</summary><dl>
+<dd>匯入自訂材質，並用繪圖軟體設計客製化圖案的魔方</dd>
+</dl>
+</details>
+<details class="question"><summary>更多練習</summary><dl>
+<dd>1.市面上有4x4x4或5x5x5的魔術方塊，可以用程式做出來嗎？</dd>
+<dd>2.魔術方塊常常一不小心就轉亂了，可以做出轉亂過的魔方嗎？</dd>
+</dl>
+</details>
+<p><br/><br/><br/></p>
 <hr />
 <p><strong><em>簡單轉動</em></strong></p>
 <hr />
-<details class="question"><summary>更多練習</summary><p>1.市面上有4x4x4或5x5x5的魔術方塊，可以用程式做出來嗎？</p>
-<p>2.魔術方塊常常一不小心就轉亂了，可以做出轉亂過的魔方嗎？ </p>
-</details>
+<dl>
+<dt>魔術方塊可以轉動，不過常常一不小心就轉亂了。</dt>
+<dd>
+<p><img alt="魔術方塊" src="rubik_pic.jpg" /></p>
+</dd>
+<dd>
+<p><sup>(資料來源:</sup><sup id="fnref2:rubik_cube"><a class="footnote-ref" href="#fn:rubik_cube">15</a></sup><sup>)</sup></p>
+</dd>
+<dt>為了記錄下復原、轉亂的過程或公式的步驟，由David Singmaster發明了以下的書寫法式：</dt>
+<dd>
+<ul>
+<li>R(Right)、L(Left)、U(Up)、D(Down)、F(Front)、B(Back)分別代表右、左、上、下、前、後層。</li>
+</ul>
+</dd>
+<dd>
+<ul>
+<li>若是順時針旋轉，則直接寫上符號；若是逆時針旋轉，則在符號後加上「'」或是「i」；若是旋轉180°，則在符號後加上「2」或是「²」。</li>
+</ul>
+</dd>
+<dd>
+<p><img alt="轉動U" src="rotation_u.jpg" /></p>
+</dd>
+</dl>
+<p><sup>(資料來源:</sup><sup id="fnref:rubik_cube"><a class="footnote-ref" href="#fn:rubik_cube">15</a></sup><sup>)</sup></p>
+<p><br/></p>
+<dl>
+<dt>如果要讓魔方程式做出如上圖的「U的轉法」，要怎麼做呢？</dt>
+<dd>
+<p><img alt="轉動U的想法" src="rotation_u_thinking.png" /></p>
+</dd>
+</dl>
+<p><br/></p>
+<p>請動手寫出程式。</p>
 <details class="example" open="open"><summary>魔術方塊 範例 (2/2 接續) --- 簡單轉動</summary><div class="tabbed-set tabbed-alternate" data-tabs="11:2"><input checked="checked" id="__tabbed_11_1" name="__tabbed_11" type="radio" /><input id="__tabbed_11_2" name="__tabbed_11" type="radio" /><div class="tabbed-labels"><label for="__tabbed_11_1">🎦Py4t操作影片(x:xx)</label><label for="__tabbed_11_2">💻Python程式截圖</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
@@ -1636,6 +1710,10 @@
 </div>
 </div>
 </div>
+</details>
+<details class="question"><summary>更多練習</summary><dl>
+<dd>修改程式，做出不同的轉法，如R(右)、L(左)、U(上)、D(下)、F(前)、B(後)等。</dd>
+</dl>
 </details>
 <p><br/><br/><br/></p>
 <div class="footnote">
@@ -1686,7 +1764,7 @@ FlippedNormals Marketplace, <a href="https://www.youtube.com/watch?v=Yx2JNbv8Kpg
 <p>Head-up display , <a href="https://en.wikipedia.org/wiki/Head-up_display">維基百科連結</a>&#160;<a class="footnote-backref" href="#fnref:hud" title="Jump back to footnote 14 in the text">&#8617;</a></p>
 </li>
 <li id="fn:rubik_cube">
-<p>魔術方塊, <a href="https://zh.m.wikipedia.org/zh-tw/%E9%AD%94%E6%96%B9">維基百科連結</a>&#160;<a class="footnote-backref" href="#fnref:rubik_cube" title="Jump back to footnote 15 in the text">&#8617;</a><a class="footnote-backref" href="#fnref2:rubik_cube" title="Jump back to footnote 15 in the text">&#8617;</a></p>
+<p>魔術方塊, <a href="https://zh.m.wikipedia.org/zh-tw/%E9%AD%94%E6%96%B9">維基百科連結</a>&#160;<a class="footnote-backref" href="#fnref:rubik_cube" title="Jump back to footnote 15 in the text">&#8617;</a><a class="footnote-backref" href="#fnref2:rubik_cube" title="Jump back to footnote 15 in the text">&#8617;</a><a class="footnote-backref" href="#fnref3:rubik_cube" title="Jump back to footnote 15 in the text">&#8617;</a><a class="footnote-backref" href="#fnref4:rubik_cube" title="Jump back to footnote 15 in the text">&#8617;</a></p>
 </li>
 </ol>
 </div>
