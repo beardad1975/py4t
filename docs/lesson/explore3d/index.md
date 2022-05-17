@@ -79,7 +79,7 @@ Blender Guru, [youtube連結](https://youtu.be/VT5oZndzj68)
 
 跟著範例，寫出空間位置的程式。
 
-???+ example "3D程式基礎 範例 (1/3 新檔) --- 空間座標與位置"
+???+ example "3D基礎 範例 (1/3 新檔) --- 空間座標與位置"
     === "🎦Py4t操作影片(6:29)"
     
         <iframe width="560" height="315" src="https://www.youtube.com/embed/xnP4PEybUJ0?start=2&amp;end=390" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -123,10 +123,10 @@ Blender Guru, [youtube連結](https://youtu.be/VT5oZndzj68)
 
 一起來寫寫看縮放與旋轉的程式。
 
-???+ example "3D程式基礎 範例 (2/3 新檔) --- 3軸縮放與旋轉"
+???+ example "3D基礎 範例 (2/3 新檔) --- 3軸縮放與旋轉"
 
-    === "🎦Py4t操作影片(x:xx)"
-        建構中…
+    === "🎦Py4t操作影片(5:52)"
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/PSL2Pi5_MTs?start=2&amp;end=354" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
     === "💻Python程式截圖"
 
@@ -162,10 +162,10 @@ FlippedNormals Marketplace, [youtube連結](https://www.youtube.com/watch?v=Yx2J
 
 一起動手實作出程式，控制3D物體的顏色與材質。
 
-???+ example "3D程式基礎 範例 (3/3 新檔) --- 顏色與材質"
+???+ example "3D基礎 範例 (3/3 新檔) --- 顏色與材質"
 
-    === "🎦Py4t操作影片(x:xx)"
-        建構中…
+    === "🎦Py4t操作影片(6:55)"
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/WwzIwKTmgfU?start=2&amp;end=416" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
     === "💻Python程式截圖"
 
@@ -217,6 +217,8 @@ FlippedNormals Marketplace, [youtube連結](https://www.youtube.com/watch?v=Yx2J
 [^earth_rotation]: 地球自轉與晝夜變化｜國中地科 , By 張鎰銳 , [youtube連結](https://youtu.be/CDrcJ0OBvdU)
 
 <br/>
+
+
 
 利用3D程式與地球的材質貼圖，請做出地球的自轉程式。
 
@@ -270,10 +272,17 @@ FlippedNormals Marketplace, [youtube連結](https://www.youtube.com/watch?v=Yx2J
 
 : <sup>(資料來源:</sup>[^earth_revolution]<sup>)</sup>
 
+<br/>
+
+如何在程式中做到地球繞著軸自轉，並且自轉軸也傾斜呢？讓我們來了解3D物體的親子關係。
 
 <br/>
 
-將剛剛的自轉程式，再加上自轉軸，試著寫出地球傾斜的程式。
+: ![親子關係](parent_and_child.png)
+
+<br/>
+
+請試著寫出地球傾斜的程式。
 
 ???+ example "轉動吧地球 範例 (2/2 接續) --- 地球傾斜"
 
@@ -553,7 +562,7 @@ Google街景圖(由Google公司開發)，提供水平方向360°及垂直方向1
 
 ----------------------------
 
-***簡單轉動***
+***單層轉動***
 
 ----------------------------
 
@@ -588,7 +597,7 @@ Google街景圖(由Google公司開發)，提供水平方向360°及垂直方向1
 
  
 
-???+ example "魔術方塊 範例 (2/2 接續) --- 簡單轉動"
+???+ example "魔術方塊 範例 (2/2 接續) --- 單層轉動"
 
     === "🎦Py4t操作影片(x:xx)"
         建構中…

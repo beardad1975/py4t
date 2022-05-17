@@ -9,7 +9,7 @@ hide:
 
 🎦 範例影片
 
-: 建構中
+: <iframe width="560" height="315" src="https://www.youtube.com/embed/PSL2Pi5_MTs?start=2&amp;end=354" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 📄 Py4t程式碼
 
