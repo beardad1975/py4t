@@ -17,7 +17,7 @@ hide:
 
 🎦 範例影片
 
-: 建構中
+: <iframe width="560" height="315" src="https://www.youtube.com/embed/-lC84lJOQuE?start=2&amp;end=424" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 📄 Py4t程式碼
 
@@ -26,7 +26,7 @@ from 模擬3D模組 import *
 
 地球 = 新增球體()
 地球.材質貼圖 = '地球.jpg'
-地球.縮放 = [5, 5, 5]
+地球.縮放 = 5
 
 def 當更新時(dt):
     地球.旋轉y -= 0.1
@@ -44,7 +44,7 @@ def 當更新時(dt):
 
 🎦 範例影片
 
-: 建構中
+: <iframe width="560" height="315" src="https://www.youtube.com/embed/-lC84lJOQuE?start=428&amp;end=613" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 📄 Py4t程式碼
 
@@ -56,7 +56,7 @@ from 模擬3D模組 import *
 
 地球 = 新增球體()
 地球.材質貼圖 = '地球.jpg'
-地球.縮放 = [5, 5, 5]
+地球.縮放 = 5
 地球.親代 = 自轉軸
 
 def 當更新時(dt):

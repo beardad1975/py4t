@@ -52,11 +52,11 @@ hide:
 
 -----------------------
 
-???+ success  "入門 - 3D空間大探索"
+???+ success  "入門 - 探索3D空間"
     ![3D空間大探索](explore3d/digest.jpg)
     
     學習3D程式，做出地球模型、彩色漸層、360水晶球與魔術方塊。
-    :fontawesome-solid-long-arrow-alt-right: <a href="explore3d/" target="_blank">「3D空間大探索」</a>
+    :fontawesome-solid-long-arrow-alt-right: <a href="explore3d/" target="_blank">「探索3D空間」</a>
 
 
 

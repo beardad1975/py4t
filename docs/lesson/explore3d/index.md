@@ -3,7 +3,7 @@ hide:
   - navigation
 ---
 
-# 📚 3D空間大探索
+# 📚 探索3D空間
 
 我們人類生活的地方，就是一個3D的立體空間。比起平面來說，空間中的位置、長度與角度…等更是複雜。近年來，由於3D硬體加速與軟體的發展，利用資訊科技來計算模擬3D已變得容易許多。所以不管在遊戲、VR、AR、電影、工業設計、生物科技、建築展示…等許多領域，都可以看到3D技術的運用。
 
@@ -205,27 +205,32 @@ FlippedNormals Marketplace, [youtube連結](https://www.youtube.com/watch?v=Yx2J
 : <sup>(資料來源:</sup>[^earth_rotation]<sup>)</sup>
 
 
-??? abstract "關於赤道"
+
+
+???+ success "標示地球自轉"
+
+    : 匯入Py4t的地球材質貼圖，並利用繪圖軟體(如小畫家)，標示出赤道以及地球的自轉方向。
+
+
+    : ![編輯地球圖檔](import_earth_texture.jpg)
+
+??? info "關於赤道"
     : :fontawesome-solid-long-arrow-alt-right: <a href="https://zh.wikipedia.org/wiki/%E8%B5%A4%E9%81%93" target="_blank">維基百科: 赤道</a>
-
-??? question "更多練習"
-
-    : 請在地球的材質貼圖上，標示地球轉動的方向。
     
 
 
 [^earth_rotation]: 地球自轉與晝夜變化｜國中地科 , By 張鎰銳 , [youtube連結](https://youtu.be/CDrcJ0OBvdU)
 
-<br/>
+<br/><br/>
 
 
 
-利用3D程式與地球的材質貼圖，請做出地球的自轉程式。
+試著做出地球的自轉程式。
 
-???+ example "轉動吧地球 範例 (1/2 新檔) --- 地球自轉"
+???+ example "轉動地球 範例 (1/2 新檔) --- 地球自轉"
 
-    === "🎦Py4t操作影片(x:xx)"
-        建構中…
+    === "🎦Py4t操作影片(7:02)"
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/-lC84lJOQuE?start=2&amp;end=424" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
     === "💻Python程式截圖"
 
@@ -284,10 +289,10 @@ FlippedNormals Marketplace, [youtube連結](https://www.youtube.com/watch?v=Yx2J
 
 請試著寫出地球傾斜的程式。
 
-???+ example "轉動吧地球 範例 (2/2 接續) --- 地球傾斜"
+???+ example "轉動地球 範例 (2/2 接續) --- 地球傾斜"
 
-    === "🎦Py4t操作影片(x:xx)"
-        建構中…
+    === "🎦Py4t操作影片(3:05)"
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/-lC84lJOQuE?start=428&amp;end=613" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
     === "💻Python程式截圖"
 
