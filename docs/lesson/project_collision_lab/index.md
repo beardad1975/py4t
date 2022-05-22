@@ -11,7 +11,7 @@ hide:
 
 汽車撞擊測試是一種對市售新車所做的撞擊試驗，測試車輛的耐撞性是否符合安全設計標準，讓車子在發生車禍事故發生時，能最大程度保障司機與乘客的安全。
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/G0EVIYU59zk?start=0&amp;end=125" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+: <iframe width="560" height="315" src="https://www.youtube.com/embed/G0EVIYU59zk?start=0&amp;end=125" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 : <sup>(2分05秒, 資料來源:</sup>[^car_collision]<sup>)</sup>
 
@@ -23,12 +23,12 @@ hide:
 在之前的學習中，相信各位已經練習過利用物理程式來做運動物理量的設置與模擬。在本專題中，請做出一個**與物理撞擊模擬有關的程式**。
 
 
-??? quote "建議先備課程"
+??? info "建議先備課程"
 
      在學習本專題前，建議先完成 :fontawesome-solid-long-arrow-alt-right: <a href="../mechanics_playground/" target="_blank">「力與運動遊樂場」</a> ，在學習概念銜接上會較為平順。
 
 
-??? info "補充資料"
+??? info "補充資料 撞擊測試"
 
      :fontawesome-solid-link: <a href="https://www.car-safety.org.tw/car_safety/TemplateOneList?OpID=373" target="_blank">車輛安全資訊網 實車碰撞</a>
 
@@ -183,13 +183,18 @@ hide:
 
 <br/>
 
-???+ example "專題實作 範例 (1/7 新檔) --- 程式結構"
+???+ example "範例程式 程式結構 - - - - - - - (專題實作1/7 新檔)"
 
-    === "🎦Py4t操作影片(4:18)"
+    === "🎦操作影片"
     
         <iframe width="560" height="315" src="https://www.youtube.com/embed/dIjMzArPjqI?start=2&amp;end=260" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    === "💻Python程式碼"
+        【長度4:18 章節時間如下】
+
+        * 0:00 檔案儲存、模組設定
+        * 0:59 程式結構
+
+    === "💻程式碼"
 
         ```python
         from 物理模組 import *
@@ -210,12 +215,12 @@ hide:
         ``` 
 
 
-??? abstract "模擬主迴圈"
-    :fontawesome-solid-link: <a href="../basic/scratch_python_compare/#event_driven" target="_blank">事件驅動程式 結構與流程</a>
+??? info "模擬主迴圈"
+    : :fontawesome-solid-link: <a href="../basic/scratch_python_compare/#event_driven" target="_blank">事件驅動程式 結構與流程</a>
 
-??? abstract "結構化程式設計"
+??? info "結構化程式設計"
 
-    :fontawesome-solid-link: <a href="../basic/scratch_python_compare/#if" target="_blank">選擇結構</a>
+    : :fontawesome-solid-link: <a href="../basic/scratch_python_compare/#if" target="_blank">選擇結構</a>
 
 <br/><br/><br/>
 
@@ -247,13 +252,17 @@ hide:
 <br/>
 
 
-???+ example "專題實作 範例 (2/7 接續) --- 發射撞擊物"
+???+ example "範例程式 發射撞擊物 - - - - - - - (專題實作2/7 接續)"
 
-    === "🎦Py4t操作影片(1:55)"
+    === "🎦操作影片"
     
         <iframe width="560" height="315" src="https://www.youtube.com/embed/dIjMzArPjqI?start=263&amp;end=378" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    === "💻Python程式碼"
+        【長度1:55 章節時間如下】
+
+        * 4:23 發射撞擊物
+
+    === "💻程式碼"
 
         ```python
         from 物理模組 import *
@@ -298,13 +307,17 @@ hide:
 
 <br/>
 
-???+ example "專題實作 範例 (3/7 接續) --- 柱"
+???+ example "範例程式 障礙物-柱 - - - - - - - (專題實作3/7 接續)"
 
-    === "🎦Py4t操作影片(3:30)"
+    === "🎦操作影片"
     
         <iframe width="560" height="315" src="https://www.youtube.com/embed/dIjMzArPjqI?start=380&amp;end=590" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    === "💻Python程式碼"
+        【長度3:30 章節時間如下】
+
+        * 6:20 障礙物-柱
+
+    === "💻程式碼"
 
         ```python
         from 物理模組 import *
@@ -334,9 +347,9 @@ hide:
         模擬主迴圈()
         ```
 
-??? abstract "結構化程式設計"
+??? info "結構化程式設計"
 
-    :fontawesome-solid-link: <a href="../basic/scratch_python_compare/#for" target="_blank">重複結構</a>
+    : :fontawesome-solid-link: <a href="../basic/scratch_python_compare/#for" target="_blank">重複結構</a>
 
 <br/><br/><br/>
 
@@ -359,13 +372,17 @@ hide:
 
 <br/>
 
-???+ example "專題實作 範例 (4/7 接續) --- 牆"
+???+ example "範例程式 障礙物-牆 - - - - - - - (專題實作4/7 接續)"
 
-    === "🎦Py4t操作影片(2:07)"
+    === "🎦操作影片"
     
         <iframe width="560" height="315" src="https://www.youtube.com/embed/dIjMzArPjqI?start=595&amp;end=722" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    === "💻Python程式碼"
+        【長度2:07 章節時間如下】
+
+        * 9:55 障礙物-牆
+
+    === "💻程式碼"
 
         ```python
         from 物理模組 import *
@@ -423,13 +440,18 @@ hide:
 <br/>
 
 
-???+ example "專題實作 範例 (5/7 接續) --- 金字塔"
+???+ example "範例程式 障礙物-金字塔 - - - - - - - (專題實作5/7 接續)"
 
-    === "🎦Py4t操作影片(2:41)"
+    === "🎦操作影片"
     
         <iframe width="560" height="315" src="https://www.youtube.com/embed/dIjMzArPjqI?start=725&amp;end=886" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    === "💻Python程式碼"
+        【長度2:41 章節時間如下】
+
+        * 12:04 障礙物-金字塔
+
+
+    === "💻程式碼"
 
         ```python
         from 物理模組 import *
@@ -488,27 +510,32 @@ hide:
 
 <br/>
 
-![實驗組與對照組](experimental_method.png)
+: ![實驗組與對照組](experimental_method.png)
 
 <br/>
 
 依規劃的方式動手實作
 
+
+??? info "如何新增地形？"
+
+    : :fontawesome-solid-link: <a href="../mechanics_playground/terrain_assist.jpg" target="_blank">增加刪除地形 操作說明</a>
+
+
 <br/>
 
-??? abstract "如何新增地形？"
+???+ example "範例程式 實驗組與對照組 - - - - - - - (專題實作6/7 接續)"
 
-    :fontawesome-solid-link: <a href="../mechanics_playground/terrain_assist.jpg" target="_blank">增加刪除地形 操作說明</a>
-
-
-
-???+ example "專題實作 範例 (6/7 接續) --- 實驗組與對照組"
-
-    === "🎦Py4t操作影片(2:06)"
+    === "🎦操作影片"
     
         <iframe width="560" height="315" src="https://www.youtube.com/embed/dIjMzArPjqI?start=888&amp;end=1014" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    === "💻Python程式碼"
+        【長度2:06 章節時間如下】
+
+        * 14:48 實驗組與對照組
+
+
+    === "💻程式碼"
 
         ```python
         from 物理模組 import *
@@ -574,7 +601,7 @@ hide:
 
 <br/>
 
-![影響撞擊的因素](test_factor.png)
+: ![影響撞擊的因素](test_factor.png)
 
 <br/>
 
@@ -582,7 +609,7 @@ hide:
 
 <br/>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/DG44CT46rSM?start=0&amp;end=137" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+: <iframe width="560" height="315" src="https://www.youtube.com/embed/DG44CT46rSM?start=0&amp;end=137" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 : <sup>(2分17秒, 資料來源:</sup>[^density]<sup>)</sup>
 
@@ -595,13 +622,18 @@ hide:
 <br/>
 
 
-???+ example "專題實作 範例 (7/7 接續) --- 撞擊測試"
+???+ example "範例程式 撞擊測試 - - - - - - - (專題實作7/7 接續)"
 
-    === "🎦Py4t操作影片(4:11)"
+    === "🎦操作影片"
     
         <iframe width="560" height="315" src="https://www.youtube.com/embed/dIjMzArPjqI?start=1016&amp;end=1267" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    === "💻Python程式碼"
+        【長度4:11 章節時間如下】
+
+        * 16:56 撞擊測試
+
+
+    === "💻程式碼"
 
         ```python
         from 物理模組 import *
@@ -675,7 +707,7 @@ hide:
 
 <br/>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/0-pZ4t-kAWw?start=0&amp;end=36" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+: <iframe width="560" height="315" src="https://www.youtube.com/embed/0-pZ4t-kAWw?start=0&amp;end=36" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 : <sup>(36秒, 資料來源:</sup>[^slow_motion]<sup>)</sup>
 
@@ -689,13 +721,17 @@ hide:
 
 <br/>
 
-???+ example "專題擴展 範例 (1/2 接續) --- 慢動作"
+???+ example "範例程式 慢動作 - - - - - - - (專題擴展1/2 接續)"
 
-    === "🎦Py4t操作影片(2:26)"
+    === "🎦操作影片"
     
         <iframe width="560" height="315" src="https://www.youtube.com/embed/dIjMzArPjqI?start=1269&amp;end=1415" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    === "💻Python程式碼"
+        【長度2:26 章節時間如下】
+
+        * 21:09 慢動作
+
+    === "💻程式碼"
 
         ```python
         from 物理模組 import *
@@ -771,7 +807,7 @@ hide:
 
 <br/>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/JFEkpBhBJug?start=0&amp;end=166" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+: <iframe width="560" height="315" src="https://www.youtube.com/embed/JFEkpBhBJug?start=0&amp;end=166" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 : <sup>(2分46秒, 資料來源:</sup>[^student_shoot_target]<sup>)</sup>
 
@@ -786,13 +822,18 @@ hide:
 
 <br/>
 
-???+ example "專題擴展 範例 (2/2 接續) --- 子彈射擊"
+???+ example "範例程式 子彈射擊 - - - - - - - (專題擴展2/2 接續)"
 
-    === "🎦Py4t操作影片(1:44)"
+    === "🎦操作影片"
     
         <iframe width="560" height="315" src="https://www.youtube.com/embed/dIjMzArPjqI?start=1417&amp;end=1521" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    === "💻Python程式碼"
+        【長度1:44 章節時間如下】
+
+        * 23:37 子彈射擊
+
+
+    === "💻程式碼"
 
         ```python
         from 物理模組 import *

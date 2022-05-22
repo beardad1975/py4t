@@ -3,7 +3,7 @@ hide:
   - navigation
 ---
 
-# 🔰 3D程式範例 - 彩色漸層
+# 🔰 3D程式範例 - 漸層螢幕
 
 --------------
 
@@ -17,7 +17,7 @@ hide:
 
 🎦 範例影片
 
-: 建構中
+: <iframe width="560" height="315" src="https://www.youtube.com/embed/3RNyfWZ9GTc?start=2&amp;end=512" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 📄 Py4t程式碼
 
@@ -26,14 +26,14 @@ from 模擬3D模組 import *
 
 for x in range(16) :
     for y in range(12) :
-        物體 = 新增圓形平面()
-        物體.位置 = [x,y,0]
-        物體.顏色 = color.red
+        點 = 新增圓形平面()
+        點.位置 = [x,y,0]
+        點.顏色 = color.red
 
 框 = 新增方形平面()
 框.材質貼圖 = '平板外框.png'
 框.縮放 = [16*1.2, 12*1.2, 1]
-框.位置 = [15/2, 11/2, 0]
+框.位置 = [7.5, 5.5, 0]
 
 模擬主迴圈()
 ```
@@ -49,7 +49,7 @@ for x in range(16) :
 
 🎦 範例影片
 
-: 建構中
+: <iframe width="560" height="315" src="https://www.youtube.com/embed/3RNyfWZ9GTc?start=517&amp;end=639" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 📄 Py4t程式碼
 
@@ -58,14 +58,14 @@ from 模擬3D模組 import *
 
 for x in range(16) :
     for y in range(12) :
-        物體 = 新增圓形平面()
-        物體.位置 = [x,y,0]
-        物體.顏色 = color.hsv(x*10, 1, 1)
+        點 = 新增圓形平面()
+        點.位置 = [x,y,0]
+        點.顏色 = color.hsv(x*10, 1, 1)
         
 框 = 新增方形平面()
 框.材質貼圖 = '平板外框.png'
 框.縮放 = [16*1.2, 12*1.2, 1]
-框.位置 = [15/2, 11/2, 0]
+框.位置 = [7.5, 5.5, 0]
 
 模擬主迴圈()
 ```

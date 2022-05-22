@@ -22,7 +22,9 @@ hide:
 
 ??? info "關於3D程式"
 
-     :fontawesome-solid-link: <a href="../../threed4t/" target="_blank">3D學習模組 說明</a>
+    : Py4t是在Panda3D與Ursina的基礎上，來達到3D程式的功能
+
+    : :fontawesome-solid-link: <a href="../../threed4t/" target="_blank">Py4t 3D學習模組 說明、範例程式與原始碼</a>
 
 
 <br/><br/><br/> 
@@ -59,14 +61,14 @@ Blender Guru, [youtube連結](https://youtu.be/VT5oZndzj68)
 
 <br/><br/>
 
-為了讓學習者容易理解3D程式，Py4t內建了座標與攝影機(視角)的輔助操作，幫助我們了解與驗証3D模擬空間。輔助的操作如下：    
-
+為了讓學習者容易理解3D程式，Py4t內建了座標與攝影機(視角)的輔助操作，幫助我們了解與驗証3D模擬空間。    
 
 : ![輔助功能](assistant.jpg)
 
 <br/>
 
 當3D空間的模擬物體，投影至2D畫面時(如觀看者的螢幕)，可以分成透視與正交投影2種方式：
+
 
 : ![透視與正交投影](projection.jpg)
 
@@ -77,29 +79,38 @@ Blender Guru, [youtube連結](https://youtu.be/VT5oZndzj68)
 
 <br/>
 
-跟著範例，寫出空間位置的程式。
+運用3D空間座標的概念，一起來動手寫程式吧！
 
-???+ example "3D基礎 範例 (1/3 新檔) --- 空間座標與位置"
-    === "🎦Py4t操作影片(6:29)"
+???+ example "範例程式 空間座標與位置 - - - - - - - (3D基礎1/3 新檔)"
     
+    === "🎦操作影片"
+        
         <iframe width="560" height="315" src="https://www.youtube.com/embed/xnP4PEybUJ0?start=2&amp;end=390" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    === "💻Python程式截圖"
+        【長度6:29 章節時間如下】
+
+        * 0:00 存檔、匯入模組
+        * 0:51 座標與攝影機
+        * 2:21 立方體位置
+        * 4:05 球體位置
+        * 5:38 透視與正交投影
+
+    === "💻程式截圖"
 
         ![程式截圖](snapshot/coor_and_position.jpg)
 
 
-??? abstract "模擬主迴圈？流程？"
+??? info "模擬主迴圈？流程？"
 
-    什麼是「模擬主迴圈」？它的程式結構與演算流程是什麼？
+    : 什麼是「模擬主迴圈」？它的程式結構與演算流程是什麼？
 
-    :fontawesome-solid-link: <a href="../basic/scratch_python_compare/#event_driven" target="_blank">事件驅動程式 結構與流程</a>
+    : :fontawesome-solid-link: <a href="../basic/scratch_python_compare/#event_driven" target="_blank">事件驅動程式 結構與流程</a>
 
     -----------------------------
 
-    補充資料 
+    : 補充資料 
     
-    :fontawesome-solid-link: <a href="https://zh.wikipedia.org/wiki/%E4%BA%8B%E4%BB%B6%E9%A9%85%E5%8B%95%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88" target="_blank">維基百科: 事件驅動程式設計</a>
+    : :fontawesome-solid-link: <a href="https://zh.wikipedia.org/wiki/%E4%BA%8B%E4%BB%B6%E9%A9%85%E5%8B%95%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88" target="_blank">維基百科: 事件驅動程式設計</a>
 
 <br/><br/><br/>
 
@@ -120,15 +131,22 @@ Blender Guru, [youtube連結](https://youtu.be/VT5oZndzj68)
 
 : ![3d旋轉](rotate_around_axes.jpg)
 
+<br/>
 
-一起來寫寫看縮放與旋轉的程式。
+使用3D空間中物體的縮放與旋轉概念，來寫出程式。
 
-???+ example "3D基礎 範例 (2/3 新檔) --- 3軸縮放與旋轉"
+???+ example "範例程式 3軸縮放與旋轉 - - - - - - - (3D基礎2/3 新檔)"
 
-    === "🎦Py4t操作影片(5:52)"
+    === "🎦操作影片"
         <iframe width="560" height="315" src="https://www.youtube.com/embed/PSL2Pi5_MTs?start=2&amp;end=354" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    === "💻Python程式截圖"
+        【長度5:52 章節時間如下】      
+
+        * 0:00 存檔、匯入模組
+        * 0:54 3軸縮放
+        * 3:45 繞軸旋轉
+
+    === "💻程式截圖"
 
         ![程式截圖](snapshot/scale_and_rotate.jpg)
 
@@ -149,7 +167,7 @@ Blender Guru, [youtube連結](https://youtu.be/VT5oZndzj68)
 
 <br/>
 
-透過平面的材質貼圖，對應到3D物體中的不同多邊形的平面上，可以讓3D模型更加的生動有趣。
+除了顏色以外，也可以透過平面的材質貼圖，對應到3D物體中的不同多邊形的平面上，可以讓3D模型更加的生動有趣。
 
 : <iframe width="560" height="315" src="https://www.youtube.com/embed/Yx2JNbv8Kpg?start=115&amp;end=218" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -160,14 +178,29 @@ FlippedNormals Marketplace, [youtube連結](https://www.youtube.com/watch?v=Yx2J
 
 <br/>
 
+
+Py4t預設的立方體，其材質貼圖對應至各面的情形如下：
+
+: ![cube_uv](cube_uv_mapping.png)
+
+
+<br/>
+
+
 一起動手實作出程式，控制3D物體的顏色與材質。
 
-???+ example "3D基礎 範例 (3/3 新檔) --- 顏色與材質"
+???+ example "範例程式 顏色與材質 - - - - - - - (3D基礎3/3 新檔)"
 
-    === "🎦Py4t操作影片(6:55)"
+    === "🎦操作影片"
         <iframe width="560" height="315" src="https://www.youtube.com/embed/WwzIwKTmgfU?start=2&amp;end=416" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    === "💻Python程式截圖"
+        【長度6:55 章節時間如下】
+
+        * 0:00 存檔、匯入模組
+        * 0:54 設定顏色
+        * 3:38 材質貼圖
+
+    === "💻程式截圖"
 
         ![程式截圖](snapshot/color_and_texture.jpg)
 
@@ -204,15 +237,26 @@ FlippedNormals Marketplace, [youtube連結](https://www.youtube.com/watch?v=Yx2J
 
 : <sup>(資料來源:</sup>[^earth_rotation]<sup>)</sup>
 
+<br/>
 
 
 
-???+ success "標示地球自轉"
+Py4t預設的球體，其材質貼圖對應至球面的情形如下：
 
-    : 匯入Py4t的地球材質貼圖，並利用繪圖軟體(如小畫家)，標示出赤道以及地球的自轉方向。
+: ![cube_uv](sphere_uv_mapping.png)
 
 
-    : ![編輯地球圖檔](import_earth_texture.jpg)
+<br/>
+
+客製化地球材質貼圖，利用繪圖軟體(如小畫家)，標示出赤道以及地球的自轉方向。
+
+
+: ![編輯地球圖檔](import_earth_texture.jpg)
+
+: <sup>(NASA地球材質貼圖, 資料來源:</sup>[^blue_marble]<sup>)</sup>
+
+[^blue_marble]: The Blue Marble - NASA Visible Earth , [連結](https://visibleearth.nasa.gov/images/57723/the-blue-marble)
+
 
 ??? info "關於赤道"
     : :fontawesome-solid-long-arrow-alt-right: <a href="https://zh.wikipedia.org/wiki/%E8%B5%A4%E9%81%93" target="_blank">維基百科: 赤道</a>
@@ -225,16 +269,28 @@ FlippedNormals Marketplace, [youtube連結](https://www.youtube.com/watch?v=Yx2J
 
 
 
-試著做出地球的自轉程式。
+綜合所學的知識，試著做出地球的自轉程式。
 
-???+ example "轉動地球 範例 (1/2 新檔) --- 地球自轉"
+???+ example "範例程式 地球自轉 - - - - - - - (轉動地球1/2 新檔)"
 
-    === "🎦Py4t操作影片(7:02)"
+    === "🎦操作影片"
         <iframe width="560" height="315" src="https://www.youtube.com/embed/-lC84lJOQuE?start=2&amp;end=424" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    === "💻Python程式截圖"
+        【長度7:02 章節時間如下】
+
+        * 0:00 存檔、匯入模組
+        * 0:49 球體與貼圖
+        * 3:25 標示自轉方向
+        * 5:44 地球自轉
+
+    === "💻程式截圖"
 
         ![程式截圖](snapshot/earth_rotation.jpg)
+
+??? info "關於 Google Earth"
+    : 是一款Google公司開發的虛擬地球儀軟體，它將衛星圖、航空照相和GIS資料疊加在地球的三維模型上
+  
+    : :fontawesome-solid-long-arrow-alt-right: <a href="https://www.google.com/intl/zh-TW/earth/" target="_blank">Google Earth</a>
 
 <br/><br/><br/>
 
@@ -257,7 +313,7 @@ FlippedNormals Marketplace, [youtube連結](https://www.youtube.com/watch?v=Yx2J
 
 <br/>
 
-為什麼地球儀中的地球是傾斜的呢？
+地球儀中的地球是傾斜的，這樣會帶來什麼影響呢？
 
 
 
@@ -269,7 +325,7 @@ FlippedNormals Marketplace, [youtube連結](https://www.youtube.com/watch?v=Yx2J
 
 <br/>
 
-由於地球的公轉與傾斜，產生了一年四季的變化。
+由於地球的傾斜與公轉，產生了一年四季的變化。
 
 
 ![地軸傾斜](earth_revolution.jpg)
@@ -281,22 +337,32 @@ FlippedNormals Marketplace, [youtube連結](https://www.youtube.com/watch?v=Yx2J
 
 如何在程式中做到地球繞著軸自轉，並且自轉軸也傾斜呢？讓我們來了解3D物體的親子關係。
 
-<br/>
 
-: ![親子關係](parent_and_child.png)
+
+![親子關係](parent_and_child.png)
 
 <br/>
 
 請試著寫出地球傾斜的程式。
 
-???+ example "轉動地球 範例 (2/2 接續) --- 地球傾斜"
+???+ example "範例程式 地球傾斜 - - - - - - - (轉動地球2/2 接續)"
 
-    === "🎦Py4t操作影片(3:05)"
+    === "🎦操作影片"
         <iframe width="560" height="315" src="https://www.youtube.com/embed/-lC84lJOQuE?start=428&amp;end=613" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    === "💻Python程式截圖"
+        【長度3:05 章節時間如下】
+
+        * 7:08 地球傾斜
+
+    === "💻程式截圖"
 
         ![程式截圖](snapshot/earth_tilt.jpg)
+
+??? question "更多練習"
+
+    : 1.請利用範例材質中的地球儀外框以及3D的角柱或圓柱，在3D空間中調整位置與縮放倍率，組成一個地球儀。
+
+    : 2.這幾年的疫情對全球產生巨大的影響，生活在台灣的我們也都有切身的感受，請在地球材質貼圖上，寫下你對疫情的祝福與希望。
 
 <br/><br/><br/>
 
@@ -305,13 +371,13 @@ FlippedNormals Marketplace, [youtube連結](https://www.youtube.com/watch?v=Yx2J
 
 ----------------------------
 
-##  📘 彩色漸層(2)
+##  📘 漸層螢幕(2)
 
 : ***虛擬螢幕***
 
 ----------------------------
 
-在賣場的展售顯示器，常常會條列出相關的規格，比如螢幕的尺寸、比例與解析度。
+在3C賣場展售的顯示器，常常會條列出螢幕相關的規格資料，比如螢幕的尺寸、比例與解析度等。
 
 : ![比例與解析度](ratio_and_resolution.jpg)
 
@@ -319,10 +385,12 @@ FlippedNormals Marketplace, [youtube連結](https://www.youtube.com/watch?v=Yx2J
 
 [^ratio_resolution]: 16:9 aspect ratio, [維基百科連結](https://en.wikipedia.org/wiki/16:9_aspect_ratio). Computer monitor, https://en.wikipedia.org/wiki/Computer_monitor
 
+在上圖中的解析度720p，代表的規格是螢幕的寬有1280個點，高有720個點，這些點又稱為畫素(pixel)，是影像顯示的基本單位。
+
 
 <br/>
 
-請利用3D程式做出一個虛擬螢幕(規格如下)：
+請以下列的規格，利用3D程式做出一個虛擬螢幕：
 
 <br/>
 
@@ -332,14 +400,24 @@ FlippedNormals Marketplace, [youtube連結](https://www.youtube.com/watch?v=Yx2J
 
 
 
-???+ example "彩色漸層 範例 (1/2 新檔) --- 虛擬螢幕"
+???+ example "範例程式 虛擬螢幕 - - - - - - - (漸層螢幕1/2 新檔)"
 
-    === "🎦Py4t操作影片(x:xx)"
-        建構中…
+    === "🎦操作影片"
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/3RNyfWZ9GTc?start=2&amp;end=512" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    === "💻Python程式截圖"
+        【長度8:30 章節時間如下】
+
+        * 0:00 存檔、匯入模組
+        * 0:54 虛擬螢幕
+        * 4:15 螢幕外框
+
+    === "💻程式截圖"
 
         ![程式截圖](snapshot/virtual_screen.jpg)
+
+??? question "更多練習"
+
+    : 寬高比16:9是常見的電視、電腦顯示器規格，請將虛擬螢幕改為16:9。
 
 
 <br/>
@@ -389,25 +467,28 @@ HSV是另一種色彩的模型，它代表的是色相、飽和度與明度。�
 
 認識了HSV色彩空間後，要怎麼做出漸層色呢？
 
-<br/>
-
 : ![左右漸層思考](left_right_gradient.png)
 
 <br/>
 
 綜合以上，請寫出漸層顏色的程式。
 
-???+ example "彩色漸層 範例 (2/2 接續) --- 彩色漸層"
+???+ example "範例程式 彩色漸層 - - - - - - - (漸層螢幕2/2 接續)"
 
-    === "🎦Py4t操作影片(x:xx)"
-        建構中…
+    === "🎦操作影片"
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/3RNyfWZ9GTc?start=517&amp;end=639" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    === "💻Python程式截圖"
+        
+        【長度2:02 章節時間如下】
+
+        * 8:37 彩色漸層
+
+    === "💻程式截圖"
 
         ![程式截圖](snapshot/color_gradient.jpg)
 
 
-??? question "更多漸層練習"
+??? question "更多練習"
 
     : 1.可以改變漸層的方向嗎？做出如上下或斜向的漸層嗎？
 
@@ -429,7 +510,7 @@ HSV是另一種色彩的模型，它代表的是色相、飽和度與明度。�
 
 ----------------------------
 
-Google街景圖(由Google公司開發)，提供水平方向360°及垂直方向180°的街道全景，讓使用者能檢視所選城市地面上街道不同位置及其兩旁的景物，由Google街景車拍攝了許多的360度全景照片所構成。
+Google地圖中的<a href="https://www.google.com/streetview/" target="_blank">街景服務</a>，提供水平方向360°及垂直方向180°的街道全景，讓使用者能檢視所選城市地面上街道不同位置及其兩旁的景物，由Google街景車拍攝了許多的360度全景照片所構成。
 
 
 : ![google街景服務](google_map.jpg)
@@ -438,9 +519,22 @@ Google街景圖(由Google公司開發)，提供水平方向360°及垂直方向1
 
 <br/>
 
-如何產生360全景相片呢？其中一種方法是透過相機的魚眼鏡頭，1顆魚眼鏡頭可拍下 180 度的環境，同時使用 2 顆的話，就可以拼接出 360 度的全景照片。
+如何產生360全景相片呢？有許多不同的設備及處理方式，其中一種方式是使用配有2顆魚眼鏡頭的360相機，1顆魚眼鏡頭可拍下 180 度的環境，使用 2 顆的話，就可以拼接出 360 度的全景照片。
 
 : ![360環景照片](360camera.jpg)
+
+<br/>
+
+360全景照片搭配Py4t的內面貼圖球體，會產生街景圖的環繞效果。
+
+內面貼圖球體的材質會在內側，如果以碗來類比，就像是把圖貼在碗的裡面。
+
+: ![內面貼圖球體](inner_texture_sphere.png)
+
+: <sup>(故宮博物院 青瓷劃花三魚小碗，資料來源:</sup>[^ancient_bowl]<sup>)</sup>
+
+[^ancient_bowl]: 青瓷劃花三魚小碗, [維基百科連結](https://zh.wikipedia.org/wiki/%E9%9D%92%E7%93%B7%E5%8A%83%E8%8A%B1%E4%B8%89%E9%AD%9A%E5%B0%8F%E7%A2%97)
+
 
 <br/>
 
@@ -456,6 +550,9 @@ Google街景圖(由Google公司開發)，提供水平方向360°及垂直方向1
         ![程式截圖](snapshot/360_photo.jpg)
 
 
+<br/>
+<br/>
+<br/>
 
 ----------------------------
 

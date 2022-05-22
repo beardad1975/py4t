@@ -1,6 +1,6 @@
 ---
 hide:
-  - toc
+  - navigation
 ---
 
 #  🧡 Scratch 到 Python - 基本語法

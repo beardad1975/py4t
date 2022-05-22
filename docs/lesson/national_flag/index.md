@@ -13,18 +13,20 @@ hide:
 
 [^flags_un]: United Nations Headquarters, New York . By Rick Banjornas, [來源連結](https://uil.unesco.org/literacy/literacy-and-education-democracy-essential-milestones-advance-sdgs-during-and-beyond-covid) , 9 October 2020
 
-國旗是國家的代表，國旗裡的線條、顏色與形狀，都有它的歷史由來。在課程中，我們將一同思考、並利用海龜程式來實作出各國國旗。
+國旗是國家的代表，國旗裡的線條、顏色與形狀，都有它的歷史由來。在這個課程中，我們將一同思考、並利用海龜程式來實作出各國國旗。
 
 ??? info "關於海龜程式"
 
-     :fontawesome-solid-link: <a href="../../turtle4t/" target="_blank">海龜學習模組 說明</a>
+    : Py4t海龜程式的介紹，加上中文的函式庫、範例程式與原始碼。
+
+    : :fontawesome-solid-link: <a href="../../turtle4t/" target="_blank">海龜學習模組 說明</a>
 
 
 <br/><br/><br/> 
 
 ----------------------------
 
-##  📙 國旗基本元素(3) 
+##  📙 國旗元素(3) 
 
 
 ***世界各國國旗*** 
@@ -52,18 +54,18 @@ hide:
 
 觀察各國國旗的造型，有沒有什麼相同點呢？
 
-??? abstract "運算思維"
+??? info "運算思維"
 
-    :fontawesome-solid-link: <a href="../basic/comthink/#_3" target="_blank">抽象化</a>
+    : :fontawesome-solid-link: <a href="../basic/comthink/#_3" target="_blank">抽象化</a>
 
-    :fontawesome-solid-link: <a href="../basic/comthink/#_4" target="_blank">樣式辨識</a>
+    : :fontawesome-solid-link: <a href="../basic/comthink/#_4" target="_blank">樣式辨識</a>
 
 
 ??? question "自主學習 資料搜尋 "
 
-    閱讀上方的國旗網路資料(或其他網站)，請挑選某一個國家的國旗，做出一篇世界國旗的簡介吧！    
+    : 閱讀上方的國旗網路資料(或其他網站)，請挑選某一個國家的國旗，做出一篇世界國旗的簡介吧！    
 
-    (內容可包含該國國旗的尺寸規格、歷史故事、設計理念…等)
+    : (內容可包含該國國旗的尺寸規格、歷史故事、設計理念…等)
 
 <br/><br/><br/> 
 
@@ -94,21 +96,27 @@ hide:
 
 <br/>
 
-???+ example "國旗基本元素 範例 (1/3 新檔) --- 正方形"
+???+ example "範例程式 正方形 - - - - - - - (國旗基本元素1/3 新檔)"
 
-    === "🎦Py4t操作影片(2:04)"
+    === "🎦操作影片"
     
         <iframe width="560" height="315" src="https://www.youtube.com/embed/IlQmn6eC1dg?start=2&amp;end=126" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    === "💻Python程式截圖"
+        【長度2:04 章節時間如下】
+
+        * 0:00 存檔、匯入模組
+        * 0:51 正方形
+
+
+    === "💻程式截圖"
 
         ![程式截圖](snapshot/flag_element_square.jpg) 
 
-??? abstract "結構化程式設計"
+??? info "結構化程式設計"
 
-    :fontawesome-solid-link: <a href="../basic/scratch_python_compare/#for" target="_blank">計次式重複 (for 迴圈)</a>
+    : :fontawesome-solid-link: <a href="../basic/scratch_python_compare/#for" target="_blank">計次式重複 (for 迴圈)</a>
 
-    :fontawesome-solid-link: <a href="../basic/scratch_python_compare/#block" target="_blank">區塊需相同縮排</a>
+    : :fontawesome-solid-link: <a href="../basic/scratch_python_compare/#block" target="_blank">區塊需相同縮排</a>
 
 
 
@@ -132,13 +140,18 @@ hide:
 
 <br/>
 
-???+ example "國旗基本元素 範例 (2/3 接續) --- 長方形"
+???+ example "範例程式 長方形 - - - - - - - (國旗基本元素2/3 接續)"
 
-    === "🎦Py4t操作影片(1:10)"
+    === "🎦操作影片"
     
         <iframe width="560" height="315" src="https://www.youtube.com/embed/IlQmn6eC1dg?start=129&amp;end=199" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    === "💻Python程式截圖"
+        【長度1:10 章節時間如下】
+
+        * 2:09 長方形
+
+
+    === "💻程式截圖"
 
         ![程式截圖](snapshot/flag_element_rectangle.jpg) 
 
@@ -165,13 +178,17 @@ hide:
 
 <br/>
 
-???+ example "國旗基本元素 範例 (3/3 接續) --- 填色"
+???+ example "範例程式 填色 - - - - - - - (國旗基本元素3/3 接續)"
 
-    === "🎦Py4t操作影片(1:10)"
+    === "🎦操作影片"
     
         <iframe width="560" height="315" src="https://www.youtube.com/embed/IlQmn6eC1dg?start=201&amp;end=271" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    === "💻Python程式截圖"
+        【長度1:10 章節時間如下】
+
+        * 3:21 填色
+
+    === "💻程式截圖"
 
         ![程式截圖](snapshot/flag_element_fill.jpg) 
 
@@ -179,7 +196,7 @@ hide:
 
 ----------------------------
 
-##  📗 方形相關國旗(1)
+##  📗 方形國旗(1)
 
 
 ***國旗規格***
@@ -190,7 +207,7 @@ hide:
 
 以法國國旗為例，它的形狀是由3個長方形色塊所組成，相關規格如下：
 
-![法國國旗規格](french_flag_spec.png)
+: ![法國國旗規格](french_flag_spec.png)
 
 : :fontawesome-solid-link: <a href="https://zh.wikipedia.org/wiki/%E6%B3%95%E5%9B%BD%E5%9B%BD%E6%97%97" target="_blank">維基百科 法國國旗</a> - 簡介與規格
 
@@ -209,16 +226,16 @@ hide:
 
 <br/><br/>
 
-![國旗順序想法](french_flag_thought.png)
+: ![國旗順序想法](french_flag_thought.png)
 
 <br/>
 
 
 
 
-??? abstract "運算思維"
+??? info "運算思維"
 
-    :fontawesome-solid-link: <a href="../basic/comthink/#_7" target="_blank">演算法思維</a>
+    : :fontawesome-solid-link: <a href="../basic/comthink/#_7" target="_blank">演算法思維</a>
 
 <br/><br/>
 
@@ -227,7 +244,7 @@ hide:
 
 <br/>
 
-![想法一規格](french_flag_thought1_spec.png)
+: ![想法一規格](french_flag_thought1_spec.png)
 
 <br/>
 
@@ -235,45 +252,38 @@ hide:
 
 <br/>
 
-???+ example "方形相關國旗 範例 (1/1 新檔) --- 法國國旗"
+???+ example "範例程式 法國國旗 - - - - - - - (方形相關國旗1/1 新檔)"
 
-    === "🎦Py4t操作影片(5:25)"
+    === "🎦操作影片"
     
         <iframe width="560" height="315" src="https://www.youtube.com/embed/jSS289nWjdQ?start=0&amp;end=325" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    === "💻Python程式截圖"
+        【長度5:25 章節時間如下】
+
+
+        * 0:00 存檔、匯入模組
+        * 0:59 紅色長方形
+        * 3:14 白色長方形
+        * 4:17 藍色長方形
+
+    === "💻程式截圖"
 
         ![程式截圖](snapshot/flag_of_france.jpg) 
 
+??? question "更多練習"
 
-<br/> 
+    1.生活中的問題常常不只一種解決方法。像上圖中的想法二就是另一種畫出法國國旗的方法。請你試試看，如何用想法二來實作出法國國旗呢？(注意起點位置的變化) 
 
-??? question "自主學習 想法二實作"
 
-    生活中的問題常常不只一種解決方法。像上圖中的想法二就是另一種畫出法國國旗的方法，依藍、白、紅色畫出一樣大的色塊來完成。
-
-    請你試試看，如何用想法二來實作出法國國旗呢？(注意起點位置的變化) 
-
-??? question "自主學習 RGB國旗顏色"
-
-    在範例程式中，僅使用純藍、白、紅色來畫出法國國旗。但依照它的規格，其藍色的RGB值是(0,85,164)，白色的RGB值是(255,255,255)，紅色的RGB值是(250,60,50)。
+    2.在範例程式中，僅使用純藍、白、紅色來畫出法國國旗。但依照它的規格，其藍色的RGB值是(0,85,164)，白色的RGB值是(255,255,255)，紅色的RGB值是(250,60,50)。請使用標準RGB顏色值，讓海龜畫出法國國旗。(提示：「填充顏色 RGB」便利貼) 
     
-    什麼是RGB值呢？RGB是紅綠藍顏色模型，將紅（Red）、綠（Green）、藍（Blue）三原色的色光以不同的比例相加以產生各種色光。(詳見<a href="https://zh.wikipedia.org/wiki/%E4%B8%89%E5%8E%9F%E8%89%B2%E5%85%89%E6%A8%A1%E5%BC%8F" target="_blank">維基百科</a>)
-
-    請使用標準RGB顏色值，讓海龜畫出法國國旗。(提示：「填充顏色 RGB」便利貼) 
-
-
-??? question "自主學習 其他方形國旗 "
-
-    找找看，還有其他國家的國旗與長方形相關的嗎？
-
-    請從 :fontawesome-solid-link: <a href="https://zh.wikipedia.org/wiki/%E5%9C%8B%E6%97%97%E5%88%97%E8%A1%A8" target="_blank">維基百科 國旗列表</a>中，找到由長方形或正方形組成的國旗，依據國旗的說明與規格，試著用海龜程式畫出來。(如中歐地區的德國)
+    3.找找看，還有其他國家的國旗與長方形相關的嗎？試著用海龜程式畫出來。(如中歐地區的德國)
 
 <br/><br/><br/>
 
 ----------------------------
 
-## 📘 圓形相關國旗(1)
+## 📘 圓形國旗(1)
 
 ***日本國旗規格***
 
@@ -339,21 +349,27 @@ hide:
 
 <br/>
 
-???+ example "圓形相關國旗 範例 (1/1 新檔) --- 日本國旗"
+???+ example "範例程式 日本國旗 - - - - - - - (圓形相關國旗1/1 新檔)"
 
 
-    === "🎦Py4t操作影片(5:03)"
+    === "🎦操作影片"
     
         <iframe width="560" height="315" src="https://www.youtube.com/embed/KIVH9CxhiT4?start=0&amp;end=303" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    === "💻Python程式截圖"
+        【長度5:03 章節時間如下】
+
+        * 0:00 存檔、匯入模組
+        * 0:58 白色長方形3:2
+        * 2:32 紅色實心圓
+
+    === "💻程式截圖"
 
         ![程式截圖](snapshot/flag_of_japan.jpg) 
 
 
-??? question "自主學習 資料搜尋"
+??? question "更多練習"
 
-    你能找出國旗中有包含圓形的國家嗎？請找出至少3個。    
+    你能找出國旗中有包含圓形的國家嗎？    
 
     :fontawesome-solid-link: <a href="https://zh.wikipedia.org/wiki/%E5%9C%8B%E6%97%97%E5%88%97%E8%A1%A8" target="_blank">維基百科 國旗列表</a>
 
@@ -362,7 +378,7 @@ hide:
 
 ----------------------------
 
-##  📙 星形相關國旗(3)
+##  📙 星形國旗(3)
 
 
 ***畫出星形 ***
@@ -373,18 +389,23 @@ hide:
 
 <br/>
 
-![正三角形](draw_triangle.png) 
+: ![正三角形](draw_triangle.png) 
 
 <br/>
 
-???+ example "星形相關國旗 範例 (1/3 新檔) --- 正三角形"
+???+ example "範例程式 正三角形 - - - - - - - (星形相關國旗1/3 新檔)"
 
 
-    === "🎦Py4t操作影片(2:07)"
+    === "🎦操作影片"
     
         <iframe width="560" height="315" src="https://www.youtube.com/embed/wOcEgr5CXHY?start=2&amp;end=129" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    === "💻Python程式截圖"
+        【長度2:07 章節時間如下】
+
+        * 0:00 存檔、匯入模組
+        * 1:03 正三角形
+
+    === "💻程式截圖"
 
         ![程式截圖](snapshot/draw_triangle.jpg) 
 
@@ -417,19 +438,23 @@ hide:
 
 <br/>
 
-???+ example "星形相關國旗 範例 (2/3 接續) --- 奇數角星形"
+???+ example "範例程式 奇數角星形 - - - - - - - (星形相關國旗2/3 接續)"
 
-    === "🎦Py4t操作影片(1:11)"
+    === "🎦操作影片"
     
         <iframe width="560" height="315" src="https://www.youtube.com/embed/wOcEgr5CXHY?start=131&amp;end=202" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    === "💻Python程式截圖"
+        【長度1:11 章節時間如下】
+
+        * 2:11 奇數角星形
+
+    === "💻程式截圖"
 
         ![程式截圖](snapshot/odd_number_star.jpg) 
 
 
 
-??? question "自主學習 十二角星形"
+??? question "更多練習"
 
     請利用上圖的公式，試著讓海龜程式畫出十二角星形吧！
 
@@ -468,19 +493,25 @@ hide:
 
 <br/>
 
-???+ example "星形相關國旗 範例 (3/3 新檔) --- 越南國旗"
+???+ example "範例程式 越南國旗 - - - - - - - (星形相關國旗3/3 新檔)"
 
-    === "🎦Py4t操作影片(6:44)"
+    === "🎦操作影片"
     
         <iframe width="560" height="315" src="https://www.youtube.com/embed/KL5OYhQZq-E?start=0&amp;end=404" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    === "💻Python程式截圖"
+        【長度6:44 章節時間如下】
+
+        * 0:00 存檔、匯入模組
+        * 0:59 紅色長方形
+        * 2:55 黃色5角星形        
+
+    === "💻程式截圖"
 
         ![程式截圖](snapshot/flag_of_vietnam.jpg) 
 
-??? question "自主學習 資料搜尋"
+??? question "更多練習"
 
-    你能找出國旗中有包含星形的國家嗎？請找出至少2個。    
+    你能找出國旗中有包含星形的國家嗎？    
 
     :fontawesome-solid-link: <a href="https://zh.wikipedia.org/wiki/%E5%9C%8B%E6%97%97%E5%88%97%E8%A1%A8" target="_blank">維基百科 國旗列表</a>
 
@@ -497,7 +528,7 @@ hide:
 如果想要更進一步，可以挑戰下面的程式專題哦！
 
 
-:fontawesome-solid-link: <a href="../project_roc_flag/" target="_blank">中華民國國旗</a>
+: :fontawesome-solid-link: <a href="../project_roc_flag/" target="_blank">中華民國國旗</a>
 
 
 <br/><br/><br/> 

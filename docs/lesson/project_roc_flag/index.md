@@ -24,9 +24,9 @@ hide:
 
 在本專題中，請**利用海龜程式畫出中華民國國旗**。
 
-??? quote "建議先備課程"
+??? info "建議先備課程"
 
-     在學習本專題前，建議先完成 :fontawesome-solid-link: <a href="../national_flag/" target="_blank">海龜畫國旗</a> ，學習曲線會較為平順。
+    : 在學習本專題前，建議先完成 :fontawesome-solid-link: <a href="../national_flag/" target="_blank">海龜畫國旗</a> ，學習曲線會較為平順。
 
 
 <br/><br/><br/> 
@@ -44,7 +44,7 @@ hide:
 
 * 我國的國旗，除了有紅、藍、白色以外，還有一個像太陽的標誌，這個標誌看起來很複雜，**國旗的畫法**是什麼呢？
 
-![中華民國國旗](flag_windy.jpg)
+: ![中華民國國旗](flag_windy.jpg)
 
 : <sup>(資料來源:</sup>[^flag_windy]<sup>)</sup>
 
@@ -105,9 +105,9 @@ hide:
 
 反覆以上的步驟，思考問題、搜尋資料與設計規劃，當準備好了就可以動手實作了。
 
-??? abstract "運算思維"
+??? info "運算思維"
 
-    :fontawesome-solid-link: <a href="../basic/comthink/#_7" target="_blank">演算法思維</a>
+    : :fontawesome-solid-link: <a href="../basic/comthink/#_7" target="_blank">演算法思維</a>
 
 
 <br/><br/><br/> 
@@ -128,9 +128,9 @@ hide:
 
 我們可以使用「程式模組化設計-函式功能」來寫出這樣的流程
 
-??? abstract "模組化程式設計"
+??? info "模組化程式設計"
 
-    :fontawesome-solid-link: <a href="../basic/scratch_python_compare/#function" target="_blank">函式 (function 功能)</a>
+    : :fontawesome-solid-link: <a href="../basic/scratch_python_compare/#function" target="_blank">函式 (function 功能)</a>
 
 <br/>
 
@@ -138,13 +138,18 @@ hide:
 
 <br/>
 
-???+ example "專題實作 範例 (1/4 新檔) --- 程式結構"
+???+ example "範例程式 程式結構 - - - - - - - (專題實作1/4 新檔)"
 
-    === "🎦Py4t操作影片(4:38)"
+    === "🎦操作影片"
     
         <iframe width="560" height="315" src="https://www.youtube.com/embed/qjlan7-zmu8?start=3&amp;end=281" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    === "💻Python程式碼"
+        【長度4:38 章節時間如下】
+
+        * 0:00 存檔、模組匯入
+        * 0:33 程式結構
+
+    === "💻程式碼"
 
         ```python
         from 海龜模組 import *
@@ -199,14 +204,19 @@ hide:
 
 <br/>
 
-???+ example "專題實作 範例 (2/4 接續) --- 紅地與青天"
+???+ example "範例程式 紅地與青天 - - - - - - - (專題實作2/4 接續)"
 
 
-    === "🎦Py4t操作影片(3:20)"
+    === "🎦操作影片"
     
         <iframe width="560" height="315" src="https://www.youtube.com/embed/qjlan7-zmu8?start=283&amp;end=483" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    === "💻Python程式碼"
+        
+        【長度3:20 章節時間如下】
+
+        * 4:45 紅地與青天
+
+    === "💻程式碼"
 
         ```python
         from 海龜模組 import *
@@ -251,9 +261,9 @@ hide:
         ``` 
 
 
-??? abstract "結構化程式設計"
+??? info "結構化程式設計"
 
-    :fontawesome-solid-link: <a href="../basic/scratch_python_compare/#for" target="_blank">計次式重複 (for 迴圈)</a>
+    : :fontawesome-solid-link: <a href="../basic/scratch_python_compare/#for" target="_blank">計次式重複 (for 迴圈)</a>
 
 
 
@@ -282,17 +292,17 @@ hide:
 
 : <sup>(資料來源:</sup>[^roc_flag_spec]<sup>)</sup>
 
-??? abstract "光芒的邊長？"
+??? info "光芒的邊長？"
 
-    細心的同學會有疑問，為什麼光芒的邊長大約是29呢？想要解答這個問題，必須解出下面的問題。
+    : 細心的同學會有疑問，為什麼光芒的邊長大約是29呢？想要解答這個問題，必須解出下面的問題。
 
     : ![三角函數](trigonometric_functions.png)
 
-    其實只要使用三角函數就可以計算出光芒的邊長。
+    : 其實只要使用三角函數就可以計算出光芒的邊長。
     
-    在不久的將來，同學們會在數學課中學到在導航、工程學以及物理學…等方面都有廣泛用途的三角函數，要認真學習哦。
+    : 在不久的將來，同學們會在數學課中學到在導航、工程學以及物理學…等方面都有廣泛用途的三角函數，要認真學習哦。
 
-    :fontawesome-solid-link: <a href="https://zh.wikipedia.org/wiki/%E4%B8%89%E8%A7%92%E5%87%BD%E6%95%B0" target="_blank">維基百科 三角函數</a>
+    : :fontawesome-solid-link: <a href="https://zh.wikipedia.org/wiki/%E4%B8%89%E8%A7%92%E5%87%BD%E6%95%B0" target="_blank">維基百科 三角函數</a>
 
 
 <br/>
@@ -302,13 +312,19 @@ hide:
 
 <br/>
 
-???+ example "專題實作 範例 (3/4 接續) --- 光芒"
+???+ example "範例程式 光芒 - - - - - - - (專題實作3/4 接續)"
 
-    === "🎦Py4t操作影片(3:52)"
+    === "🎦操作影片"
     
         <iframe width="560" height="315" src="https://www.youtube.com/embed/qjlan7-zmu8?start=486&amp;end=718" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    === "💻Python程式碼"
+
+        【長度3:52 章節時間如下】
+
+        * 8:07 光芒
+
+
+    === "💻程式碼"
 
         ```python
         from 海龜模組 import *
@@ -394,14 +410,18 @@ hide:
 
 <br/>
 
-???+ example "專題實作 範例 (4/4 接續) --- 白日"
+???+ example "範例程式 白日 - - - - - - - (專題實作4/4 接續)"
 
 
-    === "🎦Py4t操作影片(2:12)"
+    === "🎦操作影片"
     
         <iframe width="560" height="315" src="https://www.youtube.com/embed/qjlan7-zmu8?start=721&amp;end=853" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    === "💻Python程式碼"
+        【長度2:12 章節時間如下】
+
+        * 12:00 白日
+
+    === "💻程式碼"
 
         ```python
         from 海龜模組 import *
@@ -503,13 +523,17 @@ hide:
 
 <br/>
 
-???+ example "專題擴展 範例 (1/3 接續) --- 縮放倍率"
+???+ example "範例程式 縮放倍率 - - - - - - - (專題擴展1/3 接續)"
 
-    === "🎦Py4t操作影片(3:19)"
+    === "🎦操作影片"
     
         <iframe width="560" height="315" src="https://www.youtube.com/embed/qjlan7-zmu8?start=855&amp;end=1054" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    === "💻Python程式碼"
+        【長度3:19 章節時間如下】
+
+        * 14:15 縮放倍率
+
+    === "💻程式碼"
 
         ```python
         from 海龜模組 import *
@@ -599,13 +623,17 @@ hide:
 
 <br/>
 
-???+ example "專題擴展 範例 (2/3 接續) --- 座標平移"
+???+ example "範例程式 座標平移 - - - - - - - (專題擴展2/3 接續)"
 
-    === "🎦Py4t操作影片(3:02)"
+    === "🎦操作影片"
     
         <iframe width="560" height="315" src="https://www.youtube.com/embed/qjlan7-zmu8?start=1057&amp;end=1239" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    === "💻Python程式碼"
+        【長度3:02 章節時間如下】
+
+        * 17:37 座標平移
+
+    === "💻程式碼"
 
         ```python
         from 海龜模組 import *
@@ -704,13 +732,17 @@ hide:
 
 <br/>
 
-???+ example "專題擴展 範例 (3/3 接續) --- 使用者介面"
+???+ example "範例程式 使用者介面 - - - - - - - (專題擴展3/3 接續)"
 
-    === "🎦Py4t操作影片(2:45)"
+    === "🎦操作影片"
     
         <iframe width="560" height="315" src="https://www.youtube.com/embed/qjlan7-zmu8?start=1240&amp;end=1405" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    === "💻Python程式碼"
+        【長度2:45 章節時間如下】
+
+        * 20:41 使用者介面
+
+    === "💻程式碼"
 
         ```python
         from 海龜模組 import *
@@ -790,7 +822,7 @@ hide:
 
 ??? info "補充資料 使用者介面"
 
-     :fontawesome-solid-link: <a href="https://zh.wikipedia.org/wiki/%E7%94%A8%E6%88%B7%E7%95%8C%E9%9D%A2" target="_blank">維基百科 使用者介面</a>
+    : :fontawesome-solid-link: <a href="https://zh.wikipedia.org/wiki/%E7%94%A8%E6%88%B7%E7%95%8C%E9%9D%A2" target="_blank">維基百科 使用者介面</a>
 
 
 <br/><br/><br/>
