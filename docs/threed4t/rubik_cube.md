@@ -16,7 +16,7 @@ hide:
 
 🎦 範例影片
 
-: 建構中
+: <iframe width="560" height="315" src="https://www.youtube.com/embed/depPHSCWvcA?start=0&amp;end=400" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 📄 Py4t程式碼
 
@@ -44,7 +44,7 @@ for z in range(3) :
 
 🎦 範例影片
 
-: 建構中
+: <iframe width="560" height="315" src="https://www.youtube.com/embed/depPHSCWvcA?start=403&amp;end=736" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 📄 Py4t程式碼
 
@@ -56,14 +56,14 @@ from 模擬3D模組 import *
 for z in [-1, 0, 1] :
     for y in [-1, 0, 1] :
         for x in [-1, 0, 1] :            
-            物體 = 新增6面貼圖方塊()
-            物體.材質貼圖 = '魔方6面.png'
-            物體.位置 = [x,y,z]
+            方塊 = 新增6面貼圖方塊()
+            方塊.材質貼圖 = '魔方6面.png'
+            方塊.位置 = [x,y,z]
             if y == 1:
-                物體.親代 = 旋轉中心
+                方塊.親代 = 旋轉中心
 
 def 當更新時(dt):
-    旋轉中心.旋轉y += 1
+    旋轉中心.旋轉y += 0.5
     
 模擬主迴圈()
 ```

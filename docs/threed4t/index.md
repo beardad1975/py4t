@@ -33,7 +33,7 @@ hide:
 | [轉動地球](earth_rotation.md)          | [![轉動地球](earth_rotation.jpg){width=150}](earth_rotation.md)           |
 | [地球儀](globe.md)          | [![地球儀](globe.jpg){width=150}](globe.md)           |
 | [漸層螢幕](color_gradient.md)          | [![漸層螢幕](color_gradient.jpg){width=150}](color_gradient.md)           |
-| [360水晶球](crystal_ball.md)          | [![360水晶球](crystal_ball.jpg){width=150}](crystal_ball.md)           |
+| [全景水晶球](crystal_ball.md)          | [![全景水晶球](crystal_ball.jpg){width=150}](crystal_ball.md)           |
 | [魔術方塊](rubik_cube.md)          | [![魔術方塊](rubik_cube.jpg){width=150}](rubik_cube.md)           |
 
 ---------------

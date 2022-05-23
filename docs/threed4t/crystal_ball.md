@@ -3,7 +3,7 @@ hide:
   - navigation
 ---
 
-# 🔰 3D程式範例 - 360水晶球
+# 🔰 3D程式範例 - 全景水晶球
 
 --------------
 
@@ -15,7 +15,7 @@ hide:
 
 🎦 範例影片
 
-: 建構中
+: <iframe width="560" height="315" src="https://www.youtube.com/embed/hogWFR9Z094?start=0&amp;end=235" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 📄 Py4t程式碼
 
@@ -42,7 +42,7 @@ def 當更新時(dt):
 
 🎦 範例影片
 
-: 建構中
+: <iframe width="560" height="315" src="https://www.youtube.com/embed/hogWFR9Z094?start=238&amp;end=559" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 📄 Py4t程式碼
 

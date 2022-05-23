@@ -504,7 +504,7 @@ HSV是另一種色彩的模型，它代表的是色相、飽和度與明度。�
 
 ----------------------------
 
-##  📙 360水晶球(2)
+##  📙 全景水晶球(2)
 
 : ***360全景相片***
 
@@ -516,6 +516,19 @@ Google地圖中的<a href="https://www.google.com/streetview/" target="_blank">�
 : ![google街景服務](google_map.jpg)
 
 : <sup>(資料來源:Google地圖街景服務</sup><sup>)</sup>
+
+<br/>
+
+360 VR影片是可自由轉動角度觀看的影片，令人有身歷其境的感覺。以下是交通部觀光局所拍攝的360 VR「印象」，介紹台灣的國際知名地標或景點。
+
+
+: <iframe width="560" height="315" src="https://www.youtube.com/embed/fmlcg2u3gB0?start=0&amp;end=40" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+: <sup>(40秒, 資料來源:</sup>[^vr_taiwan]<sup>)</sup>
+
+[^vr_taiwan]: 360 VR影片《印象》, by 交通部觀光局, [youtube連結](https://youtu.be/fmlcg2u3gB0?list=RDCMUCYLYBjgRZCeArwSJXpi36JA)
+
 
 <br/>
 
@@ -540,12 +553,18 @@ Google地圖中的<a href="https://www.google.com/streetview/" target="_blank">�
 
 請用3D程式做出360全景相片。
 
-???+ example "360水晶球 範例 (1/2 新檔) --- 全景相片"
+???+ example "範例程式 全景相片 - - - - - - - (全景水晶球1/2 新檔)"
 
-    === "🎦Py4t操作影片(x:xx)"
-        建構中…
+    === "🎦操作影片"
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/hogWFR9Z094?start=0&amp;end=235" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    === "💻Python程式截圖"
+        【長度3:55 章節時間如下】
+
+        * 0:00 存檔、匯入模組
+        * 0:48 全景相片
+        * 2:31 轉動360照片
+
+    === "💻程式截圖"
 
         ![程式截圖](snapshot/360_photo.jpg)
 
@@ -591,15 +610,21 @@ Google地圖中的<a href="https://www.google.com/streetview/" target="_blank">�
 
 <br/>
 
-請將水晶球的照片，以HUD的使用者介面方式，再加上全景照片，就可以做出一個特別的水晶球，一起來寫寫看。
+請將水晶球外框的圖片，以HUD的使用者介面方式設置，再加上360全景照片，就可以做出一個特別的水晶球，一起來寫寫看。
 
 
-???+ example "360水晶球 範例 (2/2 接續) --- 水晶球"
+???+ example "範例程式 水晶球 - - - - - - - (全景水晶球2/2 接續)"
 
-    === "🎦Py4t操作影片(x:xx)"
-        建構中…
+    === "🎦操作影片"
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/hogWFR9Z094?start=238&amp;end=559" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    === "💻Python程式截圖"
+        【長度5:21 章節時間如下】
+
+        * 3:58 水晶球
+        * 6:38 外框置於界面        
+
+
+    === "💻程式截圖"
 
         ![程式截圖](snapshot/360_crystal_ball.jpg)
 
@@ -641,12 +666,20 @@ Google地圖中的<a href="https://www.google.com/streetview/" target="_blank">�
 利用3D程式，把魔術方塊的外觀模型建立起來，一起動手做做看！
 
 
-???+ example "魔術方塊 範例 (1/2 新檔) --- 魔方模型"
+???+ example "範例程式 魔方模型 - - - - - - - (魔術方塊1/2 新檔)"
 
-    === "🎦Py4t操作影片(x:xx)"
-        建構中…
+    === "🎦操作影片"
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/depPHSCWvcA?start=0&amp;end=400" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    === "💻Python程式截圖"
+        【長度6:40 章節時間如下】
+
+        * 0:00 存檔、匯入模組
+        * 0:46 單排魔方
+        * 3:10 三層魔方
+        * 5:11 貼圖客製化        
+
+
+    === "💻程式截圖"
 
         ![程式截圖](snapshot/rubik_cube.jpg)
 
@@ -699,12 +732,18 @@ Google地圖中的<a href="https://www.google.com/streetview/" target="_blank">�
 
  
 
-???+ example "魔術方塊 範例 (2/2 接續) --- 單層轉動"
+???+ example "範例程式 單層轉動 - - - - - - - (魔術方塊2/2 接續)"
 
-    === "🎦Py4t操作影片(x:xx)"
-        建構中…
+    === "🎦操作影片"
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/depPHSCWvcA?start=403&amp;end=736" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    === "💻Python程式截圖"
+        【長度5:33 章節時間如下】
+
+        * 6:43 調整變數及座標
+        * 8:21 旋轉中心
+        * 10:58 單層旋轉        
+
+    === "💻程式截圖"
 
         ![程式截圖](snapshot/simple_rotation.jpg)
 
