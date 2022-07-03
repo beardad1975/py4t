@@ -8,6 +8,8 @@ hide:
 
 : 由**台灣中小學教師**發起與推動，整合數個**開源**套件而成的Python編輯器。專為**6到9年級國中小學生**學習Python程式而設計，從**Scratch橋接到Python**，讓青少年學習程式、體驗科技。
 
+<p align="center"><iframe width="560" height="315" src="https://www.youtube.com/embed/PlTRdTN7BHU?start=0&amp;end=187" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+
 -------------------------------
 
 ### [ ❤️ 關於 ](about/plan.md)
