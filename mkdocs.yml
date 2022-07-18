@@ -41,31 +41,31 @@ nav:
   - 課程: 
     - Py4t課程: 'lesson/index.md'
 
-  - 整合函式庫: 
+  - 函式庫: 
     - 索引頁: 'integrated_lib.md' 
     - 海龜: 
-      - Ⓜ️ 模組說明 - 海龜: 'turtle4t/index.md'
+      - 🐢 海龜 教學函式庫: 'turtle4t/index.md'
 
 
     - 物理:
-      - Ⓜ️ 模組說明 - 物理: 'pie4t/index.md'
+      - 🏀 物理 教學函式庫: 'pie4t/index.md'
 
     - 3D:
-      - Ⓜ️ 模組說明 - 3D: 'threed4t/index.md'
+      - 🧊 3D 教學函式庫: 'threed4t/index.md'
 
 
     - 運算思維:
-      - Ⓜ️ 模組說明 - 運算思維: 'comthink/index.md'
+      - ➰ 模組說明 - 運算思維: 'comthink/index.md'
 
 
     - 視覺:
-      - Ⓜ️ 模組說明 - 視覺: 'cv4t/index.md'
+      - 👁️‍🗨️ 模組說明 - 視覺: 'cv4t/index.md'
 
 
     - 語音:
-      - Ⓜ️ 模組說明 - 語音與聲音: 'sound_and_speech/index.md'
+      - 👄 模組說明 - 語音與聲音: 'sound_and_speech/index.md'
 
-  - 研習影片: 
+  - 影片: 
     - 📚 影片索引: 'self_study/index.md'
     - 🕒 快速入門: 'self_study/quick_start.md'
     - 🕕 3D模擬: 'self_study/tutorial_3d.md'

@@ -3,7 +3,7 @@ hide:
   - navigation
 ---
 
-# Ⓜ️ 海龜 學習模組
+# 🐢 海龜 教學函式庫
 
 ---------------
 
@@ -15,11 +15,11 @@ hide:
 
 在Scratch程式中的Logo實作是畫筆功能，而在Python的標準函式庫的Logo實作是turtle函式庫(海龜程式)。
 
-Py4t為了橋接Scratch與Python，適合青少年學習，把函式翻譯簡化並將其包裝成包含中文的學習模組。
+Py4t為了橋接Scratch與Python，適合青少年學習，把函式翻譯簡化並將其包裝成包含中文的學習函式庫。
 
 海龜在直角座標平面上的各種移動，可以畫出線條、形狀。海龜的移動與旋轉組合可以畫出數學上的各種幾何圖形，適合做為python程式的入門學習工具。
 
-??? info "turtle 參考資料"
+??? info "turtle的官方說明"
 
      :fontawesome-solid-link: <a href="https://docs.python.org/3/library/turtle.html" target="_blank">turtle函式庫 說明 (Python網站)</a>
 
@@ -27,12 +27,47 @@ Py4t為了橋接Scratch與Python，適合青少年學習，把函式翻譯簡化
 
 ---------------
 
-### 📘 範例
+### 📕 基本用法
 
 ---------------
 
-| 範例                             | 截圖                                                              |
+```python
+from 海龜模組 import *
+
+#中間為畫線程式
+
+完成()
+```
+
+在開頭匯入「海龜模組」，最後加上「完成」函式，中間程式會讓海龜產生動作，畫出各種線條與填色。
+
+<br/><br/>
+
+---------------
+
+### 📗 便利貼
+
+---------------
+
+使用便利貼，拖曳後就會貼上程式碼，降低文字程式的學習難度：
+
+| 便利貼顯示                           | 便利貼內容                                                              |
 | :-----------:                    | :------------------------------------:                            |
+| ![顯示](turtle4t_display_postit.jpg)    | ![便利貼](turtle4t_postit.jpg)    |
+
+
+<br/><br/>
+
+---------------
+
+### 📘 範例程式
+
+---------------
+
+各種以海龜教學函式庫做出的程式範例。
+
+| 範例                 | 截圖                        |
+| :-----------:        | :-----------------:        |
 | [正方形](draw_square.md)          | [![正方形](draw_square.jpg){width=150}](draw_square.md)           |
 | [正三角形](draw_triangle.md)          | [![正三角形](draw_triangle.jpg){width=150}](draw_triangle.md)           |
 | [正多邊形](regular_polygon.md)    | [![正多邊形](regular_polygon.jpg){width=150}](regular_polygon.md) |
@@ -52,11 +87,14 @@ Py4t為了橋接Scratch與Python，適合青少年學習，把函式翻譯簡化
 <br/><br/>
 
 
----------------
-
-### 📒 課程
 
 ---------------
+
+### 📒 入門課程
+
+---------------
+
+: ![海龜畫國旗入門](../lesson/national_flag/digest.jpg)
 
 學習海龜程式，畫出與方形、圓形、星形相關的國旗。　 :fontawesome-solid-long-arrow-alt-right: <a href="../lesson/national_flag/" target="_blank">進入「海龜畫國旗」</a>
 
@@ -64,39 +102,30 @@ Py4t為了橋接Scratch與Python，適合青少年學習，把函式翻譯簡化
 
 ---------------
 
-### 📕 專題
+### 📕 專題課程
 
 ---------------
+
+: ![中華民國國旗](../lesson/project_roc_flag/digest.jpg)
 
 程式專題：中華民國國旗
 
-利用所學的基本形狀，畫出我們的國旗。　 :fontawesome-solid-long-arrow-alt-right: <a href="../lesson/national_flag/project_roc_flag/" target="_blank">進入專題</a>
-
-<br/><br/>
-
----------------
-
-### 📗 便利貼
-
----------------
-
-以下為便利貼的使用方式：
-
-| 便利貼顯示                           | 便利貼內容                                                              |
-| :-----------:                    | :------------------------------------:                            |
-| ![顯示](turtle4t_display_postit.jpg)    | ![便利貼](turtle4t_postit.jpg)    |
-
+利用所學的方形、圓形與星形，畫出我們的國旗。　 :fontawesome-solid-long-arrow-alt-right: <a href="../lesson/national_flag/project_roc_flag/" target="_blank">進入專題</a>
 
 <br/><br/>
 
 
----------------
 
-### 📙 模組原始碼
 
 ---------------
 
-海龜學習模組在:fontawesome-brands-github:github上的原始碼: [turtle4t](https://github.com/beardad1975/turtle4t)
+### 📙 原始碼與套件
+
+---------------
+
+海龜 教學函式庫 在:fontawesome-brands-github:github上的原始碼: [turtle4t](https://github.com/beardad1975/turtle4t)
+
+海龜 教學函式庫 在PyPI上發布的套件: [turtle4t](https://pypi.org/project/turtle4t/) ，可使用pip install turtle4t安裝
 
 
 

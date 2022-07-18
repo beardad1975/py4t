@@ -17,7 +17,7 @@
     
     
       
-        <title>Ⓜ️ 模組說明 - 物理 - Py4t 教青少年學Python</title>
+        <title>🏀 物理 教學函式庫 - Py4t 教青少年學Python</title>
       
     
     
@@ -66,7 +66,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#m" class="md-skip">
+        <a href="#_1" class="md-skip">
           跳轉到
         </a>
       
@@ -132,7 +132,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Ⓜ️ 模組說明 - 物理
+              🏀 物理 教學函式庫
             
           </span>
         </div>
@@ -274,7 +274,7 @@
   
     <li class="md-tabs__item">
       <a href="../integrated_lib/" class="md-tabs__link md-tabs__link--active">
-        整合函式庫
+        函式庫
       </a>
     </li>
   
@@ -290,7 +290,7 @@
   
     <li class="md-tabs__item">
       <a href="../self_study/" class="md-tabs__link">
-        研習影片
+        影片
       </a>
     </li>
   
@@ -587,14 +587,14 @@
       
       
         <label class="md-nav__link" for="__nav_5">
-          整合函式庫
+          函式庫
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <nav class="md-nav" aria-label="整合函式庫" data-md-level="1">
+      <nav class="md-nav" aria-label="函式庫" data-md-level="1">
         <label class="md-nav__title" for="__nav_5">
           <span class="md-nav__icon md-icon"></span>
-          整合函式庫
+          函式庫
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -923,7 +923,7 @@
         
         
         <div class="md-nav__link md-nav__link--index ">
-          <a href="../self_study/">研習影片</a>
+          <a href="../self_study/">影片</a>
           
             <label for="__nav_6">
               <span class="md-nav__icon md-icon"></span>
@@ -931,10 +931,10 @@
           
         </div>
       
-      <nav class="md-nav" aria-label="研習影片" data-md-level="1">
+      <nav class="md-nav" aria-label="影片" data-md-level="1">
         <label class="md-nav__title" for="__nav_6">
           <span class="md-nav__icon md-icon"></span>
-          研習影片
+          影片
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -1215,29 +1215,50 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
+  <a href="#_2" class="md-nav__link">
     📗 說明
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
-    📘 物理碰撞 範例程式
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#_3" class="md-nav__link">
-    📕 便利貼
+    📕 基本用法
   </a>
   
 </li>
       
         <li class="md-nav__item">
   <a href="#_4" class="md-nav__link">
-    📙 模組原始碼
+    📕 便利貼
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    📘 範例程式
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    📒 入門課程
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    📕 專題課程
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    📙 原始碼與套件
   </a>
   
 </li>
@@ -1255,15 +1276,58 @@
               
                 
 
-<h1 id="m">Ⓜ️ 物理模組</h1>
+<h1 id="_1">🏀 物理 教學函式庫</h1>
 <hr />
-<h3 id="_1">📗 說明</h3>
-<p>這個學習模組是建立在<a href="http://www.pymunk.org/en/latest/">pymunk</a>的2D物理函式庫上，並利用<a href="https://api.arcade.academy/en/latest/">arcade</a>函式庫繪圖。可以建立基本形狀(圓形、方形)，控制物體的基本物理量(質量、摩擦力等)，改變環境的重力。這就是憤怒鳥類型遊戲的模擬原理。</p>
-<p>物理碰撞學習模組可以改變2D物體的彈性、摩擦，並以互動事件的方式，操控重力，做出有趣的物理模擬。</p>
-<p><sup><sub>💬物理模組輔助功能，按住Ctrl及Alt鍵時，會顯示畫面座標，並可利用滑鼠右鍵新增、移除地形</sub></sup></p>
+<h3 id="_2">📗 說明</h3>
+<hr />
+<p>這個教學函式庫是建立在<a href="http://www.pymunk.org/en/latest/">pymunk</a>的2D物理引擎上，並利用<a href="https://api.arcade.academy/en/latest/">arcade</a>函式庫繪圖。可以建立基本形狀(圓形、方形)，控制物體的基本物理量(質量、摩擦力等)，改變環境的重力。</p>
+<p>在其中所運用到的，其實就是憤怒鳥類型遊戲的模擬原理。稍加運用就可以改變2D物體的彈性、摩擦，並以互動事件的方式，操控重力，做出有趣的物理模擬。</p>
+<p>為讓學習過程順暢，在函式庫中也設計了座標與地形的輔助功能，如下說明：</p>
 <p><img alt="地形輔助" src="terrain_assist.jpg" width="700" /></p>
+<p><br/></p>
+<details class="info"><summary>pymunk的官方說明</summary><p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></span> <a href="http://www.pymunk.org/en/latest/overview.html" target="_blank">pymunk overview</a></p>
+</details>
+<details class="info"><summary>arcade的官方說明</summary><p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></span> <a href="https://api.arcade.academy/en/latest/get_started.html" target="_blank">Arcade Get Started Here</a></p>
+</details>
+<p><br/><br/></p>
 <hr />
-<h3 id="_2">📘 物理碰撞 範例程式</h3>
+<h3 id="_3">📕 基本用法</h3>
+<hr />
+<div class="highlight"><pre><span></span><code><span class="linenos" data-linenos="1 "></span><span class="kn">from</span> <span class="nn">物理模組</span> <span class="kn">import</span> <span class="o">*</span> 
+<span class="linenos" data-linenos="2 "></span>
+<span class="linenos" data-linenos="3 "></span><span class="c1"># 舞台設置或初始設置(一次)</span>
+<span class="linenos" data-linenos="4 "></span>
+<span class="linenos" data-linenos="5 "></span><span class="c1"># 事件處理函式</span>
+<span class="linenos" data-linenos="6 "></span><span class="c1">### 如「按下滑鼠時」函式</span>
+<span class="linenos" data-linenos="7 "></span><span class="c1">### 當事件發生時即會執行</span>
+<span class="linenos" data-linenos="8 "></span>
+<span class="linenos" data-linenos="9 "></span><span class="n">模擬主迴圈</span><span class="p">()</span>
+</code></pre></div>
+<p>在開頭匯入「物理模組」，最後加上「模擬主迴圈」函式，中間程式可以做舞台設置或初始設置(一次)，也可以加入「事件處理函式」，來決定相關事件發生時，要做的動作。</p>
+<p><br/><br/></p>
+<hr />
+<h3 id="_4">📕 便利貼</h3>
+<hr />
+<p>使用便利貼，拖曳後就會貼上程式碼，降低文字程式的學習難度。</p>
+<table>
+<thead>
+<tr>
+<th align="center">便利貼顯示</th>
+<th align="center">便利貼內容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><img alt="顯示" src="pie4t_display_postit.jpg" /></td>
+<td align="center"><img alt="便利貼" src="pie4t_postit.jpg" /></td>
+</tr>
+</tbody>
+</table>
+<p><br/><br/></p>
+<hr />
+<h3 id="_5">📘 範例程式</h3>
+<hr />
+<p>各種以物理教學函式庫做出的程式範例。</p>
 <table>
 <thead>
 <tr>
@@ -1306,26 +1370,31 @@
 </tr>
 </tbody>
 </table>
+<p><br/><br/></p>
 <hr />
-<h3 id="_3">📕 便利貼</h3>
-<p>以下為便利貼的使用資訊：</p>
-<table>
-<thead>
-<tr>
-<th align="center">便利貼顯示</th>
-<th align="center">便利貼內容</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="center"><img alt="顯示" src="pie4t_display_postit.jpg" /></td>
-<td align="center"><img alt="便利貼" src="pie4t_postit.jpg" /></td>
-</tr>
-</tbody>
-</table>
+<h3 id="_6">📒 入門課程</h3>
 <hr />
-<h3 id="_4">📙 模組原始碼</h3>
-<p>物理碰撞學習模組在<span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg></span>github上的原始碼: <a href="https://github.com/beardad1975/pie4t">pie4t</a></p>
+<dl>
+<dd><img alt="力與運動遊樂場" src="../lesson/mechanics_playground/digest.jpg" /></dd>
+</dl>
+<p>學習物理程式，做出彈性、斜面、拋體與重力等模擬程式。
+<span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M313.941 216H12c-6.627 0-12 5.373-12 12v56c0 6.627 5.373 12 12 12h301.941v46.059c0 21.382 25.851 32.09 40.971 16.971l86.059-86.059c9.373-9.373 9.373-24.569 0-33.941l-86.059-86.059c-15.119-15.119-40.971-4.411-40.971 16.971V216z"/></svg></span> <a href="../lesson/mechanics_playground/" target="_blank">「力與運動遊樂場」</a></p>
+<p><br/><br/></p>
+<hr />
+<h3 id="_7">📕 專題課程</h3>
+<hr />
+<dl>
+<dd><img alt="物理撞擊實驗室" src="../lesson/project_collision_lab/digest.jpg" /></dd>
+</dl>
+<p>利用撞擊物與障礙物，進行撞擊的測試，找出影響撞擊的因素。
+<span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M313.941 216H12c-6.627 0-12 5.373-12 12v56c0 6.627 5.373 12 12 12h301.941v46.059c0 21.382 25.851 32.09 40.971 16.971l86.059-86.059c9.373-9.373 9.373-24.569 0-33.941l-86.059-86.059c-15.119-15.119-40.971-4.411-40.971 16.971V216z"/></svg></span> <a href="../lesson/project_collision_lab/" target="_blank">「物理撞擊實驗室」</a></p>
+<p><br/><br/></p>
+<hr />
+<h3 id="_8">📙 原始碼與套件</h3>
+<hr />
+<p>物理 教學函式庫 在<span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg></span>github上的原始碼: <a href="https://github.com/beardad1975/pie4t">pie4t</a></p>
+<p>物理 教學函式庫 在PyPI上發布的套件: <a href="https://pypi.org/project/pie4t/">pie4t</a>，可使用pip install pie4t安裝</p>
+<p><br/><br/></p>
 
               
             </article>
@@ -1339,7 +1408,7 @@
     <nav class="md-footer__inner md-grid" aria-label="Footer">
       
         
-        <a href="../turtle4t/" class="md-footer__link md-footer__link--prev" aria-label="上一頁: Ⓜ️ 模組說明 - 海龜" rel="prev">
+        <a href="../turtle4t/" class="md-footer__link md-footer__link--prev" aria-label="上一頁: 🐢 海龜 教學函式庫" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
           </div>
@@ -1348,20 +1417,20 @@
               <span class="md-footer__direction">
                 上一頁
               </span>
-              Ⓜ️ 模組說明 - 海龜
+              🐢 海龜 教學函式庫
             </div>
           </div>
         </a>
       
       
         
-        <a href="../threed4t/" class="md-footer__link md-footer__link--next" aria-label="下一頁: Ⓜ️ 模組說明 - 3D" rel="next">
+        <a href="../threed4t/" class="md-footer__link md-footer__link--next" aria-label="下一頁: 🧊 3D 教學函式庫" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 下一頁
               </span>
-              Ⓜ️ 模組說明 - 3D
+              🧊 3D 教學函式庫
             </div>
           </div>
           <div class="md-footer__button md-icon">

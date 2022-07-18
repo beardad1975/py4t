@@ -3,15 +3,15 @@ hide:
   - navigation
 ---
 
-# Ⓜ️ 視覺影像模組
+# Ⓜ️ 視覺 教學函式庫
 
 ---------------
 
 ### 📗 說明
 
-這個學習模組是建立在[opencv-python](https://pypi.org/project/opencv-python/)的電腦視覺函式庫上。從攝影機擷取到的影像，取得[numpy](https://numpy.org/)多維陣列的影像，可以對影像做出改變亮度、對比、縮放、負片和左右翻轉等效果，並進行電腦影像的處理。
+這個教學函式庫是建立在[opencv-python](https://pypi.org/project/opencv-python/)的電腦視覺函式庫上。從攝影機擷取到的影像，取得[numpy](https://numpy.org/)多維陣列的影像，可以對影像做出改變亮度、對比、縮放、負片和左右翻轉等效果，並進行電腦影像的處理。
 
-視覺模組可以顯示攝影機畫面，並對擷取到的多維陣列，做一些如格線與電視牆的效果處理
+視覺教學函式庫可以顯示攝影機畫面，並對擷取到的多維陣列，做一些如格線與電視牆的效果處理
 
 <sup><sub>💬電腦上需要有視訊攝影機</sub></sup>
 
@@ -44,8 +44,8 @@ hide:
 
 ---------------
 
-### 📙 模組原始碼
+### 📙 原始碼
 
-視覺模組在:fontawesome-brands-github:github上的原始碼: [cv4t](https://github.com/beardad1975/cv4t)
+視覺 教學函式庫 在:fontawesome-brands-github:github上的原始碼: [cv4t](https://github.com/beardad1975/cv4t)
 
 

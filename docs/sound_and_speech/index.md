@@ -3,13 +3,13 @@ hide:
   - navigation
 ---
 
-# Ⓜ️ 語音與聲音 模組
+# Ⓜ️ 語音與聲音 教學函式庫
 
 ---------------
 
 ### 📗 說明
 
-語音模組有分成文字轉語音的功能及語音辨識。
+此教學函式庫有分成文字轉語音的功能及語音辨識。
 
 文字轉語音使用了windows內建的SAPI介面，可離線使用。
 
@@ -45,10 +45,10 @@ hide:
 
 ---------------
 
-### 📙 模組原始碼
+### 📙 原始碼
 
-聲音模組在:fontawesome-brands-github:github上的原始碼: [audio4t](https://github.com/beardad1975/audio4t)
+聲音 教學函式庫 在:fontawesome-brands-github:github上的原始碼: [audio4t](https://github.com/beardad1975/audio4t)
 
-語音模組在:fontawesome-brands-github:github上的原始碼: [speech4t](https://github.com/beardad1975/speech4t)
+語音 教學函式庫 在:fontawesome-brands-github:github上的原始碼: [speech4t](https://github.com/beardad1975/speech4t)
 
 
