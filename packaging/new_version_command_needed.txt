@@ -16,6 +16,15 @@ PY4T_IN_PYTHON_PACKAGE.txt
 create_installer.bat( thonny install version)
 
 
+數位簽章
+
+.\signtool.exe sign /a /fd SHA256 "D:\py4t\py4t-development\packaging\windows\dist\thonnyPy4t-0.15.exe"
+
+.\signtool.exe timestamp /t http://timestamp.comodoca.com "D:\py4t\py4t-development\packaging\windows\dist\thonnyPy4t-0.15.exe"
+
+
+
+
 [py4t development git hub ]
 git tag -a v1.4
 git push origin v1.5
@@ -24,4 +33,5 @@ draft new release version
 mkdocs (need in virtualenv)
 
 ftp upload to backup site
+
 

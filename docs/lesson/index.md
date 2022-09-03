@@ -58,6 +58,13 @@ hide:
     學習3D程式，做出地球模型、彩色漸層、全景水晶球與魔術方塊。
     :fontawesome-solid-long-arrow-alt-right: <a href="explore3d/" target="_blank">「探索3D空間」</a>
 
+??? abstract  "專題 - DNA模型與遺傳編碼 "    
+    
+    ![DNA模型與遺傳編碼](xxx/digest.jpg)
+
+    課程建構中…
+
+    :fontawesome-solid-long-arrow-alt-right: <a href="project_dna_genetic_code/" target="_blank">「DNA模型與遺傳編碼」</a>
 
 
 <br/><br/><br/>

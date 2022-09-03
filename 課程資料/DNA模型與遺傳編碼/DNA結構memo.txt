@@ -1,0 +1,57 @@
+DNA
+https://zh.wikipedia.org/wiki/%E8%84%B1%E6%B0%A7%E6%A0%B8%E7%B3%96%E6%A0%B8%E9%85%B8
+
+染色體
+https://zh.wikipedia.org/wiki/%E6%9F%93%E8%89%B2%E4%BD%93
+
+核酸
+https://zh.wikipedia.org/wiki/%E6%A0%B8%E9%85%B8
+
+核苷酸
+https://zh.wikipedia.org/wiki/%E6%A0%B8%E8%8B%B7%E9%85%B8
+
+基因
+https://zh.wikipedia.org/wiki/%E5%9F%BA%E5%9B%A0
+
+遺傳密碼
+https://zh.wikipedia.org/wiki/%E9%81%97%E4%BC%A0%E5%AF%86%E7%A0%81
+
+胺基酸
+https://zh.wikipedia.org/wiki/%E6%B0%A8%E5%9F%BA%E9%85%B8
+
+蛋白質
+https://zh.wikipedia.org/wiki/%E8%9B%8B%E7%99%BD%E8%B4%A8
+
+DNA的結構
+https://biotech.nstm.gov.tw/LifeScienceConcept/SpiralC/Spiral03.htm
+
+DNA密碼子表
+https://zh.wikipedia.org/zh-tw/DNA%E5%AF%86%E7%A0%81%E5%AD%90%E8%A1%A8
+
+可汗學院
+https://zh.khanacademy.org/science/biology/gene-expression-central-dogma/central-dogma-transcription/a/intro-to-gene-expression-central-dogma
+
+遺傳學基本課程
+https://askthescientists.com/zh-hant/genetics/
+
+6 分鐘生物學：DNA 與 RNA 的結構
+https://www.youtube.com/watch?v=BwqxcWncB20
+
+dna定序
+https://zh.wikipedia.org/zh-tw/DNA%E6%B8%AC%E5%BA%8F
+
+ARS-CoV-2 (COVID-19) Genome
+https://www.snapgene.com/resources/coronavirus-resources/?resource=SARS-CoV-2_(COVID-19)_Genome
+
+臺灣人體生物資料庫
+https://taiwanview.twbiobank.org.tw/index
+
+
+
+ACCCTAACCCTAACCCTCTGAAAGTGGACCTATCAGCAGGATGTGGGTGGGAGCAGATTAGAGAATAAAAGCAGACTGCCTGAGCCAGCAGTGGCAACCCA
+
+
+A green T red
+C blue G yellow
+
+
