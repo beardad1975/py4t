@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   sodipodi:docname="專題圖文說明.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.1893044"
+     inkscape:cx="303.53877"
+     inkscape:cy="887.91397"
+     inkscape:window-width="1920"
+     inkscape:window-height="998"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient1021">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop1017" />
+      <stop
+         style="stop-color:#ada0a0;stop-opacity:0.97222221;"
+         offset="1"
+         id="stop1019" />
+    </linearGradient>
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect1309"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect1293"
+       is_visible="true"
+       lpeversion="1" />
+    <marker
+       style="overflow:visible"
+       id="Arrow3"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Arrow3"
+       markerWidth="4.2071066"
+       markerHeight="7"
+       viewBox="0 0 4.2071068 7"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:round"
+         d="M 3,-3 0,0 3,3"
+         id="arrow3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc" />
+    </marker>
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect186"
+       is_visible="true"
+       lpeversion="1" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1021"
+       id="radialGradient1023"
+       cx="50.181671"
+       cy="191.60275"
+       fx="50.181671"
+       fy="191.60275"
+       r="14.27062"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.71654499,0,0,0.71654499,96.602376,75.206486)" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1021"
+       id="radialGradient4631"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.71654499,0,0,0.71654499,156.0054,75.206486)"
+       cx="50.181671"
+       cy="191.60275"
+       fx="50.181671"
+       fy="191.60275"
+       r="14.27062" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1021"
+       id="radialGradient6997"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.71654499,0,0,0.71654499,156.0054,95.608662)"
+       cx="50.181671"
+       cy="191.60275"
+       fx="50.181671"
+       fy="191.60275"
+       r="14.27062" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1021"
+       id="radialGradient6999"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.71654499,0,0,0.71654499,96.602376,95.608662)"
+       cx="50.181671"
+       cy="191.60275"
+       fx="50.181671"
+       fy="191.60275"
+       r="14.27062" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1021"
+       id="radialGradient7777"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.71654499,0,0,0.71654499,156.0054,136.30029)"
+       cx="50.181671"
+       cy="191.60275"
+       fx="50.181671"
+       fy="191.60275"
+       r="14.27062" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1021"
+       id="radialGradient7779"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.71654499,0,0,0.71654499,96.602376,136.30029)"
+       cx="50.181671"
+       cy="191.60275"
+       fx="50.181671"
+       fy="191.60275"
+       r="14.27062" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1021"
+       id="radialGradient7781"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.71654499,0,0,0.71654499,156.0054,115.89811)"
+       cx="50.181671"
+       cy="191.60275"
+       fx="50.181671"
+       fy="191.60275"
+       r="14.27062" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1021"
+       id="radialGradient7783"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.71654499,0,0,0.71654499,96.602376,115.89811)"
+       cx="50.181671"
+       cy="191.60275"
+       fx="50.181671"
+       fy="191.60275"
+       r="14.27062" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1021"
+       id="radialGradient10143"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-26.591028,34.506969)"
+       cx="50.181671"
+       cy="191.60275"
+       fx="50.181671"
+       fy="191.60275"
+       r="14.27062" />
+  </defs>
+  <g
+     inkscape:label="圖層 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#50ff66;fill-opacity:1;stroke:none;stroke-width:0.404847;stroke-linecap:round;stroke-linejoin:round"
+       id="rect3137"
+       width="23.445593"
+       height="6.4249945"
+       x="136.61771"
+       y="208.89146"
+       ry="1.578069" />
+    <text
+       xml:space="preserve"
+       style="font-size:23.0723px;line-height:1.25;font-family:sans-serif;stroke-width:0.576809;fill:#4d4d4d"
+       x="25.929781"
+       y="76.140251"
+       id="text117"
+       inkscape:export-filename="problem.png"
+       inkscape:export-xdpi="89.376076"
+       inkscape:export-ydpi="89.376076"><tspan
+         sodipodi:role="line"
+         id="tspan115"
+         style="stroke-width:0.576809;fill:#4d4d4d"
+         x="25.929781"
+         y="76.140251">DNA</tspan></text>
+    <ellipse
+       style="fill:#ffbbff;fill-opacity:1;stroke-width:2.13244;stroke-linecap:round;stroke-linejoin:round"
+       id="path279"
+       cx="139.52565"
+       cy="36.111103"
+       rx="30.738323"
+       ry="12.08446" />
+    <text
+       xml:space="preserve"
+       style="font-size:13.6083px;line-height:1.25;font-family:sans-serif;stroke-width:0.340209;fill:#4d4d4d"
+       x="123.73506"
+       y="39.609249"
+       id="text283"
+       transform="scale(0.94219873,1.0613472)"><tspan
+         sodipodi:role="line"
+         id="tspan281"
+         style="stroke-width:0.340209;fill:#4d4d4d"
+         x="123.73506"
+         y="39.609249">是什麼？</tspan></text>
+    <ellipse
+       style="fill:#b3f3af;fill-opacity:1;stroke-width:2.13244;stroke-linecap:round;stroke-linejoin:round"
+       id="ellipse1012"
+       cx="139.52565"
+       cy="64.173004"
+       rx="30.738323"
+       ry="12.08446" />
+    <text
+       xml:space="preserve"
+       style="font-size:13.6083px;line-height:1.25;font-family:sans-serif;stroke-width:0.340209;fill:#4d4d4d"
+       x="130.27708"
+       y="65.590637"
+       id="text1016"
+       transform="scale(0.94219874,1.0613472)"><tspan
+         sodipodi:role="line"
+         id="tspan1014"
+         style="stroke-width:0.340209;fill:#4d4d4d"
+         x="130.27708"
+         y="65.590637">結構？</tspan></text>
+    <ellipse
+       style="fill:#c9dff5;fill-opacity:1;stroke-width:2.13244;stroke-linecap:round;stroke-linejoin:round"
+       id="ellipse1018"
+       cx="139.52565"
+       cy="91.586075"
+       rx="30.738323"
+       ry="12.08446" />
+    <text
+       xml:space="preserve"
+       style="font-size:11.2438px;line-height:1.25;font-family:sans-serif;stroke-width:0.281096;fill:#4d4d4d"
+       x="130.1606"
+       y="87.217636"
+       id="text1022"
+       transform="scale(0.89203129,1.1210369)"><tspan
+         sodipodi:role="line"
+         id="tspan1020"
+         style="stroke-width:0.281096;fill:#4d4d4d"
+         x="130.1606"
+         y="87.217636">遺傳編碼？</tspan></text>
+    <path
+       style="fill:#999999;stroke:#aba8a8;stroke-width:0.565;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow3)"
+       d="M 103.98146,37.282308 80.070444,59.305616"
+       id="path184"
+       inkscape:path-effect="#path-effect186"
+       inkscape:original-d="M 103.98146,37.282308 C 113.1581,27.214777 70.894331,69.373675 80.070444,59.305616"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#999999;stroke:#aba8a8;stroke-width:0.565;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow3)"
+       d="M 104.92532,89.747089 80.070444,76.061175"
+       id="path1289"
+       inkscape:path-effect="#path-effect1293"
+       inkscape:original-d="M 104.92532,89.747089 C 114.10196,99.814616 70.894331,65.993112 80.070444,76.061175"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#999999;stroke:#aba8a8;stroke-width:0.565;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow3)"
+       d="M 105.55456,66.465309 80.070444,66.937234"
+       id="path1305"
+       inkscape:path-effect="#path-effect1309"
+       inkscape:original-d="M 105.55456,66.465309 C 117.36764,45.64882 70.938098,56.356472 80.070444,66.937234"
+       sodipodi:nodetypes="cc" />
+    <circle
+       style="fill:url(#radialGradient1023);fill-opacity:1;stroke:none;stroke-width:0.243222;stroke-linecap:round;stroke-linejoin:round"
+       id="path310"
+       cx="132.55981"
+       cy="212.49849"
+       r="10.225541" />
+    <rect
+       style="fill:#ff9694;fill-opacity:1;stroke:none;stroke-width:0.404847;stroke-linecap:round;stroke-linejoin:round"
+       id="rect4627"
+       width="23.445593"
+       height="6.4249945"
+       x="164.68477"
+       y="208.89146"
+       ry="1.578069" />
+    <circle
+       style="fill:url(#radialGradient4631);fill-opacity:1;stroke:none;stroke-width:0.243222;stroke-linecap:round;stroke-linejoin:round"
+       id="circle4629"
+       cx="191.96283"
+       cy="212.49849"
+       r="10.225541" />
+    <text
+       xml:space="preserve"
+       style="font-size:7.58341px;line-height:1.25;font-family:sans-serif;stroke-width:0.189586"
+       x="150.144"
+       y="214.86559"
+       id="text6925"><tspan
+         sodipodi:role="line"
+         id="tspan6923"
+         style="stroke-width:0.189586"
+         x="150.144"
+         y="214.86559">A</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.58341px;line-height:1.25;font-family:sans-serif;stroke-width:0.189586"
+       x="169.19354"
+       y="214.86559"
+       id="text6979"><tspan
+         sodipodi:role="line"
+         id="tspan6977"
+         style="stroke-width:0.189586"
+         x="169.19354"
+         y="214.86559">T</tspan></text>
+    <rect
+       style="fill:#ff9694;fill-opacity:1;stroke:none;stroke-width:0.404847;stroke-linecap:round;stroke-linejoin:round"
+       id="rect6981"
+       width="23.445593"
+       height="6.4249945"
+       x="136.61771"
+       y="229.29364"
+       ry="1.578069" />
+    <circle
+       style="fill:url(#radialGradient6999);fill-opacity:1;stroke:none;stroke-width:0.243222;stroke-linecap:round;stroke-linejoin:round"
+       id="circle6983"
+       cx="132.55981"
+       cy="232.90067"
+       r="10.225541" />
+    <rect
+       style="fill:#50ff66;fill-opacity:1;stroke:none;stroke-width:0.404847;stroke-linecap:round;stroke-linejoin:round"
+       id="rect6985"
+       width="23.445593"
+       height="6.4249945"
+       x="164.68477"
+       y="229.29364"
+       ry="1.578069" />
+    <circle
+       style="fill:url(#radialGradient6997);fill-opacity:1;stroke:none;stroke-width:0.243222;stroke-linecap:round;stroke-linejoin:round"
+       id="circle6987"
+       cx="191.96283"
+       cy="232.90067"
+       r="10.225541" />
+    <text
+       xml:space="preserve"
+       style="font-size:7.58341px;line-height:1.25;font-family:sans-serif;stroke-width:0.189586"
+       x="150.144"
+       y="235.26778"
+       id="text6991"><tspan
+         sodipodi:role="line"
+         id="tspan6989"
+         style="stroke-width:0.189586"
+         x="150.144"
+         y="235.26778">T</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.58341px;line-height:1.25;font-family:sans-serif;stroke-width:0.189586"
+       x="169.19354"
+       y="235.26778"
+       id="text6995"><tspan
+         sodipodi:role="line"
+         id="tspan6993"
+         style="stroke-width:0.189586"
+         x="169.19354"
+         y="235.26778">A</tspan></text>
+    <rect
+       style="fill:#87d7f4;fill-opacity:1;stroke:none;stroke-width:0.404847;stroke-linecap:round;stroke-linejoin:round"
+       id="rect7745"
+       width="23.445593"
+       height="6.4249945"
+       x="136.61771"
+       y="249.5831"
+       ry="1.578069" />
+    <circle
+       style="fill:url(#radialGradient7783);fill-opacity:1;stroke:none;stroke-width:0.243222;stroke-linecap:round;stroke-linejoin:round"
+       id="circle7747"
+       cx="132.55981"
+       cy="253.19012"
+       r="10.225541" />
+    <rect
+       style="fill:#fff300;fill-opacity:1;stroke:none;stroke-width:0.404847;stroke-linecap:round;stroke-linejoin:round"
+       id="rect7749"
+       width="23.445593"
+       height="6.4249945"
+       x="164.68477"
+       y="249.5831"
+       ry="1.578069" />
+    <circle
+       style="fill:url(#radialGradient7781);fill-opacity:1;stroke:none;stroke-width:0.243222;stroke-linecap:round;stroke-linejoin:round"
+       id="circle7751"
+       cx="191.96283"
+       cy="253.19012"
+       r="10.225541" />
+    <text
+       xml:space="preserve"
+       style="font-size:7.58341px;line-height:1.25;font-family:sans-serif;stroke-width:0.189586"
+       x="150.144"
+       y="255.55722"
+       id="text7755"><tspan
+         sodipodi:role="line"
+         id="tspan7753"
+         style="stroke-width:0.189586"
+         x="150.144"
+         y="255.55722">C</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.58341px;line-height:1.25;font-family:sans-serif;stroke-width:0.189586"
+       x="169.19354"
+       y="255.55722"
+       id="text7759"><tspan
+         sodipodi:role="line"
+         id="tspan7757"
+         style="stroke-width:0.189586"
+         x="169.19354"
+         y="255.55722">G</tspan></text>
+    <rect
+       style="fill:#fff300;fill-opacity:1;stroke:none;stroke-width:0.404847;stroke-linecap:round;stroke-linejoin:round"
+       id="rect7761"
+       width="23.445593"
+       height="6.4249945"
+       x="136.61771"
+       y="269.98526"
+       ry="1.578069" />
+    <circle
+       style="fill:url(#radialGradient7779);fill-opacity:1;stroke:none;stroke-width:0.243222;stroke-linecap:round;stroke-linejoin:round"
+       id="circle7763"
+       cx="132.55981"
+       cy="273.59229"
+       r="10.225541" />
+    <rect
+       style="fill:#87d7f4;fill-opacity:1;stroke:none;stroke-width:0.404847;stroke-linecap:round;stroke-linejoin:round"
+       id="rect7765"
+       width="23.445593"
+       height="6.4249945"
+       x="164.68477"
+       y="269.98526"
+       ry="1.578069" />
+    <circle
+       style="fill:url(#radialGradient7777);fill-opacity:1;stroke:none;stroke-width:0.243222;stroke-linecap:round;stroke-linejoin:round"
+       id="circle7767"
+       cx="191.96283"
+       cy="273.59229"
+       r="10.225541" />
+    <text
+       xml:space="preserve"
+       style="font-size:7.58341px;line-height:1.25;font-family:sans-serif;stroke-width:0.189586"
+       x="150.144"
+       y="275.95938"
+       id="text7771"><tspan
+         sodipodi:role="line"
+         id="tspan7769"
+         style="stroke-width:0.189586"
+         x="150.144"
+         y="275.95938">G</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.58341px;line-height:1.25;font-family:sans-serif;stroke-width:0.189586"
+       x="169.19354"
+       y="275.95938"
+       id="text7775"><tspan
+         sodipodi:role="line"
+         id="tspan7773"
+         style="stroke-width:0.189586"
+         x="169.19354"
+         y="275.95938">C</tspan></text>
+    <circle
+       style="fill:url(#radialGradient10143);fill-opacity:1;stroke:none;stroke-width:0.339437;stroke-linecap:round;stroke-linejoin:round"
+       id="circle10141"
+       cx="23.590645"
+       cy="226.10973"
+       r="14.27062" />
+    <rect
+       style="fill:#50ff66;fill-opacity:1;stroke:none;stroke-width:0.564999;stroke-linecap:round;stroke-linejoin:round"
+       id="rect10151"
+       width="32.720337"
+       height="8.9666309"
+       x="5.6720734"
+       y="247.99457"
+       ry="2.2023306" />
+    <text
+       xml:space="preserve"
+       style="font-size:10.5833px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="13.125664"
+       y="229.14304"
+       id="text10161"><tspan
+         sodipodi:role="line"
+         id="tspan10159"
+         style="stroke-width:0.264583"
+         x="13.125664"
+         y="229.14304">球體 -&gt; 核苷酸 </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:8.88531px;line-height:1.25;font-family:sans-serif;stroke-width:0.222133"
+       x="9.0173187"
+       y="255.53059"
+       id="text10939"><tspan
+         sodipodi:role="line"
+         id="tspan10937"
+         style="stroke-width:0.222133"
+         x="9.0173187"
+         y="255.53059">長方體 -&gt; 鹼基(遺傳編碼) </tspan></text>
+  </g>
+</svg>
