@@ -91,7 +91,7 @@ from 模擬3D模組 import *
 | [漸層螢幕](color_gradient.md)          | [![漸層螢幕](color_gradient.jpg){width=150}](color_gradient.md)           |
 | [全景水晶球](crystal_ball.md)          | [![全景水晶球](crystal_ball.jpg){width=150}](crystal_ball.md)           |
 | [魔術方塊](rubik_cube.md)          | [![魔術方塊](rubik_cube.jpg){width=150}](rubik_cube.md)           |
-
+| [DNA與遺傳編碼](dna_genetic_code.md)          | [![DNA與遺傳編碼](dna_genetic_code.jpg){width=150}](dna_genetic_code.md)           |
 
 <br/><br/>
 

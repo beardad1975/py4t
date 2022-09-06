@@ -25,9 +25,9 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="1.1893044"
-     inkscape:cx="303.53877"
-     inkscape:cy="887.91397"
+     inkscape:zoom="1.6819304"
+     inkscape:cx="369.81316"
+     inkscape:cy="939.99133"
      inkscape:window-width="1920"
      inkscape:window-height="998"
      inkscape:window-x="-9"
@@ -36,6 +36,18 @@
      inkscape:current-layer="layer1" />
   <defs
      id="defs2">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient3909">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop3905" />
+      <stop
+         style="stop-color:#f69001;stop-opacity:0.97222221;"
+         offset="1"
+         id="stop3907" />
+    </linearGradient>
     <linearGradient
        inkscape:collect="always"
        id="linearGradient1021">
@@ -85,7 +97,7 @@
        lpeversion="1" />
     <radialGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient1021"
+       xlink:href="#linearGradient3909"
        id="radialGradient1023"
        cx="50.181671"
        cy="191.60275"
@@ -93,13 +105,13 @@
        fy="191.60275"
        r="14.27062"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.71654499,0,0,0.71654499,96.602376,75.206486)" />
+       gradientTransform="matrix(0.71654499,0,0,0.71654499,75.022885,75.206486)" />
     <radialGradient
        inkscape:collect="always"
        xlink:href="#linearGradient1021"
        id="radialGradient4631"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.71654499,0,0,0.71654499,156.0054,75.206486)"
+       gradientTransform="matrix(0.71654499,0,0,0.71654499,134.42591,75.206486)"
        cx="50.181671"
        cy="191.60275"
        fx="50.181671"
@@ -110,18 +122,7 @@
        xlink:href="#linearGradient1021"
        id="radialGradient6997"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.71654499,0,0,0.71654499,156.0054,95.608662)"
-       cx="50.181671"
-       cy="191.60275"
-       fx="50.181671"
-       fy="191.60275"
-       r="14.27062" />
-    <radialGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient1021"
-       id="radialGradient6999"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.71654499,0,0,0.71654499,96.602376,95.608662)"
+       gradientTransform="matrix(0.71654499,0,0,0.71654499,134.42591,95.608662)"
        cx="50.181671"
        cy="191.60275"
        fx="50.181671"
@@ -132,18 +133,7 @@
        xlink:href="#linearGradient1021"
        id="radialGradient7777"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.71654499,0,0,0.71654499,156.0054,136.30029)"
-       cx="50.181671"
-       cy="191.60275"
-       fx="50.181671"
-       fy="191.60275"
-       r="14.27062" />
-    <radialGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient1021"
-       id="radialGradient7779"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.71654499,0,0,0.71654499,96.602376,136.30029)"
+       gradientTransform="matrix(0.71654499,0,0,0.71654499,134.42591,136.30029)"
        cx="50.181671"
        cy="191.60275"
        fx="50.181671"
@@ -154,7 +144,7 @@
        xlink:href="#linearGradient1021"
        id="radialGradient7781"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.71654499,0,0,0.71654499,156.0054,115.89811)"
+       gradientTransform="matrix(0.71654499,0,0,0.71654499,134.42591,115.89811)"
        cx="50.181671"
        cy="191.60275"
        fx="50.181671"
@@ -162,10 +152,10 @@
        r="14.27062" />
     <radialGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient1021"
-       id="radialGradient7783"
+       xlink:href="#linearGradient3909"
+       id="radialGradient4357"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.71654499,0,0,0.71654499,96.602376,115.89811)"
+       gradientTransform="matrix(0.71654499,0,0,0.71654499,75.022885,95.814007)"
        cx="50.181671"
        cy="191.60275"
        fx="50.181671"
@@ -173,10 +163,32 @@
        r="14.27062" />
     <radialGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient1021"
-       id="radialGradient10143"
+       xlink:href="#linearGradient3909"
+       id="radialGradient4367"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(-26.591028,34.506969)"
+       gradientTransform="matrix(0.71654499,0,0,0.71654499,75.022885,116.42153)"
+       cx="50.181671"
+       cy="191.60275"
+       fx="50.181671"
+       fy="191.60275"
+       r="14.27062" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3909"
+       id="radialGradient4377"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.71654499,0,0,0.71654499,75.022885,137.18636)"
+       cx="50.181671"
+       cy="191.60275"
+       fx="50.181671"
+       fy="191.60275"
+       r="14.27062" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3909"
+       id="radialGradient4475"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.86535956,0,0,0.86535956,-19.358281,59.671227)"
        cx="50.181671"
        cy="191.60275"
        fx="50.181671"
@@ -187,14 +199,71 @@
      inkscape:label="圖層 1"
      inkscape:groupmode="layer"
      id="layer1">
-    <rect
-       style="fill:#50ff66;fill-opacity:1;stroke:none;stroke-width:0.404847;stroke-linecap:round;stroke-linejoin:round"
-       id="rect3137"
-       width="23.445593"
-       height="6.4249945"
-       x="136.61771"
-       y="208.89146"
-       ry="1.578069" />
+    <circle
+       style="fill:url(#radialGradient4475);fill-opacity:1;stroke:none;stroke-width:0.293735;stroke-linecap:round;stroke-linejoin:round"
+       id="circle4473"
+       cx="24.066923"
+       cy="225.4765"
+       r="12.349217"
+       inkscape:export-filename="model_simplfy.png"
+       inkscape:export-xdpi="92.5772"
+       inkscape:export-ydpi="92.5772" />
+    <ellipse
+       style="fill:#fff300;fill-opacity:1;stroke-width:0.378494;stroke-linecap:round;stroke-linejoin:round"
+       id="ellipse3318"
+       cx="122.93723"
+       cy="273.24628"
+       rx="16.281513"
+       ry="3.8991327" />
+    <ellipse
+       style="fill:#fff300;fill-opacity:1;stroke-width:0.378494;stroke-linecap:round;stroke-linejoin:round"
+       id="ellipse3178"
+       cx="159.11838"
+       cy="252.95337"
+       rx="16.281513"
+       ry="3.8991327" />
+    <ellipse
+       style="fill:#87d7f4;fill-opacity:1;stroke-width:0.378494;stroke-linecap:round;stroke-linejoin:round"
+       id="ellipse3176"
+       cx="159.2757"
+       cy="273.56088"
+       rx="16.281513"
+       ry="3.8991327" />
+    <ellipse
+       style="fill:#87d7f4;fill-opacity:1;stroke-width:0.378494;stroke-linecap:round;stroke-linejoin:round"
+       id="ellipse2612"
+       cx="123.09455"
+       cy="253.11067"
+       rx="16.281513"
+       ry="3.8991327" />
+    <ellipse
+       style="fill:#ff9694;fill-opacity:1;stroke-width:0.378494;stroke-linecap:round;stroke-linejoin:round"
+       id="ellipse1791"
+       cx="123.09455"
+       cy="232.34584"
+       rx="16.281513"
+       ry="3.8991327" />
+    <ellipse
+       style="fill:#ff9694;fill-opacity:1;stroke-width:0.378494;stroke-linecap:round;stroke-linejoin:round"
+       id="ellipse1513"
+       cx="158.96107"
+       cy="211.89563"
+       rx="16.281513"
+       ry="3.8991327" />
+    <ellipse
+       style="fill:#50ff66;fill-opacity:1;stroke-width:0.378494;stroke-linecap:round;stroke-linejoin:round"
+       id="ellipse1511"
+       cx="159.11838"
+       cy="232.66046"
+       rx="16.281513"
+       ry="3.8991327" />
+    <ellipse
+       style="fill:#50ff66;fill-opacity:1;stroke-width:0.378494;stroke-linecap:round;stroke-linejoin:round"
+       id="ellipse1430"
+       cx="124.35302"
+       cy="211.89563"
+       rx="16.281513"
+       ry="3.8991327" />
     <text
        xml:space="preserve"
        style="font-size:23.0723px;line-height:1.25;font-family:sans-serif;stroke-width:0.576809;fill:#4d4d4d"
@@ -290,209 +359,121 @@
     <circle
        style="fill:url(#radialGradient1023);fill-opacity:1;stroke:none;stroke-width:0.243222;stroke-linecap:round;stroke-linejoin:round"
        id="path310"
-       cx="132.55981"
+       cx="110.98032"
        cy="212.49849"
        r="10.225541" />
-    <rect
-       style="fill:#ff9694;fill-opacity:1;stroke:none;stroke-width:0.404847;stroke-linecap:round;stroke-linejoin:round"
-       id="rect4627"
-       width="23.445593"
-       height="6.4249945"
-       x="164.68477"
-       y="208.89146"
-       ry="1.578069" />
     <circle
        style="fill:url(#radialGradient4631);fill-opacity:1;stroke:none;stroke-width:0.243222;stroke-linecap:round;stroke-linejoin:round"
        id="circle4629"
-       cx="191.96283"
+       cx="170.38333"
        cy="212.49849"
        r="10.225541" />
     <text
        xml:space="preserve"
        style="font-size:7.58341px;line-height:1.25;font-family:sans-serif;stroke-width:0.189586"
-       x="150.144"
+       x="128.5645"
        y="214.86559"
        id="text6925"><tspan
          sodipodi:role="line"
          id="tspan6923"
          style="stroke-width:0.189586"
-         x="150.144"
+         x="128.5645"
          y="214.86559">A</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:7.58341px;line-height:1.25;font-family:sans-serif;stroke-width:0.189586"
-       x="169.19354"
+       x="147.61404"
        y="214.86559"
        id="text6979"><tspan
          sodipodi:role="line"
          id="tspan6977"
          style="stroke-width:0.189586"
-         x="169.19354"
+         x="147.61404"
          y="214.86559">T</tspan></text>
-    <rect
-       style="fill:#ff9694;fill-opacity:1;stroke:none;stroke-width:0.404847;stroke-linecap:round;stroke-linejoin:round"
-       id="rect6981"
-       width="23.445593"
-       height="6.4249945"
-       x="136.61771"
-       y="229.29364"
-       ry="1.578069" />
-    <circle
-       style="fill:url(#radialGradient6999);fill-opacity:1;stroke:none;stroke-width:0.243222;stroke-linecap:round;stroke-linejoin:round"
-       id="circle6983"
-       cx="132.55981"
-       cy="232.90067"
-       r="10.225541" />
-    <rect
-       style="fill:#50ff66;fill-opacity:1;stroke:none;stroke-width:0.404847;stroke-linecap:round;stroke-linejoin:round"
-       id="rect6985"
-       width="23.445593"
-       height="6.4249945"
-       x="164.68477"
-       y="229.29364"
-       ry="1.578069" />
     <circle
        style="fill:url(#radialGradient6997);fill-opacity:1;stroke:none;stroke-width:0.243222;stroke-linecap:round;stroke-linejoin:round"
        id="circle6987"
-       cx="191.96283"
+       cx="170.38333"
        cy="232.90067"
        r="10.225541" />
     <text
        xml:space="preserve"
        style="font-size:7.58341px;line-height:1.25;font-family:sans-serif;stroke-width:0.189586"
-       x="150.144"
+       x="128.5645"
        y="235.26778"
        id="text6991"><tspan
          sodipodi:role="line"
          id="tspan6989"
          style="stroke-width:0.189586"
-         x="150.144"
+         x="128.5645"
          y="235.26778">T</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:7.58341px;line-height:1.25;font-family:sans-serif;stroke-width:0.189586"
-       x="169.19354"
+       x="147.61404"
        y="235.26778"
        id="text6995"><tspan
          sodipodi:role="line"
          id="tspan6993"
          style="stroke-width:0.189586"
-         x="169.19354"
+         x="147.61404"
          y="235.26778">A</tspan></text>
-    <rect
-       style="fill:#87d7f4;fill-opacity:1;stroke:none;stroke-width:0.404847;stroke-linecap:round;stroke-linejoin:round"
-       id="rect7745"
-       width="23.445593"
-       height="6.4249945"
-       x="136.61771"
-       y="249.5831"
-       ry="1.578069" />
-    <circle
-       style="fill:url(#radialGradient7783);fill-opacity:1;stroke:none;stroke-width:0.243222;stroke-linecap:round;stroke-linejoin:round"
-       id="circle7747"
-       cx="132.55981"
-       cy="253.19012"
-       r="10.225541" />
-    <rect
-       style="fill:#fff300;fill-opacity:1;stroke:none;stroke-width:0.404847;stroke-linecap:round;stroke-linejoin:round"
-       id="rect7749"
-       width="23.445593"
-       height="6.4249945"
-       x="164.68477"
-       y="249.5831"
-       ry="1.578069" />
     <circle
        style="fill:url(#radialGradient7781);fill-opacity:1;stroke:none;stroke-width:0.243222;stroke-linecap:round;stroke-linejoin:round"
        id="circle7751"
-       cx="191.96283"
+       cx="170.38333"
        cy="253.19012"
        r="10.225541" />
     <text
        xml:space="preserve"
        style="font-size:7.58341px;line-height:1.25;font-family:sans-serif;stroke-width:0.189586"
-       x="150.144"
+       x="128.5645"
        y="255.55722"
        id="text7755"><tspan
          sodipodi:role="line"
          id="tspan7753"
          style="stroke-width:0.189586"
-         x="150.144"
+         x="128.5645"
          y="255.55722">C</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:7.58341px;line-height:1.25;font-family:sans-serif;stroke-width:0.189586"
-       x="169.19354"
+       x="147.61404"
        y="255.55722"
        id="text7759"><tspan
          sodipodi:role="line"
          id="tspan7757"
          style="stroke-width:0.189586"
-         x="169.19354"
+         x="147.61404"
          y="255.55722">G</tspan></text>
-    <rect
-       style="fill:#fff300;fill-opacity:1;stroke:none;stroke-width:0.404847;stroke-linecap:round;stroke-linejoin:round"
-       id="rect7761"
-       width="23.445593"
-       height="6.4249945"
-       x="136.61771"
-       y="269.98526"
-       ry="1.578069" />
-    <circle
-       style="fill:url(#radialGradient7779);fill-opacity:1;stroke:none;stroke-width:0.243222;stroke-linecap:round;stroke-linejoin:round"
-       id="circle7763"
-       cx="132.55981"
-       cy="273.59229"
-       r="10.225541" />
-    <rect
-       style="fill:#87d7f4;fill-opacity:1;stroke:none;stroke-width:0.404847;stroke-linecap:round;stroke-linejoin:round"
-       id="rect7765"
-       width="23.445593"
-       height="6.4249945"
-       x="164.68477"
-       y="269.98526"
-       ry="1.578069" />
     <circle
        style="fill:url(#radialGradient7777);fill-opacity:1;stroke:none;stroke-width:0.243222;stroke-linecap:round;stroke-linejoin:round"
        id="circle7767"
-       cx="191.96283"
+       cx="170.38333"
        cy="273.59229"
        r="10.225541" />
     <text
        xml:space="preserve"
        style="font-size:7.58341px;line-height:1.25;font-family:sans-serif;stroke-width:0.189586"
-       x="150.144"
+       x="128.5645"
        y="275.95938"
        id="text7771"><tspan
          sodipodi:role="line"
          id="tspan7769"
          style="stroke-width:0.189586"
-         x="150.144"
+         x="128.5645"
          y="275.95938">G</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:7.58341px;line-height:1.25;font-family:sans-serif;stroke-width:0.189586"
-       x="169.19354"
+       x="147.61404"
        y="275.95938"
        id="text7775"><tspan
          sodipodi:role="line"
          id="tspan7773"
          style="stroke-width:0.189586"
-         x="169.19354"
+         x="147.61404"
          y="275.95938">C</tspan></text>
-    <circle
-       style="fill:url(#radialGradient10143);fill-opacity:1;stroke:none;stroke-width:0.339437;stroke-linecap:round;stroke-linejoin:round"
-       id="circle10141"
-       cx="23.590645"
-       cy="226.10973"
-       r="14.27062" />
-    <rect
-       style="fill:#50ff66;fill-opacity:1;stroke:none;stroke-width:0.564999;stroke-linecap:round;stroke-linejoin:round"
-       id="rect10151"
-       width="32.720337"
-       height="8.9666309"
-       x="5.6720734"
-       y="247.99457"
-       ry="2.2023306" />
     <text
        xml:space="preserve"
        style="font-size:10.5833px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
@@ -504,16 +485,74 @@
          style="stroke-width:0.264583"
          x="13.125664"
          y="229.14304">球體 -&gt; 核苷酸 </tspan></text>
+    <ellipse
+       style="fill:#50ff66;fill-opacity:1;stroke-width:0.564999;stroke-linecap:round;stroke-linejoin:round"
+       id="path420"
+       cx="35.630562"
+       cy="258.30188"
+       rx="24.304289"
+       ry="5.8204446" />
     <text
        xml:space="preserve"
-       style="font-size:8.88531px;line-height:1.25;font-family:sans-serif;stroke-width:0.222133"
-       x="9.0173187"
-       y="255.53059"
+       style="font-size:10.3062px;line-height:1.25;font-family:sans-serif;stroke-width:0.257656"
+       x="14.669075"
+       y="261.78741"
        id="text10939"><tspan
          sodipodi:role="line"
          id="tspan10937"
-         style="stroke-width:0.222133"
-         x="9.0173187"
-         y="255.53059">長方體 -&gt; 鹼基(遺傳編碼) </tspan></text>
+         style="stroke-width:0.257656"
+         x="14.669075"
+         y="261.78741">橢圓體 -&gt; 鹼基 </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:5.5405px;line-height:1.25;font-family:sans-serif;stroke-width:0.138513"
+       x="130.12471"
+       y="283.15677"
+       id="text466"><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.138513"
+         x="130.12471"
+         y="283.15677"
+         id="tspan472">遺傳編碼</tspan></text>
+    <circle
+       style="fill:url(#radialGradient4357);fill-opacity:1;stroke:none;stroke-width:0.243222;stroke-linecap:round;stroke-linejoin:round"
+       id="circle4355"
+       cx="110.98032"
+       cy="233.10602"
+       r="10.225541" />
+    <circle
+       style="fill:url(#radialGradient4367);fill-opacity:1;stroke:none;stroke-width:0.243222;stroke-linecap:round;stroke-linejoin:round"
+       id="circle4365"
+       cx="110.98032"
+       cy="253.71355"
+       r="10.225541" />
+    <circle
+       style="fill:url(#radialGradient4377);fill-opacity:1;stroke:none;stroke-width:0.243222;stroke-linecap:round;stroke-linejoin:round"
+       id="circle4375"
+       cx="110.98032"
+       cy="274.47836"
+       r="10.225541" />
+    <text
+       xml:space="preserve"
+       style="font-size:5.79459px;line-height:1.25;font-family:sans-serif;stroke-width:0.144865"
+       x="98.591248"
+       y="291.69366"
+       id="text470"><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.144865"
+         x="98.591248"
+         y="291.69366"
+         id="tspan474">螺旋骨架</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:5.79459px;line-height:1.25;font-family:sans-serif;stroke-width:0.144865"
+       x="160.57112"
+       y="291.69366"
+       id="text4583"><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.144865"
+         x="160.57112"
+         y="291.69366"
+         id="tspan4581">螺旋骨架</tspan></text>
   </g>
 </svg>
