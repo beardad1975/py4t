@@ -1304,6 +1304,13 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    📒 構思
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -1322,7 +1329,7 @@
 <h2 id="_1">📕 引言</h2>
 <hr />
 <dl>
-<dd>孩子身上會有來自父親或母親的特徵，如血型、眼睛顏色和捲舌的能力。生物後代獲得親代的特徵稱為遺傳。</dd>
+<dd>孩子身上會有來自父親或母親的特徵，如血型、眼睛顏色和捲舌的能力，這種生物後代獲得親代的特徵，稱為遺傳。</dd>
 <dd>現代生物遺傳的研究歷程，從孟得爾豌豆實驗建立的遺傳規則(1865)，到染色體在細胞減數分裂與有性生殖的重新組合(1902)，到去氧核醣核酸(DNA)的遺傳功能確認(1952)，到人類基因組序列草圖的發表(2001)，至今一直不斷的在發展，廣泛應用在遺傳工程、基因定序、法醫鑑識、疾病防治等，甚至是新冠病毒的相關研究。</dd>
 <dd><img alt="dna與花色" src="dna_flower.png" /></dd>
 <dd><sup>(資料來源:</sup><sup id="fnref:dna_flower"><a class="footnote-ref" href="#fn:dna_flower">1</a></sup><sup>)</sup></dd>
@@ -1444,33 +1451,51 @@
 <h2 id="4">📘 實作(4)</h2>
 <h3 id="_5"><strong><em>波提甜甜圈</em></strong></h3>
 <hr />
+<p>我們的目標，是要做出DNA雙螺旋的形狀，可是，要如何做出3D的螺旋形呢？我們可以先把它「壓平」成2D的形狀，如下圖。</p>
 <dl>
-<dt>降階2d</dt>
+<dt><img alt="螺旋降維" src="spiral_to_2d.png" /></dt>
+<dd>
+<p><sup>(資料來源:</sup><sup id="fnref:spiral_to_2d"><a class="footnote-ref" href="#fn:spiral_to_2d">8</a></sup><sup>)</sup></p>
+</dd>
+</dl>
+<p><br></p>
+<dl>
+<dt>除了壓平後的圓周線，依照設計的構想，還要以球體(核苷酸分子)來組合成圓周。從「圓周」與「球體」這兩個關鍵字，你會聯想到什麼？</dt>
 <dd>
 <p><img alt="甜甜圈" src="donut.jpg" /></p>
 </dd>
 <dd>
-<p><sup>(資料來源:</sup><sup id="fnref:donut"><a class="footnote-ref" href="#fn:donut">8</a></sup><sup>)</sup></p>
+<p><sup>(資料來源:</sup><sup id="fnref:donut"><a class="footnote-ref" href="#fn:donut">9</a></sup><sup>)</sup></p>
 </dd>
 </dl>
-<p>一起來做出波提甜甜圈吧！</p>
+<p>沒錯，要實作螺旋形前，先做出波提甜甜圈吧！</p>
 <p><br></p>
-<p>3D親子關係</p>
+<p>接下來也會使用到在3D入門課程學習到的，物體的親子旋轉關係。</p>
 <details class="info"><summary>3D物體親子關係</summary><dl>
 <dd><img alt="甜甜圈" src="../explore3d/parent_and_child.png" /></dd>
 </dl>
 </details>
 <dl>
-<dd><img alt="旋轉30度" src="rotate_z_30.png" /></dd>
-<dt><br></dt>
+<dt>先做出旋轉中心(白)與核苷酸球體(橘)，並建立親子關係。當白色的中心自轉時，橘色的球體會如何？</dt>
+<dd>
+<p><img alt="旋轉30度" src="rotate_z_30.png" /></p>
+</dd>
+</dl>
+<p><br></p>
+<dl>
+<dt>利用重複結構的程式，可以做出多個球，你看得出下圖中，橘色球體的變化規則嗎？這樣規則會呈現在迴圈的程式結構中。</dt>
 <dd>
 <p><img alt="樣式辨識" src="pattern_recog.png" /></p>
 </dd>
-<dt><br></dt>
+</dl>
+<p><br></p>
+<dl>
+<dt>把橘色球體放大，就做出波提甜甜圈了。</dt>
 <dd>
 <p><img alt="波提" src="donut_shape.png" /></p>
 </dd>
 </dl>
+<p>請動手寫出程式。</p>
 <p><br></p>
 <details class="example" open="open"><summary>範例程式 波提甜甜圈 - - - - - - - (專題實作1/4 新檔)</summary><div class="tabbed-set tabbed-alternate" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">🎦操作影片</label><label for="__tabbed_1_2">💻程式碼</label></div>
 <div class="tabbed-content">
@@ -1506,8 +1531,27 @@
 <h3 id="_6"><strong><em>螺旋與自轉</em></strong></h3>
 <hr />
 <dl>
-<dd><img alt="螺旋與自轉" src="spiral_and_rotate.png" /></dd>
+<dt>如何讓波提甜甜圈變成立體螺旋呢？其實很簡單，只要使用與「壓平」相反的動作。</dt>
+<dd>
+<p><img alt="從波提到螺旋" src="donut_to_spiral.png" /></p>
+</dd>
 </dl>
+<p><br></p>
+<dl>
+<dt>從側面觀察螺旋形，你能看出z軸座標的方向上，哪一個物體在做位移？位移的變化規則是什麼？</dt>
+<dd>
+<p><img alt="螺旋側面" src="spiral_yz_plane.png" /></p>
+</dd>
+</dl>
+<p><br></p>
+<dl>
+<dt>另外，為了讓人更能看清楚3D模型，可以讓模型自動旋轉。為了讓每一個球體(核苷酸分子)都自動旋轉，需要在原點位置加上一個物體，並使用「三代親子關係」。</dt>
+<dd>
+<p><img alt="自動旋轉" src="parent_and_rotate.png" /></p>
+</dd>
+</dl>
+<p><br></p>
+<p>請動手寫出程式。</p>
 <p><br></p>
 <details class="example" open="open"><summary>範例程式 螺旋與自轉 - - - - - - - (專題實作2/4 接續)</summary><div class="tabbed-set tabbed-alternate" data-tabs="2:2"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio" /><input id="__tabbed_2_2" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="__tabbed_2_1">🎦操作影片</label><label for="__tabbed_2_2">💻程式碼</label></div>
 <div class="tabbed-content">
@@ -1548,6 +1592,16 @@
 <hr />
 <h3 id="_7"><strong><em>雙股螺旋</em></strong></h3>
 <hr />
+<dl>
+<dt>完成螺旋形後，再來思考如何做出雙螺旋？</dt>
+<dd>
+<p><img alt="雙股螺旋" src="two_spiral.png" /></p>
+</dd>
+</dl>
+<p><br></p>
+<p>看得出雙螺旋的「對稱」特性嗎？</p>
+<p>請動手寫出程式。</p>
+<p><br></p>
 <details class="example" open="open"><summary>範例程式 雙股螺旋 - - - - - - - (專題實作3/4 接續)</summary><div class="tabbed-set tabbed-alternate" data-tabs="3:2"><input checked="checked" id="__tabbed_3_1" name="__tabbed_3" type="radio" /><input id="__tabbed_3_2" name="__tabbed_3" type="radio" /><div class="tabbed-labels"><label for="__tabbed_3_1">🎦操作影片</label><label for="__tabbed_3_2">💻程式碼</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
@@ -1592,6 +1646,15 @@
 <hr />
 <h3 id="_8"><strong><em>成對鹼基</em></strong></h3>
 <hr />
+<dl>
+<dt>鹼基的做法與核苷核類似，只是把球體換成橢圓體。</dt>
+<dd>
+<p><img alt="鹼基" src="base_spiral.png" /></p>
+</dd>
+</dl>
+<p><br></p>
+<p>成對鹼基與雙螺旋雷同，使用「對稱」的概念。</p>
+<p>請動手寫出程式。</p>
 <details class="example" open="open"><summary>範例程式 成對鹼基 - - - - - - - (專題實作4/4 接續)</summary><div class="tabbed-set tabbed-alternate" data-tabs="4:2"><input checked="checked" id="__tabbed_4_1" name="__tabbed_4" type="radio" /><input id="__tabbed_4_2" name="__tabbed_4" type="radio" /><div class="tabbed-labels"><label for="__tabbed_4_1">🎦操作影片</label><label for="__tabbed_4_2">💻程式碼</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
@@ -1648,6 +1711,29 @@
 <h2 id="2">📙 擴展(2)</h2>
 <h3 id="_9"><strong><em>編碼字串</em></strong></h3>
 <hr />
+<dl>
+<dt>接下來是讓ATCG四種鹼基的顏色，按照原本的構想。</dt>
+<dd>
+<p><img alt="dna簡化設計" src="model_simplfy.png" /></p>
+</dd>
+</dl>
+<p><br></p>
+<dl>
+<dt>將DNA序列的資料(鹼基種類)存放在字串中。因原本的重複迴圈結構就需要索引值(i)，後續判斷顏色時，也需要取得鹼基編碼值。在此使用Python內建的enumerate函式，可以從群集中同時取得索引值及資料內容。</dt>
+<dd>
+<p><img alt="enumerate內建函式" src="enumerate.png" /></p>
+</dd>
+</dl>
+<p><br></p>
+<dl>
+<dt>在判斷每次的鹼基編碼文字時，會利用選擇結構，來決定顏色，流程圖如下：</dt>
+<dd>
+<p><img alt="選擇結構流程圖" src="if_elif_flow.png" /></p>
+</dd>
+</dl>
+<p><br></p>
+<p>請動手寫出程式。</p>
+<p><br></p>
 <details class="example" open="open"><summary>範例程式 編碼字串 - - - - - - - (專題擴展1/2 接續)</summary><div class="tabbed-set tabbed-alternate" data-tabs="5:2"><input checked="checked" id="__tabbed_5_1" name="__tabbed_5" type="radio" /><input id="__tabbed_5_2" name="__tabbed_5" type="radio" /><div class="tabbed-labels"><label for="__tabbed_5_1">🎦操作影片</label><label for="__tabbed_5_2">💻程式碼</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
@@ -1725,7 +1811,7 @@
 <p><img alt="人類基因組計劃" src="hgp_logo.jpg" /></p>
 </dd>
 <dd>
-<p><sup>(資料來源:</sup><sup id="fnref:hgp_logo"><a class="footnote-ref" href="#fn:hgp_logo">9</a></sup><sup>)</sup></p>
+<p><sup>(資料來源:</sup><sup id="fnref:hgp_logo"><a class="footnote-ref" href="#fn:hgp_logo">10</a></sup><sup>)</sup></p>
 </dd>
 </dl>
 <p><br></p>
@@ -1815,6 +1901,13 @@
 </div>
 </details>
 <p><br/><br/><br/></p>
+<hr />
+<h2 id="_10">📒 構思</h2>
+<hr />
+<p>經過了這個專題，你是否感受到資訊科技應用的廣泛，居然在生物領域也派得上用場呢！</p>
+<p>想一想，在平日學習的科目中，還有什麼可以結合資訊科技呢？如果你找到有趣的題目，也可以搜尋、構思並動手寫出解決問題的程式哦。</p>
+<p>我們下次再會。</p>
+<p><br/><br/></p>
 <div class="footnote">
 <hr />
 <ol>
@@ -1839,11 +1932,14 @@
 <li id="fn:dna_molecular">
 <p>去氧核糖核酸, <a href="https://zh.wikipedia.org/wiki/%E8%84%B1%E6%B0%A7%E6%A0%B8%E7%B3%96%E6%A0%B8%E9%85%B8">維基百科連結</a>&#160;<a class="footnote-backref" href="#fnref:dna_molecular" title="Jump back to footnote 7 in the text">&#8617;</a></p>
 </li>
+<li id="fn:spiral_to_2d">
+<p>螺旋, <a href="https://zh.m.wikipedia.org/zh-tw/%E8%9E%BA%E6%97%8B_(%E7%B0%A1%E5%96%AE%E6%A9%9F%E6%A2%B0)">維基百科連結</a>&#160;<a class="footnote-backref" href="#fnref:spiral_to_2d" title="Jump back to footnote 8 in the text">&#8617;</a></p>
+</li>
 <li id="fn:donut">
-<p>甜甜圈, <a href="https://zh.wikipedia.org/zh-tw/%E7%94%9C%E7%94%9C%E5%9C%88">維基百科連結</a>&#160;<a class="footnote-backref" href="#fnref:donut" title="Jump back to footnote 8 in the text">&#8617;</a></p>
+<p>甜甜圈, <a href="https://zh.wikipedia.org/zh-tw/%E7%94%9C%E7%94%9C%E5%9C%88">維基百科連結</a>&#160;<a class="footnote-backref" href="#fnref:donut" title="Jump back to footnote 9 in the text">&#8617;</a></p>
 </li>
 <li id="fn:hgp_logo">
-<p>人類基因組計劃, <a href="https://zh.wikipedia.org/zh-tw/%E4%BA%BA%E7%B1%BB%E5%9F%BA%E5%9B%A0%E7%BB%84%E8%AE%A1%E5%88%92">維基百科連結</a>&#160;<a class="footnote-backref" href="#fnref:hgp_logo" title="Jump back to footnote 9 in the text">&#8617;</a></p>
+<p>人類基因組計劃, <a href="https://zh.wikipedia.org/zh-tw/%E4%BA%BA%E7%B1%BB%E5%9F%BA%E5%9B%A0%E7%BB%84%E8%AE%A1%E5%88%92">維基百科連結</a>&#160;<a class="footnote-backref" href="#fnref:hgp_logo" title="Jump back to footnote 10 in the text">&#8617;</a></p>
 </li>
 </ol>
 </div>
