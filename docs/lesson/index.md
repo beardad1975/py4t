@@ -60,9 +60,9 @@ hide:
 
 ??? abstract  "專題 - DNA與遺傳編碼 "    
     
-    ![DNA與遺傳編碼](xxx/digest.jpg)
+    ![DNA與遺傳編碼](project_dna_genetic_code/digest.jpg)
 
-    課程建構中…
+    認識DNA的基本知識，實作出雙螺旋模型，並加上遺傳訊息的編碼，完成人類X染色的片段模型。
 
     :fontawesome-solid-long-arrow-alt-right: <a href="project_dna_genetic_code/" target="_blank">「DNA與遺傳編碼」</a>
 
