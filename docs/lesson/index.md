@@ -11,9 +11,9 @@ hide:
 
 ## 🐢 海龜繪圖
 
+
+
 ----------------------------
-
-
 
 ???+ success  "入門 - 海龜畫國旗 "
     
@@ -26,6 +26,17 @@ hide:
 
     : 利用所學的長方形、圓形與星形，思考、設計與規劃，用海龜程式實作出我們的國旗。　 :fontawesome-solid-long-arrow-alt-right: <a href="project_roc_flag/" target="_blank">「中華民國國旗」</a>
 
+<br/>
+
+----------------------------
+
+???+ success  "入門 - 海龜畫禪繞  "
+    
+    ![海龜畫禪繞入門](zentangle/digest.jpg)
+
+    : 編寫中…
+
+    : :fontawesome-solid-long-arrow-alt-right: <a href="zentangle/" target="_blank">「海龜畫禪繞」</a>
 
 <br/><br/><br/>
 
@@ -62,7 +73,7 @@ hide:
     
     ![DNA與遺傳編碼](project_dna_genetic_code/digest.jpg)
 
-    認識DNA的基本知識，實作出雙螺旋模型，並加上遺傳訊息的編碼，完成人類X染色的片段模型。
+    認識DNA的基本知識，實作出雙螺旋模型，並加上遺傳訊息的編碼，完成人類X染色體的片段模型。
 
     :fontawesome-solid-long-arrow-alt-right: <a href="project_dna_genetic_code/" target="_blank">「DNA與遺傳編碼」</a>
 
