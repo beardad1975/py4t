@@ -84,19 +84,165 @@ hide:
 
 ----------------------------
 
-##  📗 迴轉線條 
+##  📗 迴轉線條(4) 
+
+***方陣擴大*** 
+
+----------------------------
+
+
+: ![正方形定義](square_def.png)
+
+<br/>
+
+: ![畫正方形](draw_square.png)
+
+<br/>
+
+: ![方陣擴大想法](square_expand_thought.png)
+
+<br/>
+
+???+ example "範例程式 方陣擴大 - - - - - - - (迴轉線條1/4 新檔)"
+
+    === "🎦操作影片"
+    
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/jwwAbyi0Ang?start=2&amp;end=152" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        【長度2:30 章節時間如下】
+
+        *0:00 存檔、匯入模組
+
+        *0:50 方陣擴大
+
+
+    === "💻程式截圖"
+
+        ![程式截圖](snapshot/line_zentangle_square_expand.jpg) 
+
+
+<br/><br/><br/> 
 
 
 ----------------------------
+
+
+***長度迭代***
+
+----------------------------
+
+: ![長度2倍](length_2times.png)
+
+<br/>
+
+: ![長度加50](length_plus50.png)
+
+<br/>
+
+
+
+???+ example "範例程式 長度迭代 - - - - - - - (迴轉線條2/4 接續)"
+
+    === "🎦操作影片"
+    
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/jwwAbyi0Ang?start=155&amp;end=271" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        【長度1:56 章節時間如下】
+
+        *2:35 長度迭代
+
+
+    === "💻程式截圖"
+
+        ![程式截圖](snapshot/line_zentangle_length_iter.jpg) 
+
 
 <br/><br/><br/> 
 
 ----------------------------
 
-##  📘 花樣圓圈
+
+***角度迭代***
+
+----------------------------
+
+: ![多邊形規則](polygon_rule.png)
+
+<br/>
+
+: ![轉角](angle_thought.png)
+
+<br/>
+
+
+???+ example "範例程式 角度迭代 - - - - - - - (迴轉線條3/4 接續)"
+
+    === "🎦操作影片"
+    
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/jwwAbyi0Ang?start=273&amp;end=394" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        【長度2:01 章節時間如下】
+
+        *4:33 角度迭代
+
+
+    === "💻程式截圖"
+
+        ![程式截圖](snapshot/line_zentangle_angle_iter.jpg) 
+
+<br/><br/><br/> 
 
 
 ----------------------------
+
+***玩轉禪繞***
+
+----------------------------
+
+
+
+: ![範例1](line_zentangle_example1.png)
+
+<br/>
+
+: ![範例2](line_zentangle_example2.png)
+
+<br/>
+
+
+
+
+???+ example "範例程式 玩轉禪繞 - - - - - - - (迴轉線條4/4 接續)"
+
+    === "🎦操作影片"
+    
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/jwwAbyi0Ang?start=398&amp;end=535" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        【長度2:17 章節時間如下】
+
+        *6:38 玩轉禪繞
+
+
+    === "💻程式截圖"
+
+        ![程式截圖](snapshot/line_zentangle_play.jpg)
+
+<br/><br/><br/> 
+
+
+
+
+
+----------------------------
+
+
+##  📘 花樣圓圈
+
+
+
+----------------------------
+
+建構中…
 
 <br/><br/><br/> 
 
@@ -107,6 +253,8 @@ hide:
 
 ----------------------------
 
+建構中…
+
 <br/><br/><br/> 
 
 ----------------------------
@@ -116,5 +264,7 @@ hide:
 
 ----------------------------
 
+
+建構中…
 
 <br/><br/><br/>

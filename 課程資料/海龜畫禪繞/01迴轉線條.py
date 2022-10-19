@@ -1,8 +1,8 @@
-from 海龜模組 import *
-速度('fastest')
+from turtle import *
+speed('fastest')
 
-for 數 in range(500) :
-    向前(數*2)
-    右轉(360/4+1)    
+for i in range(100) :
+    forward(i*2)
+    right(90 + 1)    
 
-完成()
+done()
