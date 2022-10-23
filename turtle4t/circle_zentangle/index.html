@@ -17,7 +17,7 @@
     
     
       
-        <title>🔰 海龜範例 - 圓形禪繞畫 - Py4t 教青少年學Python</title>
+        <title>🔰 海龜範例 - 花樣圓圈 - Py4t 教青少年學Python</title>
       
     
     
@@ -132,7 +132,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              🔰 海龜範例 - 圓形禪繞畫
+              🔰 海龜範例 - 花樣圓圈
             
           </span>
         </div>
@@ -1205,29 +1205,29 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
-    🎦 範例影片
+  <a href="#1" class="md-nav__link">
+    階段1: 圓圈與角度迭代
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
-    🏷️ 原理說明
+  <a href="#2" class="md-nav__link">
+    階段2: 半徑迭代
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#py4t" class="md-nav__link">
-    📄 Py4t程式碼
+  <a href="#3" class="md-nav__link">
+    階段3: 灰階迭代與循環
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#_3" class="md-nav__link">
-    💻 執行截圖
+  <a href="#4" class="md-nav__link">
+    階段4: 玩轉禪繞
   </a>
   
 </li>
@@ -1245,36 +1245,77 @@
               
                 
 
-<h1 id="-">🔰 海龜範例 - 圓形禪繞畫</h1>
+<h1 id="-">🔰 海龜範例 - 花樣圓圈</h1>
+<dl>
+<dd><img alt="迴轉線條" src="../circle_zentangle.jpg" /></dd>
+</dl>
+<p><br/></p>
 <hr />
-<h3 id="_1">🎦 範例影片</h3>
-<div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/645029345?h=7986c82a24&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="circle_zentangle.mp4"></iframe></div>
-<script src="https://player.vimeo.com/api/player.js"></script>
+<h2 id="1">階段1: 圓圈與角度迭代</h2>
+<p>🎦 範例影片</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/78-cLvZuqTA?start=2&amp;end=196" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<hr />
-<h3 id="_2">🏷️ 原理說明</h3>
-<p>禪繞畫是一種全新的繪畫方式，在設定好的空間內用不斷重複的基本圖形來創作出美麗圖案。</p>
-<p>本範例利用海龜的圓形，變化大小、深淺色及位置重複的繪圖，畫出類似禪繞畫的感覺，看著圖案重複的畫出與疊加，是不是覺得很特別呢？</p>
-<hr />
-<h3 id="py4t">📄 Py4t程式碼</h3>
-<div class="highlight"><pre><span></span><code><span class="linenos" data-linenos=" 1 "></span><span class="kn">from</span> <span class="nn">海龜模組</span> <span class="kn">import</span> <span class="o">*</span>
-<span class="linenos" data-linenos=" 2 "></span><span class="kn">import</span> <span class="nn">random</span> <span class="k">as</span> <span class="nn">隨機</span>
-<span class="linenos" data-linenos=" 3 "></span>
-<span class="linenos" data-linenos=" 4 "></span><span class="n">速度</span><span class="p">(</span><span class="s1">&#39;fastest&#39;</span><span class="p">)</span>
-<span class="linenos" data-linenos=" 5 "></span><span class="n">視窗設定</span><span class="p">(</span><span class="mi">1200</span><span class="p">,</span> <span class="mi">800</span><span class="p">)</span>
-<span class="linenos" data-linenos=" 6 "></span>
-<span class="linenos" data-linenos=" 7 "></span><span class="n">右轉</span><span class="p">(</span><span class="mi">60</span><span class="p">)</span>
-<span class="linenos" data-linenos=" 8 "></span><span class="k">while</span> <span class="kc">True</span> <span class="p">:</span>    
-<span class="linenos" data-linenos=" 9 "></span>    <span class="k">for</span> <span class="n">數</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">100</span><span class="p">)</span> <span class="p">:</span> 
-<span class="linenos" data-linenos="10 "></span>        <span class="n">亮度</span> <span class="o">=</span> <span class="n">數</span> <span class="o">*</span> <span class="mi">10</span> <span class="o">%</span> <span class="mi">255</span>
-<span class="linenos" data-linenos="11 "></span>        <span class="n">畫筆顏色</span><span class="p">(</span><span class="n">亮度</span><span class="p">,</span><span class="n">亮度</span><span class="p">,</span><span class="n">亮度</span><span class="p">)</span>
-<span class="linenos" data-linenos="12 "></span>        <span class="n">畫圓</span><span class="p">(</span><span class="n">數</span><span class="o">*</span><span class="mi">3</span><span class="p">)</span>
-<span class="linenos" data-linenos="13 "></span>
-<span class="linenos" data-linenos="14 "></span>    <span class="n">右轉</span><span class="p">(</span><span class="mi">60</span><span class="p">)</span>
+<p>📄 Py4t程式碼</p>
+<div class="highlight"><pre><span></span><code><span class="linenos" data-linenos="1 "></span><span class="kn">from</span> <span class="nn">海龜模組</span> <span class="kn">import</span> <span class="o">*</span>
+<span class="linenos" data-linenos="2 "></span><span class="n">速度</span><span class="p">(</span><span class="s1">&#39;fastest&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos="3 "></span>
+<span class="linenos" data-linenos="4 "></span><span class="k">for</span> <span class="n">數</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">36</span><span class="p">)</span> <span class="p">:</span>
+<span class="linenos" data-linenos="5 "></span>    <span class="n">畫圓</span><span class="p">(</span><span class="mi">100</span><span class="p">)</span>
+<span class="linenos" data-linenos="6 "></span>    <span class="n">右轉</span><span class="p">(</span><span class="mi">360</span> <span class="o">/</span> <span class="mi">36</span><span class="p">)</span>
+<span class="linenos" data-linenos="7 "></span>
+<span class="linenos" data-linenos="8 "></span><span class="n">完成</span><span class="p">()</span>
 </code></pre></div>
+<p><br/><br/></p>
 <hr />
-<h3 id="_3">💻 執行截圖</h3>
-<p><img alt="執行截圖" src="../circle_zentangle.jpg" /></p>
+<h2 id="2">階段2: 半徑迭代</h2>
+<p>🎦 範例影片</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/78-cLvZuqTA?start=200&amp;end=262" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<p>📄 Py4t程式碼</p>
+<div class="highlight"><pre><span></span><code><span class="linenos" data-linenos="1 "></span><span class="kn">from</span> <span class="nn">海龜模組</span> <span class="kn">import</span> <span class="o">*</span>
+<span class="linenos" data-linenos="2 "></span><span class="n">速度</span><span class="p">(</span><span class="s1">&#39;fastest&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos="3 "></span>
+<span class="linenos" data-linenos="4 "></span><span class="k">for</span> <span class="n">數</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">100</span><span class="p">)</span> <span class="p">:</span>
+<span class="linenos" data-linenos="5 "></span>    <span class="n">畫圓</span><span class="p">(</span><span class="n">數</span> <span class="o">*</span> <span class="mi">2</span><span class="p">)</span>
+<span class="linenos" data-linenos="6 "></span>
+<span class="linenos" data-linenos="7 "></span><span class="n">完成</span><span class="p">()</span>
+</code></pre></div>
+<p><br/><br/></p>
+<hr />
+<h2 id="3">階段3: 灰階迭代與循環</h2>
+<p>🎦 範例影片</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/78-cLvZuqTA?start=266&amp;end=443" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<p>📄 Py4t程式碼</p>
+<div class="highlight"><pre><span></span><code><span class="linenos" data-linenos="1 "></span><span class="kn">from</span> <span class="nn">海龜模組</span> <span class="kn">import</span> <span class="o">*</span>
+<span class="linenos" data-linenos="2 "></span><span class="n">速度</span><span class="p">(</span><span class="s1">&#39;fastest&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos="3 "></span>
+<span class="linenos" data-linenos="4 "></span><span class="k">for</span> <span class="n">數</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">256</span><span class="p">)</span> <span class="p">:</span>
+<span class="linenos" data-linenos="5 "></span>    <span class="n">灰階</span> <span class="o">=</span> <span class="n">數</span> <span class="o">*</span> <span class="mi">4</span> <span class="o">%</span> <span class="mi">256</span>
+<span class="linenos" data-linenos="6 "></span>    <span class="n">畫筆顏色</span><span class="p">(</span><span class="n">灰階</span><span class="p">,</span><span class="n">灰階</span><span class="p">,</span><span class="n">灰階</span><span class="p">)</span>
+<span class="linenos" data-linenos="7 "></span>    <span class="n">畫圓</span><span class="p">(</span><span class="n">數</span> <span class="o">*</span> <span class="mi">2</span><span class="p">)</span>
+<span class="linenos" data-linenos="8 "></span>
+<span class="linenos" data-linenos="9 "></span><span class="n">完成</span><span class="p">()</span>
+</code></pre></div>
+<p><br/><br/></p>
+<hr />
+<h2 id="4">階段4: 玩轉禪繞</h2>
+<p>🎦 範例影片</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/78-cLvZuqTA?start=447&amp;end=623" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<p>📄 Py4t程式碼</p>
+<div class="highlight"><pre><span></span><code><span class="linenos" data-linenos=" 1 "></span><span class="kn">from</span> <span class="nn">海龜模組</span> <span class="kn">import</span> <span class="o">*</span>
+<span class="linenos" data-linenos=" 2 "></span><span class="n">速度</span><span class="p">(</span><span class="s1">&#39;fastest&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos=" 3 "></span>
+<span class="linenos" data-linenos=" 4 "></span><span class="k">for</span> <span class="n">數</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">256</span><span class="p">)</span> <span class="p">:</span>
+<span class="linenos" data-linenos=" 5 "></span>    <span class="n">灰階</span> <span class="o">=</span> <span class="n">數</span> <span class="o">*</span> <span class="mi">2</span> <span class="o">%</span> <span class="mi">256</span>
+<span class="linenos" data-linenos=" 6 "></span>    <span class="n">畫筆顏色</span><span class="p">(</span><span class="n">灰階</span><span class="p">,</span><span class="n">灰階</span><span class="p">,</span><span class="n">灰階</span><span class="p">)</span>
+<span class="linenos" data-linenos=" 7 "></span>    <span class="n">畫圓</span><span class="p">(</span><span class="n">數</span> <span class="o">*</span> <span class="mi">2</span><span class="p">)</span>
+<span class="linenos" data-linenos=" 8 "></span>    <span class="n">右轉</span><span class="p">(</span><span class="mi">360</span> <span class="o">/</span> <span class="mi">6</span><span class="p">)</span>
+<span class="linenos" data-linenos=" 9 "></span>
+<span class="linenos" data-linenos="10 "></span><span class="n">完成</span><span class="p">()</span>
+</code></pre></div>
+<p><br/><br/></p>
 
               
             </article>

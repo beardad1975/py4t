@@ -1210,7 +1210,7 @@
       
         <li class="md-nav__item">
   <a href="#_2" class="md-nav__link">
-    📙 禪繞要素
+    📙 禪繞特性
   </a>
   
 </li>
@@ -1223,22 +1223,50 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#4_1" class="md-nav__link">
+    📘 花樣圓圈(4)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#_3" class="md-nav__link">
-    📘 花樣圓圈
+    📙 未來展望：數位藝術
   </a>
   
 </li>
       
         <li class="md-nav__item">
   <a href="#_4" class="md-nav__link">
-    📙 點點螺旋
+    
   </a>
   
 </li>
       
         <li class="md-nav__item">
   <a href="#_5" class="md-nav__link">
-    📗 色塊重疊
+    
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-" class="md-nav__link">
+    待建構 - 點點螺旋
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-_1" class="md-nav__link">
+    待建構 - 色塊重疊
   </a>
   
 </li>
@@ -1270,10 +1298,10 @@
 </details>
 <p><br/><br/><br/> </p>
 <hr />
-<h2 id="_2">📙 禪繞要素</h2>
+<h2 id="_2">📙 禪繞特性</h2>
 <hr />
 <dl>
-<dd>禪繞畫看起來很美麗，但卻好像有點複雜，要如何畫出禪繞畫？它的基本要素是什麼？</dd>
+<dd>禪繞畫看起來很美麗，但卻好像有點複雜，要如何畫出禪繞畫？它的特性是什麼？</dd>
 <dd><iframe width="560" height="315" src="https://www.youtube.com/embed/tOSbo8fHPgQ?start=158&amp;end=521" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></dd>
 <dd><sup>(6分03秒, 資料來源:</sup><sup id="fnref:zentangle_first_time"><a class="footnote-ref" href="#fn:zentangle_first_time">2</a></sup><sup>)</sup></dd>
 <dt><br/></dt>
@@ -1298,7 +1326,7 @@
 </dd>
 <dt><br/></dt>
 <dd>
-<p>禪繞畫會依照圖樣的簡單規則來重複畫出。它的筆畫5元素簡稱icso，分別代表點、直線、弧線、S型、圓形。</p>
+<p>禪繞畫會依照圖樣的簡單規則來重複畫出。禪繞筆劃的5個元素簡稱icso，分別代表點、直線、弧線、S型、圓形。</p>
 </dd>
 <dd>
 <p><img alt="rule_and_element" src="rule_and_element.jpg" /></p>
@@ -1310,10 +1338,10 @@
 <p>經由以上的簡介，大家是不是比較了解禪繞畫了呢？</p>
 </dd>
 <dd>
-<p>原來禪繞畫的基本要素有「<strong>禪繞5元素</strong>」、「<strong>圖樣規則</strong>」、「<strong>重複畫出</strong>」、「<strong>填滿及陰影</strong>」等。</p>
+<p>原來禪繞畫的特性有「<strong>禪繞5元素</strong>」、「<strong>圖樣規則</strong>」、「<strong>重複畫出</strong>」、「<strong>填滿及陰影</strong>」等。</p>
 </dd>
 <dd>
-<p>接下來，要使用海龜程式畫出簡單的禪繞畫囉。</p>
+<p>接下來要使用海龜程式，從以上討論的特性，畫出禪繞畫囉。</p>
 </dd>
 </dl>
 <p><br/><br/><br/> </p>
@@ -1351,8 +1379,14 @@
 <div class="tabbed-block">
 <p><iframe width="560" height="315" src="https://www.youtube.com/embed/jwwAbyi0Ang?start=2&amp;end=152" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 <p>【長度2:30 章節時間如下】</p>
-<p>*0:00 存檔、匯入模組</p>
-<p>*0:50 方陣擴大</p>
+<ul>
+<li>
+<p>0:00 存檔、匯入模組</p>
+</li>
+<li>
+<p>0:50 方陣擴大</p>
+</li>
+</ul>
 </div>
 <div class="tabbed-block">
 <p><img alt="程式截圖" src="snapshot/line_zentangle_square_expand.jpg" /> </p>
@@ -1365,7 +1399,7 @@
 <p><strong><em>長度迭代</em></strong></p>
 <hr />
 <dl>
-<dd>在資訊科學的領域，迭代(iteration)代表著重複的指令執行，而在Python中，迭代與迴圈(loop)的意義相近。</dd>
+<dd>在資訊科學的領域，迭代(iteration)代表著重複的指令執行。在Python中，雖然迭代與迴圈(loop)的意義相近，但「迭代」更有利用迴圈變數「不斷重複替換」來做出變化之意，所以以下的重複替換變化都會使用「迭代」這個詞。</dd>
 <dd>回想上一個例子，我們對正方形的長度迭代，不斷的把線條變長，產生方陣的圖案。如果使用乘法或加法，讓迴圈變數產生規律的變化時，方陣會發生什麼事情呢？分別來測試看看。</dd>
 <dd>測試一，把迴圈變數每次都變成2倍，方陣會如何？：</dd>
 <dd><img alt="長度2倍" src="length_2times.png" /></dd>
@@ -1387,7 +1421,9 @@
 <div class="tabbed-block">
 <p><iframe width="560" height="315" src="https://www.youtube.com/embed/jwwAbyi0Ang?start=155&amp;end=271" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 <p>【長度1:56 章節時間如下】</p>
-<p>*2:35 長度迭代</p>
+<ul>
+<li>2:35 長度迭代</li>
+</ul>
 </div>
 <div class="tabbed-block">
 <p><img alt="程式截圖" src="snapshot/line_zentangle_length_iter.jpg" /> </p>
@@ -1415,6 +1451,9 @@
 <dd>
 <p><img alt="轉角" src="angle_thought.png" /></p>
 </dd>
+<dd>
+<p>思考畫出來圖案，是不是由每次細微的轉角差異，不斷累積出來的呢？</p>
+</dd>
 <dt><br/></dt>
 <dd>
 <p>試著動手實作，利用不同的角度迭代變化，畫出不同的方陣圖案。</p>
@@ -1425,7 +1464,9 @@
 <div class="tabbed-block">
 <p><iframe width="560" height="315" src="https://www.youtube.com/embed/jwwAbyi0Ang?start=273&amp;end=394" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 <p>【長度2:01 章節時間如下】</p>
-<p>*4:33 角度迭代</p>
+<ul>
+<li>4:33 角度迭代</li>
+</ul>
 </div>
 <div class="tabbed-block">
 <p><img alt="程式截圖" src="snapshot/line_zentangle_angle_iter.jpg" /> </p>
@@ -1438,7 +1479,7 @@
 <p><strong><em>玩轉禪繞</em></strong></p>
 <hr />
 <dl>
-<dd>了解了以上的迭代變化後，就可以使用不同的「重複次數」、「長度規則」、「角度規則」來產生禪繞畫了。以下是兩個的例子，做為參考。</dd>
+<dd>了解了以上的迭代變化後，就可以使用不同的「重複次數」、「長度規則」、「角度規則」來產生禪繞畫了。以下兩個例子做為參考。</dd>
 <dd>範例禪繞畫一：</dd>
 <dd><img alt="範例1" src="line_zentangle_example1.png" /></dd>
 <dt><br/></dt>
@@ -1460,7 +1501,9 @@
 <div class="tabbed-block">
 <p><iframe width="560" height="315" src="https://www.youtube.com/embed/jwwAbyi0Ang?start=398&amp;end=535" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 <p>【長度2:17 章節時間如下】</p>
-<p>*6:38 玩轉禪繞</p>
+<ul>
+<li>6:38 玩轉禪繞</li>
+</ul>
 </div>
 <div class="tabbed-block">
 <p><img alt="程式截圖" src="snapshot/line_zentangle_play.jpg" /></p>
@@ -1470,19 +1513,223 @@
 </details>
 <p><br/><br/><br/> </p>
 <hr />
-<h2 id="_3">📘 花樣圓圈</h2>
+<h2 id="4_1">📘 花樣圓圈(4)</h2>
+<p><strong><em>圓圈與角度迭代</em></strong></p>
 <hr />
-<p>建構中…</p>
+<dl>
+<dd>接下來，使用禪繞5元素中的「圓形」來發想，規律的圓形可以產生什麼樣的禪繞圖呢？</dd>
+<dd>海龜學習函式庫提供了「畫圓」的功能，讓我們方便地畫出圓圈。</dd>
+<dd><img alt="畫圓" src="draw_circle.png" /></dd>
+<dt><br/></dt>
+<dt><br/></dt>
+<dd>
+<p>圓圈與圓圈部份重疊時，兩圓重疊之處稱為交集，它的形狀看起來像是葉子形狀，也像是花瓣的形狀。</p>
+</dd>
+<dd>
+<p><img alt="圓的交集" src="circle_intersect.png" /></p>
+</dd>
+<dt><br/></dt>
+<dt><br/></dt>
+<dd>
+<p>當我們利用迴圈產生多個圓圈，而每個圓圈之間以固定的轉角做為規則，就會產生圓圈重複畫的效果。少量的圓圈交錯會有花瓣形狀出現，較多的圓圈交錯則會產生更複雜的變化。</p>
+</dd>
+<dd>
+<p><img alt="角度迭代" src="angle_iter_example.png" /></p>
+</dd>
+<dt><br/></dt>
+<dd>
+<p>請動手實作看看。</p>
+</dd>
+</dl>
+<details class="example" open="open"><summary>範例程式 圓圈與角度迭代 - - - - - - - (花樣圓圈1/4 新檔)</summary><div class="tabbed-set tabbed-alternate" data-tabs="5:2"><input checked="checked" id="__tabbed_5_1" name="__tabbed_5" type="radio" /><input id="__tabbed_5_2" name="__tabbed_5" type="radio" /><div class="tabbed-labels"><label for="__tabbed_5_1">🎦操作影片</label><label for="__tabbed_5_2">💻程式截圖</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/78-cLvZuqTA?start=2&amp;end=196" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p>【長度3:14 章節時間如下】</p>
+<ul>
+<li>
+<p>0:00 存檔、匯入模組</p>
+</li>
+<li>
+<p>0:46 圓圈與角度迭代</p>
+</li>
+</ul>
+</div>
+<div class="tabbed-block">
+<p><img alt="程式截圖" src="snapshot/circle_zentangle_angle_iter.jpg" /> </p>
+</div>
+</div>
+</div>
+</details>
 <p><br/><br/><br/> </p>
 <hr />
-<h2 id="_4">📙 點點螺旋</h2>
+<p><strong><em>半徑迭代</em></strong></p>
 <hr />
-<p>建構中…</p>
+<dl>
+<dd>不同的圓圈，也可以經由半徑迭代的規律，產生圓中之圓的圖案。</dd>
+<dd><img alt="半徑迭代" src="radius_iter.png" /></dd>
+<dt><br/></dt>
+<dt><br/></dt>
+<dd>
+<p>動手實作看看。</p>
+</dd>
+</dl>
+<details class="example" open="open"><summary>範例程式 半徑迭代 - - - - - - - (花樣圓圈2/4 接續)</summary><div class="tabbed-set tabbed-alternate" data-tabs="6:2"><input checked="checked" id="__tabbed_6_1" name="__tabbed_6" type="radio" /><input id="__tabbed_6_2" name="__tabbed_6" type="radio" /><div class="tabbed-labels"><label for="__tabbed_6_1">🎦操作影片</label><label for="__tabbed_6_2">💻程式截圖</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/78-cLvZuqTA?start=200&amp;end=262" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p>【長度2:42 章節時間如下】</p>
+<ul>
+<li>3:20 半徑迭代</li>
+</ul>
+</div>
+<div class="tabbed-block">
+<p><img alt="程式截圖" src="snapshot/circle_zentangle_radius_iter.jpg" /> </p>
+</div>
+</div>
+</div>
+</details>
 <p><br/><br/><br/> </p>
 <hr />
-<h2 id="_5">📗 色塊重疊</h2>
+<p><strong><em>灰階迭代與循環</em></strong></p>
 <hr />
-<p>建構中…</p>
+<dl>
+<dd>禪繞畫的特性之一，是以鉛筆呈現光影深淺的變化，那在海龜程式中，要怎樣才能做出來呢？</dd>
+<dd>在資訊科學中，灰階影像代表顏色從黑色到白色之間的多種變化，類似黑白照片的效果。以常見的8位元取樣影像，灰階值0代表不發光的黑色，255代表最亮的白，而中間的數值則會呈現各種灰度。</dd>
+<dd><img alt="灰階迭代" src="gray_scale_iter.png" /></dd>
+<dd>如上圖，利用灰階迭代可以用來做出深淺筆劃的效果，如果同時與半徑迭代搭配的話，更能產生特別的效果呢！</dd>
+<dt><br/></dt>
+<dt><br/></dt>
+<dd>
+<p>如果想更進一步，讓灰階顏色可以從「深到淺」，再從「深到淺」這樣的循環變化，要怎麼做呢？</p>
+</dd>
+<dd>
+<p><img alt="如何灰階循環" src="gray_scale_cycle_howto.png" /></p>
+</dd>
+<dt><br/></dt>
+<dt><br/></dt>
+<dd>
+<p>% 這個符號在Python中，代表「除法取餘數」的運算，觀察下圖中的運算變化：</p>
+</dd>
+<dd>
+<p><img alt="除法取餘數" src="modulus.png" /></p>
+</dd>
+<dd>
+<p>原來如此，使用 % 的運算，就可以讓規律的數列產生循環的效果了。</p>
+</dd>
+<dt><br/></dt>
+<dt><br/></dt>
+<dd>
+<p>試著找出灰階循環的樣式規則，以2次的灰階循環為例：</p>
+</dd>
+<dd>
+<p><img alt="灰階循環樣式" src="gray_scale_cycle_pattern.png" /></p>
+</dd>
+<dt><br/></dt>
+<dt><br/></dt>
+<dd>
+<p>在以上的樣式規則中，「乘以2」代表2次的灰階循環，而「乘以4」則代表4次的灰階循環，這樣是不是可以做出多次的灰階循環了呢！。</p>
+</dd>
+<dd>
+<p>請動手實作程式看看。</p>
+</dd>
+</dl>
+<details class="example" open="open"><summary>範例程式 灰階迭代與循環 - - - - - - - (花樣圓圈3/4 接續)</summary><div class="tabbed-set tabbed-alternate" data-tabs="7:2"><input checked="checked" id="__tabbed_7_1" name="__tabbed_7" type="radio" /><input id="__tabbed_7_2" name="__tabbed_7" type="radio" /><div class="tabbed-labels"><label for="__tabbed_7_1">🎦操作影片</label><label for="__tabbed_7_2">💻程式截圖</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/78-cLvZuqTA?start=266&amp;end=443" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p>【長度2:57 章節時間如下】</p>
+<ul>
+<li>4:26 灰階迭代與循環</li>
+</ul>
+</div>
+<div class="tabbed-block">
+<p><img alt="程式截圖" src="snapshot/circle_zentangle_gray_scale.jpg" /> </p>
+</div>
+</div>
+</div>
+</details>
+<p><br/><br/><br/> </p>
+<hr />
+<p><strong><em>玩轉禪繞</em></strong></p>
+<hr />
+<dl>
+<dd>了解了以上的圓形各種迭代變化後，就可以使用不同的「重複次數」、「半徑規則」、「角度規則」、「灰階規則」來產生禪繞畫了。以下是兩個參考的例子。</dd>
+<dd>範例禪繞畫一：</dd>
+<dd><img alt="花樣圓圈範例1" src="circle_zentangle_example1.png" /></dd>
+<dt><br/></dt>
+<dd>
+<p>範例禪繞畫二：(加上向前的規則)</p>
+</dd>
+<dd>
+<p><img alt="花樣圓圈範例2" src="circle_zentangle_example2.png" /></p>
+</dd>
+</dl>
+<p><br/></p>
+<p>請做出屬於你的禪繞圖變化。</p>
+<details class="example" open="open"><summary>範例程式 玩轉禪繞 - - - - - - - (花樣圓圈4/4 接續)</summary><div class="tabbed-set tabbed-alternate" data-tabs="8:2"><input checked="checked" id="__tabbed_8_1" name="__tabbed_8" type="radio" /><input id="__tabbed_8_2" name="__tabbed_8" type="radio" /><div class="tabbed-labels"><label for="__tabbed_8_1">🎦操作影片</label><label for="__tabbed_8_2">💻程式截圖</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/78-cLvZuqTA?start=447&amp;end=623" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p>【長度2:56 章節時間如下】</p>
+<ul>
+<li>7:27 玩轉禪繞</li>
+</ul>
+</div>
+<div class="tabbed-block">
+<p><img alt="程式截圖" src="snapshot/circle_zentangle_play.jpg" /> </p>
+</div>
+</div>
+</div>
+</details>
+<p><br/><br/><br/> </p>
+<hr />
+<h2 id="_3">📙 未來展望：數位藝術</h2>
+<hr />
+<dl>
+<dd>經過上面的例子，你是否感受到程式與禪繞畫結合的樂趣呢？</dd>
+<dd>若是對這個方式感到興趣，你可以再更進一步探索程式與藝術的結合，以下提供一些些資源讓你自行探索：</dd>
+<dd>
+<ul>
+<li><a href="https://creativecoding.in/">互動程式創作</a></li>
+</ul>
+</dd>
+<dd>
+<ul>
+<li><a href="https://creativecoding.in/category/inspiration/%E7%94%9F%E6%88%90%E5%BC%8F%E8%97%9D%E8%A1%93/">互動程式創作-生成式藝術</a></li>
+</ul>
+</dd>
+<dd>
+<ul>
+<li><a href="https://500times.udn.com/wtimes/story/120840/6049933">生成式藝術-NFT藝術市場</a></li>
+</ul>
+</dd>
+<dd>
+<ul>
+<li><a href="https://www.fxhash.xyz/">生成式藝術-NFT平台</a></li>
+</ul>
+</dd>
+<dd>
+<p>(感謝桃園市桃園區建國國小鄭老師提供資訊與方向)</p>
+</dd>
+</dl>
+<p><br/><br/><br/></p>
+<h2 id="_4"></h2>
+<h2 id="_5"></h2>
+<h2 id="_6"></h2>
+<hr />
+<h2 id="-">待建構 - 點點螺旋</h2>
+<hr />
+<dl>
+<dd><img alt="點點螺旋" src="dot_spiral.png" /></dd>
+</dl>
+<p><br/><br/><br/> </p>
+<hr />
+<h2 id="-_1">待建構 - 色塊重疊</h2>
+<hr />
+<dl>
+<dd><img alt="色塊重疊" src="color_overlap.png" /></dd>
+</dl>
 <p><br/><br/><br/></p>
 <div class="footnote">
 <hr />
