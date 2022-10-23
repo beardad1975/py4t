@@ -1216,28 +1216,28 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#_3" class="md-nav__link">
-    📗 迴轉線條
+  <a href="#4" class="md-nav__link">
+    📗 迴轉線條(4)
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#_4" class="md-nav__link">
+  <a href="#_3" class="md-nav__link">
     📘 花樣圓圈
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#_5" class="md-nav__link">
+  <a href="#_4" class="md-nav__link">
     📙 點點螺旋
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#_6" class="md-nav__link">
+  <a href="#_5" class="md-nav__link">
     📗 色塊重疊
   </a>
   
@@ -1310,7 +1310,7 @@
 <p>經由以上的簡介，大家是不是比較了解禪繞畫了呢？</p>
 </dd>
 <dd>
-<p>原來禪繞畫的基本要素有「<strong>筆畫5元素</strong>」、「<strong>圖樣規則</strong>」、「<strong>重複畫出</strong>」、「<strong>填滿及陰影</strong>」等。</p>
+<p>原來禪繞畫的基本要素有「<strong>禪繞5元素</strong>」、「<strong>圖樣規則</strong>」、「<strong>重複畫出</strong>」、「<strong>填滿及陰影</strong>」等。</p>
 </dd>
 <dd>
 <p>接下來，要使用海龜程式畫出簡單的禪繞畫囉。</p>
@@ -1318,20 +1318,171 @@
 </dl>
 <p><br/><br/><br/> </p>
 <hr />
-<h2 id="_3">📗 迴轉線條</h2>
+<h2 id="4">📗 迴轉線條(4)</h2>
+<p><strong><em>方陣擴大</em></strong> </p>
 <hr />
+<dl>
+<dd>先使用禪繞5元素中的「直線」來發想，規律的直線可以產生什麼基本圖樣呢？</dd>
+<dd>當一條直線，以90度的規律轉動，會變成一個直角，而4個規律的直角會讓人聯想到正方形。</dd>
+<dd><img alt="正方形定義" src="square_def.png" /></dd>
+<dt><br/></dt>
+<dd>
+<p>在海龜程式中，從起點開始，一開始的方向朝右，利用「向前」及「旋轉」的指令，就可以畫出正方形的圖樣。</p>
+</dd>
+<dd>
+<p><img alt="畫正方形" src="draw_square.png" /></p>
+</dd>
+<dt><br/></dt>
+<dt><br/></dt>
+<dd>
+<p>接著使用禪繞畫中的「重複畫出」要素，想一想，不斷重複畫出正方形的邊長，可以使用什麼規則變化？</p>
+</dd>
+<dd>
+<p>利用程式的重複結構，以Python的for迴圈為例，我們可以使用「迴圈變數」，它在重複結構中的作用像是圈數計數器(從0開始)。如果把迴圈變數做為正方形的邊長時，就會產生一個不斷迴轉擴大的方陣，如下示意圖。</p>
+</dd>
+<dd>
+<p><img alt="方陣擴大想法" src="square_expand_thought.png" /></p>
+</dd>
+</dl>
+<p><br/></p>
+<p>請動手實作，畫出不斷擴大的方陣。</p>
+<details class="example" open="open"><summary>範例程式 方陣擴大 - - - - - - - (迴轉線條1/4 新檔)</summary><div class="tabbed-set tabbed-alternate" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">🎦操作影片</label><label for="__tabbed_1_2">💻程式截圖</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/jwwAbyi0Ang?start=2&amp;end=152" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p>【長度2:30 章節時間如下】</p>
+<p>*0:00 存檔、匯入模組</p>
+<p>*0:50 方陣擴大</p>
+</div>
+<div class="tabbed-block">
+<p><img alt="程式截圖" src="snapshot/line_zentangle_square_expand.jpg" /> </p>
+</div>
+</div>
+</div>
+</details>
 <p><br/><br/><br/> </p>
 <hr />
-<h2 id="_4">📘 花樣圓圈</h2>
+<p><strong><em>長度迭代</em></strong></p>
 <hr />
+<dl>
+<dd>在資訊科學的領域，迭代(iteration)代表著重複的指令執行，而在Python中，迭代與迴圈(loop)的意義相近。</dd>
+<dd>回想上一個例子，我們對正方形的長度迭代，不斷的把線條變長，產生方陣的圖案。如果使用乘法或加法，讓迴圈變數產生規律的變化時，方陣會發生什麼事情呢？分別來測試看看。</dd>
+<dd>測試一，把迴圈變數每次都變成2倍，方陣會如何？：</dd>
+<dd><img alt="長度2倍" src="length_2times.png" /></dd>
+<dt><br/></dt>
+<dd>
+<p>測試二，把迴圈變數每次都加上50，方陣又會如何？</p>
+</dd>
+<dd>
+<p><img alt="長度加50" src="length_plus50.png" /></p>
+</dd>
+<dt><br/></dt>
+<dt><br/></dt>
+<dd>
+<p>試著動手實作，利用不同的長度迭代變化，畫出不同的方陣圖案。</p>
+</dd>
+</dl>
+<details class="example" open="open"><summary>範例程式 長度迭代 - - - - - - - (迴轉線條2/4 接續)</summary><div class="tabbed-set tabbed-alternate" data-tabs="2:2"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio" /><input id="__tabbed_2_2" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="__tabbed_2_1">🎦操作影片</label><label for="__tabbed_2_2">💻程式截圖</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/jwwAbyi0Ang?start=155&amp;end=271" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p>【長度1:56 章節時間如下】</p>
+<p>*2:35 長度迭代</p>
+</div>
+<div class="tabbed-block">
+<p><img alt="程式截圖" src="snapshot/line_zentangle_length_iter.jpg" /> </p>
+</div>
+</div>
+</div>
+</details>
 <p><br/><br/><br/> </p>
 <hr />
-<h2 id="_5">📙 點點螺旋</h2>
+<p><strong><em>角度迭代</em></strong></p>
 <hr />
+<dl>
+<dd>接下來，我們來試試對角度做迭代的變化，先來思考角度與正方形的關係。</dd>
+<dd>正方形的轉角是90度。而海龜程式畫出正方形時，其實都會以一樣的角度回到起點。所以正方形可以想成是海龜「轉一圈分成4次」。那在正5邊形或正6邊形又是如何呢？</dd>
+<dd><img alt="多邊形規則" src="polygon_rule.png" /></dd>
+<dd>有了以上的規則，是不是可以畫出各種正多邊形的圖樣了呢！</dd>
+<dt><br/></dt>
+<dt><br/></dt>
+<dd>
+<p>另一種想法是，讓角度迭代產生細微的差異。</p>
+</dd>
+<dd>
+<p>以方陣擴大為例，想一想，如果每次轉的角度是90-1度，那方陣會產生什麼變化？</p>
+</dd>
+<dd>
+<p><img alt="轉角" src="angle_thought.png" /></p>
+</dd>
+<dt><br/></dt>
+<dd>
+<p>試著動手實作，利用不同的角度迭代變化，畫出不同的方陣圖案。</p>
+</dd>
+</dl>
+<details class="example" open="open"><summary>範例程式 角度迭代 - - - - - - - (迴轉線條3/4 接續)</summary><div class="tabbed-set tabbed-alternate" data-tabs="3:2"><input checked="checked" id="__tabbed_3_1" name="__tabbed_3" type="radio" /><input id="__tabbed_3_2" name="__tabbed_3" type="radio" /><div class="tabbed-labels"><label for="__tabbed_3_1">🎦操作影片</label><label for="__tabbed_3_2">💻程式截圖</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/jwwAbyi0Ang?start=273&amp;end=394" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p>【長度2:01 章節時間如下】</p>
+<p>*4:33 角度迭代</p>
+</div>
+<div class="tabbed-block">
+<p><img alt="程式截圖" src="snapshot/line_zentangle_angle_iter.jpg" /> </p>
+</div>
+</div>
+</div>
+</details>
 <p><br/><br/><br/> </p>
 <hr />
-<h2 id="_6">📗 色塊重疊</h2>
+<p><strong><em>玩轉禪繞</em></strong></p>
 <hr />
+<dl>
+<dd>了解了以上的迭代變化後，就可以使用不同的「重複次數」、「長度規則」、「角度規則」來產生禪繞畫了。以下是兩個的例子，做為參考。</dd>
+<dd>範例禪繞畫一：</dd>
+<dd><img alt="範例1" src="line_zentangle_example1.png" /></dd>
+<dt><br/></dt>
+<dt><br/></dt>
+<dd>
+<p>範例禪繞畫二：(看起來像什麼？)</p>
+</dd>
+<dd>
+<p><img alt="範例2" src="line_zentangle_example2.png" /></p>
+</dd>
+<dt><br/></dt>
+<dt><br/></dt>
+<dd>
+<p>請動手實作，改變「重複」、「長度」、「角度」的規則，畫出獨一無二的「迴轉線條」禪繞畫。</p>
+</dd>
+</dl>
+<details class="example" open="open"><summary>範例程式 玩轉禪繞 - - - - - - - (迴轉線條4/4 接續)</summary><div class="tabbed-set tabbed-alternate" data-tabs="4:2"><input checked="checked" id="__tabbed_4_1" name="__tabbed_4" type="radio" /><input id="__tabbed_4_2" name="__tabbed_4" type="radio" /><div class="tabbed-labels"><label for="__tabbed_4_1">🎦操作影片</label><label for="__tabbed_4_2">💻程式截圖</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/jwwAbyi0Ang?start=398&amp;end=535" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p>【長度2:17 章節時間如下】</p>
+<p>*6:38 玩轉禪繞</p>
+</div>
+<div class="tabbed-block">
+<p><img alt="程式截圖" src="snapshot/line_zentangle_play.jpg" /></p>
+</div>
+</div>
+</div>
+</details>
+<p><br/><br/><br/> </p>
+<hr />
+<h2 id="_3">📘 花樣圓圈</h2>
+<hr />
+<p>建構中…</p>
+<p><br/><br/><br/> </p>
+<hr />
+<h2 id="_4">📙 點點螺旋</h2>
+<hr />
+<p>建構中…</p>
+<p><br/><br/><br/> </p>
+<hr />
+<h2 id="_5">📗 色塊重疊</h2>
+<hr />
+<p>建構中…</p>
 <p><br/><br/><br/></p>
 <div class="footnote">
 <hr />
