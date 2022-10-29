@@ -32,9 +32,9 @@ hide:
 
 ???+ success  "入門 - 海龜畫禪繞  "
     
-    ![海龜畫禪繞入門](zentangle/digest.jpg)
+    ![海龜畫禪繞入門](zentangle/digest.png)
 
-    : 編寫中…
+    使用海龜程式，以筆劃元素、基本圖樣、重複規則來畫出禪繞圖。
 
     : :fontawesome-solid-long-arrow-alt-right: <a href="zentangle/" target="_blank">「海龜畫禪繞」</a>
 

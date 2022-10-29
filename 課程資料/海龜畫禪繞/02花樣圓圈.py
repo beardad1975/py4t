@@ -1,6 +1,5 @@
 from 海龜模組 import *
 速度('fastest')
-
 for 數 in range(256*2) :
     灰階 = 數 % 256
     畫筆顏色(灰階,灰階,灰階)
