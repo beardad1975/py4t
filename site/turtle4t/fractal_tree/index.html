@@ -17,7 +17,7 @@
     
     
       
-        <title>🔰 海龜範例 - 畫出碎形樹 - Py4t 教青少年學Python</title>
+        <title>🔰 海龜範例 - 海龜與樹 - Py4t 教青少年學Python</title>
       
     
     
@@ -132,7 +132,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              🔰 海龜範例 - 畫出碎形樹
+              🔰 海龜範例 - 海龜與樹
             
           </span>
         </div>
@@ -1205,29 +1205,50 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
-    🎦 範例影片
+  <a href="#1" class="md-nav__link">
+    階段1: 程式結構
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
-    🏷️ 原理說明
+  <a href="#2" class="md-nav__link">
+    階段2: 單線遞迴
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#py4t" class="md-nav__link">
-    📄 Py4t程式碼
+  <a href="#3" class="md-nav__link">
+    階段3: 碎形樹
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#_3" class="md-nav__link">
-    💻 執行截圖
+  <a href="#4" class="md-nav__link">
+    階段4: 碎形動畫
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5" class="md-nav__link">
+    階段5: 樹與剪影
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6" class="md-nav__link">
+    階段6: 樹與混沌
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7" class="md-nav__link">
+    階段7: 樹與葉
   </a>
   
 </li>
@@ -1245,47 +1266,354 @@
               
                 
 
-<h1 id="-">🔰 海龜範例 - 畫出碎形樹</h1>
+<h1 id="-">🔰 海龜範例 - 海龜與樹</h1>
+<dl>
+<dd><img alt="執行截圖" src="../fractal_tree.jpg" /></dd>
+</dl>
 <hr />
-<h3 id="_1">🎦 範例影片</h3>
-<div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/584287679?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="fractal.mp4"></iframe></div>
-<script src="https://player.vimeo.com/api/player.js"></script>
+<p><br/></p>
+<hr />
+<h2 id="1">階段1: 程式結構</h2>
+<p>🎦 範例影片</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FEi_l-Ie1Gc?start=2&amp;end=129" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<hr />
-<h3 id="_2">🏷️ 原理說明</h3>
-<p>碎形的每個部分都是整體縮小後的形狀。碎形在數學中是一種抽象的物體，用於描述自然界中存在的事物。</p>
-<p>這個程式先定義一個遞迴函式「樹枝」，此函式需有一個終止條件(層為0)，主要做的事是向右分枝、向左分枝及後退。遞迴函式會不斷的呼叫自己(層引數需一直遞減至0為止)，在這個例子中，利用遞迴不斷的畫出分枝的樹枝。</p>
-<p>定義了完整的「樹枝」函式，只需要執行一次，就會以遞迴的形式畫出碎形樹了。</p>
-<hr />
-<h3 id="py4t">📄 Py4t程式碼</h3>
-<div class="highlight"><pre><span></span><code><span class="linenos" data-linenos=" 1 "></span><span class="kn">from</span> <span class="nn">海龜模組</span> <span class="kn">import</span> <span class="o">*</span>
-<span class="linenos" data-linenos=" 2 "></span>
-<span class="linenos" data-linenos=" 3 "></span><span class="n">縮減</span> <span class="o">=</span> <span class="mf">0.8</span>
-<span class="linenos" data-linenos=" 4 "></span><span class="n">角度</span> <span class="o">=</span> <span class="mi">30</span>  
+<p>📄 Py4t程式碼</p>
+<div class="highlight"><pre><span></span><code><span class="linenos" data-linenos=" 1 "></span><span class="c1"># 模組區 ----------</span>
+<span class="linenos" data-linenos=" 2 "></span><span class="kn">from</span> <span class="nn">海龜模組</span> <span class="kn">import</span> <span class="o">*</span>
+<span class="linenos" data-linenos=" 3 "></span>
+<span class="linenos" data-linenos=" 4 "></span><span class="c1"># 全域變數 ----------</span>
 <span class="linenos" data-linenos=" 5 "></span>
-<span class="linenos" data-linenos=" 6 "></span><span class="k">def</span> <span class="nf">樹枝</span><span class="p">(</span><span class="n">長</span><span class="p">,</span> <span class="n">層</span><span class="p">):</span>
-<span class="linenos" data-linenos=" 7 "></span>    <span class="k">if</span> <span class="n">層</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
-<span class="linenos" data-linenos=" 8 "></span>        <span class="k">return</span>
+<span class="linenos" data-linenos=" 6 "></span><span class="c1"># 函式區 ----------</span>
+<span class="linenos" data-linenos=" 7 "></span>
+<span class="linenos" data-linenos=" 8 "></span><span class="c1"># 主程式 ----------</span>
 <span class="linenos" data-linenos=" 9 "></span>
-<span class="linenos" data-linenos="10 "></span>    <span class="n">向前</span><span class="p">(</span><span class="n">長</span><span class="p">)</span>
-<span class="linenos" data-linenos="11 "></span>
-<span class="linenos" data-linenos="12 "></span>    <span class="n">右轉</span><span class="p">(</span><span class="n">角度</span><span class="p">)</span>
-<span class="linenos" data-linenos="13 "></span>    <span class="n">樹枝</span><span class="p">(</span><span class="n">長</span><span class="o">*</span><span class="n">縮減</span><span class="p">,</span> <span class="n">層</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span>
-<span class="linenos" data-linenos="14 "></span>
-<span class="linenos" data-linenos="15 "></span>    <span class="n">左轉</span><span class="p">(</span><span class="n">角度</span> <span class="o">*</span> <span class="mi">2</span><span class="p">)</span>
-<span class="linenos" data-linenos="16 "></span>    <span class="n">樹枝</span><span class="p">(</span><span class="n">長</span><span class="o">*</span><span class="n">縮減</span><span class="p">,</span> <span class="n">層</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span>
-<span class="linenos" data-linenos="17 "></span>
-<span class="linenos" data-linenos="18 "></span>    <span class="n">右轉</span><span class="p">(</span><span class="n">角度</span><span class="p">)</span>
-<span class="linenos" data-linenos="19 "></span>    <span class="n">向後</span><span class="p">(</span><span class="n">長</span><span class="p">)</span>
-<span class="linenos" data-linenos="20 "></span>
-<span class="linenos" data-linenos="21 "></span><span class="n">設定方向</span><span class="p">(</span><span class="mi">90</span><span class="p">)</span>
-<span class="linenos" data-linenos="22 "></span><span class="n">速度</span><span class="p">(</span><span class="s1">&#39;fastest&#39;</span><span class="p">)</span>
-<span class="linenos" data-linenos="23 "></span>
-<span class="linenos" data-linenos="24 "></span><span class="n">樹枝</span><span class="p">(</span><span class="n">層</span><span class="o">=</span><span class="mi">7</span><span class="p">,</span> <span class="n">長</span> <span class="o">=</span><span class="mi">100</span><span class="p">)</span> 
+<span class="linenos" data-linenos="10 "></span>
+<span class="linenos" data-linenos="11 "></span><span class="n">完成</span><span class="p">()</span>
 </code></pre></div>
+<p><br/><br/></p>
 <hr />
-<h3 id="_3">💻 執行截圖</h3>
-<p><img alt="執行截圖" src="../fractal_tree.jpg" /></p>
+<h2 id="2">階段2: 單線遞迴</h2>
+<p>🎦 範例影片</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FEi_l-Ie1Gc?start=131&amp;end=491" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<p>📄 Py4t程式碼</p>
+<div class="highlight"><pre><span></span><code><span class="linenos" data-linenos=" 1 "></span><span class="c1"># 模組區 ----------------</span>
+<span class="linenos" data-linenos=" 2 "></span><span class="kn">from</span> <span class="nn">海龜模組</span> <span class="kn">import</span> <span class="o">*</span>
+<span class="linenos" data-linenos=" 3 "></span>
+<span class="linenos" data-linenos=" 4 "></span><span class="c1"># 全域變數 ----------------</span>
+<span class="linenos" data-linenos=" 5 "></span>
+<span class="linenos" data-linenos=" 6 "></span><span class="c1"># 函式區 ----------------</span>
+<span class="linenos" data-linenos=" 7 "></span><span class="k">def</span> <span class="nf">初始設定</span><span class="p">()</span> <span class="p">:</span>
+<span class="linenos" data-linenos=" 8 "></span>    <span class="n">左轉</span><span class="p">(</span><span class="mi">90</span><span class="p">)</span>
+<span class="linenos" data-linenos=" 9 "></span>
+<span class="linenos" data-linenos="10 "></span><span class="k">def</span> <span class="nf">遞迴</span><span class="p">(</span><span class="n">層</span><span class="p">)</span> <span class="p">:</span>
+<span class="linenos" data-linenos="11 "></span>    <span class="k">if</span> <span class="n">層</span> <span class="o">&gt;</span> <span class="mi">5</span> <span class="p">:</span>
+<span class="linenos" data-linenos="12 "></span>        <span class="n">畫點</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="s1">&#39;red&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos="13 "></span>        <span class="k">return</span>
+<span class="linenos" data-linenos="14 "></span>
+<span class="linenos" data-linenos="15 "></span>    <span class="n">向前</span><span class="p">(</span><span class="mi">50</span><span class="p">)</span>
+<span class="linenos" data-linenos="16 "></span>    <span class="n">畫點</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="s1">&#39;black&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos="17 "></span>    <span class="n">右轉</span><span class="p">(</span><span class="mi">20</span><span class="p">)</span>
+<span class="linenos" data-linenos="18 "></span>
+<span class="linenos" data-linenos="19 "></span>    <span class="n">遞迴</span><span class="p">(</span><span class="n">層</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span>
+<span class="linenos" data-linenos="20 "></span>
+<span class="linenos" data-linenos="21 "></span>    <span class="n">左轉</span><span class="p">(</span><span class="mi">20</span><span class="p">)</span>
+<span class="linenos" data-linenos="22 "></span>    <span class="n">向後</span><span class="p">(</span><span class="mi">50</span><span class="p">)</span>
+<span class="linenos" data-linenos="23 "></span>
+<span class="linenos" data-linenos="24 "></span><span class="c1"># 主程式 ----------------</span>
+<span class="linenos" data-linenos="25 "></span><span class="n">初始設定</span><span class="p">()</span>
+<span class="linenos" data-linenos="26 "></span><span class="n">遞迴</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+<span class="linenos" data-linenos="27 "></span><span class="n">完成</span><span class="p">()</span>
+</code></pre></div>
+<p><br/><br/></p>
+<hr />
+<h2 id="3">階段3: 碎形樹</h2>
+<p>🎦 範例影片</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FEi_l-Ie1Gc?start=493&amp;end=976" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<p>📄 Py4t程式碼</p>
+<div class="highlight"><pre><span></span><code><span class="linenos" data-linenos=" 1 "></span><span class="c1"># 模組區 ----------------</span>
+<span class="linenos" data-linenos=" 2 "></span><span class="kn">from</span> <span class="nn">海龜模組</span> <span class="kn">import</span> <span class="o">*</span>
+<span class="linenos" data-linenos=" 3 "></span>
+<span class="linenos" data-linenos=" 4 "></span><span class="c1"># 全域變數 ----------------</span>
+<span class="linenos" data-linenos=" 5 "></span><span class="n">最大層數</span> <span class="o">=</span> <span class="mi">5</span>
+<span class="linenos" data-linenos=" 6 "></span><span class="n">轉角</span> <span class="o">=</span> <span class="mi">20</span>
+<span class="linenos" data-linenos=" 7 "></span><span class="n">開始長度</span> <span class="o">=</span> <span class="mi">100</span>
+<span class="linenos" data-linenos=" 8 "></span><span class="n">長縮減率</span> <span class="o">=</span> <span class="mf">0.7</span>
+<span class="linenos" data-linenos=" 9 "></span>
+<span class="linenos" data-linenos="10 "></span><span class="c1"># 函式區 ----------------</span>
+<span class="linenos" data-linenos="11 "></span><span class="k">def</span> <span class="nf">初始設定</span><span class="p">()</span> <span class="p">:</span>
+<span class="linenos" data-linenos="12 "></span>    <span class="n">左轉</span><span class="p">(</span><span class="mi">90</span><span class="p">)</span>
+<span class="linenos" data-linenos="13 "></span>    <span class="n">速度</span><span class="p">(</span><span class="s1">&#39;fastest&#39;</span><span class="p">)</span>   
+<span class="linenos" data-linenos="14 "></span>
+<span class="linenos" data-linenos="15 "></span><span class="k">def</span> <span class="nf">遞迴</span><span class="p">(</span><span class="n">層</span><span class="p">,</span> <span class="n">長</span><span class="p">)</span> <span class="p">:</span>
+<span class="linenos" data-linenos="16 "></span>    <span class="k">if</span> <span class="n">層</span> <span class="o">&gt;</span> <span class="n">最大層數</span> <span class="p">:</span>
+<span class="linenos" data-linenos="17 "></span>        <span class="n">畫點</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="s1">&#39;red&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos="18 "></span>        <span class="k">return</span>
+<span class="linenos" data-linenos="19 "></span>
+<span class="linenos" data-linenos="20 "></span>    <span class="n">向前</span><span class="p">(</span><span class="n">長</span><span class="p">)</span>
+<span class="linenos" data-linenos="21 "></span>    <span class="n">畫點</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="s1">&#39;black&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos="22 "></span>
+<span class="linenos" data-linenos="23 "></span>    <span class="n">右轉</span><span class="p">(</span><span class="n">轉角</span><span class="p">)</span>
+<span class="linenos" data-linenos="24 "></span>    <span class="n">遞迴</span><span class="p">(</span><span class="n">層</span> <span class="o">+</span> <span class="mi">1</span><span class="p">,</span> <span class="n">長</span> <span class="o">*</span> <span class="n">長縮減率</span><span class="p">)</span>
+<span class="linenos" data-linenos="25 "></span>
+<span class="linenos" data-linenos="26 "></span>    <span class="n">左轉</span><span class="p">(</span><span class="n">轉角</span> <span class="o">*</span> <span class="mi">2</span><span class="p">)</span>
+<span class="linenos" data-linenos="27 "></span>    <span class="n">遞迴</span><span class="p">(</span><span class="n">層</span> <span class="o">+</span> <span class="mi">1</span><span class="p">,</span> <span class="n">長</span> <span class="o">*</span> <span class="n">長縮減率</span><span class="p">)</span>
+<span class="linenos" data-linenos="28 "></span>
+<span class="linenos" data-linenos="29 "></span>    <span class="n">右轉</span><span class="p">(</span><span class="n">轉角</span><span class="p">)</span>
+<span class="linenos" data-linenos="30 "></span>    <span class="n">向後</span><span class="p">(</span><span class="n">長</span><span class="p">)</span>
+<span class="linenos" data-linenos="31 "></span>
+<span class="linenos" data-linenos="32 "></span><span class="c1"># 主程式 ----------------</span>
+<span class="linenos" data-linenos="33 "></span><span class="n">初始設定</span><span class="p">()</span>
+<span class="linenos" data-linenos="34 "></span><span class="n">遞迴</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">開始長度</span><span class="p">)</span>
+<span class="linenos" data-linenos="35 "></span><span class="n">完成</span><span class="p">()</span>
+</code></pre></div>
+<p><br/><br/></p>
+<hr />
+<h2 id="4">階段4: 碎形動畫</h2>
+<p>🎦 範例影片</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FEi_l-Ie1Gc?start=978&amp;end=1180" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<p>📄 Py4t程式碼</p>
+<div class="highlight"><pre><span></span><code><span class="linenos" data-linenos=" 1 "></span><span class="c1"># 模組區 ----------------</span>
+<span class="linenos" data-linenos=" 2 "></span><span class="kn">from</span> <span class="nn">海龜模組</span> <span class="kn">import</span> <span class="o">*</span>
+<span class="linenos" data-linenos=" 3 "></span>
+<span class="linenos" data-linenos=" 4 "></span><span class="c1"># 全域變數 ----------------</span>
+<span class="linenos" data-linenos=" 5 "></span><span class="n">最大層數</span> <span class="o">=</span> <span class="mi">5</span>
+<span class="linenos" data-linenos=" 6 "></span><span class="n">轉角</span> <span class="o">=</span> <span class="mi">20</span>
+<span class="linenos" data-linenos=" 7 "></span><span class="n">開始長度</span> <span class="o">=</span> <span class="mi">100</span>
+<span class="linenos" data-linenos=" 8 "></span><span class="n">長縮減率</span> <span class="o">=</span> <span class="mf">0.7</span>
+<span class="linenos" data-linenos=" 9 "></span>
+<span class="linenos" data-linenos="10 "></span><span class="c1"># 函式區 ----------------</span>
+<span class="linenos" data-linenos="11 "></span><span class="k">def</span> <span class="nf">初始設定</span><span class="p">()</span> <span class="p">:</span>
+<span class="linenos" data-linenos="12 "></span>    <span class="n">左轉</span><span class="p">(</span><span class="mi">90</span><span class="p">)</span>
+<span class="linenos" data-linenos="13 "></span>    <span class="n">速度</span><span class="p">(</span><span class="s1">&#39;fastest&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos="14 "></span>    <span class="n">tracer</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span>
+<span class="linenos" data-linenos="15 "></span>
+<span class="linenos" data-linenos="16 "></span><span class="k">def</span> <span class="nf">遞迴</span><span class="p">(</span><span class="n">層</span><span class="p">,</span> <span class="n">長</span><span class="p">)</span> <span class="p">:</span>
+<span class="linenos" data-linenos="17 "></span>    <span class="k">if</span> <span class="n">層</span> <span class="o">&gt;</span> <span class="n">最大層數</span> <span class="p">:</span>
+<span class="linenos" data-linenos="18 "></span>        <span class="n">畫點</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="s1">&#39;red&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos="19 "></span>        <span class="k">return</span>
+<span class="linenos" data-linenos="20 "></span>
+<span class="linenos" data-linenos="21 "></span>    <span class="n">向前</span><span class="p">(</span><span class="n">長</span><span class="p">)</span>
+<span class="linenos" data-linenos="22 "></span>    <span class="n">畫點</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="s1">&#39;black&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos="23 "></span>
+<span class="linenos" data-linenos="24 "></span>    <span class="n">右轉</span><span class="p">(</span><span class="n">轉角</span><span class="p">)</span>
+<span class="linenos" data-linenos="25 "></span>    <span class="n">遞迴</span><span class="p">(</span><span class="n">層</span> <span class="o">+</span> <span class="mi">1</span><span class="p">,</span> <span class="n">長</span> <span class="o">*</span> <span class="n">長縮減率</span><span class="p">)</span>
+<span class="linenos" data-linenos="26 "></span>
+<span class="linenos" data-linenos="27 "></span>    <span class="n">左轉</span><span class="p">(</span><span class="n">轉角</span> <span class="o">*</span> <span class="mi">2</span><span class="p">)</span>
+<span class="linenos" data-linenos="28 "></span>    <span class="n">遞迴</span><span class="p">(</span><span class="n">層</span> <span class="o">+</span> <span class="mi">1</span><span class="p">,</span> <span class="n">長</span> <span class="o">*</span> <span class="n">長縮減率</span><span class="p">)</span>
+<span class="linenos" data-linenos="29 "></span>
+<span class="linenos" data-linenos="30 "></span>    <span class="n">右轉</span><span class="p">(</span><span class="n">轉角</span><span class="p">)</span>
+<span class="linenos" data-linenos="31 "></span>    <span class="n">向後</span><span class="p">(</span><span class="n">長</span><span class="p">)</span>
+<span class="linenos" data-linenos="32 "></span>
+<span class="linenos" data-linenos="33 "></span><span class="c1"># 主程式 ----------------</span>
+<span class="linenos" data-linenos="34 "></span><span class="n">初始設定</span><span class="p">()</span>
+<span class="linenos" data-linenos="35 "></span>
+<span class="linenos" data-linenos="36 "></span><span class="k">for</span> <span class="n">數</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">90</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span> <span class="p">:</span>
+<span class="linenos" data-linenos="37 "></span>    <span class="n">筆跡清除</span><span class="p">()</span>
+<span class="linenos" data-linenos="38 "></span>    <span class="n">轉角</span> <span class="o">=</span> <span class="n">數</span> 
+<span class="linenos" data-linenos="39 "></span>    <span class="n">遞迴</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">開始長度</span><span class="p">)</span>
+<span class="linenos" data-linenos="40 "></span>    <span class="n">update</span><span class="p">()</span>    
+<span class="linenos" data-linenos="41 "></span>
+<span class="linenos" data-linenos="42 "></span><span class="n">完成</span><span class="p">()</span>
+</code></pre></div>
+<p><br/><br/></p>
+<hr />
+<h2 id="5">階段5: 樹與剪影</h2>
+<p>🎦 範例影片</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FEi_l-Ie1Gc?start=1182&amp;end=1645" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<p>📄 Py4t程式碼</p>
+<div class="highlight"><pre><span></span><code><span class="linenos" data-linenos=" 1 "></span><span class="c1"># 模組區 ----------------</span>
+<span class="linenos" data-linenos=" 2 "></span><span class="kn">from</span> <span class="nn">海龜模組</span> <span class="kn">import</span> <span class="o">*</span>
+<span class="linenos" data-linenos=" 3 "></span>
+<span class="linenos" data-linenos=" 4 "></span><span class="c1"># 全域變數 ----------------</span>
+<span class="linenos" data-linenos=" 5 "></span><span class="n">最大層數</span> <span class="o">=</span> <span class="mi">11</span>
+<span class="linenos" data-linenos=" 6 "></span><span class="n">轉角</span> <span class="o">=</span> <span class="mi">20</span>
+<span class="linenos" data-linenos=" 7 "></span><span class="n">開始長度</span> <span class="o">=</span> <span class="mi">300</span>
+<span class="linenos" data-linenos=" 8 "></span><span class="n">長縮減率</span> <span class="o">=</span> <span class="mf">0.7</span>
+<span class="linenos" data-linenos=" 9 "></span><span class="n">開始寬度</span> <span class="o">=</span> <span class="mi">40</span>
+<span class="linenos" data-linenos="10 "></span><span class="n">寬縮減率</span> <span class="o">=</span> <span class="mf">0.7</span>
+<span class="linenos" data-linenos="11 "></span>
+<span class="linenos" data-linenos="12 "></span><span class="c1"># 函式區 ----------------</span>
+<span class="linenos" data-linenos="13 "></span><span class="k">def</span> <span class="nf">初始設定</span><span class="p">()</span> <span class="p">:</span>
+<span class="linenos" data-linenos="14 "></span>    <span class="n">左轉</span><span class="p">(</span><span class="mi">90</span><span class="p">)</span>
+<span class="linenos" data-linenos="15 "></span>    <span class="n">速度</span><span class="p">(</span><span class="s1">&#39;fastest&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos="16 "></span>    <span class="n">tracer</span><span class="p">(</span><span class="mi">50</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span>
+<span class="linenos" data-linenos="17 "></span>    <span class="n">視窗設定</span><span class="p">(</span><span class="mi">1000</span><span class="p">,</span> <span class="mi">1000</span><span class="p">)</span>
+<span class="linenos" data-linenos="18 "></span>    <span class="n">畫筆顏色</span><span class="p">(</span><span class="s1">&#39;black&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos="19 "></span>    <span class="n">停筆</span><span class="p">()</span>
+<span class="linenos" data-linenos="20 "></span>    <span class="n">走到</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="o">-</span><span class="mi">500</span><span class="p">)</span>
+<span class="linenos" data-linenos="21 "></span>    <span class="n">bgpic</span><span class="p">(</span><span class="s1">&#39;sunset1.gif&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos="22 "></span>
+<span class="linenos" data-linenos="23 "></span><span class="k">def</span> <span class="nf">遞迴</span><span class="p">(</span><span class="n">層</span><span class="p">,</span> <span class="n">長</span><span class="p">,</span> <span class="n">寬</span><span class="p">)</span> <span class="p">:</span>
+<span class="linenos" data-linenos="24 "></span>    <span class="k">if</span> <span class="n">層</span> <span class="o">&gt;</span> <span class="n">最大層數</span> <span class="p">:</span>
+<span class="linenos" data-linenos="25 "></span>        <span class="k">return</span>
+<span class="linenos" data-linenos="26 "></span>
+<span class="linenos" data-linenos="27 "></span>    <span class="n">下筆</span><span class="p">()</span>
+<span class="linenos" data-linenos="28 "></span>    <span class="n">畫筆尺寸</span><span class="p">(</span><span class="n">寬</span><span class="p">)</span>
+<span class="linenos" data-linenos="29 "></span>    <span class="n">向前</span><span class="p">(</span><span class="n">長</span><span class="p">)</span>
+<span class="linenos" data-linenos="30 "></span>    <span class="n">停筆</span><span class="p">()</span>
+<span class="linenos" data-linenos="31 "></span>
+<span class="linenos" data-linenos="32 "></span>    <span class="n">右轉</span><span class="p">(</span><span class="n">轉角</span><span class="p">)</span>
+<span class="linenos" data-linenos="33 "></span>    <span class="n">遞迴</span><span class="p">(</span><span class="n">層</span> <span class="o">+</span> <span class="mi">1</span><span class="p">,</span> <span class="n">長</span> <span class="o">*</span> <span class="n">長縮減率</span><span class="p">,</span> <span class="n">寬</span> <span class="o">*</span> <span class="n">寬縮減率</span><span class="p">)</span>
+<span class="linenos" data-linenos="34 "></span>
+<span class="linenos" data-linenos="35 "></span>    <span class="n">左轉</span><span class="p">(</span><span class="n">轉角</span> <span class="o">*</span> <span class="mi">2</span><span class="p">)</span>
+<span class="linenos" data-linenos="36 "></span>    <span class="n">遞迴</span><span class="p">(</span><span class="n">層</span> <span class="o">+</span> <span class="mi">1</span><span class="p">,</span> <span class="n">長</span> <span class="o">*</span> <span class="n">長縮減率</span><span class="p">,</span> <span class="n">寬</span> <span class="o">*</span> <span class="n">寬縮減率</span><span class="p">)</span>
+<span class="linenos" data-linenos="37 "></span>
+<span class="linenos" data-linenos="38 "></span>    <span class="n">右轉</span><span class="p">(</span><span class="n">轉角</span><span class="p">)</span>
+<span class="linenos" data-linenos="39 "></span>    <span class="n">向後</span><span class="p">(</span><span class="n">長</span><span class="p">)</span>
+<span class="linenos" data-linenos="40 "></span>
+<span class="linenos" data-linenos="41 "></span><span class="c1"># 主程式 ----------------</span>
+<span class="linenos" data-linenos="42 "></span>
+<span class="linenos" data-linenos="43 "></span><span class="n">初始設定</span><span class="p">()</span>
+<span class="linenos" data-linenos="44 "></span>
+<span class="linenos" data-linenos="45 "></span><span class="n">遞迴</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">開始長度</span><span class="p">,</span> <span class="n">開始寬度</span><span class="p">)</span>    
+<span class="linenos" data-linenos="46 "></span>
+<span class="linenos" data-linenos="47 "></span><span class="n">完成</span><span class="p">()</span>
+</code></pre></div>
+<p><br/><br/></p>
+<hr />
+<h2 id="6">階段6: 樹與混沌</h2>
+<p>🎦 範例影片</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FEi_l-Ie1Gc?start=1647&amp;end=2134" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<p>📄 Py4t程式碼</p>
+<div class="highlight"><pre><span></span><code><span class="linenos" data-linenos=" 1 "></span><span class="c1"># 模組區 ---------------</span>
+<span class="linenos" data-linenos=" 2 "></span><span class="kn">from</span> <span class="nn">海龜模組</span> <span class="kn">import</span> <span class="o">*</span>
+<span class="linenos" data-linenos=" 3 "></span><span class="kn">import</span> <span class="nn">random</span> <span class="k">as</span> <span class="nn">隨機</span>
+<span class="linenos" data-linenos=" 4 "></span>
+<span class="linenos" data-linenos=" 5 "></span><span class="c1"># 全域變數 ---------------</span>
+<span class="linenos" data-linenos=" 6 "></span><span class="n">最大層數</span> <span class="o">=</span> <span class="mi">11</span>
+<span class="linenos" data-linenos=" 7 "></span><span class="n">開始長度</span> <span class="o">=</span> <span class="mi">300</span>
+<span class="linenos" data-linenos=" 8 "></span><span class="n">長縮減最小</span> <span class="o">=</span> <span class="mf">0.6</span>
+<span class="linenos" data-linenos=" 9 "></span><span class="n">長縮減最大</span> <span class="o">=</span> <span class="mf">0.8</span>
+<span class="linenos" data-linenos="10 "></span><span class="n">開始寬度</span> <span class="o">=</span> <span class="mi">40</span>
+<span class="linenos" data-linenos="11 "></span><span class="n">寬縮減率</span> <span class="o">=</span> <span class="mf">0.7</span>
+<span class="linenos" data-linenos="12 "></span><span class="n">轉角最小</span> <span class="o">=</span> <span class="mi">10</span>
+<span class="linenos" data-linenos="13 "></span><span class="n">轉角最大</span> <span class="o">=</span> <span class="mi">40</span>
+<span class="linenos" data-linenos="14 "></span><span class="n">夾角最小</span> <span class="o">=</span> <span class="mi">30</span>
+<span class="linenos" data-linenos="15 "></span><span class="n">夾角最大</span> <span class="o">=</span> <span class="mi">70</span>
+<span class="linenos" data-linenos="16 "></span>
+<span class="linenos" data-linenos="17 "></span><span class="c1"># 函式區 ---------------</span>
+<span class="linenos" data-linenos="18 "></span><span class="k">def</span> <span class="nf">初始設定</span><span class="p">()</span> <span class="p">:</span>
+<span class="linenos" data-linenos="19 "></span>    <span class="n">左轉</span><span class="p">(</span><span class="mi">90</span><span class="p">)</span>
+<span class="linenos" data-linenos="20 "></span>    <span class="n">速度</span><span class="p">(</span><span class="s1">&#39;fastest&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos="21 "></span>    <span class="n">tracer</span><span class="p">(</span><span class="mi">50</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span>
+<span class="linenos" data-linenos="22 "></span>    <span class="n">視窗設定</span><span class="p">(</span><span class="mi">1000</span><span class="p">,</span> <span class="mi">1000</span><span class="p">)</span>
+<span class="linenos" data-linenos="23 "></span>    <span class="n">畫筆顏色</span><span class="p">(</span><span class="s1">&#39;black&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos="24 "></span>    <span class="n">停筆</span><span class="p">()</span>
+<span class="linenos" data-linenos="25 "></span>    <span class="n">走到</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="o">-</span><span class="mi">500</span><span class="p">)</span>
+<span class="linenos" data-linenos="26 "></span>    <span class="n">bgpic</span><span class="p">(</span><span class="s1">&#39;sunset1.gif&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos="27 "></span>
+<span class="linenos" data-linenos="28 "></span>
+<span class="linenos" data-linenos="29 "></span><span class="k">def</span> <span class="nf">遞迴</span><span class="p">(</span><span class="n">層</span><span class="p">,</span> <span class="n">長</span><span class="p">,</span> <span class="n">寬</span><span class="p">)</span> <span class="p">:</span>
+<span class="linenos" data-linenos="30 "></span>    <span class="k">if</span> <span class="n">層</span> <span class="o">&gt;</span> <span class="n">最大層數</span> <span class="p">:</span>
+<span class="linenos" data-linenos="31 "></span>        <span class="k">return</span>
+<span class="linenos" data-linenos="32 "></span>
+<span class="linenos" data-linenos="33 "></span>    <span class="n">下筆</span><span class="p">()</span>
+<span class="linenos" data-linenos="34 "></span>    <span class="n">畫筆尺寸</span><span class="p">(</span><span class="n">寬</span><span class="p">)</span>
+<span class="linenos" data-linenos="35 "></span>    <span class="n">向前</span><span class="p">(</span><span class="n">長</span><span class="p">)</span>
+<span class="linenos" data-linenos="36 "></span>    <span class="n">停筆</span><span class="p">()</span>
+<span class="linenos" data-linenos="37 "></span>
+<span class="linenos" data-linenos="38 "></span>    <span class="n">轉角</span> <span class="o">=</span> <span class="n">隨機</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="n">轉角最小</span><span class="p">,</span><span class="n">轉角最大</span><span class="p">)</span>
+<span class="linenos" data-linenos="39 "></span>    <span class="n">右轉</span><span class="p">(</span><span class="n">轉角</span><span class="p">)</span>
+<span class="linenos" data-linenos="40 "></span>    <span class="n">長縮減率</span> <span class="o">=</span> <span class="n">隨機</span><span class="o">.</span><span class="n">uniform</span><span class="p">(</span><span class="n">長縮減最小</span><span class="p">,</span> <span class="n">長縮減最大</span><span class="p">)</span>
+<span class="linenos" data-linenos="41 "></span>    <span class="n">遞迴</span><span class="p">(</span><span class="n">層</span> <span class="o">+</span> <span class="mi">1</span><span class="p">,</span> <span class="n">長</span> <span class="o">*</span> <span class="n">長縮減率</span><span class="p">,</span> <span class="n">寬</span> <span class="o">*</span> <span class="n">寬縮減率</span><span class="p">)</span>
+<span class="linenos" data-linenos="42 "></span>
+<span class="linenos" data-linenos="43 "></span>    <span class="n">夾角</span> <span class="o">=</span> <span class="n">隨機</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="n">夾角最小</span><span class="p">,</span><span class="n">夾角最大</span><span class="p">)</span>
+<span class="linenos" data-linenos="44 "></span>    <span class="n">左轉</span><span class="p">(</span><span class="n">夾角</span><span class="p">)</span>
+<span class="linenos" data-linenos="45 "></span>    <span class="n">長縮減率</span> <span class="o">=</span> <span class="n">隨機</span><span class="o">.</span><span class="n">uniform</span><span class="p">(</span><span class="n">長縮減最小</span><span class="p">,</span> <span class="n">長縮減最大</span><span class="p">)</span>
+<span class="linenos" data-linenos="46 "></span>    <span class="n">遞迴</span><span class="p">(</span><span class="n">層</span> <span class="o">+</span> <span class="mi">1</span><span class="p">,</span> <span class="n">長</span> <span class="o">*</span> <span class="n">長縮減率</span><span class="p">,</span> <span class="n">寬</span> <span class="o">*</span> <span class="n">寬縮減率</span><span class="p">)</span>
+<span class="linenos" data-linenos="47 "></span>
+<span class="linenos" data-linenos="48 "></span>    <span class="n">右轉</span><span class="p">(</span><span class="n">夾角</span> <span class="o">-</span> <span class="n">轉角</span><span class="p">)</span>
+<span class="linenos" data-linenos="49 "></span>    <span class="n">向後</span><span class="p">(</span><span class="n">長</span><span class="p">)</span>
+<span class="linenos" data-linenos="50 "></span>
+<span class="linenos" data-linenos="51 "></span><span class="c1"># 主程式 ---------------</span>
+<span class="linenos" data-linenos="52 "></span><span class="n">初始設定</span><span class="p">()</span>
+<span class="linenos" data-linenos="53 "></span>
+<span class="linenos" data-linenos="54 "></span><span class="n">遞迴</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">開始長度</span><span class="p">,</span> <span class="n">開始寬度</span><span class="p">)</span>
+<span class="linenos" data-linenos="55 "></span><span class="n">update</span><span class="p">()</span>
+<span class="linenos" data-linenos="56 "></span>
+<span class="linenos" data-linenos="57 "></span><span class="n">完成</span><span class="p">()</span>
+</code></pre></div>
+<p><br/><br/></p>
+<hr />
+<h2 id="7">階段7: 樹與葉</h2>
+<p>🎦 範例影片</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FEi_l-Ie1Gc?start=2136&amp;end=2488" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<p>📄 Py4t程式碼</p>
+<div class="highlight"><pre><span></span><code><span class="linenos" data-linenos=" 1 "></span><span class="c1"># 模組區 ---------------</span>
+<span class="linenos" data-linenos=" 2 "></span><span class="kn">from</span> <span class="nn">海龜模組</span> <span class="kn">import</span> <span class="o">*</span>
+<span class="linenos" data-linenos=" 3 "></span><span class="kn">import</span> <span class="nn">random</span> <span class="k">as</span> <span class="nn">隨機</span>
+<span class="linenos" data-linenos=" 4 "></span>
+<span class="linenos" data-linenos=" 5 "></span><span class="c1"># 全域變數 ---------------</span>
+<span class="linenos" data-linenos=" 6 "></span><span class="n">最大層數</span> <span class="o">=</span> <span class="mi">11</span>
+<span class="linenos" data-linenos=" 7 "></span><span class="n">開始長度</span> <span class="o">=</span> <span class="mi">300</span>
+<span class="linenos" data-linenos=" 8 "></span><span class="n">長縮減最小</span> <span class="o">=</span> <span class="mf">0.6</span>
+<span class="linenos" data-linenos=" 9 "></span><span class="n">長縮減最大</span> <span class="o">=</span> <span class="mf">0.8</span>
+<span class="linenos" data-linenos="10 "></span><span class="n">開始寬度</span> <span class="o">=</span> <span class="mi">40</span>
+<span class="linenos" data-linenos="11 "></span><span class="n">寬縮減率</span> <span class="o">=</span> <span class="mf">0.7</span>
+<span class="linenos" data-linenos="12 "></span><span class="n">轉角最小</span> <span class="o">=</span> <span class="mi">10</span>
+<span class="linenos" data-linenos="13 "></span><span class="n">轉角最大</span> <span class="o">=</span> <span class="mi">40</span>
+<span class="linenos" data-linenos="14 "></span><span class="n">夾角最小</span> <span class="o">=</span> <span class="mi">30</span>
+<span class="linenos" data-linenos="15 "></span><span class="n">夾角最大</span> <span class="o">=</span> <span class="mi">70</span>
+<span class="linenos" data-linenos="16 "></span><span class="n">葉直徑</span> <span class="o">=</span> <span class="mi">6</span>
+<span class="linenos" data-linenos="17 "></span><span class="n">葉層數</span> <span class="o">=</span> <span class="mi">5</span>
+<span class="linenos" data-linenos="18 "></span>
+<span class="linenos" data-linenos="19 "></span><span class="c1"># 函式區 ---------------</span>
+<span class="linenos" data-linenos="20 "></span><span class="k">def</span> <span class="nf">初始設定</span><span class="p">()</span> <span class="p">:</span>
+<span class="linenos" data-linenos="21 "></span>    <span class="n">左轉</span><span class="p">(</span><span class="mi">90</span><span class="p">)</span>
+<span class="linenos" data-linenos="22 "></span>    <span class="n">速度</span><span class="p">(</span><span class="s1">&#39;fastest&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos="23 "></span>    <span class="n">tracer</span><span class="p">(</span><span class="mi">50</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span>
+<span class="linenos" data-linenos="24 "></span>    <span class="n">視窗設定</span><span class="p">(</span><span class="mi">1000</span><span class="p">,</span> <span class="mi">1000</span><span class="p">)</span>
+<span class="linenos" data-linenos="25 "></span>    <span class="n">畫筆顏色</span><span class="p">(</span><span class="s1">&#39;black&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos="26 "></span>    <span class="n">停筆</span><span class="p">()</span>
+<span class="linenos" data-linenos="27 "></span>    <span class="n">走到</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="o">-</span><span class="mi">500</span><span class="p">)</span>
+<span class="linenos" data-linenos="28 "></span>    <span class="n">bgpic</span><span class="p">(</span><span class="s1">&#39;sunset1.gif&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos="29 "></span>    <span class="n">隨機</span><span class="o">.</span><span class="n">seed</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+<span class="linenos" data-linenos="30 "></span>
+<span class="linenos" data-linenos="31 "></span><span class="k">def</span> <span class="nf">葉</span><span class="p">()</span> <span class="p">:</span>
+<span class="linenos" data-linenos="32 "></span>    <span class="n">畫點</span><span class="p">(</span><span class="n">葉直徑</span><span class="p">,</span> <span class="s1">&#39;black&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos="33 "></span>    <span class="k">for</span> <span class="n">數</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">4</span><span class="p">)</span> <span class="p">:</span>
+<span class="linenos" data-linenos="34 "></span>        <span class="n">向前</span><span class="p">(</span><span class="n">葉直徑</span> <span class="o">*</span> <span class="mi">2</span><span class="p">)</span>
+<span class="linenos" data-linenos="35 "></span>        <span class="n">畫點</span><span class="p">(</span><span class="n">葉直徑</span><span class="p">,</span> <span class="s1">&#39;black&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos="36 "></span>        <span class="n">向後</span><span class="p">(</span><span class="n">葉直徑</span> <span class="o">*</span> <span class="mi">2</span><span class="p">)</span>
+<span class="linenos" data-linenos="37 "></span>        <span class="n">右轉</span><span class="p">(</span><span class="mi">90</span><span class="p">)</span>
+<span class="linenos" data-linenos="38 "></span>
+<span class="linenos" data-linenos="39 "></span><span class="k">def</span> <span class="nf">遞迴</span><span class="p">(</span><span class="n">層</span><span class="p">,</span> <span class="n">長</span><span class="p">,</span> <span class="n">寬</span><span class="p">)</span> <span class="p">:</span>
+<span class="linenos" data-linenos="40 "></span>    <span class="k">if</span> <span class="n">層</span> <span class="o">&gt;</span> <span class="n">最大層數</span> <span class="p">:</span>
+<span class="linenos" data-linenos="41 "></span>        <span class="k">return</span>
+<span class="linenos" data-linenos="42 "></span>    <span class="k">elif</span> <span class="n">層</span> <span class="o">&gt;</span> <span class="n">最大層數</span> <span class="o">-</span> <span class="n">葉層數</span> <span class="p">:</span>
+<span class="linenos" data-linenos="43 "></span>        <span class="n">葉</span><span class="p">()</span>
+<span class="linenos" data-linenos="44 "></span>
+<span class="linenos" data-linenos="45 "></span>    <span class="n">下筆</span><span class="p">()</span>
+<span class="linenos" data-linenos="46 "></span>    <span class="n">畫筆尺寸</span><span class="p">(</span><span class="n">寬</span><span class="p">)</span>
+<span class="linenos" data-linenos="47 "></span>    <span class="n">向前</span><span class="p">(</span><span class="n">長</span><span class="p">)</span>
+<span class="linenos" data-linenos="48 "></span>    <span class="n">停筆</span><span class="p">()</span>
+<span class="linenos" data-linenos="49 "></span>
+<span class="linenos" data-linenos="50 "></span>    <span class="n">轉角</span> <span class="o">=</span> <span class="n">隨機</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="n">轉角最小</span><span class="p">,</span><span class="n">轉角最大</span><span class="p">)</span>
+<span class="linenos" data-linenos="51 "></span>    <span class="n">右轉</span><span class="p">(</span><span class="n">轉角</span><span class="p">)</span>
+<span class="linenos" data-linenos="52 "></span>    <span class="n">長縮減率</span> <span class="o">=</span> <span class="n">隨機</span><span class="o">.</span><span class="n">uniform</span><span class="p">(</span><span class="n">長縮減最小</span><span class="p">,</span> <span class="n">長縮減最大</span><span class="p">)</span>
+<span class="linenos" data-linenos="53 "></span>    <span class="n">遞迴</span><span class="p">(</span><span class="n">層</span> <span class="o">+</span> <span class="mi">1</span><span class="p">,</span> <span class="n">長</span> <span class="o">*</span> <span class="n">長縮減率</span><span class="p">,</span> <span class="n">寬</span> <span class="o">*</span> <span class="n">寬縮減率</span><span class="p">)</span>
+<span class="linenos" data-linenos="54 "></span>
+<span class="linenos" data-linenos="55 "></span>    <span class="n">夾角</span> <span class="o">=</span> <span class="n">隨機</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="n">夾角最小</span><span class="p">,</span><span class="n">夾角最大</span><span class="p">)</span>
+<span class="linenos" data-linenos="56 "></span>    <span class="n">左轉</span><span class="p">(</span><span class="n">夾角</span><span class="p">)</span>
+<span class="linenos" data-linenos="57 "></span>    <span class="n">長縮減率</span> <span class="o">=</span> <span class="n">隨機</span><span class="o">.</span><span class="n">uniform</span><span class="p">(</span><span class="n">長縮減最小</span><span class="p">,</span> <span class="n">長縮減最大</span><span class="p">)</span>
+<span class="linenos" data-linenos="58 "></span>    <span class="n">遞迴</span><span class="p">(</span><span class="n">層</span> <span class="o">+</span> <span class="mi">1</span><span class="p">,</span> <span class="n">長</span> <span class="o">*</span> <span class="n">長縮減率</span><span class="p">,</span> <span class="n">寬</span> <span class="o">*</span> <span class="n">寬縮減率</span><span class="p">)</span>
+<span class="linenos" data-linenos="59 "></span>
+<span class="linenos" data-linenos="60 "></span>    <span class="n">右轉</span><span class="p">(</span><span class="n">夾角</span> <span class="o">-</span> <span class="n">轉角</span><span class="p">)</span>
+<span class="linenos" data-linenos="61 "></span>    <span class="n">向後</span><span class="p">(</span><span class="n">長</span><span class="p">)</span>
+<span class="linenos" data-linenos="62 "></span>
+<span class="linenos" data-linenos="63 "></span><span class="c1"># 主程式 ---------------</span>
+<span class="linenos" data-linenos="64 "></span><span class="n">初始設定</span><span class="p">()</span>
+<span class="linenos" data-linenos="65 "></span><span class="n">遞迴</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">開始長度</span><span class="p">,</span> <span class="n">開始寬度</span><span class="p">)</span>
+<span class="linenos" data-linenos="66 "></span><span class="n">update</span><span class="p">()</span>
+<span class="linenos" data-linenos="67 "></span><span class="n">完成</span><span class="p">()</span>
+</code></pre></div>
+<p><br/><br/></p>
 
               
             </article>

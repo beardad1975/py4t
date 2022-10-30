@@ -38,6 +38,11 @@ hide:
 
     : :fontawesome-solid-long-arrow-alt-right: <a href="zentangle/" target="_blank">「海龜畫禪繞」</a>
 
+??? abstract  "專題 - 海龜與樹 "    
+    :  ![海龜與樹](project_fractal_tree/digest.jpg)
+
+    : 建構中…　 :fontawesome-solid-long-arrow-alt-right: <a href="project_fractal_tree/" target="_blank">「海龜與樹」</a>
+
 <br/><br/><br/>
 
 ## 🏀 物理模擬
