@@ -1458,12 +1458,68 @@
 <hr />
 <h2 id="_5">📒 構思</h2>
 <hr />
+<dl>
+<dd>要如何實作出樹的形狀呢？先來認識一下「遞迴」方法。</dd>
+<dd><iframe width="560" height="315" src="https://www.youtube.com/embed/50KKo1spKwc?start=17&amp;end=128" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></dd>
+<dd><sup>(1分51秒, 資料來源:</sup><sup id="fnref:visual_recursion"><a class="footnote-ref" href="#fn:visual_recursion">6</a></sup><sup>)</sup></dd>
+<dt><br/></dt>
+<dd>
+<p>下面兩個圖形，也都是遞迴的視覺化例子，在自己的圖形中包含自己。</p>
+</dd>
+<dd>
+<p><img alt="德羅斯特效應" src="droste_effect.jpg" /></p>
+</dd>
+<dd>
+<p><sup>(資料來源:</sup><sup id="fnref:droste_effect"><a class="footnote-ref" href="#fn:droste_effect">7</a></sup><sup>)</sup></p>
+</dd>
+<dt><br/></dt>
+<dd>
+<p>如何使用Python程式來表達遞迴呢？我們可以使用函式，並在函式的中間呼叫自己，不斷地重複。</p>
+</dd>
+<dd>
+<p><img alt="無限遞迴" src="recursion_unlimit.png" /></p>
+</dd>
+<dd>
+<p>要小心，如果是無限遞迴的話，到最後會耗盡電腦的記憶體或產生系統錯誤。</p>
+</dd>
+<dt><br/></dt>
+<dd>
+<p>如何避免無限遞迴呢？我們可以在每次的遞迴函式呼叫中傳遞「層」的參數，並設立遞迴的終止條件。</p>
+</dd>
+<dd>
+<p><img alt="單線遞迴" src="recursion_one_way.png" /></p>
+</dd>
+<dt><br/></dt>
+<dd>
+<p>當我們在遞迴函式中，呼叫自己兩次，就會有分支的情形。不斷的遞迴，就會不斷分支，直到終止條件發生，再逐一返回。</p>
+</dd>
+<dd>
+<p>我們將使用這樣的構想，不斷地分支遞迴，來產生樹枝形狀的結構。</p>
+</dd>
+<dd>
+<p><img alt="分支遞迴" src="recursion_branch.png" /></p>
+</dd>
+</dl>
+<p><br/></p>
 <p><br/><br/><br/> </p>
 <hr />
 <h2 id="4">📘 實作(4)</h2>
 <h3 id="_6"><strong><em>程式結構</em></strong></h3>
 <hr />
-<p><br></p>
+<dl>
+<dt>我們使用以下的安排，做為程式的結構：</dt>
+<dd>
+<p><img alt="Python程式結構" src="python_structure.png" /></p>
+</dd>
+</dl>
+<ul>
+<li>模組區 - 匯入內建或第三方函式庫</li>
+<li>全域變數 - 整個檔案內可共用的變數</li>
+<li>函式區 - 自訂的各種公用函式</li>
+<li>主程式 - 程式開始運作</li>
+</ul>
+<p><br/></p>
+<p>使用程式註解，可以達到分區標示的效果，試著動手寫寫看。</p>
 <details class="example" open="open"><summary>範例程式 程式結構 - - - - - - - (專題實作1/4 新檔)</summary><div class="tabbed-set tabbed-alternate" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">🎦操作影片</label><label for="__tabbed_1_2">💻程式碼</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
@@ -1495,7 +1551,14 @@
 <hr />
 <h3 id="_7"><strong><em>單線遞迴</em></strong></h3>
 <hr />
-<p><br></p>
+<dl>
+<dd><img alt="單線遞迴呼叫" src="one_way_recursion_call.png" /></dd>
+<dt><br/></dt>
+<dd>
+<p><img alt="單線彎曲遞迴呼叫" src="one_way_bend_recursion_call.png" /></p>
+</dd>
+</dl>
+<p><br/></p>
 <details class="example" open="open"><summary>範例程式 單線遞迴 - - - - - - - (專題實作2/4 接續)</summary><div class="tabbed-set tabbed-alternate" data-tabs="2:2"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio" /><input id="__tabbed_2_2" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="__tabbed_2_1">🎦操作影片</label><label for="__tabbed_2_2">💻程式碼</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
@@ -1542,7 +1605,18 @@
 <hr />
 <h3 id="_8"><strong><em>碎形樹</em></strong></h3>
 <hr />
-<p><br></p>
+<dl>
+<dd><img alt="遞迴樹" src="recursion_tree.png" /></dd>
+<dt><br/></dt>
+<dd>
+<p><img alt="遞迴樣式" src="recursion_pattern.png" /></p>
+</dd>
+<dt><br/></dt>
+<dd>
+<p><img alt="碎形樹樣式" src="fractal_tree_pattern.png" /></p>
+</dd>
+</dl>
+<p><br/></p>
 <details class="example" open="open"><summary>範例程式 碎形樹 - - - - - - - (專題實作3/4 接續)</summary><div class="tabbed-set tabbed-alternate" data-tabs="3:2"><input checked="checked" id="__tabbed_3_1" name="__tabbed_3" type="radio" /><input id="__tabbed_3_2" name="__tabbed_3" type="radio" /><div class="tabbed-labels"><label for="__tabbed_3_1">🎦操作影片</label><label for="__tabbed_3_2">💻程式碼</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
@@ -1927,6 +2001,12 @@
 </li>
 <li id="fn:fractal_and_tree">
 <p>Fractal Foundation, https://fractalfoundation.org/OFC/OFC-1-1.html&#160;<a class="footnote-backref" href="#fnref:fractal_and_tree" title="Jump back to footnote 5 in the text">&#8617;</a></p>
+</li>
+<li id="fn:visual_recursion">
+<p>不插電 程式運算邏輯入門5 遞迴(recursion), by Sophia Hsiao , <a href="https://youtu.be/50KKo1spKwc">youtube連結</a>&#160;<a class="footnote-backref" href="#fnref:visual_recursion" title="Jump back to footnote 6 in the text">&#8617;</a></p>
+</li>
+<li id="fn:droste_effect">
+<p>由 Designer: Jan MissetUploader: Alf van Beem - 自己的作品, 公有領域, https://commons.wikimedia.org/w/index.php?curid=30739029&#160;<a class="footnote-backref" href="#fnref:droste_effect" title="Jump back to footnote 7 in the text">&#8617;</a></p>
 </li>
 </ol>
 </div>
