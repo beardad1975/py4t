@@ -1311,13 +1311,6 @@
   
 </li>
       
-        <li class="md-nav__item">
-  <a href="#_13" class="md-nav__link">
-    📒 結語
-  </a>
-  
-</li>
-      
     </ul>
   
 </nav>
@@ -1552,13 +1545,35 @@
 <h3 id="_7"><strong><em>單線遞迴</em></strong></h3>
 <hr />
 <dl>
+<dd>先以簡易的單線遞迴，來畫出一條直線。從下圖中，你看得出「向上畫線」與「後退」的執行順序嗎？</dd>
 <dd><img alt="單線遞迴呼叫" src="one_way_recursion_call.png" /></dd>
-<dt><br/></dt>
+</dl>
+<p><br/><br/></p>
+<dl>
+<dt>如果像樹枝一樣漸漸彎曲，要如何做呢？先來找出遞迴樣式的規則：</dt>
 <dd>
-<p><img alt="單線彎曲遞迴呼叫" src="one_way_bend_recursion_call.png" /></p>
+<p><img alt="彎曲遞迴樣式" src="bend_resursion_pattern.png" /></p>
 </dd>
 </dl>
-<p><br/></p>
+<p>看看「3.呼叫自己」之後的動作，像不像是「倒轉」動作呢？</p>
+<dl>
+<dt><iframe width="560" height="315" src="https://www.youtube.com/embed/H4mpMKJFN_E?start=0&amp;end=80" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</dt>
+<dd>
+<p><sup>(1分20秒, 資料來源:</sup><sup id="fnref:reverse_world"><a class="footnote-ref" href="#fn:reverse_world">8</a></sup><sup>)</sup></p>
+</dd>
+<dt><br/><br/></dt>
+<dd>
+<p>原來要做出如樹支彎曲般的效果，就要在遞迴函式中適當之處加上「右轉」及「左轉」。</p>
+</dd>
+<dd>
+<p><img alt="彎曲遞迴呼叫" src="one_way_bend_recursion_call.png" /></p>
+</dd>
+<dt><br/><br/></dt>
+<dd>
+<p>試著動手實作看看。</p>
+</dd>
+</dl>
 <details class="example" open="open"><summary>範例程式 單線遞迴 - - - - - - - (專題實作2/4 接續)</summary><div class="tabbed-set tabbed-alternate" data-tabs="2:2"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio" /><input id="__tabbed_2_2" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="__tabbed_2_1">🎦操作影片</label><label for="__tabbed_2_2">💻程式碼</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
@@ -1606,17 +1621,32 @@
 <h3 id="_8"><strong><em>碎形樹</em></strong></h3>
 <hr />
 <dl>
+<dd>要如何畫出如下的樹狀圖形呢？</dd>
 <dd><img alt="遞迴樹" src="recursion_tree.png" /></dd>
-<dt><br/></dt>
+<dt><br/><br/></dt>
+<dd>
+<p>整理一下之前的兩種遞迴樣式與傳遞參數。</p>
+</dd>
 <dd>
 <p><img alt="遞迴樣式" src="recursion_pattern.png" /></p>
 </dd>
-<dt><br/></dt>
+<dt><br/><br/></dt>
+<dd>
+<p>那樹狀圖形的遞迴樣式與傳遞參數又是什麼呢？</p>
+</dd>
 <dd>
 <p><img alt="碎形樹樣式" src="fractal_tree_pattern.png" /></p>
 </dd>
+<dt><br/><br/></dt>
+<dd>
+<p>下圖是2層分支遞迴的函式呼叫，看得出下圖中的執行順序嗎？(從黃色區塊開始)</p>
+</dd>
+<dt><br/></dt>
+<dd>
+<p><img alt="碎形樹函式呼叫" src="fractal_tree_recursion_call.png" /></p>
+</dd>
 </dl>
-<p><br/></p>
+<p><br/><br/></p>
 <details class="example" open="open"><summary>範例程式 碎形樹 - - - - - - - (專題實作3/4 接續)</summary><div class="tabbed-set tabbed-alternate" data-tabs="3:2"><input checked="checked" id="__tabbed_3_1" name="__tabbed_3" type="radio" /><input id="__tabbed_3_2" name="__tabbed_3" type="radio" /><div class="tabbed-labels"><label for="__tabbed_3_1">🎦操作影片</label><label for="__tabbed_3_2">💻程式碼</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
@@ -1671,6 +1701,34 @@
 <hr />
 <h3 id="_9"><strong><em>碎形動畫</em></strong></h3>
 <hr />
+<dl>
+<dd>看看下面有關碎形樹的演示動畫(點選在youtube上觀看)。</dd>
+<dt><iframe width="560" height="315" src="https://www.youtube.com/embed/Ec8Q1q9cbbo?start=0&amp;end=57" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</dt>
+<dd>
+<p><sup>(資料來源:</sup><sup id="fnref:fractal_tree_animation"><a class="footnote-ref" href="#fn:fractal_tree_animation">9</a></sup><sup>)</sup></p>
+</dd>
+<dt><br/></dt>
+<dd>
+<p>真是令人賞心悅目。可以使用海龜程式做出類似的效果嗎？</p>
+</dd>
+<dd>
+<p>在畫碎形樹時，即使已將速度調整為fastest(最快)，仍要花上一段時間才可以畫完，有辦法提升海龜的繪圖速度嗎？</p>
+</dd>
+<dt><br/></dt>
+<dd>
+<p><img alt="tracer_manual" src="tracer_manual.jpg" /></p>
+</dd>
+<dd>
+<p>(資料來源: <a href="https://docs.python.org/3.7/library/turtle.html#turtle.tracer">Python官網 海龜說明文件</a> )</p>
+</dd>
+<dd>
+<p>上圖是海龜的說明文件，當我們把tracer關閉時，海龜會忽略繪圖動作，可以加快運算速度，等到算完時，再手動執行update更新繪圖畫面。</p>
+</dd>
+<dd>
+<p>利用這樣的機制，可以試著做出簡單的碎形動畫。請動手試做看看。</p>
+</dd>
+</dl>
 <p><br></p>
 <details class="example" open="open"><summary>範例程式 碎形動畫 - - - - - - - (專題實作4/4 接續)</summary><div class="tabbed-set tabbed-alternate" data-tabs="4:2"><input checked="checked" id="__tabbed_4_1" name="__tabbed_4" type="radio" /><input id="__tabbed_4_2" name="__tabbed_4" type="radio" /><div class="tabbed-labels"><label for="__tabbed_4_1">🎦操作影片</label><label for="__tabbed_4_2">💻程式碼</label></div>
 <div class="tabbed-content">
@@ -1734,7 +1792,35 @@
 <h2 id="3">📙 擴展(3)</h2>
 <h3 id="_10"><strong><em>樹與剪影</em></strong></h3>
 <hr />
-<p><br></p>
+<dl>
+<dd>剪影（silhouette)是一種將人事物用單色描繪（通常為黑色），凸顯輪廓的藝術圖像。剪影也可應用在攝影上，利用逆光方式的攝影技巧，將人事物拍攝出有如剪影效果。</dd>
+<dd><img alt="剪影" src="portait_silhouette.jpg" /></dd>
+<dd><sup>(資料來源:</sup><sup id="fnref:portait_silhouette"><a class="footnote-ref" href="#fn:portait_silhouette">10</a></sup><sup>)</sup></dd>
+<dt><br/><br/></dt>
+<dd>
+<p>為了凸顯剪影的效果，接下來會在夕陽剪影的背景下，使用海龜程式畫出碎形樹。</p>
+</dd>
+<dd>
+<p><img alt="bgpic_manual" src="bgpic_manual.jpg" /></p>
+</dd>
+<dd>
+<p>(資料來源: <a href="https://docs.python.org/3.7/library/turtle.html#turtle.bgpic">Python官網 海龜說明文件</a> )</p>
+</dd>
+<dd>
+<p>上圖是海龜的說明文件，使用bgpic函式可以設定海龜的背景圖片(需使用gif圖檔)。</p>
+</dd>
+<dt><br/></dt>
+<dd>
+<p>為了讓碎形樹更像樹，在傳遞的參數上，使用到「長」、「寬」，隨著遞迴的層次，會逐步縮減。</p>
+</dd>
+<dd>
+<p><img alt="傳遞參數" src="forward_parameter.png" /></p>
+</dd>
+<dd>
+<p>試著動手實作看看。</p>
+</dd>
+</dl>
+<p><br/></p>
 <details class="warning"><summary>記得要下載範例夕陽圖片</summary><dl>
 <dd>本範例程式需一張夕陽圖片，請挑選一張下載(右鍵「另存圖片」)，下載的圖片需與Python程式在同一資料夾。圖片的檔名要與程式中的檔名相同。</dd>
 <dd><img alt="sunset1" src="sunset1.gif" width="150" /> <img alt="sunset2" src="sunset2.gif" width="150" /> <img alt="sunset3" src="sunset3.gif" width="150" /></dd>
@@ -1807,7 +1893,36 @@
 <hr />
 <h3 id="_11"><strong><em>樹與混沌</em></strong></h3>
 <hr />
-<p><br></p>
+<dl>
+<dd>在上一個範例中，畫出來的樹似乎太過「規則」，與真正的樹不一樣。</dd>
+<dd>先長看看實際的樹，在生長時會受到影響的因素。</dd>
+</dl>
+<p><br/></p>
+<dl>
+<dt><iframe width="560" height="315" src="https://www.youtube.com/embed/qB2WLWHmh9c?start=344&amp;end=383" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</dt>
+<dd>
+<p><sup>(影片長度39秒，資料來源:</sup><sup id="fnref:tree_growing_factor"><a class="footnote-ref" href="#fn:tree_growing_factor">11</a></sup><sup>)</sup></p>
+</dd>
+<dt><br/></dt>
+<dd>
+<p>樹在生長時的空氣、光照、風雨等變化，如同蝴蝶效應一樣，細微的改變累積，最後會產生長期的連鎖反應，讓樹有了某些的不規則形變化，這是一種自然界常有的混沌狀態。</p>
+</dd>
+<dd>
+<p>我們使用範圍內的隨機長度、寬度與轉角角度，簡單模擬出這種混沌狀態。</p>
+</dd>
+<dd>
+<p><img alt="長度混沌" src="length_chaos.png" /></p>
+</dd>
+<dt><br/></dt>
+<dd>
+<p><img alt="角度混沌" src="random_chaos.png" /></p>
+</dd>
+<dt><br></dt>
+<dd>
+<p>動手實作看看。</p>
+</dd>
+</dl>
 <details class="warning"><summary>記得要下載範例夕陽圖片</summary><dl>
 <dd>本範例程式需一張夕陽圖片，請挑選一張下載(右鍵「另存圖片」)，下載的圖片需與Python程式在同一資料夾。圖片的檔名要與程式中的檔名相同。</dd>
 <dd><img alt="sunset1" src="sunset1.gif" width="150" /> <img alt="sunset2" src="sunset2.gif" width="150" /> <img alt="sunset3" src="sunset3.gif" width="150" /></dd>
@@ -1890,7 +2005,13 @@
 <hr />
 <h3 id="_12"><strong><em>樹與葉</em></strong></h3>
 <hr />
-<p><br></p>
+<dl>
+<dd>有了混沌狀態的簡易模擬，看起來就更像樹了。不過畫起來的感覺有點蕭瑟，因為都是枯枝。</dd>
+<dd>為了讓樹有點生氣，再加上葉子的設計。</dd>
+<dd><img alt="葉子設計" src="leaf_design.png" /></dd>
+</dl>
+<p><br/><br/></p>
+<p>動手實作看看。</p>
 <details class="warning"><summary>記得要下載範例夕陽圖片</summary><dl>
 <dd>本範例程式需一張夕陽圖片，請挑選一張下載(右鍵「另存圖片」)，下載的圖片需與Python程式在同一資料夾。圖片的檔名要與程式中的檔名相同。</dd>
 <dd><img alt="sunset1" src="sunset1.gif" width="150" /> <img alt="sunset2" src="sunset2.gif" width="150" /> <img alt="sunset3" src="sunset3.gif" width="150" /></dd>
@@ -1980,10 +2101,6 @@
 </div>
 </details>
 <p><br/><br/><br/></p>
-<hr />
-<h2 id="_13">📒 結語</h2>
-<hr />
-<p><br/><br/><br/></p>
 <div class="footnote">
 <hr />
 <ol>
@@ -2007,6 +2124,18 @@
 </li>
 <li id="fn:droste_effect">
 <p>由 Designer: Jan MissetUploader: Alf van Beem - 自己的作品, 公有領域, https://commons.wikimedia.org/w/index.php?curid=30739029&#160;<a class="footnote-backref" href="#fnref:droste_effect" title="Jump back to footnote 7 in the text">&#8617;</a></p>
+</li>
+<li id="fn:reverse_world">
+<p>THIS IS THE BEST REVERSE VIDEO I EVER MADE!, by Mr. Reverse, <a href="https://youtu.be/H4mpMKJFN_E">youtube連結</a>&#160;<a class="footnote-backref" href="#fnref:reverse_world" title="Jump back to footnote 8 in the text">&#8617;</a></p>
+</li>
+<li id="fn:fractal_tree_animation">
+<p>Fractal Tree Morph 4K UHD 60FPS, by syntaxerror147, <a href="https://youtu.be/Ec8Q1q9cbbo">youtube連結</a>&#160;<a class="footnote-backref" href="#fnref:fractal_tree_animation" title="Jump back to footnote 9 in the text">&#8617;</a></p>
+</li>
+<li id="fn:portait_silhouette">
+<p>左圖來源 Public Domain, https://commons.wikimedia.org/w/index.php?curid=1449030 ； 右圖來源 By Bob Jagendorf from Manalapan, NJ, USA - Lady Liberty At Sunset, CC BY 2.0, https://commons.wikimedia.org/w/index.php?curid=4203048&#160;<a class="footnote-backref" href="#fnref:portait_silhouette" title="Jump back to footnote 10 in the text">&#8617;</a></p>
+</li>
+<li id="fn:tree_growing_factor">
+<p>國小自然 植物的生長四要素, by 台北酷課雲, <a href="https://youtu.be/qB2WLWHmh9c">youtube連結</a>&#160;<a class="footnote-backref" href="#fnref:tree_growing_factor" title="Jump back to footnote 11 in the text">&#8617;</a></p>
 </li>
 </ol>
 </div>
