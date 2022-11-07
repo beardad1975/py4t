@@ -39,9 +39,9 @@ hide:
     : :fontawesome-solid-long-arrow-alt-right: <a href="zentangle/" target="_blank">「海龜畫禪繞」</a>
 
 ??? abstract  "專題 - 海龜與樹 "    
-    :  ![海龜與樹](project_fractal_tree/digest.jpg)
+    ![海龜與樹](project_fractal_tree/digest.jpg)
 
-    : 建構中…　 :fontawesome-solid-long-arrow-alt-right: <a href="project_fractal_tree/" target="_blank">「海龜與樹」</a>
+    : 使用海龜程式，從碎形與遞迴，畫出樹的形狀，搭配剪影風格，產生具有混沌狀態的樹。　 :fontawesome-solid-long-arrow-alt-right: <a href="project_fractal_tree/" target="_blank">「海龜與樹」</a>
 
 <br/><br/><br/>
 
@@ -84,6 +84,7 @@ hide:
 
 
 <br/><br/><br/>
+
 ## 📚 教科書與Python
 
 -----------------------
@@ -99,5 +100,21 @@ hide:
 
 
 
+<br/><br/><br/>
+
+##
+
+## 
+
+##
+
 <br/><br/>
+
+## 🔗 研習暫存區
+
+ [暫存區連結](https://drive.google.com/drive/folders/1LhMRBFhtEZI6fBmS9eolo1qUwi3o0vMC?usp=share_link)
+
+-----------------------
+
+
 
