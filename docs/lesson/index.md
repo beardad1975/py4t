@@ -85,6 +85,21 @@ hide:
 
 <br/><br/><br/>
 
+## 🧊 影音數位化
+
+-----------------------
+
+???+ success  "進階 - 陣列與數位訊號"
+    
+    
+    課程建構中…
+
+    :fontawesome-solid-long-arrow-alt-right: <a href="array_and_digital_signal/" target="_blank">「陣列與數位訊號」</a>
+
+
+
+<br/><br/><br/>
+
 ## 📚 教科書與Python
 
 -----------------------
