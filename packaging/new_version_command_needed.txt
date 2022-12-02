@@ -18,9 +18,12 @@ create_installer.bat( thonny install version)
 
 數位簽章
 
-.\signtool.exe sign /a /fd SHA256 "D:\py4t\py4t-development\packaging\windows\dist\thonnyPy4t-0.15.exe"
 
-.\signtool.exe timestamp /t http://timestamp.comodoca.com "D:\py4t\py4t-development\packaging\windows\dist\thonnyPy4t-0.15.exe"
+C:\Program Files (x86)\kSign
+
+.\signtool.exe sign /a /fd SHA256 "D:\py4t\py4t-development\packaging\windows\dist\thonnyPy4t-0.16.exe"
+
+.\signtool.exe timestamp /t http://timestamp.comodoca.com "D:\py4t\py4t-development\packaging\windows\dist\thonnyPy4t-0.16.exe"
 
 
 
