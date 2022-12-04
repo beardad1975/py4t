@@ -1270,23 +1270,23 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#2" class="md-nav__link">
-    📘 灰階與2維陣列
+  <a href="#22" class="md-nav__link">
+    📘 灰階與2維陣列(2)
   </a>
   
-    <nav class="md-nav" aria-label="📘 灰階與2維陣列">
+    <nav class="md-nav" aria-label="📘 灰階與2維陣列(2)">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
   <a href="#_6" class="md-nav__link">
-    灰階影像
+    灰階點陣
   </a>
   
 </li>
         
           <li class="md-nav__item">
   <a href="#_7" class="md-nav__link">
-    影像處理
+    灰階拼貼
   </a>
   
 </li>
@@ -1297,23 +1297,23 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#3" class="md-nav__link">
-    📙 彩色影像與3維陣列
+  <a href="#32" class="md-nav__link">
+    📙 彩色影像與3維陣列(2)
   </a>
   
-    <nav class="md-nav" aria-label="📙 彩色影像與3維陣列">
+    <nav class="md-nav" aria-label="📙 彩色影像與3維陣列(2)">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
   <a href="#_8" class="md-nav__link">
-    彩圖通道分離
+    彩圖分離
   </a>
   
 </li>
         
           <li class="md-nav__item">
   <a href="#_9" class="md-nav__link">
-    視訊拼接
+    視訊分割
   </a>
   
 </li>
@@ -1421,7 +1421,7 @@
 <dd><img alt="聲音陣列圖表" src="sound_array_chart.png" /></dd>
 <dt><br/><br/></dt>
 <dd>
-<p>真實世界中的聲波是連續的類比訊號，如果要將聲波數位化，變成一個個離散的數位訊號，就必須對聲音訊號做「取樣」的動作，請看下圖：</p>
+<p>真實世界中的聲波是連續的類比訊號，如果要將聲波數位化，變成一個個離散的數位訊號，就必須對聲音訊號做「取樣」的動作，取樣的資料因為具有相同型態，多以陣列的資料結構存放，請看下圖：</p>
 </dd>
 <dd>
 <p><img alt="聲音取樣" src="sampling.png" /></p>
@@ -1565,30 +1565,108 @@
 </details>
 <p><br/><br/><br/></p>
 <hr />
-<h2 id="2">📘 灰階與2維陣列</h2>
-<h3 id="_6"><strong><em>灰階影像</em></strong></h3>
+<h2 id="22">📘 灰階與2維陣列(2)</h2>
+<h3 id="_6"><strong><em>灰階點陣</em></strong></h3>
 <hr />
 <dl>
-<dd>待建置…</dd>
+<dd>影像可以定義為隨著空間座標改變的亮度值，電磁波頻譜中的一小段是可見光，可見光波傳播到人類的眼睛時，我們就會感覺到光的顏色。</dd>
+<dd>數位影像，將類比影像資料，以2維空間的方式取樣並將色光的亮度值量化，就會形成點陣的方陣資料，儲存在如2維陣列的資料結構中。</dd>
+<dd><img alt="建立數位影像" src="digital_image_creation.jpg" /></dd>
+<dd><sup>(資料來源:</sup><sup id="fnref:digital_image_creation"><a class="footnote-ref" href="#fn:digital_image_creation">5</a></sup><sup>)</sup></dd>
+<dt><br/><br/></dt>
+<dd>
+<p>為求簡單好理解，這邊先使用灰階影像，只有一個顏色通道，量位位元深度使用8個位元，數值範圍的是從不發光(黑0)到發光(白255)。從下圖可以看出2維陣列與灰階點陣圖的關係。</p>
+</dd>
+<dd>
+<p><img alt="2維陣列像素" src="2d-pixel-array.png" /></p>
+</dd>
+<dd>
+<p><sup>(資料來源:</sup><sup id="fnref:2d-pixel-array"><a class="footnote-ref" href="#fn:2d-pixel-array">6</a></sup><sup>)</sup></p>
+</dd>
+<dt><br/><br/></dt>
+<dd>
+<p>numpy多維陣列中的資料有不同的類型，有不同的位元組大小，能存放的資料範圍也不同。</p>
+</dd>
 </dl>
+<table>
+<thead>
+<tr>
+<th>資料類型</th>
+<th>位元組</th>
+<th>說明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>uint8</td>
+<td>1</td>
+<td>非負整數，範圍0～255 (在課程中用來存放影像資料)</td>
+</tr>
+<tr>
+<td>int16</td>
+<td>2</td>
+<td>整數，範圍-32768～32767 (在課程中用來存放音訊資料)</td>
+</tr>
+<tr>
+<td>float64</td>
+<td>8</td>
+<td>雙精度浮點數(可使用小數)</td>
+</tr>
+</tbody>
+</table>
+<dl>
+<dt><br/><br/></dt>
+<dd>
+<p>因整數類型有固定的數值範圍，當超過最大值時，就會產生溢位(overflow)的情形，看看下圖的計數器，再加1之後會變成多大呢？</p>
+</dd>
+<dd>
+<p><img alt="整數溢位" src="integer_overflow.jpg" /></p>
+</dd>
+<dd>
+<p><sup>(資料來源:</sup><sup id="fnref:integer_overflow"><a class="footnote-ref" href="#fn:integer_overflow">7</a></sup><sup>)</sup></p>
+</dd>
+<dd>
+<p>numpy多維陣列中的uint8，當發生超過最大值255的溢位情形時，會再從0開始。</p>
+</dd>
+</dl>
+<p><br/><br/></p>
+<p>一起來動手寫程式。</p>
+<details class="example" open="open"><summary>範例程式 灰階點陣 - - - - - - - (灰階與2維陣列 1/2 新檔)</summary><div class="tabbed-set tabbed-alternate" data-tabs="3:2"><input checked="checked" id="__tabbed_3_1" name="__tabbed_3" type="radio" /><input id="__tabbed_3_2" name="__tabbed_3" type="radio" /><div class="tabbed-labels"><label for="__tabbed_3_1">🎦操作影片</label><label for="__tabbed_3_2">💻程式截圖</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/vC0rJwPXcQY?start=0&amp;end=581" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p>【長度9:41 章節時間如下】</p>
+<ul>
+<li>0:00 存檔、切換便利貼</li>
+<li>1:05  2維陣列與資料類型</li>
+<li>3:04 灰階點陣圖與顏色條</li>
+<li>7:12 for迴圈改變點陣圖</li>
+</ul>
+</div>
+<div class="tabbed-block">
+<p><img alt="程式截圖" src="snapshot/grayscale_pixel.jpg" /> </p>
+</div>
+</div>
+</div>
+</details>
 <p><br/><br/><br/> </p>
 <hr />
-<h3 id="_7"><strong><em>影像處理</em></strong></h3>
+<h3 id="_7"><strong><em>灰階拼貼</em></strong></h3>
 <hr />
 <dl>
 <dd>待建置…</dd>
 </dl>
 <p><br/><br/><br/></p>
 <hr />
-<h2 id="3">📙 彩色影像與3維陣列</h2>
-<h3 id="_8"><strong><em>彩圖通道分離</em></strong></h3>
+<h2 id="32">📙 彩色影像與3維陣列(2)</h2>
+<h3 id="_8"><strong><em>彩圖分離</em></strong></h3>
 <hr />
 <dl>
 <dd>待建置…</dd>
 </dl>
 <p><br/><br/><br/></p>
 <hr />
-<h3 id="_9"><strong><em>視訊拼接</em></strong></h3>
+<h3 id="_9"><strong><em>視訊分割</em></strong></h3>
 <hr />
 <dl>
 <dd>待建置…</dd>
@@ -1608,6 +1686,15 @@
 </li>
 <li id="fn:white_noise_and_sleeping">
 <p>hello醫師, 白噪音可助眠～這3種潛在影響要注意, <a href="https://helloyishi.com.tw/sleep/a-good-nights-sleep/what-does-white-noise-affect-us/">https://helloyishi.com.tw/sleep/a-good-nights-sleep/what-does-white-noise-affect-us/</a>&#160;<a class="footnote-backref" href="#fnref:white_noise_and_sleeping" title="Jump back to footnote 4 in the text">&#8617;</a></p>
+</li>
+<li id="fn:digital_image_creation">
+<p>Basic Properties of Digital Images, <a href="https://hamamatsu.magnet.fsu.edu/articles/digitalimagebasics.html">https://hamamatsu.magnet.fsu.edu/articles/digitalimagebasics.html</a>&#160;<a class="footnote-backref" href="#fnref:digital_image_creation" title="Jump back to footnote 5 in the text">&#8617;</a></p>
+</li>
+<li id="fn:2d-pixel-array">
+<p>Image – 2D pixel array, <a href="https://www.researchgate.net/figure/Image-2D-pixel-array_fig4_267204802">https://www.researchgate.net/figure/Image-2D-pixel-array_fig4_267204802</a>&#160;<a class="footnote-backref" href="#fnref:2d-pixel-array" title="Jump back to footnote 6 in the text">&#8617;</a></p>
+</li>
+<li id="fn:integer_overflow">
+<p>MIT News, Better debugger, <a href="https://news.mit.edu/2015/integer-overflow-debugger-outperforms-predecessors-0324">https://news.mit.edu/2015/integer-overflow-debugger-outperforms-predecessors-0324</a>&#160;<a class="footnote-backref" href="#fnref:integer_overflow" title="Jump back to footnote 7 in the text">&#8617;</a></p>
 </li>
 </ol>
 </div>
