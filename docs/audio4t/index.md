@@ -32,3 +32,4 @@ hide:
 | 範例                             | 截圖                                                              |
 | :-----------:                    | :------------------------------------:                            |
 | [聲音訊號](sound_signal.md)          | [![聲音訊號](sound_signal.jpg){width=150}](sound_signal.md)           |
+| [玩轉音訊](audio_processing.md)          | [![玩轉音訊](audio_processing.jpg){width=150}](audio_processing.md)           |

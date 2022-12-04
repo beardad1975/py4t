@@ -85,16 +85,16 @@ hide:
 
 <br/><br/><br/>
 
-## 〽️ 影音數位化
+## 〽️ 數位訊號
 
 -----------------------
 
-???+ success  "進階 - 陣列與數位訊號"
+???+ success  "進階 - 陣列與影音數位化"
     
     
     課程建構中…
 
-    :fontawesome-solid-long-arrow-alt-right: <a href="array_and_digital_signal/" target="_blank">「陣列與數位訊號」</a>
+    :fontawesome-solid-long-arrow-alt-right: <a href="array_and_digital_signal/" target="_blank">「陣列與影音數位化」</a>
 
 
 
