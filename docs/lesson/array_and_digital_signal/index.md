@@ -130,7 +130,7 @@ hide:
 
 <br/><br/>
 
-: 真實世界中的聲波是連續的類比訊號，如果要將聲波數位化，變成一個個離散的數位訊號，就必須對聲音訊號做「取樣」的動作，請看下圖：
+: 真實世界中的聲波是連續的類比訊號，如果要將聲波數位化，變成一個個離散的數位訊號，就必須對聲音訊號做「取樣」的動作，取樣的資料因為具有相同型態，多以陣列的資料結構存放，請看下圖：
 
 : ![聲音取樣](sampling.png)
 
@@ -277,19 +277,88 @@ hide:
 ----------------------------
 
 
-##  📘 灰階與2維陣列
+##  📘 灰階與2維陣列(2)
 
-### ***灰階影像***
+### ***灰階點陣***
 
 ----------------------------
 
-: 待建置…
+: 影像可以定義為隨著空間座標改變的亮度值，電磁波頻譜中的一小段是可見光，可見光波傳播到人類的眼睛時，我們就會感覺到光的顏色。
+
+: 數位影像，將類比影像資料，以2維空間的方式取樣並將色光的亮度值量化，就會形成點陣的方陣資料，儲存在如2維陣列的資料結構中。
+
+: ![建立數位影像](digital_image_creation.jpg)
+
+: <sup>(資料來源:</sup>[^digital_image_creation]<sup>)</sup>
+
+[^digital_image_creation]: Basic Properties of Digital Images, [https://hamamatsu.magnet.fsu.edu/articles/digitalimagebasics.html](https://hamamatsu.magnet.fsu.edu/articles/digitalimagebasics.html)
+
+<br/><br/>
+
+
+: 為求簡單好理解，這邊先使用灰階影像，只有一個顏色通道，量位位元深度使用8個位元，數值範圍的是從不發光(黑0)到發光(白255)。從下圖可以看出2維陣列與灰階點陣圖的關係。
+
+
+: ![2維陣列像素](2d-pixel-array.png)
+
+: <sup>(資料來源:</sup>[^2d-pixel-array]<sup>)</sup>
+
+[^2d-pixel-array]: Image – 2D pixel array, [https://www.researchgate.net/figure/Image-2D-pixel-array_fig4_267204802](https://www.researchgate.net/figure/Image-2D-pixel-array_fig4_267204802)
+
+<br/><br/>
+
+: numpy多維陣列中的資料有不同的類型，有不同的位元組大小，能存放的資料範圍也不同。
+
+| 資料類型  | 位元組 | 說明                          |
+| ---------|--- | ------------------------------------ |
+| uint8     | 1  |  非負整數，範圍0～255 (在課程中用來存放影像資料)  |
+| int16     | 2  |  整數，範圍-32768～32767 (在課程中用來存放音訊資料) |
+| float64   | 8 | 雙精度浮點數(可使用小數) |
+
+<br/><br/>
+
+
+: 因整數類型有固定的數值範圍，當超過最大值時，就會產生溢位(overflow)的情形，看看下圖的計數器，再加1之後會變成多大呢？
+
+
+: ![整數溢位](integer_overflow.jpg)
+
+: <sup>(資料來源:</sup>[^integer_overflow]<sup>)</sup>
+
+[^integer_overflow]: MIT News, Better debugger, [https://news.mit.edu/2015/integer-overflow-debugger-outperforms-predecessors-0324](https://news.mit.edu/2015/integer-overflow-debugger-outperforms-predecessors-0324)
+
+: numpy多維陣列中的uint8，當發生超過最大值255的溢位情形時，會再從0開始。
+
+
+<br/><br/>
+
+一起來動手寫程式。
+
+???+ example "範例程式 灰階點陣 - - - - - - - (灰階與2維陣列 1/2 新檔)"
+
+    === "🎦操作影片"
+    
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/vC0rJwPXcQY?start=0&amp;end=581" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        【長度9:41 章節時間如下】
+
+        * 0:00 存檔、切換便利貼
+        * 1:05  2維陣列與資料類型
+        * 3:04 灰階點陣圖與顏色條
+        * 7:12 for迴圈改變點陣圖
+
+
+
+    === "💻程式截圖"
+
+        ![程式截圖](snapshot/grayscale_pixel.jpg) 
+
 
 <br/><br/><br/> 
 
 ----------------------------
 
-### ***影像處理*** 
+### ***灰階拼貼*** 
 
 ----------------------------
 
@@ -300,9 +369,9 @@ hide:
 
 ----------------------------
 
-##  📙 彩色影像與3維陣列
+##  📙 彩色影像與3維陣列(2)
 
-### ***彩圖通道分離***
+### ***通道分離***
 
 ----------------------------
 
@@ -313,7 +382,7 @@ hide:
 
 ----------------------------
 
-### ***視訊拼接*** 
+### ***視訊分割*** 
 
 ----------------------------
 
