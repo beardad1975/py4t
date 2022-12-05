@@ -5,41 +5,48 @@ hide:
 
 # 📚 陣列與影音數位化
 
-: 引言(陣列 訊號)
-
-??? info "關於視覺與聲音教學模組"
-
-    : ...
-
-    : :fontawesome-solid-link: <a href="../../turtle4t/" target="_blank">...</a>
-
-<br/><br/><br/> 
-
 
 
 ----------------------------
 
 ##  📙 陣列資料結構
 
-### ***numpy多維陣列***
-
-----------------------------
-
-待建置…
-
-
-<br/><br/><br/> 
 
 
 
-----------------------------
-
-### ***123維陣列*** 
+### ***numpy多維陣列*** 
 
 ----------------------------
 
 
-待建置…
+
+
+: ![numpy_intro](numpy_intro.jpg)
+
+: <sup>(資料來源:</sup>[^numpy_intro]<sup>)</sup>
+
+[^numpy_intro]: NumPy 函式庫, [https://steam.oxxostudio.tw/category/python/numpy/about-numpy.html](https://steam.oxxostudio.tw/category/python/numpy/about-numpy.html)
+
+
+<br/><br/>
+
+
+
+: ![123d_array](123d_array.jpg)
+
+: <sup>(資料來源:</sup>[^123d_array]<sup>)</sup>
+
+[^123d_array]: 6 Best NumPy Online Courses for Beginners in 2022, [https://medium.com/javarevisited/6-best-online-courses-to-learn-numpy-for-beginners-60120f611e06](https://medium.com/javarevisited/6-best-online-courses-to-learn-numpy-for-beginners-60120f611e06)
+
+<br/><br/>
+
+: ![numpy_slice](numpy_slice.jpg)
+
+: <sup>(資料來源:</sup>[^numpy_slice]<sup>)</sup>
+
+[^numpy_slice]: Python NumPy Tutorial: An Applied Introduction for Beginners, [https://www.learndatasci.com/tutorials/applied-introduction-to-numpy-python-tutorial/](https://www.learndatasci.com/tutorials/applied-introduction-to-numpy-python-tutorial/)
+
+
 
 <br/><br/><br/> 
 
@@ -362,9 +369,23 @@ hide:
 
 ----------------------------
 
+
+: 待建置…
+
 <br/><br/>
 
-一起來動手寫程式。
+
+
+
+: ![average_blur_kernel](average_blur_kernel.jpg)
+
+: <sup>(資料來源:</sup>[^average_blur_kernel]<sup>)</sup>
+
+[^average_blur_kernel]: omputer Vision for Beginners: Part 2, [https://towardsdatascience.com/computer-vision-for-beginners-part-2-29b3f9151874](https://towardsdatascience.com/computer-vision-for-beginners-part-2-29b3f9151874)
+
+
+<br/><br/>
+
 
 ???+ example "範例程式 灰階切片 - - - - - - - (灰階與2維陣列 2/2 新檔)"
 
@@ -401,6 +422,26 @@ hide:
 
 : 待建置…
 
+<br/><br/>
+
+: ![xyz_bgr](xyz_bgr.png)
+
+: <sup>(資料來源:</sup>[^xyz_bgr]<sup>)</sup>
+
+[^xyz_bgr]: 機械視覺: 在python上操作opencv-基礎 &#8211; Q. Y. Wu Code World, [https://qingyangdotblog.wordpress.com/2017/08/28/%E6%A9%9F%E6%A2%B0%E8%A6%96%E8%A6%BA-%E5%9C%A8python%E4%B8%8A%E6%93%8D%E4%BD%9Copencv-%E5%9F%BA%E7%A4%8E/](https://qingyangdotblog.wordpress.com/2017/08/28/%E6%A9%9F%E6%A2%B0%E8%A6%96%E8%A6%BA-%E5%9C%A8python%E4%B8%8A%E6%93%8D%E4%BD%9Copencv-%E5%9F%BA%E7%A4%8E/)
+
+
+<br/><br/>
+: ![3d_array_channel](3d_array_channel.png)
+
+: <sup>(資料來源:</sup>[^3d_array_channel]<sup>)</sup>
+
+[^3d_array_channel]: Perform Basic Image Processing using Python3 and OpenCV, [https://tbhaxor.com/basic-image-processing-using-python3-and-opencv/](https://tbhaxor.com/basic-image-processing-using-python3-and-opencv/)
+
+
+
+<br/><br/>
+
 ???+ example "範例程式 通道分離 - - - - - - - (彩色影像與3維陣列 1/2 新檔)"
 
     === "🎦操作影片"
@@ -431,5 +472,46 @@ hide:
 ----------------------------
 
 : 待建置…
+
+
+: ![分割畫面1說明](split1_chart.png)
+
+<br/><br/>
+
+: ![分割畫面2說明](split2_chart.png)
+
+<br/><br/>
+
+: ![分割畫面3說明](split3_chart.png)
+
+<br/><br/>
+
+: ![分割畫面4說明](split4_chart.png)
+
+<br/><br/> 
+
+???+ example "範例程式 視訊分割 - - - - - - - (彩色影像與3維陣列 2/2 新檔)"
+
+    === "🎦操作影片"
+    
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/KtVq_qbH3aA?start=0&amp;end=639" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        【長度10:39 章節時間如下】
+
+        * 0:00 存檔、切換便利貼
+        * 0:50 設置攝影機、陣列形狀
+        * 1:39 攝影機畫面、左右翻轉
+        * 2:54 分割變數設值
+        * 5:42 分割畫面1(左上)
+        * 6:54 分割畫面2(右上)
+        * 7:51 分割畫面3(左下)
+        * 8:55 分割畫面4(右下)
+
+
+
+    === "💻程式截圖"
+
+        ![程式截圖](snapshot/video_split.jpg) 
+
 
 <br/><br/><br/>
