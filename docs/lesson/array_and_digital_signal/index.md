@@ -21,11 +21,11 @@ hide:
 
 ##  📙 陣列資料結構
 
-### ***list與array***
+### ***numpy多維陣列***
 
 ----------------------------
 
-
+待建置…
 
 
 <br/><br/><br/> 
@@ -34,12 +34,12 @@ hide:
 
 ----------------------------
 
-### ***numpy多維陣列*** 
+### ***123維陣列*** 
 
 ----------------------------
 
 
-
+待建置…
 
 <br/><br/><br/> 
 
@@ -358,13 +358,37 @@ hide:
 
 ----------------------------
 
-### ***灰階拼貼*** 
+### ***灰階切片*** 
 
 ----------------------------
 
-: 待建置…
+<br/><br/>
 
-<br/><br/><br/>
+一起來動手寫程式。
+
+???+ example "範例程式 灰階切片 - - - - - - - (灰階與2維陣列 2/2 新檔)"
+
+    === "🎦操作影片"
+    
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/okx9rlfdDs8?start=0&amp;end=586" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        【長度9:46 章節時間如下】
+
+        * 0:00 存檔、切換便利貼
+        * 0:56 讀取顯示圖片、列印陣列
+        * 3:11 切片調整亮度
+        * 5:01 切片糢糊處理
+        * 6:29 切片負片效果
+        * 8:17 切片邊緣偵測
+
+
+
+    === "💻程式截圖"
+
+        ![程式截圖](snapshot/grayscale_slice.jpg) 
+
+
+<br/><br/><br/> 
 
 
 ----------------------------
@@ -377,8 +401,28 @@ hide:
 
 : 待建置…
 
+???+ example "範例程式 通道分離 - - - - - - - (彩色影像與3維陣列 1/2 新檔)"
 
-<br/><br/><br/>
+    === "🎦操作影片"
+    
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/kd3NUcxbMd0?start=0&amp;end=475" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        【長度7:55 章節時間如下】
+
+        * 0:00 存檔、切換便利貼
+        * 0:55 讀取顯示圖片、列印陣列
+        * 3:11 藍色通道分離
+        * 5:09 綠色通道分離
+        * 6:26 紅色通道分離
+
+
+
+    === "💻程式截圖"
+
+        ![程式截圖](snapshot/channel_split.jpg) 
+
+
+<br/><br/><br/> 
 
 ----------------------------
 
