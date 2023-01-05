@@ -9,7 +9,7 @@ hide:
 
 <br/>
 
-## 🐢 海龜繪圖
+## 🐢 入門 - 海龜繪圖
 
 
 
@@ -45,7 +45,7 @@ hide:
 
 <br/><br/><br/>
 
-## 🏀 物理模擬
+## 🏀 入門 - 物理模擬
 
 -----------------------
 
@@ -64,11 +64,11 @@ hide:
 
 <br/><br/><br/>
 
-## 🧊 3D程式
+## 🧊 進階 - 3D程式
 
 -----------------------
 
-???+ success  "入門 - 探索3D空間"
+???+ success  "進階 - 探索3D空間"
     ![3D空間大探索](explore3d/digest.jpg)
     
     學習3D程式，做出地球模型、彩色漸層、全景水晶球與魔術方塊。
@@ -85,20 +85,24 @@ hide:
 
 <br/><br/><br/>
 
-## 〽️ 數位訊號
+## 〽️ 進階 - 數位訊號
 
 -----------------------
 
 ???+ success  "進階 - 陣列與影音數位化"
     
     
-    課程建構中…
+    ![陣列與影音數位化](array_and_digital_signal/digest.jpg)
+
+    認識numpy多維陣列，以1、2、3維陣列處理聲音及影像數位訊號。
 
     :fontawesome-solid-long-arrow-alt-right: <a href="array_and_digital_signal/" target="_blank">「陣列與影音數位化」</a>
 
 
 
 <br/><br/><br/>
+
+##
 
 ## 📚 教科書與Python
 
@@ -117,11 +121,7 @@ hide:
 
 <br/><br/><br/>
 
-##
 
-## 
-
-##
 
 <br/><br/>
 

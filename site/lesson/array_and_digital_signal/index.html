@@ -1217,6 +1217,13 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    陣列是什麼
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#numpy" class="md-nav__link">
     numpy多維陣列
   </a>
@@ -1237,21 +1244,21 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#_3" class="md-nav__link">
+  <a href="#_4" class="md-nav__link">
     聲音要素
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#_4" class="md-nav__link">
+  <a href="#_5" class="md-nav__link">
     聲音訊號
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#_5" class="md-nav__link">
+  <a href="#_6" class="md-nav__link">
     玩轉聲音
   </a>
   
@@ -1271,14 +1278,14 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#_6" class="md-nav__link">
+  <a href="#_7" class="md-nav__link">
     灰階點陣
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#_7" class="md-nav__link">
+  <a href="#_8" class="md-nav__link">
     灰階切片
   </a>
   
@@ -1298,14 +1305,14 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#_8" class="md-nav__link">
+  <a href="#_9" class="md-nav__link">
     通道分離
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#_9" class="md-nav__link">
+  <a href="#_10" class="md-nav__link">
     視訊分割
   </a>
   
@@ -1330,38 +1337,66 @@
                 
 
 <h1 id="_1">📚 陣列與影音數位化</h1>
+<dl>
+<dd>當我們使用電腦來處理影像與聲音時，常常會使用相關的影像及音訊處理軟體。</dd>
+<dd><img alt="dsp_software" src="dsp_software.jpg" /></dd>
+<dd>你曾經想過嗎？電腦在播放音樂、剪裁音樂、顯示照片、影片編輯時，它到底做了什麼計算？聲音與照片是如何以數位資料來表示呢？</dd>
+<dd>在本課程中，我們將探索影音數位資料與陣列的關係。</dd>
+</dl>
+<details class="info"><summary>關於視覺影像與聲音訊號</summary><dl>
+<dd>本課程使用到整合後的教學函式庫，如下連結</dd>
+<dd><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></span> <a href="../../cv4t/" target="_blank">Py4t 視覺影像 說明、範例程式</a></dd>
+<dd><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></span> <a href="../../audio4t/" target="_blank">Py4t 聲音訊號 說明、範例程式</a></dd>
+</dl>
+</details>
+<p><br/>
+<br/></p>
 <hr />
 <h2 id="_2">📙 陣列資料結構</h2>
+<h3 id="_3"><strong><em>陣列是什麼</em></strong></h3>
+<hr />
+<dl>
+<dd>在資訊科學中，陣列(Array)是一種<strong>資料結構</strong>，是由<strong>相同類型元素</strong>（element）的集合所組成。</dd>
+<dd>陣列可分成1、2、3維陣列。</dd>
+<dd><img alt="1維陣列" src="parking_1d.jpg" /></dd>
+<dd><img alt="2維陣列" src="parking_2d.jpg" /></dd>
+<dd><img alt="3維陣列" src="parking_3d.jpg" /></dd>
+<dd><sup>(資料來源:</sup><sup id="fnref:parking_array"><a class="footnote-ref" href="#fn:parking_array">1</a></sup><sup>)</sup></dd>
+</dl>
+<p><br/><br/></p>
+<hr />
 <h3 id="numpy"><strong><em>numpy多維陣列</em></strong></h3>
 <hr />
 <dl>
 <dd><img alt="numpy_intro" src="numpy_intro.jpg" /></dd>
-<dd><sup>(資料來源:</sup><sup id="fnref:numpy_intro"><a class="footnote-ref" href="#fn:numpy_intro">1</a></sup><sup>)</sup></dd>
+<dd><sup>(資料來源:</sup><sup id="fnref:numpy_intro"><a class="footnote-ref" href="#fn:numpy_intro">2</a></sup><sup>)</sup></dd>
+<dd><img alt="123d_array" src="123d_array.jpg" /></dd>
+<dd><sup>(資料來源:</sup><sup id="fnref:123d_array"><a class="footnote-ref" href="#fn:123d_array">3</a></sup><sup>)</sup></dd>
 <dt><br/><br/></dt>
 <dd>
-<p><img alt="123d_array" src="123d_array.jpg" /></p>
+<p><img alt="np_array_1d" src="np_array_1d.jpg" /></p>
 </dd>
 <dd>
-<p><sup>(資料來源:</sup><sup id="fnref:123d_array"><a class="footnote-ref" href="#fn:123d_array">2</a></sup><sup>)</sup></p>
+<p><sup>(資料來源:</sup><sup id="fnref:np_array_1d"><a class="footnote-ref" href="#fn:np_array_1d">4</a></sup><sup>)</sup></p>
 </dd>
 <dt><br/><br/></dt>
 <dd>
 <p><img alt="numpy_slice" src="numpy_slice.jpg" /></p>
 </dd>
 <dd>
-<p><sup>(資料來源:</sup><sup id="fnref:numpy_slice"><a class="footnote-ref" href="#fn:numpy_slice">3</a></sup><sup>)</sup></p>
+<p><sup>(資料來源:</sup><sup id="fnref:numpy_slice"><a class="footnote-ref" href="#fn:numpy_slice">5</a></sup><sup>)</sup></p>
 </dd>
 </dl>
 <p><br/><br/><br/> </p>
 <hr />
 <h2 id="12">📗 音訊與1維陣列(2)</h2>
-<h3 id="_3"><strong><em>聲音要素</em></strong></h3>
+<h3 id="_4"><strong><em>聲音要素</em></strong></h3>
 <hr />
 <dl>
 <dd>聲音是一種由振動產生的波動，聲波通過空氣的傳播，當耳朵接收到聲波時，就會讓我們聽見聲音。</dd>
 <dd>那聲音有什麼基本的組成要素呢？一起來看看下面的影片：</dd>
 <dd><iframe width="560" height="315" src="https://www.youtube.com/embed/d6Lzym61NDg?start=0&amp;end=108" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></dd>
-<dd><sup>(1分48秒, 資料來源:</sup><sup id="fnref:sound_elements"><a class="footnote-ref" href="#fn:sound_elements">4</a></sup><sup>)</sup></dd>
+<dd><sup>(1分48秒, 資料來源:</sup><sup id="fnref:sound_elements"><a class="footnote-ref" href="#fn:sound_elements">6</a></sup><sup>)</sup></dd>
 <dd>經由影片的說明，我們可以得知，聲音的三要素是「<strong>音調</strong>」、「<strong>響度</strong>」與「<strong>音色</strong>」。</dd>
 <dt><br/><br/></dt>
 <dd>
@@ -1371,7 +1406,7 @@
 <p><img alt="frequency" src="frequency.jpg" /></p>
 </dd>
 <dd>
-<p><sup>(資料來源:</sup><sup id="fnref4:sound_elements"><a class="footnote-ref" href="#fn:sound_elements">4</a></sup><sup>)</sup></p>
+<p><sup>(資料來源:</sup><sup id="fnref4:sound_elements"><a class="footnote-ref" href="#fn:sound_elements">6</a></sup><sup>)</sup></p>
 </dd>
 <dd>
 <p><img alt="高低音波形" src="pitch_comparision.jpg" /></p>
@@ -1384,7 +1419,7 @@
 <p><img alt="音高頻率表" src="pitch_frequency.jpg" /></p>
 </dd>
 <dd>
-<p><sup>(資料來源:</sup><sup id="fnref:pitch_frequency"><a class="footnote-ref" href="#fn:pitch_frequency">5</a></sup><sup>)</sup></p>
+<p><sup>(資料來源:</sup><sup id="fnref:pitch_frequency"><a class="footnote-ref" href="#fn:pitch_frequency">7</a></sup><sup>)</sup></p>
 </dd>
 <dt><br/><br/></dt>
 <dd>
@@ -1394,7 +1429,7 @@
 <p><img alt="amplitude" src="amplitude.jpg" /></p>
 </dd>
 <dd>
-<p><sup>(資料來源:</sup><sup id="fnref3:sound_elements"><a class="footnote-ref" href="#fn:sound_elements">4</a></sup><sup>)</sup></p>
+<p><sup>(資料來源:</sup><sup id="fnref3:sound_elements"><a class="footnote-ref" href="#fn:sound_elements">6</a></sup><sup>)</sup></p>
 </dd>
 <dd>
 <p><img alt="大小聲波形" src="amplitude_comparision.jpg" /></p>
@@ -1407,19 +1442,19 @@
 <p><img alt="wave_form" src="wave_form.jpg" /></p>
 </dd>
 <dd>
-<p><sup>(資料來源:</sup><sup id="fnref2:sound_elements"><a class="footnote-ref" href="#fn:sound_elements">4</a></sup><sup>)</sup></p>
+<p><sup>(資料來源:</sup><sup id="fnref2:sound_elements"><a class="footnote-ref" href="#fn:sound_elements">6</a></sup><sup>)</sup></p>
 </dd>
 </dl>
 <p><br/><br/><br/> </p>
 <hr />
-<h3 id="_4"><strong><em>聲音訊號</em></strong></h3>
+<h3 id="_5"><strong><em>聲音訊號</em></strong></h3>
 <hr />
 <dl>
 <dd>聲音訊號可以定義為「<strong>隨著時間改變的振幅大小</strong>」，在經過<strong>取樣</strong>與<strong>量化</strong>的處理後，就可以將聲音<strong>數位化</strong>。音訊的數位聲波資訊可以利用「<strong>1維陣列的資料結構</strong>」來存放。為了更清楚地觀察聲波變化，我們可以將音訊的資料陣列以圖表的方式來呈現。</dd>
 <dd><img alt="聲音陣列圖表" src="sound_array_chart.png" /></dd>
 <dt><br/><br/></dt>
 <dd>
-<p>真實世界中的聲波是連續的類比訊號，如果要將聲波數位化，變成一個個離散的數位訊號，就必須對聲音訊號做「取樣」的動作，取樣的資料因為具有相同型態，多以陣列的資料結構存放，請看下圖：</p>
+<p>真實世界中的聲波是連續的<strong>類比訊號</strong>，如果要將聲波數位化，變成一個個離散的<strong>數位訊號</strong>，就必須對聲音訊號做「<strong>取樣</strong>」的動作，取樣的資料因為具有相同型態，多以陣列的資料結構存放，請看下圖：</p>
 </dd>
 <dd>
 <p><img alt="聲音取樣" src="sampling.png" /></p>
@@ -1432,11 +1467,11 @@
 <p><img alt="常見取樣率" src="sample_rate_example.jpg" /></p>
 </dd>
 <dd>
-<p><sup>(資料來源:</sup><sup id="fnref:sample_rate_example"><a class="footnote-ref" href="#fn:sample_rate_example">6</a></sup><sup>)</sup></p>
+<p><sup>(資料來源:</sup><sup id="fnref:sample_rate_example"><a class="footnote-ref" href="#fn:sample_rate_example">8</a></sup><sup>)</sup></p>
 </dd>
 <dt><br/><br/></dt>
 <dd>
-<p>在將聲音訊號取樣時，取到的值是聲音的振幅大小(與響度有關)，這個動作是「量化」，可以使用不同位元數來表示量化的值。採用的位元數越高，振幅會有更細膩的變化，音訊的品質就越好。</p>
+<p>在將聲音訊號取樣時，取到的值是聲音的<strong>振幅大小</strong>(與響度有關)，這個動作是「<strong>量化</strong>」，可以使用不同位元數來表示量化的值。採用的位元數越高，振幅會有更細膩的變化，音訊的品質就越好。</p>
 </dd>
 <dd>
 <p><img alt="聲音量化" src="quantization.png" /></p>
@@ -1457,7 +1492,7 @@
 </dd>
 <dd>
 <ul>
-<li>如果將量化值以隨機方式產生，就會是發出沙沙聲的雜訊。而其中的白噪音是一種均勻分布，平均值為0，樣本之間互相獨立的均勻雜訊。根據一些研究顯示，在一定的條件下，白噪音可以幫助睡眠(註<sup id="fnref:white_noise_and_sleeping"><a class="footnote-ref" href="#fn:white_noise_and_sleeping">7</a></sup>)。</li>
+<li>如果將量化值以隨機方式產生，就會是發出沙沙聲的雜訊。而其中的白噪音是一種均勻分布，平均值為0，樣本之間互相獨立的均勻雜訊。根據一些研究顯示，在一定的條件下，白噪音可以幫助睡眠(註<sup id="fnref:white_noise_and_sleeping"><a class="footnote-ref" href="#fn:white_noise_and_sleeping">9</a></sup>)。</li>
 </ul>
 </dd>
 <dt><br/><br/></dt>
@@ -1485,7 +1520,7 @@
 </details>
 <p><br/><br/><br/> </p>
 <hr />
-<h3 id="_5"><strong><em>玩轉聲音</em></strong></h3>
+<h3 id="_6"><strong><em>玩轉聲音</em></strong></h3>
 <hr />
 <dl>
 <dd>我們使用人類說話聲、鋼琴聲、小提琴聲，來觀察不同聲音的不同波形，不同波形的聲音會產生不同的音色。</dd>
@@ -1564,13 +1599,13 @@
 <p><br/><br/><br/></p>
 <hr />
 <h2 id="22">📘 灰階與2維陣列(2)</h2>
-<h3 id="_6"><strong><em>灰階點陣</em></strong></h3>
+<h3 id="_7"><strong><em>灰階點陣</em></strong></h3>
 <hr />
 <dl>
-<dd>影像可以定義為隨著空間座標改變的亮度值，電磁波頻譜中的一小段是可見光，可見光波傳播到人類的眼睛時，我們就會感覺到光的顏色。</dd>
-<dd>數位影像，將類比影像資料，以2維空間的方式取樣並將色光的亮度值量化，就會形成點陣的方陣資料，儲存在如2維陣列的資料結構中。</dd>
+<dd>影像可以定義為「<strong>隨著空間座標改變的亮度值</strong>」，電磁波頻譜中的一小段是可見光，可見光波傳播到人類的眼睛時，我們就會感覺到光的顏色。</dd>
+<dd>數位影像，將類比影像資料，以2維空間的方式<strong>取樣</strong>並將色光的亮度值<strong>量化</strong>，就會形成點陣的方陣資料，儲存在如陣列的資料結構中。</dd>
 <dd><img alt="建立數位影像" src="digital_image_creation.jpg" /></dd>
-<dd><sup>(資料來源:</sup><sup id="fnref:digital_image_creation"><a class="footnote-ref" href="#fn:digital_image_creation">8</a></sup><sup>)</sup></dd>
+<dd><sup>(資料來源:</sup><sup id="fnref:digital_image_creation"><a class="footnote-ref" href="#fn:digital_image_creation">10</a></sup><sup>)</sup></dd>
 <dt><br/><br/></dt>
 <dd>
 <p>為求簡單好理解，這邊先使用灰階影像，只有一個顏色通道，量位位元深度使用8個位元，數值範圍的是從不發光(黑0)到發光(白255)。從下圖可以看出2維陣列與灰階點陣圖的關係。</p>
@@ -1579,7 +1614,7 @@
 <p><img alt="2維陣列像素" src="2d-pixel-array.png" /></p>
 </dd>
 <dd>
-<p><sup>(資料來源:</sup><sup id="fnref:2d-pixel-array"><a class="footnote-ref" href="#fn:2d-pixel-array">9</a></sup><sup>)</sup></p>
+<p><sup>(資料來源:</sup><sup id="fnref:2d-pixel-array"><a class="footnote-ref" href="#fn:2d-pixel-array">11</a></sup><sup>)</sup></p>
 </dd>
 <dt><br/><br/></dt>
 <dd>
@@ -1621,10 +1656,10 @@
 <p><img alt="整數溢位" src="integer_overflow.jpg" /></p>
 </dd>
 <dd>
-<p><sup>(資料來源:</sup><sup id="fnref:integer_overflow"><a class="footnote-ref" href="#fn:integer_overflow">10</a></sup><sup>)</sup></p>
+<p><sup>(資料來源:</sup><sup id="fnref:integer_overflow"><a class="footnote-ref" href="#fn:integer_overflow">12</a></sup><sup>)</sup></p>
 </dd>
 <dd>
-<p>numpy多維陣列中的uint8，當發生超過最大值255的溢位情形時，會再從0開始。</p>
+<p>numpy多維陣列中的uint8，當發生超過最大值255的溢位情形時，會再從0開始；反之，當發生超過最小值0的溢位情形時，則會從255開始</p>
 </dd>
 </dl>
 <p><br/><br/></p>
@@ -1649,19 +1684,48 @@
 </details>
 <p><br/><br/><br/> </p>
 <hr />
-<h3 id="_7"><strong><em>灰階切片</em></strong></h3>
+<h3 id="_8"><strong><em>灰階切片</em></strong></h3>
 <hr />
 <dl>
-<dd>待建置…</dd>
+<dd>利用python的切片語法(slicing)，我們可以取出2維陣列的一塊區域。</dd>
+<dd><img alt="np_matrix_indexing_2d" src="np_matrix_indexing_2d.png" /></dd>
+<dd><sup>(資料來源:</sup><sup id="fnref:np_matrix_indexing_2d"><a class="footnote-ref" href="#fn:np_matrix_indexing_2d">13</a></sup><sup>)</sup></dd>
 <dt><br/><br/></dt>
+<dd>
+<p>將陣列經過各種計算處理，顯示出來的圖片也會跟著改變。以下是模糊的處理，也可以稱為平滑處理，具有影像去噪的效果。</p>
+</dd>
+<dd>
+<p><img alt="blur_comparison" src="blur_comparison.jpg" /></p>
+</dd>
+<dt><br/></dt>
+<dd>
+<p>平滑處理通常是運用卷積運算(Convolution)，利用一個卷積核掃過整張圖，來得到新的圖片陣列。</p>
+</dd>
 <dd>
 <p><img alt="average_blur_kernel" src="average_blur_kernel.jpg" /></p>
 </dd>
 <dd>
-<p><sup>(資料來源:</sup><sup id="fnref:average_blur_kernel"><a class="footnote-ref" href="#fn:average_blur_kernel">11</a></sup><sup>)</sup></p>
+<p><sup>(資料來源:</sup><sup id="fnref:average_blur_kernel"><a class="footnote-ref" href="#fn:average_blur_kernel">14</a></sup><sup>)</sup></p>
+</dd>
+<dt><br/><br/></dt>
+<dd>
+<p>以下是將陣列中的值，以亮度最大值(255)減去，會得到負片效果，圖片亮度反轉。</p>
+</dd>
+<dd>
+<p><img alt="nagative_image_comparison" src="nagative_image_comparison.jpg" /></p>
+</dd>
+<dt><br/><br/></dt>
+<dd>
+<p>下圖是將陣列做Canny邊緣偵測的運算處理。</p>
+</dd>
+<dd>
+<p><img alt="canny_comparison" src="canny_comparison.jpg" /></p>
+</dd>
+<dt><br/><br/></dt>
+<dd>
+<p>利用陣列切片與運算效果來處理照片，請動手寫出程式。</p>
 </dd>
 </dl>
-<p><br/><br/></p>
 <details class="example" open="open"><summary>範例程式 灰階切片 - - - - - - - (灰階與2維陣列 2/2 新檔)</summary><div class="tabbed-set tabbed-alternate" data-tabs="4:2"><input checked="checked" id="__tabbed_4_1" name="__tabbed_4" type="radio" /><input id="__tabbed_4_2" name="__tabbed_4" type="radio" /><div class="tabbed-labels"><label for="__tabbed_4_1">🎦操作影片</label><label for="__tabbed_4_2">💻程式截圖</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
@@ -1685,22 +1749,25 @@
 <p><br/><br/><br/> </p>
 <hr />
 <h2 id="32">📙 彩色影像與3維陣列(2)</h2>
-<h3 id="_8"><strong><em>通道分離</em></strong></h3>
+<h3 id="_9"><strong><em>通道分離</em></strong></h3>
 <hr />
 <dl>
-<dd>待建置…</dd>
+<dd>彩色影像的亮度分為3個通道，分別為藍(Blue)、綠(Green)、紅(Red)三層，所以彩色影像可以使用3維陣列來表示。</dd>
 <dt><br/><br/></dt>
 <dd>
 <p><img alt="xyz_bgr" src="xyz_bgr.png" /></p>
 </dd>
 <dd>
-<p><sup>(資料來源:</sup><sup id="fnref:xyz_bgr"><a class="footnote-ref" href="#fn:xyz_bgr">12</a></sup><sup>)</sup></p>
+<p><sup>(資料來源:</sup><sup id="fnref:xyz_bgr"><a class="footnote-ref" href="#fn:xyz_bgr">15</a></sup><sup>)</sup></p>
 </dd>
 <dt><br/><br/></dt>
 <dd><img alt="3d_array_channel" src="3d_array_channel.png" /></dd>
-<dd><sup>(資料來源:</sup><sup id="fnref:3d_array_channel"><a class="footnote-ref" href="#fn:3d_array_channel">13</a></sup><sup>)</sup></dd>
+<dd><sup>(資料來源:</sup><sup id="fnref:3d_array_channel"><a class="footnote-ref" href="#fn:3d_array_channel">16</a></sup><sup>)</sup></dd>
+<dt><br/><br/></dt>
+<dd>
+<p>請著將彩色圖片轉為3維陣列，利用陣列的處理，分離出藍綠紅的3個通道。</p>
+</dd>
 </dl>
-<p><br/><br/></p>
 <details class="example" open="open"><summary>範例程式 通道分離 - - - - - - - (彩色影像與3維陣列 1/2 新檔)</summary><div class="tabbed-set tabbed-alternate" data-tabs="5:2"><input checked="checked" id="__tabbed_5_1" name="__tabbed_5" type="radio" /><input id="__tabbed_5_2" name="__tabbed_5" type="radio" /><div class="tabbed-labels"><label for="__tabbed_5_1">🎦操作影片</label><label for="__tabbed_5_2">💻程式截圖</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
@@ -1722,25 +1789,35 @@
 </details>
 <p><br/><br/><br/> </p>
 <hr />
-<h3 id="_9"><strong><em>視訊分割</em></strong></h3>
+<h3 id="_10"><strong><em>視訊分割</em></strong></h3>
 <hr />
 <dl>
-<dd>待建置…</dd>
-<dd><img alt="分割畫面1說明" src="split1_chart.png" /></dd>
+<dd>在一些商場，有時可以看到，由多個顯示器組成的數位顯示牆(電視牆)。</dd>
+<dd><img alt="電視牆" src="video_wall.jpg" /></dd>
 <dt><br/><br/></dt>
+<dd>
+<p>利用陣列切片的處理，將攝影機擷取到的影像，切成4塊，模擬數位顯示牆(電視牆)的效果。</p>
+</dd>
+<dd>
+<p><img alt="分割畫面1說明" src="split1_chart.png" /></p>
+</dd>
+<dt><br/></dt>
 <dd>
 <p><img alt="分割畫面2說明" src="split2_chart.png" /></p>
 </dd>
-<dt><br/><br/></dt>
+<dt><br/></dt>
 <dd>
 <p><img alt="分割畫面3說明" src="split3_chart.png" /></p>
 </dd>
-<dt><br/><br/></dt>
+<dt><br/></dt>
 <dd>
 <p><img alt="分割畫面4說明" src="split4_chart.png" /></p>
 </dd>
+<dt><br/></dt>
+<dd>
+<p>動手寫出程式。</p>
+</dd>
 </dl>
-<p><br/><br/> </p>
 <details class="example" open="open"><summary>範例程式 視訊分割 - - - - - - - (彩色影像與3維陣列 2/2 新檔)</summary><div class="tabbed-set tabbed-alternate" data-tabs="6:2"><input checked="checked" id="__tabbed_6_1" name="__tabbed_6" type="radio" /><input id="__tabbed_6_2" name="__tabbed_6" type="radio" /><div class="tabbed-labels"><label for="__tabbed_6_1">🎦操作影片</label><label for="__tabbed_6_2">💻程式截圖</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
@@ -1767,44 +1844,53 @@
 <div class="footnote">
 <hr />
 <ol>
+<li id="fn:parking_array">
+<p>圖片來源：康軒教科書 國中二上科技領域資訊科技課本第52頁圖片&#160;<a class="footnote-backref" href="#fnref:parking_array" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
 <li id="fn:numpy_intro">
-<p>NumPy 函式庫, <a href="https://steam.oxxostudio.tw/category/python/numpy/about-numpy.html">https://steam.oxxostudio.tw/category/python/numpy/about-numpy.html</a>&#160;<a class="footnote-backref" href="#fnref:numpy_intro" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+<p>NumPy 函式庫, <a href="https://steam.oxxostudio.tw/category/python/numpy/about-numpy.html">https://steam.oxxostudio.tw/category/python/numpy/about-numpy.html</a>&#160;<a class="footnote-backref" href="#fnref:numpy_intro" title="Jump back to footnote 2 in the text">&#8617;</a></p>
 </li>
 <li id="fn:123d_array">
-<p>6 Best NumPy Online Courses for Beginners in 2022, <a href="https://medium.com/javarevisited/6-best-online-courses-to-learn-numpy-for-beginners-60120f611e06">https://medium.com/javarevisited/6-best-online-courses-to-learn-numpy-for-beginners-60120f611e06</a>&#160;<a class="footnote-backref" href="#fnref:123d_array" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+<p>6 Best NumPy Online Courses for Beginners in 2022, <a href="https://medium.com/javarevisited/6-best-online-courses-to-learn-numpy-for-beginners-60120f611e06">https://medium.com/javarevisited/6-best-online-courses-to-learn-numpy-for-beginners-60120f611e06</a>&#160;<a class="footnote-backref" href="#fnref:123d_array" title="Jump back to footnote 3 in the text">&#8617;</a></p>
+</li>
+<li id="fn:np_array_1d">
+<p>NumPy Illustrated: The Visual Guide to NumPy, <a href="https://betterprogramming.pub/numpy-illustrated-the-visual-guide-to-numpy-3b1d4976de1d">https://betterprogramming.pub/numpy-illustrated-the-visual-guide-to-numpy-3b1d4976de1d</a>&#160;<a class="footnote-backref" href="#fnref:np_array_1d" title="Jump back to footnote 4 in the text">&#8617;</a></p>
 </li>
 <li id="fn:numpy_slice">
-<p>Python NumPy Tutorial: An Applied Introduction for Beginners, <a href="https://www.learndatasci.com/tutorials/applied-introduction-to-numpy-python-tutorial/">https://www.learndatasci.com/tutorials/applied-introduction-to-numpy-python-tutorial/</a>&#160;<a class="footnote-backref" href="#fnref:numpy_slice" title="Jump back to footnote 3 in the text">&#8617;</a></p>
+<p>Python NumPy Tutorial: An Applied Introduction for Beginners, <a href="https://www.learndatasci.com/tutorials/applied-introduction-to-numpy-python-tutorial/">https://www.learndatasci.com/tutorials/applied-introduction-to-numpy-python-tutorial/</a>&#160;<a class="footnote-backref" href="#fnref:numpy_slice" title="Jump back to footnote 5 in the text">&#8617;</a></p>
 </li>
 <li id="fn:sound_elements">
-<p>【波動與聲音】 聲音的三要素, By 均一教育平台 Junyi Academy , <a href="https://youtu.be/d6Lzym61NDg">youtube連結</a>&#160;<a class="footnote-backref" href="#fnref:sound_elements" title="Jump back to footnote 4 in the text">&#8617;</a><a class="footnote-backref" href="#fnref2:sound_elements" title="Jump back to footnote 4 in the text">&#8617;</a><a class="footnote-backref" href="#fnref3:sound_elements" title="Jump back to footnote 4 in the text">&#8617;</a><a class="footnote-backref" href="#fnref4:sound_elements" title="Jump back to footnote 4 in the text">&#8617;</a></p>
+<p>【波動與聲音】 聲音的三要素, By 均一教育平台 Junyi Academy , <a href="https://youtu.be/d6Lzym61NDg">youtube連結</a>&#160;<a class="footnote-backref" href="#fnref:sound_elements" title="Jump back to footnote 6 in the text">&#8617;</a><a class="footnote-backref" href="#fnref2:sound_elements" title="Jump back to footnote 6 in the text">&#8617;</a><a class="footnote-backref" href="#fnref3:sound_elements" title="Jump back to footnote 6 in the text">&#8617;</a><a class="footnote-backref" href="#fnref4:sound_elements" title="Jump back to footnote 6 in the text">&#8617;</a></p>
 </li>
 <li id="fn:pitch_frequency">
-<p>Make Maker . Arduino 蜂鳴器發聲, <a href="http://jiader.blogspot.com/2018/08/arduino.html">http://jiader.blogspot.com/2018/08/arduino.html</a>&#160;<a class="footnote-backref" href="#fnref:pitch_frequency" title="Jump back to footnote 5 in the text">&#8617;</a></p>
+<p>Make Maker . Arduino 蜂鳴器發聲, <a href="http://jiader.blogspot.com/2018/08/arduino.html">http://jiader.blogspot.com/2018/08/arduino.html</a>&#160;<a class="footnote-backref" href="#fnref:pitch_frequency" title="Jump back to footnote 7 in the text">&#8617;</a></p>
 </li>
 <li id="fn:sample_rate_example">
-<p>取樣率, <a href="https://zh.wikipedia.org/zh-tw/%E9%87%87%E6%A0%B7%E7%8E%87">維基百科連結</a>&#160;<a class="footnote-backref" href="#fnref:sample_rate_example" title="Jump back to footnote 6 in the text">&#8617;</a></p>
+<p>取樣率, <a href="https://zh.wikipedia.org/zh-tw/%E9%87%87%E6%A0%B7%E7%8E%87">維基百科連結</a>&#160;<a class="footnote-backref" href="#fnref:sample_rate_example" title="Jump back to footnote 8 in the text">&#8617;</a></p>
 </li>
 <li id="fn:white_noise_and_sleeping">
-<p>hello醫師, 白噪音可助眠～這3種潛在影響要注意, <a href="https://helloyishi.com.tw/sleep/a-good-nights-sleep/what-does-white-noise-affect-us/">https://helloyishi.com.tw/sleep/a-good-nights-sleep/what-does-white-noise-affect-us/</a>&#160;<a class="footnote-backref" href="#fnref:white_noise_and_sleeping" title="Jump back to footnote 7 in the text">&#8617;</a></p>
+<p>hello醫師, 白噪音可助眠～這3種潛在影響要注意, <a href="https://helloyishi.com.tw/sleep/a-good-nights-sleep/what-does-white-noise-affect-us/">https://helloyishi.com.tw/sleep/a-good-nights-sleep/what-does-white-noise-affect-us/</a>&#160;<a class="footnote-backref" href="#fnref:white_noise_and_sleeping" title="Jump back to footnote 9 in the text">&#8617;</a></p>
 </li>
 <li id="fn:digital_image_creation">
-<p>Basic Properties of Digital Images, <a href="https://hamamatsu.magnet.fsu.edu/articles/digitalimagebasics.html">https://hamamatsu.magnet.fsu.edu/articles/digitalimagebasics.html</a>&#160;<a class="footnote-backref" href="#fnref:digital_image_creation" title="Jump back to footnote 8 in the text">&#8617;</a></p>
+<p>Basic Properties of Digital Images, <a href="https://hamamatsu.magnet.fsu.edu/articles/digitalimagebasics.html">https://hamamatsu.magnet.fsu.edu/articles/digitalimagebasics.html</a>&#160;<a class="footnote-backref" href="#fnref:digital_image_creation" title="Jump back to footnote 10 in the text">&#8617;</a></p>
 </li>
 <li id="fn:2d-pixel-array">
-<p>Image – 2D pixel array, <a href="https://www.researchgate.net/figure/Image-2D-pixel-array_fig4_267204802">https://www.researchgate.net/figure/Image-2D-pixel-array_fig4_267204802</a>&#160;<a class="footnote-backref" href="#fnref:2d-pixel-array" title="Jump back to footnote 9 in the text">&#8617;</a></p>
+<p>Image – 2D pixel array, <a href="https://www.researchgate.net/figure/Image-2D-pixel-array_fig4_267204802">https://www.researchgate.net/figure/Image-2D-pixel-array_fig4_267204802</a>&#160;<a class="footnote-backref" href="#fnref:2d-pixel-array" title="Jump back to footnote 11 in the text">&#8617;</a></p>
 </li>
 <li id="fn:integer_overflow">
-<p>MIT News, Better debugger, <a href="https://news.mit.edu/2015/integer-overflow-debugger-outperforms-predecessors-0324">https://news.mit.edu/2015/integer-overflow-debugger-outperforms-predecessors-0324</a>&#160;<a class="footnote-backref" href="#fnref:integer_overflow" title="Jump back to footnote 10 in the text">&#8617;</a></p>
+<p>MIT News, Better debugger, <a href="https://news.mit.edu/2015/integer-overflow-debugger-outperforms-predecessors-0324">https://news.mit.edu/2015/integer-overflow-debugger-outperforms-predecessors-0324</a>&#160;<a class="footnote-backref" href="#fnref:integer_overflow" title="Jump back to footnote 12 in the text">&#8617;</a></p>
+</li>
+<li id="fn:np_matrix_indexing_2d">
+<p>NumPy: the absolute basics for beginners, <a href="https://numpy.org/devdocs/user/absolute_beginners.html">https://numpy.org/devdocs/user/absolute_beginners.html</a>&#160;<a class="footnote-backref" href="#fnref:np_matrix_indexing_2d" title="Jump back to footnote 13 in the text">&#8617;</a></p>
 </li>
 <li id="fn:average_blur_kernel">
-<p>omputer Vision for Beginners: Part 2, <a href="https://towardsdatascience.com/computer-vision-for-beginners-part-2-29b3f9151874">https://towardsdatascience.com/computer-vision-for-beginners-part-2-29b3f9151874</a>&#160;<a class="footnote-backref" href="#fnref:average_blur_kernel" title="Jump back to footnote 11 in the text">&#8617;</a></p>
+<p>Computer Vision for Beginners: Part 2, <a href="https://towardsdatascience.com/computer-vision-for-beginners-part-2-29b3f9151874">https://towardsdatascience.com/computer-vision-for-beginners-part-2-29b3f9151874</a>&#160;<a class="footnote-backref" href="#fnref:average_blur_kernel" title="Jump back to footnote 14 in the text">&#8617;</a></p>
 </li>
 <li id="fn:xyz_bgr">
-<p>機械視覺: 在python上操作opencv-基礎 &#8211; Q. Y. Wu Code World, <a href="https://qingyangdotblog.wordpress.com/2017/08/28/%E6%A9%9F%E6%A2%B0%E8%A6%96%E8%A6%BA-%E5%9C%A8python%E4%B8%8A%E6%93%8D%E4%BD%9Copencv-%E5%9F%BA%E7%A4%8E/">https://qingyangdotblog.wordpress.com/2017/08/28/%E6%A9%9F%E6%A2%B0%E8%A6%96%E8%A6%BA-%E5%9C%A8python%E4%B8%8A%E6%93%8D%E4%BD%9Copencv-%E5%9F%BA%E7%A4%8E/</a>&#160;<a class="footnote-backref" href="#fnref:xyz_bgr" title="Jump back to footnote 12 in the text">&#8617;</a></p>
+<p>機械視覺: 在python上操作opencv-基礎 &#8211; Q. Y. Wu Code World, <a href="https://qingyangdotblog.wordpress.com/2017/08/28/%E6%A9%9F%E6%A2%B0%E8%A6%96%E8%A6%BA-%E5%9C%A8python%E4%B8%8A%E6%93%8D%E4%BD%9Copencv-%E5%9F%BA%E7%A4%8E/">https://qingyangdotblog.wordpress.com/2017/08/28/%E6%A9%9F%E6%A2%B0%E8%A6%96%E8%A6%BA-%E5%9C%A8python%E4%B8%8A%E6%93%8D%E4%BD%9Copencv-%E5%9F%BA%E7%A4%8E/</a>&#160;<a class="footnote-backref" href="#fnref:xyz_bgr" title="Jump back to footnote 15 in the text">&#8617;</a></p>
 </li>
 <li id="fn:3d_array_channel">
-<p>Perform Basic Image Processing using Python3 and OpenCV, <a href="https://tbhaxor.com/basic-image-processing-using-python3-and-opencv/">https://tbhaxor.com/basic-image-processing-using-python3-and-opencv/</a>&#160;<a class="footnote-backref" href="#fnref:3d_array_channel" title="Jump back to footnote 13 in the text">&#8617;</a></p>
+<p>Perform Basic Image Processing using Python3 and OpenCV, <a href="https://tbhaxor.com/basic-image-processing-using-python3-and-opencv/">https://tbhaxor.com/basic-image-processing-using-python3-and-opencv/</a>&#160;<a class="footnote-backref" href="#fnref:3d_array_channel" title="Jump back to footnote 16 in the text">&#8617;</a></p>
 </li>
 </ol>
 </div>
