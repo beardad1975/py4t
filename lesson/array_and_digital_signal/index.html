@@ -1224,8 +1224,8 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#numpy" class="md-nav__link">
-    numpy多維陣列
+  <a href="#_4" class="md-nav__link">
+    多維陣列
   </a>
   
 </li>
@@ -1244,21 +1244,21 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#_4" class="md-nav__link">
+  <a href="#_5" class="md-nav__link">
     聲音要素
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#_5" class="md-nav__link">
+  <a href="#_6" class="md-nav__link">
     聲音訊號
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#_6" class="md-nav__link">
+  <a href="#_7" class="md-nav__link">
     玩轉聲音
   </a>
   
@@ -1278,14 +1278,14 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#_7" class="md-nav__link">
+  <a href="#_8" class="md-nav__link">
     灰階點陣
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#_8" class="md-nav__link">
+  <a href="#_9" class="md-nav__link">
     灰階切片
   </a>
   
@@ -1305,14 +1305,14 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#_9" class="md-nav__link">
+  <a href="#_10" class="md-nav__link">
     通道分離
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#_10" class="md-nav__link">
+  <a href="#_11" class="md-nav__link">
     視訊分割
   </a>
   
@@ -1356,8 +1356,8 @@
 <h3 id="_3"><strong><em>陣列是什麼</em></strong></h3>
 <hr />
 <dl>
-<dd>在資訊科學中，陣列(Array)是一種<strong>資料結構</strong>，是由<strong>相同類型元素</strong>（element）的集合所組成。</dd>
-<dd>陣列可分成1、2、3維陣列。</dd>
+<dd>在資訊科學中，陣列(Array)是一種<strong>資料結構</strong>，是由<strong>相同資料類型</strong>(整數、字串或浮點數等)元素所組成。</dd>
+<dd>常見的陣列種類可分成1、2、3維陣列，讓大量資料的排列方式更多元，在生活中都有實際的應用情形。</dd>
 <dd><img alt="1維陣列" src="parking_1d.jpg" /></dd>
 <dd><img alt="2維陣列" src="parking_2d.jpg" /></dd>
 <dd><img alt="3維陣列" src="parking_3d.jpg" /></dd>
@@ -1365,14 +1365,41 @@
 </dl>
 <p><br/><br/></p>
 <hr />
-<h3 id="numpy"><strong><em>numpy多維陣列</em></strong></h3>
+<h3 id="_4"><strong><em>多維陣列</em></strong></h3>
 <hr />
 <dl>
 <dd><img alt="numpy_intro" src="numpy_intro.jpg" /></dd>
-<dd><sup>(資料來源:</sup><sup id="fnref:numpy_intro"><a class="footnote-ref" href="#fn:numpy_intro">2</a></sup><sup>)</sup></dd>
-<dd><img alt="123d_array" src="123d_array.jpg" /></dd>
-<dd><sup>(資料來源:</sup><sup id="fnref:123d_array"><a class="footnote-ref" href="#fn:123d_array">3</a></sup><sup>)</sup></dd>
+<dd><sup>(資料來源:</sup><sup id="fnref2:numpy_intro"><a class="footnote-ref" href="#fn:numpy_intro">2</a></sup><sup>)</sup></dd>
+<dd>NumPy是Python的第三方程式庫。支援多維陣列與矩陣運算，還有針對陣列運算的數學函式庫。是Python科學運算相關領域中，非常重要與基礎的套件。</dd>
+</dl>
+<details class="info"><summary>Python的幾種陣列工具</summary><dl>
+<dd><a href="https://docs.python.org/zh-tw/3/tutorial/datastructures.html">list清單</a> : 是Python內建資料結構之一，雖不是嚴格定義的陣列(資料型態可以混合)，不過在資料量不多時，可以用來作為陣列教學的入門工具。</dd>
+<dd><a href="https://docs.python.org/zh-tw/3/library/array.html">array模組</a>：在標準函式庫中，會限制儲存的物件類型，大量資料的處理速度比list快。</dd>
+<dd><a href="https://numpy.org/">numpy套件</a>：需額外安裝的第三方函式庫，是廣泛使用的多維陣列、多維矩陣處理與計算的套件。</dd>
+</dl>
+</details>
+<dl>
+<dt><br/></dt>
+<dd>
+<p><img alt="numpy_ecosystem" src="numpy_ecosystem.jpg" /></p>
+</dd>
+<dd>
+<p><sup>(資料來源:</sup><sup id="fnref:numpy_intro"><a class="footnote-ref" href="#fn:numpy_intro">2</a></sup><sup>)</sup></p>
+</dd>
 <dt><br/><br/></dt>
+<dd>
+<p>1、2、3維陣列在numpy中的示意圖，利用陣列的shape屬性，可以得知陣列的維度與大小。</p>
+</dd>
+<dd>
+<p><img alt="123d_array" src="123d_array.jpg" /></p>
+</dd>
+<dd>
+<p><sup>(資料來源:</sup><sup id="fnref:123d_array"><a class="footnote-ref" href="#fn:123d_array">3</a></sup><sup>)</sup></p>
+</dd>
+<dt><br/><br/></dt>
+<dd>
+<p>1維陣列的索引、切片操作示例如下：</p>
+</dd>
 <dd>
 <p><img alt="np_array_1d" src="np_array_1d.jpg" /></p>
 </dd>
@@ -1381,16 +1408,21 @@
 </dd>
 <dt><br/><br/></dt>
 <dd>
+<p>2維陣列的索引、切片操作示例如下：</p>
+</dd>
+<dd>
 <p><img alt="numpy_slice" src="numpy_slice.jpg" /></p>
 </dd>
 <dd>
 <p><sup>(資料來源:</sup><sup id="fnref:numpy_slice"><a class="footnote-ref" href="#fn:numpy_slice">5</a></sup><sup>)</sup></p>
 </dd>
 </dl>
+<p><br/></p>
+<p>接下來要使用陣列來處理聲音的數位資料。</p>
 <p><br/><br/><br/> </p>
 <hr />
 <h2 id="12">📗 音訊與1維陣列(2)</h2>
-<h3 id="_4"><strong><em>聲音要素</em></strong></h3>
+<h3 id="_5"><strong><em>聲音要素</em></strong></h3>
 <hr />
 <dl>
 <dd>聲音是一種由振動產生的波動，聲波通過空氣的傳播，當耳朵接收到聲波時，就會讓我們聽見聲音。</dd>
@@ -1447,21 +1479,28 @@
 </dl>
 <p><br/><br/><br/> </p>
 <hr />
-<h3 id="_5"><strong><em>聲音訊號</em></strong></h3>
+<h3 id="_6"><strong><em>聲音訊號</em></strong></h3>
 <hr />
 <dl>
 <dd>聲音訊號可以定義為「<strong>隨著時間改變的振幅大小</strong>」，在經過<strong>取樣</strong>與<strong>量化</strong>的處理後，就可以將聲音<strong>數位化</strong>。音訊的數位聲波資訊可以利用「<strong>1維陣列的資料結構</strong>」來存放。為了更清楚地觀察聲波變化，我們可以將音訊的資料陣列以圖表的方式來呈現。</dd>
 <dd><img alt="聲音陣列圖表" src="sound_array_chart.png" /></dd>
 <dt><br/><br/></dt>
 <dd>
-<p>真實世界中的聲波是連續的<strong>類比訊號</strong>，如果要將聲波數位化，變成一個個離散的<strong>數位訊號</strong>，就必須對聲音訊號做「<strong>取樣</strong>」的動作，取樣的資料因為具有相同型態，多以陣列的資料結構存放，請看下圖：</p>
+<p>在這邊，我們會使用matplotlib圖表函式庫來呈現陣列資料，在呈現的圖表中，如果使用不同的檢視方式，就可以巨觀或微觀的角度，來觀看大量的資料。</p>
+</dd>
+<dd>
+<p><img alt="圖表檢視操作" src="matplotlib_chart_view.png" /></p>
+</dd>
+<dt><br/><br/></dt>
+<dd>
+<p>真實世界中的聲波是連續的<strong>類比訊號</strong>，如果要將聲波數位化，變成一個個離散的<strong>數位訊號</strong>，就必須對聲音訊號做「<strong>取樣</strong>」的動作，取樣的資料因為具有相同型態，多以陣列的資料結構存放。</p>
 </dd>
 <dd>
 <p><img alt="聲音取樣" src="sampling.png" /></p>
 </dd>
 <dt><br/><br/></dt>
 <dd>
-<p>了解了「取樣率」與「取樣週期」後，看看下圖中，在常見的數位音訊取樣率。取樣率越高，數位音訊的品質就越好。</p>
+<p>了解了「取樣率」與「取樣週期」後，看看下圖中，在常見的數位音訊取樣率。數位音訊取樣率越高，會越接近原始的聲音，所以播放的品質也會越好。</p>
 </dd>
 <dd>
 <p><img alt="常見取樣率" src="sample_rate_example.jpg" /></p>
@@ -1520,7 +1559,7 @@
 </details>
 <p><br/><br/><br/> </p>
 <hr />
-<h3 id="_6"><strong><em>玩轉聲音</em></strong></h3>
+<h3 id="_7"><strong><em>玩轉聲音</em></strong></h3>
 <hr />
 <dl>
 <dd>我們使用人類說話聲、鋼琴聲、小提琴聲，來觀察不同聲音的不同波形，不同波形的聲音會產生不同的音色。</dd>
@@ -1599,7 +1638,7 @@
 <p><br/><br/><br/></p>
 <hr />
 <h2 id="22">📘 灰階與2維陣列(2)</h2>
-<h3 id="_7"><strong><em>灰階點陣</em></strong></h3>
+<h3 id="_8"><strong><em>灰階點陣</em></strong></h3>
 <hr />
 <dl>
 <dd>影像可以定義為「<strong>隨著空間座標改變的亮度值</strong>」，電磁波頻譜中的一小段是可見光，可見光波傳播到人類的眼睛時，我們就會感覺到光的顏色。</dd>
@@ -1684,7 +1723,7 @@
 </details>
 <p><br/><br/><br/> </p>
 <hr />
-<h3 id="_8"><strong><em>灰階切片</em></strong></h3>
+<h3 id="_9"><strong><em>灰階切片</em></strong></h3>
 <hr />
 <dl>
 <dd>利用python的切片語法(slicing)，我們可以取出2維陣列的一塊區域。</dd>
@@ -1749,7 +1788,7 @@
 <p><br/><br/><br/> </p>
 <hr />
 <h2 id="32">📙 彩色影像與3維陣列(2)</h2>
-<h3 id="_9"><strong><em>通道分離</em></strong></h3>
+<h3 id="_10"><strong><em>通道分離</em></strong></h3>
 <hr />
 <dl>
 <dd>彩色影像的亮度分為3個通道，分別為藍(Blue)、綠(Green)、紅(Red)三層，所以彩色影像可以使用3維陣列來表示。</dd>
@@ -1789,7 +1828,7 @@
 </details>
 <p><br/><br/><br/> </p>
 <hr />
-<h3 id="_10"><strong><em>視訊分割</em></strong></h3>
+<h3 id="_11"><strong><em>視訊分割</em></strong></h3>
 <hr />
 <dl>
 <dd>在一些商場，有時可以看到，由多個顯示器組成的數位顯示牆(電視牆)。</dd>
@@ -1848,7 +1887,7 @@
 <p>圖片來源：康軒教科書 國中二上科技領域資訊科技課本第52頁圖片&#160;<a class="footnote-backref" href="#fnref:parking_array" title="Jump back to footnote 1 in the text">&#8617;</a></p>
 </li>
 <li id="fn:numpy_intro">
-<p>NumPy 函式庫, <a href="https://steam.oxxostudio.tw/category/python/numpy/about-numpy.html">https://steam.oxxostudio.tw/category/python/numpy/about-numpy.html</a>&#160;<a class="footnote-backref" href="#fnref:numpy_intro" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+<p>NumPy 函式庫, <a href="https://numpy.org/">https://numpy.org/</a>&#160;<a class="footnote-backref" href="#fnref:numpy_intro" title="Jump back to footnote 2 in the text">&#8617;</a><a class="footnote-backref" href="#fnref2:numpy_intro" title="Jump back to footnote 2 in the text">&#8617;</a></p>
 </li>
 <li id="fn:123d_array">
 <p>6 Best NumPy Online Courses for Beginners in 2022, <a href="https://medium.com/javarevisited/6-best-online-courses-to-learn-numpy-for-beginners-60120f611e06">https://medium.com/javarevisited/6-best-online-courses-to-learn-numpy-for-beginners-60120f611e06</a>&#160;<a class="footnote-backref" href="#fnref:123d_array" title="Jump back to footnote 3 in the text">&#8617;</a></p>
