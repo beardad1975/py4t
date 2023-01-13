@@ -37,9 +37,9 @@ hide:
 
 ----------------------------
 
-: 在資訊科學中，陣列(Array)是一種**資料結構**，是由**相同類型元素**（element）的集合所組成。
+: 在資訊科學中，陣列(Array)是一種**資料結構**，是由**相同資料類型**(整數、字串或浮點數等)元素所組成。
 
-: 陣列可分成1、2、3維陣列。
+: 常見的陣列種類可分成1、2、3維陣列，讓大量資料的排列方式更多元，在生活中都有實際的應用情形。
 
 : ![1維陣列](parking_1d.jpg)
 
@@ -58,20 +58,38 @@ hide:
 
 ----------------------------
 
-### ***numpy多維陣列*** 
+### ***多維陣列*** 
 
 ----------------------------
+
 
 : ![numpy_intro](numpy_intro.jpg)
 
 : <sup>(資料來源:</sup>[^numpy_intro]<sup>)</sup>
 
-[^numpy_intro]: NumPy 函式庫, [https://steam.oxxostudio.tw/category/python/numpy/about-numpy.html](https://steam.oxxostudio.tw/category/python/numpy/about-numpy.html)
+: NumPy是Python的第三方程式庫。支援多維陣列與矩陣運算，還有針對陣列運算的數學函式庫。是Python科學運算相關領域中，非常重要與基礎的套件。
+
+??? info "Python的幾種陣列工具"
+
+    : [list清單](https://docs.python.org/zh-tw/3/tutorial/datastructures.html) : 是Python內建資料結構之一，雖不是嚴格定義的陣列(資料型態可以混合)，不過在資料量不多時，可以用來作為陣列教學的入門工具。
+
+    : [array模組](https://docs.python.org/zh-tw/3/library/array.html)：在標準函式庫中，會限制儲存的物件類型，大量資料的處理速度比list快。
+
+    : [numpy套件](https://numpy.org/)：需額外安裝的第三方函式庫，是廣泛使用的多維陣列、多維矩陣處理與計算的套件。
+
+<br/>
+
+: ![numpy_ecosystem](numpy_ecosystem.jpg)
+
+: <sup>(資料來源:</sup>[^numpy_intro]<sup>)</sup>
+
+[^numpy_intro]: NumPy 函式庫, [https://numpy.org/](https://numpy.org/)
 
 
 
+<br/><br/>
 
-
+: 1、2、3維陣列在numpy中的示意圖，利用陣列的shape屬性，可以得知陣列的維度與大小。
 
 : ![123d_array](123d_array.jpg)
 
@@ -81,6 +99,7 @@ hide:
 
 <br/><br/>
 
+: 1維陣列的索引、切片操作示例如下：
 
 : ![np_array_1d](np_array_1d.jpg)
 
@@ -90,13 +109,18 @@ hide:
 
 <br/><br/>
 
+: 2維陣列的索引、切片操作示例如下：
+
+
 : ![numpy_slice](numpy_slice.jpg)
 
 : <sup>(資料來源:</sup>[^numpy_slice]<sup>)</sup>
 
 [^numpy_slice]: Python NumPy Tutorial: An Applied Introduction for Beginners, [https://www.learndatasci.com/tutorials/applied-introduction-to-numpy-python-tutorial/](https://www.learndatasci.com/tutorials/applied-introduction-to-numpy-python-tutorial/)
 
+<br/>
 
+接下來要使用陣列來處理聲音的數位資料。
 
 <br/><br/><br/> 
 
@@ -187,13 +211,20 @@ hide:
 
 <br/><br/>
 
-: 真實世界中的聲波是連續的**類比訊號**，如果要將聲波數位化，變成一個個離散的**數位訊號**，就必須對聲音訊號做「**取樣**」的動作，取樣的資料因為具有相同型態，多以陣列的資料結構存放，請看下圖：
+
+: 在這邊，我們會使用matplotlib圖表函式庫來呈現陣列資料，在呈現的圖表中，如果使用不同的檢視方式，就可以巨觀或微觀的角度，來觀看大量的資料。
+
+: ![圖表檢視操作](matplotlib_chart_view.png)
+
+<br/><br/>
+
+: 真實世界中的聲波是連續的**類比訊號**，如果要將聲波數位化，變成一個個離散的**數位訊號**，就必須對聲音訊號做「**取樣**」的動作，取樣的資料因為具有相同型態，多以陣列的資料結構存放。
 
 : ![聲音取樣](sampling.png)
 
 <br/><br/>
 
-: 了解了「取樣率」與「取樣週期」後，看看下圖中，在常見的數位音訊取樣率。取樣率越高，數位音訊的品質就越好。
+: 了解了「取樣率」與「取樣週期」後，看看下圖中，在常見的數位音訊取樣率。數位音訊取樣率越高，會越接近原始的聲音，所以播放的品質也會越好。
 
 
 : ![常見取樣率](sample_rate_example.jpg)
