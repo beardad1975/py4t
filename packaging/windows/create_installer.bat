@@ -6,30 +6,32 @@ rmdir %BUILDDIR% /S /Q
 mkdir %BUILDDIR%
 
 @echo ............... COPYING PYTHON ...................................
-xcopy C:\Pythonny37\* %BUILDDIR% /S /E /K>NUL
+xcopy C:\Python310-64\* %BUILDDIR% /S /E /K>NUL
 @echo ............... COPYING OTHER STUFF ...................................
-copy ThonnyRunner37\Release\thonny.exe %BUILDDIR% /Y
-xcopy ucrt_redist\*.dll %BUILDDIR% /S /E /K>NUL
-xcopy ucrt_redist\api-ms-win*.dll %BUILDDIR%\DLLs /S /E /K>NUL
+copy ThonnyRunner310\x64\Release\thonny.exe %BUILDDIR% /Y
+@rem xcopy ucrt_redist\*.dll %BUILDDIR% /S /E /K>NUL
+@rem xcopy ucrt_redist\api-ms-win*.dll %BUILDDIR%\DLLs /S /E /K>NUL
 copy thonny_python.ini %BUILDDIR%
 
 @echo ............... INSTALLING DEPS ...................................
 
+%BUILDDIR%\python -s -m pip install --no-warn-script-location --no-cache-dir wheel
+
 %BUILDDIR%\python -s -m pip install --no-cache-dir --no-binary mypy -r ..\requirements-regular-bundle.txt
 
 @echo ............... INSTALLING THONNY ...................................
-%BUILDDIR%\python -s -m pip install --pre --no-cache-dir thonny==3.3.14
+%BUILDDIR%\python -s -m pip install --no-warn-script-location --pre --no-cache-dir thonny
 
 @rem %BUILDDIR%\python -s -m pip install --pre --no-cache-dir thonny-postit==0.0.6
 @echo ............... installing py4t DEPS ...................................
 
-%BUILDDIR%\python -s -m pip install --no-cache-dir -r ..\requirements-py4t.txt
+%BUILDDIR%\python -s -m pip install --no-warn-script-location  --no-cache-dir -r ..\requirements-py4t.txt
 
 @echo ............... CLEANING PYTHON ............................
 @rem delete following 3 files to avoid confusion (user may think they're Thonny license etc.)
-del %BUILDDIR%\LICENSE.txt>NUL
-del %BUILDDIR%\README.txt>NUL
-del %BUILDDIR%\NEWS.txt>NUL
+move %BUILDDIR%\LICENSE.txt %BUILDDIR%\PYTHON_LICENSE.txt
+move %BUILDDIR%\README.txt %BUILDDIR%\PYTHON_README.txt
+move %BUILDDIR%\NEWS.txt %BUILDDIR%\PYTHON_NEWS.txt
 
 del /S "%BUILDDIR%\*.pyc">NUL
 @rem del /S "%BUILDDIR%\*.lib">NUL
@@ -45,7 +47,7 @@ del "%BUILDDIR%\Scripts\*" /Q>NUL
 
 copy .\pip.bat "%BUILDDIR%\Scripts\pip.bat"
 copy .\pip.bat "%BUILDDIR%\Scripts\pip3.bat"
-copy .\pip.bat "%BUILDDIR%\Scripts\pip3.7.bat"
+copy .\pip.bat "%BUILDDIR%\Scripts\pip3.10.bat"
 
 rmdir %BUILDDIR%\lib\test /S /Q>NUL
 
@@ -83,7 +85,7 @@ copy user_dir_template\configuration.ini %BUILDDIR%\Lib\site-packages\thonny\use
 set /p VERSION=<PY4T_VERSION
 "C:\Program Files (x86)\Inno Setup 6\iscc" /dInstallerPrefix=thonnyPy4t /dAppVer=%VERSION% /dSourceFolder=build inno_setup.iss > installer_building.log
 
-@echo ............... CREATING ZIP ..........................
+@rem echo ............... CREATING ZIP ..........................
 rem SET PATH=%PATH%;C:\Program Files\7-Zip
 rem cd %BUILDDIR%
 rem 7z a -tzip ..\dist\thonnyPy4t-%VERSION%-windows-portable.zip *
@@ -93,6 +95,10 @@ rem cd ..
 @rem %BUILDDIR%\python -s -m pip install --no-cache-dir -r ..\requirements-xxl-bundle.txt
 
 del /S "%BUILDDIR%\*.pyc">NUL
+
+@rem no point in keeping exe-s in Scripts, as they contain absolute path to the interpreter
+del "%BUILDDIR%\Scripts\*.exe" /Q>NUL
+del "%BUILDDIR%\Scripts\*.manifest" /Q>NUL
 
 @rem "C:\Program Files (x86)\Inno Setup 6\iscc" /dInstallerPrefix=thonny-xxl /dAppVer=%VERSION% /dSourceFolder=build inno_setup.iss > xxl_installer_building.log
 

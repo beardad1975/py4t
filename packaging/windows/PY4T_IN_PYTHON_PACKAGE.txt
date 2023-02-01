@@ -1,6 +1,6 @@
-friendly_traceback
+-- removed - ofriendly_traceback
 ComplexHTTPServer
-PyAudio
-SpeechRecognition
+-- pypi has new version - PyAudio
+-- pypi has new version - SpeechRecognition
 
 
