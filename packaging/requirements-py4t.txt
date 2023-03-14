@@ -1,9 +1,9 @@
 mediapipe == 0.9.0.1
-thonny-postit==1.0alpha1
+thonny-postit==1.0
 pie4t==0.1.0
 turtle4t==0.0.3
 threed4t==0.0.6
-cv4t==0.0.6
+cv4t==0.0.7
 serial4t==0.0.1
 speech4t==0.0.6
 audio4t==0.0.5

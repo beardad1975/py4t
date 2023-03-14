@@ -83,7 +83,18 @@ copy user_dir_template\configuration.ini %BUILDDIR%\Lib\site-packages\thonny\use
 
 @echo ............... CREATING INSTALLER ..........................
 set /p VERSION=<PY4T_VERSION
-"C:\Program Files (x86)\Inno Setup 6\iscc" /dInstallerPrefix=thonnyPy4t /dAppVer=%VERSION% /dSourceFolder=build inno_setup.iss > installer_building.log
+@rem "C:\Program Files (x86)\Inno Setup 6\iscc" /dInstallerPrefix=thonnyPy4t /dAppVer=%VERSION% /dSourceFolder=build inno_setup.iss > installer_building.log
+
+
+@echo ............... CREATING ZIP ..........................
+SET PATH=%PATH%;C:\Program Files\7-Zip
+copy ..\portable_thonny.ini %BUILDDIR%
+cd %BUILDDIR%
+7z a -tzip ..\dist\thonny-%VERSION%-windows-portable.zip *
+del portable_thonny.ini
+cd ..
+
+
 
 @rem echo ............... CREATING ZIP ..........................
 rem SET PATH=%PATH%;C:\Program Files\7-Zip

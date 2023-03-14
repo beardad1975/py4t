@@ -102,6 +102,22 @@ hide:
 
 <br/><br/><br/>
 
+
+## ✴️ 進階 - 機器學習應用(1)
+
+-----------------------
+
+???+ success  "進階 - 人臉偵測與臉部特徵"
+    
+    待建構……
+
+    :fontawesome-solid-long-arrow-alt-right: <a href="face_detection_and_landmarks/" target="_blank">「人臉偵測與臉部特徵」</a>
+
+
+
+<br/><br/><br/>
+
+
 ##
 
 ## 📚 教科書與Python(1)

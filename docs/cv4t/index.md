@@ -34,6 +34,7 @@ hide:
 | [影像格線](camera_slice.md)          | [![影像格線](camera_slice.jpg){width=150}](camera_slice.md)           |
 | [視訊分割](video_split.md)          | [![視訊分割](video_split.jpg){width=150}](video_split.md)           |
 | [電視牆](camera_tile.md)          | [![電視牆](camera_tile.jpg){width=150}](camera_tile.md)           |
+| [電腦視界](computer_vision.md)          | [![電腦視界](computer_vision.jpg){width=150}](computer_vision.md)           |
 
 
 ---------------
