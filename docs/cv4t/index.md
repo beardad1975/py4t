@@ -15,6 +15,8 @@ hide:
 
 視覺教學函式庫可以顯示攝影機畫面，並對擷取到的多維陣列，做一些如格線與電視牆的效果處理
 
+整合mediapipe函式庫，具備人臉偵測功能。
+
 <sup><sub>💬使用視訊功能時，電腦上需要有視訊攝影機</sub></sup>
 
 
@@ -35,6 +37,7 @@ hide:
 | [視訊分割](video_split.md)          | [![視訊分割](video_split.jpg){width=150}](video_split.md)           |
 | [電視牆](camera_tile.md)          | [![電視牆](camera_tile.jpg){width=150}](camera_tile.md)           |
 | [電腦視界](computer_vision.md)          | [![電腦視界](computer_vision.jpg){width=150}](computer_vision.md)           |
+| [看見人臉](face_detection.md)          | [![看見人臉](face_detection.jpg){width=150}](face_detection.md)           |
 
 
 ---------------

@@ -41,7 +41,7 @@ Py4t與其他初學者Python編輯器(如IDLE)比較起來，除了便利貼的�
 
 ### [ 👁️‍🗨️ 視覺影像 ](cv4t/index.md)
 
-: 整合Opencv-python與numpy函式庫，降低影像處理程式的學習門檻。
+: 整合Opencv-python與numpy函式庫，降低影像處理程式的學習門檻。整合mediapipe，具備人臉偵測功能。
 
 --------------------------------
 
