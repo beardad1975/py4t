@@ -38,6 +38,7 @@ hide:
 | [電視牆](camera_tile.md)          | [![電視牆](camera_tile.jpg){width=150}](camera_tile.md)           |
 | [電腦視界](computer_vision.md)          | [![電腦視界](computer_vision.jpg){width=150}](computer_vision.md)           |
 | [看見人臉](face_detection.md)          | [![看見人臉](face_detection.jpg){width=150}](face_detection.md)           |
+| [臉部網格](face_mesh.md)          | [![臉部網格](face_mesh.jpg){width=150}](face_mesh.md)           |
 
 
 ---------------
