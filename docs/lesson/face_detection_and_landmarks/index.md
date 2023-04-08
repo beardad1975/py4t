@@ -6,9 +6,19 @@ hide:
 # 📚 人臉偵測與臉部特徵
 
 
+: <iframe width="560" height="315" src="https://www.youtube.com/embed/l4fi-X5vZzI?start=30&amp;end=127" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+: <sup>(1分37秒, 資料來源:</sup>[^face_pareidolia]<sup>)</sup>
+
+[^face_pareidolia]: 為何我們總是會看到臉孔?, by 皮毛小知識  , [youtube連結](https://youtu.be/l4fi-X5vZzI) 
+
+
+
+
 
 <br/>
 <br/>
+<br/> 
 
 ----------------------------
 
@@ -49,6 +59,15 @@ hide:
 ##  📗  看見人臉(1)
 
 ----------------------------
+
+
+
+: <iframe width="560" height="315" src="https://www.youtube.com/embed/aircAruvnKk?start=0&amp;end=156" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+: <sup>(2分36秒,有中文字幕,資料來源:</sup>[^multilayer_perceptron]<sup>)</sup>
+
+[^multilayer_perceptron]: 究竟神經網路是什麼？ l 第一章 深度學習, By 3Blue1Brown  , [youtube連結](https://youtu.be/aircAruvnKk)
+
 
 
 ???+ example "範例程式 看見人臉 - - - - - - - (看見人臉 1/1 新檔)"
@@ -143,21 +162,105 @@ hide:
 
 ----------------------------
 
-##  📗  濾鏡貼紙
+##  📗  濾鏡貼紙(2)
+
+***特徵點與png去背圖***
 
 ----------------------------
 
+
+???+ example "範例程式 特徵點與png去背圖 - - - - - - - (濾鏡貼紙 1/2 新檔)"
+
+    === "🎦操作影片"
+    
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/JVkRS2VDHJg?start=0&amp;end=506" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        【長度 章節時間如下】
+
+        * 0:00 存檔、切換便利貼
+        * 0:51 攝影機程式
+        * 2:24 png去背圖
+        * 4:37 取得特徵點
+        * 6:26 png貼至特徵點
+
+    === "💻程式截圖"
+
+        ![程式截圖](snapshot/filter_sticker1.jpg)
+
+
 <br/>
 <br/>
 
 ----------------------------
 
-##  📘  AR面具
+***兩點轉換***
 
 ----------------------------
 
+
+???+ example "範例程式 兩點轉換 - - - - - - - (濾鏡貼紙 2/2 接續)"
+
+    === "🎦操作影片"
+    
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/JVkRS2VDHJg?start=513&amp;end=704" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+        【長度 章節時間如下】
+
+        * 8:33 兩點轉換
+
+    === "💻程式截圖"
+
+        ![程式截圖](snapshot/filter_sticker2.jpg)
+
+
 <br/>
 <br/>
 
+
+----------------------------
+
+##  📘  AR面具(1)
+
+----------------------------
+
+???+ example "範例程式 AR面具 - - - - - - - (AR面具 1/1 新檔)"
+
+    === "🎦操作影片"
+    
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/-rWygtI_UGo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+        【長度 章節時間如下】
+
+        * 0:00 存檔、切換便利貼
+        * 0:39 攝影機程式
+        * 2:15 臉部偵測
+        * 4:08 載入面具資料
+        * 6:18 面具轉換
+
+    === "💻程式截圖"
+
+        ![程式截圖](snapshot/ar_mask.jpg)
+
+
+
+<br/>
+<br/>
+
+
+----------------------------
+
+##  📙 結語
+
+----------------------------
+
+
+
+: <iframe width="560" height="315" src="https://www.youtube.com/embed/qbckDLoklZE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+: <sup>(7分31秒, 資料來源:</sup>[^face_recognition_issue]<sup>)</sup>
+
+[^face_recognition_issue]: 【民視全球新聞】人臉辨識雙面刃 用之不當恐引社會危機, by 民視新聞網  , [youtube連結](https://youtu.be/qbckDLoklZE) 
 
 
