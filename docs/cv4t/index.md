@@ -39,7 +39,11 @@ hide:
 | [電腦視界](computer_vision.md)          | [![電腦視界](computer_vision.jpg){width=150}](computer_vision.md)           |
 | [看見人臉](face_detection.md)          | [![看見人臉](face_detection.jpg){width=150}](face_detection.md)           |
 | [臉部網格](face_mesh.md)          | [![臉部網格](face_mesh.jpg){width=150}](face_mesh.md)           |
-
+| [人臉輸入數字](face_input_number.md)          | [![人臉輸入數字](face_input_number.jpg){width=150}](face_input_number.md)           |
+| [濾鏡貼紙](filter_sticker.md)          | [![濾鏡貼紙](filter_sticker.jpg){width=150}](filter_sticker.md)           |
+| [濾鏡貼紙(多種切換)](filter_sticker_switch.md)          | [![濾鏡貼紙(多種切換)](filter_sticker_switch.jpg){width=150}](filter_sticker_switch.md)           |
+| [AR面具](ar_mask.md)          | [![AR面具](ar_mask.jpg){width=150}](ar_mask.md)           |
+| [AR面具(多種切換)](ar_mask_switch.md)          | [![AR面具(多種切換)](ar_mask_switch.jpg){width=150}](ar_mask_switch.md)           |
 
 ---------------
 
