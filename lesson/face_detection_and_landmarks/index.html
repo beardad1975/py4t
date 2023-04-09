@@ -1230,15 +1230,22 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
-    📗  濾鏡貼紙
+  <a href="#2_1" class="md-nav__link">
+    📗  濾鏡貼紙(2)
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#ar" class="md-nav__link">
-    📘  AR面具
+  <a href="#ar1" class="md-nav__link">
+    📘  AR面具(1)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    📙 科技社會議題
   </a>
   
 </li>
@@ -1257,11 +1264,73 @@
                 
 
 <h1 id="_1">📚 人臉偵測與臉部特徵</h1>
+<dl>
+<dd>腦筋急轉彎，看看下面的照片，你看到了什麼？</dd>
+<dd><img alt="pareidolia_scene" src="pareidolia_scene.jpg" /></dd>
+<dd><sup>(資料來源:</sup><sup id="fnref:pareidolia_scene"><a class="footnote-ref" href="#fn:pareidolia_scene">1</a></sup><sup>)</sup></dd>
+<dd>這種心理現象一般稱為空想性錯視(pareidolia)。</dd>
+<dd>那什麼是空想性錯視呢？我們可以透過下方影片來瞭解：</dd>
+<dd><iframe width="560" height="315" src="https://www.youtube.com/embed/l4fi-X5vZzI?start=30&amp;end=127" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></dd>
+<dd><sup>(1分37秒, 資料來源:</sup><sup id="fnref:face_pareidolia"><a class="footnote-ref" href="#fn:face_pareidolia">2</a></sup><sup>)</sup></dd>
+<dd>空想性錯視是人類大腦與生俱來的功能，讓我們能認出人臉。你知道嗎？電腦在相關軟硬體的搭配下，也可以看出人臉呢！在這個課程中，讓我們一起來探索人臉偵測的資訊科技，及其相關應用。</dd>
+</dl>
+<details class="info">
+<summary>關於視覺影像</summary>
+<dl>
+<dd>本課程使用到整合後的教學函式庫，如下連結。</dd>
+<dd><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></span> <a href="../../cv4t/" target="_blank">Py4t 視覺影像 說明、範例程式</a></dd>
+</dl>
+</details>
 <p><br/>
-<br/></p>
+<br/>
+<br/> </p>
 <hr />
 <h2 id="1">📙 電腦視界(1)</h2>
 <hr />
+<dl>
+<dd>在此，我們要來了解，當電腦在觀看週遭環境時，它到底看到了什麼？</dd>
+<dd>首先，電腦以視訊攝影機做為眼睛，透過攝影機中的感光電子元件，將拍攝到的影像轉換成由0與1組成的數位訊號，後續可以讓它做各種運算處理並顯示在螢幕上。</dd>
+<dt><br/></dt>
+<dd>
+<p><img alt="computuer_vision_flow" src="computuer_vision_flow.png" /></p>
+</dd>
+<dt><br/></dt>
+<dd>
+<p>由上圖中可以得知，影像在電腦的記憶體中，會以陣列的資料結構存放，那什麼是陣列呢？</p>
+</dd>
+<dd>
+<p>陣列(Array)是一種<strong>資料結構</strong>，是由<strong>相同資料類型</strong>(整數、字串或浮點數等)元素所組成。</p>
+</dd>
+<dd>
+<p>常見的陣列種類可分成1、2、3維陣列，讓大量資料的排列方式更多元，在生活中都有實際的應用情形。</p>
+</dd>
+<dd>
+<p><img alt="1維陣列" src="parking_1d.jpg" /></p>
+</dd>
+<dd>
+<p><img alt="2維陣列" src="parking_2d.jpg" /></p>
+</dd>
+<dd>
+<p><img alt="3維陣列" src="parking_3d.jpg" /></p>
+</dd>
+<dd>
+<p><sup>(資料來源:</sup><sup id="fnref:parking_array"><a class="footnote-ref" href="#fn:parking_array">3</a></sup><sup>)</sup></p>
+</dd>
+<dt><br/></dt>
+<dt><br/></dt>
+<dd>
+<p>如果我們想要對影像做分析或處理，就必須要處理影像的3維陣列，利用索引的方式可以讓我們指定陣列的某一部分，在本課程中會使用numpy函式庫的多維陣列，其索引語法如下：</p>
+</dd>
+<dd>
+<p><img alt="3d_array_syntax" src="3d_array_syntax.png" /></p>
+</dd>
+<dt><br/></dt>
+<dt><br/></dt>
+<dd>如果一次只能索引一個點的話，當我們想要一次存取一塊陣列，在程式撰寫時會變得更複雜。numpy函式庫提供切片(slicing)的語法，讓我們可以很方便的索引到一塊陣列。</dd>
+<dd><img alt="3d_array_slice" src="3d_array_slice.png" /></dd>
+</dl>
+<p><br/></p>
+<p>接著讓我們來實作看看。</p>
 <details class="example" open="open">
 <summary>範例程式 電腦視界 - - - - - - - (電腦視界 1/1 新檔)</summary>
 <div class="tabbed-set tabbed-alternate" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">🎦操作影片</label><label for="__tabbed_1_2">💻程式截圖</label></div>
@@ -1290,6 +1359,51 @@
 <hr />
 <h2 id="1_1">📗  看見人臉(1)</h2>
 <hr />
+<dl>
+<dd>想要讓電腦認出人臉，我們可以透過人臉偵測器來達成。</dd>
+<dd>首先，設置人臉偵測器，之後將代表影像的3維陣列做為偵測器的輸入，從結果中，我們就可以得到人臉的資訊。</dd>
+<dt><br/></dt>
+<dd>
+<p><img alt="face_detection_flow" src="face_detection_flow.png" /></p>
+</dd>
+<dt><br/></dt>
+<dd>
+<p>人臉偵測器感覺起來很像神秘的黑盒子，它的內部到底是什麼呢？</p>
+</dd>
+<dd>
+<p>這個偵測器，其實是由全球資料科學家所研究的機器學習(Machine Learning)的結果之一，特別是這幾年快速發展的深度學習(Deep Learning)，由於這個主題相當的龐大與複雜，我們僅會透過下方的影片(手寫數字辨識)，做為對深度學習的基本認識。</p>
+</dd>
+<dt><br/></dt>
+<dd>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/aircAruvnKk?start=0&amp;end=156" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+</dd>
+<dd>
+<p><sup>(2分36秒,有中文字幕,資料來源:</sup><sup id="fnref:multilayer_perceptron"><a class="footnote-ref" href="#fn:multilayer_perceptron">4</a></sup><sup>)</sup></p>
+</dd>
+<dt><br/></dt>
+<dd>
+<p>資料科學家從人類的神經元及神經系統得到靈感，建構出以數學及電腦程式組成的人工神經網路。</p>
+</dd>
+<dd>
+<p><img alt="human_neuron" src="human_neuron.jpg" /></p>
+</dd>
+<dd>
+<p><sup>(資料來源:</sup><sup id="fnref:human_neuron"><a class="footnote-ref" href="#fn:human_neuron">5</a></sup><sup>)</sup></p>
+</dd>
+<dt><br/></dt>
+<dd>
+<p>人臉偵測器，是由深度學習方式所訓練出來的人工神經網路。其最簡單的型式是多層感知器，由每一層中的神經元，互相關連，組成複雜的神經網路來做出如同人類能力的各項辨識。</p>
+</dd>
+<dt><br/></dt>
+<dd>
+<p><img alt="mlp_reconize_digit" src="mlp_reconize_digit.jpg" /></p>
+</dd>
+<dt><br/></dt>
+<dd>
+<p>接著讓我們來實作看看。</p>
+</dd>
+</dl>
+<p><br/></p>
 <details class="example" open="open">
 <summary>範例程式 看見人臉 - - - - - - - (看見人臉 1/1 新檔)</summary>
 <div class="tabbed-set tabbed-alternate" data-tabs="2:2"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio" /><input id="__tabbed_2_2" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="__tabbed_2_1">🎦操作影片</label><label for="__tabbed_2_2">💻程式截圖</label></div>
@@ -1317,6 +1431,22 @@
 <h2 id="2">📘  臉部網格(2)</h2>
 <p><strong><em>更多臉部特徵</em></strong></p>
 <hr />
+<dl>
+<dd>在電腦科學中，臉部特徵(face landmark)是指臉部一組組容易尋找的點，眼睛、鼻子、嘴脣等。臉部特徵會有給定的編號。</dd>
+<dd><img alt="face_landmark_photos" src="face_landmark_photos.jpg" /></dd>
+<dd><sup>(資料來源:</sup><sup id="fnref:face_landmark_photos"><a class="footnote-ref" href="#fn:face_landmark_photos">6</a></sup><sup>)</sup></dd>
+<dt><br/></dt>
+<dd>
+<p>有了臉部特徵之後，將不同組的特徵點連結起來，可以得到臉部網格或是臉部輪廓等效果。</p>
+</dd>
+<dd>
+<p><img alt="face_mesh_drawing" src="face_mesh_drawing.jpg" /></p>
+</dd>
+<dt><br/></dt>
+<dd>
+<p>一起來動手實作。</p>
+</dd>
+</dl>
 <details class="example" open="open">
 <summary>範例程式 更多臉部特徵 - - - - - - - (臉部網格 1/2 新檔)</summary>
 <div class="tabbed-set tabbed-alternate" data-tabs="3:2"><input checked="checked" id="__tabbed_3_1" name="__tabbed_3" type="radio" /><input id="__tabbed_3_2" name="__tabbed_3" type="radio" /><div class="tabbed-labels"><label for="__tabbed_3_1">🎦操作影片</label><label for="__tabbed_3_2">💻程式截圖</label></div>
@@ -1363,18 +1493,123 @@
 </div>
 </div>
 </details>
+<details class="info">
+<summary>進階範例 人臉輸入數字</summary>
+<dl>
+<dd>人臉數字輸入，眨右眼增加數字，眨左眼減少數字，開口輸入數字</dd>
+<dd><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></span> <a href="/cv4t/face_input_number/" target="_blank">進階範例 人臉輸入數字</a></dd>
+</dl>
+</details>
 <p><br/>
 <br/></p>
 <hr />
-<h2 id="_2">📗  濾鏡貼紙</h2>
+<h2 id="2_1">📗  濾鏡貼紙(2)</h2>
+<p><strong><em>特徵點與png去背圖</em></strong></p>
 <hr />
+<details class="example" open="open">
+<summary>範例程式 特徵點與png去背圖 - - - - - - - (濾鏡貼紙 1/2 新檔)</summary>
+<div class="tabbed-set tabbed-alternate" data-tabs="5:2"><input checked="checked" id="__tabbed_5_1" name="__tabbed_5" type="radio" /><input id="__tabbed_5_2" name="__tabbed_5" type="radio" /><div class="tabbed-labels"><label for="__tabbed_5_1">🎦操作影片</label><label for="__tabbed_5_2">💻程式截圖</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/JVkRS2VDHJg?start=0&amp;end=506" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p>【長度 章節時間如下】</p>
+<ul>
+<li>0:00 存檔、切換便利貼</li>
+<li>0:51 攝影機程式</li>
+<li>2:24 png去背圖</li>
+<li>4:37 取得特徵點</li>
+<li>6:26 png貼至特徵點</li>
+</ul>
+</div>
+<div class="tabbed-block">
+<p><img alt="程式截圖" src="snapshot/filter_sticker1.jpg" /></p>
+</div>
+</div>
+</div>
+</details>
 <p><br/>
 <br/></p>
 <hr />
-<h2 id="ar">📘  AR面具</h2>
+<p><strong><em>兩點轉換</em></strong></p>
 <hr />
+<details class="example" open="open">
+<summary>範例程式 兩點轉換 - - - - - - - (濾鏡貼紙 2/2 接續)</summary>
+<div class="tabbed-set tabbed-alternate" data-tabs="6:2"><input checked="checked" id="__tabbed_6_1" name="__tabbed_6" type="radio" /><input id="__tabbed_6_2" name="__tabbed_6" type="radio" /><div class="tabbed-labels"><label for="__tabbed_6_1">🎦操作影片</label><label for="__tabbed_6_2">💻程式截圖</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/JVkRS2VDHJg?start=513&amp;end=704" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p>【長度 章節時間如下】</p>
+<ul>
+<li>8:33 兩點轉換</li>
+</ul>
+</div>
+<div class="tabbed-block">
+<p><img alt="程式截圖" src="snapshot/filter_sticker2.jpg" /></p>
+</div>
+</div>
+</div>
+</details>
 <p><br/>
 <br/></p>
+<hr />
+<h2 id="ar1">📘  AR面具(1)</h2>
+<hr />
+<details class="example" open="open">
+<summary>範例程式 AR面具 - - - - - - - (AR面具 1/1 新檔)</summary>
+<div class="tabbed-set tabbed-alternate" data-tabs="7:2"><input checked="checked" id="__tabbed_7_1" name="__tabbed_7" type="radio" /><input id="__tabbed_7_2" name="__tabbed_7" type="radio" /><div class="tabbed-labels"><label for="__tabbed_7_1">🎦操作影片</label><label for="__tabbed_7_2">💻程式截圖</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/-rWygtI_UGo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p>【長度 章節時間如下】</p>
+<ul>
+<li>0:00 存檔、切換便利貼</li>
+<li>0:39 攝影機程式</li>
+<li>2:15 臉部偵測</li>
+<li>4:08 載入面具資料</li>
+<li>6:18 面具轉換</li>
+</ul>
+</div>
+<div class="tabbed-block">
+<p><img alt="程式截圖" src="snapshot/ar_mask.jpg" /></p>
+</div>
+</div>
+</div>
+</details>
+<p><br/>
+<br/></p>
+<hr />
+<h2 id="_2">📙 科技社會議題</h2>
+<hr />
+<dl>
+<dd><iframe width="560" height="315" src="https://www.youtube.com/embed/qbckDLoklZE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></dd>
+<dd><sup>(7分31秒, 資料來源:</sup><sup id="fnref:face_recognition_issue"><a class="footnote-ref" href="#fn:face_recognition_issue">7</a></sup><sup>)</sup></dd>
+</dl>
+<div class="footnote">
+<hr />
+<ol>
+<li id="fn:pareidolia_scene">
+<p>空想性錯視 維基百科, https://zh.wikipedia.org/zh-tw/%E7%A9%BA%E6%83%B3%E6%80%A7%E9%94%99%E8%A7%86&#160;<a class="footnote-backref" href="#fnref:pareidolia_scene" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+<li id="fn:face_pareidolia">
+<p>為何我們總是會看到臉孔?, by 皮毛小知識  , <a href="https://youtu.be/l4fi-X5vZzI">youtube連結</a>&#160;<a class="footnote-backref" href="#fnref:face_pareidolia" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+</li>
+<li id="fn:parking_array">
+<p>圖片來源：康軒教科書 國中二上科技領域資訊科技課本第52頁圖片&#160;<a class="footnote-backref" href="#fnref:parking_array" title="Jump back to footnote 3 in the text">&#8617;</a></p>
+</li>
+<li id="fn:multilayer_perceptron">
+<p>究竟神經網路是什麼？ l 第一章 深度學習, By 3Blue1Brown  , <a href="https://youtu.be/aircAruvnKk">youtube連結</a>&#160;<a class="footnote-backref" href="#fnref:multilayer_perceptron" title="Jump back to footnote 4 in the text">&#8617;</a></p>
+</li>
+<li id="fn:human_neuron">
+<p>神經元 維基百科, https://zh.wikipedia.org/zh-tw/%E7%A5%9E%E7%B6%93%E5%85%83&#160;<a class="footnote-backref" href="#fnref:human_neuron" title="Jump back to footnote 5 in the text">&#8617;</a></p>
+</li>
+<li id="fn:face_landmark_photos">
+<p>Deep Recurrent Regression for Facial Landmark Detection, https://arxiv.org/pdf/1510.09083.pdf&#160;<a class="footnote-backref" href="#fnref:face_landmark_photos" title="Jump back to footnote 6 in the text">&#8617;</a></p>
+</li>
+<li id="fn:face_recognition_issue">
+<p>【民視全球新聞】人臉辨識雙面刃 用之不當恐引社會危機, by 民視新聞網  , <a href="https://youtu.be/qbckDLoklZE">youtube連結</a>&#160;<a class="footnote-backref" href="#fnref:face_recognition_issue" title="Jump back to footnote 7 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>
 
               
             </article>
