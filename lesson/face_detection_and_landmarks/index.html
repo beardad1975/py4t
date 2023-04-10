@@ -1288,7 +1288,7 @@
 <h2 id="1">📙 電腦視界(1)</h2>
 <hr />
 <dl>
-<dd>在此，我們要來了解，當電腦在觀看週遭環境時，它到底看到了什麼？</dd>
+<dd>在此，我們要來了解，當電腦在觀看週遭環境時，到底看到了什麼？</dd>
 <dd>首先，電腦以視訊攝影機做為眼睛，透過攝影機中的感光電子元件，將拍攝到的影像轉換成由0與1組成的數位訊號，後續可以讓它做各種運算處理並顯示在螢幕上。</dd>
 <dt><br/></dt>
 <dd>
@@ -1378,7 +1378,7 @@
 <p><iframe width="560" height="315" src="https://www.youtube.com/embed/aircAruvnKk?start=0&amp;end=156" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 </dd>
 <dd>
-<p><sup>(2分36秒,有中文字幕,資料來源:</sup><sup id="fnref:multilayer_perceptron"><a class="footnote-ref" href="#fn:multilayer_perceptron">4</a></sup><sup>)</sup></p>
+<p><sup>(2分36秒,請自行開啟中文字幕,資料來源:</sup><sup id="fnref:multilayer_perceptron"><a class="footnote-ref" href="#fn:multilayer_perceptron">4</a></sup><sup>)</sup></p>
 </dd>
 <dt><br/></dt>
 <dd>
@@ -1432,12 +1432,16 @@
 <p><strong><em>更多臉部特徵</em></strong></p>
 <hr />
 <dl>
-<dd>在電腦科學中，臉部特徵(face landmark)是指臉部一組組容易尋找的點，眼睛、鼻子、嘴脣等。臉部特徵會有給定的編號。</dd>
+<dd>在電腦科學中，臉部特徵(face landmark)是指臉部一組組容易尋找的點，眼睛、鼻子、嘴脣等。</dd>
 <dd><img alt="face_landmark_photos" src="face_landmark_photos.jpg" /></dd>
 <dd><sup>(資料來源:</sup><sup id="fnref:face_landmark_photos"><a class="footnote-ref" href="#fn:face_landmark_photos">6</a></sup><sup>)</sup></dd>
 <dt><br/></dt>
 <dd>
-<p>有了臉部特徵之後，將不同組的特徵點連結起來，可以得到臉部網格或是臉部輪廓等效果。</p>
+<p>各個臉部特徵點會有給定的編號，本課程所使用的臉部網格位置及編號(468點，來自mediapipe)，詳見 <a href="face_mesh.png">臉部特徵點編號圖</a>。</p>
+</dd>
+<dt><br/></dt>
+<dd>
+<p>有了臉部特徵點之後，將不同組的特徵點連結起來，可以得到臉部網格或是臉部輪廓等效果，看起來是不是很有趣啊。</p>
 </dd>
 <dd>
 <p><img alt="face_mesh_drawing" src="face_mesh_drawing.jpg" /></p>
@@ -1474,6 +1478,32 @@
 <hr />
 <p><strong><em>臉部動作</em></strong></p>
 <hr />
+<dl>
+<dd>霍金(Stephen William Hawking, 1942-2018)是世界知名的英國物理學家，他提出的黑洞理論，量子力學…等，在科學上有許多貢獻。他也曾出版過知名的科普書籍「時間簡史：從大爆炸到黑洞」。</dd>
+<dd>霍金患有漸凍人症，從二十多歲開始，必須要使用枴杖與輪椅才能行走，病情也隨著時間逐漸惡化至嚴重。在這樣的環境下，他是如何撰寫研究論文與書本寫作的呢？讓我們一起來認識霍金的高科技輪椅。</dd>
+<dt><br/></dt>
+<dd>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/18HzCMecF4g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+</dd>
+<dd>
+<p><sup>(3分08秒,資料來源:</sup><sup id="fnref:wheelchair_technology"><a class="footnote-ref" href="#fn:wheelchair_technology">7</a></sup><sup>)</sup></p>
+</dd>
+<dt><br/></dt>
+<dd>
+<p>那我們如何使用人臉偵測關鍵點的技術，來幫助因行動不便，而無法使用現有輸入方式的人呢？</p>
+</dd>
+<dd>
+<p>我們可以嘗試用臉部動作來做出打字輸入的簡易程式，比如說，使用嘴脣上的2個關鍵點，並計算距離後，就可以偵測開口的動作。有了關鍵的偵測開口動作，未來就可以將程式擴展為具有文字輸入的功能。</p>
+</dd>
+<dt><br/></dt>
+<dd>
+<p><img alt="mouth_opening_detection" src="mouth_opening_detection.jpg" /></p>
+</dd>
+<dt><br/></dt>
+<dd>
+<p>一起來實作看看，偵測開口動作的程式。</p>
+</dd>
+</dl>
 <details class="example" open="open">
 <summary>範例程式 臉部動作 - - - - - - - (臉部網格 2/2 接續)</summary>
 <div class="tabbed-set tabbed-alternate" data-tabs="4:2"><input checked="checked" id="__tabbed_4_1" name="__tabbed_4" type="radio" /><input id="__tabbed_4_2" name="__tabbed_4" type="radio" /><div class="tabbed-labels"><label for="__tabbed_4_1">🎦操作影片</label><label for="__tabbed_4_2">💻程式截圖</label></div>
@@ -1506,6 +1536,52 @@
 <h2 id="2_1">📗  濾鏡貼紙(2)</h2>
 <p><strong><em>特徵點與png去背圖</em></strong></p>
 <hr />
+<dl>
+<dd>從臉部網格所取得的特徵點，多是以圖片座標xy來表達，但這個座標系統與我們在數學課所學的平面直角座標略有不同，簡單來說，是將第一象限做上下翻轉而來，每個座標值沒有負數，且均為整數。</dd>
+<dt><br/></dt>
+<dd>
+<p><img alt="image_coordinate" src="image_coordinate.png" /></p>
+</dd>
+<dt><br/></dt>
+<dd>
+<p>臉部特徵點還可以有什麼應用呢？我們可以做出類似IG的濾鏡貼紙效果，幫相機裡的人增加卡通裝飾。</p>
+</dd>
+<dd>
+<p>想要達到這個功能，必須要能夠將一張圖，覆疊至另一張圖上。為了有更好的覆疊效果，我們需要認識alpha(阿爾法)通道。</p>
+</dd>
+<dd>
+<p><img alt="rgba_channels" src="rgba_channels.jpg" /></p>
+</dd>
+<dd>
+<p><sup>(資料來源:</sup><sup id="fnref3:alpha_channel"><a class="footnote-ref" href="#fn:alpha_channel">8</a></sup><sup>)</sup></p>
+</dd>
+<dt><br/></dt>
+<dd>
+<p>通常電腦圖片是以Red、Green、Blue三個通道。但有些圖片具有RGBA四個通道(如PNG圖檔)，A通道也稱為alpha通道，此通道代表的不是顏色，而是不透明度，如下圖所示，白色部份是不透明(值為255)，黑色的部份是透明(值為0)。</p>
+</dd>
+<dt><br/></dt>
+<dd>
+<p><img alt="alpha_channel_effect" src="alpha_channel_effect.jpg" /></p>
+</dd>
+<dd>
+<p><sup>(資料來源:</sup><sup id="fnref2:alpha_channel"><a class="footnote-ref" href="#fn:alpha_channel">8</a></sup><sup>)</sup></p>
+</dd>
+</dl>
+<p><br/></p>
+<p>從下面的影片中，可以看出alpha通道的效果，可以讓圖片的背景去除。</p>
+<dl>
+<dt><br/></dt>
+<dd>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/s3r5Ezzv3Rs?start=9&amp;end=29" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+</dd>
+<dd>
+<p><sup>(20秒,資料來源:</sup><sup id="fnref:alpha_channel"><a class="footnote-ref" href="#fn:alpha_channel">8</a></sup><sup>)</sup></p>
+</dd>
+<dt><br/></dt>
+<dd>
+<p>接著，我們會使用png去背圖來覆疊到攝影機的視訊上，一起來實作看看。</p>
+</dd>
+</dl>
 <details class="example" open="open">
 <summary>範例程式 特徵點與png去背圖 - - - - - - - (濾鏡貼紙 1/2 新檔)</summary>
 <div class="tabbed-set tabbed-alternate" data-tabs="5:2"><input checked="checked" id="__tabbed_5_1" name="__tabbed_5" type="radio" /><input id="__tabbed_5_2" name="__tabbed_5" type="radio" /><div class="tabbed-labels"><label for="__tabbed_5_1">🎦操作影片</label><label for="__tabbed_5_2">💻程式截圖</label></div>
@@ -1532,6 +1608,37 @@
 <hr />
 <p><strong><em>兩點轉換</em></strong></p>
 <hr />
+<dl>
+<dd>在上一個範例中，雖然有將裝飾的png圖貼上，但實際運行時，發現了一些問題，就是當自己的臉在不同的遠近及角度時，裝飾圖都不會改變，造成比例大小及角度的不一致，這要怎麼克服呢？</dd>
+<dd>在這裡，我們會採用已經經過簡化後的兩點transform(轉換)來解決這個問題。首先，利用繪圖軟體來找出裝飾圖png上的來源點1及來源點2的座標。再來從 <a href="face_mesh.png">臉部特徵點編號圖</a> 中找出目標點1及目標點2的編號，經由兩點transform，裝飾圖png就會適當的縮放與旋轉，產生位置吻合的轉換png陣列。</dd>
+<dt><br/></dt>
+<dd>
+<p><img alt="two_points_transformation" src="two_points_transformation.png" /></p>
+</dd>
+</dl>
+<details class="info">
+<summary>關於兩點transform的原理與實作</summary>
+<dl>
+<dd>兩點轉換的原理，需使用到平移、旋轉及放大的轉換矩陣。</dd>
+<dd><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></span> <a href="https://en.wikipedia.org/wiki/Transformation_matrix#Other_kinds_of_transformations" target="_blank">transformation matrix</a></dd>
+<dd>兩點轉換的原始碼，使用到numpy及opencv，來完成需要的矩陣運算</dd>
+<dd><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></span> <a href="https://github.com/beardad1975/cv4t/blob/main/cv4t/draw_lib.py#L173" target="_blank">兩點轉換原始碼</a></dd>
+</dl>
+</details>
+<dl>
+<dt><br/></dt>
+<dt><br/></dt>
+<dd>
+<p>有了轉換後的裝飾圖png，再把它覆疊到原本的攝影機影像上，就可以做出如IG的濾鏡貼紙效果了。</p>
+</dd>
+<dd>
+<p><img alt="filter_sticker_effect" src="filter_sticker_effect.png" /></p>
+</dd>
+<dt><br/></dt>
+<dd>
+<p>動手實作看看。</p>
+</dd>
+</dl>
 <details class="example" open="open">
 <summary>範例程式 兩點轉換 - - - - - - - (濾鏡貼紙 2/2 接續)</summary>
 <div class="tabbed-set tabbed-alternate" data-tabs="6:2"><input checked="checked" id="__tabbed_6_1" name="__tabbed_6" type="radio" /><input id="__tabbed_6_2" name="__tabbed_6" type="radio" /><div class="tabbed-labels"><label for="__tabbed_6_1">🎦操作影片</label><label for="__tabbed_6_2">💻程式截圖</label></div>
@@ -1549,11 +1656,38 @@
 </div>
 </div>
 </details>
+<details class="info">
+<summary>進階範例 濾鏡貼紙(多種切換)</summary>
+<dl>
+<dd>使用空白鍵切換不同的造型貼紙</dd>
+<dd><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></span> <a href="/cv4t/ar_mask_switch/" target="_blank">進階範例 濾鏡貼紙(多種切換)</a></dd>
+</dl>
+</details>
 <p><br/>
 <br/></p>
 <hr />
 <h2 id="ar1">📘  AR面具(1)</h2>
 <hr />
+<dl>
+<dd><iframe width="560" height="315" src="https://www.youtube.com/embed/NEasf4Q0xDA?start=0&amp;end=55" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></dd>
+<dd><sup>(55秒,資料來源:</sup><sup id="fnref:ar_mr_vr"><a class="footnote-ref" href="#fn:ar_mr_vr">9</a></sup><sup>)</sup></dd>
+<dt><br/></dt>
+<dd>
+<p><img alt="mask_annotation" src="mask_annotation.jpg" /></p>
+</dd>
+<dt><br/></dt>
+<dd>
+<p><img alt="csv_annotation" src="csv_annotation.jpg" /></p>
+</dd>
+</dl>
+<p><br/></p>
+<details class="info">
+<summary>關於面具transform的原理</summary>
+<dl>
+<dd><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></span> <a href="https://learnopencv.com/create-snapchat-instagram-filters-using-mediapipe/" target="_blank">面具transform的原理</a></dd>
+</dl>
+</details>
+<p><br/></p>
 <details class="example" open="open">
 <summary>範例程式 AR面具 - - - - - - - (AR面具 1/1 新檔)</summary>
 <div class="tabbed-set tabbed-alternate" data-tabs="7:2"><input checked="checked" id="__tabbed_7_1" name="__tabbed_7" type="radio" /><input id="__tabbed_7_2" name="__tabbed_7" type="radio" /><div class="tabbed-labels"><label for="__tabbed_7_1">🎦操作影片</label><label for="__tabbed_7_2">💻程式截圖</label></div>
@@ -1575,6 +1709,13 @@
 </div>
 </div>
 </details>
+<details class="info">
+<summary>進階範例 AR面具(多種切換)</summary>
+<dl>
+<dd>每次重新偵測臉部時，即會切換</dd>
+<dd><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></span> <a href="/cv4t/ar_mask_switch/" target="_blank">進階範例 AR面具(多種切換)</a></dd>
+</dl>
+</details>
 <p><br/>
 <br/></p>
 <hr />
@@ -1582,7 +1723,7 @@
 <hr />
 <dl>
 <dd><iframe width="560" height="315" src="https://www.youtube.com/embed/qbckDLoklZE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></dd>
-<dd><sup>(7分31秒, 資料來源:</sup><sup id="fnref:face_recognition_issue"><a class="footnote-ref" href="#fn:face_recognition_issue">7</a></sup><sup>)</sup></dd>
+<dd><sup>(7分31秒, 資料來源:</sup><sup id="fnref:face_recognition_issue"><a class="footnote-ref" href="#fn:face_recognition_issue">10</a></sup><sup>)</sup></dd>
 </dl>
 <div class="footnote">
 <hr />
@@ -1605,8 +1746,17 @@
 <li id="fn:face_landmark_photos">
 <p>Deep Recurrent Regression for Facial Landmark Detection, https://arxiv.org/pdf/1510.09083.pdf&#160;<a class="footnote-backref" href="#fnref:face_landmark_photos" title="Jump back to footnote 6 in the text">&#8617;</a></p>
 </li>
+<li id="fn:wheelchair_technology">
+<p>霍金的天价轮椅有何黑科技？眨眨眼就能说话，轮椅界的劳斯莱斯！, By 科普記  , <a href="https://youtu.be/18HzCMecF4g">youtube連結</a>&#160;<a class="footnote-backref" href="#fnref:wheelchair_technology" title="Jump back to footnote 7 in the text">&#8617;</a></p>
+</li>
+<li id="fn:alpha_channel">
+<p>Export with ALPHA Channel to make your video Transparent - Premiere Pro, by storysium, https://youtu.be/s3r5Ezzv3Rs&#160;<a class="footnote-backref" href="#fnref:alpha_channel" title="Jump back to footnote 8 in the text">&#8617;</a><a class="footnote-backref" href="#fnref2:alpha_channel" title="Jump back to footnote 8 in the text">&#8617;</a><a class="footnote-backref" href="#fnref3:alpha_channel" title="Jump back to footnote 8 in the text">&#8617;</a></p>
+</li>
+<li id="fn:ar_mr_vr">
+<p>【AR、VR、MR 哪裡不一樣 ?】跨出虛擬走入現實：「AR擴增實境」, By 科技大觀園  , <a href="https://youtu.be/NEasf4Q0xDA">youtube連結</a>&#160;<a class="footnote-backref" href="#fnref:ar_mr_vr" title="Jump back to footnote 9 in the text">&#8617;</a></p>
+</li>
 <li id="fn:face_recognition_issue">
-<p>【民視全球新聞】人臉辨識雙面刃 用之不當恐引社會危機, by 民視新聞網  , <a href="https://youtu.be/qbckDLoklZE">youtube連結</a>&#160;<a class="footnote-backref" href="#fnref:face_recognition_issue" title="Jump back to footnote 7 in the text">&#8617;</a></p>
+<p>【民視全球新聞】人臉辨識雙面刃 用之不當恐引社會危機, by 民視新聞網  , <a href="https://youtu.be/qbckDLoklZE">youtube連結</a>&#160;<a class="footnote-backref" href="#fnref:face_recognition_issue" title="Jump back to footnote 10 in the text">&#8617;</a></p>
 </li>
 </ol>
 </div>
