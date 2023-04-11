@@ -6,7 +6,7 @@ hide:
 # 📚 人臉偵測與臉部特徵
 
 
-: 腦筋急轉彎，看看下面的照片，你看到了什麼？
+: 從下面的照片中，你看到了什麼？
 
 : ![pareidolia_scene](pareidolia_scene.jpg)
 
@@ -14,8 +14,9 @@ hide:
 
 [^pareidolia_scene]: 空想性錯視 維基百科, https://zh.wikipedia.org/zh-tw/%E7%A9%BA%E6%83%B3%E6%80%A7%E9%94%99%E8%A7%86
 
+<br/>
 
-: 這種心理現象一般稱為空想性錯視(pareidolia)。
+: 是不是很直覺讓我們聯想到人臉呢？這種心理現象一般稱為空想性錯視(pareidolia)。
 
 
 : 那什麼是空想性錯視呢？我們可以透過下方影片來瞭解：
@@ -84,7 +85,7 @@ hide:
 
 <br/>
 <br/>
-: 如果一次只能索引一個點的話，當我們想要一次存取一塊陣列，在程式撰寫時會變得更複雜。numpy函式庫提供切片(slicing)的語法，讓我們可以很方便的索引到一塊陣列。
+: 如果一次只能索引一個點的話，當我們想要一次存取一塊陣列，在程式撰寫時會變得更複雜。numpy函式庫提供切片(slicing)的語法，只要熟悉它，就可以讓我們很方便的索引到任何一塊想要的區域。
 
 : ![3d_array_slice](3d_array_slice.png)
 
@@ -130,7 +131,7 @@ hide:
 
 : 想要讓電腦認出人臉，我們可以透過人臉偵測器來達成。
 
-: 首先，設置人臉偵測器，之後將代表影像的3維陣列做為偵測器的輸入，從結果中，我們就可以得到人臉的資訊。
+: 一開始，先設置好人臉偵測器，之後將代表影像的3維陣列做為偵測器的輸入，從結果中，我們就可以得到人臉的資訊。
 
 
 <br/>
@@ -142,7 +143,7 @@ hide:
 
 : 人臉偵測器感覺起來很像神秘的黑盒子，它的內部到底是什麼呢？
 
-: 這個偵測器，其實是由全球資料科學家所研究的機器學習(Machine Learning)的結果之一，特別是這幾年快速發展的深度學習(Deep Learning)，由於這個主題相當的龐大與複雜，我們僅會透過下方的影片(手寫數字辨識)，做為對深度學習的基本認識。
+: 這個偵測器，其實是由全球資料科學家研究出來有關機器學習(Machine Learning)的成果之一，特別是這幾年快速發展的深度學習(Deep Learning)，由於這個主題相當的龐大與複雜，我們僅會透過下方的影片(手寫數字辨識)，做為對深度學習的基本認識。
 
 <br/>
 
@@ -155,7 +156,7 @@ hide:
 
 <br/>
 
-: 資料科學家從人類的神經元及神經系統得到靈感，建構出以數學及電腦程式組成的人工神經網路。
+: 下圖是人類神經元的圖示，資料科學家從人類的神經元及神經系統得到靈感，建構出以數學及電腦程式組成的人工神經網路。
 
 : ![human_neuron](human_neuron.jpg)
 
@@ -217,7 +218,7 @@ hide:
 ----------------------------
 
 
-: 在電腦科學中，臉部特徵(face landmark)是指臉部一組組容易尋找的點，眼睛、鼻子、嘴脣等。
+: 在機器學習領域中，臉部特徵(face landmark)指的是臉部一組組容易尋找的點，眼睛、鼻子、嘴脣等。
 
 
 : ![face_landmark_photos](face_landmark_photos.jpg)
@@ -292,9 +293,9 @@ hide:
 
 <br/>
 
-: 那我們如何使用人臉偵測關鍵點的技術，來幫助因行動不便，而無法使用現有輸入方式的人呢？
+: 那我們是否可以將人臉偵測關鍵點的技術，用來幫助因行動不便，而無法使用現有輸入方式的人呢？
 
-: 我們可以嘗試用臉部動作來做出打字輸入的簡易程式，比如說，使用嘴脣上的2個關鍵點，並計算距離後，就可以偵測開口的動作。有了關鍵的偵測開口動作，未來就可以將程式擴展為具有文字輸入的功能。
+: 這是個值得嘗試的程式，讓我們可以進行無障礙的體驗活動。試試看用臉部動作來做出打字輸入的簡易程式，比如說，使用嘴脣上的2個關鍵點，並計算距離後，就可以偵測開口的動作。有了關鍵的偵測開口動作，未來就可以將程式擴展為具有文字輸入的功能。
 
 
 <br/>
@@ -479,6 +480,55 @@ hide:
 
 ----------------------------
 
+
+: AR（Augmented Reality），又稱為擴增實境，是指在螢幕的攝影機影像上，透過位置與角度的計算，讓螢幕上的虛擬物件能夠跟現實世界場景進行結合與互動的技術。
+
+
+: <iframe width="560" height="315" src="https://www.youtube.com/embed/NEasf4Q0xDA?start=0&amp;end=55" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+: <sup>(55秒,資料來源:</sup>[^ar_mr_vr]<sup>)</sup>
+
+[^ar_mr_vr]: 【AR、VR、MR 哪裡不一樣 ?】跨出虛擬走入現實：「AR擴增實境」, By 科技大觀園  , [youtube連結](https://youtu.be/NEasf4Q0xDA)
+
+
+<br/>
+
+: 由以上的影片得知，臉部濾鏡貼紙，是在人臉的攝影機影像上，加上數位裝飾圖片，因此也可視為是一種AR技術。
+
+: 但是，我們發現，如果濾鏡的貼紙越來越大，就會越來越不合適臉型，因為兩點轉換是以一直線為基礎，並不是直接對應整個臉型。那我們有辦法將一個卡通面具，對應到人臉並貼合臉型嗎？
+
+: 試著將兩點對應，擴展為多點對應。以下為面具圖檔做對應的特徵點，包含主要的臉部特徵，計有74點。
+
+
+
+
+: ![mask_annotation](mask_annotation.jpg)
+
+
+
+<br/>
+
+接著將編號，特徵點，x、y座標等所需的對應資訊，存入檔案中(csv格式)，然後依據面具png圖檔及對應資訊檔案，來做已經簡化過的面具transform變換功能，就會達到AR面具的效果。
+
+
+: ![csv_annotation](csv_annotation.jpg)
+
+
+<br/>
+
+??? info "關於面具transform的原理"
+
+    : :fontawesome-solid-link: <a href="https://learnopencv.com/create-snapchat-instagram-filters-using-mediapipe/" target="_blank">面具transform的原理</a>
+
+
+
+<br/>
+
+
+: 一起來實作看看。
+
+
 ???+ example "範例程式 AR面具 - - - - - - - (AR面具 1/1 新檔)"
 
     === "🎦操作影片"
@@ -498,7 +548,11 @@ hide:
 
         ![程式截圖](snapshot/ar_mask.jpg)
 
+??? info "進階範例 AR面具(多種切換)"
 
+    : 每次重新偵測臉部時，即會切換
+
+    : :fontawesome-solid-link: <a href="/cv4t/ar_mask_switch/" target="_blank">進階範例 AR面具(多種切換)</a>
 
 <br/>
 <br/>
@@ -508,14 +562,45 @@ hide:
 
 ##  📙 科技社會議題
 
+*** 人臉辦識與未來商店 ***
+
 ----------------------------
 
+: 利用人臉偵測，來產生臉部的特徵點，並計算如兩眼距離、鼻子到嘴巴的距離、顴骨形狀、嘴唇、耳朵和下巴的輪廓等，將這些臉部資料與個人個資儲存後，可以做為下次辨識人臉的依據，就好像把人臉當作指紋的身分確認，這種技術稱為人臉辦識。
 
+: 在美國、中國大陸，有些商店、飯站開始實驗以人臉做為身份認証的付款方式。
 
-: <iframe width="560" height="315" src="https://www.youtube.com/embed/qbckDLoklZE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br/>
 
-: <sup>(7分31秒, 資料來源:</sup>[^face_recognition_issue]<sup>)</sup>
+: <iframe width="560" height="315" src="https://www.youtube.com/embed/qbckDLoklZE?start=36&amp;end=185" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+: <sup>(2分29秒, 資料來源:</sup>[^face_recognition_issue]<sup>)</sup>
 
 [^face_recognition_issue]: 【民視全球新聞】人臉辨識雙面刃 用之不當恐引社會危機, by 民視新聞網  , [youtube連結](https://youtu.be/qbckDLoklZE) 
 
 
+<br/>
+<br/>
+
+
+----------------------------
+
+*** 人臉辦識、執法監控與個人隱私 ***
+
+----------------------------
+
+: 如果政府把人臉辦識，當作法律執行的工具來監控人民時，對我們的個人隱私會產生什麼影響呢？
+
+
+: <iframe width="560" height="315" src="https://www.youtube.com/embed/qbckDLoklZE?start=187&amp;end=451" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+: <sup>(4分24秒, 資料來源:</sup>[^face_recognition_issue]<sup>)</sup>
+
+
+: 科技技術是一種工具，端看人類如何去運用，就好像水能載舟，亦能覆舟，我們必需小心地、負責任地使用這個技術。
+
+: 另外，由於科技發展日新月異，在現今的時代，我們也要時時更新自己的知識，以順應未來世界。
+
+
+<br/>
+<br/>

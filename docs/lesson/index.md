@@ -111,7 +111,9 @@ hide:
 
 ???+ success  "人臉偵測與臉部特徵"
     
-    待建構……
+    ![人臉偵測與臉部特徵](face_detection_and_landmarks/digest.jpg)
+
+    以攝影機程式及人臉偵測器來找出臉部特徵，做為簡易應用。
 
     :fontawesome-solid-long-arrow-alt-right: <a href="face_detection_and_landmarks/" target="_blank">「人臉偵測與臉部特徵」</a>
 
