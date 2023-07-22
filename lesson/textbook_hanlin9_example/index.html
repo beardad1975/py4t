@@ -1308,13 +1308,15 @@
 <p><br/></p>
 <details class="example" open="open">
 <summary>Python計算篇 範例 (1/8 新檔) --- 哈囉程式</summary>
-<div class="tabbed-set tabbed-alternate" data-tabs="1:3"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><input id="__tabbed_1_3" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">🎦Py4t操作影片(3:41)</label><label for="__tabbed_1_2">💻Python程式截圖</label><label for="__tabbed_1_3">🗒️Scratch積木對照</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:3"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><input id="__tabbed_1_3" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">🎦Py4t操作影片(3:41)</label><label for="__tabbed_1_2">💻Python程式碼</label><label for="__tabbed_1_3">🗒️Scratch積木對照</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <p><iframe width="560" height="315" src="https://www.youtube.com/embed/XdwNrOKtyUU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 </div>
 <div class="tabbed-block">
-<p><img alt="程式截圖" src="snapshot/hello.jpg" /></p>
+<div class="highlight"><pre><span></span><code><span class="linenos" data-linenos="1 "></span><span class="n">name</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s1">&#39;請問您的名字是？&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos="2 "></span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;哈囉！&#39;</span><span class="p">,</span> <span class="n">name</span><span class="p">,</span> <span class="s1">&#39;您好！&#39;</span><span class="p">)</span>
+</code></pre></div>
 </div>
 <div class="tabbed-block">
 <p><img alt="Scratch對照" src="snapshot/hello_scratch.png" /></p>
@@ -1344,13 +1346,17 @@
 <p><br/></p>
 <details class="example" open="open">
 <summary>Python計算篇 範例 (2/8 新檔) --- 求三數之和</summary>
-<div class="tabbed-set tabbed-alternate" data-tabs="2:3"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio" /><input id="__tabbed_2_2" name="__tabbed_2" type="radio" /><input id="__tabbed_2_3" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="__tabbed_2_1">🎦Py4t操作影片(5:06)</label><label for="__tabbed_2_2">💻Python程式截圖</label><label for="__tabbed_2_3">🗒️Scratch積木對照</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="2:3"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio" /><input id="__tabbed_2_2" name="__tabbed_2" type="radio" /><input id="__tabbed_2_3" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="__tabbed_2_1">🎦Py4t操作影片(5:06)</label><label for="__tabbed_2_2">💻Python程式碼</label><label for="__tabbed_2_3">🗒️Scratch積木對照</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <p><iframe width="560" height="315" src="https://www.youtube.com/embed/fgobY4o2BTU?start=2&amp;end=306" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 </div>
 <div class="tabbed-block">
-<p><img alt="程式截圖" src="snapshot/sum_of_3_numbers.jpg" /></p>
+<div class="highlight"><pre><span></span><code><span class="linenos" data-linenos="1 "></span><span class="n">x</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s1">&#39;請輸入數字 x:&#39;</span><span class="p">))</span>
+<span class="linenos" data-linenos="2 "></span><span class="n">y</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s1">&#39;請輸入數字 y:&#39;</span><span class="p">))</span>
+<span class="linenos" data-linenos="3 "></span><span class="n">z</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s1">&#39;請輸入數字 z:&#39;</span><span class="p">))</span>
+<span class="linenos" data-linenos="4 "></span><span class="nb">print</span><span class="p">(</span><span class="n">x</span> <span class="o">+</span> <span class="n">y</span> <span class="o">+</span> <span class="n">z</span><span class="p">)</span>
+</code></pre></div>
 </div>
 <div class="tabbed-block">
 <p><img alt="Scratch對照" src="snapshot/sum_of_3_numbers_scratch.png" /></p>
@@ -1376,13 +1382,17 @@
 <p><br/></p>
 <details class="example" open="open">
 <summary>Python計算篇 範例 (3/8 新檔) --- 求平均數</summary>
-<div class="tabbed-set tabbed-alternate" data-tabs="3:3"><input checked="checked" id="__tabbed_3_1" name="__tabbed_3" type="radio" /><input id="__tabbed_3_2" name="__tabbed_3" type="radio" /><input id="__tabbed_3_3" name="__tabbed_3" type="radio" /><div class="tabbed-labels"><label for="__tabbed_3_1">🎦Py4t操作影片(5:35)</label><label for="__tabbed_3_2">💻Python程式截圖</label><label for="__tabbed_3_3">🗒️Scratch積木對照</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="3:3"><input checked="checked" id="__tabbed_3_1" name="__tabbed_3" type="radio" /><input id="__tabbed_3_2" name="__tabbed_3" type="radio" /><input id="__tabbed_3_3" name="__tabbed_3" type="radio" /><div class="tabbed-labels"><label for="__tabbed_3_1">🎦Py4t操作影片(5:35)</label><label for="__tabbed_3_2">💻Python程式碼</label><label for="__tabbed_3_3">🗒️Scratch積木對照</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <p><iframe width="560" height="315" src="https://www.youtube.com/embed/4_UyYrlISZw?start=2&amp;end=336" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 </div>
 <div class="tabbed-block">
-<p><img alt="程式截圖" src="snapshot/average.jpg" /></p>
+<div class="highlight"><pre><span></span><code><span class="linenos" data-linenos="1 "></span><span class="n">x</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s1">&#39;請輸入數字 x:&#39;</span><span class="p">))</span>
+<span class="linenos" data-linenos="2 "></span><span class="n">y</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s1">&#39;請輸入數字 y:&#39;</span><span class="p">))</span>
+<span class="linenos" data-linenos="3 "></span><span class="n">average</span> <span class="o">=</span> <span class="p">(</span><span class="n">x</span> <span class="o">+</span> <span class="n">y</span><span class="p">)</span> <span class="o">/</span> <span class="mi">2</span>
+<span class="linenos" data-linenos="4 "></span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;平均是&#39;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">average</span><span class="p">))</span>
+</code></pre></div>
 </div>
 <div class="tabbed-block">
 <p><img alt="Scratch對照" src="snapshot/average_scratch.png" /></p>
@@ -1408,13 +1418,22 @@
 <p><br/></p>
 <details class="example" open="open">
 <summary>Python計算篇 範例 (4/8 新檔) --- 計算學期成績</summary>
-<div class="tabbed-set tabbed-alternate" data-tabs="4:3"><input checked="checked" id="__tabbed_4_1" name="__tabbed_4" type="radio" /><input id="__tabbed_4_2" name="__tabbed_4" type="radio" /><input id="__tabbed_4_3" name="__tabbed_4" type="radio" /><div class="tabbed-labels"><label for="__tabbed_4_1">🎦Py4t操作影片(9:15)</label><label for="__tabbed_4_2">💻Python程式截圖</label><label for="__tabbed_4_3">🗒️Scratch積木對照</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="4:3"><input checked="checked" id="__tabbed_4_1" name="__tabbed_4" type="radio" /><input id="__tabbed_4_2" name="__tabbed_4" type="radio" /><input id="__tabbed_4_3" name="__tabbed_4" type="radio" /><div class="tabbed-labels"><label for="__tabbed_4_1">🎦Py4t操作影片(9:15)</label><label for="__tabbed_4_2">💻Python程式碼</label><label for="__tabbed_4_3">🗒️Scratch積木對照</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <p><iframe width="560" height="315" src="https://www.youtube.com/embed/H4ouv9LyflI?start=2&amp;end=555" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 </div>
 <div class="tabbed-block">
-<p><img alt="程式截圖" src="snapshot/grade.jpg" /></p>
+<div class="highlight"><pre><span></span><code><span class="linenos" data-linenos="1 "></span><span class="n">score1</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s1">&#39;請輸入作業成績:&#39;</span><span class="p">))</span>
+<span class="linenos" data-linenos="2 "></span><span class="n">score2</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s1">&#39;請輸入測驗成績:&#39;</span><span class="p">))</span>
+<span class="linenos" data-linenos="3 "></span><span class="n">score3</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s1">&#39;請輸入平時成績:&#39;</span><span class="p">))</span>
+<span class="linenos" data-linenos="4 "></span><span class="n">grade</span> <span class="o">=</span> <span class="n">score1</span> <span class="o">*</span> <span class="mf">0.4</span> <span class="o">+</span> <span class="n">score2</span> <span class="o">*</span> <span class="mf">0.4</span> <span class="o">+</span> <span class="n">score3</span> <span class="o">*</span> <span class="mf">0.2</span>
+<span class="linenos" data-linenos="5 "></span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;學期成績是&#39;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">grade</span><span class="p">))</span>
+<span class="linenos" data-linenos="6 "></span><span class="k">if</span> <span class="n">grade</span>  <span class="o">&lt;</span>  <span class="mi">60</span> <span class="p">:</span>
+<span class="linenos" data-linenos="7 "></span>    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;不及格&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos="8 "></span><span class="k">else</span> <span class="p">:</span>
+<span class="linenos" data-linenos="9 "></span>    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;及格&#39;</span><span class="p">)</span>
+</code></pre></div>
 </div>
 <div class="tabbed-block">
 <p><img alt="Scratch對照" src="snapshot/grade_scratch.png" /></p>
@@ -1444,13 +1463,18 @@
 <p><br/></p>
 <details class="example" open="open">
 <summary>Python計算篇 範例 (5/8 新檔) --- 累加計算</summary>
-<div class="tabbed-set tabbed-alternate" data-tabs="5:3"><input checked="checked" id="__tabbed_5_1" name="__tabbed_5" type="radio" /><input id="__tabbed_5_2" name="__tabbed_5" type="radio" /><input id="__tabbed_5_3" name="__tabbed_5" type="radio" /><div class="tabbed-labels"><label for="__tabbed_5_1">🎦Py4t操作影片(6:39)</label><label for="__tabbed_5_2">💻Python程式截圖</label><label for="__tabbed_5_3">🗒️Scratch積木對照</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="5:3"><input checked="checked" id="__tabbed_5_1" name="__tabbed_5" type="radio" /><input id="__tabbed_5_2" name="__tabbed_5" type="radio" /><input id="__tabbed_5_3" name="__tabbed_5" type="radio" /><div class="tabbed-labels"><label for="__tabbed_5_1">🎦Py4t操作影片(6:39)</label><label for="__tabbed_5_2">💻Python程式碼</label><label for="__tabbed_5_3">🗒️Scratch積木對照</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <p><iframe width="560" height="315" src="https://www.youtube.com/embed/DhcDjRpchoA?start=2&amp;end=399" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 </div>
 <div class="tabbed-block">
-<p><img alt="程式截圖" src="snapshot/accumulation.jpg" /></p>
+<div class="highlight"><pre><span></span><code><span class="linenos" data-linenos="1 "></span><span class="n">n</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s1">&#39;請輸入數字 n:&#39;</span><span class="p">))</span>
+<span class="linenos" data-linenos="2 "></span><span class="n">total</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="linenos" data-linenos="3 "></span><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">n</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span> <span class="p">:</span>
+<span class="linenos" data-linenos="4 "></span>    <span class="n">total</span> <span class="o">=</span> <span class="n">total</span> <span class="o">+</span> <span class="n">i</span>
+<span class="linenos" data-linenos="5 "></span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;1+2+...+&#39;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">n</span><span class="p">)</span> <span class="o">+</span> <span class="s1">&#39;=&#39;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">total</span><span class="p">))</span>
+</code></pre></div>
 <p>註：課本範例使用sum做為變數名稱，但sum為python內建函式，不建議使用，故在本範例中改為total</p>
 </div>
 <div class="tabbed-block">
@@ -1486,13 +1510,24 @@
 <p><br/></p>
 <details class="example" open="open">
 <summary>Python計算篇 範例 (6/8 新檔) --- 密碼檢查</summary>
-<div class="tabbed-set tabbed-alternate" data-tabs="6:3"><input checked="checked" id="__tabbed_6_1" name="__tabbed_6" type="radio" /><input id="__tabbed_6_2" name="__tabbed_6" type="radio" /><input id="__tabbed_6_3" name="__tabbed_6" type="radio" /><div class="tabbed-labels"><label for="__tabbed_6_1">🎦Py4t操作影片(8:25)</label><label for="__tabbed_6_2">💻Python程式截圖</label><label for="__tabbed_6_3">🗒️Scratch積木對照</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="6:3"><input checked="checked" id="__tabbed_6_1" name="__tabbed_6" type="radio" /><input id="__tabbed_6_2" name="__tabbed_6" type="radio" /><input id="__tabbed_6_3" name="__tabbed_6" type="radio" /><div class="tabbed-labels"><label for="__tabbed_6_1">🎦Py4t操作影片(8:25)</label><label for="__tabbed_6_2">💻Python程式碼</label><label for="__tabbed_6_3">🗒️Scratch積木對照</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <p><iframe width="560" height="315" src="https://www.youtube.com/embed/rZMMfeqgRnw?start=2&amp;end=505" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 </div>
 <div class="tabbed-block">
-<p><img alt="程式截圖" src="snapshot/check_password.jpg" />       </p>
+<div class="highlight"><pre><span></span><code><span class="linenos" data-linenos=" 1 "></span><span class="n">password</span> <span class="o">=</span> <span class="s1">&#39;137&#39;</span>
+<span class="linenos" data-linenos=" 2 "></span><span class="n">times</span> <span class="o">=</span> <span class="mi">1</span>
+<span class="linenos" data-linenos=" 3 "></span><span class="n">password2</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s1">&#39;請輸入密碼:&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos=" 4 "></span><span class="k">while</span> <span class="n">password</span> <span class="o">!=</span> <span class="n">password2</span> <span class="ow">and</span> <span class="n">times</span> <span class="o">&lt;</span> <span class="mi">3</span> <span class="p">:</span>
+<span class="linenos" data-linenos=" 5 "></span>    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;密碼錯誤！&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos=" 6 "></span>    <span class="n">times</span> <span class="o">=</span> <span class="n">times</span> <span class="o">+</span> <span class="mi">1</span>
+<span class="linenos" data-linenos=" 7 "></span>    <span class="n">password2</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s1">&#39;請輸入密碼:&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos=" 8 "></span><span class="k">if</span> <span class="n">password</span> <span class="o">==</span> <span class="n">password2</span> <span class="p">:</span>
+<span class="linenos" data-linenos=" 9 "></span>    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;歡迎使用本系統&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos="10 "></span><span class="k">else</span> <span class="p">:</span>
+<span class="linenos" data-linenos="11 "></span>    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;輸入密碼錯誤3次，帳號已被鎖定&#39;</span><span class="p">)</span>
+</code></pre></div>
 </div>
 <div class="tabbed-block">
 <p><img alt="Scratch對照" src="snapshot/check_password_scratch.png" /></p>
@@ -1525,13 +1560,19 @@
 <p><br/></p>
 <details class="example" open="open">
 <summary>Python計算篇 範例 (7/8 新檔) --- 任意數的所有因數</summary>
-<div class="tabbed-set tabbed-alternate" data-tabs="7:3"><input checked="checked" id="__tabbed_7_1" name="__tabbed_7" type="radio" /><input id="__tabbed_7_2" name="__tabbed_7" type="radio" /><input id="__tabbed_7_3" name="__tabbed_7" type="radio" /><div class="tabbed-labels"><label for="__tabbed_7_1">🎦Py4t操作影片(5:29)</label><label for="__tabbed_7_2">💻Python程式截圖</label><label for="__tabbed_7_3">🗒️Scratch積木對照</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="7:3"><input checked="checked" id="__tabbed_7_1" name="__tabbed_7" type="radio" /><input id="__tabbed_7_2" name="__tabbed_7" type="radio" /><input id="__tabbed_7_3" name="__tabbed_7" type="radio" /><div class="tabbed-labels"><label for="__tabbed_7_1">🎦Py4t操作影片(5:29)</label><label for="__tabbed_7_2">💻Python程式碼</label><label for="__tabbed_7_3">🗒️Scratch積木對照</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <p><iframe width="560" height="315" src="https://www.youtube.com/embed/_5sLEY8aFAA?start=2&amp;end=330" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 </div>
 <div class="tabbed-block">
-<p><img alt="程式截圖" src="snapshot/factors.jpg" />       </p>
+<div class="highlight"><pre><span></span><code><span class="linenos" data-linenos="1 "></span><span class="n">n</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s1">&#39;請輸入數字n:&#39;</span><span class="p">))</span>
+<span class="linenos" data-linenos="2 "></span><span class="n">factors</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="linenos" data-linenos="3 "></span><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">n</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span> <span class="p">:</span>
+<span class="linenos" data-linenos="4 "></span>    <span class="k">if</span> <span class="n">n</span> <span class="o">%</span> <span class="n">i</span> <span class="o">==</span> <span class="mi">0</span> <span class="p">:</span>
+<span class="linenos" data-linenos="5 "></span>        <span class="n">factors</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
+<span class="linenos" data-linenos="6 "></span><span class="nb">print</span><span class="p">(</span><span class="n">factors</span><span class="p">)</span>
+</code></pre></div>
 </div>
 <div class="tabbed-block">
 <p><img alt="Scratch對照" src="snapshot/factors_scratch.png" /></p>
@@ -1548,13 +1589,23 @@
 <p><br/></p>
 <details class="example" open="open">
 <summary>Python計算篇 範例 (8/8 新檔) --- 抽獎</summary>
-<div class="tabbed-set tabbed-alternate" data-tabs="8:3"><input checked="checked" id="__tabbed_8_1" name="__tabbed_8" type="radio" /><input id="__tabbed_8_2" name="__tabbed_8" type="radio" /><input id="__tabbed_8_3" name="__tabbed_8" type="radio" /><div class="tabbed-labels"><label for="__tabbed_8_1">🎦Py4t操作影片(7:44)</label><label for="__tabbed_8_2">💻Python程式截圖</label><label for="__tabbed_8_3">🗒️Scratch積木對照</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="8:3"><input checked="checked" id="__tabbed_8_1" name="__tabbed_8" type="radio" /><input id="__tabbed_8_2" name="__tabbed_8" type="radio" /><input id="__tabbed_8_3" name="__tabbed_8" type="radio" /><div class="tabbed-labels"><label for="__tabbed_8_1">🎦Py4t操作影片(7:44)</label><label for="__tabbed_8_2">💻Python程式碼</label><label for="__tabbed_8_3">🗒️Scratch積木對照</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <p><iframe width="560" height="315" src="https://www.youtube.com/embed/vOE9gW7T2Fc?start=2&amp;end=464" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 </div>
 <div class="tabbed-block">
-<p><img alt="程式截圖" src="snapshot/lottery.jpg" />       </p>
+<div class="highlight"><pre><span></span><code><span class="linenos" data-linenos=" 1 "></span><span class="kn">from</span> <span class="nn">random</span> <span class="kn">import</span> <span class="n">randint</span>
+<span class="linenos" data-linenos=" 2 "></span><span class="n">n</span> <span class="o">=</span> <span class="mi">30</span>
+<span class="linenos" data-linenos=" 3 "></span><span class="n">box</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="linenos" data-linenos=" 4 "></span><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">n</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span> <span class="p">:</span>
+<span class="linenos" data-linenos=" 5 "></span>    <span class="n">position</span> <span class="o">=</span> <span class="n">randint</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">i</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span>
+<span class="linenos" data-linenos=" 6 "></span>    <span class="n">box</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="n">position</span><span class="p">,</span> <span class="n">i</span><span class="p">)</span>
+<span class="linenos" data-linenos=" 7 "></span><span class="nb">print</span><span class="p">(</span><span class="n">box</span><span class="p">)</span>
+<span class="linenos" data-linenos=" 8 "></span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;第一特獎:&#39;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">box</span><span class="p">[</span><span class="mi">0</span><span class="p">]))</span>
+<span class="linenos" data-linenos=" 9 "></span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;第二特獎:&#39;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">box</span><span class="p">[</span><span class="mi">1</span><span class="p">]))</span>
+<span class="linenos" data-linenos="10 "></span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;第三特獎:&#39;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">box</span><span class="p">[</span><span class="mi">2</span><span class="p">]))</span>
+</code></pre></div>
 </div>
 <div class="tabbed-block">
 <p><img alt="Scratch對照" src="snapshot/lottery_scratch.png" /></p>

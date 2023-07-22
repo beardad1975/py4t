@@ -1545,7 +1545,7 @@
 </dl>
 <details class="example" open="open">
 <summary>範例程式 聲音訊號 - - - - - - - (音訊與1維陣列 1/2 新檔)</summary>
-<div class="tabbed-set tabbed-alternate" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">🎦操作影片</label><label for="__tabbed_1_2">💻程式截圖</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">🎦操作影片</label><label for="__tabbed_1_2">💻程式碼</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <p><iframe width="560" height="315" src="https://www.youtube.com/embed/-BMUwYRELw4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
@@ -1558,7 +1558,27 @@
 </ul>
 </div>
 <div class="tabbed-block">
-<p><img alt="程式截圖" src="snapshot/sound_signal.jpg" /> </p>
+<div class="highlight"><pre><span></span><code><span class="linenos" data-linenos=" 1 "></span><span class="kn">from</span> <span class="nn">聲音模組</span> <span class="kn">import</span> <span class="o">*</span>
+<span class="linenos" data-linenos=" 2 "></span><span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+<span class="linenos" data-linenos=" 3 "></span><span class="n">plt</span><span class="o">.</span><span class="n">rcParams</span><span class="p">[</span><span class="s1">&#39;font.sans-serif&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;Microsoft JhengHei&#39;</span><span class="p">]</span>
+<span class="linenos" data-linenos=" 4 "></span><span class="n">plt</span><span class="o">.</span><span class="n">rcParams</span><span class="p">[</span><span class="s1">&#39;axes.unicode_minus&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="kc">False</span>
+<span class="linenos" data-linenos=" 5 "></span>
+<span class="linenos" data-linenos=" 6 "></span><span class="n">音源</span> <span class="o">=</span> <span class="n">正弦波</span><span class="p">(</span><span class="mi">440</span><span class="p">,</span> <span class="n">取樣率</span><span class="o">=</span><span class="mi">44100</span><span class="p">)</span>
+<span class="linenos" data-linenos=" 7 "></span><span class="n">聲音</span> <span class="o">=</span> <span class="n">音源</span><span class="o">.</span><span class="n">轉成聲音</span><span class="p">()</span>
+<span class="linenos" data-linenos=" 8 "></span><span class="n">聲音</span> <span class="o">=</span> <span class="n">聲音</span><span class="o">.</span><span class="n">fade_in</span><span class="p">(</span><span class="mi">100</span><span class="p">)</span>
+<span class="linenos" data-linenos=" 9 "></span><span class="n">play</span><span class="p">(</span><span class="n">聲音</span><span class="p">)</span>
+<span class="linenos" data-linenos="10 "></span>
+<span class="linenos" data-linenos="11 "></span><span class="n">陣列</span> <span class="o">=</span> <span class="n">聲音轉陣列</span><span class="p">(</span><span class="n">聲音</span><span class="p">)</span>
+<span class="linenos" data-linenos="12 "></span><span class="n">陣列</span> <span class="o">=</span> <span class="n">陣列</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">441</span><span class="p">]</span>
+<span class="linenos" data-linenos="13 "></span><span class="nb">print</span><span class="p">(</span><span class="n">陣列</span><span class="p">)</span>
+<span class="linenos" data-linenos="14 "></span><span class="nb">print</span><span class="p">(</span><span class="n">陣列</span><span class="o">.</span><span class="n">shape</span><span class="p">)</span>
+<span class="linenos" data-linenos="15 "></span>
+<span class="linenos" data-linenos="16 "></span><span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s1">&#39;聲波圖(0.01秒)&#39;</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">20</span><span class="p">)</span>
+<span class="linenos" data-linenos="17 "></span><span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s1">&#39;聲音取樣&#39;</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">18</span><span class="p">)</span>
+<span class="linenos" data-linenos="18 "></span><span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s1">&#39;響度量化&#39;</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">18</span><span class="p">)</span>
+<span class="linenos" data-linenos="19 "></span><span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">陣列</span><span class="p">,</span> <span class="s1">&#39;.&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos="20 "></span><span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</code></pre></div>
 </div>
 </div>
 </div>
@@ -1625,7 +1645,7 @@
 </dl>
 <details class="example" open="open">
 <summary>範例程式 玩轉聲音 - - - - - - - (音訊與1維陣列 2/2 新檔)</summary>
-<div class="tabbed-set tabbed-alternate" data-tabs="2:2"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio" /><input id="__tabbed_2_2" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="__tabbed_2_1">🎦操作影片</label><label for="__tabbed_2_2">💻程式截圖</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="2:2"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio" /><input id="__tabbed_2_2" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="__tabbed_2_1">🎦操作影片</label><label for="__tabbed_2_2">💻程式碼</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <p><iframe width="560" height="315" src="https://www.youtube.com/embed/bxVtlTDf5hE?start=0&amp;end=702" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
@@ -1640,7 +1660,19 @@
 </ul>
 </div>
 <div class="tabbed-block">
-<p><img alt="程式截圖" src="snapshot/audio_processing.jpg" /> </p>
+<div class="highlight"><pre><span></span><code><span class="linenos" data-linenos=" 1 "></span><span class="kn">from</span> <span class="nn">聲音模組</span> <span class="kn">import</span> <span class="o">*</span>
+<span class="linenos" data-linenos=" 2 "></span><span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+<span class="linenos" data-linenos=" 3 "></span>
+<span class="linenos" data-linenos=" 4 "></span><span class="n">聲音1</span> <span class="o">=</span> <span class="n">開啟wav檔</span><span class="p">(</span><span class="s1">&#39;個人一小步.wav&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos=" 5 "></span><span class="n">聲音2</span> <span class="o">=</span> <span class="n">開啟wav檔</span><span class="p">(</span><span class="s1">&#39;小提琴聲音.wav&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos=" 6 "></span><span class="n">聲音</span> <span class="o">=</span> <span class="n">聲音1</span><span class="o">.</span><span class="n">overlay</span><span class="p">(</span><span class="n">聲音2</span><span class="p">)</span>
+<span class="linenos" data-linenos=" 7 "></span><span class="n">play</span><span class="p">(</span><span class="n">聲音</span><span class="p">)</span>
+<span class="linenos" data-linenos=" 8 "></span><span class="n">聲音</span><span class="o">.</span><span class="n">儲存wav檔</span><span class="p">(</span><span class="s1">&#39;音訊處理.wav&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos=" 9 "></span>
+<span class="linenos" data-linenos="10 "></span><span class="n">陣列</span> <span class="o">=</span> <span class="n">聲音轉陣列</span><span class="p">(</span><span class="n">聲音</span><span class="p">)</span>
+<span class="linenos" data-linenos="11 "></span><span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">陣列</span><span class="p">)</span>
+<span class="linenos" data-linenos="12 "></span><span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</code></pre></div>
 </div>
 </div>
 </div>
@@ -1715,7 +1747,7 @@
 <p>一起來動手寫程式。</p>
 <details class="example" open="open">
 <summary>範例程式 灰階點陣 - - - - - - - (灰階與2維陣列 1/2 新檔)</summary>
-<div class="tabbed-set tabbed-alternate" data-tabs="3:2"><input checked="checked" id="__tabbed_3_1" name="__tabbed_3" type="radio" /><input id="__tabbed_3_2" name="__tabbed_3" type="radio" /><div class="tabbed-labels"><label for="__tabbed_3_1">🎦操作影片</label><label for="__tabbed_3_2">💻程式截圖</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="3:2"><input checked="checked" id="__tabbed_3_1" name="__tabbed_3" type="radio" /><input id="__tabbed_3_2" name="__tabbed_3" type="radio" /><div class="tabbed-labels"><label for="__tabbed_3_1">🎦操作影片</label><label for="__tabbed_3_2">💻程式碼</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <p><iframe width="560" height="315" src="https://www.youtube.com/embed/vC0rJwPXcQY?start=0&amp;end=581" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
@@ -1728,7 +1760,23 @@
 </ul>
 </div>
 <div class="tabbed-block">
-<p><img alt="程式截圖" src="snapshot/grayscale_pixel.jpg" /> </p>
+<div class="highlight"><pre><span></span><code><span class="linenos" data-linenos=" 1 "></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="linenos" data-linenos=" 2 "></span><span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+<span class="linenos" data-linenos=" 3 "></span>
+<span class="linenos" data-linenos=" 4 "></span><span class="n">陣列</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">([</span><span class="mi">10</span><span class="p">,</span><span class="mi">10</span><span class="p">])</span>
+<span class="linenos" data-linenos=" 5 "></span><span class="n">陣列</span> <span class="o">=</span> <span class="n">陣列</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="s1">&#39;uint8&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos=" 6 "></span>
+<span class="linenos" data-linenos=" 7 "></span><span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span> <span class="p">:</span>
+<span class="linenos" data-linenos=" 8 "></span>    <span class="k">for</span> <span class="n">y</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span> <span class="p">:</span>
+<span class="linenos" data-linenos=" 9 "></span>        <span class="n">陣列</span><span class="p">[</span><span class="n">y</span><span class="p">,</span> <span class="n">x</span><span class="p">]</span> <span class="o">=</span> <span class="mi">255</span> <span class="o">-</span> <span class="n">y</span> <span class="o">*</span> <span class="mi">20</span> <span class="o">-</span> <span class="n">x</span> <span class="o">*</span> <span class="mi">20</span>            
+<span class="linenos" data-linenos="10 "></span>
+<span class="linenos" data-linenos="11 "></span><span class="nb">print</span><span class="p">(</span><span class="n">陣列</span><span class="p">)</span>
+<span class="linenos" data-linenos="12 "></span><span class="nb">print</span><span class="p">(</span><span class="n">陣列</span><span class="o">.</span><span class="n">dtype</span><span class="p">)</span>
+<span class="linenos" data-linenos="13 "></span>
+<span class="linenos" data-linenos="14 "></span><span class="n">plt</span><span class="o">.</span><span class="n">imshow</span><span class="p">(</span><span class="n">陣列</span><span class="p">,</span> <span class="n">cmap</span><span class="o">=</span><span class="s1">&#39;gray&#39;</span><span class="p">,</span> <span class="n">vmin</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">vmax</span><span class="o">=</span><span class="mi">255</span><span class="p">)</span>
+<span class="linenos" data-linenos="15 "></span><span class="n">plt</span><span class="o">.</span><span class="n">colorbar</span><span class="p">()</span>
+<span class="linenos" data-linenos="16 "></span><span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</code></pre></div>
 </div>
 </div>
 </div>
@@ -1779,7 +1827,7 @@
 </dl>
 <details class="example" open="open">
 <summary>範例程式 灰階切片 - - - - - - - (灰階與2維陣列 2/2 新檔)</summary>
-<div class="tabbed-set tabbed-alternate" data-tabs="4:2"><input checked="checked" id="__tabbed_4_1" name="__tabbed_4" type="radio" /><input id="__tabbed_4_2" name="__tabbed_4" type="radio" /><div class="tabbed-labels"><label for="__tabbed_4_1">🎦操作影片</label><label for="__tabbed_4_2">💻程式截圖</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="4:2"><input checked="checked" id="__tabbed_4_1" name="__tabbed_4" type="radio" /><input id="__tabbed_4_2" name="__tabbed_4" type="radio" /><div class="tabbed-labels"><label for="__tabbed_4_1">🎦操作影片</label><label for="__tabbed_4_2">💻程式碼</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <p><iframe width="560" height="315" src="https://www.youtube.com/embed/okx9rlfdDs8?start=0&amp;end=586" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
@@ -1794,7 +1842,30 @@
 </ul>
 </div>
 <div class="tabbed-block">
-<p><img alt="程式截圖" src="snapshot/grayscale_slice.jpg" /> </p>
+<div class="highlight"><pre><span></span><code><span class="linenos" data-linenos=" 1 "></span><span class="kn">from</span> <span class="nn">視覺模組</span> <span class="kn">import</span> <span class="o">*</span>
+<span class="linenos" data-linenos=" 2 "></span>
+<span class="linenos" data-linenos=" 3 "></span><span class="n">陣列</span> <span class="o">=</span> <span class="n">讀取影像灰階</span><span class="p">(</span><span class="s1">&#39;kirun.jpg&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos=" 4 "></span><span class="nb">print</span><span class="p">(</span><span class="n">陣列</span><span class="p">)</span>
+<span class="linenos" data-linenos=" 5 "></span><span class="nb">print</span><span class="p">(</span><span class="n">陣列</span><span class="o">.</span><span class="n">shape</span><span class="p">)</span>
+<span class="linenos" data-linenos=" 6 "></span><span class="n">顯示影像</span><span class="p">(</span><span class="n">陣列</span><span class="p">)</span>
+<span class="linenos" data-linenos=" 7 "></span><span class="n">等待按鍵</span><span class="p">(</span><span class="mi">500</span><span class="p">)</span>
+<span class="linenos" data-linenos=" 8 "></span>
+<span class="linenos" data-linenos=" 9 "></span><span class="n">陣列</span><span class="p">[:,</span> <span class="p">:</span><span class="mi">200</span><span class="p">]</span> <span class="o">=</span> <span class="n">調整亮度</span><span class="p">(</span><span class="n">陣列</span><span class="p">[:,</span> <span class="p">:</span><span class="mi">200</span><span class="p">],</span> <span class="mi">50</span><span class="p">)</span>
+<span class="linenos" data-linenos="10 "></span><span class="n">顯示影像</span><span class="p">(</span><span class="n">陣列</span><span class="p">)</span>
+<span class="linenos" data-linenos="11 "></span><span class="n">等待按鍵</span><span class="p">(</span><span class="mi">500</span><span class="p">)</span>
+<span class="linenos" data-linenos="12 "></span>
+<span class="linenos" data-linenos="13 "></span><span class="n">陣列</span><span class="p">[:,</span> <span class="mi">200</span><span class="p">:</span><span class="mi">400</span><span class="p">]</span> <span class="o">=</span> <span class="n">模糊</span><span class="p">(</span><span class="n">陣列</span><span class="p">[:,</span> <span class="mi">200</span><span class="p">:</span><span class="mi">400</span><span class="p">],</span> <span class="n">核心</span><span class="o">=</span><span class="mi">10</span><span class="p">)</span>
+<span class="linenos" data-linenos="14 "></span><span class="n">顯示影像</span><span class="p">(</span><span class="n">陣列</span><span class="p">)</span>
+<span class="linenos" data-linenos="15 "></span><span class="n">等待按鍵</span><span class="p">(</span><span class="mi">500</span><span class="p">)</span>
+<span class="linenos" data-linenos="16 "></span>
+<span class="linenos" data-linenos="17 "></span><span class="n">陣列</span><span class="p">[:,</span> <span class="mi">400</span><span class="p">:</span><span class="mi">600</span><span class="p">]</span> <span class="o">=</span> <span class="mi">255</span> <span class="o">-</span> <span class="n">陣列</span><span class="p">[:,</span> <span class="mi">400</span><span class="p">:</span><span class="mi">600</span><span class="p">]</span>
+<span class="linenos" data-linenos="18 "></span><span class="n">顯示影像</span><span class="p">(</span><span class="n">陣列</span><span class="p">)</span>
+<span class="linenos" data-linenos="19 "></span><span class="n">等待按鍵</span><span class="p">(</span><span class="mi">500</span><span class="p">)</span>
+<span class="linenos" data-linenos="20 "></span>
+<span class="linenos" data-linenos="21 "></span><span class="n">陣列</span><span class="p">[:,</span> <span class="mi">600</span><span class="p">:]</span> <span class="o">=</span> <span class="n">Canny邊緣偵測</span><span class="p">(</span><span class="n">陣列</span><span class="p">[:,</span> <span class="mi">600</span><span class="p">:])</span>
+<span class="linenos" data-linenos="22 "></span><span class="n">顯示影像</span><span class="p">(</span><span class="n">陣列</span><span class="p">)</span>
+<span class="linenos" data-linenos="23 "></span><span class="n">等待按鍵</span><span class="p">()</span>
+</code></pre></div>
 </div>
 </div>
 </div>
@@ -1823,7 +1894,7 @@
 </dl>
 <details class="example" open="open">
 <summary>範例程式 通道分離 - - - - - - - (彩色影像與3維陣列 1/2 新檔)</summary>
-<div class="tabbed-set tabbed-alternate" data-tabs="5:2"><input checked="checked" id="__tabbed_5_1" name="__tabbed_5" type="radio" /><input id="__tabbed_5_2" name="__tabbed_5" type="radio" /><div class="tabbed-labels"><label for="__tabbed_5_1">🎦操作影片</label><label for="__tabbed_5_2">💻程式截圖</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="5:2"><input checked="checked" id="__tabbed_5_1" name="__tabbed_5" type="radio" /><input id="__tabbed_5_2" name="__tabbed_5" type="radio" /><div class="tabbed-labels"><label for="__tabbed_5_1">🎦操作影片</label><label for="__tabbed_5_2">💻程式碼</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <p><iframe width="560" height="315" src="https://www.youtube.com/embed/kd3NUcxbMd0?start=0&amp;end=475" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
@@ -1837,7 +1908,32 @@
 </ul>
 </div>
 <div class="tabbed-block">
-<p><img alt="程式截圖" src="snapshot/channel_split.jpg" /> </p>
+<div class="highlight"><pre><span></span><code><span class="linenos" data-linenos=" 1 "></span><span class="kn">from</span> <span class="nn">視覺模組</span> <span class="kn">import</span> <span class="o">*</span>
+<span class="linenos" data-linenos=" 2 "></span>
+<span class="linenos" data-linenos=" 3 "></span><span class="n">陣列</span> <span class="o">=</span> <span class="n">讀取影像彩色</span><span class="p">(</span><span class="s1">&#39;olympic.jpg&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos=" 4 "></span><span class="nb">print</span><span class="p">(</span><span class="n">陣列</span><span class="p">)</span>
+<span class="linenos" data-linenos=" 5 "></span><span class="nb">print</span><span class="p">(</span><span class="n">陣列</span><span class="o">.</span><span class="n">shape</span><span class="p">)</span>
+<span class="linenos" data-linenos=" 6 "></span><span class="n">顯示影像</span><span class="p">(</span><span class="n">陣列</span><span class="p">,</span> <span class="n">視窗名稱</span><span class="o">=</span><span class="s1">&#39;1&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos=" 7 "></span><span class="n">等待按鍵</span><span class="p">(</span><span class="mi">500</span><span class="p">)</span>
+<span class="linenos" data-linenos=" 8 "></span>
+<span class="linenos" data-linenos=" 9 "></span><span class="n">陣列b</span> <span class="o">=</span> <span class="n">陣列</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
+<span class="linenos" data-linenos="10 "></span><span class="n">陣列b</span><span class="p">[:,</span> <span class="p">:,</span> <span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="linenos" data-linenos="11 "></span><span class="n">陣列b</span><span class="p">[:,</span> <span class="p">:,</span> <span class="mi">2</span><span class="p">]</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="linenos" data-linenos="12 "></span><span class="n">顯示影像</span><span class="p">(</span><span class="n">陣列b</span><span class="p">,</span> <span class="n">視窗名稱</span><span class="o">=</span><span class="s1">&#39;b&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos="13 "></span><span class="n">等待按鍵</span><span class="p">(</span><span class="mi">500</span><span class="p">)</span>
+<span class="linenos" data-linenos="14 "></span>
+<span class="linenos" data-linenos="15 "></span><span class="n">陣列g</span> <span class="o">=</span> <span class="n">陣列</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
+<span class="linenos" data-linenos="16 "></span><span class="n">陣列g</span><span class="p">[:,</span> <span class="p">:,</span> <span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="linenos" data-linenos="17 "></span><span class="n">陣列g</span><span class="p">[:,</span> <span class="p">:,</span> <span class="mi">2</span><span class="p">]</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="linenos" data-linenos="18 "></span><span class="n">顯示影像</span><span class="p">(</span><span class="n">陣列g</span><span class="p">,</span> <span class="n">視窗名稱</span><span class="o">=</span><span class="s1">&#39;g&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos="19 "></span><span class="n">等待按鍵</span><span class="p">(</span><span class="mi">500</span><span class="p">)</span>
+<span class="linenos" data-linenos="20 "></span>
+<span class="linenos" data-linenos="21 "></span><span class="n">陣列r</span> <span class="o">=</span> <span class="n">陣列</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
+<span class="linenos" data-linenos="22 "></span><span class="n">陣列r</span><span class="p">[:,</span> <span class="p">:,</span> <span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="linenos" data-linenos="23 "></span><span class="n">陣列r</span><span class="p">[:,</span> <span class="p">:,</span> <span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="linenos" data-linenos="24 "></span><span class="n">顯示影像</span><span class="p">(</span><span class="n">陣列r</span><span class="p">,</span> <span class="n">視窗名稱</span><span class="o">=</span><span class="s1">&#39;r&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos="25 "></span><span class="n">等待按鍵</span><span class="p">()</span>
+</code></pre></div>
 </div>
 </div>
 </div>
@@ -1875,7 +1971,7 @@
 </dl>
 <details class="example" open="open">
 <summary>範例程式 視訊分割 - - - - - - - (彩色影像與3維陣列 2/2 新檔)</summary>
-<div class="tabbed-set tabbed-alternate" data-tabs="6:2"><input checked="checked" id="__tabbed_6_1" name="__tabbed_6" type="radio" /><input id="__tabbed_6_2" name="__tabbed_6" type="radio" /><div class="tabbed-labels"><label for="__tabbed_6_1">🎦操作影片</label><label for="__tabbed_6_2">💻程式截圖</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="6:2"><input checked="checked" id="__tabbed_6_1" name="__tabbed_6" type="radio" /><input id="__tabbed_6_2" name="__tabbed_6" type="radio" /><div class="tabbed-labels"><label for="__tabbed_6_1">🎦操作影片</label><label for="__tabbed_6_2">💻程式碼</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <p><iframe width="560" height="315" src="https://www.youtube.com/embed/KtVq_qbH3aA?start=0&amp;end=639" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
@@ -1892,7 +1988,26 @@
 </ul>
 </div>
 <div class="tabbed-block">
-<p><img alt="程式截圖" src="snapshot/video_split.jpg" /> </p>
+<div class="highlight"><pre><span></span><code><span class="linenos" data-linenos=" 1 "></span><span class="kn">from</span> <span class="nn">視覺模組</span> <span class="kn">import</span> <span class="o">*</span>
+<span class="linenos" data-linenos=" 2 "></span>
+<span class="linenos" data-linenos=" 3 "></span><span class="n">攝影機</span> <span class="o">=</span> <span class="n">設置影像擷取</span><span class="p">()</span>
+<span class="linenos" data-linenos=" 4 "></span><span class="n">陣列</span> <span class="o">=</span> <span class="n">擷取影像</span><span class="p">(</span><span class="n">攝影機</span><span class="p">)</span>
+<span class="linenos" data-linenos=" 5 "></span><span class="nb">print</span><span class="p">(</span><span class="n">陣列</span><span class="o">.</span><span class="n">shape</span><span class="p">)</span>
+<span class="linenos" data-linenos=" 6 "></span><span class="n">高</span> <span class="o">=</span> <span class="n">陣列</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+<span class="linenos" data-linenos=" 7 "></span><span class="n">寬</span> <span class="o">=</span> <span class="n">陣列</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
+<span class="linenos" data-linenos=" 8 "></span><span class="n">分割點y</span> <span class="o">=</span> <span class="n">高</span> <span class="o">//</span> <span class="mi">2</span>
+<span class="linenos" data-linenos=" 9 "></span><span class="n">分割點x</span> <span class="o">=</span> <span class="n">寬</span> <span class="o">//</span> <span class="mi">2</span>
+<span class="linenos" data-linenos="10 "></span>
+<span class="linenos" data-linenos="11 "></span><span class="k">while</span> <span class="kc">True</span> <span class="p">:</span>
+<span class="linenos" data-linenos="12 "></span>    <span class="n">陣列</span> <span class="o">=</span> <span class="n">擷取影像</span><span class="p">(</span><span class="n">攝影機</span><span class="p">)</span>
+<span class="linenos" data-linenos="13 "></span>    <span class="n">陣列</span> <span class="o">=</span> <span class="n">左右翻轉</span><span class="p">(</span><span class="n">陣列</span><span class="p">)</span>
+<span class="linenos" data-linenos="14 "></span>    <span class="n">顯示影像</span><span class="p">(</span><span class="n">陣列</span><span class="p">,</span> <span class="n">視窗名稱</span><span class="o">=</span><span class="s1">&#39;all&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos="15 "></span>
+<span class="linenos" data-linenos="16 "></span>    <span class="n">顯示影像</span><span class="p">(</span><span class="n">陣列</span><span class="p">[:</span><span class="n">分割點y</span><span class="p">,</span> <span class="p">:</span><span class="n">分割點x</span><span class="p">],</span> <span class="n">視窗名稱</span><span class="o">=</span><span class="s1">&#39;1&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos="17 "></span>    <span class="n">顯示影像</span><span class="p">(</span><span class="n">陣列</span><span class="p">[:</span><span class="n">分割點y</span><span class="p">,</span> <span class="n">分割點x</span><span class="p">:],</span> <span class="n">視窗名稱</span><span class="o">=</span><span class="s1">&#39;2&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos="18 "></span>    <span class="n">顯示影像</span><span class="p">(</span><span class="n">陣列</span><span class="p">[</span><span class="n">分割點y</span><span class="p">:,</span> <span class="p">:</span><span class="n">分割點x</span><span class="p">],</span> <span class="n">視窗名稱</span><span class="o">=</span><span class="s1">&#39;3&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos="19 "></span>    <span class="n">顯示影像</span><span class="p">(</span><span class="n">陣列</span><span class="p">[</span><span class="n">分割點y</span><span class="p">:,</span> <span class="n">分割點x</span><span class="p">:],</span> <span class="n">視窗名稱</span><span class="o">=</span><span class="s1">&#39;4&#39;</span><span class="p">)</span>
+</code></pre></div>
 </div>
 </div>
 </div>
