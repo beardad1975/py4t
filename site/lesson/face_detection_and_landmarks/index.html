@@ -1339,12 +1339,19 @@
 <dt><br/></dt>
 <dd>如果一次只能索引一個點的話，當我們想要一次存取一塊陣列，在程式撰寫時會變得更複雜。numpy函式庫提供切片(slicing)的語法，只要熟悉它，就可以讓我們很方便的索引到任何一塊想要的區域。</dd>
 <dd><img alt="3d_array_slice" src="3d_array_slice.png" /></dd>
+<dt><br/></dt>
+<dd>
+<p>甚至還有跳著選的陣列索引，如第0、2、4、…的方式(需指定步進值，類似等差數列的公差)。有了這些切片方法，是不是以更容易選到你想要的那一塊陣列了呢。</p>
+</dd>
+<dd>
+<p><img alt="3d_array_slice2" src="3d_array_slice2.png" /></p>
+</dd>
 </dl>
 <p><br/></p>
 <p>接著讓我們來實作看看。</p>
 <details class="example" open="open">
 <summary>範例程式 電腦視界 - - - - - - - (電腦視界 1/1 新檔)</summary>
-<div class="tabbed-set tabbed-alternate" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">🎦操作影片</label><label for="__tabbed_1_2">💻程式截圖</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">🎦操作影片</label><label for="__tabbed_1_2">💻程式碼</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <p><iframe width="560" height="315" src="https://www.youtube.com/embed/V2ei9Wurv6M?start=2&amp;end=382" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
@@ -1360,7 +1367,22 @@
 </ul>
 </div>
 <div class="tabbed-block">
-<p><img alt="程式截圖" src="snapshot/computer_vision.jpg" /> </p>
+<div class="highlight"><pre><span></span><code><span class="linenos" data-linenos=" 1 "></span><span class="kn">from</span> <span class="nn">視覺模組</span> <span class="kn">import</span> <span class="o">*</span>
+<span class="linenos" data-linenos=" 2 "></span>
+<span class="linenos" data-linenos=" 3 "></span><span class="n">攝影機</span> <span class="o">=</span> <span class="n">設置影像擷取</span><span class="p">(</span><span class="n">後端</span><span class="o">=</span><span class="s1">&#39;DSHOW&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos=" 4 "></span>
+<span class="linenos" data-linenos=" 5 "></span><span class="k">while</span> <span class="kc">True</span> <span class="p">:</span>
+<span class="linenos" data-linenos=" 6 "></span>    <span class="n">陣列</span> <span class="o">=</span> <span class="n">擷取影像</span><span class="p">(</span><span class="n">攝影機</span><span class="p">)</span>
+<span class="linenos" data-linenos=" 7 "></span>    <span class="n">陣列</span> <span class="o">=</span> <span class="n">左右翻轉</span><span class="p">(</span><span class="n">陣列</span><span class="p">)</span>
+<span class="linenos" data-linenos=" 8 "></span>
+<span class="linenos" data-linenos=" 9 "></span>    <span class="n">顯示影像</span><span class="p">(</span><span class="n">陣列</span><span class="p">)</span>
+<span class="linenos" data-linenos="10 "></span>
+<span class="linenos" data-linenos="11 "></span>    <span class="nb">print</span><span class="p">(</span><span class="n">陣列</span><span class="o">.</span><span class="n">shape</span><span class="p">)</span>
+<span class="linenos" data-linenos="12 "></span>    <span class="nb">print</span><span class="p">(</span><span class="n">陣列</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">10</span><span class="p">,</span> <span class="mi">0</span><span class="p">:</span><span class="mi">10</span><span class="p">,</span> <span class="mi">0</span><span class="p">])</span>
+<span class="linenos" data-linenos="13 "></span>
+<span class="linenos" data-linenos="14 "></span>    <span class="n">陣列</span><span class="p">[:,</span> <span class="mi">200</span><span class="p">:</span><span class="mi">400</span><span class="p">,</span> <span class="p">:]</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="linenos" data-linenos="15 "></span>    <span class="n">顯示影像</span><span class="p">(</span><span class="n">陣列</span><span class="p">,</span> <span class="n">視窗名稱</span><span class="o">=</span><span class="s1">&#39;Image 2&#39;</span><span class="p">)</span>
+</code></pre></div>
 </div>
 </div>
 </div>
@@ -1382,7 +1404,7 @@
 <p>人臉偵測器感覺起來很像神秘的黑盒子，它的內部到底是什麼呢？</p>
 </dd>
 <dd>
-<p>這個偵測器，其實是由全球資料科學家研究出來有關機器學習(Machine Learning)的成果之一，特別是這幾年快速發展的深度學習(Deep Learning)，由於這個主題相當的龐大與複雜，我們僅會透過下方的影片(手寫數字辨識)，做為對深度學習的基本認識。</p>
+<p>這個偵測器，其實是由全球AI科學家研究出來有關機器學習(Machine Learning)的成果之一，特別是這幾年快速發展的深度學習(Deep Learning)，由於這個主題相當的龐大與複雜，我們僅會透過下方的影片(手寫數字辨識)，做為對深度學習的基本認識。</p>
 </dd>
 <dt><br/></dt>
 <dd>
@@ -1393,7 +1415,7 @@
 </dd>
 <dt><br/></dt>
 <dd>
-<p>下圖是人類神經元的圖示，資料科學家從人類的神經元及神經系統得到靈感，建構出以數學及電腦程式組成的人工神經網路。</p>
+<p>下圖是人類神經元的圖示，AI科學家從人類的神經元及神經系統得到靈感，建構出以數學及電腦程式組成的人工神經網路。</p>
 </dd>
 <dd>
 <p><img alt="human_neuron" src="human_neuron.jpg" /></p>
@@ -1417,7 +1439,7 @@
 <p><br/></p>
 <details class="example" open="open">
 <summary>範例程式 看見人臉 - - - - - - - (看見人臉 1/1 新檔)</summary>
-<div class="tabbed-set tabbed-alternate" data-tabs="2:2"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio" /><input id="__tabbed_2_2" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="__tabbed_2_1">🎦操作影片</label><label for="__tabbed_2_2">💻程式截圖</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="2:2"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio" /><input id="__tabbed_2_2" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="__tabbed_2_1">🎦操作影片</label><label for="__tabbed_2_2">💻程式碼</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <p><iframe width="560" height="315" src="https://www.youtube.com/embed/TUb_CzM2PjI?start=2&amp;end=348" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
@@ -1431,7 +1453,25 @@
 </ul>
 </div>
 <div class="tabbed-block">
-<p><img alt="程式截圖" src="snapshot/face_detection.jpg" /> </p>
+<div class="highlight"><pre><span></span><code><span class="linenos" data-linenos=" 1 "></span><span class="kn">from</span> <span class="nn">視覺模組</span> <span class="kn">import</span> <span class="o">*</span>
+<span class="linenos" data-linenos=" 2 "></span>
+<span class="linenos" data-linenos=" 3 "></span><span class="n">攝影機</span> <span class="o">=</span> <span class="n">設置影像擷取</span><span class="p">(</span><span class="n">後端</span><span class="o">=</span><span class="s1">&#39;DSHOW&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos=" 4 "></span><span class="n">偵測器</span> <span class="o">=</span> <span class="n">設置FaceDetection</span><span class="p">()</span>
+<span class="linenos" data-linenos=" 5 "></span>
+<span class="linenos" data-linenos=" 6 "></span><span class="k">while</span> <span class="kc">True</span> <span class="p">:</span>
+<span class="linenos" data-linenos=" 7 "></span>    <span class="n">陣列</span> <span class="o">=</span> <span class="n">擷取影像</span><span class="p">(</span><span class="n">攝影機</span><span class="p">)</span>
+<span class="linenos" data-linenos=" 8 "></span>    <span class="n">陣列</span> <span class="o">=</span> <span class="n">左右翻轉</span><span class="p">(</span><span class="n">陣列</span><span class="p">)</span>
+<span class="linenos" data-linenos=" 9 "></span>    <span class="n">顯示影像</span><span class="p">(</span><span class="n">陣列</span><span class="p">)</span>
+<span class="linenos" data-linenos="10 "></span>
+<span class="linenos" data-linenos="11 "></span>    <span class="n">結果</span> <span class="o">=</span> <span class="n">偵測器</span><span class="o">.</span><span class="n">process</span><span class="p">(</span><span class="n">陣列</span><span class="p">)</span>
+<span class="linenos" data-linenos="12 "></span>    <span class="k">if</span> <span class="n">結果</span><span class="p">:</span>
+<span class="linenos" data-linenos="13 "></span>        <span class="n">標記Face</span><span class="p">(</span><span class="n">陣列</span><span class="p">,</span> <span class="n">結果</span><span class="p">)</span>
+<span class="linenos" data-linenos="14 "></span>        <span class="n">臉</span> <span class="o">=</span> <span class="n">取出Face</span><span class="p">(</span><span class="n">結果</span><span class="p">)</span>
+<span class="linenos" data-linenos="15 "></span>        <span class="n">畫出文字</span><span class="p">(</span><span class="n">image</span><span class="o">=</span><span class="n">陣列</span><span class="p">,</span>
+<span class="linenos" data-linenos="16 "></span>            <span class="n">text</span><span class="o">=</span><span class="nb">str</span><span class="p">(</span><span class="n">臉</span><span class="o">.</span><span class="n">score</span><span class="p">),</span>
+<span class="linenos" data-linenos="17 "></span>            <span class="n">pos</span><span class="o">=</span><span class="n">臉</span><span class="o">.</span><span class="n">bottom_left</span><span class="p">)</span>        
+<span class="linenos" data-linenos="18 "></span>        <span class="n">顯示影像</span><span class="p">(</span><span class="n">陣列</span><span class="p">,</span> <span class="n">視窗名稱</span><span class="o">=</span><span class="s1">&#39;Image 2&#39;</span><span class="p">)</span>
+</code></pre></div>
 </div>
 </div>
 </div>
@@ -1464,7 +1504,7 @@
 </dl>
 <details class="example" open="open">
 <summary>範例程式 更多臉部特徵 - - - - - - - (臉部網格 1/2 新檔)</summary>
-<div class="tabbed-set tabbed-alternate" data-tabs="3:2"><input checked="checked" id="__tabbed_3_1" name="__tabbed_3" type="radio" /><input id="__tabbed_3_2" name="__tabbed_3" type="radio" /><div class="tabbed-labels"><label for="__tabbed_3_1">🎦操作影片</label><label for="__tabbed_3_2">💻程式截圖</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="3:2"><input checked="checked" id="__tabbed_3_1" name="__tabbed_3" type="radio" /><input id="__tabbed_3_2" name="__tabbed_3" type="radio" /><div class="tabbed-labels"><label for="__tabbed_3_1">🎦操作影片</label><label for="__tabbed_3_2">💻程式碼</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <p><iframe width="560" height="315" src="https://www.youtube.com/embed/9pxUQugN83E?start=2&amp;end=340" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
@@ -1479,7 +1519,24 @@
 </ul>
 </div>
 <div class="tabbed-block">
-<p><img alt="程式截圖" src="snapshot/face_mesh1.jpg" /> </p>
+<div class="highlight"><pre><span></span><code><span class="linenos" data-linenos=" 1 "></span><span class="kn">from</span> <span class="nn">視覺模組</span> <span class="kn">import</span> <span class="o">*</span>
+<span class="linenos" data-linenos=" 2 "></span>
+<span class="linenos" data-linenos=" 3 "></span><span class="n">攝影機</span> <span class="o">=</span> <span class="n">設置影像擷取</span><span class="p">(</span><span class="n">後端</span><span class="o">=</span><span class="s1">&#39;DSHOW&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos=" 4 "></span><span class="n">偵測器</span> <span class="o">=</span> <span class="n">設置FaceMesh</span><span class="p">()</span>
+<span class="linenos" data-linenos=" 5 "></span>
+<span class="linenos" data-linenos=" 6 "></span><span class="k">while</span> <span class="kc">True</span> <span class="p">:</span>
+<span class="linenos" data-linenos=" 7 "></span>    <span class="n">陣列</span> <span class="o">=</span> <span class="n">擷取影像</span><span class="p">(</span><span class="n">攝影機</span><span class="p">)</span>
+<span class="linenos" data-linenos=" 8 "></span>    <span class="n">陣列</span> <span class="o">=</span> <span class="n">左右翻轉</span><span class="p">(</span><span class="n">陣列</span><span class="p">)</span>
+<span class="linenos" data-linenos=" 9 "></span>    <span class="n">顯示影像</span><span class="p">(</span><span class="n">陣列</span><span class="p">)</span>
+<span class="linenos" data-linenos="10 "></span>
+<span class="linenos" data-linenos="11 "></span>    <span class="n">結果</span> <span class="o">=</span> <span class="n">偵測器</span><span class="o">.</span><span class="n">process</span><span class="p">(</span><span class="n">陣列</span><span class="p">)</span>
+<span class="linenos" data-linenos="12 "></span>    <span class="k">if</span> <span class="n">結果</span><span class="p">:</span>
+<span class="linenos" data-linenos="13 "></span>        <span class="n">陣列</span><span class="p">[:,</span> <span class="p">:,</span> <span class="p">:]</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="linenos" data-linenos="14 "></span>        <span class="n">標記FaceMesh</span><span class="p">(</span><span class="n">陣列</span><span class="p">,</span> <span class="n">結果</span><span class="p">,</span> <span class="s1">&#39;FACE_LANDMARKS&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos="15 "></span>        <span class="n">標記FaceMesh</span><span class="p">(</span><span class="n">陣列</span><span class="p">,</span> <span class="n">結果</span><span class="p">,</span> <span class="s1">&#39;CONTOURS&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos="16 "></span>
+<span class="linenos" data-linenos="17 "></span>        <span class="n">顯示影像</span><span class="p">(</span><span class="n">陣列</span><span class="p">,</span> <span class="n">視窗名稱</span><span class="o">=</span><span class="s1">&#39;Image 2&#39;</span><span class="p">)</span> 
+</code></pre></div>
 </div>
 </div>
 </div>
@@ -1517,7 +1574,7 @@
 </dl>
 <details class="example" open="open">
 <summary>範例程式 臉部動作 - - - - - - - (臉部網格 2/2 接續)</summary>
-<div class="tabbed-set tabbed-alternate" data-tabs="4:2"><input checked="checked" id="__tabbed_4_1" name="__tabbed_4" type="radio" /><input id="__tabbed_4_2" name="__tabbed_4" type="radio" /><div class="tabbed-labels"><label for="__tabbed_4_1">🎦操作影片</label><label for="__tabbed_4_2">💻程式截圖</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="4:2"><input checked="checked" id="__tabbed_4_1" name="__tabbed_4" type="radio" /><input id="__tabbed_4_2" name="__tabbed_4" type="radio" /><div class="tabbed-labels"><label for="__tabbed_4_1">🎦操作影片</label><label for="__tabbed_4_2">💻程式碼</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <p><iframe width="560" height="315" src="https://www.youtube.com/embed/9pxUQugN83E?start=343&amp;end=596" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
@@ -1529,7 +1586,30 @@
 </ul>
 </div>
 <div class="tabbed-block">
-<p><img alt="程式截圖" src="snapshot/face_mesh2.jpg" /> </p>
+<div class="highlight"><pre><span></span><code><span class="linenos" data-linenos=" 1 "></span><span class="kn">from</span> <span class="nn">視覺模組</span> <span class="kn">import</span> <span class="o">*</span>
+<span class="linenos" data-linenos=" 2 "></span>
+<span class="linenos" data-linenos=" 3 "></span><span class="n">攝影機</span> <span class="o">=</span> <span class="n">設置影像擷取</span><span class="p">(</span><span class="n">後端</span><span class="o">=</span><span class="s1">&#39;DSHOW&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos=" 4 "></span><span class="n">偵測器</span> <span class="o">=</span> <span class="n">設置FaceMesh</span><span class="p">()</span>
+<span class="linenos" data-linenos=" 5 "></span><span class="n">數字</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="linenos" data-linenos=" 6 "></span>
+<span class="linenos" data-linenos=" 7 "></span><span class="k">while</span> <span class="kc">True</span> <span class="p">:</span>
+<span class="linenos" data-linenos=" 8 "></span>    <span class="n">陣列</span> <span class="o">=</span> <span class="n">擷取影像</span><span class="p">(</span><span class="n">攝影機</span><span class="p">)</span>
+<span class="linenos" data-linenos=" 9 "></span>    <span class="n">陣列</span> <span class="o">=</span> <span class="n">左右翻轉</span><span class="p">(</span><span class="n">陣列</span><span class="p">)</span>
+<span class="linenos" data-linenos="10 "></span>    <span class="n">顯示影像</span><span class="p">(</span><span class="n">陣列</span><span class="p">)</span>
+<span class="linenos" data-linenos="11 "></span>
+<span class="linenos" data-linenos="12 "></span>    <span class="n">結果</span> <span class="o">=</span> <span class="n">偵測器</span><span class="o">.</span><span class="n">process</span><span class="p">(</span><span class="n">陣列</span><span class="p">)</span>
+<span class="linenos" data-linenos="13 "></span>    <span class="k">if</span> <span class="n">結果</span><span class="p">:</span>
+<span class="linenos" data-linenos="14 "></span>        <span class="n">陣列</span><span class="p">[:,</span> <span class="p">:,</span> <span class="p">:]</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="linenos" data-linenos="15 "></span>        <span class="n">標記FaceMesh</span><span class="p">(</span><span class="n">陣列</span><span class="p">,</span> <span class="n">結果</span><span class="p">)</span>
+<span class="linenos" data-linenos="16 "></span>        <span class="n">特徵清單</span> <span class="o">=</span> <span class="n">取出Landmarks</span><span class="p">(</span><span class="n">結果</span><span class="p">)</span>        
+<span class="linenos" data-linenos="17 "></span>
+<span class="linenos" data-linenos="18 "></span>        <span class="n">開口長度</span> <span class="o">=</span> <span class="nb">abs</span><span class="p">(</span><span class="n">特徵清單</span><span class="p">[</span><span class="mi">13</span><span class="p">][</span><span class="mi">1</span><span class="p">]</span> <span class="o">-</span> <span class="n">特徵清單</span><span class="p">[</span><span class="mi">14</span><span class="p">][</span><span class="mi">1</span><span class="p">])</span>
+<span class="linenos" data-linenos="19 "></span>        <span class="k">if</span> <span class="n">開口長度</span> <span class="o">&gt;</span> <span class="mi">10</span> <span class="p">:</span>
+<span class="linenos" data-linenos="20 "></span>            <span class="n">標記FaceMesh</span><span class="p">(</span><span class="n">陣列</span><span class="p">,</span> <span class="n">結果</span><span class="p">,</span> <span class="s1">&#39;LIPS&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos="21 "></span>            <span class="n">數字</span> <span class="o">+=</span> <span class="mi">1</span>
+<span class="linenos" data-linenos="22 "></span>            <span class="nb">print</span><span class="p">(</span><span class="n">數字</span><span class="p">)</span>
+<span class="linenos" data-linenos="23 "></span>        <span class="n">顯示影像</span><span class="p">(</span><span class="n">陣列</span><span class="p">,</span> <span class="n">視窗名稱</span><span class="o">=</span><span class="s1">&#39;Image 2&#39;</span><span class="p">)</span> 
+</code></pre></div>
 </div>
 </div>
 </div>
@@ -1538,7 +1618,7 @@
 <summary>進階範例 人臉輸入數字</summary>
 <dl>
 <dd>人臉數字輸入，眨右眼增加數字，眨左眼減少數字，開口輸入數字</dd>
-<dd><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></span> <a href="/cv4t/face_input_number/" target="_blank">進階範例 人臉輸入數字</a></dd>
+<dd><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></span> <a href="../../cv4t/face_input_number/" target="_blank">進階範例 人臉輸入數字</a></dd>
 </dl>
 </details>
 <p><br/>
@@ -1555,7 +1635,7 @@
 </dd>
 <dt><br/></dt>
 <dd>
-<p>臉部特徵點還可以有什麼應用呢？我們可以做出類似IG的濾鏡貼紙效果，幫相機裡的人增加卡通裝飾。</p>
+<p>臉部特徵點還可以有什麼應用呢？我們可以做出類似IG或是相機app的濾鏡貼紙效果，幫相機裡的人增加卡通裝飾(如貓耳朵或狗耳朵)。</p>
 </dd>
 <dd>
 <p>想要達到這個功能，必須要能夠將一張圖，覆疊至另一張圖上。為了有更好的覆疊效果，我們需要認識alpha(阿爾法)通道。</p>
@@ -1595,7 +1675,7 @@
 </dl>
 <details class="example" open="open">
 <summary>範例程式 特徵點與png去背圖 - - - - - - - (濾鏡貼紙 1/2 新檔)</summary>
-<div class="tabbed-set tabbed-alternate" data-tabs="5:2"><input checked="checked" id="__tabbed_5_1" name="__tabbed_5" type="radio" /><input id="__tabbed_5_2" name="__tabbed_5" type="radio" /><div class="tabbed-labels"><label for="__tabbed_5_1">🎦操作影片</label><label for="__tabbed_5_2">💻程式截圖</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="5:2"><input checked="checked" id="__tabbed_5_1" name="__tabbed_5" type="radio" /><input id="__tabbed_5_2" name="__tabbed_5" type="radio" /><div class="tabbed-labels"><label for="__tabbed_5_1">🎦操作影片</label><label for="__tabbed_5_2">💻程式碼</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <p><iframe width="560" height="315" src="https://www.youtube.com/embed/JVkRS2VDHJg?start=0&amp;end=506" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
@@ -1609,7 +1689,26 @@
 </ul>
 </div>
 <div class="tabbed-block">
-<p><img alt="程式截圖" src="snapshot/filter_sticker1.jpg" /></p>
+<div class="highlight"><pre><span></span><code><span class="linenos" data-linenos=" 1 "></span><span class="c1"># 需匯入crown.png(視覺便利貼:png-&gt;匯入)</span>
+<span class="linenos" data-linenos=" 2 "></span>
+<span class="linenos" data-linenos=" 3 "></span><span class="kn">from</span> <span class="nn">視覺模組</span> <span class="kn">import</span> <span class="o">*</span>
+<span class="linenos" data-linenos=" 4 "></span>
+<span class="linenos" data-linenos=" 5 "></span><span class="n">攝影機</span> <span class="o">=</span> <span class="n">設置影像擷取</span><span class="p">(</span><span class="n">後端</span><span class="o">=</span><span class="s1">&#39;DSHOW&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos=" 6 "></span><span class="n">png陣列</span> <span class="o">=</span> <span class="n">讀取png影像</span><span class="p">(</span><span class="s1">&#39;crown.png&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos=" 7 "></span><span class="n">偵測器</span> <span class="o">=</span> <span class="n">設置FaceMesh</span><span class="p">()</span>
+<span class="linenos" data-linenos=" 8 "></span>
+<span class="linenos" data-linenos=" 9 "></span><span class="k">while</span> <span class="kc">True</span> <span class="p">:</span>
+<span class="linenos" data-linenos="10 "></span>    <span class="n">陣列</span> <span class="o">=</span> <span class="n">擷取影像</span><span class="p">(</span><span class="n">攝影機</span><span class="p">)</span>
+<span class="linenos" data-linenos="11 "></span>    <span class="n">陣列</span> <span class="o">=</span> <span class="n">左右翻轉</span><span class="p">(</span><span class="n">陣列</span><span class="p">)</span>
+<span class="linenos" data-linenos="12 "></span>    <span class="n">顯示影像</span><span class="p">(</span><span class="n">陣列</span><span class="p">)</span>
+<span class="linenos" data-linenos="13 "></span>
+<span class="linenos" data-linenos="14 "></span>    <span class="n">結果</span> <span class="o">=</span> <span class="n">偵測器</span><span class="o">.</span><span class="n">process</span><span class="p">(</span><span class="n">陣列</span><span class="p">)</span>
+<span class="linenos" data-linenos="15 "></span>    <span class="k">if</span> <span class="n">結果</span><span class="p">:</span>
+<span class="linenos" data-linenos="16 "></span>        <span class="n">特徵清單</span> <span class="o">=</span> <span class="n">取出Landmarks</span><span class="p">(</span><span class="n">結果</span><span class="p">)</span>
+<span class="linenos" data-linenos="17 "></span>        <span class="n">貼上png中心點</span><span class="p">(</span><span class="n">陣列</span><span class="p">,</span><span class="n">png陣列</span><span class="p">,</span><span class="n">特徵清單</span><span class="p">[</span><span class="mi">10</span><span class="p">])</span>
+<span class="linenos" data-linenos="18 "></span>
+<span class="linenos" data-linenos="19 "></span>        <span class="n">顯示影像</span><span class="p">(</span><span class="n">陣列</span><span class="p">,</span> <span class="n">視窗名稱</span><span class="o">=</span><span class="s1">&#39;Image 2&#39;</span><span class="p">)</span>  
+</code></pre></div>
 </div>
 </div>
 </div>
@@ -1652,7 +1751,7 @@
 </dl>
 <details class="example" open="open">
 <summary>範例程式 兩點轉換 - - - - - - - (濾鏡貼紙 2/2 接續)</summary>
-<div class="tabbed-set tabbed-alternate" data-tabs="6:2"><input checked="checked" id="__tabbed_6_1" name="__tabbed_6" type="radio" /><input id="__tabbed_6_2" name="__tabbed_6" type="radio" /><div class="tabbed-labels"><label for="__tabbed_6_1">🎦操作影片</label><label for="__tabbed_6_2">💻程式截圖</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="6:2"><input checked="checked" id="__tabbed_6_1" name="__tabbed_6" type="radio" /><input id="__tabbed_6_2" name="__tabbed_6" type="radio" /><div class="tabbed-labels"><label for="__tabbed_6_1">🎦操作影片</label><label for="__tabbed_6_2">💻程式碼</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <p><iframe width="560" height="315" src="https://www.youtube.com/embed/JVkRS2VDHJg?start=513&amp;end=704" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
@@ -1662,7 +1761,33 @@
 </ul>
 </div>
 <div class="tabbed-block">
-<p><img alt="程式截圖" src="snapshot/filter_sticker2.jpg" /></p>
+<div class="highlight"><pre><span></span><code><span class="linenos" data-linenos=" 1 "></span><span class="c1"># 需匯入crown.png(視覺便利貼:png-&gt;匯入)</span>
+<span class="linenos" data-linenos=" 2 "></span>
+<span class="linenos" data-linenos=" 3 "></span><span class="kn">from</span> <span class="nn">視覺模組</span> <span class="kn">import</span> <span class="o">*</span>
+<span class="linenos" data-linenos=" 4 "></span>
+<span class="linenos" data-linenos=" 5 "></span><span class="n">攝影機</span> <span class="o">=</span> <span class="n">設置影像擷取</span><span class="p">(</span><span class="n">後端</span><span class="o">=</span><span class="s1">&#39;DSHOW&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos=" 6 "></span><span class="n">png陣列</span> <span class="o">=</span> <span class="n">讀取png影像</span><span class="p">(</span><span class="s1">&#39;crown.png&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos=" 7 "></span><span class="n">偵測器</span> <span class="o">=</span> <span class="n">設置FaceMesh</span><span class="p">()</span>
+<span class="linenos" data-linenos=" 8 "></span>
+<span class="linenos" data-linenos=" 9 "></span><span class="k">while</span> <span class="kc">True</span> <span class="p">:</span>
+<span class="linenos" data-linenos="10 "></span>    <span class="n">陣列</span> <span class="o">=</span> <span class="n">擷取影像</span><span class="p">(</span><span class="n">攝影機</span><span class="p">)</span>
+<span class="linenos" data-linenos="11 "></span>    <span class="n">陣列</span> <span class="o">=</span> <span class="n">左右翻轉</span><span class="p">(</span><span class="n">陣列</span><span class="p">)</span>
+<span class="linenos" data-linenos="12 "></span>    <span class="n">顯示影像</span><span class="p">(</span><span class="n">陣列</span><span class="p">)</span>
+<span class="linenos" data-linenos="13 "></span>
+<span class="linenos" data-linenos="14 "></span>    <span class="n">結果</span> <span class="o">=</span> <span class="n">偵測器</span><span class="o">.</span><span class="n">process</span><span class="p">(</span><span class="n">陣列</span><span class="p">)</span>
+<span class="linenos" data-linenos="15 "></span>    <span class="k">if</span> <span class="n">結果</span><span class="p">:</span>
+<span class="linenos" data-linenos="16 "></span>        <span class="n">特徵清單</span> <span class="o">=</span> <span class="n">取出Landmarks</span><span class="p">(</span><span class="n">結果</span><span class="p">)</span>
+<span class="linenos" data-linenos="17 "></span>        <span class="n">轉換png陣列</span> <span class="o">=</span> <span class="n">兩點transform</span><span class="p">(</span>
+<span class="linenos" data-linenos="18 "></span>            <span class="n">來源影像</span><span class="o">=</span><span class="n">png陣列</span><span class="p">,</span>
+<span class="linenos" data-linenos="19 "></span>            <span class="n">來源pt1</span><span class="o">=</span><span class="p">(</span><span class="mi">100</span><span class="p">,</span><span class="mi">150</span><span class="p">),</span>
+<span class="linenos" data-linenos="20 "></span>            <span class="n">來源pt2</span><span class="o">=</span><span class="p">(</span><span class="mi">150</span><span class="p">,</span><span class="mi">150</span><span class="p">),</span>
+<span class="linenos" data-linenos="21 "></span>            <span class="n">目標影像</span><span class="o">=</span><span class="n">陣列</span><span class="p">,</span>
+<span class="linenos" data-linenos="22 "></span>            <span class="n">目標pt1</span><span class="o">=</span><span class="n">特徵清單</span><span class="p">[</span><span class="mi">109</span><span class="p">],</span>
+<span class="linenos" data-linenos="23 "></span>            <span class="n">目標pt2</span><span class="o">=</span><span class="n">特徵清單</span><span class="p">[</span><span class="mi">338</span><span class="p">])</span>
+<span class="linenos" data-linenos="24 "></span>        <span class="n">貼上png</span><span class="p">(</span><span class="n">陣列</span><span class="p">,</span><span class="n">轉換png陣列</span><span class="p">)</span>
+<span class="linenos" data-linenos="25 "></span>
+<span class="linenos" data-linenos="26 "></span>        <span class="n">顯示影像</span><span class="p">(</span><span class="n">陣列</span><span class="p">,</span> <span class="n">視窗名稱</span><span class="o">=</span><span class="s1">&#39;Image 2&#39;</span><span class="p">)</span> 
+</code></pre></div>
 </div>
 </div>
 </div>
@@ -1671,7 +1796,7 @@
 <summary>進階範例 濾鏡貼紙(多種切換)</summary>
 <dl>
 <dd>使用空白鍵切換不同的造型貼紙</dd>
-<dd><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></span> <a href="/cv4t/ar_mask_switch/" target="_blank">進階範例 濾鏡貼紙(多種切換)</a></dd>
+<dd><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></span> <a href="../../cv4t/filter_sticker_switch/" target="_blank">進階範例 濾鏡貼紙(多種切換)</a></dd>
 </dl>
 </details>
 <p><br/>
@@ -1709,6 +1834,7 @@
 <summary>關於面具transform的原理</summary>
 <dl>
 <dd><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></span> <a href="https://learnopencv.com/create-snapchat-instagram-filters-using-mediapipe/" target="_blank">面具transform的原理</a></dd>
+<dd>(AR面具的範例程式，是參考自此篇文--在learnopencv.com的教學文章及範例程式，並做適度簡化，讓學生進行實作學習。)</dd>
 </dl>
 </details>
 <dl>
@@ -1719,7 +1845,7 @@
 </dl>
 <details class="example" open="open">
 <summary>範例程式 AR面具 - - - - - - - (AR面具 1/1 新檔)</summary>
-<div class="tabbed-set tabbed-alternate" data-tabs="7:2"><input checked="checked" id="__tabbed_7_1" name="__tabbed_7" type="radio" /><input id="__tabbed_7_2" name="__tabbed_7" type="radio" /><div class="tabbed-labels"><label for="__tabbed_7_1">🎦操作影片</label><label for="__tabbed_7_2">💻程式截圖</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="7:2"><input checked="checked" id="__tabbed_7_1" name="__tabbed_7" type="radio" /><input id="__tabbed_7_2" name="__tabbed_7" type="radio" /><div class="tabbed-labels"><label for="__tabbed_7_1">🎦操作影片</label><label for="__tabbed_7_2">💻程式碼</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <p><iframe width="560" height="315" src="https://www.youtube.com/embed/-rWygtI_UGo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
@@ -1733,7 +1859,33 @@
 </ul>
 </div>
 <div class="tabbed-block">
-<p><img alt="程式截圖" src="snapshot/ar_mask.jpg" /></p>
+<div class="highlight"><pre><span></span><code><span class="linenos" data-linenos=" 1 "></span><span class="c1"># 需匯入white_mask.png(視覺便利貼:更多臉部特徵-&gt;匯入)</span>
+<span class="linenos" data-linenos=" 2 "></span><span class="c1"># 需匯入white_mask.csv(視覺便利貼:更多臉部特徵-&gt;匯入)</span>
+<span class="linenos" data-linenos=" 3 "></span>
+<span class="linenos" data-linenos=" 4 "></span><span class="kn">from</span> <span class="nn">視覺模組</span> <span class="kn">import</span> <span class="o">*</span>
+<span class="linenos" data-linenos=" 5 "></span>
+<span class="linenos" data-linenos=" 6 "></span><span class="n">攝影機</span> <span class="o">=</span> <span class="n">設置影像擷取</span><span class="p">(</span><span class="n">後端</span><span class="o">=</span><span class="s1">&#39;DSHOW&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos=" 7 "></span><span class="n">偵測器</span> <span class="o">=</span> <span class="n">設置FaceMesh</span><span class="p">()</span>
+<span class="linenos" data-linenos=" 8 "></span><span class="n">png陣列</span> <span class="o">=</span> <span class="n">讀取png影像</span><span class="p">(</span><span class="s1">&#39;white_mask.png&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos=" 9 "></span><span class="n">面具臉型</span> <span class="o">=</span> <span class="n">讀取面具臉型</span><span class="p">(</span><span class="s1">&#39;white_mask.csv&#39;</span><span class="p">,</span> <span class="n">png陣列</span><span class="p">)</span>
+<span class="linenos" data-linenos="10 "></span>
+<span class="linenos" data-linenos="11 "></span><span class="k">while</span> <span class="kc">True</span> <span class="p">:</span>
+<span class="linenos" data-linenos="12 "></span>    <span class="n">陣列</span> <span class="o">=</span> <span class="n">擷取影像</span><span class="p">(</span><span class="n">攝影機</span><span class="p">)</span>
+<span class="linenos" data-linenos="13 "></span>    <span class="n">陣列</span> <span class="o">=</span> <span class="n">左右翻轉</span><span class="p">(</span><span class="n">陣列</span><span class="p">)</span>
+<span class="linenos" data-linenos="14 "></span>    <span class="n">顯示影像</span><span class="p">(</span><span class="n">陣列</span><span class="p">)</span>
+<span class="linenos" data-linenos="15 "></span>
+<span class="linenos" data-linenos="16 "></span>    <span class="n">結果</span> <span class="o">=</span> <span class="n">偵測器</span><span class="o">.</span><span class="n">process</span><span class="p">(</span><span class="n">陣列</span><span class="p">)</span>
+<span class="linenos" data-linenos="17 "></span>    <span class="k">if</span> <span class="n">結果</span><span class="p">:</span>
+<span class="linenos" data-linenos="18 "></span>        <span class="n">特徵清單</span> <span class="o">=</span> <span class="n">取出Landmarks</span><span class="p">(</span><span class="n">結果</span><span class="p">)</span>
+<span class="linenos" data-linenos="19 "></span>        <span class="n">轉換png陣列</span> <span class="o">=</span> <span class="n">面具transform</span><span class="p">(</span>
+<span class="linenos" data-linenos="20 "></span>            <span class="n">來源影像</span><span class="o">=</span><span class="n">png陣列</span><span class="p">,</span>
+<span class="linenos" data-linenos="21 "></span>            <span class="n">臉型對應</span><span class="o">=</span><span class="n">面具臉型</span><span class="p">,</span>
+<span class="linenos" data-linenos="22 "></span>            <span class="n">目標影像</span><span class="o">=</span><span class="n">陣列</span><span class="p">,</span>
+<span class="linenos" data-linenos="23 "></span>            <span class="n">偵測結果</span><span class="o">=</span><span class="n">結果</span><span class="p">)</span>
+<span class="linenos" data-linenos="24 "></span>        <span class="n">貼上png</span><span class="p">(</span><span class="n">陣列</span><span class="p">,</span><span class="n">轉換png陣列</span><span class="p">)</span>
+<span class="linenos" data-linenos="25 "></span>
+<span class="linenos" data-linenos="26 "></span>        <span class="n">顯示影像</span><span class="p">(</span><span class="n">陣列</span><span class="p">,</span> <span class="n">視窗名稱</span><span class="o">=</span><span class="s1">&#39;Image 2&#39;</span><span class="p">)</span>
+</code></pre></div>
 </div>
 </div>
 </div>
@@ -1742,17 +1894,26 @@
 <summary>進階範例 AR面具(多種切換)</summary>
 <dl>
 <dd>每次重新偵測臉部時，即會切換</dd>
-<dd><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></span> <a href="/cv4t/ar_mask_switch/" target="_blank">進階範例 AR面具(多種切換)</a></dd>
+<dd><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></span> <a href="../../cv4t/ar_mask_switch/" target="_blank">進階範例 AR面具(多種切換)</a></dd>
+</dl>
+</details>
+<details class="info">
+<summary>進階範例 如何自訂新的AR面具</summary>
+<dl>
+<dd>Py4t的範例面具有4種，如果你覺得不夠，想要自訂一個新的面具，或是想要了解多點對應的標記方式(許多機器學習的專案，其實都要花許多時間整理、標記資料)。你可以先準備好一個面具檔案，然後照著下方的教學影片做出，整個過程約需30分鐘，需要有耐心。</dd>
+<dd><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></span> <a href="https://youtu.be/iT2aiqdHrBw" target="_blank">自訂新的AR面具</a></dd>
+<dd><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></span> <a href="https://drive.google.com/drive/folders/1kG-Cac7sME1ogDrylS79wG9MncjcXDDu?usp=drive_link" target="_blank">範例程式(大猩猩面具)</a></dd>
+<dd>(由Py4t社群的樂活老師提問而來)</dd>
 </dl>
 </details>
 <p><br/>
 <br/></p>
 <hr />
 <h2 id="_2">📙 科技社會議題</h2>
-<p><strong><em> 人臉辦識與未來商店 </em></strong></p>
+<p><strong><em> 人臉辨識與未來商店 </em></strong></p>
 <hr />
 <dl>
-<dd>利用人臉偵測，來產生臉部的特徵點，並計算如兩眼距離、鼻子到嘴巴的距離、顴骨形狀、嘴唇、耳朵和下巴的輪廓等，將這些臉部資料與個人個資儲存後，可以做為下次辨識人臉的依據，就好像把人臉當作指紋的身分確認，這種技術稱為人臉辦識。</dd>
+<dd>利用人臉偵測，來產生臉部的特徵點，並計算如兩眼距離、鼻子到嘴巴的距離、顴骨形狀、嘴唇、耳朵和下巴的輪廓等，將這些臉部資料與個人個資儲存後，可以做為下次辨識人臉的依據，就好像把人臉當作指紋的身分確認，這種技術稱為人臉辨識。</dd>
 <dd>在美國、中國大陸，有些商店、飯站開始實驗以人臉做為身份認証的付款方式。</dd>
 <dt><br/></dt>
 <dd>
@@ -1765,10 +1926,10 @@
 <p><br/>
 <br/></p>
 <hr />
-<p><strong><em> 人臉辦識、執法監控與個人隱私 </em></strong></p>
+<p><strong><em> 人臉辨識、執法監控與個人隱私 </em></strong></p>
 <hr />
 <dl>
-<dd>如果政府把人臉辦識，當作法律執行的工具來監控人民時，對我們的個人隱私會產生什麼影響呢？</dd>
+<dd>如果政府把人臉辨識，當作法律執行的工具來監控人民時，對我們的個人隱私會產生什麼影響呢？</dd>
 <dd><iframe width="560" height="315" src="https://www.youtube.com/embed/qbckDLoklZE?start=187&amp;end=451" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></dd>
 <dd><sup>(4分24秒, 資料來源:</sup><sup id="fnref:face_recognition_issue"><a class="footnote-ref" href="#fn:face_recognition_issue">10</a></sup><sup>)</sup></dd>
 <dd>科技技術是一種工具，端看人類如何去運用，就好像水能載舟，亦能覆舟，我們必需小心地、負責任地使用這個技術。</dd>

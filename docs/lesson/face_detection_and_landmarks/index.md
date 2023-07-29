@@ -91,6 +91,13 @@ hide:
 
 <br/>
 
+: 甚至還有跳著選的陣列索引，如第0、2、4、…的方式(需指定步進值，類似等差數列的公差)。有了這些切片方法，是不是以更容易選到你想要的那一塊陣列了呢。
+
+
+: ![3d_array_slice2](3d_array_slice2.png)
+
+<br/>
+
 接著讓我們來實作看看。
 
 
@@ -114,9 +121,25 @@ hide:
 
 
 
-    === "💻程式截圖"
+    === "💻程式碼"
 
-        ![程式截圖](snapshot/computer_vision.jpg) 
+        ```python
+        from 視覺模組 import *
+
+        攝影機 = 設置影像擷取(後端='DSHOW')
+
+        while True :
+            陣列 = 擷取影像(攝影機)
+            陣列 = 左右翻轉(陣列)
+            
+            顯示影像(陣列)
+            
+            print(陣列.shape)
+            print(陣列[0:10, 0:10, 0])
+            
+            陣列[:, 200:400, :] = 0
+            顯示影像(陣列, 視窗名稱='Image 2')
+        ```
 
 
 <br/>
@@ -143,7 +166,7 @@ hide:
 
 : 人臉偵測器感覺起來很像神秘的黑盒子，它的內部到底是什麼呢？
 
-: 這個偵測器，其實是由全球資料科學家研究出來有關機器學習(Machine Learning)的成果之一，特別是這幾年快速發展的深度學習(Deep Learning)，由於這個主題相當的龐大與複雜，我們僅會透過下方的影片(手寫數字辨識)，做為對深度學習的基本認識。
+: 這個偵測器，其實是由全球AI科學家研究出來有關機器學習(Machine Learning)的成果之一，特別是這幾年快速發展的深度學習(Deep Learning)，由於這個主題相當的龐大與複雜，我們僅會透過下方的影片(手寫數字辨識)，做為對深度學習的基本認識。
 
 <br/>
 
@@ -156,7 +179,7 @@ hide:
 
 <br/>
 
-: 下圖是人類神經元的圖示，資料科學家從人類的神經元及神經系統得到靈感，建構出以數學及電腦程式組成的人工神經網路。
+: 下圖是人類神經元的圖示，AI科學家從人類的神經元及神經系統得到靈感，建構出以數學及電腦程式組成的人工神經網路。
 
 : ![human_neuron](human_neuron.jpg)
 
@@ -196,9 +219,28 @@ hide:
 
 
 
-    === "💻程式截圖"
+    === "💻程式碼"
 
-        ![程式截圖](snapshot/face_detection.jpg) 
+        ```python
+        from 視覺模組 import *
+
+        攝影機 = 設置影像擷取(後端='DSHOW')
+        偵測器 = 設置FaceDetection()
+
+        while True :
+            陣列 = 擷取影像(攝影機)
+            陣列 = 左右翻轉(陣列)
+            顯示影像(陣列)
+            
+            結果 = 偵測器.process(陣列)
+            if 結果:
+                標記Face(陣列, 結果)
+                臉 = 取出Face(結果)
+                畫出文字(image=陣列,
+                    text=str(臉.score),
+                    pos=臉.bottom_left)        
+                顯示影像(陣列, 視窗名稱='Image 2')
+        ``` 
 
 
 
@@ -259,9 +301,27 @@ hide:
         * 2:33 偵測臉部特徵點
         * 3:35 標示臉部網格、特徵點與輪廓
 
-    === "💻程式截圖"
+    === "💻程式碼"
 
-        ![程式截圖](snapshot/face_mesh1.jpg) 
+        ```python
+        from 視覺模組 import *
+
+        攝影機 = 設置影像擷取(後端='DSHOW')
+        偵測器 = 設置FaceMesh()
+
+        while True :
+            陣列 = 擷取影像(攝影機)
+            陣列 = 左右翻轉(陣列)
+            顯示影像(陣列)
+            
+            結果 = 偵測器.process(陣列)
+            if 結果:
+                陣列[:, :, :] = 0
+                標記FaceMesh(陣列, 結果, 'FACE_LANDMARKS')
+                標記FaceMesh(陣列, 結果, 'CONTOURS')
+                    
+                顯示影像(陣列, 視窗名稱='Image 2') 
+        ``` 
 
 
 
@@ -320,16 +380,40 @@ hide:
         * 6:25 計算開口長度
         * 8:07 符合開口條件的動作
 
-    === "💻程式截圖"
+    === "💻程式碼"
 
-        ![程式截圖](snapshot/face_mesh2.jpg) 
+        ```python
+        from 視覺模組 import *
+
+        攝影機 = 設置影像擷取(後端='DSHOW')
+        偵測器 = 設置FaceMesh()
+        數字 = 0
+
+        while True :
+            陣列 = 擷取影像(攝影機)
+            陣列 = 左右翻轉(陣列)
+            顯示影像(陣列)
+            
+            結果 = 偵測器.process(陣列)
+            if 結果:
+                陣列[:, :, :] = 0
+                標記FaceMesh(陣列, 結果)
+                特徵清單 = 取出Landmarks(結果)        
+                
+                開口長度 = abs(特徵清單[13][1] - 特徵清單[14][1])
+                if 開口長度 > 10 :
+                    標記FaceMesh(陣列, 結果, 'LIPS')
+                    數字 += 1
+                    print(數字)
+                顯示影像(陣列, 視窗名稱='Image 2') 
+        ``` 
 
 
 ??? info "進階範例 人臉輸入數字"
 
     : 人臉數字輸入，眨右眼增加數字，眨左眼減少數字，開口輸入數字
 
-    : :fontawesome-solid-link: <a href="/cv4t/face_input_number/" target="_blank">進階範例 人臉輸入數字</a>
+    : :fontawesome-solid-link: <a href="../../cv4t/face_input_number/" target="_blank">進階範例 人臉輸入數字</a>
 
 
 <br/>
@@ -351,7 +435,7 @@ hide:
 
 <br/>
 
-: 臉部特徵點還可以有什麼應用呢？我們可以做出類似IG的濾鏡貼紙效果，幫相機裡的人增加卡通裝飾。
+: 臉部特徵點還可以有什麼應用呢？我們可以做出類似IG或是相機app的濾鏡貼紙效果，幫相機裡的人增加卡通裝飾(如貓耳朵或狗耳朵)。
 
 : 想要達到這個功能，必須要能夠將一張圖，覆疊至另一張圖上。為了有更好的覆疊效果，我們需要認識alpha(阿爾法)通道。
 
@@ -403,9 +487,29 @@ hide:
         * 4:37 取得特徵點
         * 6:26 png貼至特徵點
 
-    === "💻程式截圖"
+    === "💻程式碼"
 
-        ![程式截圖](snapshot/filter_sticker1.jpg)
+        ```python
+        # 需匯入crown.png(視覺便利貼:png->匯入)
+
+        from 視覺模組 import *
+
+        攝影機 = 設置影像擷取(後端='DSHOW')
+        png陣列 = 讀取png影像('crown.png')
+        偵測器 = 設置FaceMesh()
+
+        while True :
+            陣列 = 擷取影像(攝影機)
+            陣列 = 左右翻轉(陣列)
+            顯示影像(陣列)
+            
+            結果 = 偵測器.process(陣列)
+            if 結果:
+                特徵清單 = 取出Landmarks(結果)
+                貼上png中心點(陣列,png陣列,特徵清單[10])
+                
+                顯示影像(陣列, 視窗名稱='Image 2')  
+        ```
 
 
 <br/>
@@ -459,16 +563,43 @@ hide:
 
         * 8:33 兩點轉換
 
-    === "💻程式截圖"
+    === "💻程式碼"
 
-        ![程式截圖](snapshot/filter_sticker2.jpg)
+        ```python
+        # 需匯入crown.png(視覺便利貼:png->匯入)
+
+        from 視覺模組 import *
+
+        攝影機 = 設置影像擷取(後端='DSHOW')
+        png陣列 = 讀取png影像('crown.png')
+        偵測器 = 設置FaceMesh()
+
+        while True :
+            陣列 = 擷取影像(攝影機)
+            陣列 = 左右翻轉(陣列)
+            顯示影像(陣列)
+            
+            結果 = 偵測器.process(陣列)
+            if 結果:
+                特徵清單 = 取出Landmarks(結果)
+                轉換png陣列 = 兩點transform(
+                    來源影像=png陣列,
+                    來源pt1=(100,150),
+                    來源pt2=(150,150),
+                    目標影像=陣列,
+                    目標pt1=特徵清單[109],
+                    目標pt2=特徵清單[338])
+                貼上png(陣列,轉換png陣列)
+                
+                顯示影像(陣列, 視窗名稱='Image 2') 
+        ```
 
 
 ??? info "進階範例 濾鏡貼紙(多種切換)"
 
     : 使用空白鍵切換不同的造型貼紙
 
-    : :fontawesome-solid-link: <a href="/cv4t/ar_mask_switch/" target="_blank">進階範例 濾鏡貼紙(多種切換)</a>
+    : :fontawesome-solid-link: <a href="../../cv4t/filter_sticker_switch/" target="_blank">進階範例 濾鏡貼紙(多種切換)</a>
 
 <br/>
 <br/>
@@ -519,7 +650,10 @@ hide:
 
 ??? info "關於面具transform的原理"
 
+
     : :fontawesome-solid-link: <a href="https://learnopencv.com/create-snapchat-instagram-filters-using-mediapipe/" target="_blank">面具transform的原理</a>
+
+    : (AR面具的範例程式，是參考自此篇文--在learnopencv.com的教學文章及範例程式，並做適度簡化，讓學生進行實作學習。)
 
 
 
@@ -544,15 +678,55 @@ hide:
         * 4:08 載入面具資料
         * 6:18 面具轉換
 
-    === "💻程式截圖"
+    === "💻程式碼"
 
-        ![程式截圖](snapshot/ar_mask.jpg)
+        ```python
+        # 需匯入white_mask.png(視覺便利貼:更多臉部特徵->匯入)
+        # 需匯入white_mask.csv(視覺便利貼:更多臉部特徵->匯入)
+
+        from 視覺模組 import *
+
+        攝影機 = 設置影像擷取(後端='DSHOW')
+        偵測器 = 設置FaceMesh()
+        png陣列 = 讀取png影像('white_mask.png')
+        面具臉型 = 讀取面具臉型('white_mask.csv', png陣列)
+
+        while True :
+            陣列 = 擷取影像(攝影機)
+            陣列 = 左右翻轉(陣列)
+            顯示影像(陣列)
+            
+            結果 = 偵測器.process(陣列)
+            if 結果:
+                特徵清單 = 取出Landmarks(結果)
+                轉換png陣列 = 面具transform(
+                    來源影像=png陣列,
+                    臉型對應=面具臉型,
+                    目標影像=陣列,
+                    偵測結果=結果)
+                貼上png(陣列,轉換png陣列)
+                
+                顯示影像(陣列, 視窗名稱='Image 2')
+        ```
 
 ??? info "進階範例 AR面具(多種切換)"
 
     : 每次重新偵測臉部時，即會切換
 
-    : :fontawesome-solid-link: <a href="/cv4t/ar_mask_switch/" target="_blank">進階範例 AR面具(多種切換)</a>
+    : :fontawesome-solid-link: <a href="../../cv4t/ar_mask_switch/" target="_blank">進階範例 AR面具(多種切換)</a>
+
+??? info "進階範例 如何自訂新的AR面具"
+
+    : Py4t的範例面具有4種，如果你覺得不夠，想要自訂一個新的面具，或是想要了解多點對應的標記方式(許多機器學習的專案，其實都要花許多時間整理、標記資料)。你可以先準備好一個面具檔案，然後照著下方的教學影片做出，整個過程約需30分鐘，需要有耐心。
+
+    : :fontawesome-solid-link: <a href="https://youtu.be/iT2aiqdHrBw" target="_blank">自訂新的AR面具</a>
+
+    : :fontawesome-solid-link: <a href="https://drive.google.com/drive/folders/1kG-Cac7sME1ogDrylS79wG9MncjcXDDu?usp=drive_link" target="_blank">範例程式(大猩猩面具)</a>
+
+    
+
+    : (由Py4t社群的樂活老師提問而來)
+
 
 <br/>
 <br/>
@@ -562,11 +736,11 @@ hide:
 
 ##  📙 科技社會議題
 
-*** 人臉辦識與未來商店 ***
+*** 人臉辨識與未來商店 ***
 
 ----------------------------
 
-: 利用人臉偵測，來產生臉部的特徵點，並計算如兩眼距離、鼻子到嘴巴的距離、顴骨形狀、嘴唇、耳朵和下巴的輪廓等，將這些臉部資料與個人個資儲存後，可以做為下次辨識人臉的依據，就好像把人臉當作指紋的身分確認，這種技術稱為人臉辦識。
+: 利用人臉偵測，來產生臉部的特徵點，並計算如兩眼距離、鼻子到嘴巴的距離、顴骨形狀、嘴唇、耳朵和下巴的輪廓等，將這些臉部資料與個人個資儲存後，可以做為下次辨識人臉的依據，就好像把人臉當作指紋的身分確認，這種技術稱為人臉辨識。
 
 : 在美國、中國大陸，有些商店、飯站開始實驗以人臉做為身份認証的付款方式。
 
@@ -585,11 +759,11 @@ hide:
 
 ----------------------------
 
-*** 人臉辦識、執法監控與個人隱私 ***
+*** 人臉辨識、執法監控與個人隱私 ***
 
 ----------------------------
 
-: 如果政府把人臉辦識，當作法律執行的工具來監控人民時，對我們的個人隱私會產生什麼影響呢？
+: 如果政府把人臉辨識，當作法律執行的工具來監控人民時，對我們的個人隱私會產生什麼影響呢？
 
 
 : <iframe width="560" height="315" src="https://www.youtube.com/embed/qbckDLoklZE?start=187&amp;end=451" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

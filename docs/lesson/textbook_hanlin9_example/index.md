@@ -54,9 +54,12 @@ hide:
     
         <iframe width="560" height="315" src="https://www.youtube.com/embed/XdwNrOKtyUU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    === "💻Python程式截圖"
+    === "💻Python程式碼"
 
-        ![程式截圖](snapshot/hello.jpg)
+        ```python
+        name = input('請問您的名字是？')
+        print('哈囉！', name, '您好！')
+        ```
 
     === "🗒️Scratch積木對照"
 
@@ -99,9 +102,14 @@ hide:
     
         <iframe width="560" height="315" src="https://www.youtube.com/embed/fgobY4o2BTU?start=2&amp;end=306" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    === "💻Python程式截圖"
+    === "💻Python程式碼"
 
-        ![程式截圖](snapshot/sum_of_3_numbers.jpg)
+        ```python
+        x = int(input('請輸入數字 x:'))
+        y = int(input('請輸入數字 y:'))
+        z = int(input('請輸入數字 z:'))
+        print(x + y + z)
+        ```
         
 
     === "🗒️Scratch積木對照"
@@ -140,9 +148,14 @@ hide:
     
         <iframe width="560" height="315" src="https://www.youtube.com/embed/4_UyYrlISZw?start=2&amp;end=336" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    === "💻Python程式截圖"
+    === "💻Python程式碼"
 
-        ![程式截圖](snapshot/average.jpg)
+        ```python
+        x = int(input('請輸入數字 x:'))
+        y = int(input('請輸入數字 y:'))
+        average = (x + y) / 2
+        print('平均是' + str(average))
+        ```
         
 
     === "🗒️Scratch積木對照"
@@ -182,9 +195,19 @@ hide:
     
         <iframe width="560" height="315" src="https://www.youtube.com/embed/H4ouv9LyflI?start=2&amp;end=555" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    === "💻Python程式截圖"
+    === "💻Python程式碼"
 
-        ![程式截圖](snapshot/grade.jpg)
+        ```python
+        score1 = int(input('請輸入作業成績:'))
+        score2 = int(input('請輸入測驗成績:'))
+        score3 = int(input('請輸入平時成績:'))
+        grade = score1 * 0.4 + score2 * 0.4 + score3 * 0.2
+        print('學期成績是' + str(grade))
+        if grade  <  60 :
+            print('不及格')
+        else :
+            print('及格')
+        ```
         
 
     === "🗒️Scratch積木對照"
@@ -229,9 +252,15 @@ hide:
     
         <iframe width="560" height="315" src="https://www.youtube.com/embed/DhcDjRpchoA?start=2&amp;end=399" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    === "💻Python程式截圖"
+    === "💻Python程式碼"
 
-        ![程式截圖](snapshot/accumulation.jpg)
+        ```python
+        n = int(input('請輸入數字 n:'))
+        total = 0
+        for i in range(1, n + 1) :
+            total = total + i
+        print('1+2+...+' + str(n) + '=' + str(total))
+        ```
         
 
         註：課本範例使用sum做為變數名稱，但sum為python內建函式，不建議使用，故在本範例中改為total
@@ -280,9 +309,21 @@ hide:
     
         <iframe width="560" height="315" src="https://www.youtube.com/embed/rZMMfeqgRnw?start=2&amp;end=505" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    === "💻Python程式截圖"
+    === "💻Python程式碼"
 
-        ![程式截圖](snapshot/check_password.jpg)       
+        ```python
+        password = '137'
+        times = 1
+        password2 = input('請輸入密碼:')
+        while password != password2 and times < 3 :
+            print('密碼錯誤！')
+            times = times + 1
+            password2 = input('請輸入密碼:')
+        if password == password2 :
+            print('歡迎使用本系統')
+        else :
+            print('輸入密碼錯誤3次，帳號已被鎖定')
+        ```       
 
     === "🗒️Scratch積木對照"
 
@@ -328,9 +369,16 @@ hide:
     
         <iframe width="560" height="315" src="https://www.youtube.com/embed/_5sLEY8aFAA?start=2&amp;end=330" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    === "💻Python程式截圖"
+    === "💻Python程式碼"
 
-        ![程式截圖](snapshot/factors.jpg)       
+        ```python
+        n = int(input('請輸入數字n:'))
+        factors = []
+        for i in range(1, n + 1) :
+            if n % i == 0 :
+                factors.append(i)
+        print(factors)
+        ```       
 
     === "🗒️Scratch積木對照"
 
@@ -359,9 +407,20 @@ Python的random模組中，有個randint函式，類似Scratch中的隨機取數
     
         <iframe width="560" height="315" src="https://www.youtube.com/embed/vOE9gW7T2Fc?start=2&amp;end=464" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    === "💻Python程式截圖"
+    === "💻Python程式碼"
 
-        ![程式截圖](snapshot/lottery.jpg)       
+        ```python
+        from random import randint
+        n = 30
+        box = []
+        for i in range(1, n + 1) :
+            position = randint(0, i-1)
+            box.insert(position, i)
+        print(box)
+        print('第一特獎:' + str(box[0]))
+        print('第二特獎:' + str(box[1]))
+        print('第三特獎:' + str(box[2]))
+        ```       
 
     === "🗒️Scratch積木對照"
 

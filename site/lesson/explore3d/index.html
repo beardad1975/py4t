@@ -1319,7 +1319,7 @@
 <p>運用3D空間座標的概念，一起來動手寫程式吧！</p>
 <details class="example" open="open">
 <summary>範例程式 空間座標與位置 - - - - - - - (3D基礎1/3 新檔)</summary>
-<div class="tabbed-set tabbed-alternate" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">🎦操作影片</label><label for="__tabbed_1_2">💻程式截圖</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">🎦操作影片</label><label for="__tabbed_1_2">💻程式碼</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <p><iframe width="560" height="315" src="https://www.youtube.com/embed/xnP4PEybUJ0?start=2&amp;end=390" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
@@ -1333,7 +1333,18 @@
 </ul>
 </div>
 <div class="tabbed-block">
-<p><img alt="程式截圖" src="snapshot/coor_and_position.jpg" /></p>
+<div class="highlight"><pre><span></span><code><span class="linenos" data-linenos=" 1 "></span><span class="kn">from</span> <span class="nn">模擬3D模組</span> <span class="kn">import</span> <span class="o">*</span>
+<span class="linenos" data-linenos=" 2 "></span>
+<span class="linenos" data-linenos=" 3 "></span><span class="n">物體</span> <span class="o">=</span> <span class="n">新增立方體</span><span class="p">()</span>
+<span class="linenos" data-linenos=" 4 "></span><span class="n">物體</span><span class="o">.</span><span class="n">位置x</span> <span class="o">=</span> <span class="mi">1</span>
+<span class="linenos" data-linenos=" 5 "></span><span class="n">物體</span><span class="o">.</span><span class="n">位置y</span> <span class="o">=</span> <span class="mi">2</span>
+<span class="linenos" data-linenos=" 6 "></span><span class="n">物體</span><span class="o">.</span><span class="n">位置z</span> <span class="o">=</span> <span class="mi">3</span>
+<span class="linenos" data-linenos=" 7 "></span>
+<span class="linenos" data-linenos=" 8 "></span><span class="n">物體2</span> <span class="o">=</span> <span class="n">新增球體</span><span class="p">()</span>
+<span class="linenos" data-linenos=" 9 "></span><span class="n">物體2</span><span class="o">.</span><span class="n">位置</span> <span class="o">=</span> <span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span><span class="o">-</span><span class="mi">2</span><span class="p">,</span><span class="o">-</span><span class="mi">3</span><span class="p">]</span>
+<span class="linenos" data-linenos="10 "></span>
+<span class="linenos" data-linenos="11 "></span><span class="n">模擬主迴圈</span><span class="p">()</span>
+</code></pre></div>
 </div>
 </div>
 </div>
@@ -1367,7 +1378,7 @@
 <p>使用3D空間中物體的縮放與旋轉概念，來寫出程式。</p>
 <details class="example" open="open">
 <summary>範例程式 3軸縮放與旋轉 - - - - - - - (3D基礎2/3 新檔)</summary>
-<div class="tabbed-set tabbed-alternate" data-tabs="2:2"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio" /><input id="__tabbed_2_2" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="__tabbed_2_1">🎦操作影片</label><label for="__tabbed_2_2">💻程式截圖</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="2:2"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio" /><input id="__tabbed_2_2" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="__tabbed_2_1">🎦操作影片</label><label for="__tabbed_2_2">💻程式碼</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <p><iframe width="560" height="315" src="https://www.youtube.com/embed/PSL2Pi5_MTs?start=2&amp;end=354" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
@@ -1379,7 +1390,18 @@
 </ul>
 </div>
 <div class="tabbed-block">
-<p><img alt="程式截圖" src="snapshot/scale_and_rotate.jpg" /></p>
+<div class="highlight"><pre><span></span><code><span class="linenos" data-linenos=" 1 "></span><span class="kn">from</span> <span class="nn">模擬3D模組</span> <span class="kn">import</span> <span class="o">*</span>
+<span class="linenos" data-linenos=" 2 "></span>
+<span class="linenos" data-linenos=" 3 "></span><span class="n">物體</span> <span class="o">=</span> <span class="n">新增立方體線框</span><span class="p">()</span>
+<span class="linenos" data-linenos=" 4 "></span><span class="n">物體</span><span class="o">.</span><span class="n">縮放x</span> <span class="o">=</span> <span class="mi">2</span>
+<span class="linenos" data-linenos=" 5 "></span><span class="n">物體</span><span class="o">.</span><span class="n">縮放y</span> <span class="o">=</span> <span class="mi">5</span>
+<span class="linenos" data-linenos=" 6 "></span><span class="n">物體</span><span class="o">.</span><span class="n">縮放z</span> <span class="o">=</span> <span class="mi">10</span>
+<span class="linenos" data-linenos=" 7 "></span>
+<span class="linenos" data-linenos=" 8 "></span><span class="k">def</span> <span class="nf">當更新時</span><span class="p">(</span><span class="n">dt</span><span class="p">):</span>
+<span class="linenos" data-linenos=" 9 "></span>    <span class="n">物體</span><span class="o">.</span><span class="n">旋轉z</span> <span class="o">+=</span> <span class="mi">1</span>
+<span class="linenos" data-linenos="10 "></span>
+<span class="linenos" data-linenos="11 "></span><span class="n">模擬主迴圈</span><span class="p">()</span>
+</code></pre></div>
 </div>
 </div>
 </div>
@@ -1415,7 +1437,7 @@
 <p>一起動手實作出程式，控制3D物體的顏色與材質。</p>
 <details class="example" open="open">
 <summary>範例程式 顏色與材質 - - - - - - - (3D基礎3/3 新檔)</summary>
-<div class="tabbed-set tabbed-alternate" data-tabs="3:2"><input checked="checked" id="__tabbed_3_1" name="__tabbed_3" type="radio" /><input id="__tabbed_3_2" name="__tabbed_3" type="radio" /><div class="tabbed-labels"><label for="__tabbed_3_1">🎦操作影片</label><label for="__tabbed_3_2">💻程式截圖</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="3:2"><input checked="checked" id="__tabbed_3_1" name="__tabbed_3" type="radio" /><input id="__tabbed_3_2" name="__tabbed_3" type="radio" /><div class="tabbed-labels"><label for="__tabbed_3_1">🎦操作影片</label><label for="__tabbed_3_2">💻程式碼</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <p><iframe width="560" height="315" src="https://www.youtube.com/embed/WwzIwKTmgfU?start=2&amp;end=416" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
@@ -1427,7 +1449,20 @@
 </ul>
 </div>
 <div class="tabbed-block">
-<p><img alt="程式截圖" src="snapshot/color_and_texture.jpg" /></p>
+<div class="highlight"><pre><span></span><code><span class="linenos" data-linenos=" 1 "></span><span class="c1"># 需匯入火焰.mp4(3D便利貼:材質-&gt;匯入)</span>
+<span class="linenos" data-linenos=" 2 "></span>
+<span class="linenos" data-linenos=" 3 "></span><span class="kn">from</span> <span class="nn">模擬3D模組</span> <span class="kn">import</span> <span class="o">*</span>
+<span class="linenos" data-linenos=" 4 "></span>
+<span class="linenos" data-linenos=" 5 "></span><span class="n">物體</span> <span class="o">=</span> <span class="n">新增箭頭</span><span class="p">()</span>
+<span class="linenos" data-linenos=" 6 "></span><span class="n">物體</span><span class="o">.</span><span class="n">位置x</span> <span class="o">=</span> <span class="o">-</span><span class="mi">2</span>
+<span class="linenos" data-linenos=" 7 "></span><span class="n">物體</span><span class="o">.</span><span class="n">顏色</span> <span class="o">=</span> <span class="n">color</span><span class="o">.</span><span class="n">rgb</span><span class="p">(</span><span class="mi">255</span><span class="p">,</span><span class="mi">255</span><span class="p">,</span><span class="mi">0</span><span class="p">)</span>
+<span class="linenos" data-linenos=" 8 "></span>
+<span class="linenos" data-linenos=" 9 "></span><span class="n">物體2</span> <span class="o">=</span> <span class="n">新增立方體</span><span class="p">()</span>
+<span class="linenos" data-linenos="10 "></span><span class="n">物體2</span><span class="o">.</span><span class="n">材質貼圖</span> <span class="o">=</span> <span class="s1">&#39;火焰.mp4&#39;</span>
+<span class="linenos" data-linenos="11 "></span>
+<span class="linenos" data-linenos="12 "></span><span class="n">模擬主迴圈</span><span class="p">()</span>
+</code></pre></div>
+<p>註: 材質貼圖檔需先匯入至同一資料夾</p>
 </div>
 </div>
 </div>
@@ -1483,7 +1518,7 @@
 <p>綜合所學的知識，試著做出地球的自轉程式。</p>
 <details class="example" open="open">
 <summary>範例程式 地球自轉 - - - - - - - (轉動地球1/2 新檔)</summary>
-<div class="tabbed-set tabbed-alternate" data-tabs="4:2"><input checked="checked" id="__tabbed_4_1" name="__tabbed_4" type="radio" /><input id="__tabbed_4_2" name="__tabbed_4" type="radio" /><div class="tabbed-labels"><label for="__tabbed_4_1">🎦操作影片</label><label for="__tabbed_4_2">💻程式截圖</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="4:2"><input checked="checked" id="__tabbed_4_1" name="__tabbed_4" type="radio" /><input id="__tabbed_4_2" name="__tabbed_4" type="radio" /><div class="tabbed-labels"><label for="__tabbed_4_1">🎦操作影片</label><label for="__tabbed_4_2">💻程式碼</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <p><iframe width="560" height="315" src="https://www.youtube.com/embed/-lC84lJOQuE?start=2&amp;end=424" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
@@ -1496,7 +1531,19 @@
 </ul>
 </div>
 <div class="tabbed-block">
-<p><img alt="程式截圖" src="snapshot/earth_rotation.jpg" /></p>
+<div class="highlight"><pre><span></span><code><span class="linenos" data-linenos=" 1 "></span><span class="c1"># 需匯入地球.jpg(3D便利貼:材質-&gt;匯入)</span>
+<span class="linenos" data-linenos=" 2 "></span>
+<span class="linenos" data-linenos=" 3 "></span><span class="kn">from</span> <span class="nn">模擬3D模組</span> <span class="kn">import</span> <span class="o">*</span>
+<span class="linenos" data-linenos=" 4 "></span>
+<span class="linenos" data-linenos=" 5 "></span><span class="n">地球</span> <span class="o">=</span> <span class="n">新增球體</span><span class="p">()</span>
+<span class="linenos" data-linenos=" 6 "></span><span class="n">地球</span><span class="o">.</span><span class="n">材質貼圖</span> <span class="o">=</span> <span class="s1">&#39;地球.jpg&#39;</span>
+<span class="linenos" data-linenos=" 7 "></span><span class="n">地球</span><span class="o">.</span><span class="n">縮放</span> <span class="o">=</span> <span class="mi">5</span>
+<span class="linenos" data-linenos=" 8 "></span>
+<span class="linenos" data-linenos=" 9 "></span><span class="k">def</span> <span class="nf">當更新時</span><span class="p">(</span><span class="n">dt</span><span class="p">):</span>
+<span class="linenos" data-linenos="10 "></span>    <span class="n">地球</span><span class="o">.</span><span class="n">旋轉y</span> <span class="o">-=</span> <span class="mf">0.1</span>
+<span class="linenos" data-linenos="11 "></span>
+<span class="linenos" data-linenos="12 "></span><span class="n">模擬主迴圈</span><span class="p">()</span>
+</code></pre></div>
 </div>
 </div>
 </div>
@@ -1545,7 +1592,7 @@
 <p>請試著寫出地球傾斜的程式。</p>
 <details class="example" open="open">
 <summary>範例程式 地球傾斜 - - - - - - - (轉動地球2/2 接續)</summary>
-<div class="tabbed-set tabbed-alternate" data-tabs="5:2"><input checked="checked" id="__tabbed_5_1" name="__tabbed_5" type="radio" /><input id="__tabbed_5_2" name="__tabbed_5" type="radio" /><div class="tabbed-labels"><label for="__tabbed_5_1">🎦操作影片</label><label for="__tabbed_5_2">💻程式截圖</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="5:2"><input checked="checked" id="__tabbed_5_1" name="__tabbed_5" type="radio" /><input id="__tabbed_5_2" name="__tabbed_5" type="radio" /><div class="tabbed-labels"><label for="__tabbed_5_1">🎦操作影片</label><label for="__tabbed_5_2">💻程式碼</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <p><iframe width="560" height="315" src="https://www.youtube.com/embed/-lC84lJOQuE?start=428&amp;end=613" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
@@ -1555,7 +1602,24 @@
 </ul>
 </div>
 <div class="tabbed-block">
-<p><img alt="程式截圖" src="snapshot/earth_tilt.jpg" /></p>
+<div class="highlight"><pre><span></span><code><span class="linenos" data-linenos=" 1 "></span><span class="c1"># 需匯入地球.jpg(3D便利貼:材質-&gt;匯入)</span>
+<span class="linenos" data-linenos=" 2 "></span>
+<span class="linenos" data-linenos=" 3 "></span><span class="kn">from</span> <span class="nn">模擬3D模組</span> <span class="kn">import</span> <span class="o">*</span>
+<span class="linenos" data-linenos=" 4 "></span>
+<span class="linenos" data-linenos=" 5 "></span><span class="n">自轉軸</span> <span class="o">=</span> <span class="n">新增直線</span><span class="p">()</span>
+<span class="linenos" data-linenos=" 6 "></span><span class="n">自轉軸</span><span class="o">.</span><span class="n">旋轉z</span> <span class="o">=</span> <span class="mf">23.5</span>
+<span class="linenos" data-linenos=" 7 "></span>
+<span class="linenos" data-linenos=" 8 "></span><span class="n">地球</span> <span class="o">=</span> <span class="n">新增球體</span><span class="p">()</span>
+<span class="linenos" data-linenos=" 9 "></span><span class="n">地球</span><span class="o">.</span><span class="n">材質貼圖</span> <span class="o">=</span> <span class="s1">&#39;地球.jpg&#39;</span>
+<span class="linenos" data-linenos="10 "></span><span class="n">地球</span><span class="o">.</span><span class="n">縮放</span> <span class="o">=</span> <span class="mi">5</span>
+<span class="linenos" data-linenos="11 "></span><span class="n">地球</span><span class="o">.</span><span class="n">親代</span> <span class="o">=</span> <span class="n">自轉軸</span>
+<span class="linenos" data-linenos="12 "></span>
+<span class="linenos" data-linenos="13 "></span><span class="k">def</span> <span class="nf">當更新時</span><span class="p">(</span><span class="n">dt</span><span class="p">):</span>
+<span class="linenos" data-linenos="14 "></span>    <span class="n">地球</span><span class="o">.</span><span class="n">旋轉y</span> <span class="o">-=</span> <span class="mf">0.1</span>
+<span class="linenos" data-linenos="15 "></span>
+<span class="linenos" data-linenos="16 "></span><span class="n">模擬主迴圈</span><span class="p">()</span>
+</code></pre></div>
+<p>註: 材質貼圖檔需匯入在相同資料夾。</p>
 </div>
 </div>
 </div>
@@ -1590,7 +1654,7 @@
 <p><img alt="虛擬螢幕解析度" src="virtual_screen_ratio.png" /></p>
 <details class="example" open="open">
 <summary>範例程式 虛擬螢幕 - - - - - - - (漸層螢幕1/2 新檔)</summary>
-<div class="tabbed-set tabbed-alternate" data-tabs="6:2"><input checked="checked" id="__tabbed_6_1" name="__tabbed_6" type="radio" /><input id="__tabbed_6_2" name="__tabbed_6" type="radio" /><div class="tabbed-labels"><label for="__tabbed_6_1">🎦操作影片</label><label for="__tabbed_6_2">💻程式截圖</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="6:2"><input checked="checked" id="__tabbed_6_1" name="__tabbed_6" type="radio" /><input id="__tabbed_6_2" name="__tabbed_6" type="radio" /><div class="tabbed-labels"><label for="__tabbed_6_1">🎦操作影片</label><label for="__tabbed_6_2">💻程式碼</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <p><iframe width="560" height="315" src="https://www.youtube.com/embed/3RNyfWZ9GTc?start=2&amp;end=512" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
@@ -1602,7 +1666,24 @@
 </ul>
 </div>
 <div class="tabbed-block">
-<p><img alt="程式截圖" src="snapshot/virtual_screen.jpg" /></p>
+<div class="highlight"><pre><span></span><code><span class="linenos" data-linenos=" 1 "></span><span class="c1"># 需匯入平板外框.png(3D便利貼:材質-&gt;匯入)</span>
+<span class="linenos" data-linenos=" 2 "></span>
+<span class="linenos" data-linenos=" 3 "></span><span class="kn">from</span> <span class="nn">模擬3D模組</span> <span class="kn">import</span> <span class="o">*</span>
+<span class="linenos" data-linenos=" 4 "></span>
+<span class="linenos" data-linenos=" 5 "></span><span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">16</span><span class="p">)</span> <span class="p">:</span>
+<span class="linenos" data-linenos=" 6 "></span>    <span class="k">for</span> <span class="n">y</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">12</span><span class="p">)</span> <span class="p">:</span>
+<span class="linenos" data-linenos=" 7 "></span>        <span class="n">點</span> <span class="o">=</span> <span class="n">新增圓形平面</span><span class="p">()</span>
+<span class="linenos" data-linenos=" 8 "></span>        <span class="n">點</span><span class="o">.</span><span class="n">位置</span> <span class="o">=</span> <span class="p">[</span><span class="n">x</span><span class="p">,</span><span class="n">y</span><span class="p">,</span><span class="mi">0</span><span class="p">]</span>
+<span class="linenos" data-linenos=" 9 "></span>        <span class="n">點</span><span class="o">.</span><span class="n">顏色</span> <span class="o">=</span> <span class="n">color</span><span class="o">.</span><span class="n">red</span>
+<span class="linenos" data-linenos="10 "></span>
+<span class="linenos" data-linenos="11 "></span><span class="n">框</span> <span class="o">=</span> <span class="n">新增方形平面</span><span class="p">()</span>
+<span class="linenos" data-linenos="12 "></span><span class="n">框</span><span class="o">.</span><span class="n">材質貼圖</span> <span class="o">=</span> <span class="s1">&#39;平板外框.png&#39;</span>
+<span class="linenos" data-linenos="13 "></span><span class="n">框</span><span class="o">.</span><span class="n">縮放</span> <span class="o">=</span> <span class="p">[</span><span class="mi">16</span><span class="o">*</span><span class="mf">1.2</span><span class="p">,</span> <span class="mi">12</span><span class="o">*</span><span class="mf">1.2</span><span class="p">,</span> <span class="mi">1</span><span class="p">]</span>
+<span class="linenos" data-linenos="14 "></span><span class="n">框</span><span class="o">.</span><span class="n">位置</span> <span class="o">=</span> <span class="p">[</span><span class="mf">7.5</span><span class="p">,</span> <span class="mf">5.5</span><span class="p">,</span> <span class="mi">0</span><span class="p">]</span>
+<span class="linenos" data-linenos="15 "></span>
+<span class="linenos" data-linenos="16 "></span><span class="n">模擬主迴圈</span><span class="p">()</span>
+</code></pre></div>
+<p>註: 材質貼圖檔需匯入。</p>
 </div>
 </div>
 </div>
@@ -1657,7 +1738,7 @@
 <p>綜合以上，請寫出漸層顏色的程式。</p>
 <details class="example" open="open">
 <summary>範例程式 彩色漸層 - - - - - - - (漸層螢幕2/2 接續)</summary>
-<div class="tabbed-set tabbed-alternate" data-tabs="7:2"><input checked="checked" id="__tabbed_7_1" name="__tabbed_7" type="radio" /><input id="__tabbed_7_2" name="__tabbed_7" type="radio" /><div class="tabbed-labels"><label for="__tabbed_7_1">🎦操作影片</label><label for="__tabbed_7_2">💻程式截圖</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="7:2"><input checked="checked" id="__tabbed_7_1" name="__tabbed_7" type="radio" /><input id="__tabbed_7_2" name="__tabbed_7" type="radio" /><div class="tabbed-labels"><label for="__tabbed_7_1">🎦操作影片</label><label for="__tabbed_7_2">💻程式碼</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <p><iframe width="560" height="315" src="https://www.youtube.com/embed/3RNyfWZ9GTc?start=517&amp;end=639" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
@@ -1667,7 +1748,24 @@
 </ul>
 </div>
 <div class="tabbed-block">
-<p><img alt="程式截圖" src="snapshot/color_gradient.jpg" /></p>
+<div class="highlight"><pre><span></span><code><span class="linenos" data-linenos=" 1 "></span><span class="c1"># 需匯入平板外框.png(3D便利貼:材質-&gt;匯入)</span>
+<span class="linenos" data-linenos=" 2 "></span>
+<span class="linenos" data-linenos=" 3 "></span><span class="kn">from</span> <span class="nn">模擬3D模組</span> <span class="kn">import</span> <span class="o">*</span>
+<span class="linenos" data-linenos=" 4 "></span>
+<span class="linenos" data-linenos=" 5 "></span><span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">16</span><span class="p">)</span> <span class="p">:</span>
+<span class="linenos" data-linenos=" 6 "></span>    <span class="k">for</span> <span class="n">y</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">12</span><span class="p">)</span> <span class="p">:</span>
+<span class="linenos" data-linenos=" 7 "></span>        <span class="n">點</span> <span class="o">=</span> <span class="n">新增圓形平面</span><span class="p">()</span>
+<span class="linenos" data-linenos=" 8 "></span>        <span class="n">點</span><span class="o">.</span><span class="n">位置</span> <span class="o">=</span> <span class="p">[</span><span class="n">x</span><span class="p">,</span><span class="n">y</span><span class="p">,</span><span class="mi">0</span><span class="p">]</span>
+<span class="linenos" data-linenos=" 9 "></span>        <span class="n">點</span><span class="o">.</span><span class="n">顏色</span> <span class="o">=</span> <span class="n">color</span><span class="o">.</span><span class="n">hsv</span><span class="p">(</span><span class="n">x</span><span class="o">*</span><span class="mi">10</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
+<span class="linenos" data-linenos="10 "></span>
+<span class="linenos" data-linenos="11 "></span><span class="n">框</span> <span class="o">=</span> <span class="n">新增方形平面</span><span class="p">()</span>
+<span class="linenos" data-linenos="12 "></span><span class="n">框</span><span class="o">.</span><span class="n">材質貼圖</span> <span class="o">=</span> <span class="s1">&#39;平板外框.png&#39;</span>
+<span class="linenos" data-linenos="13 "></span><span class="n">框</span><span class="o">.</span><span class="n">縮放</span> <span class="o">=</span> <span class="p">[</span><span class="mi">16</span><span class="o">*</span><span class="mf">1.2</span><span class="p">,</span> <span class="mi">12</span><span class="o">*</span><span class="mf">1.2</span><span class="p">,</span> <span class="mi">1</span><span class="p">]</span>
+<span class="linenos" data-linenos="14 "></span><span class="n">框</span><span class="o">.</span><span class="n">位置</span> <span class="o">=</span> <span class="p">[</span><span class="mf">7.5</span><span class="p">,</span> <span class="mf">5.5</span><span class="p">,</span> <span class="mi">0</span><span class="p">]</span>
+<span class="linenos" data-linenos="15 "></span>
+<span class="linenos" data-linenos="16 "></span><span class="n">模擬主迴圈</span><span class="p">()</span>
+</code></pre></div>
+<p>註: 材質貼圖檔需匯入。</p>
 </div>
 </div>
 </div>
@@ -1728,7 +1826,7 @@
 <p>請用3D程式做出360全景相片。</p>
 <details class="example" open="open">
 <summary>範例程式 全景相片 - - - - - - - (全景水晶球1/2 新檔)</summary>
-<div class="tabbed-set tabbed-alternate" data-tabs="8:2"><input checked="checked" id="__tabbed_8_1" name="__tabbed_8" type="radio" /><input id="__tabbed_8_2" name="__tabbed_8" type="radio" /><div class="tabbed-labels"><label for="__tabbed_8_1">🎦操作影片</label><label for="__tabbed_8_2">💻程式截圖</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="8:2"><input checked="checked" id="__tabbed_8_1" name="__tabbed_8" type="radio" /><input id="__tabbed_8_2" name="__tabbed_8" type="radio" /><div class="tabbed-labels"><label for="__tabbed_8_1">🎦操作影片</label><label for="__tabbed_8_2">💻程式碼</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <p><iframe width="560" height="315" src="https://www.youtube.com/embed/hogWFR9Z094?start=0&amp;end=235" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
@@ -1740,7 +1838,20 @@
 </ul>
 </div>
 <div class="tabbed-block">
-<p><img alt="程式截圖" src="snapshot/360_photo.jpg" /></p>
+<div class="highlight"><pre><span></span><code><span class="linenos" data-linenos=" 1 "></span><span class="c1"># 需匯入教室360.jpg(3D便利貼:材質-&gt;匯入)</span>
+<span class="linenos" data-linenos=" 2 "></span>
+<span class="linenos" data-linenos=" 3 "></span><span class="kn">from</span> <span class="nn">模擬3D模組</span> <span class="kn">import</span> <span class="o">*</span>
+<span class="linenos" data-linenos=" 4 "></span>
+<span class="linenos" data-linenos=" 5 "></span><span class="n">物體</span> <span class="o">=</span> <span class="n">新增內面貼圖球體</span><span class="p">()</span>
+<span class="linenos" data-linenos=" 6 "></span><span class="n">物體</span><span class="o">.</span><span class="n">材質貼圖</span> <span class="o">=</span> <span class="s1">&#39;教室360.jpg&#39;</span>
+<span class="linenos" data-linenos=" 7 "></span><span class="n">物體</span><span class="o">.</span><span class="n">縮放</span> <span class="o">=</span> <span class="mi">5</span>
+<span class="linenos" data-linenos=" 8 "></span>
+<span class="linenos" data-linenos=" 9 "></span><span class="k">def</span> <span class="nf">當更新時</span><span class="p">(</span><span class="n">dt</span><span class="p">):</span>
+<span class="linenos" data-linenos="10 "></span>    <span class="n">物體</span><span class="o">.</span><span class="n">旋轉y</span> <span class="o">+=</span> <span class="mf">0.1</span>
+<span class="linenos" data-linenos="11 "></span>
+<span class="linenos" data-linenos="12 "></span><span class="n">模擬主迴圈</span><span class="p">()</span>
+</code></pre></div>
+<p>註: 材質貼圖檔需匯入並修改。</p>
 </div>
 </div>
 </div>
@@ -1781,7 +1892,7 @@
 <p>請將水晶球外框的圖片，以HUD的使用者介面方式設置，再加上360全景照片，就可以做出一個特別的水晶球，一起來寫寫看。</p>
 <details class="example" open="open">
 <summary>範例程式 水晶球 - - - - - - - (全景水晶球2/2 接續)</summary>
-<div class="tabbed-set tabbed-alternate" data-tabs="9:2"><input checked="checked" id="__tabbed_9_1" name="__tabbed_9" type="radio" /><input id="__tabbed_9_2" name="__tabbed_9" type="radio" /><div class="tabbed-labels"><label for="__tabbed_9_1">🎦操作影片</label><label for="__tabbed_9_2">💻程式截圖</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="9:2"><input checked="checked" id="__tabbed_9_1" name="__tabbed_9" type="radio" /><input id="__tabbed_9_2" name="__tabbed_9" type="radio" /><div class="tabbed-labels"><label for="__tabbed_9_1">🎦操作影片</label><label for="__tabbed_9_2">💻程式碼</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <p><iframe width="560" height="315" src="https://www.youtube.com/embed/hogWFR9Z094?start=238&amp;end=559" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
@@ -1792,7 +1903,28 @@
 </ul>
 </div>
 <div class="tabbed-block">
-<p><img alt="程式截圖" src="snapshot/360_crystal_ball.jpg" /></p>
+<div class="highlight"><pre><span></span><code><span class="linenos" data-linenos=" 1 "></span><span class="c1"># 需匯入教室360.jpg(3D便利貼:材質-&gt;匯入)</span>
+<span class="linenos" data-linenos=" 2 "></span><span class="c1"># 需匯入水晶球外框.png(3D便利貼:材質-&gt;匯入)</span>
+<span class="linenos" data-linenos=" 3 "></span>
+<span class="linenos" data-linenos=" 4 "></span><span class="kn">from</span> <span class="nn">模擬3D模組</span> <span class="kn">import</span> <span class="o">*</span>
+<span class="linenos" data-linenos=" 5 "></span><span class="n">舞台</span> <span class="o">=</span> <span class="n">模擬3D引擎</span><span class="p">(</span><span class="mi">800</span><span class="p">,</span><span class="mi">800</span><span class="p">)</span>
+<span class="linenos" data-linenos=" 6 "></span>
+<span class="linenos" data-linenos=" 7 "></span><span class="n">水晶球</span> <span class="o">=</span> <span class="n">新增內面貼圖球體</span><span class="p">()</span>
+<span class="linenos" data-linenos=" 8 "></span><span class="n">水晶球</span><span class="o">.</span><span class="n">材質貼圖</span> <span class="o">=</span> <span class="s1">&#39;教室360.jpg&#39;</span>
+<span class="linenos" data-linenos=" 9 "></span><span class="n">水晶球</span><span class="o">.</span><span class="n">縮放</span> <span class="o">=</span> <span class="mi">5</span>
+<span class="linenos" data-linenos="10 "></span>
+<span class="linenos" data-linenos="11 "></span><span class="n">外框</span> <span class="o">=</span> <span class="n">新增方形平面</span><span class="p">()</span>
+<span class="linenos" data-linenos="12 "></span><span class="n">外框</span><span class="o">.</span><span class="n">材質貼圖</span> <span class="o">=</span> <span class="s1">&#39;水晶球外框.png&#39;</span>
+<span class="linenos" data-linenos="13 "></span><span class="n">外框</span><span class="o">.</span><span class="n">親代</span> <span class="o">=</span> <span class="n">舞台</span><span class="o">.</span><span class="n">使用者介面</span>
+<span class="linenos" data-linenos="14 "></span><span class="n">外框</span><span class="o">.</span><span class="n">縮放</span> <span class="o">=</span> <span class="mf">0.8</span>
+<span class="linenos" data-linenos="15 "></span><span class="n">外框</span><span class="o">.</span><span class="n">位置y</span> <span class="o">=</span> <span class="o">-</span><span class="mf">0.03</span>
+<span class="linenos" data-linenos="16 "></span>
+<span class="linenos" data-linenos="17 "></span><span class="k">def</span> <span class="nf">當更新時</span><span class="p">(</span><span class="n">dt</span><span class="p">):</span>
+<span class="linenos" data-linenos="18 "></span>    <span class="n">水晶球</span><span class="o">.</span><span class="n">旋轉y</span> <span class="o">+=</span> <span class="mf">0.1</span>
+<span class="linenos" data-linenos="19 "></span>
+<span class="linenos" data-linenos="20 "></span><span class="n">模擬主迴圈</span><span class="p">()</span>
+</code></pre></div>
+<p>註: 材質貼圖檔需匯入並修改。</p>
 </div>
 </div>
 </div>
@@ -1830,7 +1962,7 @@
 <p>利用3D程式，把魔術方塊的外觀模型建立起來，一起動手做做看！</p>
 <details class="example" open="open">
 <summary>範例程式 魔方模型 - - - - - - - (魔術方塊1/2 新檔)</summary>
-<div class="tabbed-set tabbed-alternate" data-tabs="10:2"><input checked="checked" id="__tabbed_10_1" name="__tabbed_10" type="radio" /><input id="__tabbed_10_2" name="__tabbed_10" type="radio" /><div class="tabbed-labels"><label for="__tabbed_10_1">🎦操作影片</label><label for="__tabbed_10_2">💻程式截圖</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="10:2"><input checked="checked" id="__tabbed_10_1" name="__tabbed_10" type="radio" /><input id="__tabbed_10_2" name="__tabbed_10" type="radio" /><div class="tabbed-labels"><label for="__tabbed_10_1">🎦操作影片</label><label for="__tabbed_10_2">💻程式碼</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <p><iframe width="560" height="315" src="https://www.youtube.com/embed/depPHSCWvcA?start=0&amp;end=400" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
@@ -1843,7 +1975,20 @@
 </ul>
 </div>
 <div class="tabbed-block">
-<p><img alt="程式截圖" src="snapshot/rubik_cube.jpg" /></p>
+<div class="highlight"><pre><span></span><code><span class="linenos" data-linenos=" 1 "></span><span class="c1"># 需匯入魔方6面.png(3D便利貼:材質-&gt;匯入)</span>
+<span class="linenos" data-linenos=" 2 "></span>
+<span class="linenos" data-linenos=" 3 "></span><span class="kn">from</span> <span class="nn">模擬3D模組</span> <span class="kn">import</span> <span class="o">*</span>
+<span class="linenos" data-linenos=" 4 "></span>
+<span class="linenos" data-linenos=" 5 "></span><span class="k">for</span> <span class="n">z</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span> <span class="p">:</span>
+<span class="linenos" data-linenos=" 6 "></span>    <span class="k">for</span> <span class="n">y</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span> <span class="p">:</span>
+<span class="linenos" data-linenos=" 7 "></span>        <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span> <span class="p">:</span>            
+<span class="linenos" data-linenos=" 8 "></span>            <span class="n">物體</span> <span class="o">=</span> <span class="n">新增6面貼圖方塊</span><span class="p">()</span>
+<span class="linenos" data-linenos=" 9 "></span>            <span class="n">物體</span><span class="o">.</span><span class="n">材質貼圖</span> <span class="o">=</span> <span class="s1">&#39;魔方6面.png&#39;</span>
+<span class="linenos" data-linenos="10 "></span>            <span class="n">物體</span><span class="o">.</span><span class="n">位置</span> <span class="o">=</span> <span class="p">[</span><span class="n">x</span><span class="p">,</span><span class="n">y</span><span class="p">,</span><span class="n">z</span><span class="p">]</span>
+<span class="linenos" data-linenos="11 "></span>
+<span class="linenos" data-linenos="12 "></span><span class="n">模擬主迴圈</span><span class="p">()</span>
+</code></pre></div>
+<p>註: 材質貼圖檔需匯入並修改。</p>
 </div>
 </div>
 </div>
@@ -1900,7 +2045,7 @@
 <p>請動手寫出程式。</p>
 <details class="example" open="open">
 <summary>範例程式 單層轉動 - - - - - - - (魔術方塊2/2 接續)</summary>
-<div class="tabbed-set tabbed-alternate" data-tabs="11:2"><input checked="checked" id="__tabbed_11_1" name="__tabbed_11" type="radio" /><input id="__tabbed_11_2" name="__tabbed_11" type="radio" /><div class="tabbed-labels"><label for="__tabbed_11_1">🎦操作影片</label><label for="__tabbed_11_2">💻程式截圖</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="11:2"><input checked="checked" id="__tabbed_11_1" name="__tabbed_11" type="radio" /><input id="__tabbed_11_2" name="__tabbed_11" type="radio" /><div class="tabbed-labels"><label for="__tabbed_11_1">🎦操作影片</label><label for="__tabbed_11_2">💻程式碼</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <p><iframe width="560" height="315" src="https://www.youtube.com/embed/depPHSCWvcA?start=403&amp;end=736" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
@@ -1912,7 +2057,27 @@
 </ul>
 </div>
 <div class="tabbed-block">
-<p><img alt="程式截圖" src="snapshot/simple_rotation.jpg" /></p>
+<div class="highlight"><pre><span></span><code><span class="linenos" data-linenos=" 1 "></span><span class="c1"># 需匯入魔方6面.png(3D便利貼:材質-&gt;匯入)</span>
+<span class="linenos" data-linenos=" 2 "></span>
+<span class="linenos" data-linenos=" 3 "></span><span class="kn">from</span> <span class="nn">模擬3D模組</span> <span class="kn">import</span> <span class="o">*</span>
+<span class="linenos" data-linenos=" 4 "></span>
+<span class="linenos" data-linenos=" 5 "></span><span class="n">旋轉中心</span> <span class="o">=</span> <span class="n">新增物體</span><span class="p">()</span>
+<span class="linenos" data-linenos=" 6 "></span>
+<span class="linenos" data-linenos=" 7 "></span><span class="k">for</span> <span class="n">z</span> <span class="ow">in</span> <span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">]</span> <span class="p">:</span>
+<span class="linenos" data-linenos=" 8 "></span>    <span class="k">for</span> <span class="n">y</span> <span class="ow">in</span> <span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">]</span> <span class="p">:</span>
+<span class="linenos" data-linenos=" 9 "></span>        <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">]</span> <span class="p">:</span>            
+<span class="linenos" data-linenos="10 "></span>            <span class="n">方塊</span> <span class="o">=</span> <span class="n">新增6面貼圖方塊</span><span class="p">()</span>
+<span class="linenos" data-linenos="11 "></span>            <span class="n">方塊</span><span class="o">.</span><span class="n">材質貼圖</span> <span class="o">=</span> <span class="s1">&#39;魔方6面.png&#39;</span>
+<span class="linenos" data-linenos="12 "></span>            <span class="n">方塊</span><span class="o">.</span><span class="n">位置</span> <span class="o">=</span> <span class="p">[</span><span class="n">x</span><span class="p">,</span><span class="n">y</span><span class="p">,</span><span class="n">z</span><span class="p">]</span>
+<span class="linenos" data-linenos="13 "></span>            <span class="k">if</span> <span class="n">y</span> <span class="o">==</span> <span class="mi">1</span><span class="p">:</span>
+<span class="linenos" data-linenos="14 "></span>                <span class="n">方塊</span><span class="o">.</span><span class="n">親代</span> <span class="o">=</span> <span class="n">旋轉中心</span>
+<span class="linenos" data-linenos="15 "></span>
+<span class="linenos" data-linenos="16 "></span><span class="k">def</span> <span class="nf">當更新時</span><span class="p">(</span><span class="n">dt</span><span class="p">):</span>
+<span class="linenos" data-linenos="17 "></span>    <span class="n">旋轉中心</span><span class="o">.</span><span class="n">旋轉y</span> <span class="o">+=</span> <span class="mf">0.5</span>
+<span class="linenos" data-linenos="18 "></span>
+<span class="linenos" data-linenos="19 "></span><span class="n">模擬主迴圈</span><span class="p">()</span>
+</code></pre></div>
+<p>註: 材質貼圖檔需匯入並修改。</p>
 </div>
 </div>
 </div>

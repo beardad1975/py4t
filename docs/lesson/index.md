@@ -147,9 +147,11 @@ hide:
 
 ##
 
-## 🔗 研習暫存區
+## 🔗 Py4t雲端硬碟
 
- [暫存區連結](https://drive.google.com/drive/folders/1LhMRBFhtEZI6fBmS9eolo1qUwi3o0vMC?usp=share_link)
+: Py4t研習、練功坊相關資料
+
+: [Py4t雲端硬碟連結](https://drive.google.com/drive/folders/1LhMRBFhtEZI6fBmS9eolo1qUwi3o0vMC?usp=share_link)
 
 -----------------------
 

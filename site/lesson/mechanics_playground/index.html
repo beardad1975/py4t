@@ -1319,7 +1319,7 @@
 <p><br/></p>
 <details class="example" open="open">
 <summary>範例程式 新增圓球 - - - - - - -  (球的彈性1/3 新檔)</summary>
-<div class="tabbed-set tabbed-alternate" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">🎦操作影片</label><label for="__tabbed_1_2">💻程式截圖</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">🎦操作影片</label><label for="__tabbed_1_2">💻程式碼</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <p><iframe width="560" height="315" src="https://www.youtube.com/embed/sIAgw3FryX8?start=1&amp;end=128" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
@@ -1330,7 +1330,14 @@
 </ul>
 </div>
 <div class="tabbed-block">
-<p><img alt="程式截圖" src="snapshot/bounce_ball_add.jpg" /></p>
+<div class="highlight"><pre><span></span><code><span class="linenos" data-linenos="1 "></span><span class="kn">from</span> <span class="nn">物理模組</span> <span class="kn">import</span> <span class="o">*</span>
+<span class="linenos" data-linenos="2 "></span>
+<span class="linenos" data-linenos="3 "></span><span class="k">def</span> <span class="nf">按下滑鼠時</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">):</span>
+<span class="linenos" data-linenos="4 "></span>    <span class="n">物體</span> <span class="o">=</span> <span class="n">新增圓球</span><span class="p">()</span>
+<span class="linenos" data-linenos="5 "></span>    <span class="n">物體</span><span class="o">.</span><span class="n">位置</span> <span class="o">=</span> <span class="p">[</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">]</span> 
+<span class="linenos" data-linenos="6 "></span>
+<span class="linenos" data-linenos="7 "></span><span class="n">模擬主迴圈</span><span class="p">()</span>
+</code></pre></div>
 </div>
 </div>
 </div>
@@ -1373,7 +1380,7 @@
 <p><br/></p>
 <details class="example" open="open">
 <summary>範例程式 恢復係數 - - - - - - - (球的彈性2/3 接續)</summary>
-<div class="tabbed-set tabbed-alternate" data-tabs="2:2"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio" /><input id="__tabbed_2_2" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="__tabbed_2_1">🎦操作影片</label><label for="__tabbed_2_2">💻程式截圖</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="2:2"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio" /><input id="__tabbed_2_2" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="__tabbed_2_1">🎦操作影片</label><label for="__tabbed_2_2">💻程式碼</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <p><iframe width="560" height="315" src="https://www.youtube.com/embed/sIAgw3FryX8?start=131&amp;end=251" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
@@ -1383,7 +1390,15 @@
 </ul>
 </div>
 <div class="tabbed-block">
-<p><img alt="程式截圖" src="snapshot/bounce_ball_restitution.jpg" /></p>
+<div class="highlight"><pre><span></span><code><span class="linenos" data-linenos="1 "></span><span class="kn">from</span> <span class="nn">物理模組</span> <span class="kn">import</span> <span class="o">*</span>
+<span class="linenos" data-linenos="2 "></span>
+<span class="linenos" data-linenos="3 "></span><span class="k">def</span> <span class="nf">按下滑鼠時</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">):</span>
+<span class="linenos" data-linenos="4 "></span>    <span class="n">物體</span> <span class="o">=</span> <span class="n">新增圓球</span><span class="p">()</span>
+<span class="linenos" data-linenos="5 "></span>    <span class="n">物體</span><span class="o">.</span><span class="n">位置</span> <span class="o">=</span> <span class="p">[</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">]</span>
+<span class="linenos" data-linenos="6 "></span>    <span class="n">物體</span><span class="o">.</span><span class="n">彈性</span> <span class="o">=</span> <span class="mf">0.75</span> 
+<span class="linenos" data-linenos="7 "></span>
+<span class="linenos" data-linenos="8 "></span><span class="n">模擬主迴圈</span><span class="p">()</span>
+</code></pre></div>
 </div>
 </div>
 </div>
@@ -1422,7 +1437,7 @@
 <p><br/></p>
 <details class="example" open="open">
 <summary>範例程式 超強彈性體 - - - - - - - (球的彈性3/3 接續)</summary>
-<div class="tabbed-set tabbed-alternate" data-tabs="3:2"><input checked="checked" id="__tabbed_3_1" name="__tabbed_3" type="radio" /><input id="__tabbed_3_2" name="__tabbed_3" type="radio" /><div class="tabbed-labels"><label for="__tabbed_3_1">🎦操作影片</label><label for="__tabbed_3_2">💻程式截圖</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="3:2"><input checked="checked" id="__tabbed_3_1" name="__tabbed_3" type="radio" /><input id="__tabbed_3_2" name="__tabbed_3" type="radio" /><div class="tabbed-labels"><label for="__tabbed_3_1">🎦操作影片</label><label for="__tabbed_3_2">💻程式碼</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <p><iframe width="560" height="315" src="https://www.youtube.com/embed/sIAgw3FryX8?start=253&amp;end=410" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
@@ -1432,7 +1447,19 @@
 </ul>
 </div>
 <div class="tabbed-block">
-<p><img alt="程式截圖" src="snapshot/bounce_ball_super.jpg" /></p>
+<div class="highlight"><pre><span></span><code><span class="linenos" data-linenos=" 1 "></span><span class="kn">from</span> <span class="nn">物理模組</span> <span class="kn">import</span> <span class="o">*</span>
+<span class="linenos" data-linenos=" 2 "></span>
+<span class="linenos" data-linenos=" 3 "></span><span class="k">def</span> <span class="nf">按下滑鼠時</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">):</span>
+<span class="linenos" data-linenos=" 4 "></span>    <span class="n">物體</span> <span class="o">=</span> <span class="n">新增圓球</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span>
+<span class="linenos" data-linenos=" 5 "></span>    <span class="n">物體</span><span class="o">.</span><span class="n">位置</span> <span class="o">=</span> <span class="p">[</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span> <span class="o">+</span> <span class="mi">60</span><span class="p">]</span>
+<span class="linenos" data-linenos=" 6 "></span>    <span class="n">物體</span><span class="o">.</span><span class="n">彈性</span> <span class="o">=</span> <span class="mi">1</span>
+<span class="linenos" data-linenos=" 7 "></span>
+<span class="linenos" data-linenos=" 8 "></span>    <span class="n">物體</span> <span class="o">=</span> <span class="n">新增圓球</span><span class="p">(</span><span class="mi">20</span><span class="p">)</span>
+<span class="linenos" data-linenos=" 9 "></span>    <span class="n">物體</span><span class="o">.</span><span class="n">位置</span> <span class="o">=</span> <span class="p">[</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">]</span>
+<span class="linenos" data-linenos="10 "></span>    <span class="n">物體</span><span class="o">.</span><span class="n">彈性</span> <span class="o">=</span> <span class="mi">1</span>    
+<span class="linenos" data-linenos="11 "></span>
+<span class="linenos" data-linenos="12 "></span><span class="n">模擬主迴圈</span><span class="p">()</span>
+</code></pre></div>
 </div>
 </div>
 </div>
@@ -1484,7 +1511,7 @@
 <p><br/></p>
 <details class="example" open="open">
 <summary>範例程式 新增球與斜面 - - - - - - -  (力與斜面1/4 新檔)</summary>
-<div class="tabbed-set tabbed-alternate" data-tabs="4:2"><input checked="checked" id="__tabbed_4_1" name="__tabbed_4" type="radio" /><input id="__tabbed_4_2" name="__tabbed_4" type="radio" /><div class="tabbed-labels"><label for="__tabbed_4_1">🎦操作影片</label><label for="__tabbed_4_2">💻程式截圖</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="4:2"><input checked="checked" id="__tabbed_4_1" name="__tabbed_4" type="radio" /><input id="__tabbed_4_2" name="__tabbed_4" type="radio" /><div class="tabbed-labels"><label for="__tabbed_4_1">🎦操作影片</label><label for="__tabbed_4_2">💻程式碼</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <p><iframe width="560" height="315" src="https://www.youtube.com/embed/U3dnShwtdDQ?start=2&amp;end=302" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
@@ -1495,7 +1522,17 @@
 </ul>
 </div>
 <div class="tabbed-block">
-<p><img alt="程式截圖" src="snapshot/force_and_slide_terrain.jpg" /></p>
+<div class="highlight"><pre><span></span><code><span class="linenos" data-linenos=" 1 "></span><span class="c1"># 斜面建立方法請參考操作影片</span>
+<span class="linenos" data-linenos=" 2 "></span>
+<span class="linenos" data-linenos=" 3 "></span><span class="kn">from</span> <span class="nn">物理模組</span> <span class="kn">import</span> <span class="o">*</span>
+<span class="linenos" data-linenos=" 4 "></span><span class="n">舞台</span> <span class="o">=</span> <span class="n">物理引擎</span><span class="p">(</span><span class="mi">1200</span><span class="p">,</span><span class="mi">800</span><span class="p">)</span>
+<span class="linenos" data-linenos=" 5 "></span>
+<span class="linenos" data-linenos=" 6 "></span><span class="k">def</span> <span class="nf">按下滑鼠時</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">):</span>
+<span class="linenos" data-linenos=" 7 "></span>    <span class="n">物體</span> <span class="o">=</span> <span class="n">新增圓球</span><span class="p">(</span><span class="n">半徑</span><span class="o">=</span><span class="mi">25</span><span class="p">)</span>
+<span class="linenos" data-linenos=" 8 "></span>    <span class="n">物體</span><span class="o">.</span><span class="n">位置</span> <span class="o">=</span> <span class="p">[</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">]</span>
+<span class="linenos" data-linenos=" 9 "></span>
+<span class="linenos" data-linenos="10 "></span><span class="n">模擬主迴圈</span><span class="p">()</span>
+</code></pre></div>
 </div>
 </div>
 </div>
@@ -1515,7 +1552,7 @@
 <p><br/></p>
 <details class="example" open="open">
 <summary>範例程式 速度比較 - - - - - - - (力與斜面2/4 接續)</summary>
-<div class="tabbed-set tabbed-alternate" data-tabs="5:2"><input checked="checked" id="__tabbed_5_1" name="__tabbed_5" type="radio" /><input id="__tabbed_5_2" name="__tabbed_5" type="radio" /><div class="tabbed-labels"><label for="__tabbed_5_1">🎦操作影片</label><label for="__tabbed_5_2">💻程式截圖</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="5:2"><input checked="checked" id="__tabbed_5_1" name="__tabbed_5" type="radio" /><input id="__tabbed_5_2" name="__tabbed_5" type="radio" /><div class="tabbed-labels"><label for="__tabbed_5_1">🎦操作影片</label><label for="__tabbed_5_2">💻程式碼</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <p><iframe width="560" height="315" src="https://www.youtube.com/embed/U3dnShwtdDQ?start=303&amp;end=339" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
@@ -1525,7 +1562,17 @@
 </ul>
 </div>
 <div class="tabbed-block">
-<p><img alt="程式截圖" src="snapshot/force_and_slide_velocity.jpg" /></p>
+<div class="highlight"><pre><span></span><code><span class="linenos" data-linenos=" 1 "></span><span class="c1"># 斜面建立方法請參考操作影片</span>
+<span class="linenos" data-linenos=" 2 "></span>
+<span class="linenos" data-linenos=" 3 "></span><span class="kn">from</span> <span class="nn">物理模組</span> <span class="kn">import</span> <span class="o">*</span>
+<span class="linenos" data-linenos=" 4 "></span><span class="n">舞台</span> <span class="o">=</span> <span class="n">物理引擎</span><span class="p">(</span><span class="mi">1200</span><span class="p">,</span><span class="mi">800</span><span class="p">)</span>
+<span class="linenos" data-linenos=" 5 "></span>
+<span class="linenos" data-linenos=" 6 "></span><span class="k">def</span> <span class="nf">按下滑鼠時</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">):</span>
+<span class="linenos" data-linenos=" 7 "></span>    <span class="n">物體</span> <span class="o">=</span> <span class="n">新增圓球</span><span class="p">(</span><span class="n">半徑</span><span class="o">=</span><span class="mi">25</span><span class="p">)</span>
+<span class="linenos" data-linenos=" 8 "></span>    <span class="n">物體</span><span class="o">.</span><span class="n">位置</span> <span class="o">=</span> <span class="p">[</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">]</span>
+<span class="linenos" data-linenos=" 9 "></span>
+<span class="linenos" data-linenos="10 "></span><span class="n">模擬主迴圈</span><span class="p">()</span>
+</code></pre></div>
 </div>
 </div>
 </div>
@@ -1564,7 +1611,7 @@
 <p><br/></p>
 <details class="example" open="open">
 <summary>範例程式 摩擦力 - - - - - - - (力與斜面3/4 接續)</summary>
-<div class="tabbed-set tabbed-alternate" data-tabs="6:2"><input checked="checked" id="__tabbed_6_1" name="__tabbed_6" type="radio" /><input id="__tabbed_6_2" name="__tabbed_6" type="radio" /><div class="tabbed-labels"><label for="__tabbed_6_1">🎦操作影片</label><label for="__tabbed_6_2">💻程式截圖</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="6:2"><input checked="checked" id="__tabbed_6_1" name="__tabbed_6" type="radio" /><input id="__tabbed_6_2" name="__tabbed_6" type="radio" /><div class="tabbed-labels"><label for="__tabbed_6_1">🎦操作影片</label><label for="__tabbed_6_2">💻程式碼</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <p><iframe width="560" height="315" src="https://www.youtube.com/embed/U3dnShwtdDQ?start=341&amp;end=504" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
@@ -1574,7 +1621,19 @@
 </ul>
 </div>
 <div class="tabbed-block">
-<p><img alt="程式截圖" src="snapshot/force_and_slide_friction.jpg" /></p>
+<div class="highlight"><pre><span></span><code><span class="linenos" data-linenos=" 1 "></span><span class="c1"># 斜面建立方法請參考操作影片</span>
+<span class="linenos" data-linenos=" 2 "></span>
+<span class="linenos" data-linenos=" 3 "></span><span class="kn">from</span> <span class="nn">物理模組</span> <span class="kn">import</span> <span class="o">*</span>
+<span class="linenos" data-linenos=" 4 "></span><span class="n">舞台</span> <span class="o">=</span> <span class="n">物理引擎</span><span class="p">(</span><span class="mi">1200</span><span class="p">,</span><span class="mi">800</span><span class="p">)</span>
+<span class="linenos" data-linenos=" 5 "></span>
+<span class="linenos" data-linenos=" 6 "></span><span class="k">def</span> <span class="nf">按下滑鼠時</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">):</span>
+<span class="linenos" data-linenos=" 7 "></span>    <span class="n">物體</span> <span class="o">=</span> <span class="n">新增方塊</span><span class="p">(</span><span class="n">寬</span><span class="o">=</span><span class="mi">50</span><span class="p">,</span><span class="n">高</span><span class="o">=</span><span class="mi">50</span><span class="p">)</span>
+<span class="linenos" data-linenos=" 8 "></span>    <span class="n">物體</span><span class="o">.</span><span class="n">位置</span> <span class="o">=</span> <span class="p">[</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">]</span>
+<span class="linenos" data-linenos=" 9 "></span>    <span class="n">物體</span><span class="o">.</span><span class="n">摩擦</span> <span class="o">=</span> <span class="mf">0.2</span>
+<span class="linenos" data-linenos="10 "></span>
+<span class="linenos" data-linenos="11 "></span><span class="n">模擬主迴圈</span><span class="p">()</span>
+</code></pre></div>
+<p>註：地形需自行建立(操作如階段1影片)</p>
 </div>
 </div>
 </div>
@@ -1602,7 +1661,7 @@
 <p><br/></p>
 <details class="example" open="open">
 <summary>範例程式 施力 - - - - - - - (力與斜面4/4 接續)</summary>
-<div class="tabbed-set tabbed-alternate" data-tabs="7:2"><input checked="checked" id="__tabbed_7_1" name="__tabbed_7" type="radio" /><input id="__tabbed_7_2" name="__tabbed_7" type="radio" /><div class="tabbed-labels"><label for="__tabbed_7_1">🎦操作影片</label><label for="__tabbed_7_2">💻程式截圖</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="7:2"><input checked="checked" id="__tabbed_7_1" name="__tabbed_7" type="radio" /><input id="__tabbed_7_2" name="__tabbed_7" type="radio" /><div class="tabbed-labels"><label for="__tabbed_7_1">🎦操作影片</label><label for="__tabbed_7_2">💻程式碼</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <p><iframe width="560" height="315" src="https://www.youtube.com/embed/U3dnShwtdDQ?start=505&amp;end=633" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
@@ -1612,7 +1671,22 @@
 </ul>
 </div>
 <div class="tabbed-block">
-<p><img alt="程式截圖" src="snapshot/force_and_slide_impulse.jpg" /></p>
+<div class="highlight"><pre><span></span><code><span class="linenos" data-linenos=" 1 "></span><span class="c1"># 斜面建立方法請參考操作影片</span>
+<span class="linenos" data-linenos=" 2 "></span>
+<span class="linenos" data-linenos=" 3 "></span><span class="kn">from</span> <span class="nn">物理模組</span> <span class="kn">import</span> <span class="o">*</span>
+<span class="linenos" data-linenos=" 4 "></span><span class="n">舞台</span> <span class="o">=</span> <span class="n">物理引擎</span><span class="p">(</span><span class="mi">1200</span><span class="p">,</span><span class="mi">800</span><span class="p">)</span>
+<span class="linenos" data-linenos=" 5 "></span>
+<span class="linenos" data-linenos=" 6 "></span><span class="k">def</span> <span class="nf">按下滑鼠時</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">):</span>
+<span class="linenos" data-linenos=" 7 "></span>    <span class="n">物體</span> <span class="o">=</span> <span class="n">新增方塊</span><span class="p">(</span><span class="n">寬</span><span class="o">=</span><span class="mi">50</span><span class="p">,</span><span class="n">高</span><span class="o">=</span><span class="mi">50</span><span class="p">)</span>
+<span class="linenos" data-linenos=" 8 "></span>    <span class="n">物體</span><span class="o">.</span><span class="n">位置</span> <span class="o">=</span> <span class="p">[</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">]</span>
+<span class="linenos" data-linenos=" 9 "></span>    <span class="n">物體</span><span class="o">.</span><span class="n">摩擦</span> <span class="o">=</span> <span class="mf">0.2</span>
+<span class="linenos" data-linenos="10 "></span>
+<span class="linenos" data-linenos="11 "></span>    <span class="n">向量</span> <span class="o">=</span> <span class="p">[</span><span class="mi">800</span><span class="p">,</span> <span class="mi">0</span><span class="p">]</span>
+<span class="linenos" data-linenos="12 "></span>    <span class="n">物體</span><span class="o">.</span><span class="n">施加衝力</span><span class="p">(</span><span class="n">向量</span><span class="p">)</span>
+<span class="linenos" data-linenos="13 "></span>
+<span class="linenos" data-linenos="14 "></span><span class="n">模擬主迴圈</span><span class="p">()</span>
+</code></pre></div>
+<p>註：地形需自行建立(操作如階段1影片)</p>
 </div>
 </div>
 </div>
@@ -1663,7 +1737,7 @@
 <p><br/></p>
 <details class="example" open="open">
 <summary>範例程式 拋體運動 - - - - - - - (噴射拋體1/2 新檔)</summary>
-<div class="tabbed-set tabbed-alternate" data-tabs="8:2"><input checked="checked" id="__tabbed_8_1" name="__tabbed_8" type="radio" /><input id="__tabbed_8_2" name="__tabbed_8" type="radio" /><div class="tabbed-labels"><label for="__tabbed_8_1">🎦操作影片</label><label for="__tabbed_8_2">💻程式截圖</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="8:2"><input checked="checked" id="__tabbed_8_1" name="__tabbed_8" type="radio" /><input id="__tabbed_8_2" name="__tabbed_8" type="radio" /><div class="tabbed-labels"><label for="__tabbed_8_1">🎦操作影片</label><label for="__tabbed_8_2">💻程式碼</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <p><iframe width="560" height="315" src="https://www.youtube.com/embed/UgJ6ed8H03Q?start=2&amp;end=192" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
@@ -1674,7 +1748,16 @@
 </ul>
 </div>
 <div class="tabbed-block">
-<p><img alt="程式截圖" src="snapshot/projectile_basic.jpg" /></p>
+<div class="highlight"><pre><span></span><code><span class="linenos" data-linenos="1 "></span><span class="kn">from</span> <span class="nn">物理模組</span> <span class="kn">import</span> <span class="o">*</span>
+<span class="linenos" data-linenos="2 "></span><span class="n">舞台</span> <span class="o">=</span> <span class="n">物理引擎</span><span class="p">(</span><span class="mi">800</span><span class="p">,</span><span class="mi">800</span><span class="p">)</span>
+<span class="linenos" data-linenos="3 "></span>
+<span class="linenos" data-linenos="4 "></span><span class="k">def</span> <span class="nf">按下滑鼠時</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">):</span>
+<span class="linenos" data-linenos="5 "></span>    <span class="n">物體</span> <span class="o">=</span> <span class="n">新增圓球</span><span class="p">(</span><span class="n">半徑</span><span class="o">=</span><span class="mi">20</span><span class="p">)</span>
+<span class="linenos" data-linenos="6 "></span>    <span class="n">物體</span><span class="o">.</span><span class="n">位置</span> <span class="o">=</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">]</span>
+<span class="linenos" data-linenos="7 "></span>    <span class="n">物體</span><span class="o">.</span><span class="n">速度</span> <span class="o">=</span> <span class="p">[</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">]</span>
+<span class="linenos" data-linenos="8 "></span>
+<span class="linenos" data-linenos="9 "></span><span class="n">模擬主迴圈</span><span class="p">()</span>
+</code></pre></div>
 </div>
 </div>
 </div>
@@ -1713,7 +1796,7 @@
 <p><br/></p>
 <details class="example" open="open">
 <summary>範例程式 連續噴射 - - - - - - - (噴射拋體2/2 接續)</summary>
-<div class="tabbed-set tabbed-alternate" data-tabs="9:2"><input checked="checked" id="__tabbed_9_1" name="__tabbed_9" type="radio" /><input id="__tabbed_9_2" name="__tabbed_9" type="radio" /><div class="tabbed-labels"><label for="__tabbed_9_1">🎦操作影片</label><label for="__tabbed_9_2">💻程式截圖</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="9:2"><input checked="checked" id="__tabbed_9_1" name="__tabbed_9" type="radio" /><input id="__tabbed_9_2" name="__tabbed_9" type="radio" /><div class="tabbed-labels"><label for="__tabbed_9_1">🎦操作影片</label><label for="__tabbed_9_2">💻程式碼</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <p><iframe width="560" height="315" src="https://www.youtube.com/embed/UgJ6ed8H03Q?start=193&amp;end=383" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
@@ -1723,7 +1806,16 @@
 </ul>
 </div>
 <div class="tabbed-block">
-<p><img alt="程式截圖" src="snapshot/projectile_continuous.jpg" /></p>
+<div class="highlight"><pre><span></span><code><span class="linenos" data-linenos="1 "></span><span class="kn">from</span> <span class="nn">物理模組</span> <span class="kn">import</span> <span class="o">*</span>
+<span class="linenos" data-linenos="2 "></span><span class="n">舞台</span> <span class="o">=</span> <span class="n">物理引擎</span><span class="p">(</span><span class="mi">800</span><span class="p">,</span><span class="mi">800</span><span class="p">)</span>
+<span class="linenos" data-linenos="3 "></span>
+<span class="linenos" data-linenos="4 "></span><span class="k">def</span> <span class="nf">拖曳滑鼠時</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">dx</span><span class="p">,</span> <span class="n">dy</span><span class="p">):</span>
+<span class="linenos" data-linenos="5 "></span>    <span class="n">物體</span> <span class="o">=</span> <span class="n">新增圓球</span><span class="p">(</span><span class="n">半徑</span><span class="o">=</span><span class="mi">5</span><span class="p">)</span>
+<span class="linenos" data-linenos="6 "></span>    <span class="n">物體</span><span class="o">.</span><span class="n">位置</span> <span class="o">=</span> <span class="p">[</span><span class="mi">400</span><span class="p">,</span> <span class="mi">0</span><span class="p">]</span>
+<span class="linenos" data-linenos="7 "></span>    <span class="n">物體</span><span class="o">.</span><span class="n">速度</span> <span class="o">=</span> <span class="p">[(</span><span class="n">x</span> <span class="o">-</span> <span class="mi">400</span><span class="p">)</span> <span class="o">*</span> <span class="mi">2</span><span class="p">,</span> <span class="n">y</span> <span class="o">*</span> <span class="mi">2</span><span class="p">]</span>
+<span class="linenos" data-linenos="8 "></span>
+<span class="linenos" data-linenos="9 "></span><span class="n">模擬主迴圈</span><span class="p">()</span>
+</code></pre></div>
 </div>
 </div>
 </div>
@@ -1766,7 +1858,7 @@
 <p><br/></p>
 <details class="example" open="open">
 <summary>範例程式 無重力狀態 - - - - - - - (重力控制1/2 新檔)</summary>
-<div class="tabbed-set tabbed-alternate" data-tabs="10:2"><input checked="checked" id="__tabbed_10_1" name="__tabbed_10" type="radio" /><input id="__tabbed_10_2" name="__tabbed_10" type="radio" /><div class="tabbed-labels"><label for="__tabbed_10_1">🎦操作影片</label><label for="__tabbed_10_2">💻程式截圖</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="10:2"><input checked="checked" id="__tabbed_10_1" name="__tabbed_10" type="radio" /><input id="__tabbed_10_2" name="__tabbed_10" type="radio" /><div class="tabbed-labels"><label for="__tabbed_10_1">🎦操作影片</label><label for="__tabbed_10_2">💻程式碼</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <p><iframe width="560" height="315" src="https://www.youtube.com/embed/I_i5OyGIObQ?start=0&amp;end=343" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
@@ -1777,7 +1869,19 @@
 </ul>
 </div>
 <div class="tabbed-block">
-<p><img alt="程式截圖" src="snapshot/gravity_float.jpg" /></p>
+<div class="highlight"><pre><span></span><code><span class="linenos" data-linenos=" 1 "></span><span class="kn">from</span> <span class="nn">物理模組</span> <span class="kn">import</span> <span class="o">*</span>
+<span class="linenos" data-linenos=" 2 "></span><span class="kn">import</span> <span class="nn">random</span> <span class="k">as</span> <span class="nn">隨機</span>
+<span class="linenos" data-linenos=" 3 "></span>
+<span class="linenos" data-linenos=" 4 "></span><span class="n">舞台</span> <span class="o">=</span> <span class="n">物理引擎</span><span class="p">(</span><span class="mi">800</span><span class="p">,</span><span class="mi">800</span><span class="p">)</span>
+<span class="linenos" data-linenos=" 5 "></span><span class="n">舞台</span><span class="o">.</span><span class="n">重力</span> <span class="o">=</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">]</span>
+<span class="linenos" data-linenos=" 6 "></span>
+<span class="linenos" data-linenos=" 7 "></span><span class="k">def</span> <span class="nf">按下滑鼠時</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">):</span>
+<span class="linenos" data-linenos=" 8 "></span>    <span class="n">物體</span> <span class="o">=</span> <span class="n">新增方塊</span><span class="p">()</span>
+<span class="linenos" data-linenos=" 9 "></span>    <span class="n">物體</span><span class="o">.</span><span class="n">位置</span> <span class="o">=</span> <span class="p">[</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">]</span>
+<span class="linenos" data-linenos="10 "></span>    <span class="n">物體</span><span class="o">.</span><span class="n">角速度</span> <span class="o">=</span> <span class="n">隨機</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="o">-</span><span class="mi">360</span><span class="p">,</span><span class="mi">360</span><span class="p">)</span>
+<span class="linenos" data-linenos="11 "></span>
+<span class="linenos" data-linenos="12 "></span><span class="n">模擬主迴圈</span><span class="p">()</span>
+</code></pre></div>
 </div>
 </div>
 </div>
@@ -1814,7 +1918,7 @@
 <p>請發揮你的創意，用控制重力的程式做出搬運物體的遊戲。</p>
 <details class="example" open="open">
 <summary>範例程式 重力搬運 - - - - - - - (重力控制2/2 接續)</summary>
-<div class="tabbed-set tabbed-alternate" data-tabs="11:2"><input checked="checked" id="__tabbed_11_1" name="__tabbed_11" type="radio" /><input id="__tabbed_11_2" name="__tabbed_11" type="radio" /><div class="tabbed-labels"><label for="__tabbed_11_1">🎦操作影片</label><label for="__tabbed_11_2">💻程式截圖</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="11:2"><input checked="checked" id="__tabbed_11_1" name="__tabbed_11" type="radio" /><input id="__tabbed_11_2" name="__tabbed_11" type="radio" /><div class="tabbed-labels"><label for="__tabbed_11_1">🎦操作影片</label><label for="__tabbed_11_2">💻程式碼</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <p><iframe width="560" height="315" src="https://www.youtube.com/embed/I_i5OyGIObQ?start=347&amp;end=667" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
@@ -1824,11 +1928,37 @@
 </ul>
 </div>
 <div class="tabbed-block">
-<p><img alt="程式截圖" src="snapshot/gravity_game.jpg" /></p>
+<div class="highlight"><pre><span></span><code><span class="linenos" data-linenos=" 1 "></span><span class="kn">from</span> <span class="nn">物理模組</span> <span class="kn">import</span> <span class="o">*</span>
+<span class="linenos" data-linenos=" 2 "></span><span class="kn">import</span> <span class="nn">random</span> <span class="k">as</span> <span class="nn">隨機</span>
+<span class="linenos" data-linenos=" 3 "></span>
+<span class="linenos" data-linenos=" 4 "></span><span class="n">舞台</span> <span class="o">=</span> <span class="n">物理引擎</span><span class="p">(</span><span class="mi">800</span><span class="p">,</span><span class="mi">800</span><span class="p">)</span>
+<span class="linenos" data-linenos=" 5 "></span><span class="n">舞台</span><span class="o">.</span><span class="n">重力</span> <span class="o">=</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">]</span>
+<span class="linenos" data-linenos=" 6 "></span>
+<span class="linenos" data-linenos=" 7 "></span><span class="k">def</span> <span class="nf">按下滑鼠時</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">):</span>
+<span class="linenos" data-linenos=" 8 "></span>    <span class="n">物體</span> <span class="o">=</span> <span class="n">新增方塊</span><span class="p">()</span>
+<span class="linenos" data-linenos=" 9 "></span>    <span class="n">物體</span><span class="o">.</span><span class="n">位置</span> <span class="o">=</span> <span class="p">[</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">]</span>
+<span class="linenos" data-linenos="10 "></span>    <span class="n">物體</span><span class="o">.</span><span class="n">角速度</span> <span class="o">=</span> <span class="n">隨機</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="o">-</span><span class="mi">360</span><span class="p">,</span><span class="mi">360</span><span class="p">)</span>
+<span class="linenos" data-linenos="11 "></span>
+<span class="linenos" data-linenos="12 "></span><span class="k">def</span> <span class="nf">放開鍵盤時</span><span class="p">(</span><span class="n">按鍵</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">):</span>
+<span class="linenos" data-linenos="13 "></span>    <span class="n">舞台</span><span class="o">.</span><span class="n">重力</span> <span class="o">=</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">]</span>
+<span class="linenos" data-linenos="14 "></span>
+<span class="linenos" data-linenos="15 "></span><span class="k">def</span> <span class="nf">按下鍵盤時</span><span class="p">(</span><span class="n">按鍵</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">):</span>
+<span class="linenos" data-linenos="16 "></span>    <span class="k">if</span> <span class="n">按鍵</span> <span class="o">==</span> <span class="n">key</span><span class="o">.</span><span class="n">UP</span> <span class="p">:</span>
+<span class="linenos" data-linenos="17 "></span>        <span class="n">舞台</span><span class="o">.</span><span class="n">重力</span> <span class="o">=</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">800</span><span class="p">]</span>
+<span class="linenos" data-linenos="18 "></span>    <span class="k">if</span> <span class="n">按鍵</span> <span class="o">==</span> <span class="n">key</span><span class="o">.</span><span class="n">DOWN</span> <span class="p">:</span>
+<span class="linenos" data-linenos="19 "></span>        <span class="n">舞台</span><span class="o">.</span><span class="n">重力</span> <span class="o">=</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="o">-</span><span class="mi">800</span><span class="p">]</span>
+<span class="linenos" data-linenos="20 "></span>    <span class="k">if</span> <span class="n">按鍵</span> <span class="o">==</span> <span class="n">key</span><span class="o">.</span><span class="n">RIGHT</span> <span class="p">:</span>
+<span class="linenos" data-linenos="21 "></span>        <span class="n">舞台</span><span class="o">.</span><span class="n">重力</span> <span class="o">=</span> <span class="p">[</span><span class="mi">800</span><span class="p">,</span> <span class="mi">0</span><span class="p">]</span>
+<span class="linenos" data-linenos="22 "></span>    <span class="k">if</span> <span class="n">按鍵</span> <span class="o">==</span> <span class="n">key</span><span class="o">.</span><span class="n">LEFT</span> <span class="p">:</span>
+<span class="linenos" data-linenos="23 "></span>        <span class="n">舞台</span><span class="o">.</span><span class="n">重力</span> <span class="o">=</span> <span class="p">[</span><span class="o">-</span><span class="mi">800</span><span class="p">,</span> <span class="mi">0</span><span class="p">]</span>
+<span class="linenos" data-linenos="24 "></span>
+<span class="linenos" data-linenos="25 "></span><span class="n">模擬主迴圈</span><span class="p">()</span>
+</code></pre></div>
 </div>
 </div>
 </div>
 </details>
+<p>註：搬運地形需自行建立(操作如階段2影片)</p>
 <details class="info">
 <summary>結構化程式設計</summary>
 <dl>
@@ -1870,7 +2000,7 @@
 <p><br/></p>
 <details class="example" open="open">
 <summary>範例程式 固定球數 - - - - - - - (彈性排列1/3 新檔)</summary>
-<div class="tabbed-set tabbed-alternate" data-tabs="12:2"><input checked="checked" id="__tabbed_12_1" name="__tabbed_12" type="radio" /><input id="__tabbed_12_2" name="__tabbed_12" type="radio" /><div class="tabbed-labels"><label for="__tabbed_12_1">🎦操作影片</label><label for="__tabbed_12_2">💻程式截圖</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="12:2"><input checked="checked" id="__tabbed_12_1" name="__tabbed_12" type="radio" /><input id="__tabbed_12_2" name="__tabbed_12" type="radio" /><div class="tabbed-labels"><label for="__tabbed_12_1">🎦操作影片</label><label for="__tabbed_12_2">💻程式碼</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <p><iframe width="560" height="315" src="https://www.youtube.com/embed/U9DAN6NbkbY?start=0&amp;end=240" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
@@ -1881,7 +2011,16 @@
 </ul>
 </div>
 <div class="tabbed-block">
-<p><img alt="程式截圖" src="snapshot/bounce_array_constant.jpg" /></p>
+<div class="highlight"><pre><span></span><code><span class="linenos" data-linenos="1 "></span><span class="kn">from</span> <span class="nn">物理模組</span> <span class="kn">import</span> <span class="o">*</span>
+<span class="linenos" data-linenos="2 "></span><span class="n">舞台</span> <span class="o">=</span> <span class="n">物理引擎</span><span class="p">(</span><span class="mi">800</span><span class="p">,</span><span class="mi">800</span><span class="p">)</span>
+<span class="linenos" data-linenos="3 "></span>
+<span class="linenos" data-linenos="4 "></span><span class="k">for</span> <span class="n">數</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span> <span class="p">:</span>
+<span class="linenos" data-linenos="5 "></span>    <span class="n">物體</span> <span class="o">=</span> <span class="n">新增圓球</span><span class="p">(</span><span class="mi">40</span><span class="p">)</span>
+<span class="linenos" data-linenos="6 "></span>    <span class="n">物體</span><span class="o">.</span><span class="n">位置</span> <span class="o">=</span> <span class="p">[</span><span class="n">數</span> <span class="o">*</span> <span class="mi">80</span><span class="p">,</span> <span class="mi">400</span><span class="p">]</span>
+<span class="linenos" data-linenos="7 "></span>    <span class="n">物體</span><span class="o">.</span><span class="n">彈性</span> <span class="o">=</span> <span class="n">數</span> <span class="o">/</span> <span class="mi">10</span>
+<span class="linenos" data-linenos="8 "></span>
+<span class="linenos" data-linenos="9 "></span><span class="n">模擬主迴圈</span><span class="p">()</span>
+</code></pre></div>
 </div>
 </div>
 </div>
@@ -1913,7 +2052,7 @@
 <p><br/></p>
 <details class="example" open="open">
 <summary>範例程式 變數模式識別 - - - - - - - (彈性排列2/3 接續)</summary>
-<div class="tabbed-set tabbed-alternate" data-tabs="13:2"><input checked="checked" id="__tabbed_13_1" name="__tabbed_13" type="radio" /><input id="__tabbed_13_2" name="__tabbed_13" type="radio" /><div class="tabbed-labels"><label for="__tabbed_13_1">🎦操作影片</label><label for="__tabbed_13_2">💻程式截圖</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="13:2"><input checked="checked" id="__tabbed_13_1" name="__tabbed_13" type="radio" /><input id="__tabbed_13_2" name="__tabbed_13" type="radio" /><div class="tabbed-labels"><label for="__tabbed_13_1">🎦操作影片</label><label for="__tabbed_13_2">💻程式碼</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <p><iframe width="560" height="315" src="https://www.youtube.com/embed/U9DAN6NbkbY?start=243&amp;end=406" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
@@ -1923,7 +2062,19 @@
 </ul>
 </div>
 <div class="tabbed-block">
-<p><img alt="程式截圖" src="snapshot/bounce_array_pattern.jpg" /></p>
+<div class="highlight"><pre><span></span><code><span class="linenos" data-linenos=" 1 "></span><span class="kn">from</span> <span class="nn">物理模組</span> <span class="kn">import</span> <span class="o">*</span>
+<span class="linenos" data-linenos=" 2 "></span><span class="n">舞台</span> <span class="o">=</span> <span class="n">物理引擎</span><span class="p">(</span><span class="mi">800</span><span class="p">,</span><span class="mi">800</span><span class="p">)</span>
+<span class="linenos" data-linenos=" 3 "></span><span class="n">球數</span> <span class="o">=</span> <span class="mi">20</span>
+<span class="linenos" data-linenos=" 4 "></span><span class="n">直徑</span> <span class="o">=</span> <span class="mi">800</span> <span class="o">//</span> <span class="n">球數</span>
+<span class="linenos" data-linenos=" 5 "></span><span class="n">半徑</span> <span class="o">=</span> <span class="n">直徑</span> <span class="o">//</span> <span class="mi">2</span>
+<span class="linenos" data-linenos=" 6 "></span>
+<span class="linenos" data-linenos=" 7 "></span><span class="k">for</span> <span class="n">數</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">球數</span><span class="p">)</span> <span class="p">:</span>
+<span class="linenos" data-linenos=" 8 "></span>    <span class="n">物體</span> <span class="o">=</span> <span class="n">新增圓球</span><span class="p">(</span><span class="n">半徑</span><span class="p">)</span>
+<span class="linenos" data-linenos=" 9 "></span>    <span class="n">物體</span><span class="o">.</span><span class="n">位置</span> <span class="o">=</span> <span class="p">[</span><span class="n">數</span> <span class="o">*</span> <span class="n">直徑</span><span class="p">,</span> <span class="mi">400</span><span class="p">]</span>
+<span class="linenos" data-linenos="10 "></span>    <span class="n">物體</span><span class="o">.</span><span class="n">彈性</span> <span class="o">=</span> <span class="n">數</span> <span class="o">/</span> <span class="n">球數</span>
+<span class="linenos" data-linenos="11 "></span>
+<span class="linenos" data-linenos="12 "></span><span class="n">模擬主迴圈</span><span class="p">()</span>
+</code></pre></div>
 </div>
 </div>
 </div>
@@ -1942,7 +2093,7 @@
 <p>一起來寫寫看。</p>
 <details class="example" open="open">
 <summary>範例程式 不同波動變化 - - - - - - - (彈性排列3/3 接續)</summary>
-<div class="tabbed-set tabbed-alternate" data-tabs="14:2"><input checked="checked" id="__tabbed_14_1" name="__tabbed_14" type="radio" /><input id="__tabbed_14_2" name="__tabbed_14" type="radio" /><div class="tabbed-labels"><label for="__tabbed_14_1">🎦操作影片</label><label for="__tabbed_14_2">💻程式截圖</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="14:2"><input checked="checked" id="__tabbed_14_1" name="__tabbed_14" type="radio" /><input id="__tabbed_14_2" name="__tabbed_14" type="radio" /><div class="tabbed-labels"><label for="__tabbed_14_1">🎦操作影片</label><label for="__tabbed_14_2">💻程式碼</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <p><iframe width="560" height="315" src="https://www.youtube.com/embed/U9DAN6NbkbY?start=408&amp;end=660" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
@@ -1952,7 +2103,22 @@
 </ul>
 </div>
 <div class="tabbed-block">
-<p><img alt="程式截圖" src="snapshot/bounce_array_various.jpg" /></p>
+<div class="highlight"><pre><span></span><code><span class="linenos" data-linenos=" 1 "></span><span class="kn">from</span> <span class="nn">物理模組</span> <span class="kn">import</span> <span class="o">*</span>
+<span class="linenos" data-linenos=" 2 "></span><span class="n">舞台</span> <span class="o">=</span> <span class="n">物理引擎</span><span class="p">(</span><span class="mi">800</span><span class="p">,</span><span class="mi">800</span><span class="p">)</span>
+<span class="linenos" data-linenos=" 3 "></span><span class="n">球數</span> <span class="o">=</span> <span class="mi">80</span>
+<span class="linenos" data-linenos=" 4 "></span><span class="n">直徑</span> <span class="o">=</span> <span class="mi">800</span> <span class="o">//</span> <span class="n">球數</span>
+<span class="linenos" data-linenos=" 5 "></span><span class="n">半徑</span> <span class="o">=</span> <span class="n">直徑</span> <span class="o">//</span> <span class="mi">2</span>
+<span class="linenos" data-linenos=" 6 "></span>
+<span class="linenos" data-linenos=" 7 "></span><span class="k">for</span> <span class="n">數</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">球數</span><span class="p">)</span> <span class="p">:</span>
+<span class="linenos" data-linenos=" 8 "></span>    <span class="n">物體</span> <span class="o">=</span> <span class="n">新增圓球</span><span class="p">(</span><span class="n">半徑</span><span class="p">)</span>
+<span class="linenos" data-linenos=" 9 "></span>    <span class="n">物體</span><span class="o">.</span><span class="n">位置</span> <span class="o">=</span> <span class="p">[</span><span class="n">數</span> <span class="o">*</span> <span class="n">直徑</span><span class="p">,</span> <span class="mi">400</span><span class="p">]</span>
+<span class="linenos" data-linenos="10 "></span>    <span class="k">if</span> <span class="n">數</span> <span class="o">%</span> <span class="mi">2</span> <span class="o">==</span> <span class="mi">0</span> <span class="p">:</span>
+<span class="linenos" data-linenos="11 "></span>        <span class="n">物體</span><span class="o">.</span><span class="n">彈性</span> <span class="o">=</span> <span class="mf">0.8</span> <span class="o">+</span> <span class="p">(</span><span class="n">球數</span> <span class="o">-</span> <span class="n">數</span><span class="p">)</span> <span class="o">/</span> <span class="n">球數</span> <span class="o">*</span> <span class="mf">0.2</span>
+<span class="linenos" data-linenos="12 "></span>    <span class="k">else</span> <span class="p">:</span>
+<span class="linenos" data-linenos="13 "></span>        <span class="n">物體</span><span class="o">.</span><span class="n">彈性</span> <span class="o">=</span> <span class="mf">0.8</span> <span class="o">+</span> <span class="n">數</span> <span class="o">/</span> <span class="n">球數</span> <span class="o">*</span> <span class="mf">0.2</span>
+<span class="linenos" data-linenos="14 "></span>
+<span class="linenos" data-linenos="15 "></span><span class="n">模擬主迴圈</span><span class="p">()</span>
+</code></pre></div>
 </div>
 </div>
 </div>

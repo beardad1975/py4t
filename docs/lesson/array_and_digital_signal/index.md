@@ -275,9 +275,30 @@ hide:
 
 
 
-    === "💻程式截圖"
+    === "💻程式碼"
 
-        ![程式截圖](snapshot/sound_signal.jpg) 
+        ```python
+        from 聲音模組 import *
+        import matplotlib.pyplot as plt
+        plt.rcParams['font.sans-serif'] = ['Microsoft JhengHei']
+        plt.rcParams['axes.unicode_minus'] = False
+
+        音源 = 正弦波(440, 取樣率=44100)
+        聲音 = 音源.轉成聲音()
+        聲音 = 聲音.fade_in(100)
+        play(聲音)
+
+        陣列 = 聲音轉陣列(聲音)
+        陣列 = 陣列[0:441]
+        print(陣列)
+        print(陣列.shape)
+
+        plt.title('聲波圖(0.01秒)', fontsize=20)
+        plt.xlabel('聲音取樣', fontsize=18)
+        plt.ylabel('響度量化', fontsize=18)
+        plt.plot(陣列, '.')
+        plt.show()
+        ``` 
 
 
 <br/><br/><br/> 
@@ -356,9 +377,25 @@ hide:
 
 
 
-    === "💻程式截圖"
+    === "💻程式碼"
 
-        ![程式截圖](snapshot/audio_processing.jpg) 
+        ```python
+        # 需匯入個人一小步.wav(聲音便利貼:聲音檔->匯入)
+        # 需匯入小提琴聲音.wav(聲音便利貼:聲音檔->匯入)
+
+        from 聲音模組 import *
+        import matplotlib.pyplot as plt
+
+        聲音1 = 開啟wav檔('個人一小步.wav')
+        聲音2 = 開啟wav檔('小提琴聲音.wav')
+        聲音 = 聲音1.overlay(聲音2)
+        play(聲音)
+        聲音.儲存wav檔('音訊處理.wav')
+
+        陣列 = 聲音轉陣列(聲音)
+        plt.plot(陣列)
+        plt.show()
+        ``` 
 
 <br/><br/><br/>
 
@@ -437,9 +474,26 @@ hide:
 
 
 
-    === "💻程式截圖"
+    === "💻程式碼"
 
-        ![程式截圖](snapshot/grayscale_pixel.jpg) 
+        ```python
+        import numpy as np
+        import matplotlib.pyplot as plt
+
+        陣列 = np.zeros([10,10])
+        陣列 = 陣列.astype('uint8')
+
+        for x in range(10) :
+            for y in range(10) :
+                陣列[y, x] = 255 - y * 20 - x * 20            
+
+        print(陣列)
+        print(陣列.dtype)
+
+        plt.imshow(陣列, cmap='gray', vmin=0, vmax=255)
+        plt.colorbar()
+        plt.show()
+        ```
 
 
 <br/><br/><br/> 
@@ -514,9 +568,35 @@ hide:
 
 
 
-    === "💻程式截圖"
+    === "💻程式碼"
 
-        ![程式截圖](snapshot/grayscale_slice.jpg) 
+        ```python
+        # 需匯入kirun.jpg(視覺便利貼:圖檔讀取->匯入)
+
+        from 視覺模組 import *
+
+        陣列 = 讀取影像灰階('kirun.jpg')
+        print(陣列)
+        print(陣列.shape)
+        顯示影像(陣列)
+        等待按鍵(500)
+
+        陣列[:, :200] = 調整亮度(陣列[:, :200], 50)
+        顯示影像(陣列)
+        等待按鍵(500)
+
+        陣列[:, 200:400] = 模糊(陣列[:, 200:400], 核心=10)
+        顯示影像(陣列)
+        等待按鍵(500)
+
+        陣列[:, 400:600] = 255 - 陣列[:, 400:600]
+        顯示影像(陣列)
+        等待按鍵(500)
+
+        陣列[:, 600:] = Canny邊緣偵測(陣列[:, 600:])
+        顯示影像(陣列)
+        等待按鍵()
+        ```
 
 
 <br/><br/><br/> 
@@ -570,9 +650,37 @@ hide:
 
 
 
-    === "💻程式截圖"
+    === "💻程式碼"
 
-        ![程式截圖](snapshot/channel_split.jpg) 
+        ```python
+        # 需匯入olympic.jpg(視覺便利貼:圖檔讀取->匯入)
+
+        from 視覺模組 import *
+
+        陣列 = 讀取影像彩色('olympic.jpg')
+        print(陣列)
+        print(陣列.shape)
+        顯示影像(陣列, 視窗名稱='1')
+        等待按鍵(500)
+
+        陣列b = 陣列.copy()
+        陣列b[:, :, 1] = 0
+        陣列b[:, :, 2] = 0
+        顯示影像(陣列b, 視窗名稱='b')
+        等待按鍵(500)
+
+        陣列g = 陣列.copy()
+        陣列g[:, :, 0] = 0
+        陣列g[:, :, 2] = 0
+        顯示影像(陣列g, 視窗名稱='g')
+        等待按鍵(500)
+
+        陣列r = 陣列.copy()
+        陣列r[:, :, 0] = 0
+        陣列r[:, :, 1] = 0
+        顯示影像(陣列r, 視窗名稱='r')
+        等待按鍵()
+        ``` 
 
 
 <br/><br/><br/> 
@@ -629,9 +737,29 @@ hide:
 
 
 
-    === "💻程式截圖"
+    === "💻程式碼"
 
-        ![程式截圖](snapshot/video_split.jpg) 
+        ```python
+        from 視覺模組 import *
+
+        攝影機 = 設置影像擷取()
+        陣列 = 擷取影像(攝影機)
+        print(陣列.shape)
+        高 = 陣列.shape[0]
+        寬 = 陣列.shape[1]
+        分割點y = 高 // 2
+        分割點x = 寬 // 2
+
+        while True :
+            陣列 = 擷取影像(攝影機)
+            陣列 = 左右翻轉(陣列)
+            顯示影像(陣列, 視窗名稱='all')
+            
+            顯示影像(陣列[:分割點y, :分割點x], 視窗名稱='1')
+            顯示影像(陣列[:分割點y, 分割點x:], 視窗名稱='2')
+            顯示影像(陣列[分割點y:, :分割點x], 視窗名稱='3')
+            顯示影像(陣列[分割點y:, 分割點x:], 視窗名稱='4')
+        ```
 
 
 <br/><br/><br/>
