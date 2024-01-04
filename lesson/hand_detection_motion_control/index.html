@@ -1224,7 +1224,7 @@
       
         <li class="md-nav__item">
   <a href="#2_1" class="md-nav__link">
-    📘  圖片互動(2)
+    📘  圖像互動(2)
   </a>
   
 </li>
@@ -1586,7 +1586,61 @@
 <br/>
 <br/></p>
 <hr />
-<h2 id="2_1">📘  圖片互動(2)</h2>
+<h2 id="2_1">📘  圖像互動(2)</h2>
+<p><strong><em> 模糊控制 </em></strong></p>
+<hr />
+<dl>
+<dt><br/></dt>
+<dd>
+<p>模糊處理(平滑處理)，影像去噪</p>
+</dd>
+<dd>
+<p><img alt="blur_comparison" src="blur_comparison.jpg" /></p>
+</dd>
+<dt><br/></dt>
+<dd>
+<p>卷積核與卷積運算</p>
+</dd>
+<dd>
+<p><img alt="average_blur_kernel" src="average_blur_kernel.jpg" /></p>
+</dd>
+<dd>
+<p><sup>(資料來源:</sup><sup id="fnref:average_blur_kernel"><a class="footnote-ref" href="#fn:average_blur_kernel">4</a></sup><sup>)</sup></p>
+</dd>
+</dl>
+<p><br/></p>
+<details class="example" open="open">
+<summary>範例程式 模糊控制 - - - - - - - (圖像互動 1/2 新檔)</summary>
+<div class="tabbed-set tabbed-alternate" data-tabs="6:1"><input checked="checked" id="__tabbed_6_1" name="__tabbed_6" type="radio" /><div class="tabbed-labels"><label for="__tabbed_6_1">💻程式碼</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<div class="highlight"><pre><span></span><code><span class="linenos" data-linenos=" 1 "></span><span class="kn">from</span> <span class="nn">視覺模組</span> <span class="kn">import</span> <span class="o">*</span>
+<span class="linenos" data-linenos=" 2 "></span>
+<span class="linenos" data-linenos=" 3 "></span><span class="n">攝影機</span> <span class="o">=</span> <span class="n">設置影像擷取</span><span class="p">(</span><span class="n">後端</span><span class="o">=</span><span class="s1">&#39;DSHOW&#39;</span><span class="p">)</span>
+<span class="linenos" data-linenos=" 4 "></span><span class="n">偵測器</span> <span class="o">=</span> <span class="n">設置HandAndGesture</span><span class="p">()</span>
+<span class="linenos" data-linenos=" 5 "></span><span class="n">kernel</span> <span class="o">=</span> <span class="mi">30</span>
+<span class="linenos" data-linenos=" 6 "></span>
+<span class="linenos" data-linenos=" 7 "></span><span class="k">while</span> <span class="kc">True</span> <span class="p">:</span>
+<span class="linenos" data-linenos=" 8 "></span>    <span class="n">陣列</span> <span class="o">=</span> <span class="n">擷取影像</span><span class="p">(</span><span class="n">攝影機</span><span class="p">)</span>
+<span class="linenos" data-linenos=" 9 "></span>    <span class="n">陣列</span> <span class="o">=</span> <span class="n">左右翻轉</span><span class="p">(</span><span class="n">陣列</span><span class="p">)</span>
+<span class="linenos" data-linenos="10 "></span>    <span class="n">結果</span> <span class="o">=</span> <span class="n">偵測器</span><span class="o">.</span><span class="n">process</span><span class="p">(</span><span class="n">陣列</span><span class="p">)</span>
+<span class="linenos" data-linenos="11 "></span>
+<span class="linenos" data-linenos="12 "></span>    <span class="k">if</span> <span class="n">結果</span><span class="p">:</span>
+<span class="linenos" data-linenos="13 "></span>        <span class="n">kernel</span> <span class="o">-=</span> <span class="mi">2</span>    
+<span class="linenos" data-linenos="14 "></span>    <span class="k">else</span><span class="p">:</span>
+<span class="linenos" data-linenos="15 "></span>        <span class="n">kernel</span> <span class="o">+=</span> <span class="mi">2</span>        
+<span class="linenos" data-linenos="16 "></span>    <span class="n">kernel</span> <span class="o">=</span> <span class="nb">max</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="nb">min</span><span class="p">(</span><span class="mi">30</span><span class="p">,</span><span class="n">kernel</span><span class="p">))</span>    
+<span class="linenos" data-linenos="17 "></span>    <span class="n">陣列</span> <span class="o">=</span> <span class="n">模糊</span><span class="p">(</span><span class="n">陣列</span><span class="p">,</span> <span class="n">核心</span><span class="o">=</span><span class="n">kernel</span><span class="p">)</span>  
+<span class="linenos" data-linenos="18 "></span>
+<span class="linenos" data-linenos="19 "></span>    <span class="n">顯示影像</span><span class="p">(</span><span class="n">陣列</span><span class="p">)</span>
+</code></pre></div>
+</div>
+</div>
+</div>
+</details>
+<p><br/>
+<br/></p>
+<hr />
 <p><strong><em> 掌中球 </em></strong></p>
 <hr />
 <dl>
@@ -1596,7 +1650,7 @@
 <p><img alt="alpha_channel_effect" src="alpha_channel_effect.jpg" /></p>
 </dd>
 <dd>
-<p><sup>(資料來源:</sup><sup id="fnref:alpha_channel"><a class="footnote-ref" href="#fn:alpha_channel">4</a></sup><sup>)</sup></p>
+<p><sup>(資料來源:</sup><sup id="fnref:alpha_channel"><a class="footnote-ref" href="#fn:alpha_channel">5</a></sup><sup>)</sup></p>
 </dd>
 <dt><br/></dt>
 <dd>
@@ -1609,8 +1663,8 @@
 </dl>
 <p><br/></p>
 <details class="example" open="open">
-<summary>範例程式 掌中球 - - - - - - - (圖片互動 1/2 新檔)</summary>
-<div class="tabbed-set tabbed-alternate" data-tabs="6:1"><input checked="checked" id="__tabbed_6_1" name="__tabbed_6" type="radio" /><div class="tabbed-labels"><label for="__tabbed_6_1">💻程式碼</label></div>
+<summary>範例程式 掌中球 - - - - - - - (圖像互動 2/2 新檔)</summary>
+<div class="tabbed-set tabbed-alternate" data-tabs="7:1"><input checked="checked" id="__tabbed_7_1" name="__tabbed_7" type="radio" /><div class="tabbed-labels"><label for="__tabbed_7_1">💻程式碼</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <div class="highlight"><pre><span></span><code><span class="linenos" data-linenos=" 1 "></span><span class="c1"># 需匯入basketball.png(視覺便利貼:png-&gt;匯入)</span>
@@ -1642,54 +1696,6 @@
 <span class="linenos" data-linenos="27 "></span>        <span class="n">貼上png</span><span class="p">(</span><span class="n">陣列</span><span class="p">,</span><span class="n">轉換png陣列</span><span class="p">)</span>
 <span class="linenos" data-linenos="28 "></span>
 <span class="linenos" data-linenos="29 "></span>    <span class="n">顯示影像</span><span class="p">(</span><span class="n">陣列</span><span class="p">)</span>  
-</code></pre></div>
-</div>
-</div>
-</div>
-</details>
-<p><br/>
-<br/></p>
-<hr />
-<p><strong><em> 手中拍 </em></strong></p>
-<hr />
-<p><br/></p>
-<p>試試羽球拍的圖片</p>
-<p><br/></p>
-<details class="example" open="open">
-<summary>範例程式 手中拍 - - - - - - - (圖片互動 2/2 接續)</summary>
-<div class="tabbed-set tabbed-alternate" data-tabs="7:1"><input checked="checked" id="__tabbed_7_1" name="__tabbed_7" type="radio" /><div class="tabbed-labels"><label for="__tabbed_7_1">💻程式碼</label></div>
-<div class="tabbed-content">
-<div class="tabbed-block">
-<div class="highlight"><pre><span></span><code><span class="linenos" data-linenos=" 1 "></span><span class="c1"># 需匯入racket.png(視覺便利貼:png-&gt;匯入)</span>
-<span class="linenos" data-linenos=" 2 "></span>
-<span class="linenos" data-linenos=" 3 "></span><span class="kn">from</span> <span class="nn">視覺模組</span> <span class="kn">import</span> <span class="o">*</span>
-<span class="linenos" data-linenos=" 4 "></span>
-<span class="linenos" data-linenos=" 5 "></span><span class="n">攝影機</span> <span class="o">=</span> <span class="n">設置影像擷取</span><span class="p">(</span><span class="n">後端</span><span class="o">=</span><span class="s1">&#39;DSHOW&#39;</span><span class="p">)</span>
-<span class="linenos" data-linenos=" 6 "></span><span class="n">偵測器</span> <span class="o">=</span> <span class="n">設置HandAndGesture</span><span class="p">()</span>
-<span class="linenos" data-linenos=" 7 "></span><span class="n">png陣列</span> <span class="o">=</span> <span class="n">讀取png影像</span><span class="p">(</span><span class="s1">&#39;racket.png&#39;</span><span class="p">)</span>
-<span class="linenos" data-linenos=" 8 "></span>
-<span class="linenos" data-linenos=" 9 "></span><span class="k">while</span> <span class="kc">True</span> <span class="p">:</span>
-<span class="linenos" data-linenos="10 "></span>    <span class="n">陣列</span> <span class="o">=</span> <span class="n">擷取影像</span><span class="p">(</span><span class="n">攝影機</span><span class="p">)</span>
-<span class="linenos" data-linenos="11 "></span>    <span class="n">陣列</span> <span class="o">=</span> <span class="n">左右翻轉</span><span class="p">(</span><span class="n">陣列</span><span class="p">)</span>
-<span class="linenos" data-linenos="12 "></span>    <span class="n">結果</span> <span class="o">=</span> <span class="n">偵測器</span><span class="o">.</span><span class="n">process</span><span class="p">(</span><span class="n">陣列</span><span class="p">)</span>
-<span class="linenos" data-linenos="13 "></span>    <span class="k">if</span> <span class="n">結果</span><span class="p">:</span>
-<span class="linenos" data-linenos="14 "></span>        <span class="n">手清單</span> <span class="o">=</span> <span class="n">取出Hand清單</span><span class="p">(</span><span class="n">結果</span><span class="p">)</span>
-<span class="linenos" data-linenos="15 "></span>        <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">手清單</span><span class="p">)</span> <span class="o">==</span> <span class="mi">2</span><span class="p">:</span>
-<span class="linenos" data-linenos="16 "></span>            <span class="n">手指1</span> <span class="o">=</span> <span class="n">手清單</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">特徵點</span><span class="p">(</span><span class="n">索引</span><span class="o">=</span><span class="mi">5</span><span class="p">)</span>
-<span class="linenos" data-linenos="17 "></span>            <span class="n">手指2</span> <span class="o">=</span> <span class="n">手清單</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">特徵點</span><span class="p">(</span><span class="n">索引</span><span class="o">=</span><span class="mi">5</span><span class="p">)</span>
-<span class="linenos" data-linenos="18 "></span>            <span class="n">球拍1</span> <span class="o">=</span> <span class="p">(</span><span class="mi">100</span><span class="p">,</span><span class="mi">100</span><span class="p">)</span>
-<span class="linenos" data-linenos="19 "></span>            <span class="n">球拍2</span> <span class="o">=</span> <span class="p">(</span><span class="mi">490</span><span class="p">,</span><span class="mi">490</span><span class="p">)</span>
-<span class="linenos" data-linenos="20 "></span>
-<span class="linenos" data-linenos="21 "></span>            <span class="n">轉換png陣列</span> <span class="o">=</span> <span class="n">兩點transform</span><span class="p">(</span>
-<span class="linenos" data-linenos="22 "></span>                <span class="n">來源影像</span><span class="o">=</span><span class="n">png陣列</span><span class="p">,</span>
-<span class="linenos" data-linenos="23 "></span>                <span class="n">來源pt1</span><span class="o">=</span><span class="n">球拍1</span><span class="p">,</span>
-<span class="linenos" data-linenos="24 "></span>                <span class="n">來源pt2</span><span class="o">=</span><span class="n">球拍2</span><span class="p">,</span>
-<span class="linenos" data-linenos="25 "></span>                <span class="n">目標影像</span><span class="o">=</span><span class="n">陣列</span><span class="p">,</span>
-<span class="linenos" data-linenos="26 "></span>                <span class="n">目標pt1</span><span class="o">=</span><span class="n">手指1</span><span class="p">,</span>
-<span class="linenos" data-linenos="27 "></span>                <span class="n">目標pt2</span><span class="o">=</span><span class="n">手指2</span><span class="p">)</span>
-<span class="linenos" data-linenos="28 "></span>            <span class="n">貼上png</span><span class="p">(</span><span class="n">陣列</span><span class="p">,</span><span class="n">轉換png陣列</span><span class="p">)</span>
-<span class="linenos" data-linenos="29 "></span>
-<span class="linenos" data-linenos="30 "></span>    <span class="n">顯示影像</span><span class="p">(</span><span class="n">陣列</span><span class="p">)</span>
 </code></pre></div>
 </div>
 </div>
@@ -1792,7 +1798,7 @@
 <p><iframe width="560" height="315" src="https://www.youtube.com/embed/4-lmRwhr-1E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 </dd>
 <dd>
-<p><sup>(1分11秒, 資料來源:</sup><sup id="fnref:virturl_screen"><a class="footnote-ref" href="#fn:virturl_screen">5</a></sup><sup>)</sup></p>
+<p><sup>(1分11秒, 資料來源:</sup><sup id="fnref:virturl_screen"><a class="footnote-ref" href="#fn:virturl_screen">6</a></sup><sup>)</sup></p>
 </dd>
 </dl>
 <p><br/>
@@ -1973,11 +1979,14 @@
 <li id="fn:leap_motion">
 <p>Leap Motion With Windows, by Leap Motion  , <a href="https://youtu.be/21LtA5-wiwU">youtube連結</a>&#160;<a class="footnote-backref" href="#fnref:leap_motion" title="Jump back to footnote 3 in the text">&#8617;</a></p>
 </li>
+<li id="fn:average_blur_kernel">
+<p>Computer Vision for Beginners: Part 2, <a href="https://towardsdatascience.com/computer-vision-for-beginners-part-2-29b3f9151874">https://towardsdatascience.com/computer-vision-for-beginners-part-2-29b3f9151874</a>&#160;<a class="footnote-backref" href="#fnref:average_blur_kernel" title="Jump back to footnote 4 in the text">&#8617;</a></p>
+</li>
 <li id="fn:alpha_channel">
-<p>Export with ALPHA Channel to make your video Transparent - Premiere Pro, by storysium, https://youtu.be/s3r5Ezzv3Rs&#160;<a class="footnote-backref" href="#fnref:alpha_channel" title="Jump back to footnote 4 in the text">&#8617;</a></p>
+<p>Export with ALPHA Channel to make your video Transparent - Premiere Pro, by storysium, https://youtu.be/s3r5Ezzv3Rs&#160;<a class="footnote-backref" href="#fnref:alpha_channel" title="Jump back to footnote 5 in the text">&#8617;</a></p>
 </li>
 <li id="fn:virturl_screen">
-<p>「關鍵報告」虛擬螢幕 GOOGLE手勢傳感勾雛型, by 東森新聞 CH51  , <a href="https://youtu.be/4-lmRwhr-1E">youtube連結</a>&#160;<a class="footnote-backref" href="#fnref:virturl_screen" title="Jump back to footnote 5 in the text">&#8617;</a></p>
+<p>「關鍵報告」虛擬螢幕 GOOGLE手勢傳感勾雛型, by 東森新聞 CH51  , <a href="https://youtu.be/4-lmRwhr-1E">youtube連結</a>&#160;<a class="footnote-backref" href="#fnref:virturl_screen" title="Jump back to footnote 6 in the text">&#8617;</a></p>
 </li>
 </ol>
 </div>
