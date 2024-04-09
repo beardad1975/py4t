@@ -20,7 +20,7 @@ copy thonny_python.ini %BUILDDIR%
 %BUILDDIR%\python -s -m pip install --no-cache-dir --no-binary mypy -r ..\requirements-regular-bundle.txt
 
 @echo ............... INSTALLING THONNY ...................................
-%BUILDDIR%\python -s -m pip install --no-warn-script-location --pre --no-cache-dir thonny
+%BUILDDIR%\python -s -m pip install --no-warn-script-location --pre --no-cache-dir thonny==4.1.3
 
 @rem %BUILDDIR%\python -s -m pip install --pre --no-cache-dir thonny-postit==0.0.6
 @echo ............... installing py4t DEPS ...................................
@@ -83,16 +83,16 @@ copy user_dir_template\configuration.ini %BUILDDIR%\Lib\site-packages\thonny\use
 
 @echo ............... CREATING INSTALLER ..........................
 set /p VERSION=<PY4T_VERSION
-@rem "C:\Program Files (x86)\Inno Setup 6\iscc" /dInstallerPrefix=thonnyPy4t /dAppVer=%VERSION% /dSourceFolder=build inno_setup.iss > installer_building.log
+"C:\Program Files (x86)\Inno Setup 6\iscc" /dInstallerPrefix=thonnyPy4t /dAppVer=%VERSION% /dSourceFolder=build inno_setup.iss > installer_building.log
 
 
-@echo ............... CREATING ZIP ..........................
-SET PATH=%PATH%;C:\Program Files\7-Zip
-copy ..\portable_thonny.ini %BUILDDIR%
-cd %BUILDDIR%
-7z a -tzip ..\dist\thonny-%VERSION%-windows-portable.zip *
-del portable_thonny.ini
-cd ..
+@rem echo ............... CREATING ZIP ..........................
+@rem SET PATH=%PATH%;C:\Program Files\7-Zip
+@rem copy ..\portable_thonny.ini %BUILDDIR%
+@rem cd %BUILDDIR%
+@rem 7z a -tzip ..\dist\thonny-%VERSION%-windows-portable.zip *
+@rem del portable_thonny.ini
+@rem cd ..
 
 
 

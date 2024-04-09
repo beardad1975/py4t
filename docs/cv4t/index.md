@@ -44,6 +44,7 @@ hide:
 | [濾鏡貼紙(多種切換)](filter_sticker_switch.md)          | [![濾鏡貼紙(多種切換)](filter_sticker_switch.jpg){width=150}](filter_sticker_switch.md)           |
 | [AR面具](ar_mask.md)          | [![AR面具](ar_mask.jpg){width=150}](ar_mask.md)           |
 | [AR面具(多種切換)](ar_mask_switch.md)          | [![AR面具(多種切換)](ar_mask_switch.jpg){width=150}](ar_mask_switch.md)           |
+| [數位花繩](digital_rope.md)          | [![數位花繩](digital_rope.jpg){width=150}](digital_rope.md)           |
 
 ---------------
 

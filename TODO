@@ -1,11 +1,36 @@
 
+########### v1.2 to do list ###########
+[編輯器] 更新thonny至4.1.3版
+[便利貼] microbit便利貼改為英文寫法
+[便利貼] microbit便利貼調整共用模組與函式置頂
+[便利貼] microbit便利貼內容微調
+
 ########### v1.1 to do list ###########
-update mediapipe to 0.10.2 --- done
-cv4t imread chinese path
-cv4t camera choose 
-file-import  location too long , display problem
-hand detection
-gesture recognition
-pose detestion (old version)
+[視覺模組] mediapipe更新至0.10.3
+[視覺模組] 支援中文圖檔讀取 (使用PIL再轉換)
+[視覺模組] 收錄手勢辨識模型檔
+[視覺模組] 整合手與手勢偵測
+[視覺模組] 整合姿勢偵測
+[視覺模組] 新增攝影機id參數(可選不同編號的攝影機)
+[3D模組] ursina更新至5.3.0，並修正與threed4t不相容之處
+[便利貼] 新增手與手勢、姿勢偵測相關便利貼
+[便利貼] 範例圖檔新增球類運動
+[便利貼] 修正匯入範例圖檔，目的路徑過長問題
+[編輯器] 更新thonny至4.1.1版
+[編輯器] 程式自動補完清單變預設值(方便英文程式輸入)
+
+[pip]update mediapipe to 0.10.3 --- done
+[cv4t] imread chinese path (use pil ) --- done
+[cv4t] camera choose --- done
+[cv4t] add folder 'model_needed'  and model file -- done
+[postit] asset copy btn destination too long --- done
+[cv4t] hand detection -- done
+[cv4t] gesture recognition --done
+[cv4t] pose detection (old version) -- done
+[thonny] show keyword complete menu default value --- done
+[thonny] update to 4.1.1 --done 
+[threed4t] update ursina to 5.3.0, panda3d-gltf-1.0.0 --done
+[asset]add sport pics in cv asset
+
 
 #################################

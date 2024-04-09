@@ -1,5 +1,6 @@
 -- removed - ofriendly_traceback
 ComplexHTTPServer
+keyboardlayout
 -- pypi has new version - PyAudio
 -- pypi has new version - SpeechRecognition
 

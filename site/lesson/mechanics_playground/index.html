@@ -1125,7 +1125,7 @@
   
     <li class="md-nav__item">
       <a href="../../community/society/" class="md-nav__link">
-        👨‍👩‍👧‍👦 fb社團
+        👨‍👩‍👧‍👦 fb社團與Py4t練功坊
       </a>
     </li>
   
@@ -1224,13 +1224,6 @@
       
         <li class="md-nav__item">
   <a href="#2" class="md-nav__link">
-    📗 噴射拋體(2)
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#2_1" class="md-nav__link">
     📗 重力控制(2)
   </a>
   
@@ -1698,57 +1691,74 @@
 </dl>
 </details>
 <p><br/><br/><br/> </p>
-<hr />
-<h2 id="2">📗 噴射拋體(2)</h2>
-<hr />
-<dl>
-<dt>推鉛球，是一個常見的運動會比賽項目。</dt>
-<dd>
-<p><iframe width="560" height="315" src="https://www.youtube.com/embed/EkiaYNEAagA?start=0&amp;end=118" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
-</dd>
-<dd>
-<p><sup>(1分58秒, 資料來源:</sup><sup id="fnref:shot_put"><a class="footnote-ref" href="#fn:shot_put">8</a></sup><sup>)</sup></p>
-</dd>
-</dl>
-<p>鉛球丟出後，就是一個在空中的拋物體。</p>
-<p><br/><br/><br/> </p>
-<hr />
-<p><strong><em>拋體運動</em></strong></p>
-<hr />
-<dl>
-<dt>鉛球被推出時，在空中的軌跡是什麼樣的線條？</dt>
-<dd>
-<p><iframe width="560" height="315" src="https://www.youtube.com/embed/bhavS93SEaM?start=32&amp;end=97" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
-</dd>
-<dd>
-<p><sup>(1分05秒, 資料來源:</sup><sup id="fnref:projectile_motion"><a class="footnote-ref" href="#fn:projectile_motion">9</a></sup><sup>)</sup></p>
-</dd>
-</dl>
-<p><br/><br/></p>
-<p>如果想用程式來模擬拋體，要先決定發射位置與速度。</p>
-<dl>
-<dt>將圓球發射位置定在視窗左下角，用滑鼠的座標位置當作速度的大小，操作起來較為直覺，如下圖：</dt>
-<dd>
-<p><img alt="滑鼠速度向量" src="mouse_vector_from_origin.png" /> </p>
-</dd>
-</dl>
-<p><br/><br/></p>
-<p>一起來動手寫寫看。</p>
-<p><br/></p>
-<details class="example" open="open">
-<summary>範例程式 拋體運動 - - - - - - - (噴射拋體1/2 新檔)</summary>
-<div class="tabbed-set tabbed-alternate" data-tabs="8:2"><input checked="checked" id="__tabbed_8_1" name="__tabbed_8" type="radio" /><input id="__tabbed_8_2" name="__tabbed_8" type="radio" /><div class="tabbed-labels"><label for="__tabbed_8_1">🎦操作影片</label><label for="__tabbed_8_2">💻程式碼</label></div>
-<div class="tabbed-content">
-<div class="tabbed-block">
-<p><iframe width="560" height="315" src="https://www.youtube.com/embed/UgJ6ed8H03Q?start=2&amp;end=192" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
-<p>【長度3:10 章節時間如下】</p>
-<ul>
-<li>0:00 存檔、匯入模組</li>
-<li>0:31 拋體運動</li>
-</ul>
-</div>
-<div class="tabbed-block">
-<div class="highlight"><pre><span></span><code><span class="linenos" data-linenos="1 "></span><span class="kn">from</span> <span class="nn">物理模組</span> <span class="kn">import</span> <span class="o">*</span>
+<!--
+
+----------------------------
+
+##  📗 噴射拋體(2)
+
+----------------------------
+
+推鉛球，是一個常見的運動會比賽項目。
+
+: <iframe width="560" height="315" src="https://www.youtube.com/embed/EkiaYNEAagA?start=0&amp;end=118" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+: <sup>(1分58秒, 資料來源:</sup>[^shot_put]<sup>)</sup>
+
+[^shot_put]: 超越人類極限【金牌鉛球國手】巨人手掌宛如人體砲臺發射器, By 健人蓋伊, [youtube連結](https://www.youtube.com/watch?v=EkiaYNEAagA)
+
+鉛球丟出後，就是一個在空中的拋物體。
+
+<br/><br/><br/> 
+
+
+
+
+----------------------------
+
+***拋體運動***
+
+----------------------------
+
+鉛球被推出時，在空中的軌跡是什麼樣的線條？
+
+: <iframe width="560" height="315" src="https://www.youtube.com/embed/bhavS93SEaM?start=32&amp;end=97" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+: <sup>(1分05秒, 資料來源:</sup>[^projectile_motion]<sup>)</sup>
+
+[^projectile_motion]: 吉娃斯科學小教室｜#37 : 拋體運動｜動能、重力、運動半徑｜兒童科普動畫, By 
+EngineTV 原金動畫, [youtube連結](https://www.youtube.com/watch?v=bhavS93SEaM&t=32s)
+
+<br/><br/>
+
+如果想用程式來模擬拋體，要先決定發射位置與速度。
+
+將圓球發射位置定在視窗左下角，用滑鼠的座標位置當作速度的大小，操作起來較為直覺，如下圖：
+
+
+: ![滑鼠速度向量](mouse_vector_from_origin.png) 
+
+<br/><br/>
+
+一起來動手寫寫看。
+
+<br/>
+
+???+ example "範例程式 拋體運動 - - - - - - - (噴射拋體1/2 新檔)"
+
+
+    === "🎦操作影片"
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/UgJ6ed8H03Q?start=2&amp;end=192" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        【長度3:10 章節時間如下】
+
+        * 0:00 存檔、匯入模組
+        * 0:31 拋體運動
+
+    === "💻程式碼"
+
+        <div class="highlight"><pre><span></span><code><span class="linenos" data-linenos="1 "></span><span class="kn">from</span> <span class="nn">物理模組</span> <span class="kn">import</span> <span class="o">*</span>
 <span class="linenos" data-linenos="2 "></span><span class="n">舞台</span> <span class="o">=</span> <span class="n">物理引擎</span><span class="p">(</span><span class="mi">800</span><span class="p">,</span><span class="mi">800</span><span class="p">)</span>
 <span class="linenos" data-linenos="3 "></span>
 <span class="linenos" data-linenos="4 "></span><span class="k">def</span> <span class="nf">按下滑鼠時</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">):</span>
@@ -1758,55 +1768,63 @@
 <span class="linenos" data-linenos="8 "></span>
 <span class="linenos" data-linenos="9 "></span><span class="n">模擬主迴圈</span><span class="p">()</span>
 </code></pre></div>
-</div>
-</div>
-</div>
-</details>
-<details class="info">
-<summary>補充資料</summary>
-<dl>
-<dd><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></span> <a href="https://zh.wikipedia.org/wiki/%E6%8B%8B%E9%AB%94" target="_blank">維基百科: 拋體</a></dd>
-<dd><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></span> <a href="https://www.zetria.org/view.php?subj=physics&chap=lfym2aorgz" target="_blank">學呀: 拋物線運動</a></dd>
-</dl>
-</details>
-<p><br/><br/><br/></p>
-<hr />
-<p><strong><em>連續噴射</em></strong></p>
-<hr />
-<dl>
-<dt>完成了基本的拋體運動程式，接下來可以做出什麼變化呢？</dt>
-<dd>
-<p><iframe width="560" height="315" src="https://www.youtube.com/embed/HGBoMrsC0iE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
-</dd>
-<dd>
-<p><sup>(9秒, 資料來源:</sup><sup id="fnref:sprinkler"><a class="footnote-ref" href="#fn:sprinkler">10</a></sup><sup>)</sup></p>
-</dd>
-</dl>
-<p><br/><br/></p>
-<p>讓我們把多顆小圓球當成拋體，做出噴水的簡單模擬。</p>
-<p>這次將發射位置定在視窗中間底部，當發射位置改變時，要如何用滑鼠來呈現速度？為了達到直覺的操作，需做以下的修正：</p>
-<dl>
-<dt><br/></dt>
-<dd>
-<p><img alt="滑鼠速度向量2" src="mouse_vector_from_middle_bottom.png" /> </p>
-</dd>
-</dl>
-<p><br/><br/></p>
-<p>一起來動手寫寫看。</p>
-<p><br/></p>
-<details class="example" open="open">
-<summary>範例程式 連續噴射 - - - - - - - (噴射拋體2/2 接續)</summary>
-<div class="tabbed-set tabbed-alternate" data-tabs="9:2"><input checked="checked" id="__tabbed_9_1" name="__tabbed_9" type="radio" /><input id="__tabbed_9_2" name="__tabbed_9" type="radio" /><div class="tabbed-labels"><label for="__tabbed_9_1">🎦操作影片</label><label for="__tabbed_9_2">💻程式碼</label></div>
-<div class="tabbed-content">
-<div class="tabbed-block">
-<p><iframe width="560" height="315" src="https://www.youtube.com/embed/UgJ6ed8H03Q?start=193&amp;end=383" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
-<p>【長度3:10 章節時間如下】</p>
-<ul>
-<li>3:13 連續噴射</li>
-</ul>
-</div>
-<div class="tabbed-block">
-<div class="highlight"><pre><span></span><code><span class="linenos" data-linenos="1 "></span><span class="kn">from</span> <span class="nn">物理模組</span> <span class="kn">import</span> <span class="o">*</span>
+
+
+??? info "補充資料" 
+
+    : :fontawesome-solid-link: <a href="https://zh.wikipedia.org/wiki/%E6%8B%8B%E9%AB%94" target="_blank">維基百科: 拋體</a>
+
+    : :fontawesome-solid-link: <a href="https://www.zetria.org/view.php?subj=physics&chap=lfym2aorgz" target="_blank">學呀: 拋物線運動</a>
+
+
+<br/><br/><br/>
+
+
+----------------------------
+
+***連續噴射***
+
+----------------------------
+
+完成了基本的拋體運動程式，接下來可以做出什麼變化呢？
+
+: <iframe width="560" height="315" src="https://www.youtube.com/embed/HGBoMrsC0iE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+: <sup>(9秒, 資料來源:</sup>[^sprinkler]<sup>)</sup>
+
+[^sprinkler]: 太陽能系統-自動灑水器-噴水頭, By CHIJIJOHNNY, [youtube連結](https://www.youtube.com/watch?v=HGBoMrsC0iE)
+
+<br/><br/>
+
+
+讓我們把多顆小圓球當成拋體，做出噴水的簡單模擬。
+
+這次將發射位置定在視窗中間底部，當發射位置改變時，要如何用滑鼠來呈現速度？為了達到直覺的操作，需做以下的修正：
+
+<br/>
+
+: ![滑鼠速度向量2](mouse_vector_from_middle_bottom.png) 
+
+<br/><br/>
+
+一起來動手寫寫看。
+
+<br/>
+
+???+ example "範例程式 連續噴射 - - - - - - - (噴射拋體2/2 接續)"
+
+
+    === "🎦操作影片"
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/UgJ6ed8H03Q?start=193&amp;end=383" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        【長度3:10 章節時間如下】
+
+        * 3:13 連續噴射
+
+    === "💻程式碼"
+
+        <div class="highlight"><pre><span></span><code><span class="linenos" data-linenos="1 "></span><span class="kn">from</span> <span class="nn">物理模組</span> <span class="kn">import</span> <span class="o">*</span>
 <span class="linenos" data-linenos="2 "></span><span class="n">舞台</span> <span class="o">=</span> <span class="n">物理引擎</span><span class="p">(</span><span class="mi">800</span><span class="p">,</span><span class="mi">800</span><span class="p">)</span>
 <span class="linenos" data-linenos="3 "></span>
 <span class="linenos" data-linenos="4 "></span><span class="k">def</span> <span class="nf">拖曳滑鼠時</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">dx</span><span class="p">,</span> <span class="n">dy</span><span class="p">):</span>
@@ -1816,13 +1834,17 @@
 <span class="linenos" data-linenos="8 "></span>
 <span class="linenos" data-linenos="9 "></span><span class="n">模擬主迴圈</span><span class="p">()</span>
 </code></pre></div>
-</div>
-</div>
-</div>
-</details>
-<p><br/><br/><br/></p>
+
+
+
+
+<br/><br/><br/>
+
+
+-->
+
 <hr />
-<h2 id="2_1">📗 重力控制(2)</h2>
+<h2 id="2">📗 重力控制(2)</h2>
 <hr />
 <dl>
 <dt>重力是什麼？如果失去了重力會如何？</dt>
@@ -1830,7 +1852,7 @@
 <p><iframe width="560" height="315" src="https://www.youtube.com/embed/oyXkJ3OYxfQ?start=32&amp;end=190" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 </dd>
 <dd>
-<p><sup>(2分38秒, 資料來源:</sup><sup id="fnref:no_gravity"><a class="footnote-ref" href="#fn:no_gravity">11</a></sup><sup>)</sup></p>
+<p><sup>(2分38秒, 資料來源:</sup><sup id="fnref:no_gravity"><a class="footnote-ref" href="#fn:no_gravity">8</a></sup><sup>)</sup></p>
 </dd>
 </dl>
 <p>除非到外太空，不然在地球上很難進行重力的實驗。</p>
@@ -1844,7 +1866,7 @@
 <p><iframe width="560" height="315" src="https://www.youtube.com/embed/UVGgrLqsAzw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 </dd>
 <dd>
-<p><sup>(1分00秒, 資料來源:</sup><sup id="fnref:space_pizza"><a class="footnote-ref" href="#fn:space_pizza">12</a></sup><sup>)</sup></p>
+<p><sup>(1分00秒, 資料來源:</sup><sup id="fnref:space_pizza"><a class="footnote-ref" href="#fn:space_pizza">9</a></sup><sup>)</sup></p>
 </dd>
 </dl>
 <p>在太空中的物體若沒有固定好，物體受到一點力量，就會照著慣性的作用，產生漂浮的現象。</p>
@@ -1858,7 +1880,7 @@
 <p><br/></p>
 <details class="example" open="open">
 <summary>範例程式 無重力狀態 - - - - - - - (重力控制1/2 新檔)</summary>
-<div class="tabbed-set tabbed-alternate" data-tabs="10:2"><input checked="checked" id="__tabbed_10_1" name="__tabbed_10" type="radio" /><input id="__tabbed_10_2" name="__tabbed_10" type="radio" /><div class="tabbed-labels"><label for="__tabbed_10_1">🎦操作影片</label><label for="__tabbed_10_2">💻程式碼</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="8:2"><input checked="checked" id="__tabbed_8_1" name="__tabbed_8" type="radio" /><input id="__tabbed_8_2" name="__tabbed_8" type="radio" /><div class="tabbed-labels"><label for="__tabbed_8_1">🎦操作影片</label><label for="__tabbed_8_2">💻程式碼</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <p><iframe width="560" height="315" src="https://www.youtube.com/embed/I_i5OyGIObQ?start=0&amp;end=343" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
@@ -1911,14 +1933,14 @@
 <p><iframe width="560" height="315" src="https://www.youtube.com/embed/ZlPpHILyEl4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 </dd>
 <dd>
-<p><sup>(1分14秒, 資料來源:</sup><sup id="fnref:space_olympics"><a class="footnote-ref" href="#fn:space_olympics">13</a></sup><sup>)</sup></p>
+<p><sup>(1分14秒, 資料來源:</sup><sup id="fnref:space_olympics"><a class="footnote-ref" href="#fn:space_olympics">10</a></sup><sup>)</sup></p>
 </dd>
 </dl>
 <p><br/></p>
 <p>請發揮你的創意，用控制重力的程式做出搬運物體的遊戲。</p>
 <details class="example" open="open">
 <summary>範例程式 重力搬運 - - - - - - - (重力控制2/2 接續)</summary>
-<div class="tabbed-set tabbed-alternate" data-tabs="11:2"><input checked="checked" id="__tabbed_11_1" name="__tabbed_11" type="radio" /><input id="__tabbed_11_2" name="__tabbed_11" type="radio" /><div class="tabbed-labels"><label for="__tabbed_11_1">🎦操作影片</label><label for="__tabbed_11_2">💻程式碼</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="9:2"><input checked="checked" id="__tabbed_9_1" name="__tabbed_9" type="radio" /><input id="__tabbed_9_2" name="__tabbed_9" type="radio" /><div class="tabbed-labels"><label for="__tabbed_9_1">🎦操作影片</label><label for="__tabbed_9_2">💻程式碼</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <p><iframe width="560" height="315" src="https://www.youtube.com/embed/I_i5OyGIObQ?start=347&amp;end=667" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
@@ -1982,7 +2004,7 @@
 <p><iframe width="560" height="315" src="https://www.youtube.com/embed/P7QrXW4ky34" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 </dd>
 <dd>
-<p><sup>(31秒, 資料來源:</sup><sup id="fnref:rope_wave"><a class="footnote-ref" href="#fn:rope_wave">14</a></sup><sup>)</sup></p>
+<p><sup>(31秒, 資料來源:</sup><sup id="fnref:rope_wave"><a class="footnote-ref" href="#fn:rope_wave">11</a></sup><sup>)</sup></p>
 </dd>
 </dl>
 <p>讓我們用多顆球的排列並彈跳，來做出類似繩波的效果。</p>
@@ -2000,7 +2022,7 @@
 <p><br/></p>
 <details class="example" open="open">
 <summary>範例程式 固定球數 - - - - - - - (彈性排列1/3 新檔)</summary>
-<div class="tabbed-set tabbed-alternate" data-tabs="12:2"><input checked="checked" id="__tabbed_12_1" name="__tabbed_12" type="radio" /><input id="__tabbed_12_2" name="__tabbed_12" type="radio" /><div class="tabbed-labels"><label for="__tabbed_12_1">🎦操作影片</label><label for="__tabbed_12_2">💻程式碼</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="10:2"><input checked="checked" id="__tabbed_10_1" name="__tabbed_10" type="radio" /><input id="__tabbed_10_2" name="__tabbed_10" type="radio" /><div class="tabbed-labels"><label for="__tabbed_10_1">🎦操作影片</label><label for="__tabbed_10_2">💻程式碼</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <p><iframe width="560" height="315" src="https://www.youtube.com/embed/U9DAN6NbkbY?start=0&amp;end=240" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
@@ -2052,7 +2074,7 @@
 <p><br/></p>
 <details class="example" open="open">
 <summary>範例程式 變數模式識別 - - - - - - - (彈性排列2/3 接續)</summary>
-<div class="tabbed-set tabbed-alternate" data-tabs="13:2"><input checked="checked" id="__tabbed_13_1" name="__tabbed_13" type="radio" /><input id="__tabbed_13_2" name="__tabbed_13" type="radio" /><div class="tabbed-labels"><label for="__tabbed_13_1">🎦操作影片</label><label for="__tabbed_13_2">💻程式碼</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="11:2"><input checked="checked" id="__tabbed_11_1" name="__tabbed_11" type="radio" /><input id="__tabbed_11_2" name="__tabbed_11" type="radio" /><div class="tabbed-labels"><label for="__tabbed_11_1">🎦操作影片</label><label for="__tabbed_11_2">💻程式碼</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <p><iframe width="560" height="315" src="https://www.youtube.com/embed/U9DAN6NbkbY?start=243&amp;end=406" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
@@ -2093,7 +2115,7 @@
 <p>一起來寫寫看。</p>
 <details class="example" open="open">
 <summary>範例程式 不同波動變化 - - - - - - - (彈性排列3/3 接續)</summary>
-<div class="tabbed-set tabbed-alternate" data-tabs="14:2"><input checked="checked" id="__tabbed_14_1" name="__tabbed_14" type="radio" /><input id="__tabbed_14_2" name="__tabbed_14" type="radio" /><div class="tabbed-labels"><label for="__tabbed_14_1">🎦操作影片</label><label for="__tabbed_14_2">💻程式碼</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="12:2"><input checked="checked" id="__tabbed_12_1" name="__tabbed_12" type="radio" /><input id="__tabbed_12_2" name="__tabbed_12" type="radio" /><div class="tabbed-labels"><label for="__tabbed_12_1">🎦操作影片</label><label for="__tabbed_12_2">💻程式碼</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <p><iframe width="560" height="315" src="https://www.youtube.com/embed/U9DAN6NbkbY?start=408&amp;end=660" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
@@ -2173,28 +2195,18 @@
 <li id="fn:skateboard">
 <p>8歲女孩成功挑戰5公尺極限滑板, By 即新聞, <a href="https://www.youtube.com/watch?v=oPsfwZXCf1s&amp;t=14s">youtube連結</a>&#160;<a class="footnote-backref" href="#fnref:skateboard" title="Jump back to footnote 7 in the text">&#8617;</a></p>
 </li>
-<li id="fn:shot_put">
-<p>超越人類極限【金牌鉛球國手】巨人手掌宛如人體砲臺發射器, By 健人蓋伊, <a href="https://www.youtube.com/watch?v=EkiaYNEAagA">youtube連結</a>&#160;<a class="footnote-backref" href="#fnref:shot_put" title="Jump back to footnote 8 in the text">&#8617;</a></p>
-</li>
-<li id="fn:projectile_motion">
-<p>吉娃斯科學小教室｜#37 : 拋體運動｜動能、重力、運動半徑｜兒童科普動畫, By 
-EngineTV 原金動畫, <a href="https://www.youtube.com/watch?v=bhavS93SEaM&amp;t=32s">youtube連結</a>&#160;<a class="footnote-backref" href="#fnref:projectile_motion" title="Jump back to footnote 9 in the text">&#8617;</a></p>
-</li>
-<li id="fn:sprinkler">
-<p>太陽能系統-自動灑水器-噴水頭, By CHIJIJOHNNY, <a href="https://www.youtube.com/watch?v=HGBoMrsC0iE">youtube連結</a>&#160;<a class="footnote-backref" href="#fnref:sprinkler" title="Jump back to footnote 10 in the text">&#8617;</a></p>
-</li>
 <li id="fn:no_gravity">
-<p>如果我們失去引力五秒？ , By 大膽科學, <a href="https://youtu.be/oyXkJ3OYxfQ">youtube連結</a>&#160;<a class="footnote-backref" href="#fnref:no_gravity" title="Jump back to footnote 11 in the text">&#8617;</a></p>
+<p>如果我們失去引力五秒？ , By 大膽科學, <a href="https://youtu.be/oyXkJ3OYxfQ">youtube連結</a>&#160;<a class="footnote-backref" href="#fnref:no_gravity" title="Jump back to footnote 8 in the text">&#8617;</a></p>
 </li>
 <li id="fn:space_pizza">
-<p>Pizza Night on the Space Station!, By NASA, <a href="https://youtu.be/UVGgrLqsAzw">youtube連結</a>&#160;<a class="footnote-backref" href="#fnref:space_pizza" title="Jump back to footnote 12 in the text">&#8617;</a></p>
+<p>Pizza Night on the Space Station!, By NASA, <a href="https://youtu.be/UVGgrLqsAzw">youtube連結</a>&#160;<a class="footnote-backref" href="#fnref:space_pizza" title="Jump back to footnote 9 in the text">&#8617;</a></p>
 </li>
 <li id="fn:space_olympics">
 <p>Highlights from the first-ever space Olympics!, By 
-NASA, <a href="https://www.youtube.com/watch?v=ZlPpHILyEl4">youtube連結</a>&#160;<a class="footnote-backref" href="#fnref:space_olympics" title="Jump back to footnote 13 in the text">&#8617;</a></p>
+NASA, <a href="https://www.youtube.com/watch?v=ZlPpHILyEl4">youtube連結</a>&#160;<a class="footnote-backref" href="#fnref:space_olympics" title="Jump back to footnote 10 in the text">&#8617;</a></p>
 </li>
 <li id="fn:rope_wave">
-<p>繩波示波器, By 國中理化教學資料庫, <a href="https://www.youtube.com/watch?v=P7QrXW4ky34">youtube連結</a>&#160;<a class="footnote-backref" href="#fnref:rope_wave" title="Jump back to footnote 14 in the text">&#8617;</a></p>
+<p>繩波示波器, By 國中理化教學資料庫, <a href="https://www.youtube.com/watch?v=P7QrXW4ky34">youtube連結</a>&#160;<a class="footnote-backref" href="#fnref:rope_wave" title="Jump back to footnote 11 in the text">&#8617;</a></p>
 </li>
 </ol>
 </div>

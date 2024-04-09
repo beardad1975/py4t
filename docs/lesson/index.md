@@ -15,16 +15,18 @@ hide:
 
 ----------------------------
 
-???+ success  "入門 - 海龜畫國旗 "
+???+ success  "海龜畫國旗 "
     
     ![海龜畫國旗入門](national_flag/digest.jpg)
 
     : 學習海龜程式，畫出與方形、圓形、星形相關的國旗。　 :fontawesome-solid-long-arrow-alt-right: <a href="national_flag/" target="_blank">「海龜畫國旗」</a>
 
-??? abstract  "專題 - 中華民國國旗 "    
+???+ abstract  "專題 - 中華民國國旗 "    
     :  ![中華民國國旗](project_roc_flag/digest.jpg)
 
-    : 利用所學的長方形、圓形與星形，思考、設計與規劃，用海龜程式實作出我們的國旗。　 :fontawesome-solid-long-arrow-alt-right: <a href="project_roc_flag/" target="_blank">「中華民國國旗」</a>
+    : 利用所學的長方形、圓形與星形，思考、設計與規劃，用海龜程式實作出我們的國旗。　 
+    
+    : :fontawesome-solid-long-arrow-alt-right: <a href="project_roc_flag/" target="_blank">「中華民國國旗」</a>
 
 <br/>
 
@@ -38,14 +40,16 @@ hide:
 
     : :fontawesome-solid-long-arrow-alt-right: <a href="zentangle/" target="_blank">「海龜畫禪繞」</a>
 
-??? abstract  "專題 - 海龜與樹 "    
+???+ abstract  "專題 - 海龜與樹 "    
     ![海龜與樹](project_fractal_tree/digest.jpg)
 
-    : 使用海龜程式，從碎形與遞迴，畫出樹的形狀，搭配剪影風格，產生具有混沌狀態的樹。　 :fontawesome-solid-long-arrow-alt-right: <a href="project_fractal_tree/" target="_blank">「海龜與樹」</a>
+    : 使用海龜程式，從碎形與遞迴，畫出樹的形狀，搭配剪影風格，產生具有混沌狀態的樹。　
+    
+    : :fontawesome-solid-long-arrow-alt-right: <a href="project_fractal_tree/" target="_blank">「海龜與樹」</a>
 
 <br/><br/><br/>
 
-## 🏀 物理模擬(2)
+## 🏀 物理模擬(3)
 
 -----------------------
 
@@ -53,16 +57,30 @@ hide:
     ![力與運動遊樂場](mechanics_playground/digest.jpg)
 
     學習物理程式，做出彈性、斜面、拋體與重力等模擬程式。
-    :fontawesome-solid-long-arrow-alt-right: <a href="mechanics_playground/" target="_blank">「力與運動遊樂場」</a>
 
-??? abstract  "專題 - 物理撞擊實驗室 "    
+    : :fontawesome-solid-long-arrow-alt-right: <a href="mechanics_playground/" target="_blank">「力與運動遊樂場」</a>
+
+???+ abstract  "專題 - 物理撞擊實驗室 "    
     
     ![物理撞擊實驗室](project_collision_lab/digest.jpg)
 
     利用撞擊物與障礙物，進行撞擊的測試，找出影響撞擊的因素。
-    :fontawesome-solid-long-arrow-alt-right: <a href="project_collision_lab/" target="_blank">「物理撞擊實驗室」</a>
+
+    : :fontawesome-solid-long-arrow-alt-right: <a href="project_collision_lab/" target="_blank">「物理撞擊實驗室」</a>
+
+???+ success  "以Scratch及Python趣玩物理彈跳碰撞"
+    
+    ![以Scratch及Python趣玩物理彈跳碰撞](scratch_to_python_physics_simulation/digest.jpg)
+
+    以Scratch實作砲彈運動，探索pymunk物理引擎，認識Py4t物理模組的由來，最後實作噴射拋體與理想氣體碰撞。
+
+    : :fontawesome-solid-long-arrow-alt-right: <a href="scratch_to_python_physics_simulation/" target="_blank">「以Scratch及Python趣玩物理彈跳碰撞」</a>
 
 <br/><br/><br/>
+
+
+
+
 
 ##
 
@@ -74,15 +92,16 @@ hide:
     ![3D空間大探索](explore3d/digest.jpg)
     
     學習3D程式，做出地球模型、彩色漸層、全景水晶球與魔術方塊。
-    :fontawesome-solid-long-arrow-alt-right: <a href="explore3d/" target="_blank">「探索3D空間」</a>
 
-??? abstract  "專題 - DNA與遺傳編碼 "    
+    : :fontawesome-solid-long-arrow-alt-right: <a href="explore3d/" target="_blank">「探索3D空間」</a>
+
+???+ abstract  "專題 - DNA與遺傳編碼 "    
     
     ![DNA與遺傳編碼](project_dna_genetic_code/digest.jpg)
 
     認識DNA的基本知識，實作出雙螺旋模型，並加上遺傳訊息的編碼，完成人類X染色體的片段模型。
 
-    :fontawesome-solid-long-arrow-alt-right: <a href="project_dna_genetic_code/" target="_blank">「DNA與遺傳編碼」</a>
+    : :fontawesome-solid-long-arrow-alt-right: <a href="project_dna_genetic_code/" target="_blank">「DNA與遺傳編碼」</a>
 
 
 <br/><br/><br/>
@@ -98,14 +117,14 @@ hide:
 
     認識numpy多維陣列，以1、2、3維陣列處理聲音及影像數位訊號。
 
-    :fontawesome-solid-long-arrow-alt-right: <a href="array_and_digital_signal/" target="_blank">「陣列與影音數位化」</a>
+    : :fontawesome-solid-long-arrow-alt-right: <a href="array_and_digital_signal/" target="_blank">「陣列與影音數位化」</a>
 
 
 
 <br/><br/><br/>
 
 
-## ✴️ 機器學習及應用(1)
+## ✴️ 機器學習及應用(3)
 
 -----------------------
 
@@ -115,8 +134,20 @@ hide:
 
     以攝影機程式及人臉偵測器來找出臉部特徵，做為簡易應用。
 
-    :fontawesome-solid-long-arrow-alt-right: <a href="face_detection_and_landmarks/" target="_blank">「人臉偵測與臉部特徵」</a>
+    : :fontawesome-solid-long-arrow-alt-right: <a href="face_detection_and_landmarks/" target="_blank">「人臉偵測與臉部特徵」</a>
 
+???+ success  "手部偵測與體感互動"
+
+    ![手部偵測與體感互動](hand_detection_motion_control/digest.jpg)
+
+    : :fontawesome-solid-long-arrow-alt-right: <a href="hand_detection_motion_control/" target="_blank">「手部偵測與體感互動」</a>
+
+
+???+ abstract  "專題閱讀 - 姿勢偵測與簡易Vtuber "    
+    
+    ![姿勢偵測與簡易Vtuber](project_pose_detection_vtuber/digest.jpg)
+    
+    : :fontawesome-solid-long-arrow-alt-right: <a href="project_pose_detection_vtuber/" target="_blank">「姿勢偵測與簡易Vtuber」</a>
 
 
 <br/><br/><br/>
@@ -134,7 +165,7 @@ hide:
 
     學習Python基本語法，銜接高中資訊科技課程。
 
-    :fontawesome-solid-long-arrow-alt-right: <a href="textbook_hanlin9_example/" target="_blank">「Python程式設計-計算篇 (9上翰林版2-2)」</a>
+    : :fontawesome-solid-long-arrow-alt-right: <a href="textbook_hanlin9_example/" target="_blank">「Python程式設計-計算篇 (9上翰林版2-2)」</a>
 
 
 
