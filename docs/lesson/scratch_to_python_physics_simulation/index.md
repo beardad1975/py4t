@@ -5,7 +5,7 @@ hide:
 
 # 📚 以Scratch及Python趣玩物理彈跳碰撞   
 
-: 試試看以下的物理模擬功能
+: PhET是一個科學的互動式模擬教材網站，試試看以下的拋體運動模擬：
 
 : :fontawesome-solid-long-arrow-alt-right: <a href="https://phet.colorado.edu/zh_TW/simulations/projectile-motion" target="_blank">「Projectile Motion_拋射運動」</a>
  
@@ -15,7 +15,7 @@ hide:
 
 [^phet_projectile_motion]: PhET, Projectile Motion_拋射運動, [連結](https://phet.colorado.edu/zh_TW/simulations/projectile-motion) 
 
-: 以Scratch來做出砲彈模擬吧！
+: 這樣的程式是如何寫出來的。由於Scratch有著非常優秀的遊戲與動畫開發介面，試試看用Scratch來做出砲彈模擬吧！
 
 <br/><br/>
 
@@ -122,7 +122,15 @@ hide:
 
 ----------------------------
 
-: 2D衝量物理引擎展示(原作者以C++實作)
+令人驚豔的Scratch 2D衝量物理引擎，這是如何做出來的呢？ 
+
+: :fontawesome-solid-long-arrow-alt-right: <a href="https://scratch.mit.edu/projects/133931204/" target="_blank">「Scratch: Impulse 2D Physics Engine 1.3.0 衝力2D物理引擎中文版」 by beardad1975 , 原作者griffpatch</a>
+
+: <a href="https://scratch.mit.edu/projects/133931204/" target="_blank"><img src="scratch_impulse_engine.jpg" /></a>
+
+<br/>
+
+2D衝量物理引擎，使用與憤怒鳥遊戲相同的原理，以下為展示影片(原作者以C++實作)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/AzA_owsZU04?start=0&amp;end=30" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -143,6 +151,7 @@ hide:
 
 <br/>
 
+pymunk物理引擎並沒有繪圖功能, 可以先以print印出物體的位置。
 
 ???+ example "範例程式 pymunk模擬物體運動"
 
@@ -178,6 +187,8 @@ hide:
 
 <br/>
 <br/>
+
+利用matplotlib來畫出物體移動的座標軌跡。
 
 ???+ example "範例程式 pymunk模擬matplotlib標示"
 
@@ -230,7 +241,7 @@ hide:
     python -m pymunk.examples -l                           
     ```
 
-: 想想看，使用物理引擎的優缺點是什麼？
+: 想想看，使用物理引擎的優點是什麼？有什麼門檻嗎？
 
 : Py4t的物理模組封裝了pymunk，當初的目的是讓青少年能簡易使用(物理模組<a href="https://github.com/beardad1975/pie4t/tree/master" target="_blank">原始碼</a>) 
 
@@ -379,6 +390,19 @@ EngineTV 原金動畫, [youtube連結](https://www.youtube.com/watch?v=bhavS93SE
 [^phet_gas_properties]: PhET, Gas Properties_氣體特性, [連結](https://phet.colorado.edu/zh_TW/simulations/gas-properties) 
 
 <br>
+
+??? info "Scratch氣體彈性碰撞模擬" 
+
+    : :fontawesome-solid-long-arrow-alt-right: <a href="https://scratch.mit.edu/projects/129753669/" target="_blank">「Scratch: 彈性碰撞(數量多)」 by beardad1975 </a>
+ 
+    : <a href="https://scratch.mit.edu/projects/129753669/" target="_blank"><img src="elastic_collision_multi.jpg" /></a>
+    
+    <br/>
+
+    : :fontawesome-solid-long-arrow-alt-right: <a href="https://scratch.mit.edu/projects/129748531/" target="_blank">「Scratch: 彈性碰撞(數量2)」 by beardad1975</a>
+ 
+    : <a href="https://scratch.mit.edu/projects/129748531/" target="_blank"><img src="elastic_collision_two.jpg" /></a>
+
 <br>
 
 : 先將情況簡化，看看下面兩個物體的碰撞。
@@ -483,18 +507,9 @@ EngineTV 原金動畫, [youtube連結](https://www.youtube.com/watch?v=bhavS93SE
         
         ```
 
-??? info "Scratch彈性碰撞" 
-    : :fontawesome-solid-long-arrow-alt-right: <a href="https://scratch.mit.edu/projects/129748531/" target="_blank">「Scratch: 彈性碰撞(數量2)」 by beardad1975</a>
- 
-    : <a href="https://scratch.mit.edu/projects/129748531/" target="_blank"><img src="elastic_collision_two.jpg" /></a>
 
-    <br/>
-
-    : :fontawesome-solid-long-arrow-alt-right: <a href="https://scratch.mit.edu/projects/129753669/" target="_blank">「Scratch: 彈性碰撞(數量多)」 by beardad1975 </a>
- 
-    : <a href="https://scratch.mit.edu/projects/129753669/" target="_blank"><img src="elastic_collision_multi.jpg" /></a>
     
-??? info "Scratch撞球遊戲" 
+??? info "補充: Scratch撞球遊戲" 
     : :fontawesome-solid-long-arrow-alt-right: <a href="https://scratch.mit.edu/projects/10079318/" target="_blank">「Scratch: eRK's Billiard (offline multiplayer)」 by eRKSToCK</a>
 
     : <a href="https://scratch.mit.edu/projects/10079318/" target="_blank"><img src="scratch_billiard.jpg" /></a>
@@ -509,10 +524,7 @@ EngineTV 原金動畫, [youtube連結](https://www.youtube.com/watch?v=bhavS93SE
 
 : 筆者曾在Scratch的網站中，找到國外作者griffpatch所寫的「2D衝量物理引擎」，花費許多時間理解原理後，將之中文化，並改版為「懷舊彈珠台」(2016.12)
 
-??? info "Scratch 2D衝量物理引擎" 
-    : :fontawesome-solid-long-arrow-alt-right: <a href="https://scratch.mit.edu/projects/133931204/" target="_blank">「Scratch: Impulse 2D Physics Engine 1.3.0 衝力2D物理引擎中文版」 by beardad1975 , 原作者griffpatch</a>
 
-    : <a href="https://scratch.mit.edu/projects/133931204/" target="_blank"><img src="scratch_impulse_engine.jpg" /></a>
 
 ??? info "Scratch 懷舊彈珠台" 
     : :fontawesome-solid-long-arrow-alt-right: <a href="https://scratch.mit.edu/projects/134193915/" target="_blank">「Scratch: OldTimesPinball懷舊彈珠台」 by beardad1975</a>

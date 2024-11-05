@@ -124,9 +124,17 @@ hide:
 <br/><br/><br/>
 
 
-## ✴️ 機器學習及應用(3)
+## ✴️ 機器學習及AI應用(4)
 
 -----------------------
+
+???+ success  "AI當助教・一起來教青少年學Python"
+    
+    <!-- ![人臉偵測與臉部特徵](face_detection_and_landmarks/digest.jpg) -->
+
+    在AI助理的協助下，一起體驗什麼是AI輔助程式設計。
+
+    : :fontawesome-solid-long-arrow-alt-right: <a href="ai_coding_assist/" target="_blank">「AI當助教・一起來教青少年學Python」</a>
 
 ???+ success  "人臉偵測與臉部特徵"
     

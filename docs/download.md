@@ -8,9 +8,9 @@ hide:
 
 ---------------
 
-Py4t最新版 v1.2安裝檔  [🔽下載連結](https://github.com/beardad1975/py4t/releases/download/v1.2/thonnyPy4t-1.2.exe) (大小:238 MB)　　
+Py4t最新版 v1.3安裝檔  [🔽下載連結](https://github.com/beardad1975/py4t/releases/download/v1.3/thonnyPy4t-1.3.exe) (大小:245 MB)　　
 
-> - 於2023-11-02封裝
+> - 於2024-11-04封裝
 
 > - 安裝環境需為win10以上
 
